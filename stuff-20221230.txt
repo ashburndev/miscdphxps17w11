@@ -1,0 +1,417 @@
+7:18 AM 12/30/2022
+
+Microsoft Windows [Version 10.0.22000.1098]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://github.com/ashburndev/miscdphxps17w11
+https://github.com/ashburndev/miscdphxps17w11.git
+gh repo clone ashburndev/miscdphxps17w11
+
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example
+    Open PowerShell
+    Run the ssh-keygen command to create SSH keys
+    Copy the value of the SSH public key
+    Save the public key in your GitHub account settings
+    Perform a Git clone operation using your repo’s SSH URL
+
+PS C:\github\ssh\example> ssh-keygen -o -t rsa -C "windows-ssh@mcnz.com"
+
+ssh-keygen -o -t rsa -C "ashburndev@gmail.com"
+git clone git@github.com:cameronmcnz/java-jakarta-ee.git
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\DavidHolberton> ssh-keygen -o -t rsa -C "ashburndev@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\DavidHolberton/.ssh/id_rsa):
+Created directory 'C:\Users\DavidHolberton/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\DavidHolberton/.ssh/id_rsa.
+Your public key has been saved in C:\Users\DavidHolberton/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:o99VMWY4e+NOMwaKIFO+ylGHYgEtvemhVGrne/yz8y0 ashburndev@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|  .o             |
+|  ..+        .   |
+|   +.o.     o =  |
+|  + =+ .     = o |
+| o ==.= S   o +  |
+|  ..o= = o . = . |
+|    .oo . . . *  |
+|   ..oo.o.Eo + o |
+|    o. .+=o.. .  |
++----[SHA256]-----+
+PS C:\Users\DavidHolberton>
+
+C:\Users\DavidHolberton>dir /o:gd .ssh
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.ssh
+
+12/30/2022  08:04 AM    <DIR>          ..
+12/30/2022  08:04 AM    <DIR>          .
+12/30/2022  08:04 AM               575 id_rsa.pub
+12/30/2022  08:04 AM             2,610 id_rsa
+               2 File(s)          3,185 bytes
+               2 Dir(s)  518,932,258,816 bytes free
+
+add public key to github (ashburndev) with title ssh-key-dphxps17w11ad
+
+https://github.com/ashburndev/miscdphxps17w11.git
+git@github.com:ashburndev/miscdphxps17w11.git
+gh repo clone ashburndev/miscdphxps17w11
+
+git clone git@github.com:ashburndev/miscdphxps17w11.git
+
+C:\Users\DavidHolberton>mkdir repos
+C:\Users\DavidHolberton>cd repos
+C:\Users\DavidHolberton\repos>git clone git@github.com:ashburndev/miscdphxps17w11.git
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+C:\Users\DavidHolberton\repos>
+
+https://git-scm.com/downloads
+Download for Windows
+
+Click here to download the latest (2.39.0) 64-bit version of Git for Windows. This is the most recent maintained build. It was released 9 days ago, on 2022-12-21. 
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd Git*.*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+12/30/2022  08:22 AM        52,999,992 Git-2.39.0.2-64-bit.exe
+               1 File(s)     52,999,992 bytes
+               0 Dir(s)  518,848,348,160 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+file:///C:/Program%20Files/Git/ReleaseNotes.html
+
+Microsoft Windows [Version 10.0.22000.1098]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>git --version
+git version 2.39.0.windows.2
+
+C:\Users\DavidHolberton>cd repos
+
+C:\Users\DavidHolberton\repos>git clone git@github.com:ashburndev/miscdphxps17w11.git
+Cloning into 'miscdphxps17w11'...
+The authenticity of host 'github.com (140.82.114.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\DavidHolberton\repos>
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+MyUrls
+
+https://bgr.com/tech/apples-m2-max-macbook-pro-release-delay-finally-makes-sense/ 20221227.201634 
+
+https://www.infoq.com/news/2022/12/java-news-roundup-dec19-2022/ 20221227.201901 
+
+https://www.xda-developers.com/anker-577-thunderbolt-dock-deal/ 20221227.202032 
+
+https://theaviationgeekclub.com/us-naval-aviator-explains-why-even-though-the-a-4-was-agile-enough-to-serve-as-adversary-aircraft-with-the-us-navy-the-skyhawk-was-not-a-great-fighter/ 20221227.202908 
+
+https://www.engadget.com/uplift-standing-desk-irl-163028001.html 20221227.203419 
+
+https://www.engadget.com/uplift-standing-desk-irl-163028001.html 20221227.203524 
+
+https://eurasiantimes.com/shooting-down-a-dozen-b-52-bombers-meet-the-russian-missile/ 20221227.203737 
+
+https://www.cnbc.com/2022/12/27/what-secure-2point0-means-for-near-retirees.html 20221227.204721 
+
+https://www.howtogeek.com/839593/pitfalls-when-buying-an-hdmi-to-displayport-adapter/ 20221227.205546 
+
+https://www.howtogeek.com/839593/pitfalls-when-buying-an-hdmi-to-displayport-adapter/ 20221227.205704 
+
+https://www.engadget.com/report-iris-scanners-sold-on-e-bay-contained-sensitive-biometric-data-102418292.html 20221227.210233 
+
+https://spring.io/blog/2022/12/27/this-week-in-spring-happy-new-year-2023-edition-december-27th-2022 20221227.210729 
+
+https://spring.io/blog/2022/12/27/this-week-in-spring-happy-new-year-2023-edition-december-27th-2022 20221227.210858 
+
+https://news.itsfoss.com/upcoming-code-editors/ 20221227.211120 
+
+https://m.youtube.com/watch?v=Pr25XxVstDo 20221227.211256 
+
+https://www.sitepoint.com/best-python-ide-and-code-editors/ 20221227.211407 
+
+https://www.sitepoint.com/best-python-ide-and-code-editors/ 20221227.211431 
+
+https://www.sitepoint.com/best-python-ide-and-code-editors/ 20221228.023131 
+
+https://www.sitepoint.com/best-python-ide-and-code-editors/ 20221228.025341 
+
+https://www.c4isrnet.com/battlefield-tech/it-networks/2022/12/27/pentagon-intelligence-community-eye-cloud-collaboration/ 20221228.030056 
+
+https://www.c4isrnet.com/battlefield-tech/it-networks/2022/12/27/pentagon-intelligence-community-eye-cloud-collaboration/ 20221228.030352 
+
+https://9to5linux.com/unity-7-7-desktop-environment-promises-redesigned-dash-and-panel-widgets 20221228.030809 
+
+https://9to5linux.com/unity-7-7-desktop-environment-promises-redesigned-dash-and-panel-widgets 20221228.031414 
+
+https://www.tomsguide.com/features/i-wore-an-oura-ring-for-an-entire-year-what-i-like-and-dont-like 20221228.031446 
+
+https://www.foxnews.com/opinion/what-biden-woke-military-wrought 20221228.060232 
+
+https://www.macobserver.com/tips/how-to/macbook-not-recognizing-usb-hub/ 20221228.060411 
+
+https://www.macobserver.com/tips/how-to/macbook-not-recognizing-usb-hub/ 20221228.060651 
+
+https://www.motorbiscuit.com/2-best-small-suv-tall-drivers-same-manufacturer/ 20221228.060904 
+
+https://www.newsweek.com/christmas-dna-kit-genealogy-family-crisis-adopted-cheating-1767442 20221228.062238 
+
+https://www.newsweek.com/christmas-dna-kit-genealogy-family-crisis-adopted-cheating-1767442 20221228.062314 
+
+https://www.cnet.com/tech/gaming/how-apple-arcade-has-grown-quietly-in-the-shadow-of-nintendo-xbox-and-playstation/ 20221228.063534 
+
+https://tech4gamers.com/playstation-3-games-rpcs3/ 20221228.064203 
+
+https://tech4gamers.com/playstation-3-games-rpcs3/ 20221228.064607 
+
+https://www.inverse.com/science/tom-cruise-oblivion-nuclear-fusion 20221228.065117 
+
+https://www.inverse.com/science/tom-cruise-oblivion-nuclear-fusion 20221228.065127 
+
+https://www.notebookcheck.net/Raspberry-Pi-CEO-outlines-very-ginger-approach-to-introducing-Rasberry-Pi-5-Model-B.676264.0.html 20221228.065646 
+
+https://9to5linux.com/gnome-43-2-officially-released-brings-improvements-to-screencast-ui-bluetooth-and-more 20221228.065941 
+
+https://9to5linux.com/gnome-43-2-officially-released-brings-improvements-to-screencast-ui-bluetooth-and-more 20221228.070318 
+
+https://www.raspberrypi-spy.co.uk/2022/12/how-to-add-a-raspberry-pi-pico-reset-button/ 20221228.070519 
+
+https://www.raspberrypi-spy.co.uk/2022/12/how-to-add-a-raspberry-pi-pico-reset-button/ 20221228.070616 
+
+https://laptopjudge.com/4k-monitor-text-too-small-mac 20221228.072333 
+
+https://www.livemint.com/science/health/as-omicron-bf-7-surges-here-are-the-top-covid-symptoms-to-watch-out-for-11672046682327.html 20221228.072747 
+
+https://www.amazon.com/Amazon-featuring-Mandalorian-Grogu-TM-inspired/dp/B08NVVRCTM 20221228.073050 
+
+https://m.youtube.com/watch?v=cNOHiUJauwc 20221228.073815 
+
+https://m.youtube.com/watch?v=cNOHiUJauwc 20221228.073838 
+
+https://screenrant.com/quantum-leap-sam-no-return-home-explained/ 20221228.074147 
+
+https://www.moneycontrol.com/news/world/us-intelligence-finds-whiff-of-chinas-biological-weapons-ambition-in-origin-of-covid-9775311.html 20221228.074631 
+
+https://www.tomshardware.com/how-to/monitor-temperature-raspberry-pi-pico 20221228.075408 
+
+https://www.tomshardware.com/how-to/raspberry-pi-pico-setup 20221228.075550 
+
+https://www.torquenews.com/1084/top-11-cars-winter-2023-subaru-s-3-snow-loving-models-aren-t-best 20221228.075715 
+
+https://www.torquenews.com/1084/top-11-cars-winter-2023-subaru-s-3-snow-loving-models-aren-t-best 20221228.080102 
+
+https://www.macrumors.com/2022/12/20/apple-self-service-repair-mac-desktops/ 20221228.080605 
+
+https://www.syfy.com/syfy-wire/6-quantum-leap-questions-midseason-premiere 20221228.080753 
+
+https://www.express.co.uk/life-style/garden/1713997/how-to-water-orchids-houseplant-gardening-tips 20221228.080844 
+
+https://www.express.co.uk/life-style/garden/1713997/how-to-water-orchids-houseplant-gardening-tips 20221228.081156 
+
+https://thehill.com/homenews/state-watch/3789623-noem-gets-a-flamethrower-for-christmas/ 20221228.081256 
+
+https://www.giantfreakinrobot.com/cltr/alexandra-daddario-pose-skimpy-bikini.html 20221228.081739 
+
+https://spectrum.ieee.org/log4shell-log4j-still-stings 20221229.040717 
+
+https://spectrum.ieee.org/log4shell-log4j-still-stings 20221229.041343 
+
+https://www.laptopmag.com/best-picks/laptop-of-the-year-2022 20221229.043640 
+
+https://blog.1password.com/not-in-a-million-years/ 20221229.044559 
+
+https://www.aboutchromebooks.com/news/here-are-my-3-favorite-chromebooks-of-2022/ 20221229.044943 
+
+https://www.notebookcheck.net/LapPi-2-0-SB-Components-brings-DIY-laptop-kit-to-Kickstarter-packing-Raspberry-Pi-4-Model-B.675763.0.html 20221229.045342 
+
+https://www.loudounnow.com/school-budget-spend-down-raises-eyebrows-in-loudoun-county-gov-t/article_19dd70b0-861d-11ed-b3a5-432a66060c9e.html 20221229.053308 
+
+https://www.businessinsider.com/japans-underground-parking-for-bikes-2016-4?IR=T 20221229.060023 
+
+https://www.creativebloq.com/buying-guides/best-imac-stands 20221229.063148 
+
+https://www.amazon.com/s?tag=georiot-us-default-20&k=Grovemade%20Desk%20Shelf&ascsubtag=cbq-us-8629512982463597000-20&geniuslink=true 20221229.063806 
+
+https://www.loudounnow.com/news/featherbed-lane-reopens-after-bridge-replacement/article_1f1e6a2e-8619-11ed-a36c-f3898cd48261.html 20221230.052212 
+
+https://www.baeldung.com/jpa-mapping-single-entity-to-multiple-tables 20221230.054223 
+
+https://www.baeldung.com/spring-jpa-joining-tables 20221230.054243 
+
+https://stackoverflow.com/questions/54507552/how-to-join-results-of-multiple-tables-in-spring-jpa-repository 20221230.055340 
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections 20221230.055357 
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections 20221230.055503 
+
+https://en.wikibooks.org/wiki/Java_Persistence/JPQL 20221230.062257 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\DavidHolberton>dir /o:gd Downloads
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+12/26/2022  03:14 PM    <DIR>          ..
+12/26/2022  03:19 PM    <DIR>          ebooks
+12/30/2022  07:25 AM    <DIR>          .
+05/11/2022  01:27 PM         1,414,600 ChromeSetup.exe
+05/11/2022  01:38 PM           336,336 Firefox Installer.exe
+05/11/2022  02:01 PM       113,653,600 1PasswordSetup-latest.exe
+05/11/2022  03:01 PM       731,359,272 ideaIU-2022.1.1.exe
+05/11/2022  03:01 PM                86 ideaIU-2022.1.1.exe.sha256
+05/11/2022  03:01 PM     1,010,655,457 ideaIU-2022.1.1.win.zip
+05/11/2022  03:02 PM                90 ideaIU-2022.1.1.win.zip.sha256
+05/11/2022  03:03 PM       621,048,696 ideaIC-2022.1.1.exe
+05/11/2022  03:03 PM                86 ideaIC-2022.1.1.exe.sha256
+05/11/2022  03:04 PM       848,498,945 ideaIC-2022.1.1.win.zip
+05/11/2022  03:04 PM                90 ideaIC-2022.1.1.win.zip.sha256
+05/11/2022  03:07 PM        79,521,248 VSCodeUserSetup-x64-1.67.1.exe
+05/11/2022  03:07 PM        79,521,024 VSCodeSetup-x64-1.67.1.exe
+05/11/2022  03:08 PM       109,164,813 VSCode-win32-x64-1.67.1.zip
+05/11/2022  03:10 PM       538,960,719 eclipse-jee-2022-03-R-win32-x86_64.zip
+05/11/2022  03:13 PM               170 eclipse-jee-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  03:14 PM       322,677,235 eclipse-java-2022-03-R-win32-x86_64.zip
+05/11/2022  03:17 PM               171 eclipse-java-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  03:32 PM       181,189,155 jdk-18.0.1.1_windows-x64_bin.zip
+05/11/2022  03:32 PM                64 jdk-18.0.1.1_windows-x64_bin.zip.sha256
+05/11/2022  03:32 PM       160,827,664 jdk-18.0.1.1_windows-x64_bin.exe
+05/11/2022  03:33 PM                64 jdk-18.0.1.1_windows-x64_bin.exe.sha256
+05/11/2022  03:33 PM       159,657,984 jdk-18.0.1.1_windows-x64_bin.msi
+05/11/2022  03:33 PM                64 jdk-18.0.1.1_windows-x64_bin.msi.sha256
+05/11/2022  03:37 PM       179,958,887 jdk-17.0.3.1_windows-x64_bin.zip
+05/11/2022  03:48 PM                64 jdk-17.0.3.1_windows-x64_bin.zip.sha256
+05/11/2022  03:49 PM       160,061,712 jdk-17.0.3.1_windows-x64_bin.exe
+05/11/2022  03:51 PM                64 jdk-17.0.3.1_windows-x64_bin.exe.sha256
+05/11/2022  03:56 PM       158,892,032 jdk-17.0.3.1_windows-x64_bin.msi
+05/11/2022  03:56 PM                64 jdk-17.0.3.1_windows-x64_bin.msi.sha256
+05/11/2022  03:59 PM       147,226,896 jdk-11.0.15.1_windows-x64_bin.exe
+05/11/2022  04:00 PM       165,784,406 jdk-11.0.15.1_windows-x64_bin.zip
+05/11/2022  04:00 PM             7,396 jdk-11-0-15-1-checksum.html
+05/11/2022  04:03 PM       166,945,536 jdk-8u333-windows-i586.exe
+05/11/2022  04:03 PM       181,048,576 jdk-8u333-windows-x64.exe
+05/11/2022  04:04 PM            11,299 jdk-8u333checksum.html
+05/11/2022  04:05 PM         2,251,520 jre-8u333-windows-i586-iftw.exe
+05/11/2022  04:05 PM        75,902,720 jre-8u333-windows-i586.exe
+05/11/2022  04:05 PM        74,256,834 jre-8u333-windows-i586.tar.gz
+05/11/2022  04:06 PM        87,061,248 jre-8u333-windows-x64.exe
+05/11/2022  04:06 PM        80,575,913 jre-8u333-windows-x64.tar.gz
+05/11/2022  04:06 PM        55,916,740 jdk-8u333-windows-i586-demos.zip
+05/11/2022  04:06 PM        55,937,583 jdk-8u333-windows-x64-demos.zip
+05/11/2022  04:12 PM       125,169,043 jdk-8u333-docs-all.zip
+05/11/2022  04:12 PM        10,473,619 javafx-8u331-apidocs.zip
+05/11/2022  04:13 PM        53,807,711 jdk-11.0.15.1_doc-all.zip
+05/11/2022  04:17 PM        51,329,631 jdk-17.0.3.1_doc-all.zip
+05/11/2022  04:17 PM        52,230,737 jdk-18.0.1.1_doc-all.zip
+05/11/2022  05:16 PM         1,533,613 7z2107-x64.exe
+10/16/2022  10:03 AM       737,543,104 ideaIU-2022.2.3.exe
+10/16/2022  10:03 AM                86 ideaIU-2022.2.3.exe.sha256
+10/16/2022  10:04 AM     1,022,713,061 ideaIU-2022.2.3.win.zip
+10/16/2022  10:04 AM                90 ideaIU-2022.2.3.win.zip.sha256
+10/16/2022  10:04 AM       628,520,112 ideaIC-2022.2.3.exe
+10/16/2022  10:05 AM                86 ideaIC-2022.2.3.exe.sha256
+10/16/2022  10:05 AM       860,274,108 ideaIC-2022.2.3.win.zip
+10/16/2022  10:05 AM                90 ideaIC-2022.2.3.win.zip.sha256
+10/16/2022  10:11 AM       493,217,728 pycharm-professional-2022.2.3.exe
+10/16/2022  10:11 AM               100 pycharm-professional-2022.2.3.exe.sha256
+10/16/2022  10:11 AM       396,601,896 pycharm-community-2022.2.3.exe
+10/16/2022  10:11 AM                97 pycharm-community-2022.2.3.exe.sha256
+10/16/2022  10:18 AM       427,383,512 RubyMine-2022.2.3.exe
+10/16/2022  10:18 AM                88 RubyMine-2022.2.3.exe.sha256
+10/16/2022  10:19 AM       601,326,226 RubyMine-2022.2.3.win.zip
+10/16/2022  10:19 AM                92 RubyMine-2022.2.3.win.zip.sha256
+10/16/2022  10:23 AM        86,038,200 VSCodeUserSetup-x64-1.72.2.exe
+10/16/2022  10:23 AM        86,038,208 VSCodeSetup-x64-1.72.2.exe
+10/16/2022  10:24 AM       120,083,536 VSCode-win32-x64-1.72.2.zip
+10/16/2022  10:25 AM       119,478,024 eclipse-inst-jre-win64.exe
+10/16/2022  10:27 AM               158 eclipse-inst-jre-win64.exe.sha512
+10/16/2022  10:29 AM       526,527,070 eclipse-jee-2022-09-R-win32-x86_64.zip
+10/16/2022  10:30 AM               170 eclipse-jee-2022-09-R-win32-x86_64.zip.sha512
+10/16/2022  10:33 AM       309,865,828 eclipse-java-2022-09-R-win32-x86_64.zip
+10/16/2022  10:34 AM               171 eclipse-java-2022-09-R-win32-x86_64.zip.sha512
+10/16/2022  10:39 AM       600,722,077 spring-tool-suite-4-4.16.0.RELEASE-e4.25.0-win32.win32.x86_64.self-extracting.jar
+10/29/2022  09:55 AM         7,422,744 OfficeSetup.exe
+12/04/2022  01:07 PM       792,833,080 ideaIU-2022.3.exe
+12/04/2022  01:07 PM                84 ideaIU-2022.3.exe.sha256
+12/04/2022  01:08 PM     1,108,431,128 ideaIU-2022.3.win.zip
+12/04/2022  01:09 PM                88 ideaIU-2022.3.win.zip.sha256
+12/04/2022  01:10 PM       683,003,488 ideaIC-2022.3.exe
+12/04/2022  01:10 PM                84 ideaIC-2022.3.exe.sha256
+12/04/2022  01:10 PM       945,935,713 ideaIC-2022.3.win.zip
+12/04/2022  01:11 PM                88 ideaIC-2022.3.win.zip.sha256
+12/04/2022  01:13 PM       504,214,264 pycharm-professional-2022.3.exe
+12/04/2022  01:13 PM                98 pycharm-professional-2022.3.exe.sha256
+12/04/2022  01:14 PM       414,052,512 pycharm-community-2022.3.exe
+12/04/2022  01:14 PM                95 pycharm-community-2022.3.exe.sha256
+12/04/2022  01:17 PM       435,397,480 RubyMine-2022.3.exe
+12/04/2022  01:17 PM                86 RubyMine-2022.3.exe.sha256
+12/04/2022  01:17 PM       612,602,265 RubyMine-2022.3.win.zip
+12/04/2022  01:18 PM                90 RubyMine-2022.3.win.zip.sha256
+12/04/2022  01:19 PM       412,981,160 WebStorm-2022.3.exe
+12/04/2022  01:20 PM                86 WebStorm-2022.3.exe.sha256
+12/04/2022  01:27 PM        92,599,272 VSCodeUserSetup-x64-1.73.1.exe
+12/04/2022  01:27 PM        92,599,072 VSCodeSetup-x64-1.73.1.exe
+12/04/2022  01:31 PM       129,492,436 VSCode-win32-x64-1.73.1.zip
+12/26/2022  03:28 PM       791,547,136 ideaIU-2022.3.1.exe
+12/26/2022  03:28 PM                86 ideaIU-2022.3.1.exe.sha256
+12/26/2022  03:29 PM     1,103,933,865 ideaIU-2022.3.1.win.zip
+12/26/2022  03:29 PM                90 ideaIU-2022.3.1.win.zip.sha256
+12/26/2022  03:30 PM       681,138,616 ideaIC-2022.3.1.exe
+12/26/2022  03:30 PM                86 ideaIC-2022.3.1.exe.sha256
+12/26/2022  03:31 PM       940,422,576 ideaIC-2022.3.1.win.zip
+12/26/2022  03:31 PM                90 ideaIC-2022.3.1.win.zip.sha256
+12/26/2022  03:37 PM       415,229,488 WebStorm-2022.3.1.exe
+12/26/2022  03:37 PM                88 WebStorm-2022.3.1.exe.sha256
+12/26/2022  03:41 PM        93,080,608 VSCodeUserSetup-x64-1.74.2.exe
+12/26/2022  03:41 PM        93,080,592 VSCodeSetup-x64-1.74.2.exe
+12/26/2022  03:41 PM       131,072,105 VSCode-win32-x64-1.74.2.zip
+12/26/2022  03:41 PM         5,106,010 vscode_cli_win32_x64_cli.zip
+12/26/2022  03:45 PM       458,097,493 netbeans-16-bin.zip
+12/26/2022  03:47 PM               152 netbeans-16-bin.zip.sha512
+12/26/2022  03:47 PM               866 netbeans-16-bin.zip.asc
+12/26/2022  03:48 PM       458,271,024 Apache-NetBeans-16-bin-windows-x64.exe
+12/26/2022  03:48 PM               169 Apache-NetBeans-16-bin-windows-x64.exe.sha512
+12/26/2022  03:48 PM               858 Apache-NetBeans-16-bin-windows-x64.exe.asc
+12/30/2022  07:23 AM       513,169,376 pycharm-professional-2022.3.1.exe
+12/30/2022  07:23 AM               100 pycharm-professional-2022.3.1.exe.sha256
+12/30/2022  07:23 AM       422,493,552 pycharm-community-2022.3.1.exe
+12/30/2022  07:23 AM                97 pycharm-community-2022.3.1.exe.sha256
+12/30/2022  07:24 AM       437,510,936 RubyMine-2022.3.1.exe
+12/30/2022  07:25 AM                88 RubyMine-2022.3.1.exe.sha256
+12/30/2022  07:25 AM       433,987,352 datagrip-2022.3.2.exe
+12/30/2022  07:25 AM                88 datagrip-2022.3.2.exe.sha256
+             125 File(s) 27,070,914,395 bytes
+               3 Dir(s)  518,853,836,800 bytes free
+
+C:\Users\DavidHolberton>
+
