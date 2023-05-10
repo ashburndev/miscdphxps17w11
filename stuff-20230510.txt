@@ -1,0 +1,105 @@
+6:47 AM 5/10/2023
+
+Microsoft Windows [Version 10.0.22621.1555]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Version: 1.67.1
+Commit: da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+Date: 2022-05-06T12:37:03.389Z
+Electron: 17.4.1
+Chromium: 98.0.4758.141
+Node.js: 16.13.0
+V8: 9.8.177.13-electron.0
+OS: Windows_NT x64 10.0.22621
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.oracle.com/java/technologies/downloads/
+
+https://www.oracle.com/java/technologies/downloads/#java20
+JDK Development Kit 20.0.1 downloads
+
+https://www.oracle.com/java/technologies/downloads/#java17
+JDK Development Kit 17.0.7 downloads
+
+https://www.oracle.com/java/technologies/downloads/#java11
+Java SE Development Kit 11.0.19
+
+These downloads can be used for development, personal use, or to run Oracle licensed products. Use for other purposes, including production or commercial use, requires a Java SE Universal Subscription or another Oracle license.
+Commercial license and support are available for a low cost with Java SE Universal Subscription.
+JDK 11 software is licensed under the Oracle Technology Network License Agreement for Oracle Java SE.
+
+https://www.oracle.com/java/technologies/downloads/#java8
+Java SE Development Kit 8u371
+
+The Oracle JDK 8 license changed in April 2019
+The Oracle Technology Network License Agreement for Oracle Java SE is substantially different from prior Oracle JDK 8 licenses. This license permits certain uses, such as personal use and development use, at no cost -- but other uses authorized under prior Oracle JDK licenses may no longer be available. Please review the terms carefully before downloading and using this product. FAQs are available here.
+Commercial license and support are available for a low cost with Java SE Universal Subscription.
+JDK 8 software is licensed under the Oracle Technology Network License Agreement for Oracle Java SE.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.oracle.com/en/java/javase/20/
+https://docs.oracle.com/en/java/javase/20/install/overview-jdk-installation.html
+
+05/10/2023  06:58 AM       189,593,592 jdk-20_windows-x64_bin.zip
+05/10/2023  06:58 AM                64 jdk-20_windows-x64_bin.zip.sha256
+05/10/2023  06:58 AM       167,721,624 jdk-20_windows-x64_bin.exe
+05/10/2023  06:59 AM                64 jdk-20_windows-x64_bin.exe.sha256
+05/10/2023  07:01 AM       166,449,152 jdk-20_windows-x64_bin.msi
+05/10/2023  07:01 AM                64 jdk-20_windows-x64_bin.msi.sha256
+05/10/2023  07:05 AM       180,556,094 jdk-17_windows-x64_bin.zip
+05/10/2023  07:05 AM                64 jdk-17_windows-x64_bin.zip.sha256
+05/10/2023  07:05 AM       160,723,096 jdk-17_windows-x64_bin.exe
+05/10/2023  07:06 AM                64 jdk-17_windows-x64_bin.exe.sha256
+05/10/2023  07:07 AM       159,457,280 jdk-17_windows-x64_bin.msi
+05/10/2023  07:07 AM                64 jdk-17_windows-x64_bin.msi.sha256
+05/10/2023  07:09 AM       148,066,968 jdk-11.0.19_windows-x64_bin.exe
+05/10/2023  07:10 AM       166,680,672 jdk-11.0.19_windows-x64_bin.zip
+05/10/2023  07:11 AM             7,493 11-0-19-checksum.html
+05/10/2023  07:13 AM       143,409,800 jdk-8u371-windows-i586.exe
+05/10/2023  07:13 AM            11,838 8u371checksum.html
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/updates/v1_78
+April 2023 (version 1.78)
+Update 1.78.1: The update addresses this security issue.
+
+05/10/2023  07:17 AM        92,709,688 VSCodeUserSetup-x64-1.78.1.exe
+05/10/2023  07:18 AM        92,709,296 VSCodeSetup-x64-1.78.1.exe
+05/10/2023  07:20 AM       129,122,487 VSCode-win32-x64-1.78.1.zip
+
+https://code.visualstudio.com/docs/java/
+https://code.visualstudio.com/docs/java/java-tutorial
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2022-09-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://spring.io/tools
+https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack
+
+05/10/2023  07:53 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+
