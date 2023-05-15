@@ -1,0 +1,200 @@
+7:01 AM 5/15/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04
+https://www.digitalocean.com/community/tutorials?q=%5Bdocker%5D&type=tutorials&hits_per_page=12
+
+https://docs.docker.com/compose/
+https://docs.docker.com/
+https://docs.docker.com/get-started/
+https://docs.docker.com/desktop/install/linux-install/
+https://docs.docker.com/desktop/install/windows-install/
+
+https://docs.docker.com/language/java/
+https://docs.docker.com/language/java/build-images/
+
+  cd /path/to/working/directory
+  git clone https://github.com/spring-projects/spring-petclinic.git
+  cd spring-petclinic
+
+https://docs.docker.com/language/java/run-containers/
+https://docs.docker.com/language/java/develop/
+https://docs.docker.com/language/java/run-tests/
+https://docs.docker.com/language/java/configure-ci-cd/
+https://docs.docker.com/language/java/deploy/
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\DavidHolberton\repos>git clone https://github.com/spring-projects/spring-petclinic.git
+Cloning into 'spring-petclinic'...
+remote: Enumerating objects: 9621, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 9621 (delta 11), reused 25 (delta 5), pack-reused 9579
+Receiving objects: 100% (9621/9621), 7.74 MiB | 41.71 MiB/s, done.
+Resolving deltas: 100% (3644/3644), done.
+
+C:\Users\DavidHolberton\repos>cd spring-petclinic
+
+C:\Users\DavidHolberton\repos\spring-petclinic>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\repos\spring-petclinic
+
+05/15/2023  07:14 AM    <DIR>          ..
+05/15/2023  07:14 AM    <DIR>          .devcontainer
+05/15/2023  07:14 AM    <DIR>          .github
+05/15/2023  07:14 AM    <DIR>          .mvn
+05/15/2023  07:14 AM    <DIR>          src
+05/15/2023  07:14 AM    <DIR>          gradle
+05/15/2023  07:14 AM    <DIR>          .
+05/15/2023  07:14 AM               177 .gitignore
+05/15/2023  07:14 AM               337 .editorconfig
+05/15/2023  07:14 AM                42 .gitattributes
+05/15/2023  07:14 AM               295 .gitpod.yml
+05/15/2023  07:14 AM             1,492 build.gradle
+05/15/2023  07:14 AM                15 .springjavaformatconfig
+05/15/2023  07:14 AM             8,428 gradlew
+05/15/2023  07:14 AM             2,838 gradlew.bat
+05/15/2023  07:14 AM            11,562 LICENSE.txt
+05/15/2023  07:14 AM            10,284 mvnw
+05/15/2023  07:14 AM             6,922 mvnw.cmd
+05/15/2023  07:14 AM            14,590 pom.xml
+05/15/2023  07:14 AM             9,755 readme.md
+05/15/2023  07:14 AM                39 settings.gradle
+05/15/2023  07:14 AM               527 docker-compose.yml
+              15 File(s)         67,303 bytes
+               7 Dir(s)  577,215,332,352 bytes free
+
+C:\Users\DavidHolberton\repos\spring-petclinic>vscode .
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://code.visualstudio.com/docs/editor/profiles
+https://code.visualstudio.com/docs/languages/java
+
+If you have already installed VS Code and want to add Java support to it, we recommend using the Extension Pack for Java, a collection of extensions suggested by Microsoft:
+
+    Language Support for Java™ by Red Hat
+    Debugger for Java
+    Test Runner for Java
+    Maven for Java
+    Project Manager for Java
+    Visual Studio IntelliCode
+
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+Project Manager for Java
+microsoft.com
+19,607,358 installs
+
+https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+
+There are also other popular Java extensions you can pick for your own needs, including:
+
+    Spring Boot Extension Pack
+    Gradle for Java
+    Community Server Connectors (for Apache Felix, Karaf, Tomcat, Jetty, etc.)
+    Server Connector (Red Hat Servers, for example Wildfly)
+    Extension Pack for MicroProfile
+    CheckStyle
+    SonarLint
+
+https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack
+
+https://marketplace.visualstudio.com/items?itemName=vmware.vscode-spring-boot
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+
+https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+
+https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+
+Install a Java Development Kit (JDK)
+
+A Java Development Kit (JDK) is a software development environment used for developing Java applications. In order to run Java within Visual Studio Code, you need to install a JDK. The Extension Pack for Java supports Java version 1.5 or above.
+
+We recommend you to consider installing the JDK from one of these sources:
+
+    Amazon Corretto
+    Azul Zulu
+    Eclipse Adoptium's Temurin
+    IBM Semeru Runtimes
+    Microsoft Build of OpenJDK
+    Oracle Java SE
+    Red Hat build of OpenJDK
+    SapMachine
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+05/10/2023  07:17 AM        92,709,688 VSCodeUserSetup-x64-1.78.1.exe
+05/10/2023  07:18 AM        92,709,296 VSCodeSetup-x64-1.78.1.exe
+05/10/2023  07:20 AM       129,122,487 VSCode-win32-x64-1.78.1.zip
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar05/13/2023  08:32 AM       778,578,512 ideaIU-2023.1.1.exe
+05/13/2023  08:32 AM                86 ideaIU-2023.1.1.exe.txt
+05/13/2023  08:38 AM     1,105,510,053 ideaIU-2023.1.1.win.zip
+05/13/2023  08:39 AM                90 ideaIU-2023.1.1.win.zip.txt
+05/13/2023  08:40 AM       663,963,584 ideaIC-2023.1.1.exe
+05/13/2023  08:41 AM                86 ideaIC-2023.1.1.exe.txt
+05/13/2023  08:42 AM       937,113,057 ideaIC-2023.1.1.win.zip
+05/13/2023  08:43 AM                90 ideaIC-2023.1.1.win.zip.txt
+05/13/2023  09:29 AM        92,718,208 VSCodeUserSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM        92,717,704 VSCodeSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM       129,121,640 VSCode-win32-x64-1.78.2.zip
+05/13/2023  09:43 AM         1,575,742 7z2201-x64.exe
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+             199 File(s) 35,392,553,279 bytes
+               6 Dir(s)  575,713,792,000 bytes free
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+

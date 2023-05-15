@@ -1,0 +1,533 @@
+7:46 AM 5/13/2023
+
+Microsoft Windows [Version 10.0.22621.1555]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+https://magazine.atavist.com/the-titanic-of-the-pacific-valencia-shipwreck-disaster-british-columbia/?utm_source=pocket-newtab
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Device name	dphxps17
+Processor	11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   2.30 GHz
+Installed RAM	32.0 GB (31.7 GB usable)
+Device ID	4C1A418E-7353-426D-90BD-683D7C39E0B7
+Product ID	00355-60662-84407-AAOEM
+System type	64-bit operating system, x64-based processor
+Pen and touch	Touch support with 10 touch points
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Edition	Windows 11 Pro
+Version	22H2
+Installed on	2/19/2023
+OS build	22621.1555
+Experience	Windows Feature Experience Pack 1000.22640.1000.0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+OS Name	Microsoft Windows 11 Pro
+Version	10.0.22621 Build 22621
+Other OS Description 	Not Available
+OS Manufacturer	Microsoft Corporation
+System Name	DPHXPS17
+System Manufacturer	Dell Inc.
+System Model	XPS 17 9710
+System Type	x64-based PC
+System SKU	0A5D
+Processor	11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, 2304 Mhz, 8 Core(s), 16 Logical Processor(s)
+BIOS Version/Date	Dell Inc. 1.19.0, 3/8/2023
+SMBIOS Version	3.2
+Embedded Controller Version	255.255
+BIOS Mode	UEFI
+BaseBoard Manufacturer	Dell Inc.
+BaseBoard Product	0TXN0W
+BaseBoard Version	A01
+Platform Role	Mobile
+Secure Boot State	On
+PCR7 Configuration	Elevation Required to View
+Windows Directory	C:\WINDOWS
+System Directory	C:\WINDOWS\system32
+Boot Device	\Device\HarddiskVolume1
+Locale	United States
+Hardware Abstraction Layer	Version = "10.0.22621.1413"
+User Name	DPHXPS17\DavidHolberton
+Time Zone	Eastern Daylight Time
+Installed Physical Memory (RAM)	32.0 GB
+Total Physical Memory	31.7 GB
+Available Physical Memory	21.0 GB
+Total Virtual Memory	33.7 GB
+Available Virtual Memory	21.9 GB
+Page File Space	2.00 GB
+Page File	C:\pagefile.sys
+Kernel DMA Protection	On
+Virtualization-based security	Running
+Virtualization-based security Required Security Properties	
+Virtualization-based security Available Security Properties	Base Virtualization Support, Secure Boot, DMA Protection, UEFI Code Readonly, SMM Security Mitigations 1.0, Mode Based Execution Control, APIC Virtualization
+Virtualization-based security Services Configured	
+Virtualization-based security Services Running	Credential Guard
+Windows Defender Application Control policy	Enforced
+Windows Defender Application Control user mode policy	Off
+Device Encryption Support	Elevation Required to View
+A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Name	NVIDIA GeForce RTX 3060 Laptop GPU
+PNP Device ID	PCI\VEN_10DE&DEV_2520&SUBSYS_0A5D1028&REV_A1\4&121AAB7&0&0008
+Adapter Type	NVIDIA GeForce RTX 3060 Laptop GPU, NVIDIA compatible
+Adapter Description	NVIDIA GeForce RTX 3060 Laptop GPU
+Adapter RAM	(1,048,576) bytes
+Installed Drivers	C:\WINDOWS\System32\DriverStore\FileRepository\nvdm.inf_amd64_c63abd20250c3bee\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvdm.inf_amd64_c63abd20250c3bee\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvdm.inf_amd64_c63abd20250c3bee\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvdm.inf_amd64_c63abd20250c3bee\nvldumdx.dll
+Driver Version	31.0.15.1700
+INF File	oem87.inf (Section325 section)
+Color Planes	Not Available
+Color Table Entries	Not Available
+Resolution	Not Available
+Bits/Pixel	Not Available
+Memory Address	0xAB000000-0xABFFFFFF
+Memory Address	0x0000-0x1FFFFFF
+IRQ Channel	IRQ 4294967235
+Driver	C:\WINDOWS\SYSTEM32\DRIVERSTORE\FILEREPOSITORY\NVDM.INF_AMD64_C63ABD20250C3BEE\NVLDDMKM.SYS (31.0.15.1700, 41.70 MB (43,725,808 bytes), 11/6/2022 9:33 AM)
+	
+Name	Intel(R) UHD Graphics
+PNP Device ID	PCI\VEN_8086&DEV_9A60&SUBSYS_0A5D1028&REV_01\3&11583659&0&10
+Adapter Type	Intel(R) UHD Graphics Family, Intel Corporation compatible
+Adapter Description	Intel(R) UHD Graphics
+Adapter RAM	1.00 GB (1,073,741,824 bytes)
+Installed Drivers	C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4a0f97d2d59a61ef\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4a0f97d2d59a61ef\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4a0f97d2d59a61ef\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4a0f97d2d59a61ef\igd12umd64.dll
+Driver Version	31.0.101.3616
+INF File	oem169.inf (iTGLD_w10_DS section)
+Color Planes	Not Available
+Color Table Entries	4294967296
+Resolution	3840 x 2400 x 59 hertz
+Bits/Pixel	32
+Memory Address	0x8E000000-0x8EFFFFFF
+Memory Address	0x0000-0xFFFFFFF
+I/O Port	0x00004000-0x0000403F
+IRQ Channel	IRQ 4294967234
+Driver	C:\WINDOWS\SYSTEM32\DRIVERSTORE\FILEREPOSITORY\IIGD_DCH.INF_AMD64_4A0F97D2D59A61EF\IGDKMDN64.SYS (31.0.101.3616, 44.71 MB (46,885,344 bytes), 12/1/2022 6:48 PM)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Description	Disk drive
+Manufacturer	(Standard disk drives)
+Model	NVMe Micron 2300 NVMe 1024GB
+Bytes/Sector	512
+Media Loaded	Yes
+Media Type	Fixed hard disk
+Partitions	6
+SCSI Bus	2
+SCSI Logical Unit	0
+SCSI Port	0
+SCSI Target ID	0
+Sectors/Track	63
+Size	953.86 GB (1,024,203,640,320 bytes)
+Total Cylinders	124,519
+Total Sectors	2,000,397,735
+Total Tracks	31,752,345
+Tracks/Cylinder	255
+Partition	Disk #0, Partition #0
+Partition Size	150.00 MB (157,286,400 bytes)
+Partition Starting Offset	1,048,576 bytes
+Partition	Disk #0, Partition #1
+Partition Size	684.00 GB (734,443,601,920 bytes)
+Partition Starting Offset	292,552,704 bytes
+Partition	Disk #0, Partition #2
+Partition Size	1.03 GB (1,107,296,256 bytes)
+Partition Starting Offset	734,736,154,624 bytes
+Partition	Disk #0, Partition #3
+Partition Size	250.00 GB (268,435,456,000 bytes)
+Partition Starting Offset	735,844,499,456 bytes
+Partition	Disk #0, Partition #4
+Partition Size	16.21 GB (17,405,313,024 bytes)
+Partition Starting Offset	1,005,318,045,696 bytes
+Partition	Disk #0, Partition #5
+Partition Size	1.37 GB (1,469,054,976 bytes)
+Partition Starting Offset	1,022,724,407,296 bytes
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+05/01/2023  04:51 PM             7,173 stuff-20230501.txt
+05/10/2023  07:54 AM             5,352 stuff-20230510.txt
+05/10/2023  07:57 AM            12,511 downloads-20230510.txt
+05/13/2023  07:48 AM               207 stuff-20230513.txt
+              26 File(s)      3,198,304 bytes
+              11 Dir(s)  589,205,139,456 bytes free
+
+C:\Users\DavidHolberton\Documents>
+
+cd C:\Users\DavidHolberton\Documents
+ren downloads-20230510.txt downloads-xps9710w11-20230510.txt
+cd C:\Users\DavidHolberton\repos\miscdphxps17w11
+git mv downloads-20230510.txt downloads-xps9710w11-20230510.txt
+
+C:\Users\DavidHolberton\repos\miscdphxps17w11>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\repos\miscdphxps17w11
+
+12/30/2022  09:36 AM    <DIR>          ..
+05/13/2023  08:04 AM    <DIR>          .
+12/30/2022  09:36 AM                17 README.md
+12/30/2022  09:36 AM            21,482 stuff-20221230.txt
+05/10/2023  07:54 AM             5,352 stuff-20230510.txt
+05/10/2023  07:57 AM            12,511 downloads-xps9710w11-20230510.txt
+               4 File(s)         39,362 bytes
+               2 Dir(s)  588,949,700,608 bytes free
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://superuser.com/questions/1467955/get-the-hash-of-a-string-and-eventually-compare-it-to-a-hash
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/360009707919-How-do-I-verify-the-authenticity-of-the-SHA-256-checksum-file-for-JetBrains-products-on-Linux-
+https://www.jetbrains.com/idea/download/other.html?_gl=1*1omjvc9*_ga*MzM0MjEzMTQ2LjE2NzAxNzY5ODY.*_ga_9J976DJZ68*MTY4Mzk4MTA1Ni4zLjEuMTY4Mzk4MzQzOC4wLjAuMA..
+https://techdocs.akamai.com/download-ctr/docs/verify-checksum
+
+https://www.jetbrains.com/help/idea/discover-intellij-idea.html
+https://www.youtube.com/user/intellijideavideo
+https://www.jetbrains.com/idea/download/?fromIDE=#section=windows
+
+Version: 2023.1.1
+Build: 231.8770.65
+27 April 2023
+
+05/13/2023  08:32 AM       778,578,512 ideaIU-2023.1.1.exe
+05/13/2023  08:32 AM                86 ideaIU-2023.1.1.exe.txt
+05/13/2023  08:38 AM     1,105,510,053 ideaIU-2023.1.1.win.zip
+05/13/2023  08:39 AM                90 ideaIU-2023.1.1.win.zip.txt
+05/13/2023  08:40 AM       663,963,584 ideaIC-2023.1.1.exe
+05/13/2023  08:41 AM                86 ideaIC-2023.1.1.exe.txt
+05/13/2023  08:42 AM       937,113,057 ideaIC-2023.1.1.win.zip
+05/13/2023  08:43 AM                90 ideaIC-2023.1.1.win.zip.txt
+             181 File(s) 33,835,460,180 bytes
+               6 Dir(s)  583,410,024,448 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile ideaIU-2023.1.1.exe SHA256
+SHA256 hash of ideaIU-2023.1.1.exe:
+7e66b357160ed22252320ad828c22b010d2bb45aed780b16bf4e7bcd694051ec
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type ideaIU-2023.1.1.exe.txt
+7e66b357160ed22252320ad828c22b010d2bb45aed780b16bf4e7bcd694051ec *ideaIU-2023.1.1.exe
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile ideaIU-2023.1.1.win.zip SHA256
+SHA256 hash of ideaIU-2023.1.1.win.zip:
+2bd115c7425d128e24a6cdfc9b6f82762d6e1b7d9868d0974faeaa18b54c3de3
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type ideaIU-2023.1.1.win.zip.txt
+2bd115c7425d128e24a6cdfc9b6f82762d6e1b7d9868d0974faeaa18b54c3de3 *ideaIU-2023.1.1.win.zip
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile ideaIC-2023.1.1.exe SHA256
+SHA256 hash of ideaIC-2023.1.1.exe:
+fc4038ca702110842a20bef100fae8be68c246ec405fac1dbb6154455003bce2
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type ideaIC-2023.1.1.exe.txt
+fc4038ca702110842a20bef100fae8be68c246ec405fac1dbb6154455003bce2 *ideaIC-2023.1.1.exe
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile ideaIC-2023.1.1.win.zip SHA256
+SHA256 hash of ideaIC-2023.1.1.win.zip:
+6068a132b5685f35c27d22543909480976d60ab52a777bd4f9a5e297caae1f8d
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type ideaIC-2023.1.1.win.zip.txt
+6068a132b5685f35c27d22543909480976d60ab52a777bd4f9a5e297caae1f8d *ideaIC-2023.1.1.win.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+2bd115c7425d128e24a6cdfc9b6f82762d6e1b7d9868d0974faeaa18b54c3de3
+2bd115c7425d128e24a6cdfc9b6f82762d6e1b7d9868d0974faeaa18b54c3de3 *ideaIU-2023.1.1.win.zip
+6068a132b5685f35c27d22543909480976d60ab52a777bd4f9a5e297caae1f8d
+6068a132b5685f35c27d22543909480976d60ab52a777bd4f9a5e297caae1f8d *ideaIC-2023.1.1.win.zip
+7e66b357160ed22252320ad828c22b010d2bb45aed780b16bf4e7bcd694051ec
+7e66b357160ed22252320ad828c22b010d2bb45aed780b16bf4e7bcd694051ec *ideaIU-2023.1.1.exe
+fc4038ca702110842a20bef100fae8be68c246ec405fac1dbb6154455003bce2
+fc4038ca702110842a20bef100fae8be68c246ec405fac1dbb6154455003bce2 *ideaIC-2023.1.1.exe
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+https://code.visualstudio.com/updates/v1_78
+April 2023 (version 1.78)
+Update 1.78.1: The update addresses this security issue.
+Update 1.78.2: The update addresses these issues.
+
+05/13/2023  09:29 AM        92,718,208 VSCodeUserSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM        92,717,704 VSCodeSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM       129,121,640 VSCode-win32-x64-1.78.2.zip
+
+Version: 1.78.2
+Commit: b3e4e68a0bc097f0ae7907b217c1119af9e03435
+Date: 2023-05-10T14:39:26.248Z
+Electron: 22.5.2
+Chromium: 108.0.5359.215
+Node.js: 16.17.1
+V8: 10.8.168.25-electron.0
+OS: Windows_NT x64 10.0.22621
+Sandboxed: No
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://7-zip.org/download.html
+https://www.7-zip.org/download.html
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i 7z
+05/11/2022  06:16 PM         1,533,613 7z2107-x64.exe
+05/13/2023  09:43 AM         1,575,742 7z2201-x64.exe
+
+C:\Users\DavidHolberton\Downloads>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i eclipse
+05/11/2022  04:10 PM       538,960,719 eclipse-jee-2022-03-R-win32-x86_64.zip
+05/11/2022  04:13 PM               170 eclipse-jee-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  04:14 PM       322,677,235 eclipse-java-2022-03-R-win32-x86_64.zip
+05/11/2022  04:17 PM               171 eclipse-java-2022-03-R-win32-x86_64.zip.sha512
+10/16/2022  11:25 AM       119,478,024 eclipse-inst-jre-win64.exe
+10/16/2022  11:27 AM               158 eclipse-inst-jre-win64.exe.sha512
+10/16/2022  11:29 AM       526,527,070 eclipse-jee-2022-09-R-win32-x86_64.zip
+10/16/2022  11:33 AM       309,865,828 eclipse-java-2022-09-R-win32-x86_64.zip
+10/16/2022  11:34 AM               171 eclipse-java-2022-09-R-win32-x86_64.zip.sha512
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2022-09-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+
+C:\Users\DavidHolberton\Downloads>
+
+type eclipse-jee-2022-09-R-win32-x86_64.zip.sha512
+move eclipse-jee-2022-09-R-win32-x86_64.zip.sha512 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i eclipse
+05/11/2022  04:10 PM       538,960,719 eclipse-jee-2022-03-R-win32-x86_64.zip
+05/11/2022  04:13 PM               170 eclipse-jee-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  04:14 PM       322,677,235 eclipse-java-2022-03-R-win32-x86_64.zip
+05/11/2022  04:17 PM               171 eclipse-java-2022-03-R-win32-x86_64.zip.sha512
+10/16/2022  11:25 AM       119,478,024 eclipse-inst-jre-win64.exe
+10/16/2022  11:27 AM               158 eclipse-inst-jre-win64.exe.sha512
+10/16/2022  11:29 AM       526,527,070 eclipse-jee-2022-09-R-win32-x86_64.zip
+10/16/2022  11:33 AM       309,865,828 eclipse-java-2022-09-R-win32-x86_64.zip
+10/16/2022  11:34 AM               171 eclipse-java-2022-09-R-win32-x86_64.zip.sha512
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2022-09-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>type eclipse-jee-2022-09-R-win32-x86_64.zip.sha512
+5af110a4534ec4dd54219ab99478027c56b6dcb105bb460655f61f0093b02fed4af60c83bb71fb161df7f9133510b38d4c5d121655220592cc51f33f058082d8  eclipse-jee-2023-03-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>move eclipse-jee-2022-09-R-win32-x86_64.zip.sha512 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+        1 file(s) moved.
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i eclipse
+05/11/2022  04:10 PM       538,960,719 eclipse-jee-2022-03-R-win32-x86_64.zip
+05/11/2022  04:13 PM               170 eclipse-jee-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  04:14 PM       322,677,235 eclipse-java-2022-03-R-win32-x86_64.zip
+05/11/2022  04:17 PM               171 eclipse-java-2022-03-R-win32-x86_64.zip.sha512
+10/16/2022  11:25 AM       119,478,024 eclipse-inst-jre-win64.exe
+10/16/2022  11:27 AM               158 eclipse-inst-jre-win64.exe.sha512
+10/16/2022  11:29 AM       526,527,070 eclipse-jee-2022-09-R-win32-x86_64.zip
+10/16/2022  11:33 AM       309,865,828 eclipse-java-2022-09-R-win32-x86_64.zip
+10/16/2022  11:34 AM               171 eclipse-java-2022-09-R-win32-x86_64.zip.sha512
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+
+C:\Users\DavidHolberton\Downloads>
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile eclipse-jee-2023-03-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-jee-2023-03-R-win32-x86_64.zip:
+5af110a4534ec4dd54219ab99478027c56b6dcb105bb460655f61f0093b02fed4af60c83bb71fb161df7f9133510b38d4c5d121655220592cc51f33f058082d8
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+5af110a4534ec4dd54219ab99478027c56b6dcb105bb460655f61f0093b02fed4af60c83bb71fb161df7f9133510b38d4c5d121655220592cc51f33f058082d8  eclipse-jee-2023-03-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile eclipse-java-2023-03-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-java-2023-03-R-win32-x86_64.zip:
+122864a53f992460f05a00d2b1fc9435ae3bc5dc9e4373e4941cf14d2f316c7b0a6332f642cb53584cf86155f1f32ee9ae37873bd8dd69aa1648ee8c000ad338
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+122864a53f992460f05a00d2b1fc9435ae3bc5dc9e4373e4941cf14d2f316c7b0a6332f642cb53584cf86155f1f32ee9ae37873bd8dd69aa1648ee8c000ad338  eclipse-java-2023-03-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+5af110a4534ec4dd54219ab99478027c56b6dcb105bb460655f61f0093b02fed4af60c83bb71fb161df7f9133510b38d4c5d121655220592cc51f33f058082d8
+5af110a4534ec4dd54219ab99478027c56b6dcb105bb460655f61f0093b02fed4af60c83bb71fb161df7f9133510b38d4c5d121655220592cc51f33f058082d8  eclipse-jee-2023-03-R-win32-x86_64.zip
+
+122864a53f992460f05a00d2b1fc9435ae3bc5dc9e4373e4941cf14d2f316c7b0a6332f642cb53584cf86155f1f32ee9ae37873bd8dd69aa1648ee8c000ad338
+122864a53f992460f05a00d2b1fc9435ae3bc5dc9e4373e4941cf14d2f316c7b0a6332f642cb53584cf86155f1f32ee9ae37873bd8dd69aa1648ee8c000ad338  eclipse-java-2023-03-R-win32-x86_64.zip
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i jdk
+05/11/2022  04:32 PM       181,189,155 jdk-18.0.1.1_windows-x64_bin.zip
+05/11/2022  04:32 PM                64 jdk-18.0.1.1_windows-x64_bin.zip.sha256
+05/11/2022  04:32 PM       160,827,664 jdk-18.0.1.1_windows-x64_bin.exe
+05/11/2022  04:33 PM                64 jdk-18.0.1.1_windows-x64_bin.exe.sha256
+05/11/2022  04:33 PM       159,657,984 jdk-18.0.1.1_windows-x64_bin.msi
+05/11/2022  04:33 PM                64 jdk-18.0.1.1_windows-x64_bin.msi.sha256
+05/11/2022  04:37 PM       179,958,887 jdk-17.0.3.1_windows-x64_bin.zip
+05/11/2022  04:48 PM                64 jdk-17.0.3.1_windows-x64_bin.zip.sha256
+05/11/2022  04:49 PM       160,061,712 jdk-17.0.3.1_windows-x64_bin.exe
+05/11/2022  04:51 PM                64 jdk-17.0.3.1_windows-x64_bin.exe.sha256
+05/11/2022  04:56 PM       158,892,032 jdk-17.0.3.1_windows-x64_bin.msi
+05/11/2022  04:56 PM                64 jdk-17.0.3.1_windows-x64_bin.msi.sha256
+05/11/2022  04:59 PM       147,226,896 jdk-11.0.15.1_windows-x64_bin.exe
+05/11/2022  05:00 PM       165,784,406 jdk-11.0.15.1_windows-x64_bin.zip
+05/11/2022  05:00 PM             7,396 jdk-11-0-15-1-checksum.html
+05/11/2022  05:03 PM       166,945,536 jdk-8u333-windows-i586.exe
+05/11/2022  05:03 PM       181,048,576 jdk-8u333-windows-x64.exe
+05/11/2022  05:04 PM            11,299 jdk-8u333checksum.html
+05/11/2022  05:06 PM        55,916,740 jdk-8u333-windows-i586-demos.zip
+05/11/2022  05:06 PM        55,937,583 jdk-8u333-windows-x64-demos.zip
+05/11/2022  05:12 PM       125,169,043 jdk-8u333-docs-all.zip
+05/11/2022  05:13 PM        53,807,711 jdk-11.0.15.1_doc-all.zip
+05/11/2022  05:17 PM        51,329,631 jdk-17.0.3.1_doc-all.zip
+05/11/2022  05:17 PM        52,230,737 jdk-18.0.1.1_doc-all.zip
+05/10/2023  06:58 AM       189,593,592 jdk-20_windows-x64_bin.zip
+05/10/2023  06:58 AM                64 jdk-20_windows-x64_bin.zip.sha256
+05/10/2023  06:58 AM       167,721,624 jdk-20_windows-x64_bin.exe
+05/10/2023  06:59 AM                64 jdk-20_windows-x64_bin.exe.sha256
+05/10/2023  07:01 AM       166,449,152 jdk-20_windows-x64_bin.msi
+05/10/2023  07:01 AM                64 jdk-20_windows-x64_bin.msi.sha256
+05/10/2023  07:05 AM       180,556,094 jdk-17_windows-x64_bin.zip
+05/10/2023  07:05 AM                64 jdk-17_windows-x64_bin.zip.sha256
+05/10/2023  07:05 AM       160,723,096 jdk-17_windows-x64_bin.exe
+05/10/2023  07:06 AM                64 jdk-17_windows-x64_bin.exe.sha256
+05/10/2023  07:07 AM       159,457,280 jdk-17_windows-x64_bin.msi
+05/10/2023  07:07 AM                64 jdk-17_windows-x64_bin.msi.sha256
+05/10/2023  07:09 AM       148,066,968 jdk-11.0.19_windows-x64_bin.exe
+05/10/2023  07:10 AM       166,680,672 jdk-11.0.19_windows-x64_bin.zip
+05/10/2023  07:13 AM       143,409,800 jdk-8u371-windows-i586.exe
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i jdk
+05/11/2022  04:32 PM       181,189,155 jdk-18.0.1.1_windows-x64_bin.zip
+05/11/2022  04:32 PM                64 jdk-18.0.1.1_windows-x64_bin.zip.sha256
+05/11/2022  04:32 PM       160,827,664 jdk-18.0.1.1_windows-x64_bin.exe
+05/11/2022  04:33 PM                64 jdk-18.0.1.1_windows-x64_bin.exe.sha256
+05/11/2022  04:33 PM       159,657,984 jdk-18.0.1.1_windows-x64_bin.msi
+05/11/2022  04:33 PM                64 jdk-18.0.1.1_windows-x64_bin.msi.sha256
+05/11/2022  04:37 PM       179,958,887 jdk-17.0.3.1_windows-x64_bin.zip
+05/11/2022  04:48 PM                64 jdk-17.0.3.1_windows-x64_bin.zip.sha256
+05/11/2022  04:49 PM       160,061,712 jdk-17.0.3.1_windows-x64_bin.exe
+05/11/2022  04:51 PM                64 jdk-17.0.3.1_windows-x64_bin.exe.sha256
+05/11/2022  04:56 PM       158,892,032 jdk-17.0.3.1_windows-x64_bin.msi
+05/11/2022  04:56 PM                64 jdk-17.0.3.1_windows-x64_bin.msi.sha256
+05/11/2022  04:59 PM       147,226,896 jdk-11.0.15.1_windows-x64_bin.exe
+05/11/2022  05:00 PM       165,784,406 jdk-11.0.15.1_windows-x64_bin.zip
+05/11/2022  05:00 PM             7,396 jdk-11-0-15-1-checksum.html
+05/11/2022  05:03 PM       166,945,536 jdk-8u333-windows-i586.exe
+05/11/2022  05:03 PM       181,048,576 jdk-8u333-windows-x64.exe
+05/11/2022  05:04 PM            11,299 jdk-8u333checksum.html
+05/11/2022  05:06 PM        55,916,740 jdk-8u333-windows-i586-demos.zip
+05/11/2022  05:06 PM        55,937,583 jdk-8u333-windows-x64-demos.zip
+05/11/2022  05:12 PM       125,169,043 jdk-8u333-docs-all.zip
+05/11/2022  05:13 PM        53,807,711 jdk-11.0.15.1_doc-all.zip
+05/11/2022  05:17 PM        51,329,631 jdk-17.0.3.1_doc-all.zip
+05/11/2022  05:17 PM        52,230,737 jdk-18.0.1.1_doc-all.zip
+05/10/2023  06:58 AM                64 jdk-20.0.1_windows-x64_bin.zip.sha256
+05/10/2023  06:58 AM       167,721,624 jdk-20.0.1_windows-x64_bin.exe
+05/10/2023  06:59 AM                64 jdk-20.0.1_windows-x64_bin.exe.sha256
+05/10/2023  07:01 AM       166,449,152 jdk-20.0.1_windows-x64_bin.msi
+05/10/2023  07:01 AM                64 jdk-20.0.1_windows-x64_bin.msi.sha256
+05/10/2023  07:05 AM       180,556,094 jdk-17.0.7_windows-x64_bin.zip
+05/10/2023  07:05 AM                64 jdk-17.0.7_windows-x64_bin.zip.sha256
+05/10/2023  07:05 AM       160,723,096 jdk-17.0.7_windows-x64_bin.exe
+05/10/2023  07:06 AM                64 jdk-17.0.7_windows-x64_bin.exe.sha256
+05/10/2023  07:07 AM       159,457,280 jdk-17.0.7_windows-x64_bin.msi
+05/10/2023  07:07 AM                64 jdk-17.0.7_windows-x64_bin.msi.sha256
+05/10/2023  07:09 AM       148,066,968 jdk-11.0.19_windows-x64_bin.exe
+05/10/2023  07:10 AM       166,680,672 jdk-11.0.19_windows-x64_bin.zip
+05/10/2023  07:13 AM       143,409,800 jdk-8u371-windows-i586.exe
+
+C:\Users\DavidHolberton\Downloads>
+
+C:\Users\DavidHolberton>java -version
+java version "17.0.7" 2023-04-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.7+8-LTS-224)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.7+8-LTS-224, mixed mode, sharing)
+
+C:\Users\DavidHolberton>javac -version
+javac 17.0.7
+
+C:\Users\DavidHolberton>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+https://github.com/spring-projects/sts4/wiki
+https://github.com/spring-projects/sts4/wiki/Installation
+https://www.geeksforgeeks.org/how-to-download-and-install-spring-tool-suite-spring-tools-4-for-eclipse-ide/
+
+
+
+%JAVA_HOME%\bin\java -Xms512m -Xmx1024m -jar bin/MyProject.jar
+
+
+C:\LocalApps>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:06 AM    <DIR>          .
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+               1 File(s)    559,436,768 bytes
+               7 Dir(s)  579,025,952,768 bytes free
+
+C:\LocalApps>
+
+%JAVA_HOME%\bin\java -Xms512m -Xmx1024m -jar spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+
+C:\LocalApps>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:50 AM    <DIR>          .
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+               1 File(s)    559,436,768 bytes
+               8 Dir(s)  578,289,319,936 bytes free
+
+C:\LocalApps>
+
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
+
+
