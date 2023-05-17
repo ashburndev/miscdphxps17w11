@@ -1,0 +1,383 @@
+5:53 AM 5/17/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230517.txt
+
+C:\Users\DavidHolberton>
+
+https://getpocket.com/explore/item/essential-knots-how-to-tie-the-20-knots-you-need-to-know?utm_source=pocket-newtab
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://learn.microsoft.com/en-us/windows/wsl/
+https://learn.microsoft.com/en-us/training/modules/wsl/wsl-introduction/
+
+You can now install everything you need to run WSL by entering a single command, wsl --install, in an administrator PowerShell or Windows Command Prompt and then restarting your machine.
+
+wsl --install --distribution <Distribution Name>
+
+To update and upgrade packages for the default Ubuntu distribution using apt:
+
+    Open Ubuntu (you can find it in the Windows search menu once it's been installed).
+    Enter the command: sudo apt update && upgrade
+    Updating and upgrading packages requires elevated "sudo" (superuser do) permissions, so you'll also need to enter the password that you created for the Linux distribution.
+
+wsl --install <Distribution Name>
+wsl --version
+wsl --list --online
+wsl --list --all
+wsl --list --running
+wsl --list --verbose
+wsl --set-version <distribution name> <versionNumber>
+wsl --set-default-version <Version>
+wsl --update
+wsl --status
+wsl --shutdown
+wsl --terminate <Distribution Name>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+VSCode indicates:
+
+You have Windows Subsystem for Linux (WSL) installed on your system. Do you want to install the recommended 'WSL' extension from Microsoft for it?
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>wsl --list --online
+The following is a list of valid distributions that can be installed.
+Install using 'wsl --install -d <Distro>'.
+
+NAME                                   FRIENDLY NAME
+Ubuntu                                 Ubuntu
+Debian                                 Debian GNU/Linux
+kali-linux                             Kali Linux Rolling
+Ubuntu-18.04                           Ubuntu 18.04 LTS
+Ubuntu-20.04                           Ubuntu 20.04 LTS
+Ubuntu-22.04                           Ubuntu 22.04 LTS
+OracleLinux_7_9                        Oracle Linux 7.9
+OracleLinux_8_7                        Oracle Linux 8.7
+OracleLinux_9_1                        Oracle Linux 9.1
+SUSE-Linux-Enterprise-Server-15-SP4    SUSE Linux Enterprise Server 15 SP4
+openSUSE-Leap-15.4                     openSUSE Leap 15.4
+openSUSE-Tumbleweed                    openSUSE Tumbleweed
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>wsl --status
+Default Distribution: Ubuntu
+Default Version: 2
+
+Windows Subsystem for Linux was last updated on 5/11/2022
+The Windows Subsystem for Linux kernel can be manually updated with 'wsl --update', but automatic updates cannot occur due to your system settings.
+To receive automatic kernel updates, please enable the Windows Update setting: 'Receive updates for other Microsoft products when you update Windows'.
+For more information please visit https://aka.ms/wsl2kernel.
+
+Kernel version: 5.10.16
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>wsl --list --all
+Windows Subsystem for Linux Distributions:
+Ubuntu (Default)
+
+C:\Users\DavidHolberton>wsl --list --running
+There are no running distributions.
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>wsl
+Windows Subsystem for Linux is now available in the Microsoft Store!
+You can upgrade by running 'wsl.exe --update' or by visiting https://aka.ms/wslstorepage
+Installing WSL from the Microsoft Store will give you the latest WSL updates, faster.
+For more information please visit https://aka.ms/wslstoreinfo
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May 17 06:22:12 EDT 2023
+
+  System load:  0.0                Processes:             8
+  Usage of /:   0.4% of 250.98GB   Users logged in:       0
+  Memory usage: 1%                 IPv4 address for eth0: 172.18.10.96
+  Swap usage:   0%
+
+0 updates can be installed immediately.
+0 of these updates are security updates.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once once a day. To disable it please create the
+/home/davidho/.hushlogin file.
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ sudo apt update
+[sudo] password for davidho:
+Sorry, try again.
+[sudo] password for davidho:
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:2 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2164 kB]
+Get:3 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [350 kB]
+Get:4 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [12.8 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1739 kB]
+Get:6 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [244 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [640 B]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [834 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [170 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [17.7 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [22.9 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [5488 B]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [540 B]
+Get:14 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [970 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal/main Translation-en [506 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 c-n-f Metadata [29.5 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9136 B]
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2543 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [430 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.5 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1846 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [260 kB]
+Get:31 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [636 B]
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1061 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [251 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [24.3 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [25.2 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [7408 B]
+Get:37 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [612 B]
+Get:38 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [45.7 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal-backports/main Translation-en [16.3 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1420 B]
+Get:41 http://archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:42 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [24.9 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [16.3 kB]
+Get:44 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [880 B]
+Get:45 http://archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]
+Fetched 28.5 MB in 1min 2s (462 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+299 packages can be upgraded. Run 'apt list --upgradable' to see them.
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ sudo apt upgrade
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  distro-info libatasmart4 libblockdev-crypto2 libblockdev-fs2 libblockdev-loop2 libblockdev-part-err2 libblockdev-part2 libblockdev-swap2 libblockdev-utils2
+  libblockdev2 libfwupdplugin5 libjcat1 libllvm12 libmbim-glib4 libmbim-proxy libmm-glib0 libnspr4 libnss3 libparted-fs-resize0 libqmi-glib5 libqmi-proxy
+  libudisks2-0 libvolume-key1 libxcb-shm0 libxcb-xfixes0 libxmlb2 modemmanager motd-news-config python3-pexpect python3-ptyprocess udisks2 usb-modeswitch
+  usb-modeswitch-data
+The following packages will be upgraded:
+  accountsservice alsa-ucm-conf apparmor apport apt apt-utils base-files bash bcache-tools bind9-dnsutils bind9-host bind9-libs bolt bsdutils busybox-initramfs
+  busybox-static ca-certificates cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf command-not-found cpio cryptsetup cryptsetup-bin
+  cryptsetup-initramfs cryptsetup-run curl dbus dbus-user-session dbus-x11 dirmngr distro-info-data dpkg e2fsprogs fdisk finalrd friendly-recovery fwupd
+  fwupd-signed gcc-10-base gir1.2-glib-2.0 gir1.2-packagekitglib-1.0 git git-man glib-networking glib-networking-common glib-networking-services gnupg gnupg-l10n
+  gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv gzip initramfs-tools initramfs-tools-bin initramfs-tools-core isc-dhcp-client
+  isc-dhcp-common klibc-utils kmod kpartx krb5-locales landscape-common language-selector-common less libaccountsservice0 libapparmor1 libapt-pkg6.0 libarchive13
+  libasn1-8-heimdal libasound2 libasound2-data libblkid1 libbrotli1 libc-bin libc6 libcom-err2 libcryptsetup12 libcurl3-gnutls libcurl4 libdbus-1-3
+  libdns-export1109 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libefiboot1 libefivar1 libexpat1 libext2fs2 libfdisk1
+  libflac8 libfreetype6 libfribidi0 libfwupd2 libfwupdplugin1 libgcc-s1 libgcrypt20 libgirepository-1.0-1 libgl1 libgl1-mesa-dri libglapi-mesa libglib2.0-0
+  libglib2.0-bin libglib2.0-data libglvnd0 libglx-mesa0 libglx0 libgmp10 libgnutls30 libgssapi-krb5-2 libgssapi3-heimdal libgstreamer1.0-0 libhcrypto4-heimdal
+  libheimbase1-heimdal libheimntlm0-heimdal libhogweed5 libhx509-5-heimdal libicu66 libisc-export1105 libjson-c4 libk5crypto3 libkeyutils1 libklibc libkmod2
+  libkrb5-26-heimdal libkrb5-3 libkrb5support0 libksba8 libldap-2.4-2 libldap-common liblz4-1 liblzma5 libmaxminddb0 libmount1 libnetplan0 libnettle7
+  libnss-systemd libntfs-3g883 libp11-kit0 libpackagekit-glib2-18 libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g libparted2 libpci3
+  libpcre2-8-0 libpcre3 libperl5.30 libplymouth5 libpolkit-agent-1-0 libpolkit-gobject-1-0 libprocps8 libproxy1v5 libpulse0 libpulsedsp libpython3.8
+  libpython3.8-minimal libpython3.8-stdlib libroken18-heimdal libsasl2-2 libsasl2-modules libsasl2-modules-db libseccomp2 libsensors-config libsensors5 libsepol1
+  libsmartcols1 libsndfile1 libsqlite3-0 libss2 libssh-4 libssl1.1 libstdc++6 libsystemd0 libtdb1 libtss2-esys0 libudev1 libunwind8 libuuid1 libuv1
+  libwayland-client0 libwind0-heimdal libx11-6 libx11-data libx11-xcb1 libxml2 libxmlb1 libxpm4 libxslt1.1 libzstd1 linux-base locales login logsave lshw lsof
+  lz4 mdadm mesa-vulkan-drivers mount multipath-tools netplan.io networkd-dispatcher ntfs-3g open-iscsi open-vm-tools openssh-client openssh-server
+  openssh-sftp-server openssl overlayroot packagekit packagekit-tools parted passwd pciutils perl perl-base perl-modules-5.30 plymouth plymouth-theme-ubuntu-text
+  policykit-1 pollinate procps pulseaudio-utils python-apt-common python3-apport python3-apt python3-commandnotfound python3-cryptography python3-distupgrade
+  python3-distutils python3-gdbm python3-jwt python3-lib2to3 python3-pkg-resources python3-problem-report python3-requests python3-setuptools
+  python3-software-properties python3-twisted python3-twisted-bin python3-update-manager python3-urllib3 python3-yaml python3.8 python3.8-minimal rsync rsyslog
+  sbsigntool screen show-motd snapd software-properties-common sosreport squashfs-tools strace sudo systemd systemd-sysv systemd-timesyncd tar tcpdump tmux
+  tzdata ubuntu-advantage-tools ubuntu-keyring ubuntu-minimal ubuntu-release-upgrader-core ubuntu-server ubuntu-standard ubuntu-wsl udev ufw unattended-upgrades
+  update-manager-core update-motd update-notifier-common util-linux uuid-runtime vim vim-common vim-runtime vim-tiny wget wslu xxd xz-utils zlib1g
+299 upgraded, 33 newly installed, 0 to remove and 0 not upgraded.
+Need to get 178 MB of archives.
+After this operation, 324 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ whoami
+davidho
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ date
+Wed May 17 06:29:47 EDT 2023
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ pwd -P
+/mnt/c/Users/DavidHolberton
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ logout
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>wsl --list --running
+There are no running distributions.
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+in another MS Windows cmd window, before logging out (control-d) above
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>wsl --list --all
+Windows Subsystem for Linux Distributions:
+Ubuntu (Default)
+
+C:\Users\DavidHolberton>wsl --list --running
+There are no running distributions.
+
+C:\Users\DavidHolberton>wsl --list --running
+Windows Subsystem for Linux Distributions:
+Ubuntu (Default)
+
+C:\Users\DavidHolberton>
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+https://marketplace.visualstudio.com/vscode
+
+
+https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode
+
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+
+https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+https://vscode-sqltools.mteixeira.dev/en/home
+To use SQLTools you will also need to install the appropriate driver extension for your database.
+
+https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql
+https://github.com/mtxr/vscode-sqltools/tree/dev/packages/driver.mysql
+
+code --list-extensions
+code --install-extension redhat.java-1.19.2023051504@win32-x64.vsix
+code --install-extension vscjava.vscode-java-debug-0.50.2023042406.vsix
+code --install-extension vscjava.vscode-java-test-0.38.2023051002.vsix
+code --install-extension vscjava.vscode-maven-0.41.2023042103.vsix
+code --install-extension vscjava.vscode-java-dependency-0.22.2023042900.vsix
+code --install-extension VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+code --install-extension vmware.vscode-boot-dev-pack-0.2.1.vsix
+code --install-extension vmware.vscode-spring-boot-1.47.2023051304.vsix
+code --install-extension vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+code --install-extension vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+code --install-extension vscjava.vscode-gradle-3.12.2023042700.vsix
+code --install-extension shengchen.vscode-checkstyle-1.4.2.vsix
+code --install-extension SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+code --install-extension ms-azuretools.vscode-docker-1.25.1.vsix
+code --install-extension mtxr.sqltools-0.27.1.vsix
+code --install-extension mtxr.sqltools-driver-mysql-0.5.1.vsix
+code --list-extensions
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd *.vsix
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+05/17/2023  06:46 AM           769,981 mtxr.sqltools-0.27.1.vsix
+05/17/2023  06:47 AM           387,292 mtxr.sqltools-driver-mysql-0.5.1.vsix
+              16 File(s)    591,614,459 bytes
+               0 Dir(s)  569,288,175,616 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>code --list-extensions
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>code --install-extension redhat.java-1.19.2023051504@win32-x64.vsix
+Installing extensions...
+(node:10204) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Extension 'redhat.java-1.19.2023051504@win32-x64.vsix' was successfully installed.
+
+C:\Users\DavidHolberton\Downloads>code --list-extensions
+redhat.java
+
+C:\Users\DavidHolberton\Downloads>code --install-extension vscjava.vscode-java-debug-0.50.2023042406.vsix
+Installing extensions...
+(node:20116) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Extension 'vscjava.vscode-java-debug-0.50.2023042406.vsix' was successfully installed.
+
+C:\Users\DavidHolberton\Downloads>code --list-extensions
+redhat.java
+vscjava.vscode-java-debug
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>code --list-extensions
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton>cd repos
+
+C:\Users\DavidHolberton\repos>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\repos
+
+05/15/2023  07:14 AM    <DIR>          .
+05/17/2023  06:59 AM    <DIR>          ..
+05/15/2023  08:01 AM    <DIR>          miscdphxps17w11
+05/15/2023  07:14 AM    <DIR>          spring-petclinic
+               0 File(s)              0 bytes
+               4 Dir(s)  568,689,688,576 bytes free
+
+C:\Users\DavidHolberton\repos>code spring-petclinic
+
+
