@@ -1,0 +1,457 @@
+6:53 AM 5/18/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://marketplace.visualstudio.com/vscode
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-lombok
+Lombok Annotations Support for VS Code
+05/18/2023  06:57 AM           319,552 vscjava.vscode-lombok-1.1.0.vsix
+
+https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+GitLens — Git supercharged
+05/18/2023  06:59 AM         6,436,935 eamodio.gitlens-2023.5.1805.vsix
+
+https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode
+Jira and Bitbucket (Atlassian Labs)
+05/18/2023  07:00 AM         2,294,246 Atlassian.atlascode-3.0.3.vsix
+
+code --list-extensions
+code --install-extension vscjava.vscode-lombok-1.1.0.vsix
+code --install-extension eamodio.gitlens-2023.5.1805.vsix
+code --install-extension Atlassian.atlascode-3.0.3.vsix
+code --list-extensions
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar05/13/2023  08:32 AM       778,578,512 ideaIU-2023.1.1.exe
+05/13/2023  08:32 AM                86 ideaIU-2023.1.1.exe.txt
+05/13/2023  08:38 AM     1,105,510,053 ideaIU-2023.1.1.win.zip
+05/13/2023  08:39 AM                90 ideaIU-2023.1.1.win.zip.txt
+05/13/2023  08:40 AM       663,963,584 ideaIC-2023.1.1.exe
+05/13/2023  08:41 AM                86 ideaIC-2023.1.1.exe.txt
+05/13/2023  08:42 AM       937,113,057 ideaIC-2023.1.1.win.zip
+05/13/2023  08:43 AM                90 ideaIC-2023.1.1.win.zip.txt
+05/13/2023  09:29 AM        92,718,208 VSCodeUserSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM        92,717,704 VSCodeSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM       129,121,640 VSCode-win32-x64-1.78.2.zip
+05/13/2023  09:43 AM         1,575,742 7z2201-x64.exe
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+05/17/2023  06:46 AM           769,981 mtxr.sqltools-0.27.1.vsix
+05/17/2023  06:47 AM           387,292 mtxr.sqltools-driver-mysql-0.5.1.vsix
+05/18/2023  06:57 AM           319,552 vscjava.vscode-lombok-1.1.0.vsix
+05/18/2023  06:59 AM         6,436,935 eamodio.gitlens-2023.5.1805.vsix
+05/18/2023  07:00 AM         2,294,246 Atlassian.atlascode-3.0.3.vsix
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>cd \LocalApps
+
+C:\LocalApps>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+05/18/2023  07:17 AM    <DIR>          .
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+               2 File(s)  1,211,322,672 bytes
+               8 Dir(s)  577,474,125,824 bytes free
+
+C:\LocalApps>"Docker Desktop Installer.exe"
+
+C:\LocalApps>-------------------------------------------------------------------------------->8
+Version: 4.19.0 (106363)
+Sha1:
+Started on: 2023/05/18 11:17:22.912
+Resources: C:\LocalApps\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 22621
+BuildLabName: 22621.1.amd64fre.ni_release.220506-1250
+File: C:\Users\DavidHolberton\AppData\Local\Docker\install-log.txt
+CommandLine: "Docker Desktop Installer.exe"
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[2023-05-18T11:17:23.265097200Z][ManifestAndExistingInstallationLoader][I] No install path specified, looking for default installation registry key
+[2023-05-18T11:17:23.273611100Z][Installer][I] No installation found
+[2023-05-18T11:17:23.273611100Z][ManifestAndExistingInstallationLoader][I] Not run as admin, relaunching with UAC prompt
+-------------------------------------------------------------------------------->8
+Version: 4.19.0 (106363)
+Sha1:
+Started on: 2023/05/18 11:17:31.119
+Resources: C:\LocalApps\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 22621
+BuildLabName: 22621.1.amd64fre.ni_release.220506-1250
+File: C:\ProgramData\DockerDesktop\install-log-admin.txt
+CommandLine: "C:\LocalApps\Docker Desktop Installer.exe" "install" -package "res:DockerDesktop" --relaunch-as-admin
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[2023-05-18T11:17:31.245169500Z][ManifestAndExistingInstallationLoader][I] No install path specified, looking for default installation registry key
+[2023-05-18T11:17:31.260805600Z][Installer][I] No installation found
+[2023-05-18T11:17:31.452206000Z][InstallWorkflow][I] Cancel pending background download
+[2023-05-18T11:17:31.452206000Z][BackgroundTransfer][I] Cancel current background transfer job
+[2023-05-18T11:17:31.462969400Z][InstallWorkflow][I] Using package: res:DockerDesktop
+[2023-05-18T11:17:31.467577800Z][InstallWorkflow][I] Downloading
+[2023-05-18T11:17:32.620974800Z][InstallWorkflow][I] Extracting manifest
+[2023-05-18T11:17:32.968699700Z][InstallWorkflow][I] Manifest found: version=106363, displayVersion=4.19.0, channelUrl=https://desktop.docker.com/win/main/amd64/appcast.xml
+[2023-05-18T11:17:32.969700300Z][InstallWorkflow][I] Checking prerequisites
+[2023-05-18T11:17:33.159780900Z][InstallWorkflow][I] Prompting for optional features
+[2023-05-18T11:17:34.725836100Z][Installer][W] Failed to track the installer started event
+[2023-05-18T11:18:24.902687100Z][InstallWorkflow][I] Selected backend mode: wsl-2
+[2023-05-18T11:18:24.903687300Z][InstallWorkflow][I] Unpacking artifacts
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Program Files\Docker>
+C:\Program Files\Docker>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Docker
+
+05/18/2023  07:18 AM    <DIR>          ..
+05/18/2023  07:19 AM    <DIR>          .
+05/18/2023  07:19 AM    <DIR>          cli-plugins
+05/18/2023  07:19 AM    <DIR>          Docker
+               0 File(s)              0 bytes
+               4 Dir(s)  572,986,523,648 bytes free
+
+C:\Program Files\Docker>dir /o:gd Docker
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Docker\Docker
+
+05/18/2023  07:19 AM    <DIR>          frontend
+05/18/2023  07:19 AM    <DIR>          resources
+05/18/2023  07:19 AM    <DIR>          ..
+05/18/2023  07:19 AM    <DIR>          .
+05/18/2023  07:18 AM             4,405 app.json
+05/18/2023  07:18 AM            19,792 com.docker.service
+05/18/2023  07:18 AM            19,741 com.docker.service.config
+05/18/2023  07:18 AM            28,160 com.docker.service.pdb
+05/18/2023  07:18 AM            19,757 Docker Desktop Installer.exe.config
+05/18/2023  07:18 AM           382,464 Docker Desktop Installer.pdb
+05/18/2023  07:18 AM            19,846 Docker Desktop.exe.config
+05/18/2023  07:18 AM           118,272 Docker Desktop.pdb
+05/18/2023  07:18 AM           427,520 Docker.ApiServices.pdb
+05/18/2023  07:18 AM           241,152 Docker.Backend.pdb
+05/18/2023  07:18 AM           626,176 Docker.Core.pdb
+05/18/2023  07:18 AM           173,568 Docker.Engines.pdb
+05/18/2023  07:18 AM            95,744 Docker.HttpApi.pdb
+05/18/2023  07:18 AM           173,568 Docker.WPF.pdb
+05/18/2023  07:18 AM            19,741 DockerCli.exe.config
+05/18/2023  07:18 AM            67,072 DockerCli.pdb
+05/18/2023  07:18 AM            19,741 InstallerCli.exe.config
+05/18/2023  07:18 AM            46,592 InstallerCli.pdb
+05/18/2023  07:18 AM            21,504 BITSReference5_0.dll
+05/18/2023  07:18 AM            71,168 Bugsnag.dll
+05/18/2023  07:18 AM           966,464 courgette64.exe
+05/18/2023  07:18 AM         7,413,072 Docker Desktop Installer.exe
+05/18/2023  07:18 AM           280,880 Docker Desktop.exe
+05/18/2023  07:18 AM           120,320 Docker.ApiServices.dll
+05/18/2023  07:18 AM            96,768 Docker.Backend.dll
+05/18/2023  07:18 AM           186,880 Docker.Core.dll
+05/18/2023  07:18 AM            67,072 Docker.Engines.dll
+05/18/2023  07:18 AM            29,184 Docker.HttpApi.dll
+05/18/2023  07:18 AM           511,488 Docker.WPF.dll
+05/18/2023  07:18 AM            33,080 DockerCli.exe
+05/18/2023  07:19 AM            12,800 HttpOverStream.Client.dll
+05/18/2023  07:19 AM            15,360 HttpOverStream.dll
+05/18/2023  07:19 AM            16,896 HttpOverStream.NamedPipe.dll
+05/18/2023  07:19 AM            18,944 HttpOverStream.Server.Owin.dll
+05/18/2023  07:19 AM           204,800 ICSharpCode.SharpZipLib.dll
+05/18/2023  07:19 AM            35,144 InstallerCli.exe
+05/18/2023  07:19 AM           101,272 Microsoft.Owin.dll
+05/18/2023  07:19 AM            65,944 Microsoft.Owin.Hosting.dll
+05/18/2023  07:19 AM            90,968 Microsoft.Toolkit.Uwp.Notifications.dll
+05/18/2023  07:19 AM            20,992 Microsoft.Virtualization.Client.Common.Types.dll
+05/18/2023  07:19 AM         1,621,504 Microsoft.Virtualization.Client.Management.dll
+05/18/2023  07:19 AM            21,216 Microsoft.Win32.Primitives.dll
+05/18/2023  07:19 AM            50,176 Microsoft.Windows.ComputeVirtualization.dll
+05/18/2023  07:19 AM            98,616 netstandard.dll
+05/18/2023  07:19 AM           711,952 Newtonsoft.Json.dll
+05/18/2023  07:19 AM           702,464 NLog.dll
+05/18/2023  07:19 AM             4,608 Owin.dll
+05/18/2023  07:19 AM            16,896 SimCim.Core.dll
+05/18/2023  07:19 AM           463,360 SimCim.Root.StandardCimV2.dll
+05/18/2023  07:19 AM         2,076,160 SimCim.Root.V2.dll
+05/18/2023  07:19 AM           508,416 SimCim.Root.Virtualization.V2.dll
+05/18/2023  07:19 AM            21,176 System.AppContext.dll
+05/18/2023  07:19 AM            21,224 System.Collections.Concurrent.dll
+05/18/2023  07:19 AM            21,696 System.Collections.dll
+05/18/2023  07:19 AM            21,224 System.Collections.NonGeneric.dll
+05/18/2023  07:19 AM            21,224 System.Collections.Specialized.dll
+05/18/2023  07:19 AM            21,192 System.ComponentModel.dll
+05/18/2023  07:19 AM            21,768 System.ComponentModel.EventBasedAsync.dll
+05/18/2023  07:19 AM            21,752 System.ComponentModel.Primitives.dll
+05/18/2023  07:19 AM            22,784 System.ComponentModel.TypeConverter.dll
+05/18/2023  07:19 AM            21,160 System.Console.dll
+05/18/2023  07:19 AM           154,448 System.Data.Common.dll
+05/18/2023  07:19 AM            21,736 System.Diagnostics.Contracts.dll
+05/18/2023  07:19 AM            21,208 System.Diagnostics.Debug.dll
+05/18/2023  07:19 AM            35,760 System.Diagnostics.DiagnosticSource.dll
+05/18/2023  07:19 AM            21,248 System.Diagnostics.FileVersionInfo.dll
+05/18/2023  07:19 AM            21,728 System.Diagnostics.Process.dll
+05/18/2023  07:19 AM            23,936 System.Diagnostics.StackTrace.dll
+05/18/2023  07:19 AM            21,280 System.Diagnostics.TextWriterTraceListener.dll
+05/18/2023  07:19 AM            21,208 System.Diagnostics.Tools.dll
+05/18/2023  07:19 AM            21,744 System.Diagnostics.TraceSource.dll
+05/18/2023  07:19 AM            31,608 System.Diagnostics.Tracing.dll
+05/18/2023  07:19 AM            21,208 System.Drawing.Primitives.dll
+05/18/2023  07:19 AM            22,224 System.Dynamic.Runtime.dll
+05/18/2023  07:19 AM            21,744 System.Globalization.Calendars.dll
+05/18/2023  07:19 AM            21,192 System.Globalization.dll
+05/18/2023  07:19 AM            25,992 System.Globalization.Extensions.dll
+05/18/2023  07:19 AM           110,944 System.IO.Compression.dll
+05/18/2023  07:19 AM            21,224 System.IO.Compression.ZipFile.dll
+05/18/2023  07:19 AM            21,144 System.IO.dll
+05/18/2023  07:19 AM            21,192 System.IO.FileSystem.dll
+05/18/2023  07:19 AM            21,232 System.IO.FileSystem.DriveInfo.dll
+05/18/2023  07:19 AM            21,232 System.IO.FileSystem.Primitives.dll
+05/18/2023  07:19 AM            21,224 System.IO.FileSystem.Watcher.dll
+05/18/2023  07:19 AM            21,208 System.IO.IsolatedStorage.dll
+05/18/2023  07:19 AM            21,216 System.IO.MemoryMappedFiles.dll
+05/18/2023  07:19 AM            21,168 System.IO.Pipes.dll
+05/18/2023  07:19 AM            21,232 System.IO.UnmanagedMemoryStream.dll
+05/18/2023  07:19 AM            21,152 System.Linq.dll
+05/18/2023  07:19 AM            22,224 System.Linq.Expressions.dll
+05/18/2023  07:19 AM            21,192 System.Linq.Parallel.dll
+05/18/2023  07:19 AM            21,192 System.Linq.Queryable.dll
+05/18/2023  07:19 AM           360,448 System.Management.Automation.dll
+05/18/2023  07:19 AM           198,472 System.Net.Http.dll
+05/18/2023  07:19 AM           178,808 System.Net.Http.Formatting.dll
+05/18/2023  07:19 AM            23,552 System.Net.IPNetwork.dll
+05/18/2023  07:19 AM            21,208 System.Net.NameResolution.dll
+05/18/2023  07:19 AM            22,248 System.Net.NetworkInformation.dll
+05/18/2023  07:19 AM            21,168 System.Net.Ping.dll
+05/18/2023  07:19 AM            22,216 System.Net.Primitives.dll
+05/18/2023  07:19 AM            21,184 System.Net.Requests.dll
+05/18/2023  07:19 AM            21,696 System.Net.Security.dll
+05/18/2023  07:19 AM            30,544 System.Net.Sockets.dll
+05/18/2023  07:19 AM            21,232 System.Net.WebHeaderCollection.dll
+05/18/2023  07:19 AM            21,224 System.Net.WebSockets.Client.dll
+05/18/2023  07:19 AM            21,192 System.Net.WebSockets.dll
+05/18/2023  07:19 AM           115,856 System.Numerics.Vectors.dll
+05/18/2023  07:19 AM            21,696 System.ObjectModel.dll
+05/18/2023  07:19 AM           113,944 System.Reactive.Core.dll
+05/18/2023  07:19 AM         1,266,128 System.Reactive.dll
+05/18/2023  07:19 AM            14,288 System.Reactive.Interfaces.dll
+05/18/2023  07:19 AM            14,800 System.Reactive.Linq.dll
+05/18/2023  07:19 AM            22,200 System.Reflection.dll
+05/18/2023  07:19 AM            21,224 System.Reflection.Extensions.dll
+05/18/2023  07:19 AM            21,736 System.Reflection.Primitives.dll
+05/18/2023  07:19 AM            21,200 System.Resources.Reader.dll
+05/18/2023  07:19 AM            21,232 System.Resources.ResourceManager.dll
+05/18/2023  07:19 AM            21,200 System.Resources.Writer.dll
+05/18/2023  07:19 AM            16,768 System.Runtime.CompilerServices.Unsafe.dll
+05/18/2023  07:19 AM            21,784 System.Runtime.CompilerServices.VisualC.dll
+05/18/2023  07:19 AM            29,360 System.Runtime.dll
+05/18/2023  07:19 AM            21,720 System.Runtime.Extensions.dll
+05/18/2023  07:19 AM            21,200 System.Runtime.Handles.dll
+05/18/2023  07:19 AM            24,296 System.Runtime.InteropServices.dll
+05/18/2023  07:19 AM            28,624 System.Runtime.InteropServices.RuntimeInformation.dll
+05/18/2023  07:19 AM            21,200 System.Runtime.Numerics.dll
+05/18/2023  07:19 AM            21,264 System.Runtime.Serialization.Formatters.dll
+05/18/2023  07:19 AM            21,240 System.Runtime.Serialization.Json.dll
+05/18/2023  07:19 AM            27,048 System.Runtime.Serialization.Primitives.dll
+05/18/2023  07:19 AM            24,816 System.Runtime.Serialization.Xml.dll
+05/18/2023  07:19 AM            28,216 System.Runtime.WindowsRuntime.dll
+05/18/2023  07:19 AM            30,312 System.Runtime.WindowsRuntime.UI.Xaml.dll
+05/18/2023  07:19 AM            21,200 System.Security.Claims.dll
+05/18/2023  07:19 AM            47,016 System.Security.Cryptography.Algorithms.dll
+05/18/2023  07:19 AM            21,240 System.Security.Cryptography.Csp.dll
+05/18/2023  07:19 AM            21,256 System.Security.Cryptography.Encoding.dll
+05/18/2023  07:19 AM            21,784 System.Security.Cryptography.Primitives.dll
+05/18/2023  07:19 AM            22,832 System.Security.Cryptography.X509Certificates.dll
+05/18/2023  07:19 AM            21,208 System.Security.Principal.dll
+05/18/2023  07:19 AM            22,392 System.Security.SecureString.dll
+05/18/2023  07:19 AM            21,696 System.Text.Encoding.dll
+05/18/2023  07:19 AM            21,232 System.Text.Encoding.Extensions.dll
+05/18/2023  07:19 AM            21,232 System.Text.RegularExpressions.dll
+05/18/2023  07:19 AM            22,192 System.Threading.dll
+05/18/2023  07:19 AM            37,752 System.Threading.Overlapped.dll
+05/18/2023  07:19 AM            22,224 System.Threading.Tasks.dll
+05/18/2023  07:19 AM            25,984 System.Threading.Tasks.Extensions.dll
+05/18/2023  07:19 AM            21,232 System.Threading.Tasks.Parallel.dll
+05/18/2023  07:19 AM            21,200 System.Threading.Thread.dll
+05/18/2023  07:19 AM            21,216 System.Threading.ThreadPool.dll
+05/18/2023  07:19 AM            21,200 System.Threading.Timer.dll
+05/18/2023  07:19 AM            78,992 System.ValueTuple.dll
+05/18/2023  07:19 AM           455,096 System.Web.Http.dll
+05/18/2023  07:19 AM            61,560 System.Web.Http.Owin.dll
+05/18/2023  07:19 AM            21,712 System.Xml.ReaderWriter.dll
+05/18/2023  07:19 AM            21,696 System.Xml.XDocument.dll
+05/18/2023  07:19 AM            21,712 System.Xml.XmlDocument.dll
+05/18/2023  07:19 AM            21,712 System.Xml.XmlSerializer.dll
+05/18/2023  07:19 AM            21,176 System.Xml.XPath.dll
+05/18/2023  07:19 AM            22,904 System.Xml.XPath.XDocument.dll
+05/18/2023  07:19 AM             4,405 installationmanifest.json
+             161 File(s)     24,477,516 bytes
+               4 Dir(s)  572,986,519,552 bytes free
+
+C:\Program Files\Docker>
+
+C:\Users\DavidHolberton\.docker>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.docker
+
+05/18/2023  07:21 AM    <DIR>          buildx
+05/18/2023  07:21 AM    <DIR>          contexts
+05/18/2023  07:21 AM    <DIR>          ..
+05/18/2023  07:21 AM    <DIR>          devenvironments
+05/18/2023  07:21 AM    <DIR>          .
+05/18/2023  07:21 AM                30 config.json
+05/18/2023  07:21 AM               134 daemon.json
+               2 File(s)            164 bytes
+               5 Dir(s)  572,874,625,024 bytes free
+
+C:\Users\DavidHolberton\.docker>
+
+C:\Users\DavidHolberton\AppData\Local\Docker>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\AppData\Local\Docker
+
+05/18/2023  07:21 AM    <DIR>          log
+05/18/2023  07:21 AM    <DIR>          tasks
+05/18/2023  07:21 AM    <DIR>          wsl
+05/18/2023  07:21 AM    <DIR>          engine_tasks
+05/18/2023  07:25 AM    <DIR>          .
+05/18/2023  07:35 AM    <DIR>          ..
+05/18/2023  07:17 AM               859 install-log.txt
+05/18/2023  07:21 AM                 0 backend.lock
+05/18/2023  07:25 AM           546,808 log.0.txt
+05/18/2023  07:38 AM           132,950 log.txt
+               4 File(s)        680,617 bytes
+               6 Dir(s)  572,847,960,064 bytes free
+
+C:\Users\DavidHolberton\AppData\Local\Docker>
+
+C:\>type C:\Users\DavidHolberton\AppData\Local\Docker\install-log.txt
+-------------------------------------------------------------------------------->8
+Version: 4.19.0 (106363)
+Sha1:
+Started on: 2023/05/18 11:17:22.912
+Resources: C:\LocalApps\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 22621
+BuildLabName: 22621.1.amd64fre.ni_release.220506-1250
+File: C:\Users\DavidHolberton\AppData\Local\Docker\install-log.txt
+CommandLine: "Docker Desktop Installer.exe"
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[2023-05-18T11:17:23.265097200Z][ManifestAndExistingInstallationLoader][I] No install path specified, looking for default installation registry key
+[2023-05-18T11:17:23.273611100Z][Installer][I] No installation found
+[2023-05-18T11:17:23.273611100Z][ManifestAndExistingInstallationLoader][I] Not run as admin, relaunching with UAC prompt
+
+C:\>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>code --list-extensions
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton\Downloads>code --install-extension vscjava.vscode-lombok-1.1.0.vsix
+Installing extensions...
+(node:25076) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Extension 'vscjava.vscode-lombok-1.1.0.vsix' was successfully installed.
+
+C:\Users\DavidHolberton\Downloads>code --install-extension eamodio.gitlens-2023.5.1805.vsix
+Installing extensions...
+(node:23432) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Extension 'eamodio.gitlens-2023.5.1805.vsix' was successfully installed.
+
+C:\Users\DavidHolberton\Downloads>code --install-extension Atlassian.atlascode-3.0.3.vsix
+Installing extensions...
+(node:26820) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Extension 'Atlassian.atlascode-3.0.3.vsix' was successfully installed.
+
+C:\Users\DavidHolberton\Downloads>code --list-extensions
+atlassian.atlascode
+eamodio.gitlens
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+redhat.vscode-yaml
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-lombok
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton\Downloads>
+
