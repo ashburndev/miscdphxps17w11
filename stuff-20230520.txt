@@ -1,0 +1,50 @@
+11:19 AM 5/20/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230520.txt
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\Users\DavidHolberton>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://gradle.org/
+https://gradle.org/install/
+https://gradle.org/install/#manually
+https://gradle.org/releases/
+https://docs.gradle.org/current/userguide/userguide.html
+https://newsletter.gradle.org/
+https://discuss.gradle.org/
+
+https://groovy.apache.org/download.html
+
+https://grails.org/download.html
+https://start.grails.org/
+https://github.com/grails/grails-core/releases/tag/v5.3.2
+https://github.com/grails/grails-core/compare/v5.3.1...v5.3.2
+
+
+https://ant.apache.org/bindownload.cgi
+
+
+
+
+
+

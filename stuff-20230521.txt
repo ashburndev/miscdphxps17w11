@@ -1,0 +1,209 @@
+9:04 AM 5/21/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230521.txt
+
+C:\Users\DavidHolberton>
+
+https://www.techradar.com/reviews/hp-pavilion-15-2021
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://gradle.org/
+https://gradle.org/install/
+https://gradle.org/install/#manually
+https://gradle.org/releases/
+https://docs.gradle.org/current/userguide/userguide.html
+https://newsletter.gradle.org/
+https://discuss.gradle.org/
+
+https://groovy.apache.org/download.html
+
+https://grails.org/download.html
+https://start.grails.org/
+https://github.com/grails/grails-core/releases/tag/v5.3.2
+https://github.com/grails/grails-core/compare/v5.3.1...v5.3.2
+
+https://ant.apache.org/download.cgi
+https://ant.apache.org/bindownload.cgi
+
+https://maven.apache.org/download.cgi
+
+https://solr.apache.org/downloads.html
+https://hub.docker.com/_/solr
+https://solr.apache.org/docs/9_2_1/changes/Changes.html
+https://solr.apache.org/docs/8_11_2/changes/Changes.html
+https://solr.apache.org/guide/solr/latest/index.html
+
+https://lucene.apache.org/core/downloads.html
+https://lucene.apache.org/core/9_6_0/changes/Changes.html
+
+https://www.jenkins.io/download/
+https://www.jenkins.io/download/thank-you-downloading-windows-installer-stable/
+
+https://projectlombok.org/download
+https://projectlombok.org/all-versions
+https://projectlombok.org/changelog
+
+https://httpie.io/download
+https://httpie.io/docs/cli/installation
+
+https://tomcat.apache.org/download-90.cgi
+https://tomcat.apache.org/download-10.cgi
+
+https://www.jetbrains.com/idea/download/#section=windows
+Version: 2023.1.2
+Build: 231.9011.34
+15 May 2023
+
+https://www.jetbrains.com/pycharm/download/#section=windows
+Version: 2023.1.2
+Build: 231.9011.38
+16 May 2023
+
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/13/2023  08:32 AM       778,578,512 ideaIU-2023.1.1.exe
+05/13/2023  08:32 AM                86 ideaIU-2023.1.1.exe.txt
+05/13/2023  08:38 AM     1,105,510,053 ideaIU-2023.1.1.win.zip
+05/13/2023  08:39 AM                90 ideaIU-2023.1.1.win.zip.txt
+05/13/2023  08:40 AM       663,963,584 ideaIC-2023.1.1.exe
+05/13/2023  08:41 AM                86 ideaIC-2023.1.1.exe.txt
+05/13/2023  08:42 AM       937,113,057 ideaIC-2023.1.1.win.zip
+05/13/2023  08:43 AM                90 ideaIC-2023.1.1.win.zip.txt
+05/13/2023  09:29 AM        92,718,208 VSCodeUserSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM        92,717,704 VSCodeSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM       129,121,640 VSCode-win32-x64-1.78.2.zip
+05/13/2023  09:43 AM         1,575,742 7z2201-x64.exe
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+05/17/2023  06:46 AM           769,981 mtxr.sqltools-0.27.1.vsix
+05/17/2023  06:47 AM           387,292 mtxr.sqltools-driver-mysql-0.5.1.vsix
+05/18/2023  06:57 AM           319,552 vscjava.vscode-lombok-1.1.0.vsix
+05/18/2023  06:59 AM         6,436,935 eamodio.gitlens-2023.5.1805.vsix
+05/18/2023  07:00 AM         2,294,246 Atlassian.atlascode-3.0.3.vsix
+05/20/2023  11:58 AM       124,643,981 gradle-8.1.1-bin.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-bin.zip.sha256
+05/20/2023  11:58 AM       168,381,151 gradle-8.1.1-all.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-all.zip.sha256
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/20/2023  12:12 PM               838 apache-groovy-binary-4.0.12.zip.asc
+05/20/2023  12:12 PM                66 apache-groovy-binary-4.0.12.zip.sha256
+05/20/2023  12:14 PM        44,478,871 apache-groovy-binary-3.0.17.zip
+05/20/2023  12:15 PM               838 apache-groovy-binary-3.0.17.zip.asc
+05/20/2023  12:15 PM                66 apache-groovy-binary-3.0.17.zip.sha256
+05/20/2023  12:18 PM       186,251,326 grails-5.3.2.zip
+05/20/2023  12:22 PM         9,154,322 grails-docs.zip
+05/20/2023  12:24 PM       130,754,587 grails-4.1.2.zip
+05/20/2023  12:27 PM         8,729,987 apache-ant-1.9.16-bin.zip
+05/20/2023  12:28 PM               224 apache-ant-1.9.16-bin.zip.asc
+05/20/2023  12:28 PM               129 apache-ant-1.9.16-bin.zip.sha512
+05/20/2023  12:28 PM         5,839,799 apache-ant-1.9.16-bin.tar.gz
+05/20/2023  12:29 PM               224 apache-ant-1.9.16-bin.tar.gz.asc
+05/20/2023  12:29 PM               129 apache-ant-1.9.16-bin.tar.gz.sha512
+05/20/2023  12:30 PM         9,861,715 apache-ant-1.10.13-bin.zip
+05/20/2023  12:30 PM               833 apache-ant-1.10.13-bin.zip.asc
+05/20/2023  12:30 PM               129 apache-ant-1.10.13-bin.zip.sha512
+05/20/2023  12:31 PM         6,866,302 apache-ant-1.10.13-bin.tar.gz
+05/20/2023  12:31 PM               833 apache-ant-1.10.13-bin.tar.gz.asc
+05/20/2023  12:32 PM               129 apache-ant-1.10.13-bin.tar.gz.sha512
+05/21/2023  09:11 AM         9,248,920 apache-maven-3.9.2-bin.tar.gz
+05/21/2023  09:11 AM               128 apache-maven-3.9.2-bin.tar.gz.sha512
+05/21/2023  09:11 AM               833 apache-maven-3.9.2-bin.tar.gz.asc
+05/21/2023  09:14 AM         9,352,027 apache-maven-3.9.2-bin.zip
+05/21/2023  09:14 AM               128 apache-maven-3.9.2-bin.zip.sha512
+05/21/2023  09:15 AM               833 apache-maven-3.9.2-bin.zip.asc
+05/21/2023  09:21 AM        89,917,226 solr-9.2.1-src.tgz
+05/21/2023  09:21 AM               853 solr-9.2.1-src.tgz.asc
+05/21/2023  09:21 AM               148 solr-9.2.1-src.tgz.sha512
+05/21/2023  09:21 AM       278,512,901 solr-9.2.1.tgz
+05/21/2023  09:21 AM               853 solr-9.2.1.tgz.asc
+05/21/2023  09:21 AM               144 solr-9.2.1.tgz.sha512
+05/21/2023  09:23 AM       140,440,440 solr-8.11.2-src.tgz
+05/21/2023  09:23 AM               833 solr-8.11.2-src.tgz.asc
+05/21/2023  09:24 AM               150 solr-8.11.2-src.tgz.sha512
+05/21/2023  09:24 AM       218,171,227 solr-8.11.2.tgz
+05/21/2023  09:24 AM               833 solr-8.11.2.tgz.asc
+05/21/2023  09:25 AM               146 solr-8.11.2.tgz.sha512
+05/21/2023  09:25 AM       219,753,282 solr-8.11.2.zip
+05/21/2023  09:25 AM               833 solr-8.11.2.zip.asc
+05/21/2023  09:25 AM               146 solr-8.11.2.zip.sha512
+05/21/2023  09:28 AM        51,312,208 lucene-9.6.0-src.tgz
+05/21/2023  09:30 AM               853 lucene-9.6.0-src.tgz.asc
+05/21/2023  09:30 AM               150 lucene-9.6.0-src.tgz.sha512
+05/21/2023  09:31 AM        68,873,480 lucene-9.6.0.tgz
+05/21/2023  09:31 AM               853 lucene-9.6.0.tgz.asc
+05/21/2023  09:31 AM               146 lucene-9.6.0.tgz.sha512
+05/21/2023  09:32 AM        50,619,104 lucene-8.11.2-src.tgz
+05/21/2023  09:33 AM               833 lucene-8.11.2-src.tgz.asc
+05/21/2023  09:33 AM               152 lucene-8.11.2-src.tgz.sha512
+05/21/2023  10:14 AM        85,707,562 lucene-8.11.2.tgz
+05/21/2023  10:14 AM               833 lucene-8.11.2.tgz.asc
+05/21/2023  10:15 AM               148 lucene-8.11.2.tgz.sha512
+05/21/2023  10:15 AM        98,941,782 lucene-8.11.2.zip
+05/21/2023  10:16 AM               833 lucene-8.11.2.zip.asc
+05/21/2023  10:16 AM               148 lucene-8.11.2.zip.sha512
+05/21/2023  10:57 AM        98,358,036 jenkins.2.387.3.war
+05/21/2023  10:58 AM                66 jenkins.2.387.3.war.sha256
+05/21/2023  10:59 AM       104,505,344 jenkins.2.387.3.msi
+05/21/2023  11:09 AM        78,259,207 HTTPie-Setup-2023.2.4.exe
+05/21/2023  11:38 AM        12,188,374 apache-tomcat-9.0.75.zip
+05/21/2023  11:38 AM               833 apache-tomcat-9.0.75.zip.asc
+05/21/2023  11:38 AM               154 apache-tomcat-9.0.75.zip.sha512
+05/21/2023  11:39 AM        11,645,293 apache-tomcat-9.0.75.tar.gz
+05/21/2023  11:39 AM               833 apache-tomcat-9.0.75.tar.gz.asc
+05/21/2023  11:39 AM               157 apache-tomcat-9.0.75.tar.gz.sha512
+05/21/2023  11:39 AM        12,908,207 apache-tomcat-9.0.75-windows-x64.zip
+05/21/2023  11:39 AM               833 apache-tomcat-9.0.75-windows-x64.zip.asc
+05/21/2023  11:39 AM               166 apache-tomcat-9.0.75-windows-x64.zip.sha512
+05/21/2023  11:39 AM        12,450,736 apache-tomcat-9.0.75.exe
+05/21/2023  11:39 AM               833 apache-tomcat-9.0.75.exe.asc
+05/21/2023  11:39 AM               154 apache-tomcat-9.0.75.exe.sha512
+05/21/2023  11:43 AM        12,670,929 apache-tomcat-10.1.9.zip
+05/21/2023  11:43 AM               849 apache-tomcat-10.1.9.zip.asc
+05/21/2023  11:43 AM               154 apache-tomcat-10.1.9.zip.sha512
+05/21/2023  11:44 AM        12,115,190 apache-tomcat-10.1.9.tar.gz
+05/21/2023  11:44 AM               849 apache-tomcat-10.1.9.tar.gz.asc
+05/21/2023  11:44 AM               157 apache-tomcat-10.1.9.tar.gz.sha512
+05/21/2023  11:45 AM        13,810,389 apache-tomcat-10.1.9-windows-x64.zip
+05/21/2023  11:45 AM               849 apache-tomcat-10.1.9-windows-x64.zip.asc
+05/21/2023  11:45 AM               166 apache-tomcat-10.1.9-windows-x64.zip.sha512
+05/21/2023  11:45 AM        13,498,912 apache-tomcat-10.1.9.exe
+05/21/2023  11:45 AM               849 apache-tomcat-10.1.9.exe.asc
+05/21/2023  11:45 AM               154 apache-tomcat-10.1.9.exe.sha512
+05/21/2023  11:47 AM       778,742,392 ideaIU-2023.1.2.exe
+05/21/2023  11:48 AM                86 ideaIU-2023.1.2.exe.txt
+05/21/2023  11:49 AM     1,105,734,882 ideaIU-2023.1.2.win.zip
+05/21/2023  11:50 AM                90 ideaIU-2023.1.2.win.zip.txt
+05/21/2023  11:50 AM       663,994,680 ideaIC-2023.1.2.exe
+05/21/2023  11:52 AM                86 ideaIC-2023.1.2.exe.txt
+05/21/2023  11:52 AM       937,233,781 ideaIC-2023.1.2.win.zip
+05/21/2023  11:53 AM                90 ideaIC-2023.1.2.win.zip.txt
+05/21/2023  11:55 AM       521,054,240 pycharm-professional-2023.1.2.exe
+05/21/2023  11:56 AM               100 pycharm-professional-2023.1.2.exe.txt
+05/21/2023  11:57 AM       422,872,184 pycharm-community-2023.1.2.exe
+05/21/2023  11:58 AM                97 pycharm-community-2023.1.2.exe.txt
+             306 File(s) 42,261,765,025 bytes
+               6 Dir(s)  563,892,850,688 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
