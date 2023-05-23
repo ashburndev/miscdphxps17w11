@@ -1,0 +1,192 @@
+7:14 AM 5/23/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230523.txt
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>net localgroup
+
+Aliases for \\DPHXPS17
+
+-------------------------------------------------------------------------------
+*Access Control Assistance Operators
+*Administrators
+*Backup Operators
+*Cryptographic Operators
+*Device Owners
+*Distributed COM Users
+*docker-users
+*Event Log Readers
+*Guests
+*Hyper-V Administrators
+*IIS_IUSRS
+*Network Configuration Operators
+*Performance Log Users
+*Performance Monitor Users
+*Power Users
+*Remote Desktop Users
+*Remote Management Users
+*Replicator
+*System Managed Accounts Group
+*Users
+The command completed successfully.
+
+
+C:\Users\DavidHolberton>net localgroup docker-users
+Alias name     docker-users
+Comment        Users of Docker Desktop
+
+Members
+
+-------------------------------------------------------------------------------
+DavidHolberton
+The command completed successfully.
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>net users
+
+User accounts for \\DPHXPS17
+
+-------------------------------------------------------------------------------
+Administrator            DavidHolberton           DefaultAccount
+Guest                    WDAGUtilityAccount
+The command completed successfully.
+
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\Users\DavidHolberton>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>dir /o:gd Downloads | findstr /i "docker"
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docker-curriculum.com/
+
+
+docker run hello-world
+docker pull busybox
+docker images
+docker run busybox
+docker run busybox echo "hello from busybox"
+docker ps
+docker ps -a
+docker run -it busybox sh
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED              STATUS              PORTS     NAMES
+1b406d52fa08   busybox   "sh"      About a minute ago   Up About a minute             fervent_lumiere
+
+C:\Users\DavidHolberton>docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                      PORTS     NAMES
+1b406d52fa08   busybox       "sh"                     About a minute ago   Up About a minute                     fervent_lumiere
+e2d2cd60ef57   busybox       "echo 'hello from bu…"   5 minutes ago        Exited (0) 5 minutes ago              silly_bartik
+5b41e2cfebe9   busybox       "sh"                     6 minutes ago        Exited (0) 6 minutes ago              nice_herschel
+4ea7774f80c9   hello-world   "/hello"                 10 minutes ago       Exited (0) 10 minutes ago             compassionate_jones
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+719385e32844: Pull complete
+Digest: sha256:fc6cf906cbfa013e80938cdf0bb199fbdbb86d6e3e013783e5a766f50f5dbce0
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker pull busybox
+Using default tag: latest
+latest: Pulling from library/busybox
+325d69979d33: Pull complete
+Digest: sha256:560af6915bfc8d7630e50e212e08242d37b63bd5c1ccf9bd4acccf116e262d5b
+Status: Downloaded newer image for busybox:latest
+docker.io/library/busybox:latest
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker images
+REPOSITORY    TAG       IMAGE ID       CREATED       SIZE
+busybox       latest    8135583d97fe   3 days ago    4.86MB
+hello-world   latest    9c7a54a9a43c   2 weeks ago   13.3kB
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker run busybox
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker run busybox echo "hello from busybox"
+hello from busybox
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton>docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                          PORTS     NAMES
+e2d2cd60ef57   busybox       "echo 'hello from bu…"   About a minute ago   Exited (0) About a minute ago             silly_bartik
+5b41e2cfebe9   busybox       "sh"                     3 minutes ago        Exited (0) 3 minutes ago                  nice_herschel
+4ea7774f80c9   hello-world   "/hello"                 6 minutes ago        Exited (0) 6 minutes ago                  compassionate_jones
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker run -it busybox sh
+/ # ls
+bin    dev    etc    home   lib    lib64  proc   root   sys    tmp    usr    var
+/ # uptime
+ 11:31:37 up 17 min,  0 users,  load average: 0.00, 0.08, 0.08
+/ #
+/ #
+
+C:\Users\DavidHolberton>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton>docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS                      PORTS     NAMES
+1b406d52fa08   busybox       "sh"                     2 minutes ago    Exited (0) 16 seconds ago             fervent_lumiere
+e2d2cd60ef57   busybox       "echo 'hello from bu…"   5 minutes ago    Exited (0) 5 minutes ago              silly_bartik
+5b41e2cfebe9   busybox       "sh"                     7 minutes ago    Exited (0) 7 minutes ago              nice_herschel
+4ea7774f80c9   hello-world   "/hello"                 11 minutes ago   Exited (0) 11 minutes ago             compassionate_jones
+
+C:\Users\DavidHolberton>
+
