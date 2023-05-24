@@ -1,0 +1,83 @@
+7:05 AM 5/24/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230524.txt
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Device name	dphxps17
+Processor	11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   2.30 GHz
+Installed RAM	32.0 GB (31.7 GB usable)
+Device ID	4C1A418E-7353-426D-90BD-683D7C39E0B7
+Product ID	00355-60662-84407-AAOEM
+System type	64-bit operating system, x64-based processor
+Pen and touch	Touch support with 10 touch points
+
+Edition	Windows 11 Pro
+Version	22H2
+Installed on	2/19/2023
+OS build	22621.1702
+Experience	Windows Feature Experience Pack 1000.22641.1000.0
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>docker version
+Client:
+ Cloud integration: v1.0.31
+ Version:           23.0.5
+ API version:       1.42
+ Go version:        go1.19.8
+ Git commit:        bc4487a
+ Built:             Wed Apr 26 16:20:14 2023
+ OS/Arch:           windows/amd64
+ Context:           default
+
+Server: Docker Desktop 4.19.0 (106363)
+ Engine:
+  Version:          23.0.5
+  API version:      1.42 (minimum version 1.12)
+  Go version:       go1.19.8
+  Git commit:       94d3ad6
+  Built:            Wed Apr 26 16:17:45 2023
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.20
+  GitCommit:        2806fc1057397dbaeefbea0e4e17bddfbd388f38
+ runc:
+  Version:          1.1.5
+  GitCommit:        v1.1.5-0-gf19387a
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\Users\DavidHolberton>docker images
+REPOSITORY    TAG       IMAGE ID       CREATED       SIZE
+busybox       latest    8135583d97fe   4 days ago    4.86MB
+hello-world   latest    9c7a54a9a43c   2 weeks ago   13.3kB
+
+C:\Users\DavidHolberton>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton>docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED        STATUS                    PORTS     NAMES
+1b406d52fa08   busybox       "sh"                     24 hours ago   Exited (0) 24 hours ago             fervent_lumieree2d2cd60ef57   busybox       "echo 'hello from bu…"   24 hours ago   Exited (0) 24 hours ago             silly_bartik
+5b41e2cfebe9   busybox       "sh"                     24 hours ago   Exited (0) 24 hours ago             nice_herschel
+4ea7774f80c9   hello-world   "/hello"                 24 hours ago   Exited (0) 24 hours ago             compassionate_jones
+
+C:\Users\DavidHolberton>
+
+
