@@ -1,0 +1,1399 @@
+6:15 AM 6/1/2023
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ pwd
+/mnt/c/Users/DavidHolberton
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ date
+Thu Jun  1 06:31:25 EDT 2023
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ uname -a
+Linux dphxps17 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+
+
+
+
+
+
+C:\Users\DavidHolberton>git-bash
+'git-bash' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\DavidHolberton>bash
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jun  1 06:30:51 EDT 2023
+
+  System load:  0.0                Processes:             13
+  Usage of /:   0.6% of 250.98GB   Users logged in:       0
+  Memory usage: 7%                 IPv4 address for eth0: 172.18.15.106
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once a day. To disable it please create the
+/home/davidho/.hushlogin file.
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ pwd
+/mnt/c/Users/DavidHolberton
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ date
+Thu Jun  1 06:31:25 EDT 2023
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ uname -a
+Linux dphxps17 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ cd ~
+davidho@dphxps17:~$ pwd -P
+/home/davidho
+davidho@dphxps17:~$ ls
+a.txt  xyz.txt
+davidho@dphxps17:~$ ls -la
+total 48
+drwxr-xr-x 5 davidho davidho 4096 May 18 07:21 .
+drwxr-xr-x 3 root    root    4096 May 11  2022 ..
+lrwxrwxrwx 1 davidho davidho   32 May 18 07:21 .aws -> /mnt/c/Users/DavidHolberton/.aws
+lrwxrwxrwx 1 davidho davidho   34 May 18 07:21 .azure -> /mnt/c/Users/DavidHolberton/.azure
+-rw------- 1 davidho davidho  484 May 24 07:19 .bash_history
+-rw-r--r-- 1 davidho davidho  220 May 11  2022 .bash_logout
+-rw-r--r-- 1 davidho davidho 3771 May 11  2022 .bashrc
+drwxr-xr-x 3 davidho davidho 4096 May 16  2022 .config
+drwxr-xr-x 5 davidho davidho 4096 May 18 07:21 .docker
+drwxr-xr-x 2 davidho davidho 4096 May 11  2022 .landscape
+-rw-r--r-- 1 davidho davidho    0 Jun  1 06:30 .motd_shown
+-rw-r--r-- 1 davidho davidho  807 May 11  2022 .profile
+-rw-r--r-- 1 davidho davidho    0 May 17 06:24 .sudo_as_admin_successful
+-rw------- 1 davidho davidho 2310 May 16  2022 .viminfo
+-rw-r--r-- 1 davidho davidho 1809 May 11  2022 a.txt
+-rw-r--r-- 1 davidho davidho 3291 May 16  2022 xyz.txt
+davidho@dphxps17:~$
+davidho@dphxps17:~$ cd /mnt/c/Users/DavidHolberton
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ pwd -P
+/mnt/c/Users/DavidHolberton
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ ls -la
+total 9408
+drwxrwxrwx 1 davidho davidho     512 Jun  1 06:18  .
+dr-xr-xr-x 1 davidho davidho     512 Feb 19 19:16  ..
+drwxrwxrwx 1 davidho davidho     512 May 11  2022  .1password
+drwxrwxrwx 1 davidho davidho     512 May 18 07:21  .aws
+drwxrwxrwx 1 davidho davidho     512 May 18 07:21  .azure
+drwxrwxrwx 1 davidho davidho     512 May 17 07:35  .cache
+drwxrwxrwx 1 davidho davidho     512 May 24 07:02  .docker
+-rwxrwxrwx 1 davidho davidho      56 Dec 30 08:39  .gitconfig
+drwxrwxrwx 1 davidho davidho     512 May 17 07:15  .gradle
+-rwxrwxrwx 1 davidho davidho      20 May 18 08:00  .lesshst
+drwxrwxrwx 1 davidho davidho     512 May 17 06:59  .sonarlint
+drwxrwxrwx 1 davidho davidho     512 May 10 07:59  .ssh
+drwxrwxrwx 1 davidho davidho     512 May 17 07:07  .sts4
+drwxrwxrwx 1 davidho davidho     512 May 11  2022  .vscode
+drwxrwxrwx 1 davidho davidho     512 May 13 11:01  .vscode-cli
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:16  AppData
+lrwxrwxrwx 1 davidho davidho      43 Feb 19 19:16 'Application Data' -> /mnt/c/Users/DavidHolberton/AppData/Roaming
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Contacts
+lrwxrwxrwx 1 davidho davidho      71 Feb 19 19:16  Cookies -> /mnt/c/Users/DavidHolberton/AppData/Local/Microsoft/Windows/INetCookies
+drwxrwxrwx 1 davidho davidho     512 May 18 07:19  Desktop
+drwxrwxrwx 1 davidho davidho     512 Jun  1 06:15  Documents
+drwxrwxrwx 1 davidho davidho     512 Jun  1 06:14  Downloads
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Favorites
+drwxrwxrwx 1 davidho davidho     512 Jun  1 06:09  IntelGraphicsProfiles
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Links
+lrwxrwxrwx 1 davidho davidho      41 Feb 19 19:16 'Local Settings' -> /mnt/c/Users/DavidHolberton/AppData/Local
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Music
+lrwxrwxrwx 1 davidho davidho      37 Feb 19 19:16 'My Documents' -> /mnt/c/Users/DavidHolberton/Documents
+-rwxrwxrwx 1 davidho davidho 5242880 May 14 02:11  NTUSER.DAT
+-rwxrwxrwx 1 davidho davidho   65536 Feb 19 19:16  NTUSER.DAT{98b3f545-b0b3-11ed-8caa-00e04c68f11e}.TM.blf
+-rwxrwxrwx 1 davidho davidho  524288 Feb 19 19:16  NTUSER.DAT{98b3f545-b0b3-11ed-8caa-00e04c68f11e}.TMContainer00000000000000000001.regtrans-ms
+-rwxrwxrwx 1 davidho davidho  524288 Feb 19 19:16  NTUSER.DAT{98b3f545-b0b3-11ed-8caa-00e04c68f11e}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 davidho davidho      79 Feb 19 19:16  NetHood -> '/mnt/c/Users/DavidHolberton/AppData/Roaming/Microsoft/Windows/Network Shortcuts'
+drwxrwxrwx 1 davidho davidho     512 May 11  2022  OneDrive
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Pictures
+lrwxrwxrwx 1 davidho davidho      79 Feb 19 19:16  PrintHood -> '/mnt/c/Users/DavidHolberton/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'
+lrwxrwxrwx 1 davidho davidho      68 Feb 19 19:16  Recent -> /mnt/c/Users/DavidHolberton/AppData/Roaming/Microsoft/Windows/Recent
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20 'Saved Games'
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Searches
+lrwxrwxrwx 1 davidho davidho      68 Feb 19 19:16  SendTo -> /mnt/c/Users/DavidHolberton/AppData/Roaming/Microsoft/Windows/SendTo
+lrwxrwxrwx 1 davidho davidho      72 Feb 19 19:16 'Start Menu' -> '/mnt/c/Users/DavidHolberton/AppData/Roaming/Microsoft/Windows/Start Menu'
+lrwxrwxrwx 1 davidho davidho      71 Feb 19 19:16  Templates -> /mnt/c/Users/DavidHolberton/AppData/Roaming/Microsoft/Windows/Templates
+drwxrwxrwx 1 davidho davidho     512 Feb 19 19:20  Videos
+-rwxrwxrwx 1 davidho davidho    3226 May 16  2022  abc.txt
+drwxrwxrwx 1 davidho davidho     512 Dec 26 15:14  ebooks
+-rwxrwxrwx 1 davidho davidho 1089536 Feb 19 19:16  ntuser.dat.LOG1
+-rwxrwxrwx 1 davidho davidho 2179072 Feb 19 19:16  ntuser.dat.LOG2
+-rwxrwxrwx 1 davidho davidho      20 Feb 19 19:20  ntuser.ini
+drwxrwxrwx 1 davidho davidho     512 May 15 07:14  repos
+drwxrwxrwx 1 davidho davidho     512 Mar 18 13:20  sandisk-ixpand-256gb
+drwxrwxrwx 1 davidho davidho     512 Jun  1 06:19  sbprojs
+drwxrwxrwx 1 davidho davidho     512 Apr 18 07:56  temp
+-rwxrwxrwx 1 davidho davidho    3291 May 16  2022  xyz.txt
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+
+C:\Users\DavidHolberton>rmdir /s /q .gradle
+C:\Users\DavidHolberton>cd sbprojs\demo
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew bootRun
+
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew bootRun
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+...........10%............20%...........30%............40%............50%...........60%............70%............80%...........90%............100%
+
+Welcome to Gradle 7.6.1!
+
+Here are the highlights of this release:
+ - Added support for Java 19.
+ - Introduced `--rerun` flag for individual task rerun.
+ - Improved dependency block for test suites to be strongly typed.
+ - Added a pluggable system for Java toolchains provisioning.
+
+For more details see https://docs.gradle.org/7.6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.7)
+
+2023-06-01T06:57:41.322-04:00  INFO 36916 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 36916 (C:\Users\DavidHolberton\sbprojs\demo\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\demo)
+2023-06-01T06:57:41.322-04:00  INFO 36916 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-06-01T06:57:41.693-04:00  INFO 36916 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01T06:57:41.693-04:00  INFO 36916 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-06-01T06:57:42.038-04:00  INFO 36916 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01T06:57:42.054-04:00  INFO 36916 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01T06:57:42.054-04:00  INFO 36916 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-01T06:57:42.117-04:00  INFO 36916 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01T06:57:42.117-04:00  INFO 36916 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2023-06-01T06:57:42.196-04:00  INFO 36916 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01T06:57:42.306-04:00  INFO 36916 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:12254c2b-9cd4-4960-b739-06c40a975069 user=SA
+2023-06-01T06:57:42.306-04:00  INFO 36916 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01T06:57:42.337-04:00  INFO 36916 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01T06:57:42.370-04:00  INFO 36916 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-01T06:57:42.543-04:00  INFO 36916 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-01T06:57:42.724-04:00  INFO 36916 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01T06:57:42.732-04:00  INFO 36916 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01T06:57:42.749-04:00  WARN 36916 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-01T06:57:43.124-04:00  INFO 36916 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01T06:57:43.124-04:00  INFO 36916 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 2.04 seconds (process running for 3.333)
+<==========---> 80% EXECUTING [2m 11s]
+<==========---> 80% EXECUTING [2m 49s]
+> IDLE
+> IDLE
+> :bootRun
+> IDLE
+
+Terminate batch job (Y/N)? y
+
+C:\Users\DavidHolberton\sbprojs\demo>
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew tasks
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'demo'
+------------------------------------------------------------
+
+Application tasks
+-----------------
+bootRun - Runs this project as a Spring Boot application.
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+bootBuildImage - Builds an OCI image of the application using the output of the bootJar task
+bootJar - Assembles an executable jar archive containing the main classes and their dependencies.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+jar - Assembles a jar archive containing the main classes.
+resolveMainClassName - Resolves the name of the application's main class.
+testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the main source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'demo'.
+dependencies - Displays all dependencies declared in root project 'demo'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'demo'.
+dependencyManagement - Displays the dependency management declared in root project 'demo'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'demo'.
+projects - Displays the sub-projects of root project 'demo'.
+properties - Displays the properties of root project 'demo'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'demo'.
+tasks - Displays the tasks runnable from root project 'demo'.
+
+Verification tasks
+------------------
+check - Runs all checks.
+test - Runs the test suite.
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+C:\Users\DavidHolberton\sbprojs\demo>
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew projects
+
+> Task :projects
+
+------------------------------------------------------------
+Root project 'demo'
+------------------------------------------------------------
+
+Root project 'demo'
+No sub-projects
+
+To see a list of the tasks of a project, run gradlew <project-path>:tasks
+For example, try running gradlew :tasks
+
+BUILD SUCCESSFUL in 796ms
+1 actionable task: 1 executed
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew properties
+
+> Task :properties
+
+------------------------------------------------------------
+Root project 'demo'
+------------------------------------------------------------
+
+allprojects: [root project 'demo']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@6e4bbff1
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@12b1626b
+archivesBaseName: demo
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@296e52ee
+asDynamicObject: DynamicObject for root project 'demo'
+autoTargetJvmDisabled: false
+base: extension 'base'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@6877311d
+buildDir: C:\Users\DavidHolberton\sbprojs\demo\build
+buildFile: C:\Users\DavidHolberton\sbprojs\demo\build.gradle
+buildPath: :
+buildScriptSource: org.gradle.groovy.scripts.TextResourceScriptSource@5b70afd5
+buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler@42cb3cea
+childProjects: {}
+class: class org.gradle.api.internal.project.DefaultProject_Decorated
+classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@23fc0a93
+clean: task ':clean'
+components: SoftwareComponentInternal set
+configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@19e9ef7f
+configurationTargetIdentifier: org.gradle.configuration.ConfigurationTargetIdentifier$1@4847da86
+configurations: configuration container
+convention: org.gradle.internal.extensibility.DefaultConvention@1697ca5c
+crossProjectModelAccess: org.gradle.api.internal.project.DefaultCrossProjectModelAccess@da08808
+defaultArtifacts: extension 'defaultArtifacts'
+defaultTasks: []
+deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@5be40cd4
+dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@2d816ec4
+dependencyFactory: org.gradle.api.internal.artifacts.DefaultDependencyFactory@5ec8402
+dependencyLocking: org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@c05bc7f
+dependencyManagement: io.spring.gradle.dependencymanagement.internal.dsl.StandardDependencyManagementExtension@777c8387
+dependencyMetaDataProvider: org.gradle.internal.service.scopes.ProjectScopeServices$ProjectBackedModuleMetaDataProvider@51ad34e2
+depth: 0
+description: null
+detachedState: false
+displayName: root project 'demo'
+distsDirName: distributions
+distsDirectory: extension 'base' property 'distsDirectory'
+docsDir: C:\Users\DavidHolberton\sbprojs\demo\build\docs
+docsDirName: docs
+ext: org.gradle.internal.extensibility.DefaultExtraPropertiesExtension@30806641
+extensions: org.gradle.internal.extensibility.DefaultConvention@1697ca5c
+fileOperations: org.gradle.api.internal.file.DefaultFileOperations@11c7d26a
+fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@2340b6e
+gradle: build 'demo'
+group: com.example
+identityPath: :
+inheritedScope: org.gradle.internal.extensibility.ExtensibleDynamicObject$InheritedDynamicObject@3a0635ee
+internalStatus: property(java.lang.Object, fixed(class java.lang.String, integration))
+java: extension 'java'
+javaToolchains: extension 'javaToolchains'
+layout: org.gradle.api.internal.file.DefaultProjectLayout@907fe81
+libsDirName: libs
+libsDirectory: extension 'base' property 'libsDirectory'
+listenerBuildOperationDecorator: org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@267c2949
+logger: org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@4313993
+logging: org.gradle.internal.logging.services.DefaultLoggingManager@f13d5be
+model: root project 'demo'
+modelIdentityDisplayName: null
+modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@39d6c12b
+name: demo
+normalization: org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@7e278139
+objects: org.gradle.api.internal.model.DefaultObjectFactory@7357d2cf
+owner: root project 'demo'
+parent: null
+parentIdentifier: null
+path: :
+pluginContext: false
+pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@62f8573e
+plugins: [org.gradle.api.plugins.HelpTasksPlugin@420aedd0, org.gradle.buildinit.plugins.BuildInitPlugin@6998d4fe, org.gradle.buildinit.plugins.WrapperPlugin@dfe0390, org.gradle.language.base.plugins.LifecycleBasePlugin@4c61f496, org.gradle.api.plugins.BasePlugin@315c3dc7, org.gradle.api.plugins.JvmEcosystemPlugin@35125583, org.gradle.api.plugins.ReportingBasePlugin@7c8c54fb, org.gradle.api.plugins.JvmToolchainsPlugin@4218fe07, org.gradle.api.plugins.JavaBasePlugin$Inject@4646de19, org.gradle.testing.base.plugins.TestSuiteBasePlugin@692667e, org.gradle.api.plugins.JvmTestSuitePlugin@62834a1, org.gradle.api.plugins.JavaPlugin@2be1ea53, org.springframework.boot.gradle.plugin.SpringBootPlugin@29a5ac28, io.spring.gradle.dependencymanagement.DependencyManagementPlugin@1c6035ea]
+processOperations: org.gradle.process.internal.DefaultExecActionFactory$DecoratingExecActionFactory@6d280dd3
+project: root project 'demo'
+projectConfigurator: org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@2f447706
+projectDir: C:\Users\DavidHolberton\sbprojs\demo
+projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@62c8098b
+projectPath: :
+properties: {...}
+providers: org.gradle.api.internal.provider.DefaultProviderFactory_Decorated@42a9f34b
+publicType: org.gradle.api.plugins.BasePluginConvention
+reporting: extension 'reporting'
+reportsDir: C:\Users\DavidHolberton\sbprojs\demo\build\reports
+repositories: repository container
+resources: org.gradle.api.internal.resources.DefaultResourceHandler@6f423858
+rootDir: C:\Users\DavidHolberton\sbprojs\demo
+rootProject: root project 'demo'
+rootScript: false
+script: false
+scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@63328ef1
+scriptPluginFactory: org.gradle.configuration.ScriptPluginFactorySelector@4114474d
+serviceRegistryFactory: org.gradle.internal.service.scopes.ProjectScopeServices$$Lambda$1325/0x0000000801570f80@4caad78f
+services: ProjectScopeServices
+sourceCompatibility: 17
+sourceSets: SourceSet container
+springBoot: extension 'springBoot'
+standardOutputCapture: org.gradle.internal.logging.services.DefaultLoggingManager@f13d5be
+state: project state 'EXECUTED'
+status: integration
+subprojects: []
+targetCompatibility: 17
+taskThatOwnsThisObject: null
+tasks: task set
+testReportDir: C:\Users\DavidHolberton\sbprojs\demo\build\reports\tests
+testReportDirName: tests
+testResultsDir: C:\Users\DavidHolberton\sbprojs\demo\build\test-results
+testResultsDirName: test-results
+testing: extension 'testing'
+version: 0.0.1-SNAPSHOT
+
+BUILD SUCCESSFUL in 896ms
+1 actionable task: 1 executed
+C:\Users\DavidHolberton\sbprojs\demo>
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 7.6.1
+------------------------------------------------------------
+
+Build time:   2023-02-24 13:54:42 UTC
+Revision:     3905fe8ac072bbd925c70ddbddddf4463341f4b4
+
+Kotlin:       1.7.10
+Groovy:       3.0.13
+Ant:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\demo>
+C:\Users\DavidHolberton\sbprojs\demo>cd ..\..\.gradle
+
+C:\Users\DavidHolberton\.gradle>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.gradle
+
+06/01/2023  06:54 AM    <DIR>          ..
+06/01/2023  06:54 AM    <DIR>          wrapper
+06/01/2023  06:55 AM    <DIR>          notifications
+06/01/2023  06:55 AM    <DIR>          daemon
+06/01/2023  06:55 AM    <DIR>          native
+06/01/2023  06:56 AM    <DIR>          caches
+06/01/2023  06:56 AM    <DIR>          .
+06/01/2023  06:56 AM    <DIR>          jdks
+06/01/2023  07:04 AM    <DIR>          .tmp
+               0 File(s)              0 bytes
+               9 Dir(s)  557,608,710,144 bytes free
+
+C:\Users\DavidHolberton\.gradle>
+C:\Users\DavidHolberton\.gradle>dir /o:gd caches
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.gradle\caches
+
+06/01/2023  06:56 AM    <DIR>          transforms-3
+06/01/2023  06:56 AM    <DIR>          7.6.1
+06/01/2023  06:56 AM    <DIR>          journal-1
+06/01/2023  06:56 AM    <DIR>          .
+06/01/2023  06:56 AM    <DIR>          modules-2
+06/01/2023  06:56 AM    <DIR>          ..
+06/01/2023  06:56 AM    <DIR>          jars-9
+               0 File(s)              0 bytes
+               7 Dir(s)  557,608,226,816 bytes free
+
+C:\Users\DavidHolberton\.gradle>
+C:\Users\DavidHolberton\.gradle>bash
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/.gradle$ find . -name "*.jar" -print
+./caches/jars-9/22072d2755b7bd62417cba43dd2da7d0/antlr4-runtime-4.7.2.jar
+./caches/jars-9/2f450affeee4d544708ee07730100b13/jackson-module-parameter-names-2.14.3.jar
+./caches/jars-9/3d4652676b27d15a745b32182f624f49/httpclient-4.5.14.jar
+./caches/jars-9/4462b21798dc1febb501445f478ffbf3/spring-core-6.0.9.jar
+./caches/jars-9/524b51cc3f004dea6e24538e89fba7cb/jackson-core-2.14.3.jar
+./caches/jars-9/59a70858f0b215b4182e0456fb27f5d5/spring-boot-buildpack-platform-3.0.7.jar
+./caches/jars-9/71aaadaa0129d8da9d0bf6d04ee962aa/httpcore-4.4.16.jar
+./caches/jars-9/75a4821c881ee731e737d0ff9bf68d58/jna-5.7.0.jar
+./caches/jars-9/76b7306c9397394dd716f7b93866b1e2/jackson-annotations-2.14.3.jar
+./caches/jars-9/776b18e8a7f52a586de80c7369791024/dependency-management-plugin-1.1.0.jar
+./caches/jars-9/920071fd5e1b79a75a292b6bfc9539a2/jackson-databind-2.14.3.jar
+./caches/jars-9/95d72eea6c2ea6adfa206a2f177a234e/commons-codec-1.11.jar
+./caches/jars-9/9944ade267db1f6c9ae38637c67845ab/tomlj-1.0.0.jar
+./caches/jars-9/afcbecff312fa97a1b539a3cded7a0ab/jsr305-3.0.2.jar
+./caches/jars-9/b71893322a50aef7df912031fc0b8401/proj.jar
+./caches/jars-9/d5b1317e442214ff9b041795a067a14d/spring-jcl-6.0.9.jar
+./caches/jars-9/d984b9b6f08d1b4bf36be35bdbeb1863/settings.jar
+./caches/jars-9/e0bdb2bec390fd5865671278baec47f0/cp_proj.jar
+./caches/jars-9/e6f1cce5d4d3b991eb75ea3e8c447c4f/cp_settings.jar
+./caches/jars-9/e8020d1a0a6016870d5903d476c7cd46/spring-boot-gradle-plugin-3.0.7.jar
+./caches/jars-9/ec263772e68774f40ae8125f827a73bb/commons-compress-1.21.jar
+./caches/jars-9/fb6c1b2b84906437ab4995996c3e3900/jna-platform-5.7.0.jar
+./caches/jars-9/feee8fd0328224754bd60183028d37a5/spring-boot-loader-tools-3.0.7.jar
+./caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.7/307944865579a6d490e6a4cbb5082dc8f36536ca/logback-classic-1.4.7.jar
+./caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.7/a2948dae4013d0e9486141b4d638d8951becb767/logback-core-1.4.7.jar
+./caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed568c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.3/b49701acb02b8e95ae1967821cfbafc220cf5795/jackson-annotations-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.3/4fa101f81504ed6811bf1823270adb51a9b45ff3/jackson-core-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.3/ba0373b04bf0f03b0cd268cd2e5e8444aaaf9208/jackson-databind-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.14.3/9474ab543a65867461f8326c8fa0494b3efc761/jackson-datatype-jdk8-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.14.3/35f7f751c3555dadccb6f173f9ac1e035a648da3/jackson-datatype-jsr310-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.14.3/fa8f81ea27d89cf73539bbc72c6304a30bcab631/jackson-module-parameter-names-2.14.3.jar
+./caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar
+./caches/modules-2/files-2.1/com.h2database/h2/2.1.214/d5c2005c9e3279201e12d4776c948578b16bf8b2/h2-2.1.214.jar
+./caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.7.0/f9d7d9659f2694e61142046ff8a216c047f263e8/json-path-2.7.0.jar
+./caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.1/9b3769c76235bc283b060da4fae2318c6d53f07e/istack-commons-runtime-4.1.1.jar
+./caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/a74c7f0a37046846e88d54f7cb6ea6d565c65f9c/HikariCP-5.0.1.jar
+./caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar
+./caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.10.7/9c90b47bd3ef6758301f1882506acc332fa27329/micrometer-commons-1.10.7.jar
+./caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.10.7/69f51c7bdcf90e45d3f2dfa957b35dfe892b7466/micrometer-observation-1.10.7.jar
+./caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.1.0/65bfc76ad5dc4f1d101b559c05c1ec7eb07ed1cc/dependency-management-plugin-1.1.0.jar
+./caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.2/640c0d5aff45dbff1e1a1bc09673ff3a02b1ba12/jakarta.activation-api-2.1.2.jar
+./caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar
+./caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.0/46fc8560b6fd17b78396d88f39c1a730457671f0/jakarta.inject-api-2.0.0.jar
+./caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar
+./caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.1/51a520e3fae406abb84e2e1148e6746ce3f80a1a/jakarta.transaction-api-2.0.1.jar
+./caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.0/bbb399208d288b15ec101fa4fcfc4bd77cedc97a/jakarta.xml.bind-api-4.0.0.jar
+./caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.12.23/d470526e8c4566c04e9ae5d3ccb62d1a7aa58986/byte-buddy-1.12.23.jar
+./caches/modules-2/files-2.1/net.java.dev.jna/jna/5.7.0/a04e3db7cf0011d1b6a4bcfaee30ab20f077014b/jna-5.7.0.jar
+./caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.7.0/7b3683e4fceb28433c1365250dbc1f58e4c1df2c/jna-platform-5.7.0.jar
+./caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.11/245ceca7bdf3190fbb977045c852d5f3c8efece1/accessors-smart-2.4.11.jar
+./caches/modules-2/files-2.1/net.minidev/json-smart/2.4.11/cc5888f14a5768f254b97bafe8b9fd29b31e872e/json-smart-2.4.11.jar
+./caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.10.1/10839f875928f59c622d675091d51a43ea0dc5f7/antlr4-runtime-4.10.1.jar
+./caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7.2/e27d8ab4f984f9d186f54da984a6ab1cccac755e/antlr4-runtime-4.7.2.jar
+./caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar
+./caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/1194890e6f56ec29177673f2f12d0b8e627dec98/httpclient-4.5.14.jar
+./caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar
+./caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.19.0/ea1b37f38c327596b216542bc636cfdc0b8036fa/log4j-api-2.19.0.jar
+./caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.19.0/30f4812e43172ecca5041da2cb6b965cc4777c19/log4j-to-slf4j-2.19.0.jar
+./caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/10.1.8/ec4b884806c65c80c86bb3db134f6f6f99e79ed8/tomcat-embed-core-10.1.8.jar
+./caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/10.1.8/6f3a4ae2ae37270eeb6e9bec4e7207facdc9e8fa/tomcat-embed-el-10.1.8.jar
+./caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/10.1.8/7abb8ab966dd135924c8e69cb2f1db735dee5f23/tomcat-embed-websocket-10.1.8.jar
+./caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.19/afbffb1210239fbba5cad73093c5b216d515838f/aspectjweaver-1.9.19.jar
+./caches/modules-2/files-2.1/org.atteo/evo-inflector/1.3/4cf8b5f363c60e63f8b7688ac053590460f2768e/evo-inflector-1.3.jar
+./caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.0/72369f4e2314d38de2dcbb277141ef0226f73151/angus-activation-2.0.0.jar
+./caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/4.0.2/8c29249f6c10f4ee08967783831580b0f5c5360/jaxb-core-4.0.2.jar
+./caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4.0.2/e4e4e0c5b0d42054d00dc4023901572a60d368c7/jaxb-runtime-4.0.2.jar
+./caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.2/24e167be69c29ebb7ee0a3b1f9b546f1dfd111fc/txw2-4.0.2.jar
+./caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/77a5f94b56d49508e0ee334751db5b78e5ccd50c/hibernate-commons-annotations-6.0.6.Final.jar
+./caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.1.7.Final/343f47b34c96fe9c44bf9b219a7b3c5d6d2fc90e/hibernate-core-6.1.7.Final.jar
+./caches/modules-2/files-2.1/org.jboss/jandex/2.4.2.Final/1e1c385990b258ff1a24c801e84aebbacf70eb39/jandex-2.4.2.Final.jar
+./caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.5.0.Final/c19307cc11f28f5e2679347e633a3294d865334d/jboss-logging-3.5.0.Final.jar
+./caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/8e6300ef51c1d801a7ed62d07cd221aca3a90640/asm-9.3.jar
+./caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.7/a48f44aeaa8a5ddc347007298a28173ac1fbbd8b/jul-to-slf4j-2.0.7.jar
+./caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.7/41eb7184ea9d556f23e18b5cb99cad1f8581fc00/slf4j-api-2.0.7.jar
+./caches/modules-2/files-2.1/org.springframework/spring-aop/6.0.9/8c1025bf9c1dc66f5268639866b5a45ed9bc62ef/spring-aop-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-aspects/6.0.9/3b06099725350189816fcfad01834450378500ca/spring-aspects-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-beans/6.0.9/745619eee32c8ead88a21c97748d2416f1db8dd9/spring-beans-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-context/6.0.9/be88c57829b9ec038774b47c241ac45673352a55/spring-context-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/284ed111fa0b49b29f6fea6ac0afa402b809e427/spring-core-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-expression/6.0.9/f50a1df7ed038ee7ca85528aff652cef4ff4883b/spring-expression-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-jcl/6.0.9/88d9ddfc6bbbf4047c2a8de8de94a425b06f636a/spring-jcl-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-jdbc/6.0.9/814fe718b4d17187081c8efa66aaad7754d4675b/spring-jdbc-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-orm/6.0.9/b211685d9f7499402b74f02a5b32447032095ac6/spring-orm-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-tx/6.0.9/89818f4cc656107709d3db6b238ed9b776d3dbb4/spring-tx-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-web/6.0.9/2837dec8a75ecfdad367d6c30ce9cbdfc89caa7a/spring-web-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-webmvc/6.0.9/e127c07a23403832d0c6292f4a0bf8c7a2b7329f/spring-webmvc-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.0.7/7e31cd733c6469feaefb32a5dd473e096967eb16/spring-boot-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.0.7/fbc10086bb6d89e1e1d345ba4dbdd4917bc52362/spring-boot-autoconfigure-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-buildpack-platform/3.0.7/1d6b03a1baa25814dbd850b56f5255508dad8a4e/spring-boot-buildpack-platform-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/3.0.7/8f1fe103d485f103addd3190ca1aa19276d86d3a/spring-boot-gradle-plugin-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/3.0.7/fa57ca8376dc4c3b740ffee0b6e8d1297afa9af/spring-boot-loader-tools-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.0.7/5fe8a6a2e71bbfce6ab717214bb8b7d0e726ccda/spring-boot-starter-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/3.0.7/8ed272d1ea64fd34b25e272426a61c1381251679/spring-boot-starter-aop-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/3.0.7/29ed7c24fd710adb11c216840860045946b7fa3e/spring-boot-starter-data-jpa-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-rest/3.0.7/33e59e37c2125058749160d4175ae931ff09d1ef/spring-boot-starter-data-rest-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/3.0.7/bf69e667f79b929b41c5bf1d3921befea6f5c83d/spring-boot-starter-jdbc-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/3.0.7/31f75f791f960d75e4792124ddf6e67763ebb4a8/spring-boot-starter-json-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.0.7/df7589cb2aa1aa85383c8cb213ab02a87eb6ad4/spring-boot-starter-logging-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/3.0.7/b2c4286c147c72cb3885981911128dd79ebb59c2/spring-boot-starter-tomcat-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/3.0.7/6fd83cc63305158f43e1ccb5d218cb64a5a07306/spring-boot-starter-web-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.0.6/2a21a3427cfedadb68412a7c3a8fc0f36af7977d/spring-data-commons-3.0.6.jar
+./caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/3.0.6/8cb5c5f4fbeec3291051eccec948142ed57e4de2/spring-data-jpa-3.0.6.jar
+./caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-core/4.0.6/f8502d496cea307f25225b7a3d178fad25627923/spring-data-rest-core-4.0.6.jar
+./caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/4.0.6/4d7479654d7946f1cfa1c32ef852250f766f8a13/spring-data-rest-webmvc-4.0.6.jar
+./caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/2.0.4/22e6a416eea4612d249e1a1143e2e18ce56c4207/spring-hateoas-2.0.4.jar
+./caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/3.0.0/d56aa02dd7272dca30aa598dc8b72e823227046a/spring-plugin-core-3.0.0.jar
+./caches/modules-2/files-2.1/org.tomlj/tomlj/1.0.0/d1922fb5e672e04d8e8d8dac0b058b1897e6e940/tomlj-1.0.0.jar
+./caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/2cd0a87ff7df953f810c344bdf2fe3340b954c69/snakeyaml-1.33.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/annotations-20.1.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-1.10.11.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-antlr-1.10.12.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-junit-1.10.12.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-launcher-1.10.11.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/antlr4-runtime-4.7.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-analysis-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-commons-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-tree-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/commons-compress-1.21.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/commons-io-2.11.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/commons-lang-2.6.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/failureaccess-1.0.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/fastutil-8.5.2-min.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-linux-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-linux-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-osx-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-osx-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-amd64-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-i386-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-i386-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-api-metadata-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-base-annotations-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-base-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-base-services-groovy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-bootstrap-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-cache-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-cache-base-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-cache-packaging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-events-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-operations-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-option-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-cli-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-core-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-core-api-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-enterprise-logging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-enterprise-operations-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-enterprise-workers-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-execution-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-file-collections-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-file-temp-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-file-watching-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-files-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-functional-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-hashing-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-installation-beacon-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-jvm-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-kotlin-dsl-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-kotlin-dsl-tooling-models-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-launcher-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-logging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-logging-api-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-messaging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-model-core-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-model-groovy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-normalization-java-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-persistent-cache-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-problems-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-process-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-resources-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-runtime-api-info-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-snapshots-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-tooling-api-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-worker-processes-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-worker-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-wrapper-shared-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-ant-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-astbuilder-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-console-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-datetime-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-dateutil-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-docgenerator-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-groovydoc-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-json-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-nio-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-sql-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-swing-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-templates-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-test-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-xml-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/guava-31.1-jre.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/hamcrest-core-1.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jansi-1.18.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/javaparser-core-3.17.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/javax.inject-1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jcl-over-slf4j-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jna-5.10.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jsr305-3.0.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jul-to-slf4j-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/junit-4.13.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-compiler-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-daemon-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-reflect-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-sam-with-receiver-compiler-plugin-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-script-runtime-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-common-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-compiler-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-compiler-impl-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-jvm-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-jvm-host-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-common-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-jdk7-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-jdk8-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlinx-metadata-jvm-0.5.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kryo-2.24.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/log4j-over-slf4j-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/minlog-1.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-freebsd-amd64-libcpp-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-aarch64-ncurses5-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-aarch64-ncurses6-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-amd64-ncurses5-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-amd64-ncurses6-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-osx-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-osx-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-amd64-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-i386-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-i386-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/objenesis-2.6.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-core-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-kms-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-s3-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-sts-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bcpg-jdk15on-1.68.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bcpkix-jdk15on-1.68.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bcprov-jdk15on-1.68.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bsh-2.0b6.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/capsule-0.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/commons-codec-1.15.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/dd-plist-1.21.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-api-client-1.34.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-api-services-storage-v1-rev20220705-1.32.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-http-client-1.42.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-http-client-apache-v2-1.42.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-http-client-gson-1.42.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-oauth-client-1.34.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-antlr-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-build-cache-http-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-build-init-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-build-profile-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-code-quality-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-composite-builds-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-configuration-cache-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-dependency-management-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-diagnostics-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ear-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-enterprise-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ide-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ide-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ivy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-jacoco-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-java-compiler-plugin-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-kotlin-dsl-provider-plugins-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-kotlin-dsl-tooling-builders-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-groovy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-java-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-jvm-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-maven-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-platform-base-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-platform-jvm-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-platform-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-plugin-development-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-plugin-use-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-plugins-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-publish-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-reporting-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-gcs-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-http-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-s3-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-sftp-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-scala-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-security-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-signing-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-test-kit-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-base-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-junit-platform-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-jvm-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-tooling-api-builders-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-tooling-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-version-control-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-workers-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-wrapper-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/grpc-context-1.27.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gson-2.8.9.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/httpclient-4.5.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/httpcore-4.4.14.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/ion-java-1.0.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/ivy-2.3.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jackson-annotations-2.13.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jackson-core-2.13.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jackson-databind-2.13.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jakarta.activation-2.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jakarta.xml.bind-api-3.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jatl-0.2.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jaxb-core-3.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jaxb-impl-3.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jcifs-1.3.17.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jcommander-1.78.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jmespath-java-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/joda-time-2.10.4.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jsch-0.1.55.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jsoup-1.15.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/junit-platform-commons-1.8.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/junit-platform-engine-1.8.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/junit-platform-launcher-1.8.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jzlib-1.1.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-builder-support-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-model-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-repository-metadata-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-settings-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-settings-builder-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/opencensus-api-0.31.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/opencensus-contrib-http-util-0.31.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/opentest4j-1.2.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/org.eclipse.jgit-5.7.0.202003110725-r.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-cipher-1.7.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-interpolation-1.26.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-sec-dispatcher-1.4.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-utils-3.3.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/snakeyaml-1.32.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/testng-6.3.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/qdox-1.12.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/slf4j-api-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/tomlj-1.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/trove4j-1.0.20200330.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/xml-apis-1.4.01.jar
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/.gradle$
+
+C:\Users\DavidHolberton>rmdir /s /q .gradle
+
+C:\Users\DavidHolberton>mkdir LocalApps
+
+C:\Users\DavidHolberton>mkdir LocalApps\.gradle
+
+C:\Users\DavidHolberton>
+
+
+
+= = = = = 
+
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>echo %GRADLE_OPTS%
+-Dgradle.user.homt=C:\LocalApps\.gradle
+
+C:\Users\DavidHolberton>mkdir \LocalApps\.gradle
+C:\Users\DavidHolberton>dir /o:gd \LocalApps
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/01/2023  07:33 AM    <DIR>          .gradle
+06/01/2023  07:33 AM    <DIR>          .
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+               2 File(s)  1,211,322,672 bytes
+               9 Dir(s)  557,974,859,776 bytes free
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>rmdir /s /q .gradle
+
+C:\Users\DavidHolberton>cd sbprojs\demo
+
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew bootRun
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+...........10%............20%...........30%............40%............50%...........60%............70%............80%...........90%............100%
+
+Welcome to Gradle 7.6.1!
+
+Here are the highlights of this release:
+ - Added support for Java 19.
+ - Introduced `--rerun` flag for individual task rerun.
+ - Improved dependency block for test suites to be strongly typed.
+ - Added a pluggable system for Java toolchains provisioning.
+
+For more details see https://docs.gradle.org/7.6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.7)
+
+2023-06-01T07:42:10.095-04:00  INFO 26980 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 26980 (C:\Users\DavidHolberton\sbprojs\demo\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\demo)
+2023-06-01T07:42:10.095-04:00  INFO 26980 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-06-01T07:42:10.474-04:00  INFO 26980 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01T07:42:10.474-04:00  INFO 26980 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-06-01T07:42:10.829-04:00  INFO 26980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01T07:42:10.838-04:00  INFO 26980 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01T07:42:10.838-04:00  INFO 26980 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-01T07:42:10.908-04:00  INFO 26980 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01T07:42:10.908-04:00  INFO 26980 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2023-06-01T07:42:10.971-04:00  INFO 26980 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-01T07:42:11.096-04:00  INFO 26980 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:796e267b-e7a6-4c3c-9a87-46ab342fc817 user=SA
+2023-06-01T07:42:11.096-04:00  INFO 26980 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-01T07:42:11.128-04:00  INFO 26980 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01T07:42:11.159-04:00  INFO 26980 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-01T07:42:11.348-04:00  INFO 26980 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-01T07:42:11.521-04:00  INFO 26980 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01T07:42:11.521-04:00  INFO 26980 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01T07:42:11.552-04:00  WARN 26980 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-01T07:42:11.929-04:00  INFO 26980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01T07:42:11.929-04:00  INFO 26980 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 2.069 seconds (process running for 3.391)
+<==========---> 80% EXECUTING [1m 55s]
+> IDLE
+> IDLE
+> :bootRun
+> IDLE
+Terminate batch job (Y/N)? y
+
+C:\Users\DavidHolberton\sbprojs\demo>
+
+
+
+C:\LocalApps>
+C:\LocalApps>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/01/2023  07:33 AM    <DIR>          .
+06/01/2023  07:50 AM    <DIR>          .gradle
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+               2 File(s)  1,211,322,672 bytes
+               9 Dir(s)  559,289,401,344 bytes free
+
+C:\LocalApps>dir /o:gd .gradle
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\.gradle
+
+06/01/2023  07:33 AM    <DIR>          ..
+06/01/2023  07:50 AM    <DIR>          .
+06/01/2023  07:59 AM               308 gradle.properties
+               1 File(s)            308 bytes
+               2 Dir(s)  559,289,413,632 bytes free
+
+C:\LocalApps>
+C:\LocalApps>
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>echo %GRADLE_OPTS%
+-Dgradle.user.home=C:\LocalApps\.gradle
+
+C:\Users\DavidHolberton>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton
+
+05/11/2022  01:20 PM    <DIR>          OneDrive
+05/11/2022  03:03 PM    <DIR>          .1password
+05/11/2022  06:24 PM    <DIR>          .vscode
+12/26/2022  04:14 PM    <DIR>          ebooks
+02/19/2023  08:16 PM    <DIR>          ..
+02/19/2023  08:20 PM    <DIR>          Contacts
+02/19/2023  08:20 PM    <DIR>          Videos
+02/19/2023  08:20 PM    <DIR>          Pictures
+02/19/2023  08:20 PM    <DIR>          Favorites
+02/19/2023  08:20 PM    <DIR>          Music
+02/19/2023  08:20 PM    <DIR>          Searches
+02/19/2023  08:20 PM    <DIR>          Saved Games
+02/19/2023  08:20 PM    <DIR>          Links
+03/18/2023  01:20 PM    <DIR>          sandisk-ixpand-256gb
+04/18/2023  07:56 AM    <DIR>          temp
+05/10/2023  07:59 AM    <DIR>          .ssh
+05/13/2023  11:01 AM    <DIR>          .vscode-cli
+05/15/2023  07:14 AM    <DIR>          repos
+05/17/2023  06:59 AM    <DIR>          .sonarlint
+05/17/2023  07:07 AM    <DIR>          .sts4
+05/17/2023  07:35 AM    <DIR>          .cache
+05/18/2023  07:19 AM    <DIR>          Desktop
+05/18/2023  07:21 AM    <DIR>          .aws
+05/18/2023  07:21 AM    <DIR>          .azure
+05/24/2023  07:02 AM    <DIR>          .docker
+06/01/2023  06:14 AM    <DIR>          Downloads
+06/01/2023  06:15 AM    <DIR>          Documents
+06/01/2023  06:19 AM    <DIR>          sbprojs
+06/01/2023  08:04 AM    <DIR>          .
+05/16/2022  04:09 PM             3,291 xyz.txt
+05/16/2022  04:15 PM             3,226 abc.txt
+12/30/2022  09:39 AM                56 .gitconfig
+05/18/2023  08:00 AM                20 .lesshst
+               4 File(s)          6,593 bytes
+              29 Dir(s)  559,274,590,208 bytes free
+
+C:\Users\DavidHolberton>dir /o:gd \LocalApps
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/01/2023  07:33 AM    <DIR>          .
+06/01/2023  07:50 AM    <DIR>          .gradle
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+               2 File(s)  1,211,322,672 bytes
+               9 Dir(s)  559,274,590,208 bytes free
+
+C:\Users\DavidHolberton>dir /o:gd \LocalApps\.gradle
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\.gradle
+
+06/01/2023  07:33 AM    <DIR>          ..
+06/01/2023  07:50 AM    <DIR>          .
+06/01/2023  07:59 AM               308 gradle.properties
+               1 File(s)            308 bytes
+               2 Dir(s)  559,274,520,576 bytes free
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>type \LocalApps\.gradle\gradle.properties
+systemProp.javax.net.ssl.keyStore=C:\certs\foo.jks
+systemProp.javax.net.ssl.keyStorePasssword=foopassword
+systemProp.javax.net.ssl.keyStoreType=JKS
+systemProp.javax.net.ssl.trustStore=C:\certs\bar.jks
+systemProp.javax.net.ssl.trustStorePasssword=barpassword
+systemProp.javax.net.ssl.trustStoreType=JKS
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>cd sbprojs\demo
+
+C:\Users\DavidHolberton\sbprojs\demo>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\demo
+
+06/01/2023  06:14 AM    <DIR>          gradle
+06/01/2023  06:14 AM    <DIR>          src
+06/01/2023  06:19 AM    <DIR>          ..
+06/01/2023  06:22 AM    <DIR>          bin
+06/01/2023  06:22 AM    <DIR>          .gradle
+06/01/2023  06:22 AM    <DIR>          .
+06/01/2023  06:22 AM    <DIR>          build
+06/01/2023  06:14 AM                26 settings.gradle
+06/01/2023  06:14 AM             8,188 gradlew
+06/01/2023  06:14 AM             2,838 gradlew.bat
+06/01/2023  06:14 AM             1,689 HELP.md
+06/01/2023  06:14 AM               444 .gitignore
+06/01/2023  06:25 AM               661 build.gradle
+               6 File(s)         13,846 bytes
+               7 Dir(s)  559,270,273,024 bytes free
+
+C:\Users\DavidHolberton\sbprojs\demo>
+C:\Users\DavidHolberton\sbprojs\demo>type settings.gradle
+rootProject.name = 'demo'
+
+C:\Users\DavidHolberton\sbprojs\demo>type build.gradle
+plugins {
+        id 'java'
+        id 'org.springframework.boot' version '3.0.7'
+        id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+        mavenCentral()
+}
+
+dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        // runtimeOnly 'com.mysql:mysql-connector-j'
+        runtimeOnly 'com.h2database:h2'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+        useJUnitPlatform()
+}
+
+C:\Users\DavidHolberton\sbprojs\demo>
+
+C:\LocalApps\.gradle>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\.gradle
+
+06/01/2023  07:33 AM    <DIR>          ..
+06/01/2023  08:09 AM    <DIR>          wrapper
+06/01/2023  08:15 AM    <DIR>          notifications
+06/01/2023  08:15 AM    <DIR>          daemon
+06/01/2023  08:15 AM    <DIR>          native
+06/01/2023  08:16 AM    <DIR>          caches
+06/01/2023  08:16 AM    <DIR>          .tmp
+06/01/2023  08:16 AM    <DIR>          jdks
+06/01/2023  08:16 AM    <DIR>          .
+06/01/2023  07:59 AM               308 gradle.properties-save
+               1 File(s)            308 bytes
+               9 Dir(s)  558,742,142,976 bytes free
+
+C:\LocalApps\.gradle>
+C:\LocalApps\.gradle>bash
+davidho@dphxps17:/mnt/c/LocalApps/.gradle$ find . -name "*.jar" -print
+./caches/jars-9/22072d2755b7bd62417cba43dd2da7d0/antlr4-runtime-4.7.2.jar
+./caches/jars-9/2f450affeee4d544708ee07730100b13/jackson-module-parameter-names-2.14.3.jar
+./caches/jars-9/3d4652676b27d15a745b32182f624f49/httpclient-4.5.14.jar
+./caches/jars-9/4462b21798dc1febb501445f478ffbf3/spring-core-6.0.9.jar
+./caches/jars-9/524b51cc3f004dea6e24538e89fba7cb/jackson-core-2.14.3.jar
+./caches/jars-9/59a70858f0b215b4182e0456fb27f5d5/spring-boot-buildpack-platform-3.0.7.jar
+./caches/jars-9/71aaadaa0129d8da9d0bf6d04ee962aa/httpcore-4.4.16.jar
+./caches/jars-9/75a4821c881ee731e737d0ff9bf68d58/jna-5.7.0.jar
+./caches/jars-9/76b7306c9397394dd716f7b93866b1e2/jackson-annotations-2.14.3.jar
+./caches/jars-9/776b18e8a7f52a586de80c7369791024/dependency-management-plugin-1.1.0.jar
+./caches/jars-9/920071fd5e1b79a75a292b6bfc9539a2/jackson-databind-2.14.3.jar
+./caches/jars-9/95d72eea6c2ea6adfa206a2f177a234e/commons-codec-1.11.jar
+./caches/jars-9/9944ade267db1f6c9ae38637c67845ab/tomlj-1.0.0.jar
+./caches/jars-9/afcbecff312fa97a1b539a3cded7a0ab/jsr305-3.0.2.jar
+./caches/jars-9/b71893322a50aef7df912031fc0b8401/proj.jar
+./caches/jars-9/d5b1317e442214ff9b041795a067a14d/spring-jcl-6.0.9.jar
+./caches/jars-9/d984b9b6f08d1b4bf36be35bdbeb1863/settings.jar
+./caches/jars-9/e0bdb2bec390fd5865671278baec47f0/cp_proj.jar
+./caches/jars-9/e6f1cce5d4d3b991eb75ea3e8c447c4f/cp_settings.jar
+./caches/jars-9/e8020d1a0a6016870d5903d476c7cd46/spring-boot-gradle-plugin-3.0.7.jar
+./caches/jars-9/ec263772e68774f40ae8125f827a73bb/commons-compress-1.21.jar
+./caches/jars-9/fb6c1b2b84906437ab4995996c3e3900/jna-platform-5.7.0.jar
+./caches/jars-9/feee8fd0328224754bd60183028d37a5/spring-boot-loader-tools-3.0.7.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.3/b49701acb02b8e95ae1967821cfbafc220cf5795/jackson-annotations-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.3/4fa101f81504ed6811bf1823270adb51a9b45ff3/jackson-core-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.3/ba0373b04bf0f03b0cd268cd2e5e8444aaaf9208/jackson-databind-2.14.3.jar
+./caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.14.3/fa8f81ea27d89cf73539bbc72c6304a30bcab631/jackson-module-parameter-names-2.14.3.jar
+./caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar
+./caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar
+./caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.1.0/65bfc76ad5dc4f1d101b559c05c1ec7eb07ed1cc/dependency-management-plugin-1.1.0.jar
+./caches/modules-2/files-2.1/net.java.dev.jna/jna/5.7.0/a04e3db7cf0011d1b6a4bcfaee30ab20f077014b/jna-5.7.0.jar
+./caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.7.0/7b3683e4fceb28433c1365250dbc1f58e4c1df2c/jna-platform-5.7.0.jar
+./caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7.2/e27d8ab4f984f9d186f54da984a6ab1cccac755e/antlr4-runtime-4.7.2.jar
+./caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar
+./caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/1194890e6f56ec29177673f2f12d0b8e627dec98/httpclient-4.5.14.jar
+./caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar
+./caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/284ed111fa0b49b29f6fea6ac0afa402b809e427/spring-core-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework/spring-jcl/6.0.9/88d9ddfc6bbbf4047c2a8de8de94a425b06f636a/spring-jcl-6.0.9.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-buildpack-platform/3.0.7/1d6b03a1baa25814dbd850b56f5255508dad8a4e/spring-boot-buildpack-platform-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/3.0.7/8f1fe103d485f103addd3190ca1aa19276d86d3a/spring-boot-gradle-plugin-3.0.7.jar
+./caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/3.0.7/fa57ca8376dc4c3b740ffee0b6e8d1297afa9af/spring-boot-loader-tools-3.0.7.jar
+./caches/modules-2/files-2.1/org.tomlj/tomlj/1.0.0/d1922fb5e672e04d8e8d8dac0b058b1897e6e940/tomlj-1.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/annotations-20.1.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-1.10.11.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-antlr-1.10.12.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-junit-1.10.12.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/ant-launcher-1.10.11.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/antlr4-runtime-4.7.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-analysis-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-commons-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/asm-tree-9.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/commons-compress-1.21.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/commons-io-2.11.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/commons-lang-2.6.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/failureaccess-1.0.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/fastutil-8.5.2-min.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-linux-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-linux-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-osx-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-osx-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-amd64-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-i386-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/file-events-windows-i386-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-api-metadata-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-base-annotations-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-base-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-base-services-groovy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-bootstrap-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-cache-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-cache-base-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-cache-packaging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-events-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-operations-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-build-option-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-cli-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-core-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-core-api-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-enterprise-logging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-enterprise-operations-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-enterprise-workers-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-execution-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-file-collections-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-file-temp-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-file-watching-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-files-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-functional-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-hashing-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-installation-beacon-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-jvm-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-kotlin-dsl-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-kotlin-dsl-tooling-models-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-launcher-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-logging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-logging-api-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-messaging-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-model-core-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-model-groovy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-normalization-java-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-persistent-cache-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-problems-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-process-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-resources-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-runtime-api-info-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-snapshots-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-tooling-api-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-worker-processes-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-worker-services-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/gradle-wrapper-shared-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-ant-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-astbuilder-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-console-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-datetime-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-dateutil-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-docgenerator-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-groovydoc-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-json-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-nio-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-sql-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-swing-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-templates-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-test-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/groovy-xml-3.0.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/guava-31.1-jre.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/hamcrest-core-1.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jansi-1.18.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/javaparser-core-3.17.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/javax.inject-1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jcl-over-slf4j-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jna-5.10.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jsr305-3.0.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/jul-to-slf4j-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/junit-4.13.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-compiler-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-daemon-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-reflect-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-sam-with-receiver-compiler-plugin-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-script-runtime-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-common-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-compiler-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-compiler-impl-embeddable-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-jvm-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-scripting-jvm-host-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-common-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-jdk7-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlin-stdlib-jdk8-1.7.10.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kotlinx-metadata-jvm-0.5.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/kryo-2.24.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/log4j-over-slf4j-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/minlog-1.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-freebsd-amd64-libcpp-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-aarch64-ncurses5-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-aarch64-ncurses6-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-amd64-ncurses5-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-linux-amd64-ncurses6-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-osx-aarch64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-osx-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-amd64-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-amd64-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-i386-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/native-platform-windows-i386-min-0.22-milestone-24.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/objenesis-2.6.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-core-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-kms-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-s3-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/aws-java-sdk-sts-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bcpg-jdk15on-1.68.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bcpkix-jdk15on-1.68.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bcprov-jdk15on-1.68.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/bsh-2.0b6.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/capsule-0.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/commons-codec-1.15.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/dd-plist-1.21.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-api-client-1.34.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-api-services-storage-v1-rev20220705-1.32.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-http-client-1.42.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-http-client-apache-v2-1.42.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-http-client-gson-1.42.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/google-oauth-client-1.34.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-antlr-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-build-cache-http-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-build-init-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-build-profile-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-code-quality-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-composite-builds-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-configuration-cache-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-dependency-management-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-diagnostics-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ear-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-enterprise-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ide-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ide-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-ivy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-jacoco-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-java-compiler-plugin-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-kotlin-dsl-provider-plugins-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-kotlin-dsl-tooling-builders-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-groovy-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-java-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-jvm-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-language-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-maven-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-platform-base-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-platform-jvm-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-platform-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-plugin-development-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-plugin-use-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-plugins-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-publish-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-reporting-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-gcs-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-http-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-s3-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-resources-sftp-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-scala-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-security-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-signing-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-test-kit-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-base-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-junit-platform-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-jvm-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-testing-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-tooling-api-builders-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-tooling-native-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-version-control-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-workers-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gradle-wrapper-7.6.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/grpc-context-1.27.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/gson-2.8.9.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/httpclient-4.5.13.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/httpcore-4.4.14.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/ion-java-1.0.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/ivy-2.3.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jackson-annotations-2.13.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jackson-core-2.13.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jackson-databind-2.13.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jakarta.activation-2.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jakarta.xml.bind-api-3.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jatl-0.2.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jaxb-core-3.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jaxb-impl-3.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jcifs-1.3.17.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jcommander-1.78.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jmespath-java-1.11.948.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/joda-time-2.10.4.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jsch-0.1.55.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jsoup-1.15.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/junit-platform-commons-1.8.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/junit-platform-engine-1.8.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/junit-platform-launcher-1.8.2.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/jzlib-1.1.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-builder-support-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-model-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-repository-metadata-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-settings-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/maven-settings-builder-3.6.3.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/opencensus-api-0.31.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/opencensus-contrib-http-util-0.31.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/opentest4j-1.2.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/org.eclipse.jgit-5.7.0.202003110725-r.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-cipher-1.7.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-interpolation-1.26.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-sec-dispatcher-1.4.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/plexus-utils-3.3.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/snakeyaml-1.32.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/plugins/testng-6.3.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/qdox-1.12.1.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/slf4j-api-1.7.30.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/tomlj-1.0.0.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/trove4j-1.0.20200330.jar
+./wrapper/dists/gradle-7.6.1-bin/2clxi94ab3brv6467628wnxmd/gradle-7.6.1/lib/xml-apis-1.4.01.jar
+davidho@dphxps17:/mnt/c/LocalApps/.gradle$
+
