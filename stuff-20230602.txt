@@ -1,0 +1,439 @@
+5:48 AM 6/2/2023
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+... when I enter just bash at the cmd prompt, I get ubuntu bash (not git for windows bash) ...
+... I think this is because I have WSL2 installed ...
+
+"C:\Program Files\Git\git-bash.exe"
+"C:\Program Files\Git\bin\bash.exe"
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://gradle.org/install/
+https://gradle.org/install/#manually
+https://gradle.org/release-checksums/#v8.1.1
+https://docs.gradle.org/8.1.1/userguide/userguide.html
+https://docs.gradle.org/7.6.1/userguide/userguide.html
+https://docs.gradle.org/5.4/userguide/userguide.html
+
+v8.1.1
+Apr 21, 2023
+Download: binary-only or complete (checksums)
+User Manual
+API Javadoc
+DSL Reference
+Release Notes
+
+v7.6.1
+Feb 24, 2023
+Download: binary-only or complete (checksums)
+User Manual
+API Javadoc
+DSL Reference
+Release Notes
+
+v5.4
+Apr 16, 2019
+Download: binary-only or complete (checksums)
+User Manual
+API Javadoc
+DSL Reference
+Release Notes
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd | findstr /i "gradle"
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/20/2023  11:58 AM       124,643,981 gradle-8.1.1-bin.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-bin.zip.sha256
+05/20/2023  11:58 AM       168,381,151 gradle-8.1.1-all.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-all.zip.sha256
+06/02/2023  06:13 AM       122,052,640 gradle-7.6.1-bin.zip
+06/02/2023  06:13 AM                64 gradle-7.6.1-bin.zip.sha256
+06/02/2023  06:17 AM        87,106,040 gradle-5.4-bin.zip
+06/02/2023  06:17 AM                64 gradle-5.4-bin.zip.sha256
+
+C:\Users\DavidHolberton\Downloads>
+
+C:\LocalApps>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+02/01/1980  12:00 AM    <DIR>          gradle-7.6.1
+02/01/1980  12:00 AM    <DIR>          gradle-8.1.1
+02/01/1980  12:00 AM    <DIR>          gradle-5.4
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/01/2023  08:16 AM    <DIR>          .gradle
+06/02/2023  06:33 AM    <DIR>          .
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+               2 File(s)  1,211,322,672 bytes
+              12 Dir(s)  558,079,082,496 bytes free
+
+C:\LocalApps>
+
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-5.4\bin
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+rmdir /s /q C:\LocalApps\.gradle
+
+cd C:\Users\DavidHolberton\sbprojs
+rmdir /s /q demo
+7z l demo.zip
+7z x demo.zip
+cd demo
+.\gradlew dependencies
+
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew dependencies
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+...........10%............20%...........30%............40%............50%...........60%............70%............80%...........90%............100%
+
+Welcome to Gradle 7.6.1!
+
+Here are the highlights of this release:
+ - Added support for Java 19.
+ - Introduced `--rerun` flag for individual task rerun.
+ - Improved dependency block for test suites to be strongly typed.
+ - Added a pluggable system for Java toolchains provisioning.
+
+For more details see https://docs.gradle.org/7.6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+C:\Users\DavidHolberton\sbprojs>cd demo
+
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew dependencies
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+
+Exception in thread "main" java.net.UnknownHostException: services.gradle.org
+        at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+        at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+        at java.base/java.net.Socket.connect(Socket.java:633)
+        at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+        at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+        at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532)
+        at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637)
+        at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+        at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+        at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+        at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+        at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+        at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+        at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+        at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+        at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+        at org.gradle.wrapper.Download.downloadInternal(Download.java:100)
+        at org.gradle.wrapper.Download.download(Download.java:80)
+        at org.gradle.wrapper.Install$1.call(Install.java:83)
+        at org.gradle.wrapper.Install$1.call(Install.java:63)
+        at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:69)
+        at org.gradle.wrapper.Install.createDist(Install.java:63)
+        at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:107)
+        at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:63)
+
+C:\Users\DavidHolberton\sbprojs\demo>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.gradle.org/current/samples/sample_building_java_applications.html
+
+$ mkdir demo
+$ cd demo
+$ gradle init
+
+gradle --version
+rmdir /s /q  C:\Users\DavidHolberton\sbprojs\myapp
+mkdir  C:\Users\DavidHolberton\sbprojs\myapp
+cd     C:\Users\DavidHolberton\sbprojs\myapp
+gradle init
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>gradle --version
+
+Welcome to Gradle 5.4!
+
+Here are the highlights of this release:
+ - Run builds with JDK12
+ - New API for Incremental Tasks
+ - Updates to native projects, including Swift 5 support
+
+For more details see https://docs.gradle.org/5.4/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 5.4
+------------------------------------------------------------
+
+Build time:   2019-04-16 02:44:16 UTC
+Revision:     a4f3f91a30d4e36d82cc7592c4a0726df52aba0d
+
+Kotlin:       1.3.21
+Groovy:       2.5.4
+Ant:          Apache Ant(TM) version 1.9.13 compiled on July 10 2018
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton>
+
+C:\Users\DavidHolberton\sbprojs\myapp>gradle init
+Starting a Gradle Daemon (subsequent builds will be faster)
+java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Java7
+        at org.codehaus.groovy.vmplugin.VMPluginFactory.<clinit>(VMPluginFactory.java:43)
+        at org.codehaus.groovy.reflection.GroovyClassValueFactory.<clinit>(GroovyClassValueFactory.java:35)
+        at org.codehaus.groovy.reflection.ClassInfo.<clinit>(ClassInfo.java:109)
+        at org.codehaus.groovy.reflection.ReflectionCache.getCachedClass(ReflectionCache.java:95)
+        at org.codehaus.groovy.reflection.ReflectionCache.<clinit>(ReflectionCache.java:39)
+        at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.registerMethods(MetaClassRegistryImpl.java:209)
+        at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:107)
+        at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:85)
+        at groovy.lang.GroovySystem.<clinit>(GroovySystem.java:36)
+
+C:\Users\DavidHolberton\sbprojs\myapp>
+
+C:\Users\DavidHolberton>gradle --version
+
+------------------------------------------------------------
+Gradle 7.6.1
+------------------------------------------------------------
+
+Build time:   2023-02-24 13:54:42 UTC
+Revision:     3905fe8ac072bbd925c70ddbddddf4463341f4b4
+
+Kotlin:       1.7.10
+Groovy:       3.0.13
+Ant:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>mkdir  C:\Users\DavidHolberton\sbprojs\myapp
+
+C:\Users\DavidHolberton>cd     C:\Users\DavidHolberton\sbprojs\myapp
+
+C:\Users\DavidHolberton\sbprojs\myapp>gradle init
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> Starting Daemon
+
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+Select type of project to generate:
+  1: basic
+  2: application
+  3: library
+  4: Gradle plugin
+Enter selection (default: basic) [1..4] 1
+
+Select build script DSL:
+  1: Groovy
+  2: Kotlin
+Enter selection (default: Groovy) [1..2] 1
+
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no]
+Project name (default: myapp):
+
+> Task :init
+Get more help with your project: Learn more about Gradle by exploring our samples at https://docs.gradle.org/7.6.1/samples
+
+BUILD SUCCESSFUL in 2m 7s
+2 actionable tasks: 2 executed
+C:\Users\DavidHolberton\sbprojs\myapp>
+C:\Users\DavidHolberton\sbprojs\myapp>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   .gitattributes
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   settings.gradle
+|
++---.gradle
+|       file-system.probe
+|
+\---gradle
+    \---wrapper
+            gradle-wrapper.jar
+            gradle-wrapper.properties
+
+
+C:\Users\DavidHolberton\sbprojs\myapp>
+C:\Users\DavidHolberton\sbprojs\myapp>gradle run
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'run' not found in root project 'myapp'.
+
+* Try:
+> Run gradle tasks to get a list of available tasks.
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+C:\Users\DavidHolberton\sbprojs\myapp>gradle tasks
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'myapp'
+------------------------------------------------------------
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'myapp'.
+dependencies - Displays all dependencies declared in root project 'myapp'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'myapp'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'myapp'.
+projects - Displays the sub-projects of root project 'myapp'.
+properties - Displays the properties of root project 'myapp'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'myapp'.
+tasks - Displays the tasks runnable from root project 'myapp'.
+
+To see all tasks and more detail, run gradle tasks --all
+
+To see more detail about a task, run gradle help --task <task>
+
+BUILD SUCCESSFUL in 833ms
+1 actionable task: 1 executed
+
+
+C:\Users\DavidHolberton\sbprojs\myapp>gradle help --task init
+
+> Task :help
+Detailed task information for init
+
+Path
+     :init
+
+Type
+     InitBuild (org.gradle.buildinit.tasks.InitBuild)
+
+Options
+     --dsl     Set the build script DSL to be used in generated scripts.
+               Available values are:
+                    groovy
+                    kotlin
+
+     --incubating     Allow the generated build to use new features and APIs
+
+     --insecure-protocol     How to handle insecure URLs used for Maven Repositories.
+                             Available values are:
+                                  ALLOW
+                                  FAIL
+                                  UPGRADE
+                                  WARN
+
+     --package     Set the package for source files.
+
+     --project-name     Set the project name.
+
+     --split-project     Split functionality across multiple subprojects?
+
+     --test-framework     Set the test framework to be used.
+                          Available values are:
+                               junit
+                               junit-jupiter
+                               kotlintest
+                               scalatest
+                               spock
+                               testng
+
+     --type     Set the type of project to generate.
+                Available values are:
+                     basic
+                     cpp-application
+                     cpp-library
+                     groovy-application
+                     groovy-gradle-plugin
+                     groovy-library
+                     java-application
+                     java-gradle-plugin
+                     java-library
+                     kotlin-application
+                     kotlin-gradle-plugin
+                     kotlin-library
+                     pom
+                     scala-application
+                     scala-library
+                     swift-application
+                     swift-library
+
+     --rerun     Causes the task to be re-run even if up-to-date.
+
+Description
+     Initializes a new Gradle build.
+
+Group
+     Build Setup
+
+BUILD SUCCESSFUL in 732ms
+1 actionable task: 1 executed
+C:\Users\DavidHolberton\sbprojs\myapp>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+rmdir /s /q C:\LocalApps\.gradle
+
+gradle --version
+rmdir /s /q  C:\Users\DavidHolberton\sbprojs\myapp
+mkdir  C:\Users\DavidHolberton\sbprojs\myapp
+cd     C:\Users\DavidHolberton\sbprojs\myapp
+gradle init
+dir /o:gd
+tree /a /f
+.\gradlew tasks
+.\gradlew dependencies
+
+C:\Users\DavidHolberton\sbprojs\myapp>.\gradlew tasks
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+
+Exception in thread "main" java.net.UnknownHostException: services.gradle.org
+        at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+        at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+        at java.base/java.net.Socket.connect(Socket.java:633)
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+rmdir /s /q C:\LocalApps\.gradle
+
+cd C:\Users\DavidHolberton\sbprojs
+rmdir /s /q demo
+7z l demo.zip
+7z x demo.zip
+cd demo
+dir /o:gd
+tree /a /f
+.\gradlew tasks
+.\gradlew dependencies
+

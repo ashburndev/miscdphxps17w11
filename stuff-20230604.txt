@@ -1,0 +1,458 @@
+7:13 AM 6/4/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.gradle.org/current/userguide/gradle_wrapper.html
+https://docs.gradle.org/current/userguide/compatibility.html
+https://docs.gradle.org/current/samples/sample_building_java_applications.html
+  mkdir demo
+  cd demo
+  gradle init
+
+https://docs.gradle.org/current/userguide/command_line_interface.html
+  Common tasks
+    $ gradle build
+    $ gradle run
+    $ gradle check
+    $ gradle clean
+  Project reporting
+    $ gradle projects
+    $ gradle tasks
+    $ gradle tasks --all
+    $ gradle tasks --group="build setup"
+    $ gradle -q help --task libs
+    $ gradle myTask --scan
+    $ gradle dependencies
+    $ gradle buildEnvironment
+    $ gradle dependencyInsight
+    $ gradle -q api:properties
+    $ gradle -q properties
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://gradle.org/releases/
+
+v8.1.1
+Apr 21, 2023
+    Download: binary-only or complete (checksums)
+    User Manual
+    API Javadoc
+    DSL Reference
+    Release Notes
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile apache-groovy-binary-4.0.12.zip SHA256
+SHA256 hash of apache-groovy-binary-4.0.12.zip:
+174c28429f63f5ba31cccb3350fd50a2b62a18833be4ac59180b8a43df52dd90
+174c28429f63f5ba31cccb3350fd50a2b62a18833be4ac59180b8a43df52dd90
+
+cd C:\Users\DavidHolberton\Downloads
+Certutil –hashfile apache-groovy-binary-4.0.12.zip SHA256
+type apache-groovy-binary-4.0.12.zip.sha256
+copy apache-groovy-binary-4.0.12.Zip C:\LocalApps
+cd C:\LocalApps
+7z l apache-groovy-binary-4.0.12.Zip
+7z x apache-groovy-binary-4.0.12.Zip
+C:\LocalApps\groovy-4.0.12\bin\groovyConsole
+
+def filename = "C:\\Users\\DavidHolberton\\gradle-releases.txt"
+def file = new File(filename)
+def text = file.text
+// println text
+text.eachLine {line ->
+  // println line
+  if (line.trim().length() != 0 && !line.startsWith(" ")) {
+    if (line.startsWith("v"))
+      print "Gradle ${line.padRight(8)}"
+    else 
+      println " ${line}"
+  }
+}
+println "done"
+
+Gradle v8.1.1   Apr 21, 2023
+Gradle v8.1     Apr 12, 2023
+Gradle v8.0.2   Mar 03, 2023
+Gradle v7.6.1   Feb 24, 2023  Added Support for Java 19
+Gradle v6.9.4   Feb 22, 2023
+Gradle v8.0.1   Feb 17, 2023
+Gradle v8.0     Feb 13, 2023
+Gradle v7.6     Nov 25, 2022
+Gradle v6.9.3   Oct 17, 2022
+Gradle v7.5.1   Aug 05, 2022
+Gradle v7.5     Jul 14, 2022  Gradle now supports running on and building with Java 18.
+Gradle v7.4.2   Mar 31, 2022
+Gradle v7.4.1   Mar 09, 2022
+Gradle v7.4     Feb 08, 2022
+Gradle v7.3.3   Dec 22, 2021
+Gradle v6.9.2   Dec 21, 2021
+Gradle v7.3.2   Dec 15, 2021
+Gradle v7.3.1   Dec 01, 2021
+Gradle v7.3     Nov 09, 2021  Support for Java 17
+Gradle v6.9.1   Aug 20, 2021
+Gradle v7.2     Aug 17, 2021
+Gradle v7.1.1   Jul 02, 2021
+Gradle v7.1     Jun 14, 2021
+Gradle v7.0.2   May 14, 2021
+Gradle v7.0.1   May 10, 2021
+Gradle v6.9     May 07, 2021
+Gradle v7.0     Apr 09, 2021
+Gradle v6.8.3   Feb 22, 2021
+Gradle v6.8.2   Feb 05, 2021
+Gradle v6.8.1   Jan 22, 2021
+Gradle v6.8     Jan 08, 2021
+Gradle v6.7.1   Nov 16, 2020
+Gradle v6.7     Oct 14, 2020
+Gradle v6.6.1   Aug 25, 2020
+Gradle v6.6     Aug 10, 2020
+Gradle v6.5.1   Jun 30, 2020
+Gradle v6.5     Jun 02, 2020
+Gradle v6.4.1   May 15, 2020
+Gradle v6.4     May 05, 2020
+Gradle v6.3     Mar 24, 2020
+Gradle v6.2.2   Mar 04, 2020
+Gradle v6.2.1   Feb 24, 2020
+Gradle v6.2     Feb 17, 2020
+Gradle v6.1.1   Jan 24, 2020
+Gradle v6.1     Jan 15, 2020
+Gradle v6.0.1   Nov 18, 2019
+Gradle v6.0     Nov 08, 2019
+Gradle v5.6.4   Nov 01, 2019
+Gradle v5.6.3   Oct 18, 2019
+Gradle v5.6.2   Sep 05, 2019
+Gradle v5.6.1   Aug 28, 2019
+Gradle v5.6     Aug 14, 2019
+Gradle v5.5.1   Jul 10, 2019
+Gradle v5.5     Jun 28, 2019
+Gradle v5.4.1   Apr 26, 2019
+Gradle v5.4     Apr 16, 2019
+Gradle v5.3.1   Mar 28, 2019
+Gradle v5.3     Mar 20, 2019
+Gradle v5.2.1   Feb 08, 2019
+Gradle v5.2     Feb 04, 2019
+Gradle v5.1.1   Jan 10, 2019
+Gradle v5.1     Jan 02, 2019
+Gradle v4.10.3  Dec 05, 2018
+Gradle v5.0     Nov 26, 2018
+Gradle v4.10.2  Sep 19, 2018
+Gradle v4.10.1  Sep 12, 2018
+Gradle v4.10    Aug 27, 2018
+Gradle v4.9     Jul 16, 2018
+Gradle v4.8.1   Jun 21, 2018
+Gradle v4.8     Jun 04, 2018
+Gradle v4.7     Apr 18, 2018
+Gradle v4.6     Feb 28, 2018
+Gradle v4.5.1   Feb 05, 2018
+Gradle v4.5     Jan 24, 2018
+Gradle v4.4.1   Dec 20, 2017
+Gradle v4.4     Dec 06, 2017
+Gradle v4.3.1   Nov 08, 2017
+Gradle v4.3     Oct 30, 2017
+Gradle v4.2.1   Oct 02, 2017
+Gradle v4.2     Sep 20, 2017
+Gradle v4.1     Aug 07, 2017
+Gradle v4.0.2   Jul 26, 2017
+Gradle v4.0.1   Jul 07, 2017
+Gradle v3.5.1   Jun 16, 2017
+Gradle v4.0     Jun 14, 2017
+Gradle v3.5     Apr 10, 2017
+Gradle v3.4.1   Mar 03, 2017
+Gradle v3.4     Feb 20, 2017
+Gradle v3.3     Jan 03, 2017
+Gradle v3.2.1   Nov 22, 2016
+Gradle v3.2     Nov 14, 2016
+Gradle v3.1     Sep 19, 2016
+Gradle v3.0     Aug 15, 2016
+Gradle v2.14.1  Jul 18, 2016
+Gradle v2.14    Jun 14, 2016
+Gradle v2.13    Apr 25, 2016
+Gradle v2.12    Mar 14, 2016
+Gradle v2.11    Feb 08, 2016
+Gradle v2.10    Dec 21, 2015
+Gradle v2.9     Nov 17, 2015
+Gradle v2.8     Oct 20, 2015
+Gradle v2.7     Sep 14, 2015
+Gradle v2.6     Aug 10, 2015
+Gradle v2.5     Jul 08, 2015
+Gradle v2.4     May 05, 2015
+Gradle v2.3     Feb 16, 2015
+Gradle v2.2.1   Nov 24, 2014
+Gradle v2.2     Nov 10, 2014
+Gradle v2.1     Sep 08, 2014
+Gradle v2.0     Jul 01, 2014
+Gradle v1.12    Apr 29, 2014
+Gradle v1.11    Feb 11, 2014
+Gradle v1.10    Dec 17, 2013
+Gradle v1.9     Nov 19, 2013
+Gradle v1.8     Sep 24, 2013
+Gradle v1.7     Aug 06, 2013
+Gradle v1.6     May 07, 2013
+Gradle v1.5     Mar 27, 2013
+Gradle v1.4     Jan 28, 2013
+Gradle v1.3     Nov 20, 2012
+Gradle v1.2     Sep 12, 2012
+Gradle v1.1     Jul 31, 2012
+Gradle v1.0     Jun 12, 2012
+Gradle v0.9.2   Jan 23, 2011
+Gradle v0.9.1   Jan 02, 2011
+Gradle v0.9     Dec 19, 2010
+Gradle v0.8     Sep 28, 2009
+Gradle v0.7     Jul 20, 2009
+done
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd \
+rmdir /s /q C:\LocalApps\.gradle
+mkdir       C:\LocalApps\.gradle
+cd          C:\LocalApps
+copy init.gradle .gradle
+copy settings.gradle .gradle
+copy gradle.properties-foo .gradle\gradle.properties
+dir /o:gd C:\LocalApps\.gradle
+tree /a /f C:\LocalApps\.gradle
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+gradle init
+
+C:\LocalApps\gradle-5.4\bin\gradle --version
+C:\LocalApps\gradle-7.6.1\bin\gradle --version
+C:\LocalApps\gradle-8.1.1\bin\gradle --version
+
+cd \
+rmdir /s /q C:\Users\DavidHolberton\javaprojs\myapp
+mkdir       C:\Users\DavidHolberton\javaprojs\myapp
+cd          C:\Users\DavidHolberton\javaprojs\myapp
+
+C:\LocalApps\gradle-7.6.1\bin\gradle init
+     --dsl   
+     --incubating   
+     --insecure-protocol   
+     --package   
+     --project-name  
+     --split-project 
+     --test-framework 
+     --type    
+     --rerun   
+
+C:\LocalApps\gradle-7.6.1\bin\gradle init
+  --dsl groovy --incubating no --insecure-protocol ALLOW --package myapp --project-name myapp
+  --split-project no --test-framework junit-jupiter --type java-application --rerun
+
+C:\LocalApps\gradle-7.6.1\bin\gradle init --dsl groovy --incubating no --insecure-protocol ALLOW --package myapp --project-name myapp --split-project no --test-framework junit-jupiter --type java-application --rerun
+
+dir /o:gd C:\Users\DavidHolberton\javaprojs\myapp
+tree /a /f C:\Users\DavidHolberton\javaprojs\myapp
+
+.\gradlew --version
+... running the above command causes this download ...
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+
+gradle/wrapper/gradle-wrapper.properties
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.1.1-bin.zip
+
+--gradle-distribution-url
+    The full URL pointing to Gradle distribution ZIP file. Using this option makes --gradle-version and --distribution-type obsolete as the URL already contains this information. This option is extremely valuable if you want to host the Gradle distribution inside your company’s network.
+
+gradle dist --exclude-task test
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\demo
+.\gradlew help
+.\gradlew help --task wrapper
+.\gradlew --console=verbose clean build
+.\gradlew --console=plain clean build
+.\gradlew --console=rich clean build
+.\gradlew wrapper --gradle-version=7.6.1
+
+
+
+C:\Users\DavidHolberton\sbprojs\demo>.\gradlew --console=verbose clean build
+Downloading https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+...........10%............20%...........30%............40%............50%...........60%............70%............80%...........90%............100%
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> IDLE
+
+> Task :clean UP-TO-DATE
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :resolveMainClassName
+> Task :bootJar
+> Task :jar
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+DemoApplicationTests > contextLoads() FAILED
+    java.lang.IllegalStateException at DefaultCacheAwareContextLoaderDelegate.java:142
+        Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException at ConstructorResolver.java:800
+            Caused by: org.springframework.beans.factory.BeanCreationException at ConstructorResolver.java:659
+                Caused by: org.springframework.beans.BeanInstantiationException at SimpleInstantiationStrategy.java:171
+                    Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException at DataSourceProperties.java:186
+
+1 test completed, 1 failed
+
+> Task :test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///C:/Users/DavidHolberton/sbprojs/demo/build/reports/tests/test/index.html
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m
+8 actionable tasks: 7 executed, 1 up-to-date
+
+C:\Users\DavidHolberton\sbprojs\demo>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+gradle wrapper
+
+C:\LocalApps\gradle-7.6.1\bin\gradle help --task wrapper
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --gradle-version 8.1.1
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --gradle-version 8.1.1 --rerun
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --gradle-version 8.1.1 --distribution-type all --rerun
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --gradle-version 8.1.1 --distribution-type bin --rerun
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url https://services.gradle.org/distributions/gradle-8.1.1-bin.zip
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url https://services.gradle.org/distributions/gradle-8.1.1-all.zip
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url file:///C:/Users/DavidHolberton/Downloads/gradle-8.1.1-bin.zip
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url file:///C:/Users/DavidHolberton/Downloads/gradle-5.4-bin.zip
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url file:///C:/Users/DavidHolberton/Downloads/gradle-7.6.1-bin.zip
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url file:///C:/Users/DavidHolberton/Downloads/gradle-8.1.1-bin.zip
+
+
+file:///C:/Users/DavidHolberton/sbprojs/demo/build/reports/tests/test/index.html
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper 
+  --distribution-type
+  --gradle-distribution-sha256-sum
+  --gradle-distribution-url
+  --gradle-version
+  --network-timeout
+  --rerun
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper 
+  --distribution-type
+  --gradle-distribution-sha256-sum
+  --gradle-distribution-url
+  --gradle-version
+  --network-timeout
+  --rerun
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper 
+  --distribution-type ALL
+  --gradle-distribution-sha256-sum xxxxxxxxxx
+  --gradle-distribution-url theurl
+  --gradle-version 7.6.1
+  --network-timeout 5000
+  --rerun   
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-version latest
+.\gradlew --version
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-version 8.1.1
+.\gradlew --version
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+.\gradlew --version
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --distribution-type all --gradle-version 7.6.1
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --rerun --gradle-distribution-url 
+
+C:\LocalApps\gradle-7.6.1\bin\gradle wrapper --gradle-version=7.6.1
+.\gradlew --version
+
+
+
+
+gradle/wrapper/gradle-wrapper.properties
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.1.1-bin.zip
+
+--gradle-distribution-url
+    The full URL pointing to Gradle distribution ZIP file. Using this option makes --gradle-version and --distribution-type obsolete as the URL already contains this information. This option is extremely valuable if you want to host the Gradle distribution inside your company’s network.
+
+
+gradle dist --exclude-task test
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\javaprojs\myapp>C:\LocalApps\gradle-7.6.1\bin\gradle init
+init.gradle
+
+Select type of project to generate:
+  1: basic
+  2: application
+  3: library
+  4: Gradle plugin
+Enter selection (default: basic) [1..4] 2
+
+Select implementation language:
+  1: C++
+  2: Groovy
+  3: Java
+  4: Kotlin
+  5: Scala
+  6: Swift
+Enter selection (default: Java) [1..6] 3
+
+Split functionality across multiple subprojects?:
+  1: no - only one application project
+  2: yes - application and library projects
+Enter selection (default: no - only one application project) [1..2]
+
+Select build script DSL:
+  1: Groovy
+  2: Kotlin
+Enter selection (default: Groovy) [1..2]
+
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no]
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4]
+
+Project name (default: myapp):
+Source package (default: myapp):
+
+> Task :init
+Get more help with your project: https://docs.gradle.org/7.6.1/samples/sample_building_java_applications.html
+
+BUILD SUCCESSFUL in 1m 3s
+2 actionable tasks: 2 executed
+C:\Users\DavidHolberton\javaprojs\myapp>
+
+
+
+
