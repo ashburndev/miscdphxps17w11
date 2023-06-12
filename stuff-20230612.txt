@@ -1,0 +1,164 @@
+5:39 AM 6/12/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230612.txt
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+
+06/01/2023  06:14 AM            67,807 demo.zip
+06/02/2023  06:13 AM       122,052,640 gradle-7.6.1-bin.zip
+06/02/2023  06:13 AM                64 gradle-7.6.1-bin.zip.sha256
+06/02/2023  06:17 AM        87,106,040 gradle-5.4-bin.zip
+06/02/2023  06:17 AM                64 gradle-5.4-bin.zip.sha256
+06/07/2023  07:16 AM       152,568,968 jdk-8u371-windows-x64.exe
+06/12/2023  05:42 AM        93,012,080 VSCodeUserSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM        93,011,880 VSCodeSetup-x64-1.79.0.exe
+
+https://gradle.org/install/
+https://gradle.org/releases/
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd gradle*zip*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+05/20/2023  11:58 AM       124,643,981 gradle-8.1.1-bin.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-bin.zip.sha256
+05/20/2023  11:58 AM       168,381,151 gradle-8.1.1-all.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-all.zip.sha256
+06/02/2023  06:13 AM       122,052,640 gradle-7.6.1-bin.zip
+06/02/2023  06:13 AM                64 gradle-7.6.1-bin.zip.sha256
+06/02/2023  06:17 AM        87,106,040 gradle-5.4-bin.zip
+06/02/2023  06:17 AM                64 gradle-5.4-bin.zip.sha256
+06/12/2023  05:45 AM       124,643,981 gradle-8.1.1-bin(1).zip
+06/12/2023  05:45 AM                64 gradle-8.1.1-bin.zip(1).sha256
+06/12/2023  05:45 AM       168,381,151 gradle-8.1.1-all(1).zip
+06/12/2023  05:45 AM                64 gradle-8.1.1-all.zip(1).sha256
+06/12/2023  05:46 AM       165,594,858 gradle-7.6.1-all.zip
+06/12/2023  05:46 AM                64 gradle-7.6.1-all.zip.sha256
+06/12/2023  05:47 AM       132,684,940 gradle-5.4-all.zip
+06/12/2023  05:47 AM                64 gradle-5.4-all.zip.sha256
+              16 File(s)  1,093,489,254 bytes
+               0 Dir(s)  551,464,964,096 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\Downloads
+dir /o:gd > C:\Users\DavidHolberton\repos\miscdphxps17w11\downloads-xps9710w11-20230612.txt
+cd  C:\Users\DavidHolberton\repos\miscdphxps17w11
+git status
+git add .
+git commit -a -m "add downloads-xps9710w11-20230612.txt"
+git push
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>dir /o:gd D:\
+ Volume in drive D is My Passport
+ Volume Serial Number is A678-04A8
+
+ Directory of D:\
+
+07/09/2021  11:35 AM           671,824 Install Western Digital Software for Windows.exe
+04/22/2022  05:39 AM           549,227 Install Western Digital Software for Mac.dmg
+               2 File(s)      1,221,051 bytes
+               0 Dir(s)  5,000,682,524,672 bytes free
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
+
+  robocopy C:\Users\Admin\Records D:\Backup /E /ZB /LOG:C:\Logs\Backup.log
+  robocopy C:\Users\Admin\Records D:\Backup /MIR /R:2 /W:5 /LOG:C:\Logs\Backup.log
+
+https://en.wikipedia.org/wiki/Robocopy
+
+  Robocopy "C:\Directory A" "C:\Directory B" /E
+  Robocopy C:\A C:\B /COPYALL /E /R:0 /DCOPY:T
+  robocopy c:\bar c:\baz file1.txt file2.db
+  robocopy c:\bar c:\baz *.pdf
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+... My Passport Ultra ...
+
+C:\Users\DavidHolberton>hostname
+dphxps17
+
+C:\Users\DavidHolberton>dir /o:gn repos
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+C:\Users\DavidHolberton>dir /o:gn repos\miscdphxps17w11\down*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\repos\miscdphxps17w11
+
+05/10/2023  07:57 AM            12,511 downloads-xps9710w11-20230510.txt
+05/21/2023  07:09 PM            21,784 downloads-xps9710w11-20230521.txt
+               2 File(s)         34,295 bytes
+               0 Dir(s)  551,378,460,672 bytes free
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+... cmd as administrator ... My Passport Ultra ...
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>
+
+c:
+cd \
+mkdir C:\Logs
+mkdir D:\dphxps9710w11\backup-20230612\Downloads
+Robocopy C:\Users\DavidHolberton\Downloads D:\dphxps9710w11\backup-20230612\Downloads /COPYALL /E /DCOPY:T /LOG:C:\Logs\Backup.log
+Robocopy C:\Users\DavidHolberton\Downloads D:\dphxps9710w11\backup-20230612\Downloads /COPYALL /E /DCOPY:T /LOG:C:\Logs\Backup2.log
+
+date /t
+time /t
+Robocopy C:\Users\DavidHolberton\Downloads D:\dphxps9710w11\backup-20230612\Downloads /COPYALL /E /DCOPY:T /LOG:C:\Logs\Backup3.log
+time /t
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+... My Passport Ultra ...
+
+C:\Windows\System32>date /t
+Mon 06/12/2023
+
+C:\Windows\System32>time /t
+06:46 AM
+
+C:\Windows\System32>Robocopy C:\Users\DavidHolberton\Downloads D:\dphxps9710w11\backup-20230612\Downloads /COPYALL /E /DCOPY:T /LOG:C:\Logs\Backup3.log
+
+ Log File : C:\Logs\Backup3.log
+
+C:\Windows\System32>time /t
+06:46 AM
+
+C:\Windows\System32>
+
+
