@@ -1,0 +1,159 @@
+8:58 AM 6/17/2023
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20230617.txt
+
+C:\Users\DavidHolberton>
+
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>set | findstr /i "home"
+GRADLE_OPTS=-Dgradle.user.home=C:\LocalApps\.gradle
+HOMEDRIVE=C:
+HOMEPATH=\Users\DavidHolberton
+JAVA_HOME=C:\LocalApps\jdk-17.0.7
+vscode_home=C:\LocalApps\VSCode-win32-x64-1.79.0
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code --version
+1.79.0
+b380da4ef1ee00e224a15c1d4d9793e27c2b6302
+x64
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>gradle --version
+
+------------------------------------------------------------
+Gradle 7.6.1
+------------------------------------------------------------
+
+Build time:   2023-02-24 13:54:42 UTC
+Revision:     3905fe8ac072bbd925c70ddbddddf4463341f4b4
+
+Kotlin:       1.7.10
+Groovy:       3.0.13
+Ant:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/docs/languages/java
+
+https://code.visualstudio.com/docs/java/java-tutorial
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code --version
+1.79.0
+b380da4ef1ee00e224a15c1d4d9793e27c2b6302
+x64
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code --list-extensions
+atlassian.atlascode
+eamodio.gitlens
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+redhat.vscode-yaml
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-lombok
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code --list-extensions --show-versions
+atlassian.atlascode@3.0.3
+eamodio.gitlens@2023.6.1705
+ms-azuretools.vscode-docker@1.25.1
+mtxr.sqltools@0.27.1
+mtxr.sqltools-driver-mysql@0.5.1
+redhat.java@1.20.2023061704
+redhat.vscode-yaml@1.13.0
+shengchen.vscode-checkstyle@1.4.2
+SonarSource.sonarlint-vscode@3.18.0
+VisualStudioExptTeam.intellicode-api-usage-examples@0.2.7
+VisualStudioExptTeam.vscodeintellicode@1.2.30
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.48.2023061704
+vscjava.vscode-gradle@3.12.2023052700
+vscjava.vscode-java-debug@0.51.0
+vscjava.vscode-java-dependency@0.23.2023060200
+vscjava.vscode-java-test@0.39.0
+vscjava.vscode-lombok@1.1.0
+vscjava.vscode-maven@0.41.2023042103
+vscjava.vscode-spring-boot-dashboard@0.13.2023060100
+vscjava.vscode-spring-initializr@0.11.2023041103
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+
+By installing Extension Pack for Java, the following extensions are installed:
+
+    📦 Language Support for Java™ by Red Hat
+        Code Navigation
+        Auto Completion
+        Refactoring
+        Code Snippets
+    📦 Debugger for Java
+        Debugging
+    📦 Test Runner for Java
+        Run & Debug JUnit/TestNG Test Cases
+    📦 Maven for Java
+        Project Scaffolding
+        Custom Goals
+    📦 Project Manager for Java
+        Manage Java projects, referenced libraries, resource files, packages, classes, and class members
+    📦 Visual Studio IntelliCode
+        AI-assisted development
+        Completion list ranked by AI
+
+C:\Users\DavidHolberton>code --list-extensions --profile dphprof1
+redhat.java
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+
+C:\Users\DavidHolberton>code --list-extensions --show-versions --profile dphprof1
+redhat.java@1.19.0
+VisualStudioExptTeam.intellicode-api-usage-examples@0.2.7
+VisualStudioExptTeam.vscodeintellicode@1.2.30
+vscjava.vscode-java-debug@0.51.0
+vscjava.vscode-java-dependency@0.23.0
+vscjava.vscode-java-pack@0.25.11
+vscjava.vscode-java-test@0.39.0
+vscjava.vscode-maven@0.41.0
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>

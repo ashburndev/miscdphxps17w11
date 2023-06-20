@@ -1,0 +1,210 @@
+4:31 AM 6/19/2023
+
+https://spring.io/tools
+https://code.visualstudio.com/download
+https://www.eclipse.org/
+https://www.eclipse.org/downloads/
+
+https://github.com/spring-projects/sts4/wiki
+https://github.com/spring-projects/sts4/wiki/Installation
+https://www.geeksforgeeks.org/how-to-download-and-install-spring-tool-suite-spring-tools-4-for-eclipse-ide/
+
+Install Spring Tools 4 into an existing Eclipse (via a p2 repo)
+You can also use a p2 repository to install individual components of Spring Tools 4 into an existing Eclipse installation. Choose Install New Software in Eclipse and use this p2 repository URL:
+
+Eclipse 4.28: https://download.springsource.com/release/TOOLS/sts4/update/e4.28/
+Eclipse 4.27: https://download.springsource.com/release/TOOLS/sts4/update/e4.27/
+Eclipse 4.26: https://download.springsource.com/release/TOOLS/sts4/update/e4.26/
+
+More Downloads
+
+    Other builds
+    Eclipse 2023-06 (4.28)
+    Eclipse 2023-03 (4.27)
+    Eclipse 2022-12 (4.26)
+    Eclipse 2022-09 (4.25)
+    Eclipse 2022-06 (4.24)
+    Eclipse 2022-03 (4.23)
+    Eclipse 2021-12 (4.22)
+    Eclipse 2021-09 (4.21)
+    Eclipse 2021-06 (4.20)
+    Eclipse 2021-03 (4.19)
+    Older Versions
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+06/12/2023  05:42 AM        93,012,080 VSCodeUserSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM        93,011,880 VSCodeSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM       129,219,132 VSCode-win32-x64-1.79.0.zip
+06/12/2023  05:46 AM       165,594,858 gradle-7.6.1-all.zip
+06/12/2023  05:46 AM                64 gradle-7.6.1-all.zip.sha256
+06/12/2023  05:47 AM       132,684,940 gradle-5.4-all.zip
+06/12/2023  05:47 AM                64 gradle-5.4-all.zip.sha256
+06/19/2023  04:35 AM       547,932,670 eclipse-jee-2023-06-R-win32-x86_64.zip
+06/19/2023  04:37 AM               170 eclipse-jee-2023-06-R-win32-x86_64.zip.sha512
+06/19/2023  04:37 AM       341,577,457 eclipse-java-2023-06-R-win32-x86_64.zip
+06/19/2023  04:38 AM               171 eclipse-java-2023-06-R-win32-x86_64.zip.sha512
+06/19/2023  04:41 AM       607,189,124 spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+06/19/2023  04:46 AM        92,999,832 VSCodeUserSetup-x64-1.79.2.exe
+06/19/2023  04:46 AM        92,999,648 VSCodeSetup-x64-1.79.2.exe
+06/19/2023  04:46 AM       129,219,363 VSCode-win32-x64-1.79.2.zip
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Certutil –hashfile eclipse-jee-2023-06-R-win32-x86_64.zip sha512
+type               eclipse-jee-2023-06-R-win32-x86_64.zip.sha512
+
+Certutil –hashfile eclipse-java-2023-06-R-win32-x86_64.zip sha512
+type               eclipse-java-2023-06-R-win32-x86_64.zip.sha512
+
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile eclipse-jee-2023-06-R-win32-x86_64.zip sha512
+SHA512 hash of eclipse-jee-2023-06-R-win32-x86_64.zip:
+e214fbdb6c35f4668ce173a0167ff6a9ca971d39818b38c4de3411f641dcff4e739d365e5f57321fd258e989ecc5ade30c29cef7f44ad5793e79970830ff6a4b
+e214fbdb6c35f4668ce173a0167ff6a9ca971d39818b38c4de3411f641dcff4e739d365e5f57321fd258e989ecc5ade30c29cef7f44ad5793e79970830ff6a4b  eclipse-jee-2023-06-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>Certutil –hashfile eclipse-java-2023-06-R-win32-x86_64.zip sha512
+SHA512 hash of eclipse-java-2023-06-R-win32-x86_64.zip:
+e0f97bb69d9aa111f04eb9e3aca165e302f3ce9cf4bb62d6a83fc6cab893a2bdea47f0ef45ba9ab944c47638c15d10a37f156b44a9e1cfacb21467e3ca2d5928
+e0f97bb69d9aa111f04eb9e3aca165e302f3ce9cf4bb62d6a83fc6cab893a2bdea47f0ef45ba9ab944c47638c15d10a37f156b44a9e1cfacb21467e3ca2d5928  eclipse-java-2023-06-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+mkdir C:\LocalApps\sts-temp
+copy spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar C:\LocalApps\sts-temp
+cd    C:\LocalApps\sts-temp
+java -jar spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar 
+move sts-4.19.0.RELEASE ..
+cd ..
+rmdir /s /q sts-temp
+
+cd \Users\DavidHolberton\Downloads
+7z l VSCode-win32-x64-1.79.2.zip
+mkdir C:\LocalApps\VSCode-win32-x64-1.79.2
+copy VSCode-win32-x64-1.79.2.zip C:\LocalApps\VSCode-win32-x64-1.79.2
+cd C:\LocalApps\VSCode-win32-x64-1.79.2
+7z x VSCode-win32-x64-1.79.2.zip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd \LocalApps
+
+C:\LocalApps>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+02/01/1980  12:00 AM    <DIR>          groovy-4.0.12
+02/01/1980  12:00 AM    <DIR>          gradle-7.6.1
+02/01/1980  12:00 AM    <DIR>          gradle-5.4
+02/01/1980  12:00 AM    <DIR>          gradle-8.1.1
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/05/2023  06:09 AM    <DIR>          .gradle
+06/17/2023  09:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  05:05 AM    <DIR>          sts-4.19.0.RELEASE
+06/19/2023  05:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+06/19/2023  05:14 AM    <DIR>          .
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/05/2023  06:49 AM               315 init.gradle
+06/05/2023  07:05 AM             2,123 settings.gradle
+               6 File(s)    681,629,484 bytes
+              16 Dir(s)  544,824,303,616 bytes free
+
+C:\LocalApps>
+C:\LocalApps>code --version
+1.79.2
+695af097c7bd098fbf017ce3ac85e09bbc5dda06
+x64
+
+C:\LocalApps>
+C:\LocalApps>code --list-extensions
+atlassian.atlascode
+eamodio.gitlens
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+redhat.vscode-yaml
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-lombok
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\LocalApps>code --list-extensions --show-versions
+atlassian.atlascode@3.0.3
+eamodio.gitlens@2023.6.1705
+ms-azuretools.vscode-docker@1.25.1
+mtxr.sqltools@0.27.1
+mtxr.sqltools-driver-mysql@0.5.1
+redhat.java@1.20.2023061704
+redhat.vscode-yaml@1.13.0
+shengchen.vscode-checkstyle@1.4.2
+SonarSource.sonarlint-vscode@3.18.0
+VisualStudioExptTeam.intellicode-api-usage-examples@0.2.7
+VisualStudioExptTeam.vscodeintellicode@1.2.30
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.48.2023061704
+vscjava.vscode-gradle@3.12.2023052700
+vscjava.vscode-java-debug@0.51.0
+vscjava.vscode-java-dependency@0.23.2023060200
+vscjava.vscode-java-test@0.39.0
+vscjava.vscode-lombok@1.1.0
+vscjava.vscode-maven@0.41.2023042103
+vscjava.vscode-spring-boot-dashboard@0.13.2023060100
+vscjava.vscode-spring-initializr@0.11.2023041103
+
+C:\LocalApps>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.gradle.org/current/samples/sample_building_java_applications.html
+
+mkdir C:\Users\DavidHolberton\javaprojs\vsc1792app
+cd    C:\Users\DavidHolberton\javaprojs\vsc1792app
+gradle init
+code .
+
+Version: 1.79.2
+Commit: 695af097c7bd098fbf017ce3ac85e09bbc5dda06
+Date: 2023-06-14T08:57:04.379Z
+Electron: 22.5.7
+Chromium: 108.0.5359.215
+Node.js: 16.17.1
+V8: 10.8.168.25-electron.0
+OS: Windows_NT x64 10.0.22621
+
+
+
+
+
+
