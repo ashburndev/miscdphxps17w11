@@ -1,0 +1,63 @@
+7:07 AM 6/22/2023
+
+Microsoft Windows [Version 10.0.22621.1848]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.jetbrains.com/idea/
+https://www.jetbrains.com/idea/download/?section=windows
+  Version: 2023.1.3
+  Build: 231.9161.38
+  19 June 2023
+
+https://www.jetbrains.com/pycharm/
+https://www.jetbrains.com/pycharm/download/#section=windows
+  Version: 2023.1.2
+  Build: 231.9011.38
+  16 May 2023
+
+05/21/2023  11:47 AM       778,742,392 ideaIU-2023.1.2.exe
+05/21/2023  11:48 AM                86 ideaIU-2023.1.2.exe.txt
+05/21/2023  11:49 AM     1,105,734,882 ideaIU-2023.1.2.win.zip
+05/21/2023  11:50 AM                90 ideaIU-2023.1.2.win.zip.txt
+05/21/2023  11:50 AM       663,994,680 ideaIC-2023.1.2.exe
+05/21/2023  11:52 AM                86 ideaIC-2023.1.2.exe.txt
+05/21/2023  11:52 AM       937,233,781 ideaIC-2023.1.2.win.zip
+05/21/2023  11:53 AM                90 ideaIC-2023.1.2.win.zip.txt
+05/21/2023  11:55 AM       521,054,240 pycharm-professional-2023.1.2.exe
+05/21/2023  11:56 AM               100 pycharm-professional-2023.1.2.exe.txt
+05/21/2023  11:57 AM       422,872,184 pycharm-community-2023.1.2.exe
+05/21/2023  11:58 AM                97 pycharm-community-2023.1.2.exe.txt
+06/01/2023  06:14 AM            67,807 demo.zip
+06/02/2023  06:13 AM       122,052,640 gradle-7.6.1-bin.zip
+06/02/2023  06:13 AM                64 gradle-7.6.1-bin.zip.sha256
+06/02/2023  06:17 AM        87,106,040 gradle-5.4-bin.zip
+06/02/2023  06:17 AM                64 gradle-5.4-bin.zip.sha256
+06/07/2023  07:16 AM       152,568,968 jdk-8u371-windows-x64.exe
+06/12/2023  05:42 AM        93,012,080 VSCodeUserSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM        93,011,880 VSCodeSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM       129,219,132 VSCode-win32-x64-1.79.0.zip
+06/12/2023  05:46 AM       165,594,858 gradle-7.6.1-all.zip
+06/12/2023  05:46 AM                64 gradle-7.6.1-all.zip.sha256
+06/12/2023  05:47 AM       132,684,940 gradle-5.4-all.zip
+06/12/2023  05:47 AM                64 gradle-5.4-all.zip.sha256
+06/19/2023  04:35 AM       547,932,670 eclipse-jee-2023-06-R-win32-x86_64.zip
+06/19/2023  04:37 AM               170 eclipse-jee-2023-06-R-win32-x86_64.zip.sha512
+06/19/2023  04:37 AM       341,577,457 eclipse-java-2023-06-R-win32-x86_64.zip
+06/19/2023  04:38 AM               171 eclipse-java-2023-06-R-win32-x86_64.zip.sha512
+06/19/2023  04:41 AM       607,189,124 spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+06/19/2023  04:46 AM        92,999,832 VSCodeUserSetup-x64-1.79.2.exe
+06/19/2023  04:46 AM        92,999,648 VSCodeSetup-x64-1.79.2.exe
+06/19/2023  04:46 AM       129,219,363 VSCode-win32-x64-1.79.2.zip
+06/21/2023  08:04 AM            68,050 sb310demo.zip
+06/22/2023  07:12 AM       778,798,688 ideaIU-2023.1.3.exe
+06/22/2023  07:13 AM                86 ideaIU-2023.1.3.exe.sha256
+06/22/2023  07:13 AM       664,033,944 ideaIC-2023.1.3.exe
+06/22/2023  07:13 AM                86 ideaIC-2023.1.3.exe.sha256
+             332 File(s) 46,491,902,915 bytes
+               6 Dir(s)  540,528,152,576 bytes free
+

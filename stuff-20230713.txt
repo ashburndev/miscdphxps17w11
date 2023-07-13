@@ -1,0 +1,434 @@
+6:26 AM 7/13/2023
+
+Microsoft Windows [Version 10.0.22621.1848]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+Version 1.80 is now available! Read about the new features and fixes from June.
+
+https://code.visualstudio.com/updates/v1_80
+
+  07/13/2023  06:28 AM        93,171,624 VSCodeUserSetup-x64-1.80.0.exe
+  07/13/2023  06:29 AM        93,171,520 VSCodeSetup-x64-1.80.0.exe
+  07/13/2023  06:29 AM       129,548,276 VSCode-win32-x64-1.80.0.zip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.jetbrains.com/idea/download/?section=windows
+  Version: 2023.1.4
+  Build: 231.9225.16
+  11 July 2023
+
+07/13/2023  07:46 AM       778,854,224 ideaIU-2023.1.4.exe
+07/13/2023  07:46 AM                86 ideaIU-2023.1.4.exe.sha256
+07/13/2023  07:46 AM     1,105,896,658 ideaIU-2023.1.4.win.zip
+07/13/2023  07:47 AM                90 ideaIU-2023.1.4.win.zip.sha256
+07/13/2023  07:47 AM       664,066,680 ideaIC-2023.1.4.exe
+07/13/2023  07:47 AM                86 ideaIC-2023.1.4.exe.sha256
+07/13/2023  07:48 AM       937,332,248 ideaIC-2023.1.4.win.zip
+07/13/2023  07:48 AM                90 ideaIC-2023.1.4.win.zip.sha256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/docs/editor/profiles
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+
+Version 	0.25.2023062906 	
+Released on 	9/27/2017, 5:38:52 AM 	
+Last updated 	6/29/2023, 10:25:54 AM
+Publisher 	Microsoft 	
+Unique Identifier 	vscjava.vscode-java-pack
+
+Extension Pack for Java
+  Extensions Included
+  By installing Extension Pack for Java, the following extensions are installed:
+     Language Support for Java™ by Red Hat
+        Code Navigation
+        Auto Completion
+        Refactoring
+        Code Snippets
+     Debugger for Java
+        Debugging
+     Test Runner for Java
+        Run & Debug JUnit/TestNG Test Cases
+     Maven for Java
+        Project Scaffolding
+        Custom Goals
+     Project Manager for Java
+        Manage Java projects, referenced libraries, resource files, packages, classes, and class members
+     Visual Studio IntelliCode
+        AI-assisted development
+        Completion list ranked by AI
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Version: 1.80.0
+Commit: 660393deaaa6d1996740ff4880f1bad43768c814
+Date: 2023-07-04T15:06:02.407Z
+Electron: 22.3.14
+ElectronBuildId: 21893604
+Chromium: 108.0.5359.215
+Node.js: 16.17.1
+V8: 10.8.168.25-electron.0
+OS: Windows_NT x64 10.0.22621
+
+https://code.visualstudio.com/docs/editor/command-line
+
+  code ~/projects/web-sample --profile "Web Development"
+
+  --install-extension <ext> 	Install an extension. Provide the full extension name publisher.extension as an argument. Use --force argument to avoid prompts.
+  --uninstall-extension <ext> 	Uninstall an extension. Provide the full extension name publisher.extension as an argument.
+  --disable-extensions 	Disable all installed extensions. Extensions will still be visible in the Disabled section of the Extensions view but they will never be activated.
+  --list-extensions 	List the installed extensions.
+  --show-versions 	Show versions of installed extensions, when using --list-extensions
+  --enable-proposed-api <ext> 	Enables proposed api features for an extension. Provide the full extension name publisher.extension as an argument.
+
+Microsoft Windows [Version 10.0.22621.1848]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>code --version
+1.80.0
+660393deaaa6d1996740ff4880f1bad43768c814
+x64
+
+C:\Users\DavidHolberton>code --list-extensions
+atlassian.atlascode
+eamodio.gitlens
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+redhat.vscode-yaml
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-lombok
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code --list-extensions --show-versions
+atlassian.atlascode@3.0.3
+eamodio.gitlens@2023.6.2005
+ms-azuretools.vscode-docker@1.25.1
+mtxr.sqltools@0.27.1
+mtxr.sqltools-driver-mysql@0.5.1
+redhat.java@1.20.2023062004
+redhat.vscode-yaml@1.13.0
+shengchen.vscode-checkstyle@1.4.2
+SonarSource.sonarlint-vscode@3.19.0
+VisualStudioExptTeam.intellicode-api-usage-examples@0.2.7
+VisualStudioExptTeam.vscodeintellicode@1.2.30
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.48.2023062004
+vscjava.vscode-gradle@3.12.2023052700
+vscjava.vscode-java-debug@0.51.0
+vscjava.vscode-java-dependency@0.23.2023060200
+vscjava.vscode-java-test@0.39.0
+vscjava.vscode-lombok@1.1.0
+vscjava.vscode-maven@0.41.2023042103
+vscjava.vscode-spring-boot-dashboard@0.13.2023060100
+vscjava.vscode-spring-initializr@0.11.2023041103
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+code  --uninstall-extension atlassian.atlascode
+code  --uninstall-extension eamodio.gitlens
+code  --uninstall-extension ms-azuretools.vscode-docker
+code  --uninstall-extension mtxr.sqltools
+code  --uninstall-extension mtxr.sqltools-driver-mysql
+code  --uninstall-extension redhat.java
+code  --uninstall-extension redhat.vscode-yaml
+code  --uninstall-extension shengchen.vscode-checkstyle
+code  --uninstall-extension SonarSource.sonarlint-vscode
+code  --uninstall-extension VisualStudioExptTeam.intellicode-api-usage-examples
+code  --uninstall-extension VisualStudioExptTeam.vscodeintellicode
+code  --uninstall-extension vmware.vscode-boot-dev-pack
+code  --uninstall-extension vmware.vscode-spring-boot
+code  --uninstall-extension vscjava.vscode-gradle
+code  --uninstall-extension vscjava.vscode-java-debug
+code  --uninstall-extension vscjava.vscode-java-dependency
+code  --uninstall-extension vscjava.vscode-java-test
+code  --uninstall-extension vscjava.vscode-lombok
+code  --uninstall-extension vscjava.vscode-maven
+code  --uninstall-extension vscjava.vscode-spring-boot-dashboard
+code  --uninstall-extension vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton\.vscode\extensions>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.vscode\extensions
+
+05/15/2023  07:55 AM    <DIR>          vscjava.vscode-java-test-0.38.2
+05/15/2023  07:55 AM    <DIR>          vscjava.vscode-java-pack-0.25.2023042006
+05/17/2023  06:54 AM    <DIR>          vscjava.vscode-java-debug-0.50.2023042406
+05/17/2023  06:56 AM    <DIR>          vscjava.vscode-maven-0.41.2023042103
+05/17/2023  06:56 AM    <DIR>          vscjava.vscode-java-dependency-0.22.2023042900
+05/17/2023  06:57 AM    <DIR>          vscjava.vscode-spring-initializr-0.11.2
+05/17/2023  06:57 AM    <DIR>          vmware.vscode-spring-boot-1.46.0
+05/17/2023  06:57 AM    <DIR>          vscjava.vscode-spring-boot-dashboard-0.13.0
+05/17/2023  06:57 AM    <DIR>          vmware.vscode-boot-dev-pack-0.2.1
+05/17/2023  06:57 AM    <DIR>          vscjava.vscode-spring-initializr-0.11.2023041103
+05/17/2023  06:58 AM    <DIR>          shengchen.vscode-checkstyle-1.4.2
+05/17/2023  06:59 AM    <DIR>          ms-azuretools.vscode-docker-1.25.1
+05/17/2023  06:59 AM    <DIR>          mtxr.sqltools-0.27.1
+05/17/2023  06:59 AM    <DIR>          mtxr.sqltools-driver-mysql-0.5.1
+05/17/2023  07:03 AM    <DIR>          ms-vscode-remote.remote-containers-0.292.0
+05/18/2023  07:42 AM    <DIR>          redhat.java-1.19.2023051804-win32-x64
+05/18/2023  07:52 AM    <DIR>          vscjava.vscode-lombok-1.1.0
+05/18/2023  07:52 AM    <DIR>          atlassian.atlascode-3.0.3
+05/23/2023  07:15 AM    <DIR>          redhat.vscode-yaml-1.13.0
+06/01/2023  06:16 AM    <DIR>          vscjava.vscode-spring-boot-dashboard-0.13.2023060100
+06/01/2023  06:16 AM    <DIR>          vscjava.vscode-gradle-3.12.2023052700
+06/02/2023  05:49 AM    <DIR>          vscjava.vscode-java-dependency-0.23.2023060200
+06/17/2023  09:12 AM    <DIR>          ..
+06/17/2023  09:25 AM    <DIR>          vscjava.vscode-java-debug-0.51.0
+06/17/2023  09:25 AM    <DIR>          vscjava.vscode-java-dependency-0.23.0
+06/17/2023  09:25 AM    <DIR>          visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+06/17/2023  09:25 AM    <DIR>          vscjava.vscode-maven-0.41.0
+06/17/2023  09:25 AM    <DIR>          redhat.java-1.19.0-win32-x64
+06/17/2023  09:25 AM    <DIR>          vscjava.vscode-java-test-0.39.0
+06/17/2023  09:25 AM    <DIR>          vscjava.vscode-java-pack-0.25.11
+06/17/2023  09:37 AM    <DIR>          visualstudioexptteam.vscodeintellicode-1.2.30
+06/20/2023  06:22 AM    <DIR>          eamodio.gitlens-2023.6.2005
+06/20/2023  06:22 AM    <DIR>          redhat.java-1.20.2023062004-win32-x64
+06/20/2023  06:22 AM    <DIR>          vmware.vscode-spring-boot-1.48.2023062004
+06/20/2023  06:22 AM    <DIR>          sonarsource.sonarlint-vscode-3.19.0-win32-x64
+07/13/2023  06:27 AM    <DIR>          vscjava.vscode-java-debug-0.52.0
+07/13/2023  06:27 AM    <DIR>          vscjava.vscode-java-pack-0.25.12
+07/13/2023  06:27 AM    <DIR>          redhat.java-1.20.0-win32-x64
+07/13/2023  06:27 AM    <DIR>          .
+06/20/2023  06:22 AM            11,499 extensions.json
+07/13/2023  06:27 AM                77 .obsolete
+               2 File(s)         11,576 bytes
+              39 Dir(s)  571,988,344,832 bytes free
+
+C:\Users\DavidHolberton\.vscode\extensions>
+C:\Users\DavidHolberton\.vscode\extensions>cd ..
+C:\Users\DavidHolberton\.vscode>cd ..
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code  --uninstall-extension atlassian.atlascode
+Uninstalling atlassian.atlascode...
+Extension 'atlassian.atlascode' was successfully uninstalled!
+
+C:\Users\DavidHolberton>code --list-extensions
+eamodio.gitlens
+ms-azuretools.vscode-docker
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+redhat.java
+redhat.vscode-yaml
+shengchen.vscode-checkstyle
+SonarSource.sonarlint-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-test
+vscjava.vscode-lombok
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>code --list-extensions
+mtxr.sqltools
+redhat.java
+vscjava.vscode-java-debug
+
+C:\Users\DavidHolberton>code --list-extensions --show-version
+Warning: 'show-version' is not in the list of known options, but still passed to Electron/Chromium.
+mtxr.sqltools
+redhat.java
+vscjava.vscode-java-debug
+
+C:\Users\DavidHolberton>code --list-extensions --show-versions
+mtxr.sqltools@0.27.1
+redhat.java@1.20.2023062004
+vscjava.vscode-java-debug@0.51.0
+
+C:\Users\DavidHolberton>code  --uninstall-extension mtxr.sqltools@0.27.1
+Extension 'mtxr.sqltools@0.27.1' is not installed.
+Make sure you use the full extension ID, including the publisher, e.g.: ms-dotnettools.csharp
+
+C:\Users\DavidHolberton>code  --uninstall-extension vscjava.vscode-java-debug@0.51.0
+Extension 'vscjava.vscode-java-debug@0.51.0' is not installed.
+Make sure you use the full extension ID, including the publisher, e.g.: ms-dotnettools.csharp
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+Language Support for Java(TM) by Red Hat
+
+Version 	1.21.2023071204 	
+Released on 	9/12/2016, 4:41:27 PM 	
+Last updated 	7/12/2023, 4:39:32 AM
+Publisher 	Red Hat 	
+Unique Identifier 	redhat.java
+
+code  --uninstall-extension redhat.java
+
+C:\Users\DavidHolberton>code  --uninstall-extension redhat.java
+Uninstalling redhat.java...
+Extension 'redhat.java' was successfully uninstalled!
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug
+Debugger for Java
+
+Version 	0.52.2023063003 	
+Released on 	9/27/2017, 4:54:20 AM 	
+Last updated 	6/30/2023, 3:28:33 AM
+Publisher 	Microsoft 	
+Unique Identifier 	vscjava.vscode-java-debug 	
+
+code  --uninstall-extension vscjava.vscode-java-debug 
+
+C:\Users\DavidHolberton>code  --uninstall-extension vscjava.vscode-java-debug
+Uninstalling vscjava.vscode-java-debug...
+Extension 'vscjava.vscode-java-debug' was successfully uninstalled!
+
+C:\Users\DavidHolberton>code  --uninstall-extension mtxr.sqltools
+Uninstalling mtxr.sqltools...
+Extension 'mtxr.sqltools' was successfully uninstalled!
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --list-extensions --profile dphprof1
+redhat.java
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+code  --uninstall-extension redhat.java -profile --profile dphprof1
+code  --uninstall-extension VisualStudioExptTeam.intellicode-api-usage-examples --profile dphprof1
+code  --uninstall-extension VisualStudioExptTeam.vscodeintellicode --profile  dphprof1
+code  --uninstall-extension vscjava.vscode-java-debug --profile dphprof1
+code  --uninstall-extension vscjava.vscode-java-dependency --profile dphprof1
+code  --uninstall-extension vscjava.vscode-java-pack --profile dphprof1
+code  --uninstall-extension vscjava.vscode-java-test --profile dphprof1
+code  --uninstall-extension vscjava.vscode-maven --profile dphprof1
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --list-extensions --profile dphprof1
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --list-extensions
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>code --list-extensions --profile "Java Spring"
+ms-vscode-remote.remote-containers
+redhat.java
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton>
+
+code  --uninstall-extension ms-vscode-remote.remote-containers --profile "Java Spring"
+code  --uninstall-extension redhat.java --profile "Java Spring"
+code  --uninstall-extension VisualStudioExptTeam.intellicode-api-usage-examples --profile "Java Spring"
+code  --uninstall-extension VisualStudioExptTeam.vscodeintellicode --profile "Java Spring"
+code  --uninstall-extension vmware.vscode-boot-dev-pack --profile "Java Spring"
+code  --uninstall-extension vmware.vscode-spring-boot --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-java-debug --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-java-dependency --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-java-pack --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-java-test --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-maven --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-spring-boot-dashboard --profile "Java Spring"
+code  --uninstall-extension vscjava.vscode-spring-initializr --profile "Java Spring"
+
+C:\Users\DavidHolberton>code --list-extensions --profile "Java Spring"
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>dir /o:gd .vscode\extensions
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.vscode\extensions
+
+05/15/2023  07:55 AM    <DIR>          vscjava.vscode-java-test-0.38.2
+05/15/2023  07:55 AM    <DIR>          vscjava.vscode-java-pack-0.25.2023042006
+05/17/2023  06:54 AM    <DIR>          vscjava.vscode-java-debug-0.50.2023042406
+05/17/2023  06:56 AM    <DIR>          vscjava.vscode-maven-0.41.2023042103
+05/17/2023  06:56 AM    <DIR>          vscjava.vscode-java-dependency-0.22.2023042900
+05/17/2023  06:57 AM    <DIR>          vscjava.vscode-spring-initializr-0.11.2
+05/17/2023  06:57 AM    <DIR>          vmware.vscode-spring-boot-1.46.0
+05/17/2023  06:57 AM    <DIR>          vscjava.vscode-spring-boot-dashboard-0.13.0
+05/17/2023  06:57 AM    <DIR>          vmware.vscode-boot-dev-pack-0.2.1
+05/17/2023  07:03 AM    <DIR>          ms-vscode-remote.remote-containers-0.292.0
+05/18/2023  07:42 AM    <DIR>          redhat.java-1.19.2023051804-win32-x64
+06/17/2023  09:12 AM    <DIR>          ..
+06/17/2023  09:25 AM    <DIR>          visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+06/17/2023  09:37 AM    <DIR>          visualstudioexptteam.vscodeintellicode-1.2.30
+07/13/2023  07:34 AM    <DIR>          vscjava.vscode-java-dependency-0.23.2023060200
+07/13/2023  07:34 AM    <DIR>          vscjava.vscode-java-test-0.39.0
+07/13/2023  07:34 AM    <DIR>          vscjava.vscode-java-debug-0.52.2023063003
+07/13/2023  07:34 AM    <DIR>          vscjava.vscode-java-pack-0.25.2023062906
+07/13/2023  07:34 AM    <DIR>          vscjava.vscode-spring-boot-dashboard-0.13.1
+07/13/2023  07:34 AM    <DIR>          ms-vscode-remote.remote-containers-0.299.0
+07/13/2023  07:34 AM    <DIR>          redhat.java-1.21.2023071204-win32-x64
+07/13/2023  07:34 AM    <DIR>          vmware.vscode-spring-boot-1.47.0
+07/13/2023  07:35 AM    <DIR>          .
+07/13/2023  07:14 AM                 2 extensions.json
+07/13/2023  07:42 AM             1,003 .obsolete
+               2 File(s)          1,005 bytes
+              23 Dir(s)  567,183,167,488 bytes free
+
+C:\Users\DavidHolberton>
+
