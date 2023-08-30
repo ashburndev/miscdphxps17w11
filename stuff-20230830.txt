@@ -1,0 +1,349 @@
+6:55 AM 8/30/2023
+
+Microsoft Windows [Version 10.0.22621.2134]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad Documents\dir-stuff\stuff-20230830.txt
+C:\Users\DavidHolberton>code    Documents\dir-stuff\
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>where curl
+C:\Windows\System32\curl.exe
+
+C:\Users\DavidHolberton>curl --version
+curl 8.0.1 (Windows) libcurl/8.0.1 Schannel WinIDN
+Release-Date: 2023-03-20
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS HTTPS-proxy IDN IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI threadsafe Unicode UnixSockets
+
+C:\Users\DavidHolberton>
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ which curl
+/usr/bin/curl
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ curl --version
+curl 7.68.0 (x86_64-pc-linux-gnu) libcurl/7.68.0 OpenSSL/1.1.1f zlib/1.2.11 brotli/1.0.7 libidn2/2.2.0 libpsl/0.21.0 (+libidn2/2.2.0) libssh/0.9.3/openssl/zlib nghttp2/1.40.0 librtmp/2.3
+Release-Date: 2020-01-08
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp
+Features: AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ git --version
+git version 2.25.1
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ openssl version
+OpenSSL 1.1.1f  31 Mar 2020
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>bash
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Aug 30 06:59:05 EDT 2023
+
+  System load:  0.0                Processes:             13
+  Usage of /:   0.6% of 250.98GB   Users logged in:       0
+  Memory usage: 5%                 IPv4 address for eth0: 172.23.171.126
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once a day. To disable it please create the
+/home/davidho/.hushlogin file.
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ which curl
+/usr/bin/curl
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ curl --version
+curl 7.68.0 (x86_64-pc-linux-gnu) libcurl/7.68.0 OpenSSL/1.1.1f zlib/1.2.11 brotli/1.0.7 libidn2/2.2.0 libpsl/0.21.0 (+libidn2/2.2.0) libssh/0.9.3/openssl/zlib nghttp2/1.40.0 librtmp/2.3
+Release-Date: 2020-01-08
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp
+Features: AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ git --version
+git version 2.25.1
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ openssl version
+OpenSSL 1.1.1f  31 Mar 2020
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>where git
+C:\Program Files\Git\cmd\git.exe
+
+C:\Users\DavidHolberton>cd "\Program Files\Git"
+
+C:\Program Files\Git>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git
+
+12/30/2022  09:33 AM    <DIR>          bin
+12/30/2022  09:33 AM    <DIR>          mingw64
+12/30/2022  09:34 AM    <DIR>          usr
+12/30/2022  09:34 AM    <DIR>          dev
+12/30/2022  09:34 AM    <DIR>          cmd
+12/30/2022  09:34 AM    <DIR>          tmp
+12/30/2022  09:34 AM    <DIR>          etc
+12/30/2022  09:34 AM    <DIR>          .
+05/18/2023  07:18 AM    <DIR>          ..
+12/21/2022  02:47 PM           137,264 git-bash.exe
+12/21/2022  02:47 PM           136,752 git-cmd.exe
+12/21/2022  03:18 PM            18,765 LICENSE.txt
+12/21/2022  03:19 PM           232,809 ReleaseNotes.html
+12/30/2022  09:25 AM         3,212,176 unins000.exe
+12/30/2022  09:34 AM            24,191 unins000.msg
+12/30/2022  09:34 AM         1,257,774 unins000.dat
+               7 File(s)      5,019,731 bytes
+               9 Dir(s)  519,108,337,664 bytes free
+
+C:\Program Files\Git>dir /o:gd bin
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\bin
+
+12/30/2022  09:33 AM    <DIR>          .
+12/30/2022  09:34 AM    <DIR>          ..
+12/21/2022  02:47 PM            45,104 git.exe
+12/21/2022  02:47 PM            45,616 sh.exe
+12/21/2022  02:47 PM            45,616 bash.exe
+               3 File(s)        136,336 bytes
+               2 Dir(s)  519,038,963,712 bytes free
+
+C:\Program Files\Git>dir /o:gd mingw64
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\mingw64
+
+12/30/2022  09:33 AM    <DIR>          doc
+12/30/2022  09:33 AM    <DIR>          etc
+12/30/2022  09:33 AM    <DIR>          lib
+12/30/2022  09:33 AM    <DIR>          libexec
+12/30/2022  09:33 AM    <DIR>          share
+12/30/2022  09:33 AM    <DIR>          .
+12/30/2022  09:33 AM    <DIR>          ssl
+12/30/2022  09:34 AM    <DIR>          bin
+12/30/2022  09:34 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               9 Dir(s)  519,102,271,488 bytes free
+
+C:\Program Files\Git>dir /o:gd mingw64\bin
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\mingw64\bin
+
+12/30/2022  09:33 AM    <DIR>          ..
+12/30/2022  09:34 AM    <DIR>          .
+12/21/2022  02:47 PM           402,555 gitk
+12/21/2022  02:47 PM        13,839,754 scalar.exe
+12/21/2022  02:47 PM         3,726,896 git.exe
+12/21/2022  02:47 PM         3,726,896 git-upload-pack.exe
+12/21/2022  02:47 PM         3,726,896 git-upload-archive.exe
+12/21/2022  02:47 PM         3,726,896 git-receive-pack.exe
+12/21/2022  03:18 PM               538 Atlassian.Bitbucket.UI.exe.config
+12/21/2022  03:18 PM            22,928 Atlassian.Bitbucket.UI.Shared.dll
+12/21/2022  03:18 PM            48,442 blocked-file-util.exe
+12/21/2022  03:18 PM           857,752 brotli.exe
+12/21/2022  03:18 PM            68,276 bunzip2.exe
+12/21/2022  03:18 PM            68,276 bzcat.exe
+12/21/2022  03:18 PM             2,140 bzcmp
+12/21/2022  03:18 PM             2,140 bzdiff
+12/21/2022  03:18 PM             2,054 bzegrep
+12/21/2022  03:18 PM             2,054 bzfgrep
+12/21/2022  03:18 PM             2,054 bzgrep
+12/21/2022  03:18 PM            68,276 bzip2.exe
+12/21/2022  03:18 PM            49,031 bzip2recover.exe
+12/21/2022  03:18 PM             1,297 bzless
+12/21/2022  03:18 PM             1,297 bzmore
+12/21/2022  03:18 PM            79,537 connect.exe
+12/21/2022  03:18 PM           100,580 create-shortcut.exe
+12/21/2022  03:18 PM           294,044 curl.exe
+12/21/2022  03:18 PM            54,272 edit.dll
+12/21/2022  03:18 PM            18,432 edit_test.exe
+12/21/2022  03:18 PM            20,480 edit_test_dll.exe
+12/21/2022  03:18 PM           115,509 envsubst.exe
+12/21/2022  03:18 PM           282,016 gcmcore.dll
+12/21/2022  03:18 PM            28,064 gcmcoreui.dll
+12/21/2022  03:18 PM            38,800 gcmcoreuiwpf.dll
+12/21/2022  03:18 PM           114,925 gettext.exe
+12/21/2022  03:18 PM             5,188 gettext.sh
+12/21/2022  03:18 PM            42,273 gettextize
+12/21/2022  03:18 PM            46,660 git-askpass.exe
+12/21/2022  03:18 PM            19,091 git-askyesno.exe
+12/21/2022  03:18 PM            63,462 git-credential-helper-selector.exe
+12/21/2022  03:18 PM            76,704 git-credential-manager-core.exe
+12/21/2022  03:18 PM               538 git-credential-manager-core.exe.config
+12/21/2022  03:18 PM            85,392 git-credential-manager-ui.exe
+12/21/2022  03:18 PM               538 git-credential-manager-ui.exe.config
+12/21/2022  03:18 PM            76,688 git-credential-manager.exe
+12/21/2022  03:18 PM               538 git-credential-manager.exe.config
+12/21/2022  03:18 PM        10,577,184 git-lfs.exe
+12/21/2022  03:18 PM            43,408 Atlassian.Bitbucket.UI.exe
+12/21/2022  03:18 PM            10,308 git-update-git-for-windows
+12/21/2022  03:18 PM            71,056 Atlassian.Bitbucket.dll
+12/21/2022  03:18 PM           284,448 antiword.exe
+12/21/2022  03:18 PM            49,495 ahost.exe
+12/21/2022  03:18 PM            86,416 GitHub.dll
+12/21/2022  03:18 PM            46,992 GitHub.UI.exe
+12/21/2022  03:18 PM               538 GitHub.UI.exe.config
+12/21/2022  03:18 PM            58,904 adig.exe
+12/21/2022  03:18 PM            90,720 acountry.exe
+12/21/2022  03:18 PM            40,336 GitLab.dll
+12/21/2022  03:18 PM            36,752 GitLab.UI.exe
+12/21/2022  03:18 PM               538 GitLab.UI.exe.config
+12/21/2022  03:18 PM            24,992 GitLab.UI.Shared.dll
+12/21/2022  03:18 PM           143,397 libbrotlicommon.dll
+12/21/2022  03:18 PM            51,852 libbrotlidec.dll
+12/21/2022  03:18 PM            99,146 libbz2-1.dll
+12/21/2022  03:18 PM           125,026 libcares-5.dll
+12/21/2022  03:18 PM         2,795,164 libcrypto-1_1-x64.dll
+12/21/2022  03:18 PM           712,860 libcurl-4.dll
+12/21/2022  03:18 PM           188,397 libexpat-1.dll
+12/21/2022  03:18 PM            33,196 libffi-8.dll
+12/21/2022  03:18 PM           107,187 libgcc_s_seh-1.dll
+12/21/2022  03:18 PM           656,906 libgmp-10.dll
+12/21/2022  03:18 PM           274,746 libhogweed-6.dll
+12/21/2022  03:18 PM         1,114,369 libiconv-2.dll
+12/21/2022  03:18 PM           236,166 libidn2-0.dll
+12/21/2022  03:18 PM           136,724 libintl-8.dll
+12/21/2022  03:18 PM           155,526 liblzma-5.dll
+12/21/2022  03:18 PM           315,512 libnettle-8.dll
+12/21/2022  03:18 PM           213,360 libnghttp2-14.dll
+12/21/2022  03:18 PM         1,074,826 libp11-kit-0.dll
+12/21/2022  03:18 PM           281,695 libpcre-1.dll
+12/21/2022  03:18 PM           637,058 libpcre2-8-0.dll
+12/21/2022  03:18 PM            41,752 libpcreposix-0.dll
+12/21/2022  03:18 PM            97,342 libpsl-5.dll
+12/21/2022  03:18 PM             2,190 xzmore
+12/21/2022  03:18 PM           552,604 libssl-1_1-x64.dll
+12/21/2022  03:18 PM             1,813 xzless
+12/21/2022  03:18 PM           103,466 libtasn1-6.dll
+12/21/2022  03:18 PM            92,313 libtre-5.dll
+12/21/2022  03:18 PM            10,333 xzgrep
+12/21/2022  03:18 PM            60,356 libwinpthread-1.dll
+12/21/2022  03:18 PM            10,333 xzfgrep
+12/21/2022  03:18 PM            53,968 lzmadec.exe
+12/21/2022  03:18 PM            28,754 lzmainfo.exe
+12/21/2022  03:18 PM            62,864 Microsoft.AzureRepos.dll
+12/21/2022  03:18 PM           109,456 Microsoft.Identity.Client.Desktop.dll
+12/21/2022  03:18 PM         1,525,136 Microsoft.Identity.Client.dll
+12/21/2022  03:18 PM            63,392 Microsoft.Identity.Client.Extensions.Msal.dll
+12/21/2022  03:18 PM           223,136 Microsoft.Web.WebView2.Core.dll
+12/21/2022  03:18 PM            33,680 Microsoft.Web.WebView2.WinForms.dll
+12/21/2022  03:18 PM            37,776 Microsoft.Web.WebView2.Wpf.dll
+12/21/2022  03:18 PM           704,400 Newtonsoft.Json.dll
+12/21/2022  03:18 PM            62,202 odt2txt.exe
+12/21/2022  03:18 PM           715,932 openssl.exe
+12/21/2022  03:18 PM            78,069 p11-kit.exe
+12/21/2022  03:18 PM             2,177 pcre2-config
+12/21/2022  03:18 PM         1,537,966 pdftotext.exe
+12/21/2022  03:18 PM            57,666 pkcs1-conv.exe
+12/21/2022  03:18 PM            45,526 proxy-lookup.exe
+12/21/2022  03:18 PM            30,112 GitHub.UI.Shared.dll
+12/21/2022  03:18 PM            62,991 sexp-conv.exe
+12/21/2022  03:18 PM            30,392 sqlite3_analyzer.sh
+12/21/2022  03:18 PM            21,920 System.Buffers.dll
+12/21/2022  03:18 PM           216,480 System.CommandLine.dll
+12/21/2022  03:18 PM           142,264 System.Memory.dll
+12/21/2022  03:18 PM           110,016 System.Numerics.Vectors.dll
+12/21/2022  03:18 PM            17,808 System.Runtime.CompilerServices.Unsafe.dll
+12/21/2022  03:18 PM         1,632,485 tcl86.dll
+12/21/2022  03:18 PM            80,168 tclsh.exe
+12/21/2022  03:18 PM            80,168 tclsh86.exe
+12/21/2022  03:18 PM         1,491,583 tk86.dll
+12/21/2022  03:18 PM           230,022 trust.exe
+12/21/2022  03:18 PM            10,333 xzegrep
+12/21/2022  03:18 PM             1,102 update-ca-trust
+12/21/2022  03:18 PM           111,552 WebView2Loader.dll
+12/21/2022  03:18 PM           107,892 WhoUses.exe
+12/21/2022  03:18 PM           356,752 wintoast.exe
+12/21/2022  03:18 PM            66,672 wish.exe
+12/21/2022  03:18 PM            66,672 wish86.exe
+12/21/2022  03:18 PM            36,022 x86_64-w64-mingw32-agrep.exe
+12/21/2022  03:18 PM            82,678 xmlwf.exe
+12/21/2022  03:18 PM            85,196 xz.exe
+12/21/2022  03:18 PM            85,196 xzcat.exe
+12/21/2022  03:18 PM             7,372 xzcmp
+12/21/2022  03:18 PM            53,969 xzdec.exe
+12/21/2022  03:18 PM             7,372 xzdiff
+12/21/2022  03:18 PM           120,302 zlib1.dll
+12/21/2022  03:18 PM           270,123 libssh2-1.dll
+12/21/2022  03:18 PM         2,025,890 libstdc++-6.dll
+12/21/2022  03:18 PM         1,934,495 libunistring-2.dll
+12/21/2022  03:18 PM           830,348 libzstd.dll
+12/21/2022  03:18 PM            85,196 unxz.exe
+             138 File(s)     69,491,524 bytes
+               2 Dir(s)  519,102,238,720 bytes free
+
+C:\Program Files\Git>
+C:\Program Files\Git>git --version
+git version 2.39.0.windows.2
+
+C:\Program Files\Git>bin\bash
+
+DavidHolberton@dphxps17 MINGW64 /
+$ which curl
+/mingw64/bin/curl
+
+DavidHolberton@dphxps17 MINGW64 /
+$ curl --version
+curl 7.87.0 (x86_64-w64-mingw32) libcurl/7.87.0 OpenSSL/1.1.1s (Schannel) zlib/1.2.13 brotli/1.0.9 zstd/1.5.2 libidn2/2.3.3 libpsl/0.21.1 (+libidn2/2.3.1) libssh2/1.10.0 nghttp2/1.51.0
+Release-Date: 2022-12-21
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp
+Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz MultiSSL NTLM PSL SPNEGO SSL SSPI threadsafe TLS-SRP UnixSockets zstd
+
+DavidHolberton@dphxps17 MINGW64 /
+$ git --version
+git version 2.39.0.windows.2
+
+DavidHolberton@dphxps17 MINGW64 /
+$ openssl version
+OpenSSL 1.1.1s  1 Nov 2022
+
+DavidHolberton@dphxps17 MINGW64 /
+$ pwd
+/
+
+DavidHolberton@dphxps17 MINGW64 /
+$ cd
+
+DavidHolberton@dphxps17 MINGW64 ~
+$ pwd
+/c/Users/DavidHolberton
+
+DavidHolberton@dphxps17 MINGW64 ~
+$ ls -latr .ssh
+total 33
+-rw-r--r-- 1 DavidHolberton 197121  575 Dec 30  2022 id_rsa.pub    = ashburndev@gmail.com
+-rw-r--r-- 1 DavidHolberton 197121 2610 Dec 30  2022 id_rsa
+-rw-r--r-- 1 DavidHolberton 197121  656 Dec 30  2022 known_hosts.old
+-rw-r--r-- 1 DavidHolberton 197121  828 May 10 07:59 known_hosts
+drwxr-xr-x 1 DavidHolberton 197121    0 May 10 07:59 .
+drwxr-xr-x 1 DavidHolberton 197121    0 Aug 30 06:49 ..
+
+DavidHolberton@dphxps17 MINGW64 ~
+$
