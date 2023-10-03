@@ -1,0 +1,73 @@
+6:42 AM 10/3/2023
+
+
+Microsoft Windows [Version 10.0.22621.2134]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>notepad stuff-20231003.txt
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.docker.com/desktop/release-notes/?utm_campaign=prompt-dd-users-on-older-versions-to-upgrade&utm_medium=docker-desktop&utm_source=tip-of-the-day
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.oracle.com/java/technologies/downloads/
+
+JDK Development Kit 21 downloads
+https://www.oracle.com/java/technologies/downloads/#jdk21-windows
+https://www.oracle.com/java/technologies/javase-jdk21-doc-downloads.html
+
+JDK Development Kit 17.0.8 downloads
+https://www.oracle.com/java/technologies/downloads/#java17
+https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html
+
+Java SE Development Kit 11.0.20
+https://www.oracle.com/java/technologies/downloads/#java11
+https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html
+
+Java SE Development Kit 8u381
+https://www.oracle.com/java/technologies/downloads/#java8
+https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html
+
+10/03/2023  06:51 AM       194,361,047 jdk-21_windows-x64_bin.zip
+10/03/2023  06:52 AM                64 jdk-21_windows-x64_bin.zip.sha256
+10/03/2023  06:52 AM       171,745,904 jdk-21_windows-x64_bin.exe
+10/03/2023  06:52 AM                64 jdk-21_windows-x64_bin.exe.sha256
+10/03/2023  06:52 AM       170,467,328 jdk-21_windows-x64_bin.msi
+10/03/2023  06:52 AM                64 jdk-21_windows-x64_bin.msi.sha256
+10/03/2023  06:53 AM        52,696,201 jdk-21_doc-all.zip
+10/03/2023  06:55 AM       180,754,820 jdk-17_windows-x64_bin.zip
+10/03/2023  06:55 AM                64 jdk-17_windows-x64_bin.zip.sha256
+10/03/2023  06:55 AM       160,940,664 jdk-17_windows-x64_bin.exe
+10/03/2023  06:55 AM                64 jdk-17_windows-x64_bin.exe.sha256
+10/03/2023  06:55 AM       159,670,272 jdk-17_windows-x64_bin.msi
+10/03/2023  06:55 AM                64 jdk-17_windows-x64_bin.msi.sha256
+10/03/2023  06:59 AM        51,289,227 jdk-17.0.8_doc-all.zip
+10/03/2023  07:04 AM       148,260,984 jdk-11.0.20_windows-x64_bin.exe
+10/03/2023  07:04 AM       166,869,559 jdk-11.0.20_windows-x64_bin.zip
+10/03/2023  07:05 AM        53,771,666 jdk-11.0.20_doc-all.zip
+10/03/2023  07:06 AM             7,492 11-0-20-checksum.html
+10/03/2023  07:07 AM       143,476,840 jdk-8u381-windows-i586.exe
+10/03/2023  07:07 AM       152,623,720 jdk-8u381-windows-x64.exe
+10/03/2023  07:08 AM       125,203,200 jdk-8u381-docs-all.zip
+10/03/2023  07:08 AM        10,291,167 javafx-8u381-apidocs.zip
+10/03/2023  07:09 AM            12,562 8u381checksum.html
+             393 File(s) 60,312,114,866 bytes
+               6 Dir(s)  536,167,534,592 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>java -version
+java version "17.0.7" 2023-04-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.7+8-LTS-224)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.7+8-LTS-224, mixed mode, sharing)
+
+C:\Users\DavidHolberton\Downloads>javac -version
+javac 17.0.7
+
+C:\Users\DavidHolberton\Downloads>
+
