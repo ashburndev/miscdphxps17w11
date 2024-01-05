@@ -1,0 +1,161 @@
+11:10 AM 1/4/2024
+
+Microsoft Windows [Version 10.0.22631.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.oracle.com/java/technologies/downloads/
+
+JDK Development Kit 21.0.1 downloads
+https://www.oracle.com/java/technologies/downloads/#jdk21-windows
+https://www.oracle.com/java/technologies/javase-jdk21-doc-downloads.html
+
+JDK Development Kit 17.0.9 downloads
+https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html
+
+Java SE Development Kit 11.0.21
+https://www.oracle.com/java/technologies/downloads/#java11-windows
+https://www.oracle.com/java/technologies/downloads/#java11
+
+Java SE Development Kit 8u391
+https://www.oracle.com/java/technologies/downloads/#java8-windows
+https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html
+
+01/04/2024  11:26 AM       194,395,707 jdk-21.0.1_windows-x64_bin.zip
+01/04/2024  11:26 AM                64 jdk-21.0.1_windows-x64_bin.zip.sha256
+01/04/2024  11:27 AM       171,778,680 jdk-21.0.1_windows-x64_bin.exe
+01/04/2024  11:27 AM                64 jdk-21.0.1_windows-x64_bin.exe.sha256
+01/04/2024  11:27 AM       170,500,096 jdk-21.0.1_windows-x64_bin.msi
+01/04/2024  11:27 AM                64 jdk-21.0.1_windows-x64_bin.msi.sha256
+01/04/2024  11:29 AM        52,710,407 jdk-21.0.1_doc-all.zip
+01/04/2024  11:47 AM       180,797,351 jdk-17.0.9_windows-x64_bin.zip
+01/04/2024  11:49 AM                64 jdk-17.0.9_windows-x64_bin.zip.sha256
+01/04/2024  11:49 AM       160,969,336 jdk-17.0.9_windows-x64_bin.exe
+01/04/2024  11:50 AM                64 jdk-17.0.9_windows-x64_bin.exe.sha256
+01/04/2024  11:50 AM       159,698,944 jdk-17.0.9_windows-x64_bin.msi
+01/04/2024  11:50 AM                64 jdk-17.0.9_windows-x64_bin.msi.sha256
+01/04/2024  11:54 AM        51,296,347 jdk-17.0.9_doc-all.zip
+01/04/2024  12:06 PM       148,281,464 jdk-11.0.21_windows-x64_bin.exe
+01/04/2024  12:07 PM       166,886,503 jdk-11.0.21_windows-x64_bin.zip
+01/04/2024  12:08 PM        53,768,639 jdk-11.0.21_doc-all.zip
+01/04/2024  12:09 PM             7,492 11-0-21-checksum.html
+01/04/2024  12:11 PM       146,440,296 jdk-8u391-windows-i586.exe
+01/04/2024  12:12 PM       156,229,224 jdk-8u391-windows-x64.exe
+01/04/2024  12:14 PM       125,198,237 jdk-8u391-docs-all.zip
+01/04/2024  12:15 PM        10,298,609 javafx-8u391-apidocs.z
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd Downloads
+certutil -hashfile jdk-21.0.1_windows-x64_bin.zip SHA256
+type               jdk-21.0.1_windows-x64_bin.zip.sha256
+
+certutil -hashfile jdk-17.0.9_windows-x64_bin.zip SHA256
+type               jdk-17.0.9_windows-x64_bin.zip.sha256
+
+certutil -hashfile jdk-11.0.21_windows-x64_bin.zip SHA256
+rem type 11-0-21-checksum.html
+echo "<td>jdk-11.0.21_windows-x64_bin.zip</td>"
+echo "<td>sha256: e4337e03bd4a8e41b60ad928747f5b85309d31b4a7f8dc689813a6160af6b418</td>"
+
+7z l jdk-21.0.1_windows-x64_bin.zip
+7z l jdk-17.0.9_windows-x64_bin.zip
+7z l jdk-11.0.21_windows-x64_bin.zip
+
+7z x jdk-21.0.1_windows-x64_bin.zip  -oC:\LocalApps
+7z x jdk-17.0.9_windows-x64_bin.zip  -oC:\LocalApps
+7z x jdk-11.0.21_windows-x64_bin.zip -oC:\LocalApps
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>certutil -hashfile jdk-21.0.1_windows-x64_bin.zip SHA256
+SHA256 hash of jdk-21.0.1_windows-x64_bin.zip:
+c951b2f36d0f43ff347ac93d42ff6f64ce9b6231767d6b81d727bd2178d08290
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               jdk-21.0.1_windows-x64_bin.zip.sha256
+c951b2f36d0f43ff347ac93d42ff6f64ce9b6231767d6b81d727bd2178d08290
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>certutil -hashfile jdk-17.0.9_windows-x64_bin.zip SHA256
+SHA256 hash of jdk-17.0.9_windows-x64_bin.zip:
+68852a21156dc51471e5692c0c4d0b6177a3e7fefa2da4950a14e8a13e326d5c
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               jdk-17.0.9_windows-x64_bin.zip.sha256
+68852a21156dc51471e5692c0c4d0b6177a3e7fefa2da4950a14e8a13e326d5c
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>certutil -hashfile jdk-11.0.21_windows-x64_bin.zip SHA256
+SHA256 hash of jdk-11.0.21_windows-x64_bin.zip:
+e4337e03bd4a8e41b60ad928747f5b85309d31b4a7f8dc689813a6160af6b418
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>rem type 11-0-21-checksum.html
+
+C:\Users\DavidHolberton\Downloads>echo "<td>jdk-11.0.21_windows-x64_bin.zip</td>"
+"<td>jdk-11.0.21_windows-x64_bin.zip</td>"
+
+C:\Users\DavidHolberton\Downloads>echo "<td>sha256: e4337e03bd4a8e41b60ad928747f5b85309d31b4a7f8dc689813a6160af6b418</td>"
+"<td>sha256: e4337e03bd4a8e41b60ad928747f5b85309d31b4a7f8dc689813a6160af6b418</td>"
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+01/31/1980  11:00 PM    <DIR>          groovy-4.0.12
+01/31/1980  11:00 PM    <DIR>          gradle-7.6.1
+01/31/1980  11:00 PM    <DIR>          gradle-8.1.1
+01/31/1980  11:00 PM    <DIR>          gradle-5.4
+05/11/2022  05:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  06:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  03:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  02:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  08:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  09:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  09:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/05/2023  05:09 AM    <DIR>          .gradle
+06/17/2023  08:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  04:05 AM    <DIR>          sts-4.19.0.RELEASE
+06/19/2023  04:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  05:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+09/13/2023  05:12 AM    <DIR>          jdk-11.0.21
+10/05/2023  08:49 AM    <DIR>          jdk-21.0.1
+10/10/2023  05:24 PM    <DIR>          jdk-17.0.9
+01/05/2024  08:29 AM    <DIR>          .
+05/15/2023  06:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  11:11 AM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  06:59 AM               308 gradle.properties-save
+06/04/2023  10:57 AM               336 gradle.properties-foo
+06/05/2023  05:49 AM               315 init.gradle
+06/05/2023  06:05 AM             2,123 settings.gradle
+               6 File(s)    681,629,484 bytes
+              20 Dir(s)  551,384,584,192 bytes free
+
+C:\LocalApps>
+C:\LocalApps>dir /o:gd | findstr -i "jdk"
+02/28/2023  06:10 PM    <DIR>          jdk-17.0.7
+03/27/2023  02:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  05:12 AM    <DIR>          jdk-11.0.21
+10/05/2023  08:49 AM    <DIR>          jdk-21.0.1
+10/10/2023  05:24 PM    <DIR>          jdk-17.0.9
+
+C:\LocalApps>
+C:\LocalApps>echo %JAVA_HOME%
+C:\LocalApps\jdk-17.0.7
+
+C:\LocalApps>
+
