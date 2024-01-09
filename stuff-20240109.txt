@@ -1,0 +1,293 @@
+5:32 AM 1/9/2024
+
+Microsoft Windows [Version 10.0.22631.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/updates/v1_85
+
+November 2023 (version 1.85)
+Update 1.85.1: The update addresses these issues.
+Downloads: Windows: x64 Arm64 | Mac: Universal Intel silicon | Linux: deb rpm tarball Arm snap
+
+01/09/2024  05:34 AM        94,785,416 VSCodeUserSetup-x64-1.85.1.exe
+01/09/2024  05:36 AM        94,784,968 VSCodeSetup-x64-1.85.1.exe
+01/09/2024  05:36 AM       131,526,249 VSCode-win32-x64-1.85.1.zip
+01/09/2024  05:36 AM         7,014,253 vscode_cli_win32_x64_cli(1).zip
+
+mkdir \LocalApps\VSCode-win32-x64-1.85.1
+7z x VSCode-win32-x64-1.85.1.zip -o\LocalApps\VSCode-win32-x64-1.85.1
+dir /o:gd \LocalApps\VSCode-win32-x64-1.85.1
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd \LocalApps\VSCode-win32-x64-1.85.1
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\VSCode-win32-x64-1.85.1
+
+12/13/2023  04:49 AM    <DIR>          resources
+12/13/2023  04:49 AM    <DIR>          policies
+12/13/2023  04:50 AM    <DIR>          locales
+12/13/2023  05:18 AM    <DIR>          bin
+12/13/2023  05:18 AM    <DIR>          tools
+01/09/2024  05:39 AM    <DIR>          ..
+01/09/2024  05:41 AM    <DIR>          .
+12/13/2023  04:49 AM               367 Code.VisualElementsManifest.xml
+12/13/2023  04:49 AM           578,186 v8_context_snapshot.bin
+12/13/2023  04:49 AM           195,935 chrome_200_percent.pak
+12/13/2023  04:49 AM         8,242,333 LICENSES.chromium.html
+12/13/2023  04:49 AM         5,022,344 resources.pak
+12/13/2023  04:49 AM        10,544,880 icudtl.dat
+12/13/2023  04:49 AM           135,956 chrome_100_percent.pak
+12/13/2023  04:50 AM           259,202 snapshot_blob.bin
+12/13/2023  04:50 AM               106 vk_swiftshader_icd.json
+12/13/2023  05:18 AM           952,408 vulkan-1.dll
+12/13/2023  05:18 AM           500,736 libEGL.dll
+12/13/2023  05:18 AM         5,271,656 vk_swiftshader.dll
+12/13/2023  05:18 AM         7,439,248 libGLESv2.dll
+12/13/2023  05:18 AM         2,504,712 ffmpeg.dll
+12/13/2023  05:18 AM         4,926,920 d3dcompiler_47.dll
+12/13/2023  05:18 AM       154,697,648 Code.exe
+              16 File(s)    201,272,637 bytes
+               7 Dir(s)  551,377,633,280 bytes free
+
+C:\Users\DavidHolberton\Downloads>echo %vscode_home%
+C:\LocalApps\VSCode-win32-x64-1.85.1
+
+C:\Users\DavidHolberton\Downloads>code --version
+1.85.1
+0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+x64
+
+C:\Users\DavidHolberton\Downloads>Version: 1.85.1
+Commit: 0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+Date: 2023-12-13T09:49:37.021Z
+Electron: 25.9.7
+ElectronBuildId: 25551756
+Chromium: 114.0.5735.289
+Node.js: 18.15.0
+V8: 11.4.183.29-electron.0
+OS: Windows_NT x64 10.0.22631
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+https://www.eclipse.org/downloads/packages/release/2023-12/r/eclipse-ide-enterprise-java-and-web-developers
+https://www.eclipse.org/downloads/packages/release/2023-12/r/eclipse-ide-java-developers
+
+01/09/2024  05:57 AM       538,460,540 eclipse-jee-2023-12-R-win32-x86_64.zip
+01/09/2024  05:59 AM               170 eclipse-jee-2023-12-R-win32-x86_64.zip.sha512
+01/09/2024  06:00 AM       333,514,143 eclipse-java-2023-12-R-win32-x86_64.zip
+01/09/2024  06:02 AM               171 eclipse-java-2023-12-R-win32-x86_64.zip.sha512
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile eclipse-jee-2023-12-R-win32-x86_64.zip SHA512
+type               eclipse-jee-2023-12-R-win32-x86_64.zip.sha512
+7z x eclipse-jee-2023-12-R-win32-x86_64.zip -oC:\LocalApps\
+cd \LocalApps
+ren eclipse eclipse-jee-2023-12-R-win32-x86_64
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile eclipse-java-2023-12-R-win32-x86_64.zip SHA512
+type               eclipse-java-2023-12-R-win32-x86_64.zip.sha512
+7z x eclipse-java-2023-12-R-win32-x86_64.zip -oC:\LocalApps\
+cd \LocalApps
+ren eclipse eclipse-java-2023-12-R-win32-x86_64
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile eclipse-jee-2023-12-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-jee-2023-12-R-win32-x86_64.zip:
+a55a493f92bf0c22bca92c7feb9756b03aeb5e4932d9d7215b33b097737584a23837d9b231b9b87f633c44ea2916eaf4610cf0763edfbb75ced12f16480f9b03
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-jee-2023-12-R-win32-x86_64.zip.sha512
+a55a493f92bf0c22bca92c7feb9756b03aeb5e4932d9d7215b33b097737584a23837d9b231b9b87f633c44ea2916eaf4610cf0763edfbb75ced12f16480f9b03  eclipse-jee-2023-12-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile eclipse-java-2023-12-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-java-2023-12-R-win32-x86_64.zip:
+144daaf193a17f5e58a6ffac8579ff2f5c2a2230d5a0a54a8de20b856caf6a2886d09c746ad27b1408253648934c14f0d9b1f31520f1c3c31422c07f335c377b
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-java-2023-12-R-win32-x86_64.zip.sha512
+144daaf193a17f5e58a6ffac8579ff2f5c2a2230d5a0a54a8de20b856caf6a2886d09c746ad27b1408253648934c14f0d9b1f31520f1c3c31422c07f335c377b  eclipse-java-2023-12-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://spring.io/tools/
+
+cd C:\Users\DavidHolberton\Downloads
+mkdir C:\LocalApps\sts-temp
+copy spring-tool-suite-4-4.21.0.RELEASE-e4.30.0-win32.win32.x86_64.self-extracting.jar C:\LocalApps\sts-temp
+cd    C:\LocalApps\sts-temp
+java -jar spring-tool-suite-4-4.21.0.RELEASE-e4.30.0-win32.win32.x86_64.self-extracting.jar
+move sts-4.21.0.RELEASE ..
+cd ..
+rmdir /s /q sts-temp
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.jetbrains.com/ides/
+
+https://www.jetbrains.com/idea/download/?section=windows
+https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows
+https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip
+
+  Version: 2023.3.2
+  Build: 233.13135.103
+  19 December 2023
+
+https://www.jetbrains.com/pycharm/
+https://www.jetbrains.com/pycharm/download/?section=windows
+
+  Version: 2023.3.2
+  Build: 233.13135.95
+  19 December 2023
+
+https://www.jetbrains.com/webstorm/?var=1
+https://www.jetbrains.com/webstorm/download/download-thanks.html
+
+
+https://www.jetbrains.com/ruby/download/#section=windows
+https://www.jetbrains.com/ruby/download/#section=windows
+https://www.jetbrains.com/ruby/download/#section=windows
+
+  Version: 2023.3.2
+  Build: 233.13135.91
+  19 December 2023
+
+https://www.jetbrains.com/datagrip/
+https://www.jetbrains.com/datagrip/download/#section=windows
+
+  Version: 2023.3.2
+  Build: 233.13135.68
+  14 December 2023
+
+01/09/2024  06:49 AM       700,707,216 ideaIU-2023.3.2.exe
+01/09/2024  06:49 AM                86 ideaIU-2023.3.2.exe.sha256
+01/09/2024  06:50 AM     1,005,458,882 ideaIU-2023.3.2.win.zip
+01/09/2024  06:51 AM                90 ideaIU-2023.3.2.win.zip.sha256
+01/09/2024  06:57 AM       572,922,312 ideaIC-2023.3.2.exe
+01/09/2024  06:57 AM                86 ideaIC-2023.3.2.exe.sha256
+01/09/2024  06:57 AM       814,468,452 ideaIC-2023.3.2.win.zip
+01/09/2024  06:58 AM                90 ideaIC-2023.3.2.win.zip.sha256
+01/09/2024  07:16 AM       569,468,120 pycharm-professional-2023.3.2.exe
+01/09/2024  07:16 AM               100 pycharm-professional-2023.3.2.exe.sha256
+01/09/2024  07:17 AM       448,669,184 pycharm-community-2023.3.2.exe
+01/09/2024  07:17 AM                97 pycharm-community-2023.3.2.exe.sha256
+01/09/2024  07:20 AM       445,128,160 WebStorm-2023.3.2.exe
+01/09/2024  07:21 AM                88 WebStorm-2023.3.2.exe.sha256
+01/09/2024  08:12 AM       464,230,736 RubyMine-2023.3.2.exe
+01/09/2024  08:12 AM                88 RubyMine-2023.3.2.exe.sha256
+01/09/2024  08:13 AM       670,783,498 RubyMine-2023.3.2.win.zip
+01/09/2024  08:13 AM                92 RubyMine-2023.3.2.win.zip.sha256
+01/09/2024  08:15 AM                88 datagrip-2023.3.2.exe.sha256
+01/09/2024  08:15 AM       459,216,616 datagrip-2023.3.2.exe
+01/09/2024  08:16 AM       585,403,489 datagrip-2023.3.2.win.zip
+01/09/2024  08:16 AM                92 datagrip-2023.3.2.win.zip.sha256
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile ideaIU-2023.3.2.win.zip SHA256
+type               ideaIU-2023.3.2.win.zip.sha256
+mkdir C:\LocalApps\ideaIU-2023.3.2.win
+7z x ideaIU-2023.3.2.win.zip -oC:\LocalApps\ideaIU-2023.3.2.win
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile ideaIU-2023.3.2.win.zip SHA256
+SHA256 hash of ideaIU-2023.3.2.win.zip:
+d3b848f8f5d5c4e003663a4ec3c5c5f4260996a6f3a4bdcdd2ff7ab21f3cdce6
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               ideaIU-2023.3.2.win.zip.sha256
+d3b848f8f5d5c4e003663a4ec3c5c5f4260996a6f3a4bdcdd2ff7ab21f3cdce6 *ideaIU-2023.3.2.win.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>cd \LocalApps
+
+C:\LocalApps>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+01/09/2024  07:11 AM    <DIR>          .
+06/05/2023  05:09 AM    <DIR>          .gradle
+12/01/2023  09:25 PM    <DIR>          eclipse-java-2023-12-R-win32-x86_64
+03/09/2023  03:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+12/01/2023  09:40 PM    <DIR>          eclipse-jee-2023-12-R-win32-x86_64
+01/31/1980  11:00 PM    <DIR>          gradle-5.4
+01/31/1980  11:00 PM    <DIR>          gradle-7.6.1
+01/31/1980  11:00 PM    <DIR>          gradle-8.1.1
+01/31/1980  11:00 PM    <DIR>          groovy-4.0.12
+05/13/2023  09:04 AM    <DIR>          ideaIU-2023.1.1.win
+01/09/2024  07:11 AM    <DIR>          ideaIU-2023.3.2.win
+03/27/2023  02:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  05:12 AM    <DIR>          jdk-11.0.21
+02/28/2023  06:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  05:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  08:49 AM    <DIR>          jdk-21.0.1
+05/13/2023  09:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/19/2023  04:05 AM    <DIR>          sts-4.19.0.RELEASE
+01/09/2024  06:40 AM    <DIR>          sts-4.21.0.RELEASE
+05/11/2022  05:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  08:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+06/17/2023  08:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  04:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  05:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+01/09/2024  05:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+05/20/2023  11:11 AM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/15/2023  06:19 AM       651,885,904 Docker Desktop Installer.exe
+06/04/2023  10:57 AM               336 gradle.properties-foo
+06/01/2023  06:59 AM               308 gradle.properties-save
+06/05/2023  05:49 AM               315 init.gradle
+06/05/2023  06:05 AM             2,123 settings.gradle
+               6 File(s)    681,629,484 bytes
+              25 Dir(s)  537,163,698,176 bytes free
+
+C:\LocalApps>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\Downloads
+dir /o:gd C:\Users\DavidHolberton\Downloads > C:\Users\DavidHolberton\repos\miscdphxps17w11\downloads-xps9710w11-20240109.txt
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html
+
+https://spring.io/guides/gs/spring-boot/
+  git clone https://github.com/spring-guides/gs-spring-boot.git
+
+https://github.com/spring-projects/spring-petclinic
+
+  git clone https://github.com/spring-projects/spring-petclinic.git
+  cd spring-petclinic
+  ./mvnw package
+  java -jar target/*.jar
+
+https://www.docker.com/blog/containerizing-a-legendary-petclinic-app-built-with-spring-boot/
+
+  git clone https://github.com/dockersamples/spring-petclinic-docker 
+  cd spring-petclinic-docker
+  ./mvnw package java -jar target/*.jar
+  You can then access PetClinic at http://localhost:8080 in your browser:
+
+https://spring-petclinic.github.io/
+
+https://docs.spring.io/spring-security/site/articles/petclinic-tutorial.html
+
+https://spring.io/blog/2013/03/21/spring-petclinic-is-on-github/
+
