@@ -1,0 +1,189 @@
+5:23 AM 2/8/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.2715]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>cd Downloads
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd *docker*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+05/15/2023  06:19 AM       651,885,904 Docker Desktop Installer.exe
+05/17/2023  05:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+02/08/2024  05:30 AM       549,869,160 Docker Desktop Installer(1).exe
+               3 File(s)  1,203,138,349 bytes
+               0 Dir(s)  525,782,704,128 bytes free
+
+C:\Users\DavidHolberton\Downloads>\
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.docker.com/products/docker-desktop/
+
+https://docs.docker.com/get-docker/
+
+  Docker Desktop terms
+  Commercial use of Docker Desktop in larger enterprises (more than 250 employees OR more than $10 million USD in annual revenue) requires a paid subscription
+
+https://docs.docker.com/manuals/
+
+https://docs.docker.com/subscription/desktop-license/
+
+  Docker Desktop license agreement
+
+  Docker Desktop is licensed under the Docker Subscription Service Agreement. When you download and install Docker Desktop, you will be asked to agree to the updated terms.
+
+  Our Docker Subscription Service Agreement states:
+
+    Docker Desktop is free for small businesses (fewer than 250 employees AND less than $10 million in annual revenue), personal use, education, and non-commercial open source projects.
+    Otherwise, it requires a paid subscription for professional use.
+    Paid subscriptions are also required for government entities.
+    The Docker Pro, Team, and Business subscriptions include commercial use of Docker Desktop.
+
+  Read the Blog and Docker subscription FAQs to learn how this may affect companies using Docker Desktop.
+
+https://docs.docker.com/release-notes/
+
+  Docker Desktop release notes
+
+  This page contains information about the new features, improvements, known issues, and bug fixes in Docker Desktop releases.
+
+  Take a look at the Docker Public Roadmap
+
+  to see what's coming next.
+
+  For frequently asked questions about Docker Desktop releases, see FAQs.
+  4.27.1
+  2024-02-01
+
+  Upgrades
+
+    Docker Engine v25.0.2 which contains a fix for CVE-2024-24557, CVE-2024-23650, CVE-2024-23651, CVE-2024-23652 and CVE-2024-23653
+    Containerd v1.6.28
+    Runc v1.1.12 which contains a fix for CVE-2024-21626
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+https://code.visualstudio.com/updates/v1_86
+
+02/08/2024  05:49 AM        98,965,208 VSCodeUserSetup-x64-1.86.0.exe
+02/08/2024  05:50 AM        98,964,712 VSCodeSetup-x64-1.86.0.exe
+02/08/2024  05:50 AM       137,072,293 VSCode-win32-x64-1.86.0.zip
+
+Version 1.86 is now available! Read about the new features and fixes from January.
+Get previous versions
+
+Windows User Installer (x64)	92c90f5c54bd19371717e70cdbe8ca156891f25ed64d6ee48aa4da56dfac84d2
+Windows System Installer (x64)	335330964a1dbfc5edce3a0c1bc87e8e8192518296d7e7e4c6d074ed8c221066
+Windows .zip (x64)	b2c9eb9b0e954c61e94538142ec91aa19027d4b25fc00ca4b34514fd54cf8571
+Windows CLI (x64)	094eb0afacb227f29fadecf4a08cbbfd5879cd2dc42abcb36cece8875c289723
+Windows User Installer (Arm64)	f83be4f3b600abf17b1486bf576aee8dd5cc01bb4ca0794de8bb87582549dcba
+Windows .zip (Arm64)	0445ad88c8f999e26fc763f2989649e1c081b910918f317a46256d8ccb1cb913
+Windows System Installer (Arm64)	326a80e528526c269c068420a0e840214a33b1a87a7422fea09a0434736abd71
+Windows CLI (Arm64)	f0ba8d48c610128bb58c0d3b8ffed433d2bc65224366bc60f4f516db32827763
+Linux .deb (x64)	eebda7d70f2d9c61689b33446c49d3707e965fab57a6495c07b0f9befd906739
+Linux .rpm (x64)	6b4f63c2d243d662f4d09a9943fe1a3bfd40ba674400305d647ab13b14b5ac92
+Linux .tar.gz (x64)	8bc78b1acdee72c8bfb1e7835fbce09d18b3af0bbadc476ef4f432d32064d363
+Linux CLI (x64)	73fd55150109db5595c3548bf9914e4fd1aee222baa97c969e7159b1e76e0d19
+Linux .tar.gz (Arm32)	0eb18eed24a12c3ab13c512cc79aff93fc7822acbda88fa52ddcb407db8ccbb0
+Linux .deb (Arm32)	00ec89bab3f70a2f75403dc12daa4cd18bdb76e1d16ad70182a36f87ae30e4c4
+Linux .rpm (Arm32)	75bf65b4419ba7f7ef65d2516989c0128eaf6b865f0eb4a92c927353e5665305
+Linux CLI (Arm32)	bde3ecf52fefa3d32a49a1b4944110885ebd72240ada566f3564e72a1f25d078
+Linux .tar.gz (Arm64)	69f0d6915e14f6254d27d32a702de9b6bc3304e81b2799fc7f7daec613057265
+Linux .deb (Arm64)	7f1257a7b26ea1c2e429624bb3298f9726aa239c2a47adfc1c2c20ac5d2746e6
+Linux .rpm (Arm64)	f168b238514764fa6a999eeecfedff5171ce6acc61069a166b30bb611aace06e
+Linux CLI (Arm64)	0752fdaae9a7ee8dd51b6962c8a45e003f1ffb8a165d06166ae4e07e58c3d973
+Mac for Apple silicon	1c82dcd900a3aacfbecbb1bda8cc44652c06af105ac5334331a665af75683cc8
+Mac CLI for Apple silicon	29c87b90beae3ccb5c0daa7b94a26a6279712a5f124f963a6ec55cf0b27a198d
+Mac for Intel chip	1cdf82024f8101171b8ba3c37b8ee20cdb2bb7c0046e25be5aca0b3301d23157
+Mac CLI for Intel chip	be23bb379e6e266dbcacbc1c229b470a50377c3d92a88b765ec138b0d77dbc80
+Mac Universal Build	3e17caa2c55fd59dc9b17964d8d1a779afe3a8f733aebff54e30ede856f52134
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+C:\LocalApps>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+02/08/2024  06:02 AM    <DIR>          .
+06/05/2023  05:09 AM    <DIR>          .gradle
+12/01/2023  09:25 PM    <DIR>          eclipse-java-2023-12-R-win32-x86_64
+03/09/2023  03:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+12/01/2023  09:40 PM    <DIR>          eclipse-jee-2023-12-R-win32-x86_64
+01/31/1980  11:00 PM    <DIR>          gradle-5.4
+01/31/1980  11:00 PM    <DIR>          gradle-7.6.1
+01/31/1980  11:00 PM    <DIR>          gradle-8.1.1
+01/31/1980  11:00 PM    <DIR>          groovy-4.0.12
+05/13/2023  09:04 AM    <DIR>          ideaIU-2023.1.1.win
+01/09/2024  07:11 AM    <DIR>          ideaIU-2023.3.2.win
+03/27/2023  02:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  05:12 AM    <DIR>          jdk-11.0.21
+02/28/2023  06:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  05:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  08:49 AM    <DIR>          jdk-21.0.1
+05/13/2023  09:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/19/2023  04:05 AM    <DIR>          sts-4.19.0.RELEASE
+01/09/2024  06:40 AM    <DIR>          sts-4.21.0.RELEASE
+05/11/2022  05:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  08:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+06/17/2023  08:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  04:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  05:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+01/09/2024  05:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+02/08/2024  06:05 AM    <DIR>          VSCode-win32-x64-1.86.0
+05/20/2023  11:11 AM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/15/2023  06:19 AM       651,885,904 Docker Desktop Installer.exe
+06/04/2023  10:57 AM               336 gradle.properties-foo
+06/01/2023  06:59 AM               308 gradle.properties-save
+06/05/2023  05:49 AM               315 init.gradle
+06/05/2023  06:05 AM             2,123 settings.gradle
+               6 File(s)    681,629,484 bytes
+              26 Dir(s)  523,548,815,360 bytes free
+
+C:\LocalApps>
+C:\LocalApps>jdk-21.0.1\bin\java -version
+java version "21.0.1" 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 21.0.1+12-LTS-29)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.1+12-LTS-29, mixed mode, sharing)
+
+C:\LocalApps>
+C:\LocalApps>jdk-17.0.9\bin\java -version
+java version "17.0.9" 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 17.0.9+11-LTS-201)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.9+11-LTS-201, mixed mode, sharing)
+
+C:\LocalApps>
+C:\LocalApps>jdk-11.0.21\bin\java -version
+java version "11.0.21" 2023-10-17 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.21+9-LTS-193)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.21+9-LTS-193, mixed mode)
+
+C:\LocalApps>
+
+https://www.oracle.com/java/technologies/downloads/
+
+JDK Development Kit 21.0.2 downloads
+JDK Development Kit 17.0.10 downloads
+Java SE Development Kit 11.0.22
+Java SE Development Kit 8u401
+
