@@ -1,0 +1,1132 @@
+7:39 AM 3/8/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3007]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>git --version
+git version 2.39.0.windows.2
+
+C:\Users\DavidHolberton>curl --version
+curl 8.4.0 (Windows) libcurl/8.4.0 Schannel WinIDN
+Release-Date: 2023-10-11
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS HTTPS-proxy IDN IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI threadsafe Unicode UnixSockets
+
+C:\Users\DavidHolberton>bash --version
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+C:\Users\DavidHolberton>
+
+C:\Program Files\Git>
+C:\Program Files\Git>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git
+
+12/30/2022  08:33 AM    <DIR>          bin
+12/30/2022  08:33 AM    <DIR>          mingw64
+12/30/2022  08:34 AM    <DIR>          usr
+12/30/2022  08:34 AM    <DIR>          dev
+12/30/2022  08:34 AM    <DIR>          cmd
+12/30/2022  08:34 AM    <DIR>          tmp
+12/30/2022  08:34 AM    <DIR>          etc
+12/30/2022  08:34 AM    <DIR>          .
+02/14/2024  06:01 PM    <DIR>          ..
+12/21/2022  01:47 PM           137,264 git-bash.exe
+12/21/2022  01:47 PM           136,752 git-cmd.exe
+12/21/2022  02:18 PM            18,765 LICENSE.txt
+12/21/2022  02:19 PM           232,809 ReleaseNotes.html
+12/30/2022  08:25 AM         3,212,176 unins000.exe
+12/30/2022  08:34 AM            24,191 unins000.msg
+12/30/2022  08:34 AM         1,257,774 unins000.dat
+               7 File(s)      5,019,731 bytes
+               9 Dir(s)  526,808,240,128 bytes free
+
+C:\Program Files\Git>dir bin
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\bin
+
+12/30/2022  08:33 AM    <DIR>          .
+12/30/2022  08:34 AM    <DIR>          ..
+12/21/2022  01:47 PM            45,616 bash.exe
+12/21/2022  01:47 PM            45,104 git.exe
+12/21/2022  01:47 PM            45,616 sh.exe
+               3 File(s)        136,336 bytes
+               2 Dir(s)  525,708,132,352 bytes free
+
+C:\Program Files\Git>dir /o:gd bin
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\bin
+
+12/30/2022  08:33 AM    <DIR>          .
+12/30/2022  08:34 AM    <DIR>          ..
+12/21/2022  01:47 PM            45,104 git.exe
+12/21/2022  01:47 PM            45,616 sh.exe
+12/21/2022  01:47 PM            45,616 bash.exe
+               3 File(s)        136,336 bytes
+               2 Dir(s)  524,992,548,864 bytes free
+
+C:\Program Files\Git>dir /o:gd mingw64
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\mingw64
+
+12/30/2022  08:33 AM    <DIR>          doc
+12/30/2022  08:33 AM    <DIR>          etc
+12/30/2022  08:33 AM    <DIR>          lib
+12/30/2022  08:33 AM    <DIR>          libexec
+12/30/2022  08:33 AM    <DIR>          share
+12/30/2022  08:33 AM    <DIR>          .
+12/30/2022  08:33 AM    <DIR>          ssl
+12/30/2022  08:34 AM    <DIR>          bin
+12/30/2022  08:34 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               9 Dir(s)  524,907,102,208 bytes free
+
+C:\Program Files\Git>
+C:\Program Files\Git>dir /o:gd mingw64\bin
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Program Files\Git\mingw64\bin
+
+12/30/2022  08:33 AM    <DIR>          ..
+12/30/2022  08:34 AM    <DIR>          .
+12/21/2022  01:47 PM           402,555 gitk
+12/21/2022  01:47 PM        13,839,754 scalar.exe
+12/21/2022  01:47 PM         3,726,896 git.exe
+12/21/2022  01:47 PM         3,726,896 git-upload-pack.exe
+12/21/2022  01:47 PM         3,726,896 git-upload-archive.exe
+12/21/2022  01:47 PM         3,726,896 git-receive-pack.exe
+12/21/2022  02:18 PM               538 Atlassian.Bitbucket.UI.exe.config
+12/21/2022  02:18 PM            22,928 Atlassian.Bitbucket.UI.Shared.dll
+12/21/2022  02:18 PM            48,442 blocked-file-util.exe
+12/21/2022  02:18 PM           857,752 brotli.exe
+12/21/2022  02:18 PM            68,276 bunzip2.exe
+12/21/2022  02:18 PM            68,276 bzcat.exe
+12/21/2022  02:18 PM             2,140 bzcmp
+12/21/2022  02:18 PM             2,140 bzdiff
+12/21/2022  02:18 PM             2,054 bzegrep
+12/21/2022  02:18 PM             2,054 bzfgrep
+12/21/2022  02:18 PM             2,054 bzgrep
+12/21/2022  02:18 PM            68,276 bzip2.exe
+12/21/2022  02:18 PM            49,031 bzip2recover.exe
+12/21/2022  02:18 PM             1,297 bzless
+12/21/2022  02:18 PM             1,297 bzmore
+12/21/2022  02:18 PM            79,537 connect.exe
+12/21/2022  02:18 PM           100,580 create-shortcut.exe
+12/21/2022  02:18 PM           294,044 curl.exe
+12/21/2022  02:18 PM            54,272 edit.dll
+12/21/2022  02:18 PM            18,432 edit_test.exe
+12/21/2022  02:18 PM            20,480 edit_test_dll.exe
+12/21/2022  02:18 PM           115,509 envsubst.exe
+12/21/2022  02:18 PM           282,016 gcmcore.dll
+12/21/2022  02:18 PM            28,064 gcmcoreui.dll
+12/21/2022  02:18 PM            38,800 gcmcoreuiwpf.dll
+12/21/2022  02:18 PM           114,925 gettext.exe
+12/21/2022  02:18 PM             5,188 gettext.sh
+12/21/2022  02:18 PM            42,273 gettextize
+12/21/2022  02:18 PM            46,660 git-askpass.exe
+12/21/2022  02:18 PM            19,091 git-askyesno.exe
+12/21/2022  02:18 PM            63,462 git-credential-helper-selector.exe
+12/21/2022  02:18 PM            76,704 git-credential-manager-core.exe
+12/21/2022  02:18 PM               538 git-credential-manager-core.exe.config
+12/21/2022  02:18 PM            85,392 git-credential-manager-ui.exe
+12/21/2022  02:18 PM               538 git-credential-manager-ui.exe.config
+12/21/2022  02:18 PM            76,688 git-credential-manager.exe
+12/21/2022  02:18 PM               538 git-credential-manager.exe.config
+12/21/2022  02:18 PM        10,577,184 git-lfs.exe
+12/21/2022  02:18 PM            43,408 Atlassian.Bitbucket.UI.exe
+12/21/2022  02:18 PM            10,308 git-update-git-for-windows
+12/21/2022  02:18 PM            71,056 Atlassian.Bitbucket.dll
+12/21/2022  02:18 PM           284,448 antiword.exe
+12/21/2022  02:18 PM            49,495 ahost.exe
+12/21/2022  02:18 PM            86,416 GitHub.dll
+12/21/2022  02:18 PM            46,992 GitHub.UI.exe
+12/21/2022  02:18 PM               538 GitHub.UI.exe.config
+12/21/2022  02:18 PM            58,904 adig.exe
+12/21/2022  02:18 PM            90,720 acountry.exe
+12/21/2022  02:18 PM            40,336 GitLab.dll
+12/21/2022  02:18 PM            36,752 GitLab.UI.exe
+12/21/2022  02:18 PM               538 GitLab.UI.exe.config
+12/21/2022  02:18 PM            24,992 GitLab.UI.Shared.dll
+12/21/2022  02:18 PM           143,397 libbrotlicommon.dll
+12/21/2022  02:18 PM            51,852 libbrotlidec.dll
+12/21/2022  02:18 PM            99,146 libbz2-1.dll
+12/21/2022  02:18 PM           125,026 libcares-5.dll
+12/21/2022  02:18 PM         2,795,164 libcrypto-1_1-x64.dll
+12/21/2022  02:18 PM           712,860 libcurl-4.dll
+12/21/2022  02:18 PM           188,397 libexpat-1.dll
+12/21/2022  02:18 PM            33,196 libffi-8.dll
+12/21/2022  02:18 PM           107,187 libgcc_s_seh-1.dll
+12/21/2022  02:18 PM           656,906 libgmp-10.dll
+12/21/2022  02:18 PM           274,746 libhogweed-6.dll
+12/21/2022  02:18 PM         1,114,369 libiconv-2.dll
+12/21/2022  02:18 PM           236,166 libidn2-0.dll
+12/21/2022  02:18 PM           136,724 libintl-8.dll
+12/21/2022  02:18 PM           155,526 liblzma-5.dll
+12/21/2022  02:18 PM           315,512 libnettle-8.dll
+12/21/2022  02:18 PM           213,360 libnghttp2-14.dll
+12/21/2022  02:18 PM         1,074,826 libp11-kit-0.dll
+12/21/2022  02:18 PM           281,695 libpcre-1.dll
+12/21/2022  02:18 PM           637,058 libpcre2-8-0.dll
+12/21/2022  02:18 PM            41,752 libpcreposix-0.dll
+12/21/2022  02:18 PM            97,342 libpsl-5.dll
+12/21/2022  02:18 PM             2,190 xzmore
+12/21/2022  02:18 PM           552,604 libssl-1_1-x64.dll
+12/21/2022  02:18 PM             1,813 xzless
+12/21/2022  02:18 PM           103,466 libtasn1-6.dll
+12/21/2022  02:18 PM            92,313 libtre-5.dll
+12/21/2022  02:18 PM            10,333 xzgrep
+12/21/2022  02:18 PM            60,356 libwinpthread-1.dll
+12/21/2022  02:18 PM            10,333 xzfgrep
+12/21/2022  02:18 PM            53,968 lzmadec.exe
+12/21/2022  02:18 PM            28,754 lzmainfo.exe
+12/21/2022  02:18 PM            62,864 Microsoft.AzureRepos.dll
+12/21/2022  02:18 PM           109,456 Microsoft.Identity.Client.Desktop.dll
+12/21/2022  02:18 PM         1,525,136 Microsoft.Identity.Client.dll
+12/21/2022  02:18 PM            63,392 Microsoft.Identity.Client.Extensions.Msal.dll
+12/21/2022  02:18 PM           223,136 Microsoft.Web.WebView2.Core.dll
+12/21/2022  02:18 PM            33,680 Microsoft.Web.WebView2.WinForms.dll
+12/21/2022  02:18 PM            37,776 Microsoft.Web.WebView2.Wpf.dll
+12/21/2022  02:18 PM           704,400 Newtonsoft.Json.dll
+12/21/2022  02:18 PM            62,202 odt2txt.exe
+12/21/2022  02:18 PM           715,932 openssl.exe
+12/21/2022  02:18 PM            78,069 p11-kit.exe
+12/21/2022  02:18 PM             2,177 pcre2-config
+12/21/2022  02:18 PM         1,537,966 pdftotext.exe
+12/21/2022  02:18 PM            57,666 pkcs1-conv.exe
+12/21/2022  02:18 PM            45,526 proxy-lookup.exe
+12/21/2022  02:18 PM            30,112 GitHub.UI.Shared.dll
+12/21/2022  02:18 PM            62,991 sexp-conv.exe
+12/21/2022  02:18 PM            30,392 sqlite3_analyzer.sh
+12/21/2022  02:18 PM            21,920 System.Buffers.dll
+12/21/2022  02:18 PM           216,480 System.CommandLine.dll
+12/21/2022  02:18 PM           142,264 System.Memory.dll
+12/21/2022  02:18 PM           110,016 System.Numerics.Vectors.dll
+12/21/2022  02:18 PM            17,808 System.Runtime.CompilerServices.Unsafe.dll
+12/21/2022  02:18 PM         1,632,485 tcl86.dll
+12/21/2022  02:18 PM            80,168 tclsh.exe
+12/21/2022  02:18 PM            80,168 tclsh86.exe
+12/21/2022  02:18 PM         1,491,583 tk86.dll
+12/21/2022  02:18 PM           230,022 trust.exe
+12/21/2022  02:18 PM            10,333 xzegrep
+12/21/2022  02:18 PM             1,102 update-ca-trust
+12/21/2022  02:18 PM           111,552 WebView2Loader.dll
+12/21/2022  02:18 PM           107,892 WhoUses.exe
+12/21/2022  02:18 PM           356,752 wintoast.exe
+12/21/2022  02:18 PM            66,672 wish.exe
+12/21/2022  02:18 PM            66,672 wish86.exe
+12/21/2022  02:18 PM            36,022 x86_64-w64-mingw32-agrep.exe
+12/21/2022  02:18 PM            82,678 xmlwf.exe
+12/21/2022  02:18 PM            85,196 xz.exe
+12/21/2022  02:18 PM            85,196 xzcat.exe
+12/21/2022  02:18 PM             7,372 xzcmp
+12/21/2022  02:18 PM            53,969 xzdec.exe
+12/21/2022  02:18 PM             7,372 xzdiff
+12/21/2022  02:18 PM           120,302 zlib1.dll
+12/21/2022  02:18 PM           270,123 libssh2-1.dll
+12/21/2022  02:18 PM         2,025,890 libstdc++-6.dll
+12/21/2022  02:18 PM         1,934,495 libunistring-2.dll
+12/21/2022  02:18 PM           830,348 libzstd.dll
+12/21/2022  02:18 PM            85,196 unxz.exe
+             138 File(s)     69,491,524 bytes
+               2 Dir(s)  524,221,177,856 bytes free
+
+C:\Program Files\Git>
+
+C:\Program Files\Git>
+C:\Program Files\Git>bash
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Mar  8 07:47:19 EST 2024
+
+  System load:  0.0                Processes:             13
+  Usage of /:   0.6% of 250.98GB   Users logged in:       0
+  Memory usage: 7%                 IPv4 address for eth0: 172.30.224.241
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once a day. To disable it please create the
+/home/davidho/.hushlogin file.
+davidho@dphxps17:/mnt/c/Program Files/Git$ find . -name "*curl*" -print
+./mingw64/bin/curl.exe
+./mingw64/bin/libcurl-4.dll
+./mingw64/libexec/git-core/libcurl-4.dll
+davidho@dphxps17:/mnt/c/Program Files/Git$
+davidho@dphxps17:/mnt/c/Program Files/Git$ ./mingw64/bin/curl.exe --version
+curl 7.87.0 (x86_64-w64-mingw32) libcurl/7.87.0 OpenSSL/1.1.1s (Schannel) zlib/1.2.13 brotli/1.0.9 zstd/1.5.2 libidn2/2.3.3 libpsl/0.21.1 (+libidn2/2.3.1) libssh2/1.10.0 nghttp2/1.51.0
+Release-Date: 2022-12-21
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp
+Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz MultiSSL NTLM PSL SPNEGO SSL SSPI threadsafe TLS-SRP UnixSockets zstd
+davidho@dphxps17:/mnt/c/Program Files/Git$
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/spring-boot-https-self-signed-certificate
+HTTPS using Self-Signed Certificate in Spring Boot
+
+keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore baeldung.p12 -validity 3650
+
+keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -keystore baeldung.jks -validity 3650
+
+keytool -importkeystore -srckeystore baeldung.jks -destkeystore baeldung.p12 -deststoretype pkcs12
+
+# The format used for the keystore. It could be set to JKS in case it is a JKS file
+server.ssl.key-store-type=PKCS12
+# The path to the keystore containing the certificate
+server.ssl.key-store=classpath:keystore/baeldung.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=password
+# The alias mapped to the certificate
+server.ssl.key-alias=baeldung
+
+server.ssl.enabled=true
+
+#trust store location
+trust.store=classpath:keystore/baeldung.p12
+#trust store password
+trust.store.password=password
+
+RestTemplate restTemplate() throws Exception {
+    SSLContext sslContext = new SSLContextBuilder()
+      .loadTrustMaterial(trustStore.getURL(), trustStorePassword.toCharArray())
+      .build();
+    SSLConnectionSocketFactory socketFactory = new SSLConnectionSocketFactory(sslContext);
+    HttpClient httpClient = HttpClients.custom()
+      .setSSLSocketFactory(socketFactory)
+      .build();
+    HttpComponentsClientHttpRequestFactory factory = 
+      new HttpComponentsClientHttpRequestFactory(httpClient);
+    return new RestTemplate(factory);
+}
+
+public SecurityFilterChain filterChain(HttpSecurity http) throws Exception { 
+    http.authorizeRequests() 
+      .antMatchers("/**") 
+      .permitAll(); 
+    return http.build(); 
+}
+
+@Test
+public void whenGETanHTTPSResource_thenCorrectResponse() throws Exception {
+    ResponseEntity<String> response = 
+      restTemplate().getForEntity(WELCOME_URL, String.class, Collections.emptyMap());
+
+    assertEquals("<h1>Welcome to Secured Site</h1>", response.getBody());
+    assertEquals(HttpStatus.OK, response.getStatusCode());
+}
+
+5. Conclusion
+
+In this article, we first learned how to generate a self-signed certificate to enable HTTPS in a Spring Boot application. Then we discussed how to invoke an HTTPS-enabled endpoint.
+
+As always, we can find the complete source code over on GitHub repository.
+
+https://github.com/eugenp/tutorials/tree/master/spring-security-modules/spring-security-web-boot-2
+https://github.com/eugenp/tutorials/tree/master/spring-security-modules
+https://github.com/eugenp/tutorials/tree/master
+https://github.com/eugenp/tutorials
+
+https://github.com/eugenp/tutorials.git
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3007]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd sbprojs
+
+C:\Users\DavidHolberton\sbprojs>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs
+
+06/21/2023  07:05 AM    <DIR>          .
+02/08/2024  06:27 AM    <DIR>          ..
+06/04/2023  07:29 AM    <DIR>          demo
+06/01/2023  05:14 AM            67,807 demo.zip
+06/02/2023  07:41 AM    <DIR>          myapp
+06/21/2023  07:09 AM    <DIR>          sb3110demo
+06/21/2023  07:04 AM            68,050 sb3110demo.zip
+               2 File(s)        135,857 bytes
+               5 Dir(s)  523,629,940,736 bytes free
+
+C:\Users\DavidHolberton\sbprojs>git clone https://github.com/eugenp/tutorials.git
+Cloning into 'tutorials'...
+remote: Enumerating objects: 215405, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 215405 (delta 2), reused 1 (delta 0), pack-reused 215400Receiving objects: 100% (215405/215405), 75.66 MiB | 37.83 MiB/s
+Receiving objects: 100% (215405/215405), 76.39 MiB | 37.81 MiB/s, done.
+Resolving deltas: 100% (59096/59096), done.
+Updating files: 100% (28546/28546), done.
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>cd tutorials
+
+C:\Users\DavidHolberton\sbprojs\tutorials>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\tutorials
+
+03/08/2024  08:06 AM    <DIR>          ..
+03/08/2024  08:06 AM    <DIR>          .github
+03/08/2024  08:06 AM    <DIR>          akka-modules
+03/08/2024  08:06 AM    <DIR>          algorithms-modules
+03/08/2024  08:06 AM    <DIR>          apache-cxf-modules
+03/08/2024  08:06 AM    <DIR>          apache-httpclient-2
+03/08/2024  08:06 AM    <DIR>          apache-httpclient
+03/08/2024  08:06 AM    <DIR>          apache-httpclient4
+03/08/2024  08:06 AM    <DIR>          apache-kafka-2
+03/08/2024  08:06 AM    <DIR>          apache-kafka
+03/08/2024  08:06 AM    <DIR>          apache-libraries-2
+03/08/2024  08:06 AM    <DIR>          apache-libraries
+03/08/2024  08:06 AM    <DIR>          apache-poi-2
+03/08/2024  08:06 AM    <DIR>          apache-olingo
+03/08/2024  08:06 AM    <DIR>          apache-poi-3
+03/08/2024  08:06 AM    <DIR>          apache-poi
+03/08/2024  08:06 AM    <DIR>          apache-spark
+03/08/2024  08:06 AM    <DIR>          apache-thrift
+03/08/2024  08:06 AM    <DIR>          atomix
+03/08/2024  08:06 AM    <DIR>          apache-velocity
+03/08/2024  08:06 AM    <DIR>          azure
+03/08/2024  08:06 AM    <DIR>          aws-modules
+03/08/2024  08:06 AM    <DIR>          clojure-modules
+03/08/2024  08:06 AM    <DIR>          checker-framework
+03/08/2024  08:06 AM    <DIR>          bazel
+03/08/2024  08:06 AM    <DIR>          core-groovy-modules
+03/08/2024  08:06 AM    <DIR>          core-java-modules
+03/08/2024  08:06 AM    <DIR>          custom-pmd
+03/08/2024  08:06 AM    <DIR>          data-structures
+03/08/2024  08:06 AM    <DIR>          deeplearning4j
+03/08/2024  08:06 AM    <DIR>          di-modules
+03/08/2024  08:06 AM    <DIR>          disruptor
+03/08/2024  08:06 AM    <DIR>          docker-modules
+03/08/2024  08:06 AM    <DIR>          dozer
+03/08/2024  08:06 AM    <DIR>          drools
+03/08/2024  08:06 AM    <DIR>          dubbo
+03/08/2024  08:06 AM    <DIR>          ethereum
+03/08/2024  08:06 AM    <DIR>          feign
+03/08/2024  08:06 AM    <DIR>          gcp-firebase
+03/08/2024  08:06 AM    <DIR>          geotools
+03/08/2024  08:06 AM    <DIR>          google-auto-project
+03/08/2024  08:06 AM    <DIR>          google-cloud
+03/08/2024  08:06 AM    <DIR>          gradle-modules
+03/08/2024  08:06 AM    <DIR>          grpc
+03/08/2024  08:06 AM    <DIR>          graphql-modules
+03/08/2024  08:06 AM    <DIR>          guava-modules
+03/08/2024  08:06 AM    <DIR>          httpclient-simple
+03/08/2024  08:06 AM    <DIR>          hazelcast
+03/08/2024  08:06 AM    <DIR>          image-compressing
+03/08/2024  08:06 AM    <DIR>          hystrix
+03/08/2024  08:06 AM    <DIR>          image-processing
+03/08/2024  08:06 AM    <DIR>          intelliJ-modules
+03/08/2024  08:06 AM    <DIR>          jackson-modules
+03/08/2024  08:06 AM    <DIR>          jackson-simple
+03/08/2024  08:06 AM    <DIR>          java-blockchain
+03/08/2024  08:06 AM    <DIR>          java-jdi
+03/08/2024  08:06 AM    <DIR>          java-nashorn
+03/08/2024  08:06 AM    <DIR>          java-panama
+03/08/2024  08:06 AM    <DIR>          javafx
+03/08/2024  08:06 AM    <DIR>          javax-sound
+03/08/2024  08:06 AM    <DIR>          javaxval-2
+03/08/2024  08:06 AM    <DIR>          javaxval
+03/08/2024  08:06 AM    <DIR>          jaxb
+03/08/2024  08:06 AM    <DIR>          jbang
+03/08/2024  08:06 AM    <DIR>          jeromq
+03/08/2024  08:06 AM    <DIR>          jgit
+03/08/2024  08:06 AM    <DIR>          jetbrains
+03/08/2024  08:06 AM    <DIR>          jenkins-modules
+03/08/2024  08:06 AM    <DIR>          jhipster-6
+03/08/2024  08:06 AM    <DIR>          jhipster-modules
+03/08/2024  08:06 AM    <DIR>          jmh
+03/08/2024  08:06 AM    <DIR>          json-modules
+03/08/2024  08:06 AM    <DIR>          ksqldb
+03/08/2024  08:06 AM    <DIR>          jsoup
+03/08/2024  08:06 AM    <DIR>          jws
+03/08/2024  08:06 AM    <DIR>          kubernetes-modules
+03/08/2024  08:06 AM    <DIR>          language-interop
+03/08/2024  08:06 AM    <DIR>          libraries-2
+03/08/2024  08:06 AM    <DIR>          libraries-3
+03/08/2024  08:06 AM    <DIR>          libraries-4
+03/08/2024  08:06 AM    <DIR>          libraries-ai
+03/08/2024  08:06 AM    <DIR>          libraries-apache-commons-2
+03/08/2024  08:06 AM    <DIR>          libraries-apache-commons-collections
+03/08/2024  08:06 AM    <DIR>          libraries-apache-commons-io
+03/08/2024  08:06 AM    <DIR>          libraries-apache-commons
+03/08/2024  08:06 AM    <DIR>          libraries-bytecode
+03/08/2024  08:06 AM    <DIR>          libraries-cli
+03/08/2024  08:06 AM    <DIR>          libraries-data-2
+03/08/2024  08:06 AM    <DIR>          libraries-concurrency
+03/08/2024  08:06 AM    <DIR>          libraries-data-3
+03/08/2024  08:06 AM    <DIR>          libraries-data-db
+03/08/2024  08:06 AM    <DIR>          libraries-data-io-2
+03/08/2024  08:06 AM    <DIR>          libraries-data-io
+03/08/2024  08:06 AM    <DIR>          libraries-data
+03/08/2024  08:06 AM    <DIR>          libraries-files
+03/08/2024  08:06 AM    <DIR>          libraries-http-2
+03/08/2024  08:06 AM    <DIR>          libraries-http
+03/08/2024  08:06 AM    <DIR>          libraries-io
+03/08/2024  08:06 AM    <DIR>          libraries-primitive
+03/08/2024  08:06 AM    <DIR>          libraries-reporting
+03/08/2024  08:06 AM    <DIR>          libraries-llms
+03/08/2024  08:06 AM    <DIR>          libraries-jdk8
+03/08/2024  08:06 AM    <DIR>          libraries-rpc
+03/08/2024  08:06 AM    <DIR>          libraries-security
+03/08/2024  08:06 AM    <DIR>          libraries-server-2
+03/08/2024  08:06 AM    <DIR>          libraries-server
+03/08/2024  08:06 AM    <DIR>          libraries-stream
+03/08/2024  08:06 AM    <DIR>          libraries-testing-2
+03/08/2024  08:06 AM    <DIR>          libraries-testing
+03/08/2024  08:06 AM    <DIR>          libraries-transform
+03/08/2024  08:06 AM    <DIR>          libraries
+03/08/2024  08:06 AM    <DIR>          lightrun
+03/08/2024  08:06 AM    <DIR>          linux-bash-modules
+03/08/2024  08:06 AM    <DIR>          logging-modules
+03/08/2024  08:06 AM    <DIR>          lombok-modules
+03/08/2024  08:06 AM    <DIR>          lucene
+03/08/2024  08:06 AM    <DIR>          mapstruct
+03/08/2024  08:06 AM    <DIR>          maven-modules
+03/08/2024  08:06 AM    <DIR>          mesos-marathon
+03/08/2024  08:06 AM    <DIR>          messaging-modules
+03/08/2024  08:06 AM    <DIR>          metrics
+03/08/2024  08:06 AM    <DIR>          microservices-modules
+03/08/2024  08:06 AM    <DIR>          muleesb
+03/08/2024  08:06 AM    <DIR>          mustache
+03/08/2024  08:06 AM    <DIR>          mybatis
+03/08/2024  08:06 AM    <DIR>          netflix-modules
+03/08/2024  08:06 AM    <DIR>          optaplanner
+03/08/2024  08:06 AM    <DIR>          orika
+03/08/2024  08:06 AM    <DIR>          nginx-forward-proxy
+03/08/2024  08:06 AM    <DIR>          osgi
+03/08/2024  08:06 AM    <DIR>          parent-boot-3
+03/08/2024  08:06 AM    <DIR>          parent-spring-4
+03/08/2024  08:06 AM    <DIR>          pants
+03/08/2024  08:06 AM    <DIR>          parent-spring-5
+03/08/2024  08:06 AM    <DIR>          parent-spring-6
+03/08/2024  08:06 AM    <DIR>          parent-boot-2
+03/08/2024  08:06 AM    <DIR>          parent-boot-1
+03/08/2024  08:06 AM    <DIR>          patterns-modules
+03/08/2024  08:06 AM    <DIR>          performance-tests
+03/08/2024  08:06 AM    <DIR>          persistence-modules
+03/08/2024  08:06 AM    <DIR>          podman
+03/08/2024  08:06 AM    <DIR>          pmd
+03/08/2024  08:06 AM    <DIR>          protobuffer
+03/08/2024  08:06 AM    <DIR>          quarkus-modules
+03/08/2024  08:06 AM    <DIR>          reactive-systems
+03/08/2024  08:06 AM    <DIR>          reactor-core
+03/08/2024  08:06 AM    <DIR>          rsocket
+03/08/2024  08:06 AM    <DIR>          rule-engines-modules
+03/08/2024  08:06 AM    <DIR>          rxjava-modules
+03/08/2024  08:06 AM    <DIR>          saas-modules
+03/08/2024  08:06 AM    <DIR>          security-modules
+03/08/2024  08:06 AM    <DIR>          server-modules
+03/08/2024  08:06 AM    <DIR>          spring-4
+03/08/2024  08:06 AM    <DIR>          spf4j
+03/08/2024  08:06 AM    <DIR>          spring-5-webflux-2
+03/08/2024  08:06 AM    <DIR>          spring-5-webflux
+03/08/2024  08:06 AM    <DIR>          spring-5
+03/08/2024  08:06 AM    <DIR>          spring-6-rsocket
+03/08/2024  08:06 AM    <DIR>          spring-6
+03/08/2024  08:06 AM    <DIR>          spring-activiti
+03/08/2024  08:06 AM    <DIR>          spring-aop-2
+03/08/2024  08:06 AM    <DIR>          spring-ai
+03/08/2024  08:06 AM    <DIR>          spring-actuator
+03/08/2024  08:06 AM    <DIR>          spring-aop
+03/08/2024  08:06 AM    <DIR>          spring-batch-2
+03/08/2024  08:06 AM    <DIR>          spring-batch
+03/08/2024  08:06 AM    <DIR>          spring-boot-modules
+03/08/2024  08:06 AM    <DIR>          spring-boot-rest
+03/08/2024  08:06 AM    <DIR>          spring-cloud-modules
+03/08/2024  08:06 AM    <DIR>          spring-core-2
+03/08/2024  08:06 AM    <DIR>          spring-core-3
+03/08/2024  08:06 AM    <DIR>          spring-core-4
+03/08/2024  08:06 AM    <DIR>          spring-core
+03/08/2024  08:06 AM    <DIR>          spring-credhub
+03/08/2024  08:06 AM    <DIR>          spring-cucumber
+03/08/2024  08:06 AM    <DIR>          spring-di-2
+03/08/2024  08:06 AM    <DIR>          spring-di-3
+03/08/2024  08:06 AM    <DIR>          spring-di-4
+03/08/2024  08:06 AM    <DIR>          spring-di
+03/08/2024  08:06 AM    <DIR>          spring-drools
+03/08/2024  08:06 AM    <DIR>          spring-ejb-modules
+03/08/2024  08:06 AM    <DIR>          spring-exceptions
+03/08/2024  08:06 AM    <DIR>          spring-integration
+03/08/2024  08:06 AM    <DIR>          spring-jenkins-pipeline
+03/08/2024  08:06 AM    <DIR>          spring-jinq
+03/08/2024  08:06 AM    <DIR>          spring-jersey
+03/08/2024  08:06 AM    <DIR>          spring-kafka-2
+03/08/2024  08:06 AM    <DIR>          spring-kafka-3
+03/08/2024  08:06 AM    <DIR>          spring-kafka
+03/08/2024  08:06 AM    <DIR>          spring-katharsis
+03/08/2024  08:06 AM    <DIR>          spring-mobile
+03/08/2024  08:06 AM    <DIR>          spring-pulsar
+03/08/2024  08:06 AM    <DIR>          spring-native
+03/08/2024  08:06 AM    <DIR>          spring-protobuf
+03/08/2024  08:06 AM    <DIR>          spring-quartz
+03/08/2024  08:06 AM    <DIR>          spring-reactive-modules
+03/08/2024  08:06 AM    <DIR>          spring-remoting-modules
+03/08/2024  08:06 AM    <DIR>          spring-roo
+03/08/2024  08:06 AM    <DIR>          spring-scheduling
+03/08/2024  08:06 AM    <DIR>          spring-security-modules
+03/08/2024  08:06 AM    <DIR>          spring-shell
+03/08/2024  08:06 AM    <DIR>          spring-soap
+03/08/2024  08:06 AM    <DIR>          spring-spel
+03/08/2024  08:06 AM    <DIR>          spring-state-machine
+03/08/2024  08:06 AM    <DIR>          spring-static-resources
+03/08/2024  08:06 AM    <DIR>          spring-swagger-codegen
+03/08/2024  08:06 AM    <DIR>          spring-vault
+03/08/2024  08:06 AM    <DIR>          spring-threads
+03/08/2024  08:06 AM    <DIR>          spring-web-modules
+03/08/2024  08:06 AM    <DIR>          spring-websockets
+03/08/2024  08:06 AM    <DIR>          tablesaw
+03/08/2024  08:06 AM    <DIR>          static-analysis
+03/08/2024  08:06 AM    <DIR>          tensorflow-java
+03/08/2024  08:06 AM    <DIR>          terraform-modules
+03/08/2024  08:06 AM    <DIR>          testing-modules
+03/08/2024  08:06 AM    <DIR>          text-processing-libraries-modules
+03/08/2024  08:06 AM    <DIR>          vaadin
+03/08/2024  08:06 AM    <DIR>          timefold-solver
+03/08/2024  08:06 AM    <DIR>          vavr-modules
+03/08/2024  08:06 AM    <DIR>          vertx-modules
+03/08/2024  08:06 AM    <DIR>          video-tutorials
+03/08/2024  08:06 AM    <DIR>          web-modules
+03/08/2024  08:06 AM    <DIR>          webrtc
+03/08/2024  08:06 AM    <DIR>          xml-2
+03/08/2024  08:06 AM    <DIR>          xml
+03/08/2024  08:06 AM    <DIR>          .
+03/08/2024  08:06 AM    <DIR>          xstream
+03/08/2024  08:06 AM             2,677 .gitignore
+03/08/2024  08:06 AM               973 CONTRIBUTING.md
+03/08/2024  08:06 AM             1,093 LICENSE
+03/08/2024  08:06 AM             5,627 README.md
+03/08/2024  08:06 AM               792 baeldung-pmd-rules.xml
+03/08/2024  08:06 AM             3,725 custom-pmd-0.0.1.jar
+03/08/2024  08:06 AM               414 logback-config.xml
+03/08/2024  08:06 AM            57,845 pom.xml
+               8 File(s)         73,146 bytes
+             227 Dir(s)  523,381,805,056 bytes free
+
+C:\Users\DavidHolberton\sbprojs\tutorials>
+
+C:\Users\DavidHolberton\sbprojs\tutorials>cd spring-security-modules
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules
+
+03/08/2024  08:06 AM    <DIR>          spring-security-acl
+03/08/2024  08:06 AM    <DIR>          spring-security-azuread
+03/08/2024  08:06 AM    <DIR>          spring-security-auth0
+03/08/2024  08:06 AM    <DIR>          spring-security-cognito
+03/08/2024  08:06 AM    <DIR>          spring-security-core-2
+03/08/2024  08:06 AM    <DIR>          spring-security-core
+03/08/2024  08:06 AM    <DIR>          spring-security-ldap
+03/08/2024  08:06 AM    <DIR>          spring-security-legacy-oidc
+03/08/2024  08:06 AM    <DIR>          spring-security-oauth2-bff
+03/08/2024  08:06 AM    <DIR>          spring-security-oauth2-sso
+03/08/2024  08:06 AM    <DIR>          spring-security-oauth2-testing
+03/08/2024  08:06 AM    <DIR>          spring-security-oauth2
+03/08/2024  08:06 AM    <DIR>          spring-security-oidc
+03/08/2024  08:06 AM    <DIR>          spring-security-opa
+03/08/2024  08:06 AM    <DIR>          spring-security-okta
+03/08/2024  08:06 AM    <DIR>          spring-security-pkce
+03/08/2024  08:06 AM    <DIR>          spring-security-saml
+03/08/2024  08:06 AM    <DIR>          spring-security-saml2
+03/08/2024  08:06 AM    <DIR>          spring-security-social-login
+03/08/2024  08:06 AM    <DIR>          spring-security-web-angular
+03/08/2024  08:06 AM    <DIR>          spring-security-web-boot-1
+03/08/2024  08:06 AM    <DIR>          spring-security-web-boot-2
+03/08/2024  08:06 AM    <DIR>          spring-security-web-boot-3
+03/08/2024  08:06 AM    <DIR>          spring-security-web-boot-4
+03/08/2024  08:06 AM    <DIR>          spring-security-web-boot-5
+03/08/2024  08:06 AM    <DIR>          spring-security-web-digest-auth
+03/08/2024  08:06 AM    <DIR>          spring-security-web-login-2
+03/08/2024  08:06 AM    <DIR>          spring-security-web-login
+03/08/2024  08:06 AM    <DIR>          spring-security-web-mvc-custom
+03/08/2024  08:06 AM    <DIR>          spring-security-web-mvc
+03/08/2024  08:06 AM    <DIR>          spring-security-web-persistent-login
+03/08/2024  08:06 AM    <DIR>          spring-security-web-react
+03/08/2024  08:06 AM    <DIR>          spring-security-web-rest-basic-auth
+03/08/2024  08:06 AM    <DIR>          spring-security-web-rest-custom
+03/08/2024  08:06 AM    <DIR>          spring-security-web-rest
+03/08/2024  08:06 AM    <DIR>          spring-security-web-sockets
+03/08/2024  08:06 AM    <DIR>          spring-security-web-springdoc
+03/08/2024  08:06 AM    <DIR>          spring-security-web-thymeleaf
+03/08/2024  08:06 AM    <DIR>          .
+03/08/2024  08:06 AM    <DIR>          spring-security-web-x509
+03/08/2024  08:06 AM    <DIR>          ..
+03/08/2024  08:06 AM             3,478 pom.xml
+               1 File(s)          3,478 bytes
+              41 Dir(s)  523,379,585,024 bytes free
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules>
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules>cd spring-security-web-boot-2
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2
+
+03/08/2024  08:06 AM    <DIR>          src
+03/08/2024  08:06 AM    <DIR>          WebContent
+03/08/2024  08:06 AM    <DIR>          .
+03/08/2024  08:06 AM    <DIR>          ..
+03/08/2024  08:06 AM             1,182 README.md
+03/08/2024  08:06 AM            10,236 pom.xml
+               2 File(s)         11,418 bytes
+               4 Dir(s)  523,379,298,304 bytes free
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>git branch -r
+  origin/HEAD -> origin/master
+  origin/JAVA-25483
+  origin/comment-15080
+  origin/comment-17022024
+  origin/email-20022024
+  origin/email-23022024
+  origin/master
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2\README.md
+
+## Spring Boot Security MVC
+
+This module contains articles about Spring Security with Spring MVC in Boot applications
+
+### The Course
+The "REST With Spring" Classes: http://github.learnspringsecurity.com
+
+### Relevant Articles:
+
+- [Multiple Entry Points in Spring Security](https://www.baeldung.com/spring-security-multiple-entry-points)
+- [Multiple Authentication Providers in Spring Security](https://www.baeldung.com/spring-security-multiple-auth-providers)
+- [Two Login Pages with Spring Security](https://www.baeldung.com/spring-security-two-login-pages)
+- [HTTPS using Self-Signed Certificate in Spring Boot](https://www.baeldung.com/spring-boot-https-self-signed-certificate)
+- [Spring Security: Exploring JDBC Authentication](https://www.baeldung.com/spring-security-jdbc-authentication)
+- [Spring Security Custom Logout Handler](https://www.baeldung.com/spring-security-custom-logout-handler)
+- [Redirecting Logged-in Users with Spring Security](https://www.baeldung.com/spring-security-redirect-logged-in)
+
+More articles: [[<-- prev]](/spring-security-modules/spring-security-web-boot-1) [[next -->]](/spring-security-modules/spring-security-web-boot-3)
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\tutorials>dir /o:gn /a | more
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\tutorials
+
+03/08/2024  08:06 AM    <DIR>          .
+03/08/2024  08:06 AM    <DIR>          ..
+03/08/2024  08:23 AM    <DIR>          .git
+03/08/2024  08:06 AM    <DIR>          .github
+03/08/2024  08:06 AM    <DIR>          akka-modules
+03/08/2024  08:06 AM    <DIR>          algorithms-modules
+03/08/2024  08:06 AM    <DIR>          apache-cxf-modules
+03/08/2024  08:06 AM    <DIR>          apache-httpclient
+03/08/2024  08:06 AM    <DIR>          apache-httpclient-2
+03/08/2024  08:06 AM    <DIR>          apache-httpclient4
+03/08/2024  08:06 AM    <DIR>          apache-kafka
+03/08/2024  08:06 AM    <DIR>          apache-kafka-2
+03/08/2024  08:06 AM    <DIR>          apache-libraries
+03/08/2024  08:06 AM    <DIR>          apache-libraries-2
+03/08/2024  08:06 AM    <DIR>          apache-olingo
+03/08/2024  08:06 AM    <DIR>          apache-poi
+03/08/2024  08:06 AM    <DIR>          apache-poi-2
+03/08/2024  08:06 AM    <DIR>          apache-poi-3
+03/08/2024  08:06 AM    <DIR>          apache-spark
+03/08/2024  08:06 AM    <DIR>          apache-thrift
+03/08/2024  08:06 AM    <DIR>          apache-velocity
+03/08/2024  08:06 AM    <DIR>          atomix
+03/08/2024  08:06 AM    <DIR>          aws-modules
+03/08/2024  08:06 AM    <DIR>          azure
+-- More  --
+03/08/2024  08:06 AM    <DIR>          spring-websockets
+03/08/2024  08:06 AM    <DIR>          static-analysis
+03/08/2024  08:06 AM    <DIR>          tablesaw
+03/08/2024  08:06 AM    <DIR>          tensorflow-java
+03/08/2024  08:06 AM    <DIR>          terraform-modules
+03/08/2024  08:06 AM    <DIR>          testing-modules
+03/08/2024  08:06 AM    <DIR>          text-processing-libraries-modules
+03/08/2024  08:06 AM    <DIR>          timefold-solver
+03/08/2024  08:06 AM    <DIR>          vaadin
+03/08/2024  08:06 AM    <DIR>          vavr-modules
+03/08/2024  08:06 AM    <DIR>          vertx-modules
+03/08/2024  08:06 AM    <DIR>          video-tutorials
+03/08/2024  08:06 AM    <DIR>          web-modules
+03/08/2024  08:06 AM    <DIR>          webrtc
+03/08/2024  08:06 AM    <DIR>          xml
+03/08/2024  08:06 AM    <DIR>          xml-2
+03/08/2024  08:06 AM    <DIR>          xstream
+03/08/2024  08:06 AM             2,677 .gitignore
+03/08/2024  08:06 AM               792 baeldung-pmd-rules.xml
+03/08/2024  08:06 AM               973 CONTRIBUTING.md
+03/08/2024  08:06 AM             3,725 custom-pmd-0.0.1.jar
+03/08/2024  08:06 AM             1,093 LICENSE
+03/08/2024  08:06 AM               414 logback-config.xml
+03/08/2024  08:06 AM            57,845 pom.xml
+03/08/2024  08:06 AM             5,627 README.md
+               8 File(s)         73,146 bytes
+             228 Dir(s)  523,382,546,432 bytes free
+
+
+C:\Users\DavidHolberton\sbprojs\tutorials>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\tutorials\README.md
+
+# Cloning the repository
+
+If you are getting an error while cloning the repository, try running:
+git config --global http.postBuffer 5000000
+
+This will increase the size of the buffer from the default 1MiB to 5MiB.
+
+To revert this value to the default, use:
+git config --global http.postBuffer 1000000
+ 
+
+The Courses
+==============================
+
+
+Here's the new "Learn Spring" course: <br/>
+**[>> LEARN SPRING - THE MASTER CLASS](https://www.baeldung.com/learn-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=ls#master-class)**
+
+Here's the Master Class of "REST With Spring" (along with the new announced Boot 2 material): <br/>
+**[>> THE REST WITH SPRING - MASTER CLASS](https://www.baeldung.com/rest-with-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=rws#master-class)**
+
+And here's the Master Class of "Learn Spring Security": <br/>
+**[>> LEARN SPRING SECURITY - MASTER CLASS](https://www.baeldung.com/learn-spring-security-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=lss#master-class)**
+
+
+
+Java and Spring Tutorials
+================
+
+This project is **a collection of small and focused tutorials** - each covering a single and well defined area of development in the Java ecosystem. 
+A strong focus of these is, of course, the Spring Framework - Spring, Spring Boot and Spring Security. 
+In addition to Spring, the modules here cover a number of aspects of Java. 
+
+Profile based segregation
+====================
+
+We are using maven build profiles to segregate the huge list of individual projects we have in our repository.
+
+As for now, vast majority of the modules require JDK8 to build and run correctly.
+
+The projects are broadly divided into 3 lists: first, second and heavy. 
+
+Next, they are segregated further on the basis of the tests that we want to execute.
+
+Additionally, there are 2 profiles dedicated for JDK9 and above builds - **which require JDK 17**.
+
+We also have a parents profile to build only parent modules.
+
+Therefore, we have a total of 9 profiles:
+
+| Profile                    | Includes                    | Type of test enabled |
+| -------------------------- | --------------------------- | -------------------- |
+| default-first              | First set of projects       | *UnitTest            |
+| integration-lite-first     | First set of projects       | *IntegrationTest     |
+| default-second             | Second set of projects      | *UnitTest            |
+| integration-lite-second    | Second set of projects      | *IntegrationTest     |
+| default-heavy              | Heavy/long running projects | *UnitTest            |
+| integration-heavy          | Heavy/long running projects | *IntegrationTest     |
+| default-jdk9-and-above     | JDK9 and above projects     | *UnitTest            |
+| integration-jdk9-and-above | JDK9 and above projects     | *IntegrationTest     |
+| parents                    | Set of parent modules       | None                 |
+
+Building the project
+====================
+
+Though it should not be needed often to build the entire repository at once because we are usually concerned with a specific module.
+
+But if we want to, we can invoke the below command from the root of the repository if we want to build the entire repository with only Unit Tests enabled:
+
+`mvn clean install -Pdefault-first,default-second,default-heavy`
+
+or if we want to build the entire repository with Integration Tests enabled, we can do:
+
+`mvn clean install -Pintegration-lite-first,integration-lite-second,integration-heavy`
+
+Analogously, for the JDK9 and above projects the commands are:
+
+`mvn clean install -Pdefault-jdk9-and-above`
+
+and
+
+`mvn clean install -Pintegration-jdk9-and-above`
+
+Building a single module
+====================
+To build a specific module, run the command: `mvn clean install` in the module directory.
+
+It can happen that your module is part of a parent module e.g. `parent-boot-1`,`parent-spring-5` etc, then you will need to build the parent module first so that you can build your module.
+We have created a `parents` profile that you can use to build just the parent modules, just run the profile as:
+`mvn clean install -Pparents`
+
+
+Building modules from the root of the repository
+====================
+To build specific modules from the root of the repository, run the command: `mvn clean install --pl asm,atomikos -Pdefault-first` in the root directory.
+
+Here `asm` and `atomikos` are the modules that we want to build and `default-first` is the maven profile in which these modules are present.
+
+
+Running a Spring Boot module
+====================
+To run a Spring Boot module, run the command: `mvn spring-boot:run` in the module directory.
+
+
+Working with the IDE
+====================
+This repo contains a large number of modules. 
+When you're working with an individual module, there's no need to import all of them (or build all of them) - you can simply import that particular module in either Eclipse or IntelliJ. 
+
+
+Running Tests
+=============
+The command `mvn clean install` from within a module will run the unit tests in that module.
+For Spring modules this will also run the `SpringContextTest` if present.
+
+To run the integration tests, use the command:
+
+`mvn clean install -Pintegration-lite-first` or 
+
+`mvn clean install -Pintegration-lite-second` or 
+
+`mvn clean install -Pintegration-heavy` or
+
+`mvn clean install -Pintegration-jdk9-and-above`
+
+depending on the list where our module exists
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   pom.xml
+|   README.md
+|
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---baeldung
+|   |   |           +---customlogouthandler
+|   |   |           |   |   CustomLogoutApplication.java
+|   |   |           |   |   MvcConfiguration.java
+|   |   |           |   |
+|   |   |           |   +---services
+|   |   |           |   |       UserCache.java
+|   |   |           |   |
+|   |   |           |   +---user
+|   |   |           |   |       User.java
+|   |   |           |   |       UserUtils.java
+|   |   |           |   |
+|   |   |           |   \---web
+|   |   |           |           CustomLogoutHandler.java
+|   |   |           |           UserController.java
+|   |   |           |
+|   |   |           +---jdbcauthentication
+|   |   |           |   +---h2
+|   |   |           |   |   |   H2JdbcAuthenticationApplication.java
+|   |   |           |   |   |
+|   |   |           |   |   +---config
+|   |   |           |   |   |       PasswordEncoderConfig.java
+|   |   |           |   |   |       SecurityConfiguration.java
+|   |   |           |   |   |
+|   |   |           |   |   \---web
+|   |   |           |   |           UserController.java
+|   |   |           |   |
+|   |   |           |   +---mysql
+|   |   |           |   |   |   MySqlJdbcAuthenticationApplication.java
+|   |   |           |   |   |
+|   |   |           |   |   +---config
+|   |   |           |   |   |       SecurityConfiguration.java
+|   |   |           |   |   |
+|   |   |           |   |   \---web
+|   |   |           |   |           UserController.java
+|   |   |           |   |
+|   |   |           |   \---postgre
+|   |   |           |       |   PostgreJdbcAuthenticationApplication.java
+|   |   |           |       |
+|   |   |           |       +---config
+|   |   |           |       |       SecurityConfiguration.java
+|   |   |           |       |
+|   |   |           |       \---web
+|   |   |           |               UserController.java
+|   |   |           |
+|   |   |           +---loginredirect
+|   |   |           |       LoginPageFilter.java
+|   |   |           |       LoginPageInterceptor.java
+|   |   |           |       LoginRedirectApplication.java
+|   |   |           |       LoginRedirectMvcConfig.java
+|   |   |           |       LoginRedirectSecurityConfig.java
+|   |   |           |       UsersController.java
+|   |   |           |
+|   |   |           +---multipleauthproviders
+|   |   |           |       CustomAuthenticationProvider.java
+|   |   |           |       MultipleAuthController.java
+|   |   |           |       MultipleAuthProvidersApplication.java
+|   |   |           |       MultipleAuthProvidersSecurityConfig.java
+|   |   |           |
+|   |   |           +---multipleentrypoints
+|   |   |           |       MultipleEntryPointsApplication.java
+|   |   |           |       MultipleEntryPointsSecurityConfig.java
+|   |   |           |       PagesController.java
+|   |   |           |
+|   |   |           +---multiplelogin
+|   |   |           |       MultipleLoginApplication.java
+|   |   |           |       MultipleLoginMvcConfig.java
+|   |   |           |       MultipleLoginSecurityConfig.java
+|   |   |           |       UsersController.java
+|   |   |           |
+|   |   |           \---ssl
+|   |   |                   HttpsEnabledApplication.java
+|   |   |                   SecurityConfig.java
+|   |   |                   WelcomeController.java
+|   |   |
+|   |   \---resources
+|   |       |   application-customlogouthandler.properties
+|   |       |   application-defaults.properties
+|   |       |   application-mysql.properties
+|   |       |   application-postgre.properties
+|   |       |   application-ssl.properties
+|   |       |   application.properties
+|   |       |   data-mysql.sql
+|   |       |   data-postgre.sql
+|   |       |   logback.xml
+|   |       |   persistence-h2.properties
+|   |       |   schema-mysql.sql
+|   |       |   schema-postgre.sql
+|   |       |   spring-security-login-redirect.xml
+|   |       |   spring-security-multiple-auth-providers.xml
+|   |       |   spring-security-multiple-entry.xml
+|   |       |
+|   |       +---keystore
+|   |       |       baeldung.p12
+|   |       |
+|   |       \---templates
+|   |           |   403.html
+|   |           |   adminPage.html
+|   |           |   index.html
+|   |           |   login.html
+|   |           |   loginAdmin.html
+|   |           |   loginUser.html
+|   |           |   private.html
+|   |           |   protectedLinks.html
+|   |           |   userMainPage.html
+|   |           |   userPage.html
+|   |           |
+|   |           +---multipleHttpElems
+|   |           |       login.html
+|   |           |       loginWithWarning.html
+|   |           |       multipleHttpLinks.html
+|   |           |       myAdminPage.html
+|   |           |       myGuestPage.html
+|   |           |       myPrivateUserPage.html
+|   |           |       myUserPage.html
+|   |           |
+|   |           \---ssl
+|   |                   welcome.html
+|   |
+|   \---test
+|       +---java
+|       |   \---com
+|       |       \---baeldung
+|       |           +---customlogouthandler
+|       |           |       CustomLogoutHandlerIntegrationTest.java
+|       |           |
+|       |           +---jdbcauthentication
+|       |           |   +---h2
+|       |           |   |   |   SpringContextTest.java
+|       |           |   |   |
+|       |           |   |   \---web
+|       |           |   |           UserControllerLiveTest.java
+|       |           |   |
+|       |           |   +---mysql
+|       |           |   |   \---web
+|       |           |   |           UserControllerLiveTest.java
+|       |           |   |
+|       |           |   \---postgre
+|       |           |       \---web
+|       |           |               UserControllerLiveTest.java
+|       |           |
+|       |           \---web
+|       |                   HttpsApplicationIntegrationTest.java
+|       |                   MultipleAuthProvidersApplicationIntegrationTest.java
+|       |                   MultipleEntryPointsIntegrationTest.java
+|       |
+|       \---resources
+|           \---customlogouthandler
+|                   after.sql
+|                   application.properties
+|                   before.sql
+|
+\---WebContent
+    \---META-INF
+            MANIFEST.MF
+
+C:\Users\DavidHolberton\sbprojs\tutorials\spring-security-modules\spring-security-web-boot-2>
+
