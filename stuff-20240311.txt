@@ -1,0 +1,258 @@
+5:43 AM 3/11/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3155]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>git --version
+git version 2.39.0.windows.2
+
+C:\Users\DavidHolberton>curl --version
+curl 8.4.0 (Windows) libcurl/8.4.0 Schannel WinIDN
+Release-Date: 2023-10-11
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS HTTPS-proxy IDN IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI threadsafe Unicode UnixSockets
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/updates/v1_87
+
+https://curl.se/download.html
+https://curl.se/windows/
+	curl 8.6.0 for Windows
+		curl version: 8.6.0
+		Build: 8.6.0_4
+		Date: 2024-01-31
+		Changes: 8.6.0 changelog 
+
+		Specifications
+			curl 8.6.0_4 was built and statically linked with
+			brotli 1.1.0
+			cacert 2023-12-12
+			libpsl 0.21.5
+			libressl 3.8.2
+			libssh2 1.11.0
+			nghttp2 1.60.0
+			nghttp3 1.2.0
+			ngtcp2 1.3.0
+			zlib 1.3.1
+			zstd 1.5.5 
+
+03/11/2024  05:47 AM        98,129,072 VSCodeUserSetup-x64-1.87.1.exe
+03/11/2024  05:47 AM        98,128,752 VSCodeSetup-x64-1.87.1.exe
+03/11/2024  05:47 AM       135,873,845 VSCode-win32-x64-1.87.1.zip
+03/11/2024  05:52 AM         7,661,326 curl-8.6.0_4-win64-mingw.zip
+03/11/2024  05:52 AM           353,780 curl-8.6.0-1.tar.xz
+             476 File(s) 73,646,760,896 bytes
+               7 Dir(s)  523,877,355,520 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+C:\Users\DavidHolberton\Downloads>7z l curl-8.6.0-1.tar.xz
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 353780 bytes (346 KiB)
+
+Listing archive: curl-8.6.0-1.tar.xz
+
+--
+Path = curl-8.6.0-1.tar.xz
+Type = xz
+Physical Size = 353780
+Method = LZMA2:23 CRC64
+Streams = 1
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+                    .....       880640       353780  curl-8.6.0-1.tar
+------------------- ----- ------------ ------------  ------------------------
+                                880640       353780  1 files
+
+C:\Users\DavidHolberton\Downloads>7z x curl-8.6.0-1.tar.xz
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 353780 bytes (346 KiB)
+
+Extracting archive: curl-8.6.0-1.tar.xz
+--
+Path = curl-8.6.0-1.tar.xz
+Type = xz
+Physical Size = 353780
+Method = LZMA2:23 CRC64
+Streams = 1
+Blocks = 1
+
+Everything is Ok
+
+Size:       880640
+Compressed: 353780
+
+C:\Users\DavidHolberton\Downloads>7z l curl-8.6.0-1.tar
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 880640 bytes (860 KiB)
+
+Listing archive: curl-8.6.0-1.tar
+
+--
+Path = curl-8.6.0-1.tar
+Type = tar
+Physical Size = 880640
+Headers Size = 19456
+Code Page = UTF-8
+Characteristics = ASCII
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-02-03 18:24:55 .....       255507       256000  usr\bin\curl.exe
+2024-02-03 18:24:24 .....        27306        27648  usr\share\fish\vendor_completions.d\curl.fish
+2024-02-03 18:24:11 .....        63778        64000  usr\share\man\man1\curl.1.gz
+2024-02-03 18:24:24 .....        16232        16384  usr\share\zsh\site-functions\_curl
+2024-02-03 18:24:24 .....       306756       307200  usr\share\doc\curl\CHANGES
+2024-02-03 18:24:24 .....         1088         1536  usr\share\doc\curl\COPYING
+2024-02-03 18:24:24 .....         1664         2048  usr\share\doc\curl\README
+2024-02-03 18:24:33 .....        16973        17408  usr\share\doc\curl\RELEASE-NOTES
+2024-02-03 18:24:33 .....        67967        68096  usr\share\doc\curl\FAQ
+2024-02-03 18:24:33 .....        21098        21504  usr\share\doc\curl\KNOWN_BUGS
+2024-02-03 18:24:33 .....        11960        12288  usr\share\doc\curl\MAIL-ETIQUETTE
+2024-02-03 18:24:33 .....        10351        10752  usr\share\doc\curl\CIPHERS.md
+2024-02-03 18:24:33 .....         5798         6144  usr\share\doc\curl\FEATURES.md
+2024-02-03 18:24:33 .....         6556         6656  usr\share\doc\curl\HTTP-COOKIES.md
+2024-02-03 18:24:33 .....         1888         2048  usr\share\doc\curl\PARALLEL-TRANSFERS.md
+2024-02-03 18:24:33 .....          501          512  usr\share\doc\curl\README.md
+2024-02-03 18:24:33 .....         7419         7680  usr\share\doc\curl\SSLCERTS.md
+2024-02-03 18:24:33 .....         4106         4608  usr\share\doc\curl\SSL-PROBLEMS.md
+2024-02-03 18:24:33 .....        28619        28672  usr\share\doc\curl\TheArtOfHttpScripting.md
+------------------- ----- ------------ ------------  ------------------------
+2024-02-03 18:24:55             855567       861184  19 files
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>7z l curl-8.6.0-1.tar.xz
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 353780 bytes (346 KiB)
+
+Listing archive: curl-8.6.0-1.tar.xz
+
+--
+Path = curl-8.6.0-1.tar.xz
+Type = xz
+Physical Size = 353780
+Method = LZMA2:23 CRC64
+Streams = 1
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+                    .....       880640       353780  curl-8.6.0-1.tar
+------------------- ----- ------------ ------------  ------------------------
+                                880640       353780  1 files
+
+C:\Users\DavidHolberton\Downloads>7z x curl-8.6.0-1.tar.xz
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 353780 bytes (346 KiB)
+
+Extracting archive: curl-8.6.0-1.tar.xz
+--
+Path = curl-8.6.0-1.tar.xz
+Type = xz
+Physical Size = 353780
+Method = LZMA2:23 CRC64
+Streams = 1
+Blocks = 1
+
+Everything is Ok
+
+Size:       880640
+Compressed: 353780
+
+C:\Users\DavidHolberton\Downloads>7z l curl-8.6.0-1.tar
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 880640 bytes (860 KiB)
+
+Listing archive: curl-8.6.0-1.tar
+
+--
+Path = curl-8.6.0-1.tar
+Type = tar
+Physical Size = 880640
+Headers Size = 19456
+Code Page = UTF-8
+Characteristics = ASCII
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-02-03 18:24:55 .....       255507       256000  usr\bin\curl.exe
+2024-02-03 18:24:24 .....        27306        27648  usr\share\fish\vendor_completions.d\curl.fish
+2024-02-03 18:24:11 .....        63778        64000  usr\share\man\man1\curl.1.gz
+2024-02-03 18:24:24 .....        16232        16384  usr\share\zsh\site-functions\_curl
+2024-02-03 18:24:24 .....       306756       307200  usr\share\doc\curl\CHANGES
+2024-02-03 18:24:24 .....         1088         1536  usr\share\doc\curl\COPYING
+2024-02-03 18:24:24 .....         1664         2048  usr\share\doc\curl\README
+2024-02-03 18:24:33 .....        16973        17408  usr\share\doc\curl\RELEASE-NOTES
+2024-02-03 18:24:33 .....        67967        68096  usr\share\doc\curl\FAQ
+2024-02-03 18:24:33 .....        21098        21504  usr\share\doc\curl\KNOWN_BUGS
+2024-02-03 18:24:33 .....        11960        12288  usr\share\doc\curl\MAIL-ETIQUETTE
+2024-02-03 18:24:33 .....        10351        10752  usr\share\doc\curl\CIPHERS.md
+2024-02-03 18:24:33 .....         5798         6144  usr\share\doc\curl\FEATURES.md
+2024-02-03 18:24:33 .....         6556         6656  usr\share\doc\curl\HTTP-COOKIES.md
+2024-02-03 18:24:33 .....         1888         2048  usr\share\doc\curl\PARALLEL-TRANSFERS.md
+2024-02-03 18:24:33 .....          501          512  usr\share\doc\curl\README.md
+2024-02-03 18:24:33 .....         7419         7680  usr\share\doc\curl\SSLCERTS.md
+2024-02-03 18:24:33 .....         4106         4608  usr\share\doc\curl\SSL-PROBLEMS.md
+2024-02-03 18:24:33 .....        28619        28672  usr\share\doc\curl\TheArtOfHttpScripting.md
+------------------- ----- ------------ ------------  ------------------------
+2024-02-03 18:24:55             855567       861184  19 files
+
+C:\Users\DavidHolberton\Downloads>
+
+
+C:\Users\DavidHolberton\Downloads\curl-8.6.0_4-win64-mingw\bin>
+C:\Users\DavidHolberton\Downloads\curl-8.6.0_4-win64-mingw\bin>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads\curl-8.6.0_4-win64-mingw\bin
+
+03/11/2024  06:24 AM    <DIR>          .
+03/11/2024  06:24 AM    <DIR>          ..
+12/12/2023  04:12 AM           226,639 curl-ca-bundle.crt
+01/31/2024  07:04 AM             2,326 libcurl-x64.def
+01/31/2024  07:04 AM         3,145,800 libcurl-x64.dll
+01/31/2024  07:04 AM         3,281,480 curl.exe
+               4 File(s)      6,656,245 bytes
+               2 Dir(s)  522,977,554,432 bytes free
+
+C:\Users\DavidHolberton\Downloads\curl-8.6.0_4-win64-mingw\bin>.\curl.exe --version
+curl 8.6.0 (x86_64-w64-mingw32) libcurl/8.6.0 LibreSSL/3.8.2 zlib/1.3.1 brotli/1.1.0 zstd/1.5.5 WinIDN libpsl/0.21.5 libssh2/1.11.0 nghttp2/1.60.0 ngtcp2/1.3.0 nghttp3/1.2.0
+Release-Date: 2024-01-31
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTP3 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM PSL SPNEGO SSL SSPI threadsafe UnixSockets zstd
+
+C:\Users\DavidHolberton\Downloads\curl-8.6.0_4-win64-mingw\bin>
+
