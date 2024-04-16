@@ -1,0 +1,659 @@
+6:26 AM 4/16/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3296]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff\
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240416.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+
+04/16/2024  06:30 AM       545,459,269 eclipse-jee-2024-03-R-win32-x86_64.zip
+04/16/2024  06:31 AM               170 eclipse-jee-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:32 AM       336,505,713 eclipse-java-2024-03-R-win32-x86_64.zip
+04/16/2024  06:33 AM               171 eclipse-java-2024-03-R-win32-x86_64.zip.sha512
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://spring.io/tools
+
+04/16/2024  06:35 AM       655,114,210 spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.jetbrains.com/idea/download/?section=windows
+https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows
+
+04/16/2024  06:37 AM       997,351,008 ideaIU-2024.1.exe
+04/16/2024  06:38 AM                84 ideaIU-2024.1.exe.sha256
+04/16/2024  06:38 AM     1,329,941,433 ideaIU-2024.1.win.zip
+04/16/2024  06:38 AM                88 ideaIU-2024.1.win.zip.sha256
+04/16/2024  06:39 AM       596,665,744 ideaIC-2024.1.exe
+04/16/2024  06:39 AM                84 ideaIC-2024.1.exe.sha256
+04/16/2024  06:39 AM       839,348,461 ideaIC-2024.1.win.zip
+04/16/2024  06:39 AM                88 ideaIC-2024.1.win.zip.sha256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>
+C:\>java -version
+java version "17.0.7" 2023-04-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.7+8-LTS-224)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.7+8-LTS-224, mixed mode, sharing)
+
+C:\>javac -version
+javac 17.0.7
+
+C:\>code --version
+1.85.1
+0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+x64
+
+C:\>
+
+Version: 1.85.1
+Commit: 0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+Date: 2023-12-13T09:49:37.021Z
+Electron: 25.9.7
+ElectronBuildId: 25551756
+Chromium: 114.0.5735.289
+Node.js: 18.15.0
+V8: 11.4.183.29-electron.0
+OS: Windows_NT x64 10.0.22631
+
+C:\>mkdir temp
+
+C:\>cd temp
+
+C:\temp>code .
+
+C:\temp>code --profile p1 --list-extensions
+redhat.java
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\temp>code --profile p1 --list-extensions --show-versions
+redhat.java@1.29.0
+VisualStudioExptTeam.intellicode-api-usage-examples@0.2.8
+VisualStudioExptTeam.vscodeintellicode@1.3.1
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.53.0
+vscjava.vscode-java-debug@0.57.0
+vscjava.vscode-java-dependency@0.23.6
+vscjava.vscode-java-pack@0.26.0
+vscjava.vscode-java-test@0.41.0
+vscjava.vscode-maven@0.44.0
+vscjava.vscode-spring-boot-dashboard@0.13.1
+vscjava.vscode-spring-initializr@0.11.2
+
+C:\temp>code --version
+1.85.1
+0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+x64
+
+C:\temp>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Gradle for Java   v3.13.5
+  More Info
+    Published   2019-10-20, 11:25:39
+    Last released   2024-01-18, 00:15:33
+    Identifier   vscjava.vscode-gradle
+  Requirements
+    VS Code >= 1.76.0
+    Java from 8 to 21
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp>echo %vscode_home%
+C:\LocalApps\VSCode-win32-x64-1.88.0
+
+C:\temp>
+
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin
+
+C:\temp>%vscode_home%\bin\code .
+
+C:\temp>cd \Users\DavidHolberton\Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>%vscode_home%\bin\code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp>
+C:\temp>%vscode_home%\bin\code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\temp>
+
+Version: 1.88.0
+Commit: 5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+Date: 2024-04-03T13:26:18.741Z
+Electron: 28.2.8
+ElectronBuildId: 27744544
+Chromium: 120.0.6099.291
+Node.js: 18.18.2
+V8: 12.0.267.19-electron.0
+OS: Windows_NT x64 10.0.22631
+
+C:\temp>
+C:\temp>%vscode_home%\bin\code --profile p1 --list-extensions --show-versions
+redhat.java@1.29.0
+visualstudioexptteam.intellicode-api-usage-examples@0.2.8
+visualstudioexptteam.vscodeintellicode@1.3.1
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.53.0
+vscjava.vscode-gradle@3.13.5
+vscjava.vscode-java-debug@0.57.0
+vscjava.vscode-java-dependency@0.23.6
+vscjava.vscode-java-pack@0.26.0
+vscjava.vscode-java-test@0.41.0
+vscjava.vscode-maven@0.44.0
+vscjava.vscode-spring-boot-dashboard@0.13.1
+vscjava.vscode-spring-initializr@0.11.2
+
+C:\temp>
+
+>java: Create Java Project...
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp>cd ahcdemo
+
+C:\temp\ahcdemo>%vscode_home%\bin\code .
+
+C:\temp\ahcdemo>
+C:\temp\ahcdemo>tree /a
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
++---src
+|   +---main
+|   |   \---java
+|   |       \---com
+|   |           \---ashburncode
+|   \---test
+|       \---java
+|           \---com
+|               \---ashburncode
+\---target
+    +---classes
+    |   \---com
+    |       \---ashburncode
+    \---test-classes
+        \---com
+            \---ashburncode
+
+C:\temp\ahcdemo>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   pom.xml
+|
++---src
+|   +---main
+|   |   \---java
+|   |       \---com
+|   |           \---ashburncode
+|   |                   App.java
+|   |
+|   \---test
+|       \---java
+|           \---com
+|               \---ashburncode
+|                       AppTest.java
+|
+\---target
+    +---classes
+    |   \---com
+    |       \---ashburncode
+    |               App.class
+    |
+    \---test-classes
+        \---com
+            \---ashburncode
+                    AppTest.class
+
+
+C:\temp\ahcdemo>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp\ahcdemo\pom.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ashburncode</groupId>
+  <artifactId>ahcdemo</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>ahcdemo</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp\ahcdemo\src\main\java\com\ashburncode\App.java
+
+package com.ashburncode;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp\ahcdemo\src\test\java\com\ashburncode\AppTest.java
+
+package com.ashburncode;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+        assertTrue( true );
+    }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+PS C:\temp\ahcdemo>  & 'C:\LocalApps\jdk-17.0.7\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\temp\ahcdemo\target\classes' 'com.ashburncode.App' 
+Hello World!
+PS C:\temp\ahcdemo> 
+PS C:\temp\ahcdemo> 
+
+https://mvnrepository.com/artifact/org.asynchttpclient
+https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.12.3
+
+<!-- https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client -->
+<dependency>
+    <groupId>org.asynchttpclient</groupId>
+    <artifactId>async-http-client</artifactId>
+    <version>2.12.3</version>
+</dependency>
+
+// https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+implementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.12.3'
+
+// https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+implementation 'org.asynchttpclient:async-http-client:2.12.3'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/async-http-client
+https://github.com/eugenp/tutorials/tree/master/libraries-http
+
+
+<dependency>
+    <groupId>org.asynchttpclient</groupId>
+    <artifactId>async-http-client</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+
+AsyncHttpClient client = Dsl.asyncHttpClient();
+
+DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
+
+DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
+
+
+
+
+DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
+  .setConnectTimeout(500)
+  .setProxyServer(new ProxyServer(...));
+AsyncHttpClient client = Dsl.asyncHttpClient(clientBuilder);
+
+java -jar -Dorg.asynchttpclient.disableUrlEncodingForBoundRequests=true
+
+// A complete list of properties can be found the ahc-default.properties file.
+
+BoundRequestBuilder getRequest = client.prepareGet("http://www.baeldung.com");
+
+
+Request getRequest = new RequestBuilder(HttpConstants.Methods.GET)
+  .setUrl("http://www.baeldung.com")
+  .build();
+
+Request getRequest = Dsl.get("http://www.baeldung.com").build()
+
+Future<Response> responseFuture = boundGetRequest.execute();
+responseFuture.get();
+
+Future<Response> responseFuture = client.executeRequest(unboundRequest);
+responseFuture.get();
+
+request.execute(new AsyncHandler<Object>() {
+    @Override
+    public State onStatusReceived(HttpResponseStatus responseStatus)
+      throws Exception {
+        return null;
+    }
+
+    @Override
+    public State onHeadersReceived(HttpHeaders headers)
+      throws Exception {
+        return null;
+    }
+
+    @Override
+    public State onBodyPartReceived(HttpResponseBodyPart bodyPart)
+      throws Exception {
+        return null;
+    }
+
+    @Override
+    public void onThrowable(Throwable t) {
+
+    }
+
+    @Override
+    public Object onCompleted() throws Exception {
+        return null;
+    }
+});
+
+request.execute(new AsyncCompletionHandler<Object>() {
+    @Override
+    public Object onCompleted(Response response) throws Exception {
+        return response;
+    }
+});
+
+ListenableFuture<Response> listenableFuture = client
+  .executeRequest(unboundRequest);
+listenableFuture.addListener(() -> {
+    LOG.debug(response.getStatusCode());
+}, Executors.newCachedThreadPool());
+
+
+
+
+
+
+
+
+
+
+
+
+https://crunchify.com/java-asynchronous-httpclient-overview-and-tutorial-sendasync/
+
+https://crunchify.com/java-asynchronous-httpclient-overview-and-tutorial-sendasync/
+
+CrunchifyJavaAsynchronousHTTPClient.java
+
+package crunchify.com.tutorial;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.time.Duration;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+/**
+ * @author Crunchify.com
+ * Overview and Simple Java Asynchronous HttpClient Client Tutorial
+ */
+public class CrunchifyJavaAsynchronousHTTPClient {
+    private static final HttpClient crunchifyHttpClient = HttpClient.newBuilder()
+            .version(HttpClient.Version.HTTP_1_1)
+            .connectTimeout(Duration.ofSeconds(5))
+            .build();
+    // HttpClient: An HttpClient can be used to send requests and retrieve their responses. An HttpClient is created through a builder.
+    // Duration: A time-based amount of time, such as '5 seconds'.
+    public static void main(String[] args) {
+        // Async HTTPClient Example
+        crunchifyAsyncHTTPClient();
+    }
+    private static void crunchifyAsyncHTTPClient() {
+        HttpRequest crunchifyRequest = HttpRequest.newBuilder()
+                .GET()
+                .uri(URI.create("https://crunchify.com/wp-content/java/crunchify-java-httpclient-tutorial.html"))
+                .setHeader("User-Agent", "Crunchify Java Aysnc HTTPClient Example...")
+                .build();
+        CompletableFuture<HttpResponse<String>> crunchifyAsyncResponse = null;
+        // sendAsync(): Sends the given request asynchronously using this client with the given response body handler.
+        //Equivalent to: sendAsync(request, responseBodyHandler, null).
+        crunchifyAsyncResponse = crunchifyHttpClient.sendAsync(crunchifyRequest, HttpResponse.BodyHandlers.ofString());
+        String crunchifyAsyncResultBody = null;
+        int crunchifyAsyncResultStatusCode = 0;
+        try {
+            crunchifyAsyncResultBody = crunchifyAsyncResponse.thenApply(HttpResponse::body).get(5, TimeUnit.SECONDS);
+            
+            // OR:
+            
+            // join(): Returns the result value when complete, or throws an (unchecked) exception if completed exceptionally. 
+            // To better conform with the use of common functional forms, 
+            // if a computation involved in the completion of this CompletableFuture threw an exception, 
+            // this method throws an (unchecked) CompletionException with the underlying exception as its cause.
+            
+            HttpResponse<String> response = crunchifyAsyncResponse.join();
+            crunchifyAsyncResultStatusCode = crunchifyAsyncResponse.thenApply(HttpResponse::statusCode).get(5, TimeUnit.SECONDS);
+        } catch (InterruptedException | ExecutionException | TimeoutException e) {
+            e.printStackTrace();
+        }
+        crunnchifyPrint("=============== AsyncHTTPClient Body:===============  \n" + crunchifyAsyncResultBody);
+        crunnchifyPrint("\n=============== AsyncHTTPClient Status Code:===============  \n" + crunchifyAsyncResultStatusCode);
+    }
+    private static void crunnchifyPrint(Object data) {
+        System.out.println(data);
+    }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.javadoc.io/doc/org.asynchttpclient/async-http-client/2.0.0/org/asynchttpclient/DefaultAsyncHttpClientConfig.Builder.html
+    setEnabledCipherSuites
+    public DefaultAsyncHttpClientConfig.Builder setEnabledCipherSuites(String[] enabledCipherSuites)
+
+https://github.com/AsyncHttpClient/async-http-client/blob/main/client/src/main/java/org/asynchttpclient/AsyncHttpClientConfig.java
+
+    /**
+    * @return the array of enabled protocols
+    */
+    @Nullable String[] getEnabledProtocols();
+
+    /**
+    * @return the array of enabled cipher suites
+    */
+    @Nullable String[] getEnabledCipherSuites();
+
+https://raw.githubusercontent.com/AsyncHttpClient/async-http-client/main/client/src/main/resources/org/asynchttpclient/config/ahc-default.properties
+https://github.com/AsyncHttpClient/async-http-client/blob/main/client/src/main/resources/org/asynchttpclient/config/ahc-default.properties
+https://github.com/AsyncHttpClient/async-http-client/blob/main/client/src/main/resources/org/asynchttpclient/config/ahc-default.properties
+
+
+org.asynchttpclient.threadPoolName=AsyncHttpClient
+org.asynchttpclient.maxConnections=-1
+org.asynchttpclient.maxConnectionsPerHost=-1
+org.asynchttpclient.acquireFreeChannelTimeout=0
+org.asynchttpclient.connectTimeout=PT5S
+org.asynchttpclient.pooledConnectionIdleTimeout=PT1M
+org.asynchttpclient.connectionPoolCleanerPeriod=PT0.1S
+org.asynchttpclient.readTimeout=PT1M
+org.asynchttpclient.requestTimeout=PT1M
+org.asynchttpclient.connectionTtl=-PT0.001S
+org.asynchttpclient.followRedirect=false
+org.asynchttpclient.maxRedirects=5
+org.asynchttpclient.compressionEnforced=false
+org.asynchttpclient.enableAutomaticDecompression=true
+org.asynchttpclient.userAgent=AHC/2.1
+org.asynchttpclient.enabledProtocols=TLSv1.2, TLSv1.1, TLSv1
+org.asynchttpclient.enabledCipherSuites=
+org.asynchttpclient.filterInsecureCipherSuites=true
+org.asynchttpclient.useProxySelector=false
+org.asynchttpclient.useProxyProperties=false
+org.asynchttpclient.validateResponseHeaders=true
+org.asynchttpclient.aggregateWebSocketFrameFragments=true
+org.asynchttpclient.strict302Handling=false
+org.asynchttpclient.keepAlive=true
+org.asynchttpclient.maxRequestRetry=5
+org.asynchttpclient.disableUrlEncodingForBoundRequests=false
+org.asynchttpclient.useLaxCookieEncoder=false
+org.asynchttpclient.removeQueryParamOnRedirect=true
+org.asynchttpclient.useOpenSsl=false
+org.asynchttpclient.useInsecureTrustManager=false
+org.asynchttpclient.disableHttpsEndpointIdentificationAlgorithm=false
+org.asynchttpclient.sslSessionCacheSize=0
+org.asynchttpclient.sslSessionTimeout=0
+org.asynchttpclient.tcpNoDelay=true
+org.asynchttpclient.soReuseAddress=false
+org.asynchttpclient.soKeepAlive=true
+org.asynchttpclient.soLinger=-1
+org.asynchttpclient.soSndBuf=-1
+org.asynchttpclient.soRcvBuf=-1
+org.asynchttpclient.httpClientCodecMaxInitialLineLength=4096
+org.asynchttpclient.httpClientCodecMaxHeaderSize=8192
+org.asynchttpclient.httpClientCodecMaxChunkSize=8192
+org.asynchttpclient.httpClientCodecInitialBufferSize=128
+org.asynchttpclient.disableZeroCopy=false
+org.asynchttpclient.handshakeTimeout=10000
+org.asynchttpclient.chunkedFileChunkSize=8192
+org.asynchttpclient.webSocketMaxBufferSize=128000000
+org.asynchttpclient.webSocketMaxFrameSize=10240
+org.asynchttpclient.keepEncodingHeader=false
+org.asynchttpclient.shutdownQuietPeriod=PT2S
+org.asynchttpclient.shutdownTimeout=PT15S
+org.asynchttpclient.useNativeTransport=false
+org.asynchttpclient.useOnlyEpollNativeTransport=false
+org.asynchttpclient.ioThreadsCount=-1
+org.asynchttpclient.hashedWheelTimerTickDuration=100
+org.asynchttpclient.hashedWheelTimerSize=512
+org.asynchttpclient.expiredCookieEvictionDelay=30000
+
+
+
+
+
+
+
+
+
+
+
