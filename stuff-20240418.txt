@@ -1,0 +1,558 @@
+6:26 AM 4/18/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3447]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240418.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+https://start.spring.io/
+
+3.2.4 and 3.1.10
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.2.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact: promslite
+    Name: promslite
+    Description: Simple Spring Boot app to test external Java clients
+    Program name: com.ashburncode.promslite
+    Packaging: Jar
+    Java: 17
+  Dependencies:
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    Spring Boot DevTools Developer Tools
+      Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+    Spring Data JPA SQL
+      Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+    H2 Database SQL
+      Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application.
+    MySQL Driver SQL
+      MySQL JDBC driver.
+    Rest Repositories Web
+      Exposing Spring Data repositories over REST via Spring Data REST.
+      
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+huc
+
+https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.2.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact: hucapp
+    Name: hucapp
+    Description: Simple Spring Boot app to test httpurlconnection Java client
+    Program name: com.ashburncode.hucapp
+    Packaging: Jar
+    Java: 17
+  Dependencies:
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    Spring Boot DevTools Developer Tools
+      Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+ahc
+
+https://github.com/AsyncHttpClient/async-http-client
+https://www.javadoc.io/doc/org.asynchttpclient/async-http-client/2.0.0/org/asynchttpclient/AsyncHttpClient.html
+https://www.baeldung.com/async-http-client
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.2.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact:ahcapp
+    Name: ahcapp
+    Description: Simple Spring Boot app to test asynchttpclient Java client
+    Program name: com.ashburncode.ahcapp
+    Packaging: Jar
+    Java: 17
+  Dependencies:
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    Spring Boot DevTools Developer Tools
+      Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>
+C:\>code --profile p1 --list-extensions
+eamodio.gitlens
+ms-azuretools.vscode-docker
+ms-vscode.hexeditor
+redhat.java
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\>code --profile p1 --list-extensions --show-versions
+eamodio.gitlens@14.9.0
+ms-azuretools.vscode-docker@1.29.0
+ms-vscode.hexeditor@1.9.14
+redhat.java@1.29.0
+visualstudioexptteam.intellicode-api-usage-examples@0.2.8
+visualstudioexptteam.vscodeintellicode@1.3.1
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.53.0
+vscjava.vscode-gradle@3.13.5
+vscjava.vscode-java-debug@0.57.0
+vscjava.vscode-java-dependency@0.23.6
+vscjava.vscode-java-pack@0.26.0
+vscjava.vscode-java-test@0.41.0
+vscjava.vscode-maven@0.44.0
+vscjava.vscode-spring-boot-dashboard@0.13.1
+vscjava.vscode-spring-initializr@0.11.2
+
+C:\>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://marketplace.visualstudio.com/VSCode
+https://marketplace.visualstudio.com/search?term=java&target=VSCode&category=All%20categories&sortBy=Relevance
+
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+
+Language Support for Java(TM) by Red Hat
+Version 	1.30.2024041808 	
+Released on 	9/12/2016, 4:41:27 PM 	
+Last updated 	4/18/2024, 4:30:45 AM
+Publisher 	Red Hat 	
+Unique Identifier 	redhat.java
+
+The tooling JDK will be used to launch the Language Server for Java. And by default, will also be used to compile your projects. Java 17 is the minimum required version.
+
+Hex Editor   v1.9.14
+Published   2020-06-08, 14:02:22
+Last released   2024-02-22, 13:37:02
+Identifier   ms-vscode.hexeditor
+
+Docker   v1.29.0
+Published   2015-11-13, 14:44:30
+Last released   2024-02-13, 10:42:40
+Identifier   ms-azuretools.vscode-docker
+
+GitLens — Git supercharged   v14.9.0
+GitKraken   gitkraken.com   31,210,463   (787)
+Published   2016-09-05, 18:30:06
+Last released   2024-04-18, 05:11:54
+Identifier   eamodio.gitlens
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+04/10/2024  06:12 AM        99,455,728 VSCodeUserSetup-x64-1.88.0.exe
+04/10/2024  06:13 AM        99,455,168 VSCodeSetup-x64-1.88.0.exe
+04/10/2024  06:13 AM       138,065,759 VSCode-win32-x64-1.88.0.zip
+04/10/2024  07:12 AM             2,190 VSCode-win32-x64-1.88.0.sha256-hashes.txt
+04/16/2024  06:30 AM       545,459,269 eclipse-jee-2024-03-R-win32-x86_64.zip
+04/16/2024  06:31 AM               170 eclipse-jee-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:32 AM       336,505,713 eclipse-java-2024-03-R-win32-x86_64.zip
+04/16/2024  06:33 AM               171 eclipse-java-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:35 AM       655,114,210 spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+04/16/2024  06:37 AM       997,351,008 ideaIU-2024.1.exe
+04/16/2024  06:38 AM                84 ideaIU-2024.1.exe.sha256
+04/16/2024  06:38 AM     1,329,941,433 ideaIU-2024.1.win.zip
+04/16/2024  06:38 AM                88 ideaIU-2024.1.win.zip.sha256
+04/16/2024  06:39 AM       596,665,744 ideaIC-2024.1.exe
+04/16/2024  06:39 AM                84 ideaIC-2024.1.exe.sha256
+04/16/2024  06:39 AM       839,348,461 ideaIC-2024.1.win.zip
+04/16/2024  06:39 AM                88 ideaIC-2024.1.win.zip.sha256
+04/18/2024  06:44 AM            52,609 promslite.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+             506 File(s) 79,287,120,385 bytes
+               9 Dir(s)  504,700,116,992 bytes free
+
+C:\Users\DavidHolberton\Downloads>copy promslite.zip ..\sbprojs
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\Downloads>copy hucapp.zip ..\sbprojs
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\Downloads>copy ahcapp.zip ..\sbprojs
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\Downloads>
+
+https://www.baeldung.com/spring-boot-https-self-signed-certificate
+
+keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore baeldung.p12 -validity 3650
+keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -keystore baeldung.jks -validity 3650
+keytool -importkeystore -srckeystore baeldung.jks -destkeystore baeldung.p12 -deststoretype pkcs12
+
+Then we’ll copy the file named “baeldung.p12,” generated in the previous step, into the “src/main/resources/keystore” directory.
+
+Now we’ll configure the SSL related properties:
+  # The format used for the keystore. It could be set to JKS in case it is a JKS file
+  server.ssl.key-store-type=PKCS12
+  # The path to the keystore containing the certificate
+  server.ssl.key-store=classpath:keystore/baeldung.p12
+  # The password used to generate the certificate
+  server.ssl.key-store-password=password
+  # The alias mapped to the certificate
+  server.ssl.key-alias=baeldung
+Since we’re using a Spring Security enabled application, let’s configure it to accept only HTTPS requests:
+  server.ssl.enabled=true
+
+keytool -genkeypair -alias ashburncode -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore ashburncode.p12 -validity 3650
+keytool -genkeypair -alias ashburncode -keyalg RSA -keysize 2048 -keystore ashburncode.jks -validity 3650
+keytool -importkeystore -srckeystore ashburncode.jks -destkeystore ashburncode.p12 -deststoretype pkcs12
+
+C:\Users\DavidHolberton\sbprojs>
+C:\Users\DavidHolberton\sbprojs>keytool -genkeypair -alias ashburncode -keyalg RSA -keysize 2048 -keystore ashburncode.jks -validity 3650
+Enter keystore password:
+
+Re-enter new password:
+
+What is your first and last name?
+  [Unknown]:  David Holberton
+What is the name of your organizational unit?
+  [Unknown]:  devteam
+What is the name of your organization?
+  [Unknown]:  ashburncode
+What is the name of your City or Locality?
+  [Unknown]:  Ashburn
+What is the name of your State or Province?
+  [Unknown]:  Virginia
+What is the two-letter country code for this unit?
+  [Unknown]:  US
+Is CN=David Holberton, OU=devteam, O=ashburncode, L=Ashburn, ST=Virginia, C=US correct?
+  [no]:  yes
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 3,650 days
+        for: CN=David Holberton, OU=devteam, O=ashburncode, L=Ashburn, ST=Virginia, C=US
+
+C:\Users\DavidHolberton\sbprojs>
+C:\Users\DavidHolberton\sbprojs>keytool -importkeystore -srckeystore ashburncode.jks -destkeystore ashburncode.p12 -deststoretype pkcs12
+Importing keystore ashburncode.jks to ashburncode.p12...
+Enter destination keystore password:
+
+Re-enter new password:
+
+Enter source keystore password:
+
+Entry for alias ashburncode successfully imported.
+Import command completed:  1 entries successfully imported, 0 entries failed or cancelled
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>keytool -list -v -keystore ashburncode.jks
+Enter keystore password:
+
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: ashburncode
+Creation date: Apr 18, 2024
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=David Holberton, OU=devteam, O=ashburncode, L=Ashburn, ST=Virginia, C=US
+Issuer: CN=David Holberton, OU=devteam, O=ashburncode, L=Ashburn, ST=Virginia, C=US
+Serial number: f4789fda7bbc330
+Valid from: Thu Apr 18 07:28:50 EDT 2024 until: Sun Apr 16 07:28:50 EDT 2034
+Certificate fingerprints:
+         SHA1: C2:07:28:09:12:B1:D4:87:8D:6C:DD:AB:F2:EE:F3:E4:80:A1:1C:DE
+         SHA256: BB:84:A0:B0:CA:3C:F6:E7:46:43:35:20:B1:9C:88:BF:1C:E8:24:44:45:11:BE:34:56:20:29:1F:6B:BF:8E:4B
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F9 11 42 69 2B 08 C4 82   08 26 80 DD C9 ED FA 46  ..Bi+....&.....F
+0010: D6 F3 15 8A                                        ....
+]
+]
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>
+C:\Users\DavidHolberton\sbprojs>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs
+
+06/02/2023  08:41 AM    <DIR>          myapp
+06/04/2023  08:29 AM    <DIR>          demo
+06/21/2023  08:09 AM    <DIR>          sb3110demo
+03/08/2024  09:06 AM    <DIR>          tutorials
+04/18/2024  06:44 AM    <DIR>          promslite
+04/18/2024  06:52 AM    <DIR>          hucapp
+04/18/2024  06:56 AM    <DIR>          ahcapp
+04/18/2024  07:29 AM    <DIR>          ..
+04/18/2024  07:31 AM    <DIR>          .
+06/01/2023  06:14 AM            67,807 demo.zip
+06/21/2023  08:04 AM            68,050 sb3110demo.zip
+04/18/2024  06:44 AM            52,609 promslite.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+04/18/2024  07:28 AM             2,770 ashburncode.jks
+04/18/2024  07:31 AM             2,770 ashburncode.p12
+               7 File(s)        298,401 bytes
+               9 Dir(s)  504,625,606,656 bytes free
+
+C:\Users\DavidHolberton\sbprojs>
+C:\Users\DavidHolberton\sbprojs\promslite>code .
+C:\Users\DavidHolberton\sbprojs\promslite>./gradlew --version
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\DavidHolberton\sbprojs\promslite>gradlew --version
+Downloading https://services.gradle.org/distributions/gradle-8.7-bin.zip
+............10%.............20%.............30%.............40%............50%.............60%.............70%.............80%.............90%............100%
+
+Welcome to Gradle 8.7!
+
+Here are the highlights of this release:
+ - Compiling and testing with Java 22
+ - Cacheable Groovy script compilation
+ - New methods in lazy collection properties
+
+For more details see https://docs.gradle.org/8.7/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.7
+------------------------------------------------------------
+
+Build time:   2024-03-22 15:52:46 UTC
+Revision:     650af14d7653aa949fce5e886e685efc9cf97c10
+
+Kotlin:       1.9.22
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\promslite>
+C:\Users\DavidHolberton\sbprojs\promslite>
+
+curl -k -v -X GET http://localhost
+curl -k -v -X GET http://localhost/actuator
+
+curl -k -v -X GET https://localhost
+curl -k -v -X GET https://localhost/actuator
+curl -k -v -X GET https://localhost/actuator/health
+curl -k -v -X GET https://localhost/actuator/info
+
+curl -k -v -X GET https://localhost
+curl -k -v -X GET https://localhost/health
+curl -k -v -X GET https://localhost/info
+
+C:\Users\DavidHolberton>curl -k -v -X GET https://localhost/
+Note: Unnecessary use of -X or --request, GET is already inferred.
+*   Trying [::1]:443...
+*   Trying 127.0.0.1:443...
+* connect to ::1 port 443 failed: Connection refused
+* connect to 127.0.0.1 port 443 failed: Connection refused
+* Failed to connect to localhost port 443 after 2229 ms: Couldn't connect to server
+* Closing connection
+curl: (7) Failed to connect to localhost port 443 after 2229 ms: Couldn't connect to server
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl -k -v -X GET https://localhost/actuator
+Note: Unnecessary use of -X or --request, GET is already inferred.
+*   Trying [::1]:443...
+*   Trying 127.0.0.1:443...
+* connect to ::1 port 443 failed: Connection refused
+* connect to 127.0.0.1 port 443 failed: Connection refused
+* Failed to connect to localhost port 443 after 2225 ms: Couldn't connect to server
+* Closing connection
+curl: (7) Failed to connect to localhost port 443 after 2225 ms: Couldn't connect to server
+
+C:\Users\DavidHolberton>
+
+C:\Users\DavidHolberton\sbprojs\promslite>gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-18T08:55:09.793-04:00  INFO 34612 --- [promslite] [  restartedMain] c.a.promslite.PromsliteApplication       : Starting PromsliteApplication using Java 17.0.7 with PID 34612 (C:\Users\DavidHolberton\sbprojs\promslite\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\promslite)
+2024-04-18T08:55:09.793-04:00  INFO 34612 --- [promslite] [  restartedMain] c.a.promslite.PromsliteApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-04-18T08:55:09.836-04:00  INFO 34612 --- [promslite] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-18T08:55:09.836-04:00  INFO 34612 --- [promslite] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-18T08:55:10.682-04:00  INFO 34612 --- [promslite] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (https)
+2024-04-18T08:55:10.682-04:00  INFO 34612 --- [promslite] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-18T08:55:10.682-04:00  INFO 34612 --- [promslite] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-18T08:55:10.713-04:00  INFO 34612 --- [promslite] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-18T08:55:10.713-04:00  INFO 34612 --- [promslite] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 877 ms
+2024-04-18T08:55:11.068-04:00  INFO 34612 --- [promslite] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-18T08:55:11.074-04:00  INFO 34612 --- [promslite] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-18T08:55:11.278-04:00  INFO 34612 --- [promslite] [  restartedMain] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\DavidHolberton\.keystore] using alias [ashburncode] with trust store [null]
+2024-04-18T08:55:11.293-04:00  INFO 34612 --- [promslite] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (https) with context path ''
+2024-04-18T08:55:11.309-04:00  INFO 34612 --- [promslite] [  restartedMain] c.a.promslite.PromsliteApplication       : Started PromsliteApplication in 1.812 seconds (process running for 2.145)
+<==========---> 80% EXECUTING [1m 47s]
+> :bootRun
+Terminate batch job (Y/N)?
+^C
+C:\Users\DavidHolberton\sbprojs\promslite>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>curl --version
+curl 8.4.0 (Windows) libcurl/8.4.0 Schannel WinIDN
+Release-Date: 2023-10-11
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS HTTPS-proxy IDN IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI threadsafe Unicode UnixSockets
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl -k -v -X GET https://localhost/actuator/health
+Note: Unnecessary use of -X or --request, GET is already inferred.
+*   Trying [::1]:443...
+*   Trying 127.0.0.1:443...
+* connect to ::1 port 443 failed: Connection refused
+* connect to 127.0.0.1 port 443 failed: Connection refused
+* Failed to connect to localhost port 443 after 2235 ms: Couldn't connect to server
+* Closing connection
+curl: (7) Failed to connect to localhost port 443 after 2235 ms: Couldn't connect to server
+
+C:\Users\DavidHolberton>curl -k -v -X GET https://localhost/actuator/info
+Note: Unnecessary use of -X or --request, GET is already inferred.
+*   Trying [::1]:443...
+*   Trying 127.0.0.1:443...
+* connect to ::1 port 443 failed: Connection refused
+* connect to 127.0.0.1 port 443 failed: Connection refused
+* Failed to connect to localhost port 443 after 2223 ms: Couldn't connect to server
+* Closing connection
+curl: (7) Failed to connect to localhost port 443 after 2223 ms: Couldn't connect to server
+
+C:\Users\DavidHolberton>curl -k -v -X GET https://localhost/actuator
+Note: Unnecessary use of -X or --request, GET is already inferred.
+*   Trying [::1]:443...
+*   Trying 127.0.0.1:443...
+* connect to ::1 port 443 failed: Connection refused
+* connect to 127.0.0.1 port 443 failed: Connection refused
+* Failed to connect to localhost port 443 after 2238 ms: Couldn't connect to server
+* Closing connection
+curl: (7) Failed to connect to localhost port 443 after 2238 ms: Couldn't connect to server
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\promslite\build.gradle
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.2.4'
+	id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.ashburncode'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	// runtimeOnly 'com.h2database:h2'
+	// runtimeOnly 'com.mysql:mysql-connector-j'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\promslite\src\main\resources\application.properties
+
+spring.application.name=promslite
+
+# The format used for the keystore. It could be set to JKS in case it is a JKS file
+server.ssl.key-store-type=PKCS12
+# The path to the keystore containing the certificate
+server.ssl.key-store=classpath:keystore/ashburncode.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=ashburncodepw
+# The alias mapped to the certificate
+server.ssl.key-alias=ashburncode
+
+server.ssl.enabled=true
+server.ssl.protocol=TLSv1.2
+# server.ssl.client-auth=need
+# server.ssl.client-auth=want
+server.ssl.client-auth=none
+
+# management.endpoints.enabled-by-default=false
+# management.endpoint.info.enabled=true
+
