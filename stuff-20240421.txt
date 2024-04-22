@@ -1,0 +1,129 @@
+8:50 AM 4/21/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3447]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240421.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+youtube docker tutorial
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3D3c-iBn73dDE&ved=2ahUKEwjArtLVrNOFAxX2ElkFHddIB38QtwJ6BAgYEAI&usg=AOvVaw0wgduOP1mbgpA7YmQmlzU2
+Docker Tutorial for Beginners [FULL COURSE in 3 Hours]
+YouTube · TechWorld with Nana
+4.9M+ views · 3 years ago
+2:46:15
+... Tutorials ▻ https://bit.ly/2Wunx08 Full Kubernetes tutorial ▻ https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC ...
+15 key moments in this video
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3Dpg19Z8LL06w&ved=2ahUKEwjArtLVrNOFAxX2ElkFHddIB38QtwJ6BAgaEAI&usg=AOvVaw1aorbQoDEn4nd5Seha_hBM
+Docker Crash Course for Absolute Beginners [NEW] - YouTube
+YouTube · TechWorld with Nana
+1.3M+ views · 1 year ago
+1:07:39
+Docker Tutorial for Beginners that teaches you everything you need to get started Connect on Instagram ▻ https://bit.ly/2F3LXYJ ...
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+server.ssl.enabled-protocols
+
+https://stackoverflow.com/questions/27989034/how-do-you-enable-tls-1-2-on-spring-boot
+
+server.ssl.protocol=TLS
+
+server.ssl.key-store = chainedcertificates.p12
+server.ssl.key-store-password = secret
+server.ssl.key-store-type = PKCS12
+
+#enable/diable https
+server.ssl.enabled=true
+
+#ssl ciphers
+server.ssl.ciphers=TLS_RSA_WITH_AES_128_CBC_SHA256, INCLUDE_ANY_OTHER_ONES_YOU_NEED_TO_SUPPORT
+
+# SSL protocol to use.
+server.ssl.protocol=TLS
+
+# Enabled SSL protocols.
+server.ssl.enabled-protocols=TLSv1.2
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/spring-tls-setup
+
+keytool -genkeypair -alias baeldung -keyalg RSA -keysize 4096 \
+  -validity 3650 -dname "CN=localhost" -keypass changeit -keystore keystore.p12 \
+  -storeType PKCS12 -storepass changeit
+
+# enable/disable https
+server.ssl.enabled=true
+# keystore format
+server.ssl.key-store-type=PKCS12
+# keystore location
+server.ssl.key-store=classpath:keystore/keystore.p12
+# keystore password
+server.ssl.key-store-password=changeit
+
+# SSL protocol to use
+server.ssl.protocol=TLS
+# Enabled SSL protocols
+server.ssl.enabled-protocols=TLSv1.2
+
+server.ssl.client-auth=need
+
+#trust store location
+server.ssl.trust-store=classpath:keystore/truststore.p12
+#trust store password
+server.ssl.trust-store-password=changeit
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+spring boot actuator
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+}
+
+management.endpoint.shutdown.enabled=true
+
+management.endpoints.enabled-by-default=false
+management.endpoint.info.enabled=true
+
+management.endpoints.jmx.exposure.exclude
+management.endpoints.jmx.exposure.include health is default
+management.endpoints.web.exposure.exclude
+management.endpoints.web.exposure.include health is default
+
+management.endpoints.jmx.exposure.include=health,info
+
+management.endpoints.web.exposure.include=*
+management.endpoints.web.exposure.exclude=env,beans
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/spring-boot-actuators
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
