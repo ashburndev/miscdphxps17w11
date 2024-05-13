@@ -1,0 +1,96 @@
+9:05 AM 5/12/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3527]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240512.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.youtube.com/watch?v=UgX5lgv4uVM
+https://www.danvega.dev/blog/spring-boot-crash-course
+
+Spring Boot Tutorial for Beginners - 2023 Crash Course using ...
+YouTube · Dan Vega
+318.3K+ views · 1 year ago
+3:43:52
+Welcome to this Spring Boot Crash Course! In this video ... Dan Vega. 53.4K ... Comments247. meletis korres. Youtube is doing you and everyone a ...
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.jetbrains.com/ides/
+https://blog.jetbrains.com/idea/2024/04/intellij-idea-2024-1-1/
+https://blog.jetbrains.com/idea/2024/05/what-s-new-in-intellij-idea-ultimate-2024-1/
+
+  https://www.jetbrains.com/idea/download/?section=windows
+  Version: 2024.1.1
+  Build: 241.15989.150
+  29 April 2024
+
+  https://www.jetbrains.com/pycharm/download/?section=windows
+  Version: 2024.1.1
+  Build: 241.15989.155
+  29 April 2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+04/16/2024  06:30 AM       545,459,269 eclipse-jee-2024-03-R-win32-x86_64.zip
+04/16/2024  06:31 AM               170 eclipse-jee-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:32 AM       336,505,713 eclipse-java-2024-03-R-win32-x86_64.zip
+04/16/2024  06:33 AM               171 eclipse-java-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:35 AM       655,114,210 spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+04/16/2024  06:37 AM       997,351,008 ideaIU-2024.1.exe
+04/16/2024  06:38 AM                84 ideaIU-2024.1.exe.sha256
+04/16/2024  06:38 AM     1,329,941,433 ideaIU-2024.1.win.zip
+04/16/2024  06:38 AM                88 ideaIU-2024.1.win.zip.sha256
+04/16/2024  06:39 AM       596,665,744 ideaIC-2024.1.exe
+04/16/2024  06:39 AM                84 ideaIC-2024.1.exe.sha256
+04/16/2024  06:39 AM       839,348,461 ideaIC-2024.1.win.zip
+04/16/2024  06:39 AM                88 ideaIC-2024.1.win.zip.sha256
+04/18/2024  06:44 AM            52,609 promslite.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+05/12/2024  09:17 AM        99,559,288 VSCodeUserSetup-x64-1.89.1.exe
+05/12/2024  09:17 AM        99,558,992 VSCodeSetup-x64-1.89.1.exe
+05/12/2024  09:17 AM       138,334,713 VSCode-win32-x64-1.89.1.zip
+05/12/2024  09:18 AM         7,105,968 vscode_cli_win32_x64_cli(2).zip
+05/12/2024  09:21 AM       545,459,269 eclipse-jee-2024-03-R-win32-x86_64(1).zip
+05/12/2024  09:23 AM       336,505,713 eclipse-java-2024-03-R-win32-x86_64(1).zip
+05/12/2024  09:24 AM       674,830,372 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-linux.gtk.x86_64.tar.gz
+05/12/2024  09:26 AM       659,709,638 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+05/12/2024  09:28 AM     1,000,810,056 ideaIU-2024.1.1.exe
+05/12/2024  09:28 AM                86 ideaIU-2024.1.1.exe.sha256
+05/12/2024  09:28 AM     1,333,780,695 ideaIU-2024.1.1.win.zip
+05/12/2024  09:29 AM                90 ideaIU-2024.1.1.win.zip.sha256
+05/12/2024  09:29 AM       597,808,792 ideaIC-2024.1.1.exe
+05/12/2024  09:29 AM                86 ideaIC-2024.1.1.exe.sha256
+05/12/2024  09:31 AM       840,548,175 ideaIC-2024.1.1.win.zip
+05/12/2024  09:31 AM                90 ideaIC-2024.1.1.win.zip.sha256
+05/12/2024  09:39 AM       749,447,232 pycharm-professional-2024.1.1.exe
+05/12/2024  09:39 AM               100 pycharm-professional-2024.1.1.exe.sha256
+05/12/2024  09:39 AM       479,602,224 pycharm-community-2024.1.1.exe
+05/12/2024  09:39 AM                97 pycharm-community-2024.1.1.exe.sha256
+             526 File(s) 86,850,182,061 bytes
+               9 Dir(s)  515,294,785,536 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+
+
