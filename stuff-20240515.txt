@@ -1,0 +1,89 @@
+8:45 AM 5/15/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3527]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240515.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Does the presence (or absence) of quotes impact any of the following? And which kind of quotes?
+And does it make any difference if java is invoked on the commandd line or in a .bat or .sh file?
+
+java -Dorg.asynchttpclient.enabledProtocols="TLSv1.3,TLSV1.2" ShowAhcSysProps
+java -Dorg.asynchttpclient.enabledProtocols='TLSv1.3,TLSV1.2' ShowAhcSysProps
+java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3,TLSV1.2 ShowAhcSysProps
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\javaprojs\ahcsysprops
+
+05/15/2024  09:01 AM    <DIR>          .
+05/15/2024  08:51 AM    <DIR>          ..
+05/15/2024  09:03 AM               237 ShowAhcSysProps.bat
+05/15/2024  09:01 AM             1,037 ShowAhcSysProps.class
+05/15/2024  08:59 AM               292 ShowAhcSysProps.java
+               3 File(s)          1,566 bytes
+               2 Dir(s)  501,193,633,792 bytes free
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>type ShowAhcSysProps.java
+class ShowAhcSysProps {
+    public static void main(String[] args) {
+        String sysPropName = "org.asynchttpclient.enabledProtocols";
+        System.out.println(" system property " + sysPropName + " =>>" +
+                System.getProperty(sysPropName) + "<<");
+
+    }
+}
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>type ShowAhcSysProps.bat
+java -Dorg.asynchttpclient.enabledProtocols="TLSv1.3,TLSV1.2" ShowAhcSysProps
+java -Dorg.asynchttpclient.enabledProtocols='TLSv1.3,TLSV1.2' ShowAhcSysProps
+java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3,TLSV1.2 ShowAhcSysProps
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>javac ShowAhcSysProps.java
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>java -Dorg.asynchttpclient.enabledProtocols="TLSv1.3,TLSV1.2" ShowAhcSysProps
+ system property org.asynchttpclient.enabledProtocols =>>TLSv1.3,TLSV1.2<<
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>java -Dorg.asynchttpclient.enabledProtocols='TLSv1.3,TLSV1.2' ShowAhcSysProps
+ system property org.asynchttpclient.enabledProtocols =>>'TLSv1.3,TLSV1.2'<<
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3,TLSV1.2 ShowAhcSysProps
+ system property org.asynchttpclient.enabledProtocols =>>TLSv1.3,TLSV1.2<<
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>ShowAhcSysProps.bat
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>java -Dorg.asynchttpclient.enabledProtocols="TLSv1.3,TLSV1.2" ShowAhcSysProps
+ system property org.asynchttpclient.enabledProtocols =>>TLSv1.3,TLSV1.2<<
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>java -Dorg.asynchttpclient.enabledProtocols='TLSv1.3,TLSV1.2' ShowAhcSysProps
+ system property org.asynchttpclient.enabledProtocols =>>'TLSv1.3,TLSV1.2'<<
+
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3,TLSV1.2 ShowAhcSysProps
+ system property org.asynchttpclient.enabledProtocols =>>TLSv1.3,TLSV1.2<<
+C:\Users\DavidHolberton\javaprojs\ahcsysprops>
+
