@@ -1,0 +1,431 @@
+3:11 PM 5/25/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://spring.io/guides/topicals/spring-boot-docker
+https://www.baeldung.com/spring-boot-docker-images
+https://www.docker.com/blog/kickstart-your-spring-boot-application-development/
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\docker-images>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\Users\DavidHolberton\docker-images>
+
+docker run --name test -it debian
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker run --name test -it debian
+Unable to find image 'debian:latest' locally
+latest: Pulling from library/debian
+c6cf28de8a06: Pull complete
+Digest: sha256:fac2c0fd33e88dfd3bc88a872cfb78dcb167e74af6162d31724df69e482f886c
+Status: Downloaded newer image for debian:latest
+root@f76171a67d3c:/#
+root@f76171a67d3c:/# uname -a
+Linux f76171a67d3c 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021 x86_64 GNU/Linux
+root@f76171a67d3c:/#
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+docker pull eclipse-temurin:17-jdk-focal
+
+C:\Users\DavidHolberton\docker-images>docker pull eclipse-temurin:17-jdk-focal
+17-jdk-focal: Pulling from library/eclipse-temurin
+c83baea2d576: Pull complete
+5a561288a64c: Pull complete
+0bef26252a16: Pull complete
+20d4271e3e0e: Pull complete
+54303d91da2f: Pull complete
+Digest: sha256:1334cdc886acaa7513808f1d8b0ee41b2e5790b23398e5a3b2e8072ee0fff27a
+Status: Downloaded newer image for eclipse-temurin:17-jdk-focal
+docker.io/library/eclipse-temurin:17-jdk-focal
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker images
+REPOSITORY        TAG            IMAGE ID       CREATED         SIZE
+debian            latest         5027089adc4c   11 days ago     117MB
+nginx             latest         e784f4560448   3 weeks ago     188MB
+eclipse-temurin   17-jdk-focal   bfa8957a99b7   4 weeks ago     411MB
+busybox           latest         8135583d97fe   12 months ago   4.86MB
+hello-world       latest         9c7a54a9a43c   12 months ago   13.3kB
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS         PORTS     NAMES
+f76171a67d3c   debian    "bash"    2 minutes ago   Up 2 minutes             test
+
+C:\Users\DavidHolberton\docker-images>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+docker run -it eclipse-temurin:17-jdk-focal
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker run -it eclipse-temurin:17-jdk-focal
+May 25, 2024 9:20:06 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+|  Welcome to JShell -- Version 17.0.11
+|  For an introduction type: /help intro
+
+jshell>
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker images
+REPOSITORY        TAG            IMAGE ID       CREATED         SIZE
+debian            latest         5027089adc4c   11 days ago     117MB
+nginx             latest         e784f4560448   3 weeks ago     188MB
+eclipse-temurin   17-jdk-focal   bfa8957a99b7   4 weeks ago     411MB
+busybox           latest         8135583d97fe   12 months ago   4.86MB
+hello-world       latest         9c7a54a9a43c   12 months ago   13.3kB
+
+C:\Users\DavidHolberton\docker-images>docker ps
+CONTAINER ID   IMAGE                          COMMAND                  CREATED              STATUS              PORTS     NAMES
+64b12d9aeba9   eclipse-temurin:17-jdk-focal   "/__cacert_entrypoin…"   About a minute ago   Up About a minute             flamboyant_heyrovsky
+f76171a67d3c   debian                         "bash"                   14 minutes ago       Up 14 minutes                 test
+
+C:\Users\DavidHolberton\docker-images>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://hub.docker.com/
+https://hub.docker.com/_/java
+https://hub.docker.com/search?q=azul
+https://hub.docker.com/r/azul/zulu-openjdk-debian
+https://github.com/zulu-openjdk/zulu-openjdk/blob/master/debian/17-latest/Dockerfile
+
+https://stackoverflow.com/questions/69525199/openjdk-java-17-docker-image
+https://hub.docker.com/layers/library/openjdk/17-alpine/images/sha256-a996cdcc040704ec6badaf5fecf1e144c096e00231a29188596c784bcf858d05
+
+openjdk:17-alpine
+  Image hierarchy
+    FROM  alpine:3, 3.14, 3.14.0, latest
+    ALL   openjdk:17-alpine
+
+https://hub.docker.com/_/openjdk/tags
+https://hub.docker.com/search?image_filter=official
+
+https://hub.docker.com/_/openjdk
+
+https://hub.docker.com/_/amazoncorretto
+https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/al2-generic/Dockerfile
+
+https://hub.docker.com/_/eclipse-temurin
+
+How to use this Image
+
+    To run a pre-built jar file with the latest OpenJDK 21, use the following Dockerfile:
+
+      FROM eclipse-temurin:21
+      RUN mkdir /opt/app
+      COPY japp.jar /opt/app
+      CMD ["java", "-jar", "/opt/app/japp.jar"]
+
+    You can build and run the Docker Image as shown in the following example:
+
+      docker build -t japp .
+      docker run -it --rm japp
+
+    Using a different base Image
+
+      If you are using a distribution that we don't provide an image for you can copy the JDK using a similar Dockerfile to the one below:
+
+      # Example
+      FROM <base image>
+      ENV JAVA_HOME=/opt/java/openjdk
+      COPY --from=eclipse-temurin:21 $JAVA_HOME $JAVA_HOME
+      ENV PATH="${JAVA_HOME}/bin:${PATH}"
+
+https://docs.docker.com/reference/cli/docker/
+https://docs.docker.com/reference/cli/docker/inspect/
+https://stackoverflow.com/questions/48368411/what-is-docker-run-it-flag
+
+C:\Users\DavidHolberton\docker-images>docker pull nginx:latest
+latest: Pulling from library/nginx
+09f376ebb190: Pull complete
+a11fc495bafd: Pull complete
+933cc8470577: Pull complete
+999643392fb7: Pull complete
+971bb7f4fb12: Pull complete
+45337c09cd57: Pull complete
+de3b062c0af7: Pull complete
+Digest: sha256:a484819eb60211f5299034ac80f6a681b06f89e65866ce91f356ed7c72af059c
+Status: Downloaded newer image for nginx:latest
+docker.io/library/nginx:latest
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker pull nginx:latest
+latest: Pulling from library/nginx
+09f376ebb190: Pull complete
+a11fc495bafd: Pull complete
+933cc8470577: Pull complete
+999643392fb7: Pull complete
+971bb7f4fb12: Pull complete
+45337c09cd57: Pull complete
+de3b062c0af7: Pull complete
+Digest: sha256:a484819eb60211f5299034ac80f6a681b06f89e65866ce91f356ed7c72af059c
+Status: Downloaded newer image for nginx:latest
+docker.io/library/nginx:latest
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\docker-images
+
+05/25/2024  04:38 PM    <DIR>          .
+05/25/2024  04:38 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  500,818,493,440 bytes free
+
+C:\Users\DavidHolberton\docker-images>docker images
+REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+nginx         latest    e784f4560448   3 weeks ago     188MB
+busybox       latest    8135583d97fe   12 months ago   4.86MB
+hello-world   latest    9c7a54a9a43c   12 months ago   13.3kB
+
+C:\Users\DavidHolberton\docker-images>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton\docker-images>docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS                     PORTS     NAMES
+1b406d52fa08   busybox       "sh"                     12 months ago   Exited (0) 12 months ago             fervent_lumiere
+e2d2cd60ef57   busybox       "echo 'hello from bu…"   12 months ago   Exited (0) 12 months ago             silly_bartik
+5b41e2cfebe9   busybox       "sh"                     12 months ago   Exited (0) 12 months ago             nice_herschel
+4ea7774f80c9   hello-world   "/hello"                 12 months ago   Exited (0) 12 months ago             compassionate_jones
+
+C:\Users\DavidHolberton\docker-images>docker inspect nginx
+[
+    {
+        "Id": "sha256:e784f4560448b14a66f55c26e1b4dad2c2877cc73d001b7cd0b18e24a700a070",
+        "RepoTags": [
+            "nginx:latest"
+        ],
+        "RepoDigests": [
+            "nginx@sha256:a484819eb60211f5299034ac80f6a681b06f89e65866ce91f356ed7c72af059c"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-05-03T19:49:21Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.25.5",
+                "NJS_VERSION=0.8.4",
+                "NJS_RELEASE=3~bookworm",
+                "PKG_RELEASE=1~bookworm"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 187659947,
+        "VirtualSize": 187659947,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/9ba4999d66596a94fff9e85de67d336dc15d74e9fec1317586d3665e1c3f4635/diff:/var/lib/docker/overlay2/73d5f99e9631445818731b14a439a5dd9ccbeea6a009964e58e55dce32f40234/diff:/var/lib/docker/overlay2/db6b706e6c3ac9d41605853bfcbce1e3d36aa17b4d7801664d199e64e1142708/diff:/var/lib/docker/overlay2/880c5c4f3b24d0b8f4e56cec4d5451534e0b9dc308f72fa070b75876376d7c2e/diff:/var/lib/docker/overlay2/33c055a71e54b9b365449adf1a2c6911fd28f8393a0fb5d42b95c51589b21d4c/diff:/var/lib/docker/overlay2/45d87fe6857dc5248833fb78ccd27710e54e419421a9c3325833a6f495e75ff2/diff",
+                "MergedDir": "/var/lib/docker/overlay2/0692231fc2c096eda4d65052811b76d2657661d00c145fde8d2c8eb55f673993/merged",
+                "UpperDir": "/var/lib/docker/overlay2/0692231fc2c096eda4d65052811b76d2657661d00c145fde8d2c8eb55f673993/diff",
+                "WorkDir": "/var/lib/docker/overlay2/0692231fc2c096eda4d65052811b76d2657661d00c145fde8d2c8eb55f673993/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:5d4427064ecc46e3c2add169e9b5eafc7ed2be7861081ec925938ab628ac0e25",
+                "sha256:fc1cf9ca5139883943cc519cc3c57f0855395618f56d6431490fa735461156f1",
+                "sha256:747b290aeba888738176dcbf7382eb0f660f27e785b839592918b8ed291d5792",
+                "sha256:9f4d73e635f122031c04047f0e87fb224bef098a28700439bb4e72d0619aaad6",
+                "sha256:56f8fe6aedcdee31bdee17249b1e18434ce7ab5a1814e2193773b54d7f9db39a",
+                "sha256:7d2fd59c368c60f74214fc47399dcc35ef8513e26890a0c6004835bceabeb4c6",
+                "sha256:14773070094ddc0debcea4f38f0daa7dd8116858387e0c238fa96ae8047bc07e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+
+C:\Users\DavidHolberton\docker-images>
+
+
+C:\Users\DavidHolberton\docker-images>docker images
+REPOSITORY        TAG            IMAGE ID       CREATED         SIZE
+debian            latest         5027089adc4c   11 days ago     117MB
+nginx             latest         e784f4560448   3 weeks ago     188MB
+eclipse-temurin   17-jdk-focal   bfa8957a99b7   4 weeks ago     411MB
+busybox           latest         8135583d97fe   12 months ago   4.86MB
+hello-world       latest         9c7a54a9a43c   12 months ago   13.3kB
+
+C:\Users\DavidHolberton\docker-images>docker inspect eclipse-temurin:17-jdk-focal
+[
+    {
+        "Id": "sha256:bfa8957a99b7320aed4a340a9a3334d5ab64db30d28d6ab8d17e98305dedeacf",
+        "RepoTags": [
+            "eclipse-temurin:17-jdk-focal"
+        ],
+        "RepoDigests": [
+            "eclipse-temurin@sha256:1334cdc886acaa7513808f1d8b0ee41b2e5790b23398e5a3b2e8072ee0fff27a"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-04-23T20:51:38Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/opt/java/openjdk",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_VERSION=jdk-17.0.11+9"
+            ],
+            "Cmd": [
+                "jshell"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/__cacert_entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "20.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 411074181,
+        "VirtualSize": 411074181,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/7eaadf3c2d4474cc31809f8caba34641ab8e49e8bd1fe2d83a4b5d6dee99042a/diff:/var/lib/docker/overlay2/032f1f0f2622fd96f7086014adaf9302792eb8791117caa62fa01fbf42d8db41/diff:/var/lib/docker/overlay2/7f603538b47c882171e327e79dc7195806dd9929ad14d4a20999f24ed727a94e/diff:/var/lib/docker/overlay2/56af59c45db21030576187fd997488dfebf803f009db8af4d17bc1bc51184480/diff",
+                "MergedDir": "/var/lib/docker/overlay2/7cf5a7a57b0d0c6104b278d2561131415b76e84ae7a863151150be1a4d39b913/merged",
+                "UpperDir": "/var/lib/docker/overlay2/7cf5a7a57b0d0c6104b278d2561131415b76e84ae7a863151150be1a4d39b913/diff",
+                "WorkDir": "/var/lib/docker/overlay2/7cf5a7a57b0d0c6104b278d2561131415b76e84ae7a863151150be1a4d39b913/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:4a1518ebc26e2e4c26f1c5d78a36d41d87d2fd4a7e4ad37c5f9033f2eb52f26b",
+                "sha256:962a0158bb3f7ff2e5e2ade82ff48775ed8d342cca6305138d0580fb802ca727",
+                "sha256:ab625fa0530e0228456965c94fb830c66824f606a6a2f04be4d8488ff6c84cf7",
+                "sha256:9a8cba3709a0ea4e0645fc1c528f1a781c1dc99af1834561855b54fa21125511",
+                "sha256:14acc5da1afa06a92957b218b6536702bb91e9386f5f22522fa73c2cdcbec40c"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+
+C:\Users\DavidHolberton\docker-images>
+
+docker run -it eclipse-temurin:17-jdk-focal
+
+
+C:\Users\DavidHolberton\docker-images>
+C:\Users\DavidHolberton\docker-images>docker run -it eclipse-temurin:17-jdk-focal
+May 25, 2024 9:20:06 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+|  Welcome to JShell -- Version 17.0.11
+|  For an introduction type: /help intro
+
+jshell>
+
+

@@ -1,0 +1,297 @@
+9:42 AM 5/27/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3527]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240527.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\promslite>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\promslite
+
+04/18/2024  06:44 AM    <DIR>          gradle
+04/18/2024  06:44 AM    <DIR>          src
+04/18/2024  07:31 AM    <DIR>          ..
+04/18/2024  07:53 AM    <DIR>          .
+04/18/2024  07:53 AM    <DIR>          .gradle
+04/18/2024  07:57 AM    <DIR>          build
+04/18/2024  06:44 AM                31 settings.gradle
+04/18/2024  06:44 AM             8,692 gradlew
+04/18/2024  06:44 AM             2,918 gradlew.bat
+04/18/2024  06:44 AM             2,059 HELP.md
+04/18/2024  06:44 AM               444 .gitignore
+04/18/2024  07:58 AM               822 build.gradle
+               6 File(s)         14,966 bytes
+               6 Dir(s)  500,605,435,904 bytes free
+
+C:\Users\DavidHolberton\sbprojs\promslite>
+C:\Users\DavidHolberton\sbprojs\promslite>.\gradlew bootrun
+
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-05-27T09:45:51.837-04:00  INFO 2984 --- [promslite] [  restartedMain] c.a.promslite.PromsliteApplication       : Starting PromsliteApplication using Java 17.0.7 with PID 2984 (C:\Users\DavidHolberton\sbprojs\promslite\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\promslite)
+2024-05-27T09:45:51.839-04:00  INFO 2984 --- [promslite] [  restartedMain] c.a.promslite.PromsliteApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-27T09:45:51.880-04:00  INFO 2984 --- [promslite] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-27T09:45:51.880-04:00  INFO 2984 --- [promslite] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-27T09:45:52.814-04:00  INFO 2984 --- [promslite] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 443 (https)
+2024-05-27T09:45:52.825-04:00  INFO 2984 --- [promslite] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-27T09:45:52.825-04:00  INFO 2984 --- [promslite] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-05-27T09:45:52.857-04:00  INFO 2984 --- [promslite] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-27T09:45:52.858-04:00  INFO 2984 --- [promslite] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 976 ms
+2024-05-27T09:45:53.219-04:00  INFO 2984 --- [promslite] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-27T09:45:53.223-04:00  INFO 2984 --- [promslite] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-05-27T09:45:53.371-04:00  INFO 2984 --- [promslite] [  restartedMain] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\DavidHolberton\.keystore] using alias [ashburncode] with trust store [null]
+2024-05-27T09:45:53.382-04:00  INFO 2984 --- [promslite] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 443 (https) with context path ''
+2024-05-27T09:45:53.393-04:00  INFO 2984 --- [promslite] [  restartedMain] c.a.promslite.PromsliteApplication       : Started PromsliteApplication in 1.822 seconds (process running for 2.135)
+<==========---> 80% EXECUTING [30s]
+> :bootRun
+
+
+https://localhost/actuator
+
+{
+    "_links": {
+        "self": {
+            "href": "https://localhost/actuator",
+            "templated": false
+        },
+        "beans": {
+            "href": "https://localhost/actuator/beans",
+            "templated": false
+        },
+        "caches-cache": {
+            "href": "https://localhost/actuator/caches/{cache}",
+            "templated": true
+        },
+        "caches": {
+            "href": "https://localhost/actuator/caches",
+            "templated": false
+        },
+        "health": {
+            "href": "https://localhost/actuator/health",
+            "templated": false
+        },
+        "health-path": {
+            "href": "https://localhost/actuator/health/{*path}",
+            "templated": true
+        },
+        "info": {
+            "href": "https://localhost/actuator/info",
+            "templated": false
+        },
+        "conditions": {
+            "href": "https://localhost/actuator/conditions",
+            "templated": false
+        },
+        "configprops": {
+            "href": "https://localhost/actuator/configprops",
+            "templated": false
+        },
+        "configprops-prefix": {
+            "href": "https://localhost/actuator/configprops/{prefix}",
+            "templated": true
+        },
+        "env": {
+            "href": "https://localhost/actuator/env",
+            "templated": false
+        },
+        "env-toMatch": {
+            "href": "https://localhost/actuator/env/{toMatch}",
+            "templated": true
+        },
+        "loggers": {
+            "href": "https://localhost/actuator/loggers",
+            "templated": false
+        },
+        "loggers-name": {
+            "href": "https://localhost/actuator/loggers/{name}",
+            "templated": true
+        },
+        "heapdump": {
+            "href": "https://localhost/actuator/heapdump",
+            "templated": false
+        },
+        "threaddump": {
+            "href": "https://localhost/actuator/threaddump",
+            "templated": false
+        },
+        "metrics-requiredMetricName": {
+            "href": "https://localhost/actuator/metrics/{requiredMetricName}",
+            "templated": true
+        },
+        "metrics": {
+            "href": "https://localhost/actuator/metrics",
+            "templated": false
+        },
+        "scheduledtasks": {
+            "href": "https://localhost/actuator/scheduledtasks",
+            "templated": false
+        },
+        "mappings": {
+            "href": "https://localhost/actuator/mappings",
+            "templated": false
+        }
+    }
+}
+
+https://localhost/actuator/health
+
+{
+    "status": "UP"
+}
+
+https://localhost/actuator/info
+
+
+
+https://www.baeldung.com/spring-boot-actuators
+
+management.endpoints.web.exposure.include=*
+management.endpoints.web.base-path=/mgmt
+
+management.endpoint.health.group.custom.show-components=always
+management.endpoint.health.group.custom.show-details=always
+
+/actuator/health endpoint
+/actuator/health/custom
+
+management.endpoint.health.group.custom.show-components=when_authorized
+management.endpoint.health.group.custom.show-details=when_authorized
+
+management.endpoint.health.group.custom.status.http-mapping.up=207
+
+management.endpoints.web.exposure.include=*
+management.endpoint.shutdown.enabled=true
+
+info.app.name=Spring Sample Application
+info.app.description=This is my first spring boot application
+info.app.version=1.0.0
+
+
+
+https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+}
+
+management.endpoint.shutdown.enabled=true
+
+management.endpoints.enabled-by-default=false
+management.endpoint.info.enabled=true
+
+management.endpoints.jmx.exposure.include=health,info
+
+management.endpoints.web.exposure.include=*
+management.endpoints.web.exposure.exclude=env,beans
+
+management.endpoints.web.exposure.include=*
+
+management.endpoints.web.cors.allowed-origins=https://example.com
+management.endpoints.web.cors.allowed-methods=GET,POST
+
+management.endpoint.health.show-details
+management.endpoint.health.show-components
+
+
+EnvironmentInfoContributor
+Exposes any key from the Environment under the info key.
+
+GitInfoContributor
+Exposes git information if a git.properties file is available.
+
+BuildInfoContributor
+Exposes build information if a META-INF/build-info.properties file is available.
+
+https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/howto.html#howto.build.generate-git-info
+
+plugins {
+    id "com.gorylenko.gradle-git-properties" version "2.2.4"
+}
+
+https://springframework.guru/actuator-in-spring-boot/
+
+https://spring.io/guides/gs/actuator-service
+
+https://reflectoring.io/spring-boot-info-endpoint/;
+
+management.info.java.enabled=true
+
+https://localhost/actuator/info
+
+{
+    "java": {
+        "version": "17.0.7",
+        "vendor": {
+            "name": "Oracle Corporation"
+        },
+        "runtime": {
+            "name": "Java(TM) SE Runtime Environment",
+            "version": "17.0.7+8-LTS-224"
+        },
+        "jvm": {
+            "name": "Java HotSpot(TM) 64-Bit Server VM",
+            "vendor": "Oracle Corporation",
+            "version": "17.0.7+8-LTS-224"
+        }
+    }
+}
+
+C:\Users\DavidHolberton\sbprojs\promslite\src\main\resources\application.properties
+
+spring.application.name=promslite
+
+##############
+### Server ###
+##############
+server.port=443
+
+# The format used for the keystore. It could be set to JKS in case it is a JKS file
+server.ssl.key-store-type=PKCS12
+# The path to the keystore containing the certificate
+server.ssl.key-store=classpath:keystore/ashburncode.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=ashburncodepw
+# The alias mapped to the certificate
+server.ssl.key-alias=ashburncode
+
+server.ssl.enabled=true
+# SSL protocol to use
+server.ssl.protocol=TLS
+# Enabled SSL protocols
+server.ssl.enabled-protocols=TLSv1.3
+# server.ssl.enabled-protocols=TLSv1.3,TLSv1.2
+# server.ssl.enabled-protocols=TLSv1.2
+
+# server.ssl.client-auth=need
+# server.ssl.client-auth=want
+server.ssl.client-auth=none
+
+# management.endpoints.enabled-by-default=false
+# management.endpoint.info.enabled=true
+management.endpoints.web.exposure.include=*
+management.info.java.enabled=true
