@@ -1,0 +1,175 @@
+6:49 AM 6/4/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240604.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+04/18/2024  06:44 AM            52,609 promslite.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+
+crcreate 3 new zip files at spring initialzr web page https://start.spring.io/
+
+httpsucapp
+asynchcapp
+apachehcapp
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/net/HttpURLConnection.html
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/javax/net/ssl/HttpsURLConnection.html
+
+https://docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/javax/net/ssl/HttpsURLConnection.html
+  compact1, compact2, compact3
+  javax.net.ssl
+  Class HttpsURLConnection
+    java.lang.Object
+      java.net.URLConnection
+        java.net.HttpURLConnection
+          javax.net.ssl.HttpsURLConnection 
+
+public abstract class HttpsURLConnection
+extends HttpURLConnection
+
+HttpsURLConnection extends HttpURLConnection with support for https-specific features.
+
+See http://www.w3.org/pub/WWW/Protocols/ and RFC 2818 for more details on the https specification.
+
+This class uses HostnameVerifier and SSLSocketFactory. There are default implementations defined for both classes. However, the implementations can be replaced on a per-class (static) or per-instance basis. All new HttpsURLConnections instances will be assigned the "default" static values at instance creation, but they can be overriden by calling the appropriate per-instance set method(s) before connecting.
+
+getCipherSuite()
+Returns the cipher suite in use on this connection.
+
+https://mkyong.com/java/java-sslsocket-tls-1-3-example/
+
+  SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory.getDefault();
+  socket = (SSLSocket) factory.createSocket("google.com", 443);
+  socket.setEnabledProtocols(protocols);
+  socket.setEnabledCipherSuites(cipher_suites);
+  socket.startHandshake();
+
+
+https://www.java.com/en/configure_crypto.html
+
+  How to change the protocol version on client side
+
+  Several options exist for changing the default client-side TLS protocol version in the JDK.
+  Option 1. Use the "jdk.tls.client.protocols" system property
+
+  This property was introduced to JDK 7 in 7u95 and to JDK 6 in 6u121.
+
+  To enable specific TLS protocols on the client, specify them in a comma-separated list within quotation marks; all other supported protocols are then disabled on the client. For example, if the value of this property is "TLSv1.1,TLSv1.2", then the default protocol settings on the client for TLSv1.1 and TLSv1.2 are enabled on the client, while SSLv3, TLSv1, and SSLv2Hello are disabled on the client.
+  // Set the client default protocol versions to TLS 1.0, 1.1 and 1.2.
+  $ java ‑Djdk.tls.client.protocols="TLSv1,TLSv1.1,TLSv1.2" myApp
+
+  // Set the client default protocol version to TLS 1.0.
+  $ java ‑Djdk.tls.client.protocols="TLSv1" myApp
+
+  Note that the standard TLS protocol version names used in the JDK are SSLv3, TLSv1, TLSv1.1 and TLSv1.2. 
+
+https://docs.oracle.com/javase/8/docs/technotes/guides/security/enhancements-8.html
+
+  The JDK 8 release adds the following features and enhancements:
+
+  TLS 1.1 and TLS 1.2 Enabled by Default: The SunJSSE provider enables the protocols TLS 1.1 and TLS 1.2 on the client by default. See Protocols. Configure which SunJSSE protocols are enabled with the new system property jdk.tls.client.protocols. See Customizing JSSE.
+
+https://stackoverflow.com/questions/29437596/tlsv1-3-is-it-available-now-in-java-8?rq=4
+
+  TLS 1.3 has now officially been back-ported to Java 8. :)
+
+  Since 8u261-b12 from Oracle JDK: https://www.oracle.com/java/technologies/javase/8u261-relnotes.html
+  Since 8u262-b10 from AdoptOpenJDK (Eclipse Adoptium)
+
+  Crypto road map: https://java.com/en/jre-jdk-cryptoroadmap.html
+
+https://www.oracle.com/java/technologies/javase/8u261-relnotes.html
+
+  The TLS 1.3 protocol can be enabled using several mechanisms already available in the JDK. For example, TLS 1.3 protocol can be enabled on SSL/TLS connections using SSLSocket/SSLEngine/SSLServerSocket APIs and system properties by the following:
+
+  sslSocket.setEnabledProtocols(new String[] { "TLSv1.3", "TLSv1.2"});
+
+  Setting up and using a TLSv1.3 based SSLContext : SSLContext ctx = SSLContext.getInstance("TLSv1.3");
+
+  Using the SSLParameters API: sslParameters.setProtocols(new String[] {"TLSv1.3", "TLSv1.2"});
+
+  The jdk.tls.client.protocols system property can also be used to control the protocols in use for a TLS connection. One may launch their application with this property. For example, java -Djdk.tls.client.protocols="TLSv1.3,TLSv1.2" enables TLSv1.3 and TLSv1.2 on client SSLSockets.
+
+  The https.protocols system property can also be used to control the protocols on connection obtained through use of the HttpsURLConnection class or URL.openStream() operations. For example, -Dhttps.protocols=TLSv1.3,TLSv1.2.
+
+  A new system property, jdk.tls.server.protocols, has been added to configure the default enabled protocol suite in the server side of the SunJSSE provider.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://hc.apache.org/httpcomponents-client-5.3.x/index.html
+https://hc.apache.org/httpcomponents-client-5.3.x/current/httpclient5/apidocs/
+
+https://mvnrepository.com/artifact/org.apache.httpcomponents
+https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient/4.5.14
+
+  // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+  implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.14'
+
+  // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+  implementation 'org.apache.httpcomponents:httpclient:4.5.14'
+
+https://mvnrepository.com/artifact/org.apache.httpcomponents.client5
+https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5
+https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5/5.3.1
+
+  // https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5
+  implementation group: 'org.apache.httpcomponents.client5', name: 'httpclient5', version: '5.3.1'
+
+  // https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5
+  implementation 'org.apache.httpcomponents.client5:httpclient5:5.3.1'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.javadoc.io/doc/org.asynchttpclient/async-http-client/2.0.0/org/asynchttpclient/AsyncHttpClient.html
+  org.asynchttpclient
+  Interface AsyncHttpClient
+
+https://www.javadoc.io/doc/org.asynchttpclient/async-http-client/2.0.0/org/asynchttpclient/DefaultAsyncHttpClient.html
+  org.asynchttpclient
+  Class DefaultAsyncHttpClient
+
+https://www.javadoc.io/doc/org.asynchttpclient/async-http-client/2.0.0/org/asynchttpclient/DefaultAsyncHttpClientConfig.html
+  org.asynchttpclient
+  Class DefaultAsyncHttpClientConfig
+
+https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.12.3
+
+  // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+  implementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.12.3'
+
+  // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+  implementation 'org.asynchttpclient:async-http-client:2.12.3'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/open-source/http-clients
+
+
