@@ -1,0 +1,407 @@
+6:58 AM 6/20/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240620.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+
+https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.12.3
+// https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+implementation 'org.asynchttpclient:async-http-client:2.12.3'
+
+https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.1.1
+// https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+implementation 'org.asynchttpclient:async-http-client:2.1.1'
+
+https://www.baeldung.com/async-http-client
+Asynchronous HTTP with async-http-client in Java
+Last updated: January 8, 2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.7
+------------------------------------------------------------
+
+Build time:   2024-03-22 15:52:46 UTC
+Revision:     650af14d7653aa949fce5e886e685efc9cf97c10
+
+Kotlin:       1.9.22
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+C:\Users\DavidHolberton\sbprojs\ahcapp>code .
+C:\Users\DavidHolberton\sbprojs\ahcapp>.\gradlew bootRun
+
+java -jar target/spring-boot-logging-0.0.1-SNAPSHOT.jar --trace
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>.\gradlew bootRun
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-06-20T07:13:03.251-04:00  INFO 30688 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : Starting AhcappApplication using Java 17.0.7 with PID 30688 (C:\Users\DavidHolberton\sbprojs\ahcapp\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\ahcapp)
+2024-06-20T07:13:03.253-04:00  INFO 30688 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T07:13:03.292-04:00  INFO 30688 --- [ahcapp] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-20T07:13:03.292-04:00  INFO 30688 --- [ahcapp] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-20T07:13:04.164-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-20T07:13:04.174-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-20T07:13:04.174-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-20T07:13:04.215-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-20T07:13:04.216-04:00  INFO 30688 --- [ahcapp] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2024-06-20T07:13:04.594-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-20T07:13:04.597-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-20T07:13:04.640-04:00  INFO 30688 --- [ahcapp] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-20T07:13:04.652-04:00  INFO 30688 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : Started AhcappApplication in 1.689 seconds (process running for 2.033)
+  config.getAhcVersion() = 2.12.3
+  config.getUserAgent() = AHC/2.1
+  config.getConnectTimeout() = 5000
+  config.getEnabledCipherSuites() = null
+  enabledProtocol = TLSv1.2
+  enabledProtocol = TLSv1.1
+  enabledProtocol = TLSv1
+<==========---> 80% EXECUTING [40s]
+> :bootRun
+
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.12.3
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.1
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1
+2024-06-20T08:12:23.973-04:00  INFO 40412 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getEnabledCipherSuites() = null
+
+2024-06-20T08:22:36.595-04:00  INFO 20240 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.12.3
+2024-06-20T08:22:36.595-04:00  INFO 20240 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T08:22:36.595-04:00  INFO 20240 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T08:22:36.595-04:00  INFO 20240 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.3
+2024-06-20T08:22:36.595-04:00  INFO 20240 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-20T08:22:36.595-04:00  INFO 20240 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getEnabledCipherSuites() = null
+
+2024-06-20T08:48:02.701-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.12.3
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.3
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = FOO
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = BAR
+2024-06-20T08:48:02.702-04:00  INFO 40796 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = BAZ
+
+2024-06-20T08:55:29.195-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.1.1
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.3
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = FOO
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = BAR
+2024-06-20T08:55:29.196-04:00  INFO 21296 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = BAZ
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-06-20T09:13:49.283-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : Starting AhcappApplication using Java 17.0.7 with PID 13980 (C:\Users\DavidHolberton\sbprojs\ahcapp\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\ahcapp)
+2024-06-20T09:13:49.286-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T09:13:49.321-04:00  INFO 13980 --- [ahcapp] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-20T09:13:49.321-04:00  INFO 13980 --- [ahcapp] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-20T09:13:50.061-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-20T09:13:50.069-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-20T09:13:50.069-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-20T09:13:50.100-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-20T09:13:50.101-04:00  INFO 13980 --- [ahcapp] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 779 ms
+2024-06-20T09:13:50.413-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-20T09:13:50.416-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-20T09:13:50.451-04:00  INFO 13980 --- [ahcapp] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-20T09:13:50.461-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : Started AhcappApplication in 1.425 seconds (process running for 1.698)
+2024-06-20T09:13:50.663-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.1.1
+2024-06-20T09:13:50.663-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T09:13:50.663-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T09:13:50.663-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = FOO
+2024-06-20T09:13:50.664-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = BAR
+2024-06-20T09:13:50.664-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = BAZ
+2024-06-20T09:13:50.664-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = FOO
+2024-06-20T09:13:50.664-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = BAR
+2024-06-20T09:13:50.664-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledCipherSuite = BAZ
+java.util.concurrent.ExecutionException: java.net.ConnectException: Unsupported CipherSuite: FOO
+        at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+        at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+        at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:202)
+        at com.ashburncode.ahcapp.AhcappApplication.main(AhcappApplication.java:104)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.net.ConnectException: Unsupported CipherSuite: FOO
+        at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:182)
+        at org.asynchttpclient.netty.channel.NettyConnectListener.onSuccess(NettyConnectListener.java:117)
+        at org.asynchttpclient.netty.request.NettyChannelConnector$1.onSuccess(NettyChannelConnector.java:93)
+        at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:26)
+2024-06-20T09:13:50.789-04:00  INFO 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : An INFO Message
+2024-06-20T09:13:50.789-04:00  WARN 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : A WARN Message
+2024-06-20T09:13:50.789-04:00 ERROR 13980 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : An ERROR Message
+        at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+        at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+        at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+        at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+        at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+        at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+        at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+        at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+        at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+        at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:301)
+        at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336)
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+        at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Unsupported CipherSuite: FOO
+        at java.base/sun.security.ssl.CipherSuite.validValuesOf(CipherSuite.java:978)
+        at java.base/sun.security.ssl.SSLEngineImpl.setEnabledCipherSuites(SSLEngineImpl.java:864)
+        at io.netty.handler.ssl.JdkSslContext.configureAndWrapEngine(JdkSslContext.java:352)
+        at io.netty.handler.ssl.JdkSslContext.newEngine(JdkSslContext.java:347)
+        at org.asynchttpclient.netty.ssl.DefaultSslEngineFactory.newSslEngine(DefaultSslEngineFactory.java:61)
+        at org.asynchttpclient.netty.channel.ChannelManager.createSslHandler(ChannelManager.java:328)
+        at org.asynchttpclient.netty.channel.ChannelManager.addSslHandler(ChannelManager.java:375)
+        at org.asynchttpclient.netty.channel.NettyConnectListener.onSuccess(NettyConnectListener.java:115)
+        ... 21 more
+<==========---> 80% EXECUTING [52s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+2024-06-20T09:16:49.247-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.1.1
+2024-06-20T09:16:49.247-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T09:16:49.247-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T09:16:49.247-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = FOO
+2024-06-20T09:16:49.247-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = BAR
+2024-06-20T09:16:49.248-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = BAZ
+2024-06-20T09:16:49.248-04:00  INFO 38460 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getEnabledCipherSuites() = null
+java.util.concurrent.ExecutionException: java.net.ConnectException: Unsupported protocolFOO
+        at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+        at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+        at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:202)
+        at com.ashburncode.ahcapp.AhcappApplication.main(AhcappApplication.java:104)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.net.ConnectException: Unsupported protocolFOO
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-06-20T09:22:42.052-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : Starting AhcappApplication using Java 17.0.7 with PID 32416 (C:\Users\DavidHolberton\sbprojs\ahcapp\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\ahcapp)
+2024-06-20T09:22:42.055-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T09:22:42.094-04:00  INFO 32416 --- [ahcapp] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-20T09:22:42.095-04:00  INFO 32416 --- [ahcapp] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-20T09:22:42.847-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-20T09:22:42.854-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-20T09:22:42.855-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-20T09:22:42.887-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-20T09:22:42.888-04:00  INFO 32416 --- [ahcapp] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2024-06-20T09:22:43.209-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-20T09:22:43.213-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-20T09:22:43.247-04:00  INFO 32416 --- [ahcapp] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-20T09:22:43.258-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : Started AhcappApplication in 1.449 seconds (process running for 1.712)
+2024-06-20T09:22:43.466-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.1.1
+2024-06-20T09:22:43.466-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-20T09:22:43.466-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-20T09:22:43.466-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.3
+2024-06-20T09:22:43.466-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-20T09:22:43.466-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   :   config.getEnabledCipherSuites() = null
+  fesponseBody = <html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+2024-06-20T09:22:43.623-04:00  INFO 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : An INFO Message
+2024-06-20T09:22:43.623-04:00  WARN 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : A WARN Message
+2024-06-20T09:22:43.623-04:00 ERROR 32416 --- [ahcapp] [  restartedMain] c.ashburncode.ahcapp.AhcappApplication   : An ERROR Message
+<==========---> 80% EXECUTING [33s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+package com.ashburncode.ahcapp;
+
+import java.io.IOException;
+import java.util.concurrent.Future;
+
+import org.asynchttpclient.AsyncHttpClient;
+import org.asynchttpclient.AsyncHttpClientConfig;
+import org.asynchttpclient.DefaultAsyncHttpClientConfig;
+import org.asynchttpclient.Dsl;
+import org.asynchttpclient.Request;
+import org.asynchttpclient.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import io.netty.handler.ssl.SslContext;
+
+// import org.asynchttpclient.AsyncHttpClient;
+// import org.asynchttpclient.AsyncHttpClientConfig;
+// import org.asynchttpclient.DefaultAsyncHttpClientConfig;
+// import org.asynchttpclient.Dsl;
+// import org.asynchttpclient.Request;
+// import org.asynchttpclient.Response;
+// import org.asynchttpclient.RequestBuilder;
+// import org.asynchttpclient.BoundRequestBuilder;
+// import java.util.concurrent.*;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
+// import org.springframework.boot.SpringApplication;
+// import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AhcappApplication {
+
+	// https://www.baeldung.com/spring-boot-logging
+	// -Dlogging.level.org.springframework=TRACE
+	// -Dlogging.level.com.baeldung=TRACE
+
+	static Logger logger = LoggerFactory.getLogger(AhcappApplication.class);
+
+	public static void main(String[] args) {
+		SpringApplication.run(AhcappApplication.class, args);
+
+		// AsyncHttpClient client = Dsl.asyncHttpClient();
+		// AsyncHttpClientConfig config = client.getConfig();
+		// DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config();
+
+		String[] protocolArray = { "TLSv1.3", "TLSv1.2" };
+		// List<String> protocolList = Arrays.asList(protocolArray);
+		String[] cipherSuiteArray = { "FOO", "BAR", "BAZ" };
+		SslContext sslContext = null;
+
+		DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
+				// .setEnabledProtocols(protocolList)
+				.setEnabledProtocols(protocolArray)
+				// .setEnabledProtocols(cipherSuiteArray)
+				// .setEnabledCipherSuites(cipherSuiteArray)
+				// .setSslContext(sslContext)
+				// .setSslEngineFactory
+				.setConnectTimeout(500);
+		// .setProxyServer(new ProxyServer(...));
+		AsyncHttpClient client = Dsl.asyncHttpClient(clientBuilder);
+		AsyncHttpClientConfig config = client.getConfig();
+
+		logger.info("  config.getAhcVersion() = " + config.getAhcVersion());
+		logger.info("  config.getUserAgent() = " + config.getUserAgent());
+		logger.info("  config.getConnectTimeout() = " + config.getConnectTimeout());
+		// logger.info(" config.getEnabledCipherSuites() = " +
+		// config.getEnabledCipherSuites());
+
+		String[] enabledProtocols = config.getEnabledProtocols();
+		if (enabledProtocols == null || enabledProtocols.length == 0) {
+			logger.info("  config.getEnabledProtocols() = " + enabledProtocols);
+		} else {
+			for (String enabledProtocol : enabledProtocols)
+				logger.info("  enabledProtocol = " + enabledProtocol);
+		}
+		String[] enabledCipherSuites = config.getEnabledCipherSuites();
+		if (enabledCipherSuites == null || enabledCipherSuites.length == 0) {
+			logger.info("  config.getEnabledCipherSuites() = " + enabledCipherSuites);
+		} else {
+			for (String enabledCipherSuite : enabledCipherSuites)
+				logger.info("  enabledCipherSuite = " + enabledCipherSuite);
+		}
+
+		// BoundRequestBuilder getRequest =
+		// client.prepareGet("http://www.baeldung.com");
+		Request getRequest = client.prepareGet("http://www.baeldung.com").build();
+		// Request getRequest = client.prepareGet("https://www.google.com").build();
+
+		// Request getRequest = new RequestBuilder(HttpConstants.Methods.GET)
+		// .setUrl("http://www.baeldung.com")
+		// .build();
+
+		// Request getRequest = Dsl.get("http://www.baeldung.com").build();
+
+		// Future<Response> responseFuture = getRequest.execute();
+		// responseFuture.get();
+
+		Future<Response> responseFuture = client.executeRequest(getRequest);
+
+		try {
+			Response response = responseFuture.get();
+			String fesponseBody = response.getResponseBody();
+			System.out.println("  fesponseBody = " + fesponseBody);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		logger.trace("A TRACE Message");
+		logger.debug("A DEBUG Message");
+		logger.info("An INFO Message");
+		logger.warn("A WARN Message");
+		logger.error("An ERROR Message");
+
+	}
+}
+
