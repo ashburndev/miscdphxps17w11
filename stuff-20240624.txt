@@ -1,0 +1,848 @@
+5:37 AM 6/24/2024
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240624.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+9:12 AM 6/21/2024
+
+https://stackoverflow.com/questions/71563289/how-can-i-get-debug-messages-from-javas-ssl-handshake
+
+  System.setProperty("javax.net.debug", "ssl:handshake");
+
+https://docs.oracle.com/javase/6/docs/technotes/guides/security/jsse/JSSERefGuide.html#Debug
+
+https://www.baeldung.com/java-ssl-debug-logging
+
+https://docs.oracle.com/en/java/javase/21/security/java-secure-socket-extension-jsse-reference-guide.html#GUID-31B7E142-B874-46E9-8DD0-4E18EC0EB2CF
+
+  java -Djavax.net.debug=help MyApp
+
+  java \
+  -Djavax.net.ssl.trustStore=/my_home_directory/jssesamples/samples/samplecacerts \
+  -Djavax.net.ssl.trustStorePassword=changeit \
+  ClassFileServer 2002 \
+  /my_home_directory/jssesamples/samples/ \
+  TLS true
+
+javax.net.ssl|DEBUG|01|main|2018-08-18 01:04:46.990 EDT|SSLContextImpl.java:427|System property jdk.tls.client.cipherSuites is set to 'null'
+javax.net.ssl|DEBUG|01|main|2018-08-18 01:04:47.026 EDT|SSLContextImpl.java:427|System property jdk.tls.server.cipherSuites is set to 'null'
+...
+
+The values of these system properties are null, so the default enabled cipher suites are those that the SunJSSE provider enables by default; see The SunJSSE Provider in JDK Providers Documentation. 
+
+https://docs.oracle.com/en/java/javase/21/security/oracle-providers.html#GUID-7093246A-31A3-4304-AC5F-5FB6400405E2
+
+C:\Users\DavidHolberton>keytool showinfo -tls
+Illegal option:  showinfo
+Key and Certificate Management Tool
+
+Commands:
+
+ -certreq            Generates a certificate request
+ -changealias        Changes an entry's alias
+ -delete             Deletes an entry
+ -exportcert         Exports certificate
+ -genkeypair         Generates a key pair
+ -genseckey          Generates a secret key
+ -gencert            Generates certificate from a certificate request
+ -importcert         Imports a certificate or a certificate chain
+ -importpass         Imports a password
+ -importkeystore     Imports one or all entries from another keystore
+ -keypasswd          Changes the key password of an entry
+ -list               Lists entries in a keystore
+ -printcert          Prints the content of a certificate
+ -printcertreq       Prints the content of a certificate request
+ -printcrl           Prints the content of a CRL file
+ -storepasswd        Changes the store password of a keystore
+ -showinfo           Displays security-related information
+
+Use "keytool -?, -h, or --help" for this help message
+Use "keytool -command_name --help" for usage of command_name.
+Use the -conf <url> option to specify a pre-configured options file.
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>java -version
+java version "17.0.7" 2023-04-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.7+8-LTS-224)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.7+8-LTS-224, mixed mode, sharing)
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>keytool -showinfo -tls
+Enabled Protocols
+-----------------
+TLSv1.3
+TLSv1.2
+
+Enabled Cipher Suites
+---------------------
+TLS_AES_256_GCM_SHA384
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+TLS_RSA_WITH_AES_256_GCM_SHA384
+TLS_RSA_WITH_AES_128_GCM_SHA256
+TLS_RSA_WITH_AES_256_CBC_SHA256
+TLS_RSA_WITH_AES_128_CBC_SHA256
+TLS_RSA_WITH_AES_256_CBC_SHA
+TLS_RSA_WITH_AES_128_CBC_SHA
+TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\ahcapp\src\main\java\com\ashburncode\ahcapp\AhcappApplication.java
+
+package com.ashburncode.ahcapp;
+
+import java.io.IOException;
+import java.util.concurrent.Future;
+
+import org.asynchttpclient.AsyncHttpClient;
+import org.asynchttpclient.AsyncHttpClientConfig;
+import org.asynchttpclient.DefaultAsyncHttpClientConfig;
+import org.asynchttpclient.Dsl;
+import org.asynchttpclient.Request;
+import org.asynchttpclient.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import io.netty.handler.ssl.SslContext;
+
+// import org.asynchttpclient.AsyncHttpClient;
+// import org.asynchttpclient.AsyncHttpClientConfig;
+// import org.asynchttpclient.DefaultAsyncHttpClientConfig;
+// import org.asynchttpclient.Dsl;
+// import org.asynchttpclient.Request;
+// import org.asynchttpclient.Response;
+// import org.asynchttpclient.RequestBuilder;
+// import org.asynchttpclient.BoundRequestBuilder;
+// import java.util.concurrent.*;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
+// import org.springframework.boot.SpringApplication;
+// import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AhcappApplication {
+
+	// https://www.baeldung.com/spring-boot-logging
+	// -Dlogging.level.org.springframework=TRACE
+	// -Dlogging.level.com.baeldung=TRACE
+
+	static Logger log = LoggerFactory.getLogger(AhcappApplication.class);
+
+	public static void main(String[] args) {
+		SpringApplication.run(AhcappApplication.class, args);
+
+		// System.setProperty("javax.net.debug", "ssl:handshake");
+		createClientAndMakeGetRequest();
+
+		log.trace("A TRACE Message");
+		log.debug("A DEBUG Message");
+		log.info("An INFO Message");
+		log.warn("A WARN Message");
+		log.error("An ERROR Message");
+	}
+
+	private static void createClientAndMakeGetRequest() {
+		// AsyncHttpClient client = Dsl.asyncHttpClient();
+		// AsyncHttpClientConfig config = client.getConfig();
+		// DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config();
+		String[] protocolArray = { "TLSv1.3", "TLSv1.2" };
+		// List<String> protocolList = Arrays.asList(protocolArray);
+		String[] cipherSuiteArray = { "FOO", "BAR", "BAZ" };
+		// SslContext sslContext = null;
+		DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
+				// .setEnabledProtocols(protocolList)
+				.setEnabledProtocols(protocolArray)
+				// .setEnabledProtocols(cipherSuiteArray)
+				// .setEnabledCipherSuites(cipherSuiteArray)
+				// .setSslContext(sslContext)
+				// .setSslEngineFactory
+				.setConnectTimeout(500);
+		// .setProxyServer(new ProxyServer(...));
+		AsyncHttpClient client = Dsl.asyncHttpClient(clientBuilder);
+		AsyncHttpClientConfig config = client.getConfig();
+		log.info("  config.getAhcVersion() = " + config.getAhcVersion());
+		log.info("  config.getUserAgent() = " + config.getUserAgent());
+		log.info("  config.getConnectTimeout() = " + config.getConnectTimeout());
+		// log.info(" config.getEnabledCipherSuites() = " +
+		// config.getEnabledCipherSuites());
+
+		String[] enabledProtocols = config.getEnabledProtocols();
+		if (enabledProtocols == null || enabledProtocols.length == 0) {
+			log.info("  config.getEnabledProtocols() = " + enabledProtocols);
+		} else {
+			for (String enabledProtocol : enabledProtocols)
+				log.info("  enabledProtocol = " + enabledProtocol);
+		}
+		String[] enabledCipherSuites = config.getEnabledCipherSuites();
+		if (enabledCipherSuites == null || enabledCipherSuites.length == 0) {
+			log.info("  config.getEnabledCipherSuites() = " + enabledCipherSuites);
+		} else {
+			for (String enabledCipherSuite : enabledCipherSuites)
+				log.info("  enabledCipherSuite = " + enabledCipherSuite);
+		}
+
+		// BoundRequestBuilder getRequest =
+		// client.prepareGet("http://www.baeldung.com");
+		// Request getRequest = client.prepareGet("http://www.baeldung.com").build();
+		// Request getRequest = client.prepareGet("https://www.baeldung.com").build();
+		// Request getRequest = client.prepareGet("https://www.google.com").build();
+		Request getRequest = client.prepareGet("https://start.spring.io/").build();
+
+		// Request getRequest = new RequestBuilder(HttpConstants.Methods.GET)
+		// .setUrl("http://www.baeldung.com")
+		// .build();
+
+		// Request getRequest = Dsl.get("http://www.baeldung.com").build();
+
+		// Future<Response> responseFuture = getRequest.execute();
+		// responseFuture.get();
+
+		Future<Response> responseFuture = client.executeRequest(getRequest);
+
+		try {
+			Response response = responseFuture.get();
+			int statusCode = response.getStatusCode();
+			log.info("  statusCode = " + statusCode);
+			String responseBody = response.getResponseBody();
+			// System.out.println("  responseBody = " + responseBody);
+			// log.info("  responseBody = " + responseBody);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+.\gradlew clean
+.\gradlew bootJar
+java -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar
+java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>java -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-06-24T06:22:14.155-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : Starting AhcappApplication v0.0.1-SNAPSHOT using Java 17.0.7 with PID 5964 (C:\Users\DavidHolberton\sbprojs\ahcapp\build\libs\ahcapp-0.0.1-SNAPSHOT.jar started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\ahcapp)
+2024-06-24T06:22:14.160-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-24T06:22:15.192-04:00  INFO 5964 --- [ahcapp] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-24T06:22:15.206-04:00  INFO 5964 --- [ahcapp] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24T06:22:15.207-04:00  INFO 5964 --- [ahcapp] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-24T06:22:15.251-04:00  INFO 5964 --- [ahcapp] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24T06:22:15.252-04:00  INFO 5964 --- [ahcapp] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+2024-06-24T06:22:15.764-04:00  INFO 5964 --- [ahcapp] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-24T06:22:15.822-04:00  INFO 5964 --- [ahcapp] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-24T06:22:15.835-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : Started AhcappApplication in 2.095 seconds (process running for 2.592)
+2024-06-24T06:22:16.082-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.1.1
+2024-06-24T06:22:16.083-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-24T06:22:16.083-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-24T06:22:16.083-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.3
+2024-06-24T06:22:16.083-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-24T06:22:16.083-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getEnabledCipherSuites() = null
+2024-06-24T06:22:16.405-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   statusCode = 200
+2024-06-24T06:22:16.408-04:00  INFO 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : An INFO Message
+2024-06-24T06:22:16.408-04:00  WARN 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : A WARN Message
+2024-06-24T06:22:16.408-04:00 ERROR 5964 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : An ERROR Message
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+C:\Users\DavidHolberton\sbprojs\ahcapp>java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-06-24T06:23:56.700-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : Starting AhcappApplication v0.0.1-SNAPSHOT using Java 17.0.7 with PID 15428 (C:\Users\DavidHolberton\sbprojs\ahcapp\build\libs\ahcapp-0.0.1-SNAPSHOT.jar started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\ahcapp)
+2024-06-24T06:23:56.704-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-24T06:23:57.839-04:00  INFO 15428 --- [ahcapp] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-24T06:23:57.853-04:00  INFO 15428 --- [ahcapp] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24T06:23:57.854-04:00  INFO 15428 --- [ahcapp] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-24T06:23:57.903-04:00  INFO 15428 --- [ahcapp] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24T06:23:57.904-04:00  INFO 15428 --- [ahcapp] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1121 ms
+2024-06-24T06:23:58.458-04:00  INFO 15428 --- [ahcapp] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-24T06:23:58.532-04:00  INFO 15428 --- [ahcapp] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-24T06:23:58.550-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : Started AhcappApplication in 2.268 seconds (process running for 2.734)
+javax.net.ssl|DEBUG|10|main|2024-06-24 06:23:58.682 EDT|SSLCipher.java:466|jdk.tls.keyLimits:  entry = AES/GCM/NoPadding KeyUpdate 2^37. AES/GCM/NOPADDING:KEYUPDATE = 137438953472
+2024-06-24T06:23:58.830-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getAhcVersion() = 2.1.1
+2024-06-24T06:23:58.830-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getUserAgent() = AHC/2.1
+2024-06-24T06:23:58.831-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getConnectTimeout() = 500
+2024-06-24T06:23:58.831-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.3
+2024-06-24T06:23:58.831-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   enabledProtocol = TLSv1.2
+2024-06-24T06:23:58.831-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   config.getEnabledCipherSuites() = null
+javax.net.ssl|INFO|C2|AsyncHttpClient-2-1|2024-06-24 06:23:58.981 EDT|AlpnExtension.java:182|No available application protocols
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:58.982 EDT|SSLExtensions.java:272|Ignore, context unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:58.982 EDT|SessionTicketExtension.java:408|Stateless resumption supported
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:58.983 EDT|SSLExtensions.java:272|Ignore, context unavailable extension: cookie
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.000 EDT|PreSharedKeyExtension.java:661|No session to resume.
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.001 EDT|SSLExtensions.java:272|Ignore, context unavailable extension: pre_shared_key
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.004 EDT|ClientHello.java:641|Produced ClientHello handshake message (
+"ClientHello": {
+  "client version"      : "TLSv1.2",
+  "random"              : "23C2380C1C003A8B5994AB627A0A0DBE834E33F2AB7F2A0A105B3E947FFADD2C",
+  "session id"          : "B68293FA19487E3CE8070203CA99C684B4C6123A4DF3C646C25C16247EE169D1",
+  "cipher suites"       : "[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384(0xC02C), TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256(0xC02B), TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256(0xC02F), TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384(0xC030), TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA(0xC013), TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA(0xC014), TLS_RSA_WITH_AES_128_GCM_SHA256(0x009C), TLS_RSA_WITH_AES_128_CBC_SHA(0x002F), TLS_RSA_WITH_AES_256_CBC_SHA(0x0035), TLS_AES_128_GCM_SHA256(0x1301), TLS_AES_256_GCM_SHA384(0x1302)]",
+  "compression methods" : "00",
+  "extensions"          : [
+    "server_name (0)": {
+      type=host_name (0), value=start.spring.io
+    },
+    "status_request (5)": {
+      "certificate status type": ocsp
+      "OCSP status request": {
+        "responder_id": <empty>
+        "request extensions": {
+          <empty>
+        }
+      }
+    },
+    "supported_groups (10)": {
+      "versions": [x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+    },
+    "ec_point_formats (11)": {
+      "formats": [uncompressed]
+    },
+    "status_request_v2 (17)": {
+      "cert status request": {
+        "certificate status type": ocsp_multi
+        "OCSP status request": {
+          "responder_id": <empty>
+          "request extensions": {
+            <empty>
+          }
+        }
+      }
+    },
+    "extended_master_secret (23)": {
+      <empty>
+    },
+    "session_ticket (35)": {
+      <empty>
+    },
+    "signature_algorithms (13)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, dsa_sha256, ecdsa_sha1, rsa_pkcs1_sha1, dsa_sha1]
+    },
+    "supported_versions (43)": {
+      "versions": [TLSv1.3, TLSv1.2]
+    },
+    "psk_key_exchange_modes (45)": {
+      "ke_modes": [psk_dhe_ke]
+    },
+    "signature_algorithms_cert (50)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, dsa_sha256, ecdsa_sha1, rsa_pkcs1_sha1, dsa_sha1]
+    },
+    "key_share (51)": {
+      "client_shares": [
+        {
+          "named group": x25519
+          "key_exchange": {
+            0000: 22 3A 49 04 9E 1F FD A2   3E 03 84 4D D7 8E 0E D7  ":I.....>..M....
+            0010: 8E 80 C2 0A 91 23 06 F5   DF F6 64 2E FB 2F 5E 2B  .....#....d../^+
+          }
+        },
+        {
+          "named group": secp256r1
+          "key_exchange": {
+            0000: 04 19 82 A6 30 51 EB 5B   A9 C9 0C F0 1F FA E0 82  ....0Q.[........
+            0010: 76 5D 8F 23 27 5D BA 78   42 34 54 1B 18 32 80 5E  v].#'].xB4T..2.^
+            0020: 20 FA 15 83 95 A4 A6 04   85 EF 22 2A 71 28 63 4D   ........."*q(cM
+            0030: 2F 98 5F 80 06 6B C6 44   7F 27 B6 E3 91 3D A8 EB  /._..k.D.'...=..
+            0040: 00
+          }
+        },
+      ]
+    },
+    "renegotiation_info (65,281)": {
+      "renegotiated connection": [<no renegotiated connection>]
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.040 EDT|ServerHello.java:888|Consuming ServerHello handshake message (
+"ServerHello": {
+  "server version"      : "TLSv1.2",
+  "random"              : "AD5112ACBB8FDAEABC99DA47024CEB3516C12DC9F8153AE64B7B871FF0F9B3AE",
+  "session id"          : "B68293FA19487E3CE8070203CA99C684B4C6123A4DF3C646C25C16247EE169D1",
+  "cipher suite"        : "TLS_AES_128_GCM_SHA256(0x1301)",
+  "compression methods" : "00",
+  "extensions"          : [
+    "key_share (51)": {
+      "server_share": {
+        "named group": x25519
+        "key_exchange": {
+          0000: E2 E9 6C E5 CC 40 34 C1   3C 51 9C 6A DF 1F 47 22  ..l..@4.<Q.j..G"
+          0010: 14 64 AF E2 9A AB B8 E7   9D FF D9 94 53 74 D9 5E  .d..........St.^
+        }
+      },
+    },
+    "supported_versions (43)": {
+      "selected version": [TLSv1.3]
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.041 EDT|SSLExtensions.java:204|Consumed extension: supported_versions
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.041 EDT|ServerHello.java:984|Negotiated protocol version: TLSv1.3
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.043 EDT|SSLExtensions.java:175|Ignore unsupported extension: server_name
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.043 EDT|SSLExtensions.java:175|Ignore unsupported extension: max_fragment_length
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.043 EDT|SSLExtensions.java:175|Ignore unsupported extension: status_request
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.043 EDT|SSLExtensions.java:175|Ignore unsupported extension: ec_point_formats
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.044 EDT|SSLExtensions.java:175|Ignore unsupported extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.044 EDT|SSLExtensions.java:175|Ignore unsupported extension: status_request_v2
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.044 EDT|SSLExtensions.java:175|Ignore unsupported extension: extended_master_secret
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.045 EDT|SSLExtensions.java:175|Ignore unsupported extension: session_ticket
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.045 EDT|SSLExtensions.java:204|Consumed extension: supported_versions
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.046 EDT|SSLExtensions.java:204|Consumed extension: key_share
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.046 EDT|SSLExtensions.java:175|Ignore unsupported extension: renegotiation_info
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.046 EDT|PreSharedKeyExtension.java:924|Handling pre_shared_key absence.
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.047 EDT|SSLExtensions.java:219|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.047 EDT|SSLExtensions.java:219|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.047 EDT|SSLExtensions.java:219|Ignore unavailable extension: status_request
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.047 EDT|SSLExtensions.java:219|Ignore unavailable extension: ec_point_formats
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.047 EDT|SSLExtensions.java:219|Ignore unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.047 EDT|SSLExtensions.java:219|Ignore unavailable extension: status_request_v2
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.048 EDT|SSLExtensions.java:219|Ignore unavailable extension: extended_master_secret
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.048 EDT|SSLExtensions.java:219|Ignore unavailable extension: session_ticket
+javax.net.ssl|WARNING|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.048 EDT|SSLExtensions.java:227|Ignore impact of unsupported extension: supported_versions
+javax.net.ssl|WARNING|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.048 EDT|SSLExtensions.java:227|Ignore impact of unsupported extension: key_share
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.048 EDT|SSLExtensions.java:219|Ignore unavailable extension: renegotiation_info
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.048 EDT|SSLExtensions.java:219|Ignore unavailable extension: pre_shared_key
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.054 EDT|SSLCipher.java:1870|KeyLimit read side: algorithm = AES/GCM/NOPADDING:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.055 EDT|SSLCipher.java:2024|KeyLimit write side: algorithm = AES/GCM/NOPADDING:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.056 EDT|ChangeCipherSpec.java:246|Consuming ChangeCipherSpec message
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.060 EDT|EncryptedExtensions.java:171|Consuming EncryptedExtensions handshake message (
+"EncryptedExtensions": [
+  "server_name (0)": {
+    <empty extension_data field>
+  }
+]
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.060 EDT|SSLExtensions.java:204|Consumed extension: server_name
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.060 EDT|SSLExtensions.java:185|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.060 EDT|SSLExtensions.java:185|Ignore unavailable extension: supported_groups
+javax.net.ssl|WARNING|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.060 EDT|SSLExtensions.java:227|Ignore impact of unsupported extension: server_name
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.061 EDT|SSLExtensions.java:219|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.061 EDT|SSLExtensions.java:219|Ignore unavailable extension: supported_groups
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.061 EDT|SSLExtensions.java:219|Ignore unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|30|Finalizer|2024-06-24 06:23:59.074 EDT|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2024-06-24 06:23:59.075 EDT|SSLSocketImpl.java:1781|close the SSL connection (passive)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.075 EDT|CertificateMessage.java:1172|Consuming server Certificate handshake message (
+"Certificate": {
+  "certificate_request_context": "",
+  "certificate_list": [
+  {
+    "certificate" : {
+      "version"            : "v3",
+      "serial number"      : "08C9D4D7BAA261C59E3E535C80FAB3F0",
+      "signature algorithm": "SHA256withRSA",
+      "issuer"             : "CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US",
+      "not before"         : "2024-04-19 20:00:00.000 EDT",
+      "not  after"         : "2025-04-23 19:59:59.000 EDT",
+      "subject"            : "CN=*.spring.io, O=VMware LLC, L=Palo Alto, ST=California, C=US",
+      "subject public key" : "RSA",
+      "extensions"         : [
+        {
+          ObjectId: 1.3.6.1.4.1.11129.2.4.2 Criticality=false
+        },
+        {
+          ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+          AuthorityInfoAccess [
+            [
+             accessMethod: ocsp
+             accessLocation: URIName: http://ocsp.digicert.com
+          ,
+             accessMethod: caIssuers
+             accessLocation: URIName: http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt
+          ]
+          ]
+        },
+        {
+          ObjectId: 2.5.29.35 Criticality=false
+          AuthorityKeyIdentifier [
+          KeyIdentifier [
+          0000: B7 6B A2 EA A8 AA 84 8C   79 EA B4 DA 0F 98 B2 C5  .k......y.......
+          0010: 95 76 B9 F4                                        .v..
+          ]
+          ]
+        },
+        {
+          ObjectId: 2.5.29.19 Criticality=true
+          BasicConstraints:[
+            CA:false
+            PathLen: undefined
+          ]
+        },
+        {
+          ObjectId: 2.5.29.31 Criticality=false
+          CRLDistributionPoints [
+            [DistributionPoint:
+               [URIName: http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl]
+          , DistributionPoint:
+               [URIName: http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl]
+          ]]
+        },
+        {
+          ObjectId: 2.5.29.32 Criticality=false
+          CertificatePolicies [
+            [CertificatePolicyId: [2.23.140.1.2.2]
+          [PolicyQualifierInfo: [
+            qualifierID: 1.3.6.1.5.5.7.2.1
+            qualifier: 0000: 16 1B 68 74 74 70 3A 2F   2F 77 77 77 2E 64 69 67  ..http://www.dig
+          0010: 69 63 65 72 74 2E 63 6F   6D 2F 43 50 53           icert.com/CPS
+
+          ]]  ]
+          ]
+        },
+        {
+          ObjectId: 2.5.29.37 Criticality=false
+          ExtendedKeyUsages [
+            serverAuth
+            clientAuth
+          ]
+        },
+        {
+          ObjectId: 2.5.29.15 Criticality=true
+          KeyUsage [
+            DigitalSignature
+            Key_Encipherment
+          ]
+        },
+        {
+          ObjectId: 2.5.29.17 Criticality=false
+          SubjectAlternativeName [
+            DNSName: *.spring.io
+            DNSName: spring.io
+          ]
+        },
+        {
+          ObjectId: 2.5.29.14 Criticality=false
+          SubjectKeyIdentifier [
+          KeyIdentifier [
+          0000: A4 D4 1D 57 53 30 27 F5   78 F3 D8 37 B2 AD 03 1E  ...WS0'.x..7....
+          0010: 0E 05 F3 CD                                        ....
+          ]
+          ]
+        }
+      ]}
+    "extensions": {
+      "status_request (5)": {
+        "certificate status response type": ocsp
+        "OCSP status response": {
+          OCSP Response:
+          Response Status: SUCCESSFUL
+          Responder ID: byKey: B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4
+          Produced at: Sat Jun 22 14:24:58 EDT 2024
+          1 response:
+          SingleResponse:
+          CertId
+          Algorithm: SHA-1
+          issuerNameHash
+          0000: E4 E3 95 A2 29 D3 D4 C1   C3 1F F0 98 0C 0B 4E C0  ....).........N.
+          0010: 09 8A AB D8
+          issuerKeyHash:
+          0000: B7 6B A2 EA A8 AA 84 8C   79 EA B4 DA 0F 98 B2 C5  .k......y.......
+          0010: 95 76 B9 F4
+          SerialNumber: [    08c9d4d7 baa261c5 9e3e535c 80fab3f0]
+          CertStatus: GOOD
+          thisUpdate is Sat Jun 22 14:09:02 EDT 2024
+          nextUpdate is Sat Jun 29 13:09:02 EDT 2024
+        }
+      }
+    }
+  },
+  {
+    "certificate" : {
+      "version"            : "v3",
+      "serial number"      : "06D8D904D5584346F68A2FA754227EC4",
+      "signature algorithm": "SHA256withRSA",
+      "issuer"             : "CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US",
+      "not before"         : "2021-04-13 20:00:00.000 EDT",
+      "not  after"         : "2031-04-13 19:59:59.000 EDT",
+      "subject"            : "CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US",
+      "subject public key" : "RSA",
+      "extensions"         : [
+        {
+          ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+          AuthorityInfoAccess [
+            [
+             accessMethod: ocsp
+             accessLocation: URIName: http://ocsp.digicert.com
+          ,
+             accessMethod: caIssuers
+             accessLocation: URIName: http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
+          ]
+          ]
+        },
+        {
+          ObjectId: 2.5.29.35 Criticality=false
+          AuthorityKeyIdentifier [
+          KeyIdentifier [
+          0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+          0010: B2 3D D1 55                                        .=.U
+          ]
+          ]
+        },
+        {
+          ObjectId: 2.5.29.19 Criticality=true
+          BasicConstraints:[
+            CA:true
+            PathLen:0
+          ]
+        },
+        {
+          ObjectId: 2.5.29.31 Criticality=false
+          CRLDistributionPoints [
+            [DistributionPoint:
+               [URIName: http://crl3.digicert.com/DigiCertGlobalRootCA.crl]
+          ]]
+        },
+        {
+          ObjectId: 2.5.29.32 Criticality=false
+          CertificatePolicies [
+            [CertificatePolicyId: [2.16.840.1.114412.2.1]
+          []  ]
+            [CertificatePolicyId: [2.23.140.1.1]
+          []  ]
+            [CertificatePolicyId: [2.23.140.1.2.1]
+          []  ]
+            [CertificatePolicyId: [2.23.140.1.2.2]
+          []  ]
+            [CertificatePolicyId: [2.23.140.1.2.3]
+          []  ]
+          ]
+        },
+        {
+          ObjectId: 2.5.29.37 Criticality=false
+          ExtendedKeyUsages [
+            serverAuth
+            clientAuth
+          ]
+        },
+        {
+          ObjectId: 2.5.29.15 Criticality=true
+          KeyUsage [
+            DigitalSignature
+            Key_CertSign
+            Crl_Sign
+          ]
+        },
+        {
+          ObjectId: 2.5.29.14 Criticality=false
+          SubjectKeyIdentifier [
+          KeyIdentifier [
+          0000: B7 6B A2 EA A8 AA 84 8C   79 EA B4 DA 0F 98 B2 C5  .k......y.......
+          0010: 95 76 B9 F4                                        .v..
+          ]
+          ]
+        }
+      ]}
+    "extensions": {
+      <no extension>
+    }
+  },
+]
+}
+)
+javax.net.ssl|DEBUG|30|Finalizer|2024-06-24 06:23:59.075 EDT|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2024-06-24 06:23:59.076 EDT|SSLSocketImpl.java:1781|close the SSL connection (passive)
+javax.net.ssl|DEBUG|30|Finalizer|2024-06-24 06:23:59.077 EDT|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.077 EDT|SSLExtensions.java:204|Consumed extension: status_request
+javax.net.ssl|DEBUG|30|Finalizer|2024-06-24 06:23:59.077 EDT|SSLSocketImpl.java:1781|close the SSL connection (passive)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.077 EDT|SSLExtensions.java:185|Ignore unavailable extension: status_request
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.118 EDT|CertificateVerify.java:1166|Consuming CertificateVerify handshake message (
+"CertificateVerify": {
+  "signature algorithm": rsa_pss_rsae_sha256
+  "signature": {
+    0000: 8D 68 8C 7C 91 D9 BF 39   5C 7F 58 0E 25 C9 30 BA  .h.....9\.X.%.0.
+    0010: 41 90 50 F1 91 59 4D C1   CF 71 8B 6F D9 D0 D3 A7  A.P..YM..q.o....
+    0020: 15 8A DC 27 A8 3E 4D 7A   9F D1 55 32 DE F5 94 2B  ...'.>Mz..U2...+
+    0030: 3A 99 D1 68 4D AE 97 91   25 99 5D 7F 8B EB 7B C8  :..hM...%.].....
+    0040: 17 31 80 8C D0 4A AF 3B   3F E9 74 13 B1 F4 2C 85  .1...J.;?.t...,.
+    0050: 3C 44 D9 EB AD 0E DB F5   82 EB 37 E6 78 7D E7 C1  <D........7.x...
+    0060: 81 9A CD D7 BC BC 24 CC   CF F6 0A 02 63 50 26 58  ......$.....cP&X
+    0070: D1 4C 8F FD 98 AD FF F2   38 2E F4 71 5D C4 46 CB  .L......8..q].F.
+    0080: 09 5A 67 A4 D5 0F 8D 57   4D 66 F2 35 F4 16 E4 85  .Zg....WMf.5....
+    0090: F3 7E E5 C6 44 C2 4D EC   D6 1A DF F2 F9 BA 74 55  ....D.M.......tU
+    00A0: 69 9E CE F4 0E BE 9C 09   E5 EE 20 11 85 2C 06 09  i......... ..,..
+    00B0: 61 22 B1 62 B7 88 79 A3   C2 B2 7B 19 57 8C C9 29  a".b..y.....W..)
+    00C0: 81 BC 3A 8F 47 60 D6 64   FB 57 0B 32 03 4C 74 98  ..:.G`.d.W.2.Lt.
+    00D0: DD F4 90 D7 8F 8C CB 44   F9 E3 52 1E 6B 5F 4E 42  .......D..R.k_NB
+    00E0: 88 97 55 23 83 B4 B8 7A   6E 82 A4 46 1D 44 FE 1F  ..U#...zn..F.D..
+    00F0: FE F9 99 07 2D 49 1F DB   79 FD 43 B0 4D D2 60 26  ....-I..y.C.M.`&
+  }
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.120 EDT|Finished.java:917|Consuming server Finished handshake message (
+"Finished": {
+  "verify data": {
+    0000: 84 7E A5 93 FE 66 A6 DC   6E BA CD 19 4B 09 F9 27  .....f..n...K..'
+    0010: 90 E4 1C 75 BA A4 13 D4   3C 21 7A 84 AE 64 92 CA  ...u....<!z..d..
+  }'}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.120 EDT|SSLCipher.java:1870|KeyLimit read side: algorithm = AES/GCM/NOPADDING:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.121 EDT|Finished.java:687|Produced client Finished handshake message (
+"Finished": {
+  "verify data": {
+    0000: 1F B1 67 35 26 0C E6 94   16 3A CC 14 D9 C0 B8 96  ..g5&....:......
+    0010: CC D9 D1 78 26 2A FD BB   9C C7 45 0F BE 24 10 2F  ...x&*....E..$./
+  }'}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.122 EDT|SSLCipher.java:2024|KeyLimit write side: algorithm = AES/GCM/NOPADDING:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.168 EDT|SSLExtensions.java:147|Ignore unknown or unsupported extension (
+"early_data (42)": {
+  0000: 00 00 38 00                                        ..8.
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.169 EDT|SSLExtensions.java:147|Ignore unknown or unsupported extension (
+"unknown extension (56,026)": {
+
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.170 EDT|NewSessionTicket.java:567|Consuming NewSessionTicket message (
+"NewSessionTicket": {
+  "ticket_lifetime"      : "64,800",
+  "ticket_age_add"       : "<omitted>",
+  "ticket_nonce"         : "00",
+  "ticket"               : {
+    0000: B3 11 3B 4A 67 CD 82 55   81 89 46 A9 E9 2F 90 78  ..;Jg..U..F../.x
+    0010: 40 20 43 BD 89 4C 45 0A   FD BF B7 67 8C C0 3F F9  @ C..LE....g..?.
+    0020: 9E 9F FD 9A 80 AF 0E 4B   98 73 17 3D CE 1A E4 53  .......K.s.=...S
+    0030: 4E 5F E0 15 D2 90 E6 18   44 44 4A 3F C7 CB F7 F8  N_......DDJ?....
+    0040: 2D 19 24 DC D5 05 1E C0   A7 67 B4 EA 66 18 B0 AF  -.$......g..f...
+    0050: 53 5F D8 13 57 E3 FB C6   B2 38 D1 66 50 1A 6D 6A  S_..W....8.fP.mj
+    0060: 4B 7F 39 09 FC 6E 71 1D   3A B7 88 85 1D D3 44 5D  K.9..nq.:.....D]
+    0070: CD 48 76 DE 8A 36 64 FC   6B 6F 57 40 4B 13 96 69  .Hv..6d.koW@K..i
+    0080: CA B4 8D B7 4E 06 77 7B   B3 C6 CA 59 BA D7 CD CF  ....N.w....Y....
+    0090: 2C 9D 5F F0 88 62 F7 DB   09 26 A4 00 78 8E E4 E1  ,._..b...&..x...
+    00A0: 0D 93 E2 14 5F F2 BF 22   4C F1 13 F5 42 53 6F 68  ...._.."L...BSoh
+    00B0: DE 13 9A 29 F6 72 ED CA   A1 EA D4 7D FE BE 7F F6  ...).r..........
+  }  "extensions"           : [
+    "early_data (42)": {
+      0000: 00 00 38 00                                        ..8.
+    },
+    "unknown extension (56,026)": {
+
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.170 EDT|SSLExtensions.java:147|Ignore unknown or unsupported extension (
+"early_data (42)": {
+  0000: 00 00 38 00                                        ..8.
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.171 EDT|SSLExtensions.java:147|Ignore unknown or unsupported extension (
+"unknown extension (56,026)": {
+
+}
+)
+javax.net.ssl|DEBUG|C2|AsyncHttpClient-2-1|2024-06-24 06:23:59.171 EDT|NewSessionTicket.java:567|Consuming NewSessionTicket message (
+"NewSessionTicket": {
+  "ticket_lifetime"      : "64,800",
+  "ticket_age_add"       : "<omitted>",
+  "ticket_nonce"         : "01",
+  "ticket"               : {
+    0000: B3 11 3B 4A 67 CD 82 55   81 89 46 A9 E9 2F 90 78  ..;Jg..U..F../.x
+    0010: 42 8D 9E BE FE CE B4 64   4D C1 A5 8B 87 C0 EC 8E  B......dM.......
+    0020: 22 06 53 44 ED CE 41 A6   A7 C6 52 A4 D2 A8 83 D1  ".SD..A...R.....
+    0030: EB 73 3C C5 05 13 94 C6   56 5F CC E1 29 EC 72 32  .s<.....V_..).r2
+    0040: BC 00 D9 CE D7 5C CC 06   31 2C 5C BA 83 B4 90 EF  .....\..1,\.....
+    0050: 92 66 D5 82 C3 9C 7C F0   28 C7 14 B0 0D 3E E2 AB  .f......(....>..
+    0060: 88 90 5C A2 F6 9B 3E CD   AD 49 87 1F E7 FF AC 08  ..\...>..I......
+    0070: A4 7A B9 AC 13 54 27 2D   13 F1 D0 4E 31 0B 8C 29  .z...T'-...N1..)
+    0080: AD F7 06 9E 7A C2 4E E8   99 4D BD 29 FF BC BB 50  ....z.N..M.)...P
+    0090: 2D 4F 90 61 3E A7 90 13   5A 39 82 69 A9 2F 72 A3  -O.a>...Z9.i./r.
+    00A0: AB 52 FB 85 04 78 C8 74   3A B8 91 2A 0E 10 E4 A2  .R...x.t:..*....
+    00B0: FB 6A 10 CC 38 86 9D 7E   18 78 C6 F7 67 F3 77 C4  .j..8....x..g.w.
+  }  "extensions"           : [
+    "early_data (42)": {
+      0000: 00 00 38 00                                        ..8.
+    },
+    "unknown extension (56,026)": {
+
+    }
+  ]
+}
+)
+2024-06-24T06:23:59.206-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   :   statusCode = 200
+2024-06-24T06:23:59.208-04:00  INFO 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : An INFO Message
+2024-06-24T06:23:59.208-04:00  WARN 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : A WARN Message
+2024-06-24T06:23:59.208-04:00 ERROR 15428 --- [ahcapp] [           main] c.ashburncode.ahcapp.AhcappApplication   : An ERROR Message
+
