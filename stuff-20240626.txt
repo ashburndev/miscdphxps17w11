@@ -1,0 +1,211 @@
+7:56 AM 6/26/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240626.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+  private static void createClientAndMakeGetRequest() {
+    String[] protocolArray2 = { "TLSv1.2" };
+    String[] protocolArray3 = { "TLSv1.3" };
+    String[] protocolArray32 = { "TLSv1.3", "TLSv1.2" };
+    String[] cipherSuiteArray1 = { "TLS_AES_256_GCM_SHA384" };
+    DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
+        .setEnabledProtocols(protocolArray3)
+        .setEnabledCipherSuites(cipherSuiteArray1)
+        .setConnectTimeout(500);
+    AsyncHttpClient client = Dsl.asyncHttpClient(clientBuilder);
+
+git remote add origin git@github.com:ashburndev/ahcapp.git
+git branch -M main
+git push -u origin main
+
+.\gradlew clean
+.\gradlew bootJar
+java -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar
+java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar
+
+java -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar > ahcapp-test-20240626a.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar > ahcapp-test-20240626b.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar 2> ahcapp-test-20240626c.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar 2>&1 ahcapp-test-20240626d.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\ahcapp-0.0.1-SNAPSHOT.jar > ahcapp-test-20240626e.txt 2>&1
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+C:\Users\DavidHolberton\sbprojs\ahcapp>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\ahcapp
+
+04/18/2024  06:56 AM    <DIR>          gradle
+04/18/2024  06:56 AM    <DIR>          src
+04/25/2024  07:25 AM    <DIR>          .gradle
+06/06/2024  11:57 AM    <DIR>          ..
+06/25/2024  06:48 AM    <DIR>          build
+06/26/2024  08:27 AM    <DIR>          .
+04/18/2024  06:56 AM                28 settings.gradle
+04/18/2024  06:56 AM             8,692 gradlew
+04/18/2024  06:56 AM             2,918 gradlew.bat
+04/18/2024  06:56 AM             1,343 HELP.md
+04/18/2024  06:56 AM               444 .gitignore
+04/25/2024  07:23 AM            40,602 ahcapp-dependencies-20240424.txt
+04/25/2024  07:26 AM            61,397 ahcapp-dependencies-20240424b.txt
+06/20/2024  08:55 AM             1,047 build.gradle
+06/26/2024  08:09 AM             3,470 ahcapp-test-20240626a.txt
+06/26/2024  08:12 AM             3,450 ahcapp-test-20240626b.txt
+06/26/2024  08:16 AM            21,950 ahcapp-test-20240626c.txt
+06/26/2024  08:25 AM            25,420 ahcapp-test-20240626e.txt
+06/26/2024  08:28 AM             1,018 readme.txt
+              13 File(s)        171,779 bytes
+               6 Dir(s)  490,377,805,824 bytes free
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git init
+Initialized empty Git repository in C:/Users/DavidHolberton/sbprojs/ahcapp/.git/
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        ahcapp-dependencies-20240424.txt
+        ahcapp-dependencies-20240424b.txt
+        build.gradle
+        gradle/
+        gradlew
+        gradlew.bat
+        settings.gradle
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradle/wrapper/gradle-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradlew', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'settings.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/ashburncode/ahcapp/AhcappApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/ashburncode/ahcapp/AhcappApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   ahcapp-dependencies-20240424.txt
+        new file:   ahcapp-dependencies-20240424b.txt
+        new file:   build.gradle
+        new file:   gradle/wrapper/gradle-wrapper.jar
+        new file:   gradle/wrapper/gradle-wrapper.properties
+        new file:   gradlew
+        new file:   gradlew.bat
+        new file:   settings.gradle
+        new file:   src/main/java/com/ashburncode/ahcapp/AhcappApplication.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/ashburncode/ahcapp/AhcappApplicationTests.java
+
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git commit -a -m "initial commit"
+[master (root-commit) 4c21ef5] initial commit
+ 12 files changed, 2200 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 ahcapp-dependencies-20240424.txt
+ create mode 100644 ahcapp-dependencies-20240424b.txt
+ create mode 100644 build.gradle
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle
+ create mode 100644 src/main/java/com/ashburncode/ahcapp/AhcappApplication.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/ashburncode/ahcapp/AhcappApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+C:\Users\DavidHolberton\sbprojs\ahcapp>git remote add origin git@github.com:ashburndev/ahcapp.git
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git branch -M main
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git push -u origin main
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (28/28), 50.04 KiB | 1.47 MiB/s, done.
+Total 28 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:ashburndev/ahcapp.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+C:\Users\DavidHolberton\sbprojs\ahcapp>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/main/java/com/ashburncode/ahcapp/AhcappApplication.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ahcapp-test-20240626a.txt
+        ahcapp-test-20240626b.txt
+        ahcapp-test-20240626c.txt
+        ahcapp-test-20240626e.txt
+        readme.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git add .
+warning: in the working copy of 'src/main/java/com/ashburncode/ahcapp/AhcappApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ahcapp-test-20240626c.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ahcapp-test-20240626e.txt', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ahcapp-test-20240626a.txt
+        new file:   ahcapp-test-20240626b.txt
+        new file:   ahcapp-test-20240626c.txt
+        new file:   ahcapp-test-20240626e.txt
+        new file:   readme.txt
+        modified:   src/main/java/com/ashburncode/ahcapp/AhcappApplication.java
+
+
+C:\Users\DavidHolberton\sbprojs\ahcapp>
+
