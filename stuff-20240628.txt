@@ -1,0 +1,567 @@
+7:38 AM 6/28/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents
+
+C:\Users\DavidHolberton\Documents>cd dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240628.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+11/30/2023  09:14 AM            70,862 sbapp316g.zip
+11/30/2023  09:15 AM            70,271 sbapp316m.zip
+11/30/2023  09:16 AM            70,816 sbapp320g.zip
+11/30/2023  09:17 AM            70,208 sbapp320m.zip
+01/26/2024  06:27 AM            52,020 sbapp318g.zip
+01/26/2024  06:28 AM            70,270 sbapp318m.zip
+01/26/2024  06:30 AM            52,023 sbapp322g.zip
+01/26/2024  06:31 AM            70,213 sbapp322m.zip
+06/27/2024  10:02 PM            52,191 sbapp327g.zip
+06/27/2024  10:03 PM            15,090 sbapp327m.zip
+06/27/2024  10:06 PM            52,275 sbapp331g.zip
+06/27/2024  10:08 PM            15,088 sbapp331m.zip
+              79 File(s)      5,190,115 bytes
+               2 Dir(s)  491,795,722,240 bytes free
+
+C:\Users\DavidHolberton\Downloads\linux-abapp>dir sbapp271*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads\linux-abapp
+
+04/17/2023  06:28 AM            67,792 sbapp2710g.zip
+04/17/2023  06:31 AM            67,585 sbapp2710m.zip
+05/15/2023  06:49 AM            67,791 sbapp2711g.zip
+05/15/2023  06:50 AM            67,583 sbapp2711m.zip
+05/20/2023  09:48 AM            67,792 sbapp2712g.zip
+05/20/2023  09:50 AM            67,584 sbapp2712m.zip
+07/06/2023  07:10 AM            69,293 sbapp2713g.zip
+07/06/2023  07:11 AM            67,585 sbapp2713m.zip
+07/21/2023  08:03 AM            69,249 sbapp2714g.zip
+07/21/2023  08:04 AM            67,585 sbapp2714m.zip
+08/27/2023  09:05 PM            70,480 sbapp2715g.zip
+08/27/2023  09:06 PM            67,589 sbapp2715m.zip
+10/15/2023  10:45 AM            70,871 sbapp2716g.zip
+10/15/2023  10:46 AM            67,588 sbapp2716m.zip
+11/17/2023  09:18 AM            70,937 sbapp2717g.zip
+11/17/2023  09:19 AM            67,641 sbapp2717m.zip
+              16 File(s)      1,094,945 bytes
+               0 Dir(s)  491,795,308,544 bytes free
+
+C:\Users\DavidHolberton\Downloads\linux-abapp>copy sbapp2717g.zip C:\Users\DavidHolberton\sbprojs
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\Downloads\linux-abapp>copy sbapp327g.zip  C:\Users\DavidHolberton\sbprojs
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\Downloads\linux-abapp>copy sbapp331g.zip  C:\Users\DavidHolberton\sbprojs
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\Downloads\linux-abapp>
+
+cd  C:\Users\DavidHolberton\sbprojs
+
+7z l sbapp2717g.zip
+7z l sbapp327g.zip 
+7z l sbapp331g.zip 
+
+7z x sbapp2717g.zip
+7z x sbapp327g.zip 
+7z x sbapp331g.zip 
+
+tree /a /f sbapp2717g
+tree /a /f sbapp327g
+tree /a /f sbapp331g
+
+sbapp2717g\gradlew --version
+sbapp327g\gradlew --version
+sbapp331g\gradlew --version
+
+cd  C:\Users\DavidHolberton\sbprojs\sbapp2717g
+git init
+code .
+.\gradlew bootRun
+git remote add origin git@github.com:ashburndev/sbapp2717g.git
+git branch -M main
+git push -u origin main
+
+cd  C:\Users\DavidHolberton\sbprojs\sbapp327g
+git init
+code .
+.\gradlew bootRun
+git remote add origin git@github.com:ashburndev/sbapp327g.git
+git branch -M main
+git push -u origin main
+
+cd  C:\Users\DavidHolberton\sbprojs\sbapp331g
+git init
+code .
+.\gradlew bootRun
+git remote add origin git@github.com:ashburndev/sbapp331g.git
+git branch -M main
+git push -u origin main
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>7z l sbapp2717g.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 70937 bytes (70 KiB)
+
+Listing archive: sbapp2717g.zip
+
+--
+Path = sbapp2717g.zip
+Type = zip
+Physical Size = 70937
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-11-17 09:18:44 D....            0            2  sbapp2717g
+2023-11-17 09:18:44 .....         1724          607  sbapp2717g\HELP.md
+2023-11-17 09:18:44 .....         2868         1211  sbapp2717g\gradlew.bat
+2023-11-17 09:18:44 .....          444          242  sbapp2717g\.gitignore
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main\java
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main\java\ashburncode
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main\java\ashburncode\sbapp2717g
+2023-11-17 09:18:44 .....          339          180  sbapp2717g\src\main\java\ashburncode\sbapp2717g\Sbapp2717grajarj17Application.java
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main\resources
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main\resources\templates
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\main\resources\static
+2023-11-17 09:18:44 .....            1            3  sbapp2717g\src\main\resources\application.properties
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\test
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\test\java
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\test\java\ashburncode
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\src\test\java\ashburncode\sbapp2717g
+2023-11-17 09:18:44 .....          226          161  sbapp2717g\src\test\java\ashburncode\sbapp2717g\Sbapp2717grajarj17ApplicationTests.java
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\gradle
+2023-11-17 09:18:44 D....            0            2  sbapp2717g\gradle\wrapper
+2023-11-17 09:18:44 .....          250          152  sbapp2717g\gradle\wrapper\gradle-wrapper.properties
+2023-11-17 09:18:44 .....        63721        57558  sbapp2717g\gradle\wrapper\gradle-wrapper.jar
+2023-11-17 09:18:44 .....           32           34  sbapp2717g\settings.gradle
+2023-11-17 09:18:44 .....          737          347  sbapp2717g\build.gradle
+2023-11-17 09:18:44 .....         8692         3688  sbapp2717g\gradlew
+------------------- ----- ------------ ------------  ------------------------
+2023-11-17 09:18:44              79034        64213  11 files, 15 folders
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>7z l sbapp327g.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 52191 bytes (51 KiB)
+
+Listing archive: sbapp327g.zip
+
+--
+Path = sbapp327g.zip
+Type = zip
+Physical Size = 52191
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-06-27 22:02:20 D....            0            2  sbapp327g
+2024-06-27 22:02:20 D....            0            2  sbapp327g\gradle
+2024-06-27 22:02:20 D....            0            2  sbapp327g\gradle\wrapper
+2024-06-27 22:02:20 .....        43453        38723  sbapp327g\gradle\wrapper\gradle-wrapper.jar
+2024-06-27 22:02:20 .....          250          151  sbapp327g\gradle\wrapper\gradle-wrapper.properties
+2024-06-27 22:02:20 .....          444          242  sbapp327g\.gitignore
+2024-06-27 22:02:20 .....         1088          403  sbapp327g\build.gradle
+2024-06-27 22:02:20 .....         2414          736  sbapp327g\HELP.md
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\test
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\test\java
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\test\java\ashburncode
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\test\java\ashburncode\sbapp327g
+2024-06-27 22:02:20 .....          207          149  sbapp327g\src\test\java\ashburncode\sbapp327g\ApplicationTests.java
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main\java
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main\java\ashburncode
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main\java\ashburncode\sbapp327g
+2024-06-27 22:02:20 .....          302          169  sbapp327g\src\main\java\ashburncode\sbapp327g\Application.java
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main\resources
+2024-06-27 22:02:20 .....           46           47  sbapp327g\src\main\resources\application.properties
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main\resources\templates
+2024-06-27 22:02:20 D....            0            2  sbapp327g\src\main\resources\static
+2024-06-27 22:02:20 .....         8706         3696  sbapp327g\gradlew
+2024-06-27 22:02:20 .....           31           33  sbapp327g\settings.gradle
+2024-06-27 22:02:20 .....         2918         1220  sbapp327g\gradlew.bat
+------------------- ----- ------------ ------------  ------------------------
+2024-06-27 22:02:20              59859        45599  11 files, 15 folders
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>7z l sbapp331g.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 52275 bytes (52 KiB)
+
+Listing archive: sbapp331g.zip
+
+--
+Path = sbapp331g.zip
+Type = zip
+Physical Size = 52275
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-06-27 22:06:25 D....            0            2  sbapp331g
+2024-06-27 22:06:25 D....            0            2  sbapp331g\gradle
+2024-06-27 22:06:25 D....            0            2  sbapp331g\gradle\wrapper
+2024-06-27 22:06:25 .....        43453        38723  sbapp331g\gradle\wrapper\gradle-wrapper.jar
+2024-06-27 22:06:25 .....          250          151  sbapp331g\gradle\wrapper\gradle-wrapper.properties
+2024-06-27 22:06:25 .....          444          242  sbapp331g\.gitignore
+2024-06-27 22:06:25 .....         1088          402  sbapp331g\build.gradle
+2024-06-27 22:06:25 .....         2414          735  sbapp331g\HELP.md
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\test
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\test\java
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\test\java\ashburncode
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\test\java\ashburncode\sbapp331g
+2024-06-27 22:06:25 .....          224          160  sbapp331g\src\test\java\ashburncode\sbapp331g\Sbapp331grajarj17ApplicationTests.java
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main\java
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main\java\ashburncode
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main\java\ashburncode\sbapp331g
+2024-06-27 22:06:25 .....          336          180  sbapp331g\src\main\java\ashburncode\sbapp331g\Sbapp331grajarj17Application.java
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main\resources
+2024-06-27 22:06:25 .....           42           43  sbapp331g\src\main\resources\application.properties
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main\resources\templates
+2024-06-27 22:06:25 D....            0            2  sbapp331g\src\main\resources\static
+2024-06-27 22:06:25 .....         8706         3696  sbapp331g\gradlew
+2024-06-27 22:06:25 .....           31           33  sbapp331g\settings.gradle
+2024-06-27 22:06:25 .....         2918         1220  sbapp331g\gradlew.bat
+------------------- ----- ------------ ------------  ------------------------
+2024-06-27 22:06:25              59906        45615  11 files, 15 folders
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>tree /a /f sbapp2717g
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:\USERS\DAVIDHOLBERTON\SBPROJS\SBAPP2717G
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   HELP.md
+|   settings.gradle
+|
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---ashburncode
+    |   |       \---sbapp2717g
+    |   |               Sbapp2717grajarj17Application.java
+    |   |
+    |   \---resources
+    |       |   application.properties
+    |       |
+    |       +---static
+    |       \---templates
+    \---test
+        \---java
+            \---ashburncode
+                \---sbapp2717g
+                        Sbapp2717grajarj17ApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs>tree /a /f sbapp327g
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:\USERS\DAVIDHOLBERTON\SBPROJS\SBAPP327G
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   HELP.md
+|   settings.gradle
+|
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---ashburncode
+    |   |       \---sbapp327g
+    |   |               Application.java
+    |   |
+    |   \---resources
+    |       |   application.properties
+    |       |
+    |       +---static
+    |       \---templates
+    \---test
+        \---java
+            \---ashburncode
+                \---sbapp327g
+                        ApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs>tree /a /f sbapp331g
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:\USERS\DAVIDHOLBERTON\SBPROJS\SBAPP331G
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   HELP.md
+|   settings.gradle
+|
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---ashburncode
+    |   |       \---sbapp331g
+    |   |               Sbapp331grajarj17Application.java
+    |   |
+    |   \---resources
+    |       |   application.properties
+    |       |
+    |       +---static
+    |       \---templates
+    \---test
+        \---java
+            \---ashburncode
+                \---sbapp331g
+                        Sbapp331grajarj17ApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>sbapp2717g\gradlew --version
+Downloading https://services.gradle.org/distributions/gradle-8.4-bin.zip
+............10%............20%.............30%............40%.............50%............60%.............70%............80%.............90%............100%
+
+Welcome to Gradle 8.4!
+
+Here are the highlights of this release:
+ - Compiling and testing with Java 21
+ - Faster Java compilation on Windows
+ - Role focused dependency configurations creation
+
+For more details see https://docs.gradle.org/8.4/release-notes.html
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>sbapp327g\gradlew --version
+Downloading https://services.gradle.org/distributions/gradle-8.8-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%..............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.8!
+
+Here are the highlights of this release:
+ - Running Gradle on Java 22
+ - Configurable Gradle daemon JVM
+ - Improved IDE performance for large projects
+
+For more details see https://docs.gradle.org/8.8/release-notes.html
+
+------------------------------------------------------------
+Gradle 8.8
+------------------------------------------------------------
+
+Build time:   2024-05-31 21:46:56 UTC
+Revision:     4bd1b3d3fc3f31db5a26eecb416a165b8cc36082
+
+Kotlin:       1.9.22
+Groovy:       3.0.21
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>sbapp331g\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.8
+------------------------------------------------------------
+
+Build time:   2024-05-31 21:46:56 UTC
+Revision:     4bd1b3d3fc3f31db5a26eecb416a165b8cc36082
+
+Kotlin:       1.9.22
+Groovy:       3.0.21
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\sbapp2717g>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2024-06-28 08:12:20.726  INFO 26700 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.7 on dphxps17 with PID 26700 (C:\Users\DavidHolberton\sbprojs\sbapp2717g\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\sbapp2717g)
+2024-06-28 08:12:20.728  INFO 26700 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2024-06-28 08:12:21.246  INFO 26700 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-28 08:12:21.253  INFO 26700 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-28 08:12:21.253  INFO 26700 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-06-28 08:12:21.311  INFO 26700 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-28 08:12:21.312  INFO 26700 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 555 ms
+2024-06-28 08:12:21.503  INFO 26700 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-28 08:12:21.509  INFO 26700 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.028 seconds (JVM running for 1.23)
+<==========---> 80% EXECUTING [49s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\sbapp327g>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.7)
+
+2024-06-28T08:35:32.448-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] ashburncode.sbapp327g.Application        : Starting Application using Java 17.0.7 with PID 37116 (C:\Users\DavidHolberton\sbprojs\sbapp327g\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\sbapp327g)
+2024-06-28T08:35:32.450-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] ashburncode.sbapp327g.Application        : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T08:35:32.484-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-28T08:35:32.484-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-28T08:35:33.257-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-28T08:35:33.265-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-28T08:35:33.265-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-28T08:35:33.300-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-28T08:35:33.300-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2024-06-28T08:35:33.614-04:00  WARN 37116 --- [ashburncode.sbapp327g] [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration :
+
+Using generated security password: 6c3dafc6-f07b-42f2-84a3-1989486ae7e1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-28T08:35:33.683-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-28T08:35:33.690-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1119678c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a2e9313, org.springframework.security.web.context.SecurityContextHolderFilter@28c5683c, org.springframework.security.web.header.HeaderWriterFilter@27668cc0, org.springframework.web.filter.CorsFilter@6a02bfbe, org.springframework.security.web.csrf.CsrfFilter@4669e411, org.springframework.security.web.authentication.logout.LogoutFilter@47881c3a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@542cef6a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@50032a92, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f0910c7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@69da4ac6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6670c42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@232b4fc9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15f62bad, org.springframework.security.web.access.ExceptionTranslationFilter@782e8801, org.springframework.security.web.access.intercept.AuthorizationFilter@26804db3]
+2024-06-28T08:35:33.715-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-28T08:35:33.747-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-28T08:35:33.758-04:00  INFO 37116 --- [ashburncode.sbapp327g] [  restartedMain] ashburncode.sbapp327g.Application        : Started Application in 1.543 seconds (process running for 1.801)
+<==========---> 80% EXECUTING [30s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+C:\Users\DavidHolberton\sbprojs\sbapp331g>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-06-28T08:38:48.673-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] a.s.Sbapp331grajarj17Application         : Starting Sbapp331grajarj17Application using Java 17.0.7 with PID 13704 (C:\Users\DavidHolberton\sbprojs\sbapp331g\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\sbapp331g)
+2024-06-28T08:38:48.678-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] a.s.Sbapp331grajarj17Application         : No active profile set, falling back to 1 default profile: "default"
+2024-06-28T08:38:48.743-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-28T08:38:48.743-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-28T08:38:50.223-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-28T08:38:50.236-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-28T08:38:50.237-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-28T08:38:50.294-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-28T08:38:50.295-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1550 ms
+2024-06-28T08:38:51.058-04:00  WARN 13704 --- [sbapp331grajarj17] [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration :
+
+Using generated security password: 19be9dc3-7985-4c7d-bef7-88a3a0aff8b6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-28T08:38:51.080-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-06-28T08:38:51.179-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-28T08:38:51.240-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-28T08:38:51.279-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-28T08:38:51.292-04:00  INFO 13704 --- [sbapp331grajarj17] [  restartedMain] a.s.Sbapp331grajarj17Application         : Started Sbapp331grajarj17Application in 3.095 seconds (process running for 3.584)
+<==========---> 80% EXECUTING [10s]
+> :bootRun
+Terminate batch job (Y/N)? y
+
+C:\Users\DavidHolberton\sbprojs\sbapp331g>code .
+
+C:\Users\DavidHolberton\sbprojs\sbapp331g>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
