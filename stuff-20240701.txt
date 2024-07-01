@@ -1,0 +1,270 @@
+7:23 AM 7/1/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240701.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.oracle.com/java/technologies/downloads/
+https://www.oracle.com/java/technologies/downloads/#java11
+
+JDK Development Kit 22.0.1 downloads
+
+07/01/2024  07:26 AM       193,080,199 jdk-22_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.msi.sha256
+
+JDK Development Kit 21.0.3 downloads
+
+07/01/2024  07:26 AM       193,080,199 jdk-22_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21_windows-x64_bin(1).zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21_windows-x64_bin(1).exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21_windows-x64_bin(1).msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+
+JDK Development Kit 17.0.11 downloads
+
+07/01/2024  07:26 AM       193,080,199 jdk-22_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21_windows-x64_bin(1).zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21_windows-x64_bin(1).exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21_windows-x64_bin(1).msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+07/01/2024  07:33 AM       181,221,684 jdk-17_windows-x64_bin(1).zip
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.zip.sha256
+07/01/2024  07:33 AM       161,382,008 jdk-17_windows-x64_bin(1).exe
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.exe.sha256
+07/01/2024  07:34 AM       160,075,776 jdk-17_windows-x64_bin(1).msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+
+Java SE Development Kit 11.0.23
+
+07/01/2024  07:26 AM       193,080,199 jdk-22_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21_windows-x64_bin(1).zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21_windows-x64_bin(1).exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21_windows-x64_bin(1).msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+07/01/2024  07:33 AM       181,221,684 jdk-17_windows-x64_bin(1).zip
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.zip.sha256
+07/01/2024  07:33 AM       161,382,008 jdk-17_windows-x64_bin(1).exe
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.exe.sha256
+07/01/2024  07:34 AM       160,075,776 jdk-17_windows-x64_bin(1).msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+07/01/2024  07:38 AM       148,584,056 jdk-11.0.23_windows-x64_bin.exe
+07/01/2024  07:39 AM       167,206,166 jdk-11.0.23_windows-x64_bin.zip
+
+Java SE Development Kit 8u411
+
+07/01/2024  07:26 AM       193,080,199 jdk-22_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21_windows-x64_bin(1).zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21_windows-x64_bin(1).exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21_windows-x64_bin(1).msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+07/01/2024  07:33 AM       181,221,684 jdk-17_windows-x64_bin(1).zip
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.zip.sha256
+07/01/2024  07:33 AM       161,382,008 jdk-17_windows-x64_bin(1).exe
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.exe.sha256
+07/01/2024  07:34 AM       160,075,776 jdk-17_windows-x64_bin(1).msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+07/01/2024  07:38 AM       148,584,056 jdk-11.0.23_windows-x64_bin.exe
+07/01/2024  07:39 AM       167,206,166 jdk-11.0.23_windows-x64_bin.zip
+07/01/2024  07:42 AM       147,864,168 jdk-8u411-windows-i586.exe
+07/01/2024  07:42 AM       157,865,576 jdk-8u411-windows-x64.exe
+07/01/2024  07:43 AM            12,382 8u411checksum.html
+
+ren jdk-22_windows-x64_bin.zip jdk-22.0.1_windows-x64_bin.zip
+ren jdk-22_windows-x64_bin.exe jdk-22.0.1_windows-x64_bin.exe
+ren jdk-22_windows-x64_bin.msi jdk-22.0.1_windows-x64_bin.msi
+
+ren jdk-22_windows-x64_bin.zip.sha256 jdk-22.0.1_windows-x64_bin.zip.sha256
+ren jdk-22_windows-x64_bin.exe.sha256 jdk-22.0.1_windows-x64_bin.exe.sha256
+ren jdk-22_windows-x64_bin.msi.sha256 jdk-22.0.1_windows-x64_bin.msi.sha256
+
+ren "jdk-21_windows-x64_bin(1).zip" jdk-21.0.3_windows-x64_bin.zip
+ren "jdk-21_windows-x64_bin(1).exe" jdk-21.0.3_windows-x64_bin.exe
+ren "jdk-21_windows-x64_bin(1).msi" jdk-21.0.3_windows-x64_bin.msi
+
+ren "jdk-17_windows-x64_bin(1).zip" jdk-17.0.11_windows-x64_bin.zip
+ren "jdk-17_windows-x64_bin(1).exe" jdk-17.0.11_windows-x64_bin.exe
+ren "jdk-17_windows-x64_bin(1).msi" jdk-17.0.11_windows-x64_bin.msi
+
+07/01/2024  07:34 AM       160,075,776 jdk-17.0.11_windows-x64_bin.msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+07/01/2024  07:38 AM       148,584,056 jdk-11.0.23_windows-x64_bin.exe
+07/01/2024  07:39 AM       167,206,166 jdk-11.0.23_windows-x64_bin.zip
+07/01/2024  07:42 AM       147,864,168 jdk-8u411-windows-i586.exe
+07/01/2024  07:42 AM       157,865,576 jdk-8u411-windows-x64.exe
+07/01/2024  07:43 AM            12,382 8u411checksum.html
+07/01/2024  07:44 AM             7,456 11-0-23-checksum.html
+
+ren 8u411checksum.html jdk-8u411-windows-checksum.html
+ren 11-0-23-checksum.html jdk-11.0.23_windows-checksum.html
+
+07/01/2024  07:26 AM       193,080,199 jdk-22.0.1_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22.0.1_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22.0.1_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22.0.1_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22.0.1_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22.0.1_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21.0.3_windows-x64_bin.zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21.0.3_windows-x64_bin.exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21.0.3_windows-x64_bin.msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+07/01/2024  07:33 AM       181,221,684 jdk-17.0.11_windows-x64_bin.zip
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.zip.sha256
+07/01/2024  07:33 AM       161,382,008 jdk-17.0.11_windows-x64_bin.exe
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.exe.sha256
+07/01/2024  07:34 AM       160,075,776 jdk-17.0.11_windows-x64_bin.msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+07/01/2024  07:38 AM       148,584,056 jdk-11.0.23_windows-x64_bin.exe
+07/01/2024  07:39 AM       167,206,166 jdk-11.0.23_windows-x64_bin.zip
+07/01/2024  07:42 AM       147,864,168 jdk-8u411-windows-i586.exe
+07/01/2024  07:42 AM       157,865,576 jdk-8u411-windows-x64.exe
+07/01/2024  07:43 AM            12,382 jdk-8u411-windows-checksum.html
+07/01/2024  07:44 AM             7,456 jdk-11.0.23_windows-checksum.html
+             561 File(s) 89,049,092,885 bytes
+              11 Dir(s)  511,533,649,920 bytes free
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+
+https://code.visualstudio.com/docs/languages/java
+
+We recommend you to consider installing the JDK from one of these sources:
+
+    Amazon Corretto
+    Azul Zulu
+    Eclipse Adoptium's Temurin
+    IBM Semeru Runtimes
+    Microsoft Build of OpenJDK
+    Oracle Java SE
+    Red Hat build of OpenJDK
+    SapMachi
+
+https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc
+https://www.azul.com/downloads/?package=jdk#zulu
+https://adoptium.net/
+https://www.microsoft.com/openjdk
+https://www.oracle.com/java/technologies/downloads/?er=221886
+https://developers.redhat.com/products/openjdk/download
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-06/R/eclipse-jee-2024-06-R-win32-x86_64.zip
+https://www.eclipse.org/downloads/packages/release/2024-06/r/eclipse-ide-java-developers
+
+https://spring.io/guides/gs/sts
+https://spring.io/tools
+
+https://www.jetbrains.com/ides/
+https://www.jetbrains.com/idea/
+https://www.jetbrains.com/idea/download/?section=windows
+
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+07/01/2024  07:26 AM       193,080,199 jdk-22.0.1_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22.0.1_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22.0.1_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22.0.1_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22.0.1_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22.0.1_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21.0.3_windows-x64_bin.zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21.0.3_windows-x64_bin.exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21.0.3_windows-x64_bin.msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+07/01/2024  07:33 AM       181,221,684 jdk-17.0.11_windows-x64_bin.zip
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.zip.sha256
+07/01/2024  07:33 AM       161,382,008 jdk-17.0.11_windows-x64_bin.exe
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.exe.sha256
+07/01/2024  07:34 AM       160,075,776 jdk-17.0.11_windows-x64_bin.msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+07/01/2024  07:38 AM       148,584,056 jdk-11.0.23_windows-x64_bin.exe
+07/01/2024  07:39 AM       167,206,166 jdk-11.0.23_windows-x64_bin.zip
+07/01/2024  07:42 AM       147,864,168 jdk-8u411-windows-i586.exe
+07/01/2024  07:42 AM       157,865,576 jdk-8u411-windows-x64.exe
+07/01/2024  07:43 AM            12,382 jdk-8u411-windows-checksum.html
+07/01/2024  07:44 AM             7,456 jdk-11.0.23_windows-checksum.html
+07/01/2024  08:07 AM       100,596,664 VSCodeUserSetup-x64-1.90.2.exe
+07/01/2024  08:08 AM       100,596,448 VSCodeSetup-x64-1.90.2.exe
+07/01/2024  08:08 AM       139,378,832 VSCode-win32-x64-1.90.2.zip
+07/01/2024  08:15 AM       556,345,220 eclipse-jee-2024-06-R-win32-x86_64.zip
+07/01/2024  08:17 AM               170 eclipse-jee-2024-06-R-win32-x86_64.zip.sha512
+07/01/2024  08:17 AM       344,447,294 eclipse-java-2024-06-R-win32-x86_64.zip
+07/01/2024  08:18 AM               171 eclipse-java-2024-06-R-win32-x86_64.zip.sha512
+07/01/2024  08:21 AM       681,019,289 spring-tool-suite-4-4.23.1.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+07/01/2024  08:26 AM     1,003,067,264 ideaIU-2024.1.4.exe
+07/01/2024  08:26 AM                86 ideaIU-2024.1.4.exe.sha256
+07/01/2024  08:26 AM     1,336,732,334 ideaIU-2024.1.4.win.zip
+07/01/2024  08:27 AM                90 ideaIU-2024.1.4.win.zip.sha256
+07/01/2024  08:27 AM       598,125,080 ideaIC-2024.1.4.exe
+07/01/2024  08:27 AM                86 ideaIC-2024.1.4.exe.sha256
+07/01/2024  08:28 AM       841,156,074 ideaIC-2024.1.4.win.zip
+07/01/2024  08:28 AM                90 ideaIC-2024.1.4.win.zip.sha256
+             577 File(s) 94,750,558,077 bytes
+              11 Dir(s)  505,034,616,832 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
