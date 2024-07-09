@@ -1,0 +1,48 @@
+7:11 AM 7/7/2024
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240707.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+
+
+cd C:\Users\DavidHolberton\sbprojs
+
+ren promslite promslite-orig
+rmdir /s /q httpsucapp
+rmdir /s /q asynchcapp
+rmdir /s /q apachehcapp
+
+git remote add origin git@github.com:ashburndev/httpsucapp.git
+git branch -M main
+git push -u origin main
+
+git remote add origin git@github.com:ashburndev/asynchcapp.git
+git branch -M main
+git push -u origin main
+
+git remote add origin git@github.com:ashburndev/apachehcapp.git
+git branch -M main
+git push -u origin main
+
+
+

@@ -1,0 +1,316 @@
+7:57 AM 7/5/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240705.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs
+
+06/02/2023  08:41 AM    <DIR>          myapp
+06/04/2023  08:29 AM    <DIR>          demo
+06/21/2023  08:09 AM    <DIR>          sb3110demo
+03/08/2024  09:06 AM    <DIR>          tutorials
+04/18/2024  07:53 AM    <DIR>          promslite     promslite-orig
+04/22/2024  06:21 AM    <DIR>          hucapp
+06/06/2024  11:59 AM    <DIR>          httpsucapp    delete
+06/21/2024  09:37 AM    <DIR>          ..
+06/27/2024  08:12 AM    <DIR>          ahcapp
+06/28/2024  07:55 AM    <DIR>          .
+06/28/2024  08:10 AM    <DIR>          sbapp2717g
+06/28/2024  08:23 AM    <DIR>          sbapp327g
+06/28/2024  08:27 AM    <DIR>          sbapp331g
+06/01/2023  06:14 AM            67,807 demo.zip
+06/21/2023  08:04 AM            68,050 sb3110demo.zip
+11/17/2023  09:18 AM            70,937 sbapp2717g.zip
+04/18/2024  06:44 AM            52,609 promslite.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+04/18/2024  07:28 AM             2,770 ashburncode.jks
+04/18/2024  07:31 AM             2,770 ashburncode.p12
+06/06/2024  11:48 AM            52,536 httpsucapp.zip
+06/06/2024  11:50 AM            52,535 asynchcapp.zip
+06/06/2024  11:51 AM            52,604 apachehcapp.zip
+06/27/2024  10:02 PM            52,191 sbapp327g.zip
+06/27/2024  10:06 PM            52,275 sbapp331g.zip
+              13 File(s)        631,479 bytes
+              13 Dir(s)  493,477,478,400 bytes free
+
+C:\Users\DavidHolberton\sbprojs>
+
+ren promslite promslite-orig
+rmdir /s /q httpsucapp
+rmdir /s /q asynchcapp
+rmdir /s /q apachehcapp
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>
+
+06/21/2023  08:04 AM            68,050 sb310demo.zip
+04/18/2024  06:44 AM            52,609 promslite-orig.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+
+             143 File(s) 43,948,798,053 bytes
+               0 Dir(s)  500,272,836,608 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+
+cd C:\Users\DavidHolberton\Downloads
+copy /Y httpsucapp.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y asynchcapp.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y apachehcapp.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y actionslite.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y annotationslite.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y buddieslite.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y pandalite.zip   C:\Users\DavidHolberton\sbprojs
+copy /Y promslite.zip   C:\Users\DavidHolberton\sbprojs
+
+cd C:\Users\DavidHolberton\sbprojs
+rmdir /s /q httpsucapp
+rmdir /s /q asynchcapp
+rmdir /s /q apachehcapp
+rmdir /s /q actionslite
+rmdir /s /q annotationslite
+rmdir /s /q buddieslite
+rmdir /s /q pandalite
+rmdir /s /q promslite
+
+cd C:\Users\DavidHolberton\sbprojs
+7z x httpsucapp.zip
+7z x asynchcapp.zip
+7z x apachehcapp.zip
+7z x actionslite.zip
+7z x annotationslite.zip
+7z x buddieslite.zip
+7z x pandalite.zip
+7z x promslite.zip
+
+
+06/30/2024  09:02 AM    <DIR>          httpsucapp
+06/30/2024  09:02 AM    <DIR>          asynchcapp
+06/30/2024  09:03 AM    <DIR>          apachehcapp
+06/30/2024  09:03 AM    <DIR>          actionslite
+06/30/2024  09:04 AM    <DIR>          annotationslite
+06/30/2024  09:04 AM    <DIR>          buddieslite
+06/30/2024  09:04 AM    <DIR>          pandalite
+06/30/2024  09:05 AM    <DIR>          promslite
+
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/httpsucapp.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/asynchcapp.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/apachehcapp.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/actionslite.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/annotationslite.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/buddieslite.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/pandalite.git
+git branch -M main
+git push -u origin main
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+git init
+git add .
+git commit -a -m "first commit"
+git status
+git remote add origin git@github.com:ashburndev/promslite.git
+git branch -M main
+git push -u origin main
+git status
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+actionslite
+
+http://localhost:8080/
+http://localhost:8080/actuator
+http://localhost:8080/actuator/health
+http://localhost:8080/actuator/info
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+code .
+git status
+git add .
+git commit -a -m "basic 8080 http config"
+.\gradlew\bootRun
+
+C:\Users\DavidHolberton\sbprojs\actionslite>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   build.gradle
+        modified:   src/main/resources/application.properties
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\DavidHolberton\sbprojs\actionslite>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-05T09:57:05.023-04:00  INFO 22272 --- [actionslite] [           main] a.actionslite.ActionsliteApplication     : Starting ActionsliteApplication using Java 17.0.7 with PID 22272 (C:\Users\DavidHolberton\sbprojs\actionslite\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\actionslite)
+2024-07-05T09:57:05.026-04:00  INFO 22272 --- [actionslite] [           main] a.actionslite.ActionsliteApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-07-05T09:57:05.750-04:00  INFO 22272 --- [actionslite] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-05T09:57:05.758-04:00  INFO 22272 --- [actionslite] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-05T09:57:05.758-04:00  INFO 22272 --- [actionslite] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-05T09:57:05.796-04:00  INFO 22272 --- [actionslite] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-05T09:57:05.797-04:00  INFO 22272 --- [actionslite] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 736 ms
+2024-07-05T09:57:06.126-04:00  INFO 22272 --- [actionslite] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-07-05T09:57:06.163-04:00  INFO 22272 --- [actionslite] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-05T09:57:06.173-04:00  INFO 22272 --- [actionslite] [           main] a.actionslite.ActionsliteApplication     : Started ActionsliteApplication in 1.4 seconds (process running for 1.626)
+<==========---> 80% EXECUTING [20s]
+> :bootRun
+
+{"java":{"version":"17.0.7","vendor":{"name":"Oracle Corporation"},"runtime":{"name":"Java(TM) SE Runtime Environment","version":"17.0.7+8-LTS-224"},"jvm":{"name":"Java HotSpot(TM) 64-Bit Server VM","vendor":"Oracle Corporation","version":"17.0.7+8-LTS-224"}},"os":{"name":"Windows 11","version":"10.0","arch":"amd64"}}
+
+{
+  "java": {
+    "version": "17.0.7",
+    "vendor": {
+      "name": "Oracle Corporation"
+    },
+    "runtime": {
+      "name": "Java(TM) SE Runtime Environment",
+      "version": "17.0.7+8-LTS-224"
+    },
+    "jvm": {
+      "name": "Java HotSpot(TM) 64-Bit Server VM",
+      "vendor": "Oracle Corporation",
+      "version": "17.0.7+8-LTS-224"
+    }
+  },
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+annotationslite
+
+http://localhost:8080/
+http://localhost:8080/actuator
+http://localhost:8080/actuator/health
+http://localhost:8080/actuator/info
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+code .
+git status
+git add .
+git commit -a -m "basic 8080 http config"
+.\gradlew\bootRun
+
+
+
+
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+buddieslite
+pandalite
+promslite
+
+

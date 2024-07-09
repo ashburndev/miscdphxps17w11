@@ -1,0 +1,216 @@
+5:46 AM 7/9/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+spring boot change context path
+
+https://www.baeldung.com/spring-boot-context-path
+Last updated: May 11, 2024
+server.servlet.context-path=/baeldung
+
+https://mkyong.com/spring-boot/spring-boot-how-to-change-context-path/
+By mkyong | Updated: December 3, 2016
+server.port=8080
+server.contextPath=/mkyong
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+httpsurlconnection disable hostname verification
+
+https://pankajmalhotra.com/Skip-SSL-HostName-Verification-Java-HttpsURLConnection
+
+import android.util.Log;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.lang.Exception;
+import java.net.URL;
+
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLSession;
+
+public class SkipVerification implements Runnable {
+
+    private static final String TAG = SkipVerification.class.toString();
+    private String server_port;
+    private String serverIP;
+
+    public SkipVerification(String serverIP, String server_port){
+        this.serverIP = serverIP;
+        this.server_port = server_port;
+    }
+
+    public void run() {
+        try {
+            HostnameVerifier hostnameVerifier = new HostnameVerifier() {
+                @Override
+                public boolean verify(String hostname, SSLSession session) {
+                    return true;
+                }
+            };
+
+            URL url = new URL("https://" + serverIP + ":" + server_port + "/json");
+            InputStream inStream = null;
+
+            try {
+                HttpsURLConnection urlConnection = (HttpsURLConnection)url.openConnection();
+                urlConnection.setRequestProperty("Content-Type", "application/json");
+                urlConnection.setHostnameVerifier(hostnameVerifier);
+                inStream = urlConnection.getInputStream();
+                BufferedReader reader = new BufferedReader(new InputStreamReader(inStream));
+            } catch (Exception e) {
+                Log.e(TAG, "error fetching data from server", e);
+            } finally {
+                if (inStream != null) {
+                    inStream.close();
+                }
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "error initializing SkipVerificationn thread", e);
+        }
+    }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+code .
+server.port=8081
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+code .
+server.port=8081
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+code .
+server.port=8081
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+code .
+server.port=8080
+server.servlet.context-path=/actions
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+http://localhost:8080/actions/actuator
+http://localhost:8080/actions/actuator/health
+
+http://localhost:8080/proms/actuator
+http://localhost:8080/proms/actuator/health
+
+C:\Users\DavidHolberton>curl -k http://localhost:8080/actions/actuator/health
+{"status":"UP"}
+C:\Users\DavidHolberton>
+	
+C:\Users\DavidHolberton>curl -k http://localhost:8080/proms/actuator/health
+{"status":"UP"}
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+
+.\gradlew clean
+.\gradlew bootJar
+java -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar
+
+java -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240709a.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240709b.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar 2> httpsucapp-actions-test-20240709c.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar 2>&1 httpsucapp-actions-test-20240709d.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240709e.txt 2>&1
+
+java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3 -Dorg.asynchttpclient.enabledCipherSuites=TLS_AES_256_GCM_SHA384 -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240709f.txt 2>&1
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+git status
+git add .
+git commit -a -m "misc changes"
+git status
+git push
+git status
+
