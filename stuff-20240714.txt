@@ -1,0 +1,760 @@
+11:26 AM 7/14/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240714.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+
+https://code.visualstudio.com/updates/v1_91
+June 2024 (version 1.91)
+Update 1.91.1: The update addresses these issues.
+
+https://code.visualstudio.com/docs/supporting/faq#_previous-release-versions
+
+07/14/2024  11:30 AM        99,546,648 VSCodeUserSetup-x64-1.91.1.exe
+07/14/2024  11:30 AM        99,546,416 VSCodeSetup-x64-1.91.1.exe
+07/14/2024  11:31 AM       137,738,578 VSCode-win32-x64-1.91.1.zip
+
+Windows User Installer (x64)	38c04974aa9536558e14dc8baab7dc434cf7d309733959065ec51f8df82c00ea
+Windows System Installer (x64)	c15a0b510aee7c91ee488c76012c936f08a0c7f36afb54375ac917d887c02e5d
+Windows .zip (x64)	2219d70ba87a09fac51cb5574a108d23c98b766962292126cef7c92b9db666b9
+Windows CLI (x64)	bdae19aee43e3845c5d5507e642ce8d1f22380710a1131aea0f0e57e88062f1c
+Windows User Installer (Arm64)	9a0fdd4e130eb86011a3369fc2fa6afa0d00ede1f031483139a4e098e86e80c8
+Windows .zip (Arm64)	2672e6abe85f068f8af87728566d7756bd4222011773f76781a9c59bcecda189
+Windows System Installer (Arm64)	a171a8dffcdd6ae344850e6fcd5df16a312d2642287ba79c79fcfb3c79ceb65c
+Windows CLI (Arm64)	cf4f42ebda181f766d825cc9e962d19a33a3776812fa8ad334263b7cd8e8afdf
+Linux .deb (x64)	31a13c05295f3349d3dc168d9c67dda4fcf30823fe3c34f215f0324d197f5479
+Linux .rpm (x64)	78a3d2d0a956f85710aadee2befcca1e3c67766f3930cd34d13a201141caa6f8
+Linux .tar.gz (x64)	8049c311aadce5893c1311db0b9254df6c1d44fe7f7281976a9d21563987f045
+Linux CLI (x64)	a2c9dae4f02c79118a706ad1a4e4982728bd71d8283fa845eaf3311ba2043192
+Linux .tar.gz (Arm32)	79329f572a2262fb7908996570859f2d90253c14a64ba93dca38e68ff106bb89
+Linux .deb (Arm32)	0d1d08639b3f04a5ead71a9784fc350f6671fbec35bf93f6df3a2133832832bc
+Linux .rpm (Arm32)	955897eb33e4b5d3170f4e11fbf45c5cbdd1c8961249a2adbaf00c987951a7af
+Linux CLI (Arm32)	0052728a9bac84f413137ba682928996d6f5ea40e051b17e9f38dee228911d41
+Linux .tar.gz (Arm64)	c9730ddc7dd62eebe83dd8c13761dce283121b4d25344de909d005da51280e58
+Linux .deb (Arm64)	4021f51ae1dfdb11953a0d0814c82e1dbf4569f14fc9ddea70dc4f4b74cd7765
+Linux .rpm (Arm64)	055b6898a128cad8e1f17fd2a970481658de59056e2d826324cd589ef60cc0f2
+Linux CLI (Arm64)	30ad3b357ec0db0e5b6942ea1373e2a2b03b49f9681e4ee5822cf424db5d97e6
+Mac for Apple silicon	2c1046c5ba3d700c7d0c3ac92dd1cbb8b687cfdb54dac1801ca0d3e59341630f
+Mac CLI for Apple silicon	4a8e4857c5759b0bb991cb9ae83491a682a6b9a7c3c48877061ca3e35f82ac54
+Mac for Intel chip	9ef96ee86499fb63a3a848f7c6f89df5ed84cecb0e09b0d42175a7153be077b9
+Mac CLI for Intel chip	bc27332f87ebda500797ea30722820dccc9fe252e36be6d0c417b2c634985987
+Mac Universal Build	8729fb796f92705e63f16c8d1e2aebdceeb9b6905b929dbf77b0f4daa9cea0ed
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+1. delete repos
+2. create repos over again
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd *app*.zip
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+               8 File(s)        419,057 bytes
+               0 Dir(s)  489,796,534,272 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+04/18/2024  06:44 AM            52,609 promslite-orig.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+
+C:\Users\DavidHolberton\sbprojs>
+C:\Users\DavidHolberton\sbprojs>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs
+
+06/02/2023  08:41 AM    <DIR>          myapp
+06/04/2023  08:29 AM    <DIR>          demo
+06/21/2023  08:09 AM    <DIR>          sb3110demo
+03/08/2024  09:06 AM    <DIR>          tutorials
+04/18/2024  07:53 AM    <DIR>          promslite-orig
+04/22/2024  06:21 AM    <DIR>          hucapp
+06/27/2024  08:12 AM    <DIR>          ahcapp
+06/28/2024  08:10 AM    <DIR>          sbapp2717g
+06/28/2024  08:23 AM    <DIR>          sbapp327g
+06/28/2024  08:27 AM    <DIR>          sbapp331g
+07/05/2024  09:49 AM    <DIR>          actionslite
+07/07/2024  07:35 AM    <DIR>          .
+07/07/2024  07:37 AM    <DIR>          asynchcapp
+07/07/2024  07:37 AM    <DIR>          apachehcapp
+07/09/2024  06:02 AM    <DIR>          annotationslite
+07/09/2024  08:06 AM    <DIR>          httpsucapp
+07/09/2024  08:20 AM    <DIR>          buddieslite
+07/09/2024  08:21 AM    <DIR>          pandalite
+07/09/2024  08:22 AM    <DIR>          promslite
+07/14/2024  11:25 AM    <DIR>          ..
+06/01/2023  06:14 AM            67,807 demo.zip
+06/21/2023  08:04 AM            68,050 sb3110demo.zip
+11/17/2023  09:18 AM            70,937 sbapp2717g.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+04/18/2024  07:28 AM             2,770 ashburncode.jks
+04/18/2024  07:31 AM             2,770 ashburncode.p12
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/27/2024  10:02 PM            52,191 sbapp327g.zip
+06/27/2024  10:06 PM            52,275 sbapp331g.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+              20 File(s)        997,718 bytes
+              20 Dir(s)  489,796,640,768 bytes free
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs
+
+07/07/2024  07:37 AM    <DIR>          asynchcapp
+07/07/2024  07:37 AM    <DIR>          apachehcapp
+07/09/2024  06:02 AM    <DIR>          annotationslite
+07/09/2024  08:06 AM    <DIR>          httpsucapp
+07/09/2024  08:20 AM    <DIR>          buddieslite
+07/09/2024  08:21 AM    <DIR>          pandalite
+07/09/2024  08:22 AM    <DIR>          promslite
+
+07/05/2024  09:49 AM    <DIR>          actionslite
+07/07/2024  07:35 AM    <DIR>          .
+07/07/2024  07:37 AM    <DIR>          asynchcapp
+07/07/2024  07:37 AM    <DIR>          apachehcapp
+07/09/2024  06:02 AM    <DIR>          annotationslite
+07/09/2024  08:06 AM    <DIR>          httpsucapp
+07/09/2024  08:20 AM    <DIR>          buddieslite
+07/09/2024  08:21 AM    <DIR>          pandalite
+07/09/2024  08:22 AM    <DIR>          promslite
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\actionslite\src\main\resources>type application.properties
+spring.application.name=actionslite
+
+server.port=8080
+server.servlet.context-path=/actions
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\sbprojs\actionslite\src\main\resources>
+
+type C:\Users\DavidHolberton\sbprojs\httpsucapp\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\asynchcapp\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\apachehcapp\src\main\resources\application.properties
+
+type C:\Users\DavidHolberton\sbprojs\actionslite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\annotationslite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\buddieslite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\pandalite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\promslite\src\main\resources\application.properties
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+dir /o:gd
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+dir /o:gd
+code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+grails --version
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+grails --version
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs
+
+ren httpsucapp   httpsucapp-save2
+ren asynchcapp   asynchcapp-save2
+ren apachehcapp  apachehcapp-save2
+
+cd C:\Users\DavidHolberton\sbprojs
+
+7z l httpsucapp.zip
+7z l asynchcapp.zip
+7z l apachehcapp.zip
+
+cd C:\Users\DavidHolberton\sbprojs
+
+7z x httpsucapp.zip
+7z x asynchcapp.zip
+7z x apachehcapp.zip
+
+cd C:\Users\DavidHolberton\sbprojs
+
+rmdir /s /q httpsucapp
+rmdir /s /q asynchcapp
+rmdir /s /q apachehcapp
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8080.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8080.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8080.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/httpsucapp.git
+git branch -M main
+git push -u origin main
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/asynchcapp.git
+git branch -M main
+git push -u origin main
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/apachehcapp.git
+git branch -M main
+git push -u origin main
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs
+
+ren actionslite     actionslite-save2
+ren annotationslite annotationslite-save2
+ren buddieslite     buddieslite-save2
+ren pandalite       pandalite-save2
+ren promslite       promslite-save2
+
+cd C:\Users\DavidHolberton\sbprojs
+
+7z l actionslite.zip
+7z l annotationslite.zip
+7z l buddieslite.zip
+7z l pandalite.zip
+7z l promslite.zip
+
+cd C:\Users\DavidHolberton\sbprojs
+
+7z x actionslite.zip
+7z x annotationslite.zip
+7z x buddieslite.zip
+7z x pandalite.zip
+7z x promslite.zip
+
+cd C:\Users\DavidHolberton\sbprojs
+
+rmdir /s /q actionslite
+rmdir /s /q annotationslite
+rmdir /s /q buddieslite
+rmdir /s /q pandalite
+rmdir /s /q promslite
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8081.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8081.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8081.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8081.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+dir /o:gd   > readme.txt
+tree /a /f >> readme.txt
+type ..\application.properties.8081.txt >> src\main\resources\application.properties
+copy /y ..\build.gradle build.gradle
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/actionslite.git
+git branch -M main
+git push -u origin main
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/annotationslite.git
+git branch -M main
+git push -u origin main
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/buddieslite.git
+git branch -M main
+git push -u origin main
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/pandalite.git
+git branch -M main
+git push -u origin main
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+git init
+git add .
+git commit -a -m "initial commit"
+git status
+
+git remote add origin git@github.com:ashburndev/promslite.git
+git branch -M main
+git push -u origin main
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/spring-boot-https-self-signed-certificate
+https://www.baeldung.com/spring-channel-security-https
+https://www.thomasvitale.com/https-spring-boot-ssl-certificate/
+
+  server:
+    ssl:
+      key-store: classpath:keystore.p12
+      key-store-password: password
+      key-store-type: pkcs12
+      key-alias: springboot
+      key-password: password
+    port: 8443
+
+https://docs.spring.io/spring-boot/how-to/webserver.html#howto.webserver.configure-ssl
+
+  server.port=8443
+  server.ssl.key-store=classpath:keystore.jks
+  server.ssl.key-store-password=secret
+  server.ssl.key-password=another-secret
+
+  server.port=8443
+  server.ssl.certificate=classpath:my-cert.crt
+  server.ssl.certificate-private-key=classpath:my-cert.key
+  server.ssl.trust-certificate=classpath:ca-cert.crt
+
+  server.tomcat.basedir=my-tomcat
+  server.tomcat.accesslog.enabled=true
+  server.tomcat.accesslog.pattern=%t %a %r %s (%D microseconds)
+
+https://spring.io/blog/2023/06/07/securing-spring-boot-applications-with-ssl
+
+https://docs.spring.io/spring-boot/reference/features/ssl.html
+
+https://dzone.com/articles/setting-up-ssl-in-spring-boot-application
+
+  server:
+    port: 8443
+    ssl:
+      key-store: classpath:https/local/keystore-with-self-signed-cert.keystore
+      key-store-password: PasswordForStore
+      key-alias: my-self-signed-cert
+      key-store-type: PKCS12
+
+https://vipulkumarsviit.medium.com/how-to-enable-ssl-in-spring-boot-application-dc67a6897c67
+
+  security.require-ssl=true
+  server.ssl.key-store-password=12345678
+  server.ssl.key-store=src/main/resources/localhost-ssl.p12
+  server.ssl.key-store-type=PKCS12
+
+https://stackoverflow.com/questions/49534219/spring-boot-enable-and-configure-ssl-certificate
+
+  server.port=8089
+  server.ssl.enabled=true
+  server.ssl.key-store=src/main/resources/keystore.p12
+  server.ssl.key-store-password=****
+  server.ssl.keyStoreType=PKCS12
+  server.ssl.keyAlias=tomcat
+
+https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/production-ready-monitoring.html
+
+  server.port=8443
+  server.ssl.enabled=true
+  server.ssl.key-store=classpath:store.jks
+  server.ssl.key-password=secret
+  management.server.port=8080
+  management.server.ssl.enabled=false
+
+https://docs.spring.io/spring-boot/appendix/application-properties/index.html
+https://www.baeldung.com/properties-with-spring
+https://www.geeksforgeeks.org/spring-boot-application-properties/
+
+  server.port=8989
+  spring.application.name = userservice
+  spring.jpa.hibernate.ddl-auto=update
+  spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
+  spring.datasource.username=springuser
+  spring.datasource.password=ThePassword
+  spring.datasource.driver-class-name =com.mysql.jdbc.Driver
+
+  spring.h2.console.enabled=true
+  spring.datasource.url=jdbc:h2:mem:dcbapp
+  spring.datasource.driverClassName=org.h2.Driver
+  spring.datasource.username=sa
+  spring.datasource.password=password
+  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+  spring.data.mongodb.host=localhost
+  spring.data.mongodb.port=27017
+  spring.data.mongodb.database=BookStore
+
+  spring.datasource.url=jdbc:postgresql://localhost:5432/Postgres
+  spring.jpa.show-sql=true
+  spring.datasource.username=postgres
+  spring.datasource.password=postgres
+  spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+
+https://docs.spring.io/spring-boot/docs/1.4.x/reference/html/common-application-properties.html
+
+  server.ssl.ciphers= # Supported SSL ciphers.
+  server.ssl.client-auth= # Whether client authentication is wanted ("want") or needed ("need"). Requires a trust store.
+  server.ssl.enabled= # Enable SSL support.
+  server.ssl.enabled-protocols= # Enabled SSL protocols.
+  server.ssl.key-alias= # Alias that identifies the key in the key store.
+  server.ssl.key-password= # Password used to access the key in the key store.
+  server.ssl.key-store= # Path to the key store that holds the SSL certificate (typically a jks file).
+  server.ssl.key-store-password= # Password used to access the key store.
+  server.ssl.key-store-provider= # Provider for the key store.
+  server.ssl.key-store-type= # Type of the key store.
+  server.ssl.protocol=TLS # SSL protocol to use.
+  server.ssl.trust-store= # Trust store that holds SSL certificates.
+  server.ssl.trust-store-password= # Password used to access the trust store.
+  server.ssl.trust-store-provider= # Provider for the trust store.
+  server.ssl.trust-store-type= # Type of the trust store.
+
+  security.require-ssl=false # Enable secure channel for all requests.
+
+https://www.javatpoint.com/spring-boot-properties
+
+  server.ssl.enabled
+
+https://www.javatpoint.com/spring-boot-starters
+
+https://github.com/spring-projects/spring-boot/issues/15437
+
+  server:
+    ssl:
+      enable: true
+      protocol: TLSv1.2
+      trust-store: trust.jks
+    ssl-client:
+      key-store: key.jks
+      client-auth: need
+  management:
+    server:
+      ssl-client:
+        client-auth: none
+
+  server:
+    ssl:
+      enable: true
+      protocol: TLSv1.2
+      trust-store: trust.jks
+      key-store: key.jks
+      client-auth: need
+  management:
+    server:
+      ssl:
+        key-store: key-management.jks
+        client-auth: need
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+type C:\Users\DavidHolberton\sbprojs\httpsucapp\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\asynchcapp\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\apachehcapp\src\main\resources\application.properties
+
+type C:\Users\DavidHolberton\sbprojs\actionslite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\annotationslite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\buddieslite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\pandalite\src\main\resources\application.properties
+type C:\Users\DavidHolberton\sbprojs\promslite\src\main\resources\application.properties
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\httpsucapp\src\main\resources\application.properties
+spring.application.name=httpsucapp
+
+server.port=8081
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\asynchcapp\src\main\resources\application.properties
+spring.application.name=asynchcapp
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\apachehcapp\src\main\resources\application.properties
+spring.application.name=apachehcapp
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\actionslite\src\main\resources\application.properties
+spring.application.name=actionslite
+
+server.port=8080
+server.servlet.context-path=/actions
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\annotationslite\src\main\resources\application.properties
+spring.application.name=annotationslite
+
+server.port=8080
+server.servlet.context-path=/annotations
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\buddieslite\src\main\resources\application.properties
+spring.application.name=buddieslite
+
+server.port=8080
+server.servlet.context-path=/buddies
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\pandalite\src\main\resources\application.properties
+spring.application.name=pandalite
+
+server.port=8080
+server.servlet.context-path=/panda
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\Documents\dir-stuff>type C:\Users\DavidHolberton\sbprojs\promslite\src\main\resources\application.properties
+spring.application.name=promslite
+
+server.port=8080
+server.servlet.context-path=/proms
+
+management.endpoints.web.exposure.include=*
+management.endpoints.jmx.exposure.include=*
+management.info.java.enabled = true
+management.info.os.enabled = true
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\promslite-orig\src\main\resources\application.properties
+
+spring.application.name=promslite
+
+##############
+### Server ###
+##############
+server.port=443
+
+# The format used for the keystore. It could be set to JKS in case it is a JKS file
+server.ssl.key-store-type=PKCS12
+# The path to the keystore containing the certificate
+server.ssl.key-store=classpath:keystore/ashburncode.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=ashburncodepw
+# The alias mapped to the certificate
+server.ssl.key-alias=ashburncode
+
+server.ssl.enabled=true
+# SSL protocol to use
+server.ssl.protocol=TLS
+# Enabled SSL protocols
+server.ssl.enabled-protocols=TLSv1.3
+# server.ssl.enabled-protocols=TLSv1.3,TLSv1.2
+# server.ssl.enabled-protocols=TLSv1.2
+
+# server.ssl.client-auth=need
+# server.ssl.client-auth=want
+server.ssl.client-auth=none
+
+# management.endpoints.enabled-by-default=false
+# management.endpoint.info.enabled=true
+management.endpoints.web.exposure.include=*
+management.info.java.enabled=true
+
+
+
