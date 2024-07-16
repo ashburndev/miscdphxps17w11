@@ -1,0 +1,288 @@
+7:49 AM 7/16/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240716.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+cd C:\Users\DavidHolberton\sbprojs
+
+C:\Users\DavidHolberton\sbprojs>dir *.jks
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs
+
+04/18/2024  07:28 AM             2,770 ashburncode.jks
+               1 File(s)          2,770 bytes
+               0 Dir(s)  488,234,332,160 bytes free
+
+C:\Users\DavidHolberton\sbprojs>keytool -list -v -keystore ashburncode.jks
+Enter keystore password:
+
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: ashburncode
+Creation date: Apr 18, 2024
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=David Holberton, OU=devteam, O=ashburncode, L=Ashburn, ST=Virginia, C=US
+Issuer: CN=David Holberton, OU=devteam, O=ashburncode, L=Ashburn, ST=Virginia, C=US
+Serial number: f4789fda7bbc330
+Valid from: Thu Apr 18 07:28:50 EDT 2024 until: Sun Apr 16 07:28:50 EDT 2034
+Certificate fingerprints:
+         SHA1: C2:07:28:09:12:B1:D4:87:8D:6C:DD:AB:F2:EE:F3:E4:80:A1:1C:DE
+         SHA256: BB:84:A0:B0:CA:3C:F6:E7:46:43:35:20:B1:9C:88:BF:1C:E8:24:44:45:11:BE:34:56:20:29:1F:6B:BF:8E:4B
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F9 11 42 69 2B 08 C4 82   08 26 80 DD C9 ED FA 46  ..Bi+....&.....F
+0010: D6 F3 15 8A                                        ....
+]
+]
+
+*******************************************
+*******************************************
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\promslite-orig\src\main\resources\keystore>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\promslite-orig\src\main\resources\keystore
+
+04/18/2024  08:06 AM    <DIR>          .
+04/18/2024  08:06 AM    <DIR>          ..
+04/18/2024  07:28 AM             2,770 ashburncode.jks
+04/18/2024  07:31 AM             2,770 ashburncode.p12
+               2 File(s)          5,540 bytes
+               2 Dir(s)  488,246,738,944 bytes free
+
+C:\Users\DavidHolberton\sbprojs\promslite-orig\src\main\resources\keystore>
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+mkdir  src\main\resources\keystore
+copy /y ..\ashburncode.jks src\main\resources\keystore
+copy /y ..\ashburncode.p12 src\main\resources\keystore
+dir /o:gd src\main\resources\keystore
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+code .
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+code .
+
+# The format used for the keystore. It could be set to JKS in case it is a JKS file
+server.ssl.key-store-type=PKCS12
+# The path to the keystore containing the certificate
+server.ssl.key-store=classpath:keystore/ashburncode.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=ashburncodepw
+# The alias mapped to the certificate
+server.ssl.key-alias=ashburncode
+
+server.ssl.enabled=true
+# SSL protocol to use
+server.ssl.protocol=TLS
+# Enabled SSL protocols
+server.ssl.enabled-protocols=TLSv1.3
+# server.ssl.enabled-protocols=TLSv1.3,TLSv1.2
+# server.ssl.enabled-protocols=TLSv1.2
+
+# server.ssl.client-auth=need
+# server.ssl.client-auth=want
+server.ssl.client-auth=none
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\actionslite
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\buddieslite
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\pandalite
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+cd C:\Users\DavidHolberton\sbprojs\promslite
+git status
+git add .
+git commit -a -m "add keystore files, update application.properties"
+git status
+git push 
+git status
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+.\gradlew clean
+.\gradlew bootJar
+dir /o:gd build
+dir /o:gd build\libs
+java -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar
+
+java -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-startspringio-20240716a.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-startspringio-20240716b.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar 2> httpsucapp-startspringio-20240716c.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar 2>&1 httpsucapp-startspringio-20240716d.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-startspringio-20240716e.txt 2>&1
+java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3 -Dorg.asynchttpclient.enabledCipherSuites=TLS_AES_256_GCM_SHA384 -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar >httpsucapp-startspringio-20240716.txt 2>&1
+
+
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp
+.\gradlew clean
+.\gradlew bootJar
+java -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar
+
+java -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240716a.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240716b.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar 2> httpsucapp-actions-test-20240716c.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar 2>&1 httpsucapp-actions-test-20240716d.txt
+java -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240716e.txt 2>&1
+java -Dorg.asynchttpclient.enabledProtocols=TLSv1.3 -Dorg.asynchttpclient.enabledCipherSuites=TLS_AES_256_GCM_SHA384 -Djavax.net.debug=ssl:handshake -jar build\libs\httpsucapp-0.0.1-SNAPSHOT.jar > httpsucapp-actions-test-20240716f.txt 2>&1
+
+httpsucapp-0.0.1-SNAPSHOT.jar
