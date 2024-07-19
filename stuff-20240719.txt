@@ -1,0 +1,37 @@
+7:25 AM 7/19/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240719.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.88.0
+5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp
+.\gradlew dependencies > asynchcapp-dependencies-20240719.txt
+findstr -i "async" build.gradle
+
+C:\Users\DavidHolberton\sbprojs\asynchcapp>
+C:\Users\DavidHolberton\sbprojs\asynchcapp>findstr -i "async" build.gradle
+  // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.12.3
+  // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+  // implementation 'org.asynchttpclient:async-http-client:2.12.3'
+  // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.1.1
+  // https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client
+  implementation 'org.asynchttpclient:async-http-client:2.1.1'
+
+C:\Users\DavidHolberton\sbprojs\asynchcapp>
+
