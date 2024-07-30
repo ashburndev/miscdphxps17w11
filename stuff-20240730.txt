@@ -1,0 +1,225 @@
+7:18 AM 7/30/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240730.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://spring.io/tools
+
+https://dbeaver.io/download/  
+  Install:
+  Windows installer – run installer executable. It will automatically upgrade version (if needed). Windows 8 / Windows Server 2012 and earlier are not supported.
+  MacOS DMG – just run it and drag-n-drop DBeaver into Applications. MacOS 10 and earlier are not supported.
+  Debian package – run sudo dpkg -i dbeaver-<version>.deb. Then execute “dbeaver &”.
+  RPM package – run sudo rpm -ivh dbeaver-<version>.rpm. Then execute “dbeaver &”. Note: to upgrade use “-Uvh” parameter.
+  ZIP archiv  
+
+https://www.postman.com/downloads/
+https://www.postman.com/release-notes/postman-app/
+
+https://code.visualstudio.com/updates/v1_91
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+07/01/2024  08:15 AM       556,345,220 eclipse-jee-2024-06-R-win32-x86_64.zip
+07/01/2024  08:17 AM               170 eclipse-jee-2024-06-R-win32-x86_64.zip.sha512
+07/01/2024  08:17 AM       344,447,294 eclipse-java-2024-06-R-win32-x86_64.zip
+07/01/2024  08:18 AM               171 eclipse-java-2024-06-R-win32-x86_64.zip.sha512
+07/01/2024  08:21 AM       681,019,289 spring-tool-suite-4-4.23.1.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+07/01/2024  08:26 AM     1,003,067,264 ideaIU-2024.1.4.exe
+07/01/2024  08:26 AM                86 ideaIU-2024.1.4.exe.sha256
+07/01/2024  08:26 AM     1,336,732,334 ideaIU-2024.1.4.win.zip
+07/01/2024  08:27 AM                90 ideaIU-2024.1.4.win.zip.sha256
+07/01/2024  08:27 AM       598,125,080 ideaIC-2024.1.4.exe
+07/01/2024  08:27 AM                86 ideaIC-2024.1.4.exe.sha256
+07/01/2024  08:28 AM       841,156,074 ideaIC-2024.1.4.win.zip
+07/01/2024  08:28 AM                90 ideaIC-2024.1.4.win.zip.sha256
+07/14/2024  11:30 AM        99,546,648 VSCodeUserSetup-x64-1.91.1.exe
+07/14/2024  11:30 AM        99,546,416 VSCodeSetup-x64-1.91.1.exe
+07/14/2024  11:31 AM       137,738,578 VSCode-win32-x64-1.91.1.zip
+07/14/2024  11:41 AM             2,188 VSCode-win32-x64-1.91.1.sha256
+07/19/2024  08:29 AM       109,445,984 redhat.java-1.33.2024071908@win32-x64.vsix
+07/19/2024  08:29 AM         3,156,108 vscjava.vscode-java-debug-0.58.2024071907.vsix
+07/19/2024  08:29 AM         2,805,233 vscjava.vscode-java-test-0.41.2024070902.vsix
+07/19/2024  08:30 AM        10,726,973 vscjava.vscode-maven-0.44.2024013105.vsix
+07/19/2024  08:30 AM           323,818 vscjava.vscode-java-dependency-0.23.2024070900.vsix
+07/19/2024  08:31 AM        44,336,467 vscjava.vscode-gradle-3.15.0.vsix
+07/19/2024  08:31 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023070103.vsix
+07/19/2024  08:32 AM           659,437 vscjava.vscode-spring-boot-dashboard-0.14.0.vsix
+07/19/2024  08:33 AM       226,681,282 vmware.vscode-spring-boot-1.56.2024071800.vsix
+07/19/2024  08:34 AM         1,357,683 ms-azuretools.vscode-docker-1.29.1.vsix
+07/30/2024  07:20 AM       680,035,403 spring-tool-suite-4-4.24.0.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+07/30/2024  07:23 AM       122,921,536 dbeaver-ce-24.1.3-x86_64-setup.exe
+07/30/2024  07:23 AM       126,450,378 dbeaver-ce-24.1.3-win32.win32.x86_64.zip
+07/30/2024  07:26 AM       137,435,184 Postman-win64-Setup.exe
+07/30/2024  07:29 AM        99,546,648 VSCodeUserSetup-x64-1.91.1(1).exe
+07/30/2024  07:29 AM        99,546,416 VSCodeSetup-x64-1.91.1(1).exe
+07/30/2024  07:30 AM       137,738,578 VSCode-win32-x64-1.91.1(1).zip
+             598 File(s) 96,890,994,203 bytes
+              11 Dir(s)  481,013,444,608 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+del "VSCodeUserSetup-x64-1.91.1(1).exe"
+del "VSCodeSetup-x64-1.91.1(1).exe"
+del "VSCode-win32-x64-1.91.1(1).zip"
+
+code --version
+code --profile p1 --list-extensions
+code --profile p1 --list-extensions --show-versions
+
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Downloads>code --profile p1 --list-extensions
+eamodio.gitlens
+ms-azuretools.vscode-docker
+ms-vscode.hexeditor
+redhat.java
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\Users\DavidHolberton\Downloads>code --profile p1 --list-extensions --show-versions
+eamodio.gitlens@15.2.3
+ms-azuretools.vscode-docker@1.29.1
+ms-vscode.hexeditor@1.10.0
+redhat.java@1.32.0
+visualstudioexptteam.intellicode-api-usage-examples@0.2.8
+visualstudioexptteam.vscodeintellicode@1.3.1
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.56.0
+vscjava.vscode-gradle@3.15.0
+vscjava.vscode-java-debug@0.58.0
+vscjava.vscode-java-dependency@0.24.0
+vscjava.vscode-java-pack@0.27.0
+vscjava.vscode-java-test@0.41.1
+vscjava.vscode-maven@0.44.0
+vscjava.vscode-spring-boot-dashboard@0.14.0
+vscjava.vscode-spring-initializr@0.11.2
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd *.vsix
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+05/17/2023  06:46 AM           769,981 mtxr.sqltools-0.27.1.vsix
+05/17/2023  06:47 AM           387,292 mtxr.sqltools-driver-mysql-0.5.1.vsix
+05/18/2023  06:57 AM           319,552 vscjava.vscode-lombok-1.1.0.vsix
+05/18/2023  06:59 AM         6,436,935 eamodio.gitlens-2023.5.1805.vsix
+05/18/2023  07:00 AM         2,294,246 Atlassian.atlascode-3.0.3.vsix
+07/19/2024  08:29 AM       109,445,984 redhat.java-1.33.2024071908@win32-x64.vsix
+07/19/2024  08:29 AM         3,156,108 vscjava.vscode-java-debug-0.58.2024071907.vsix
+07/19/2024  08:29 AM         2,805,233 vscjava.vscode-java-test-0.41.2024070902.vsix
+07/19/2024  08:30 AM        10,726,973 vscjava.vscode-maven-0.44.2024013105.vsix
+07/19/2024  08:30 AM           323,818 vscjava.vscode-java-dependency-0.23.2024070900.vsix
+07/19/2024  08:31 AM        44,336,467 vscjava.vscode-gradle-3.15.0.vsix
+07/19/2024  08:31 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023070103.vsix
+07/19/2024  08:32 AM           659,437 vscjava.vscode-spring-boot-dashboard-0.14.0.vsix
+07/19/2024  08:33 AM       226,681,282 vmware.vscode-spring-boot-1.56.2024071800.vsix
+07/19/2024  08:34 AM         1,357,683 ms-azuretools.vscode-docker-1.29.1.vsix
+              29 File(s)  1,000,593,345 bytes
+               0 Dir(s)  474,118,946,816 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+mkdir C:\LocalApps\sts-temp
+copy spring-tool-suite-4-4.24.0.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar C:\LocalApps\sts-temp
+cd    C:\LocalApps\sts-temp
+java -jar spring-tool-suite-4-4.24.0.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+move sts-4.24.0.RELEASE ..
+cd ..
+rmdir /s /q sts-temp
+
+C:\LocalApps\sts-4.24.0.RELEASE>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\sts-4.24.0.RELEASE
+
+07/30/2024  07:50 AM    <DIR>          readme
+07/30/2024  07:50 AM    <DIR>          p2
+07/30/2024  07:50 AM    <DIR>          features
+07/30/2024  07:50 AM    <DIR>          configuration
+07/30/2024  07:50 AM    <DIR>          dropins
+07/30/2024  07:51 AM    <DIR>          plugins
+07/30/2024  07:51 AM    <DIR>          .
+07/30/2024  07:51 AM    <DIR>          ..
+07/30/2024  07:50 AM                61 .eclipseproduct
+07/30/2024  07:50 AM           543,608 SpringToolSuite4.exe
+07/30/2024  07:50 AM               868 SpringToolSuite4.ini
+07/30/2024  07:50 AM           248,712 SpringToolSuite4c.exe
+07/30/2024  07:51 AM            11,522 license.txt
+07/30/2024  07:51 AM           642,747 open-source-licenses.txt
+07/30/2024  07:51 AM           158,495 artifacts.xml
+               7 File(s)      1,606,013 bytes
+               8 Dir(s)  473,244,815,360 bytes free
+
+C:\LocalApps\sts-4.24.0.RELEASE>
+C:\LocalApps\sts-4.24.0.RELEASE>SpringToolSuite4.exe
+
+C:\LocalApps\sts-4.24.0.RELEASE>
+
+Select a directory as workspace
+
+C:\Users\DavidHolberton\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE
+
+

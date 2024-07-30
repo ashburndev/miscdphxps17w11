@@ -166,3 +166,12 @@ zipStorePath=wrapper/dists
 
 C:\Users\DavidHolberton\sbprojs\asynchcapp2>
 
+git init
+git status
+git add .
+git commit -a -m "initial commit"
+
+git remote add origin git@github.com:ashburndev/asynchcapp2.git
+git branch -M main
+git push -u origin main
+
