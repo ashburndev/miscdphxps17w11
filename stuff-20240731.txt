@@ -1,0 +1,122 @@
+6:58 AM 7/31/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.ssh.com/academy/ssh/putty/windows
+
+https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/putty/
+https://www.digitalocean.com/community/tutorials/how-to-use-pageant-to-streamline-ssh-key-authentication-with-putty
+https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/create-with-putty/
+https://www.digitalocean.com/community/questions/how-do-i-login-to-my-digital-ocean-server-using-putty
+
+https://www.putty.org/
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+https://the.earth.li/~sgtatham/putty/0.81/htmldoc/
+
+07/31/2024  07:02 AM           243,030 puttydoc.zip
+07/31/2024  07:03 AM           599,612 puttydoc.txt
+07/31/2024  07:04 AM             9,409 md5sums.txt
+07/31/2024  07:04 AM            10,117 md5sums.gpg
+07/31/2024  07:04 AM            10,601 sha1sums.txt
+07/31/2024  07:04 AM            11,309 sha1sums.gpg
+07/31/2024  07:04 AM            14,177 sha256sums.txt
+07/31/2024  07:05 AM            14,885 sha256sums.gpg
+07/31/2024  07:05 AM            23,713 sha512sums.txt
+07/31/2024  07:05 AM            24,421 sha512sums.gpg
+07/31/2024  07:07 AM         3,712,000 putty-64bit-0.81-installer.msi
+07/31/2024  07:07 AM               438 putty-64bit-0.81-installer.msi.gpg
+07/31/2024  07:08 AM         1,663,264 putty.exe
+07/31/2024  07:08 AM               438 putty.exe.gpg
+07/31/2024  07:08 AM           997,136 pscp.exe
+07/31/2024  07:08 AM               438 pscp.exe.gpg
+07/31/2024  07:08 AM         1,015,072 psftp.exe
+07/31/2024  07:08 AM               438 psftp.exe.gpg
+07/31/2024  07:08 AM           996,656 plink.exe
+07/31/2024  07:08 AM               438 plink.exe.gpg
+07/31/2024  07:08 AM           888,592 pageant.exe
+07/31/2024  07:08 AM               438 pageant.exe.gpg
+07/31/2024  07:08 AM         1,036,600 pterm.exe
+07/31/2024  07:09 AM               438 pterm.exe.gpg
+07/31/2024  07:09 AM         3,959,924 putty.zip
+07/31/2024  07:09 AM               438 putty.zip.gpg
+07/31/2024  07:09 AM         3,133,399 putty-src.zip
+07/31/2024  07:09 AM               438 putty-src.zip.gpg
+             623 File(s) 96,572,530,420 bytes
+              11 Dir(s)  475,045,965,824 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>7z l putty.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 3959924 bytes (3868 KiB)
+
+Listing archive: putty.zip
+
+--
+Path = putty.zip
+Type = zip
+Physical Size = 3959924
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-04-06 05:52:30 .....       888592       591672  PAGEANT.EXE
+2024-04-06 05:52:12 .....       996656       474561  PLINK.EXE
+2024-04-06 05:52:18 .....       997136       475811  PSCP.EXE
+2024-04-06 05:52:24 .....      1015072       483926  PSFTP.EXE
+2024-04-06 05:52:36 .....      1663264       961771  PUTTY.EXE
+2024-04-06 05:52:48 .....       972568       635213  PUTTYGEN.EXE
+2024-04-06 05:43:52 .....       358327       335918  PUTTY.CHM
+------------------- ----- ------------ ------------  ------------------------
+2024-04-06 05:52:48            6891615      3958872  7 files
+
+C:\Users\DavidHolberton\Downloads>
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>7z l puttydoc.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 243030 bytes (238 KiB)
+
+Listing archive: puttydoc.zip
+
+--
+Path = puttydoc.zip
+Type = zip
+Physical Size = 243030
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-04-06 05:43:52 .....        95693        31423  AppendixA.html
+2024-04-06 05:43:52 .....        27735         9360  AppendixB.html
+2024-04-06 05:43:52 .....        19889         6285  AppendixC.html
+2024-04-06 05:43:52 .....         2463         1347  AppendixD.html
+2024-04-06 05:43:52 .....        41659        14092  AppendixE.html
+2024-04-06 05:43:52 .....        16047         4707  AppendixF.html
+2024-04-06 05:43:52 .....         7000         2320  AppendixG.html
+2024-04-06 05:43:52 .....        26378         7153  AppendixH.html
+2024-04-06 05:43:52 .....         5489         2211  Chapter1.html
+2024-04-06 05:43:52 .....        25816         7916  Chapter10.html
+2024-04-06 05:43:52 .....        11340         4314  Chapter2.html
+2024-04-06 05:43:52 .....        65084        18521  Chapter3.html
+2024-04-06 05:43:52 .....       237165        67317  Chapter4.html
+2024-04-06 05:43:52 .....        18723         6400  Chapter5.html
+2024-04-06 05:43:52 .....        31189         8815  Chapter6.html
+2024-04-06 05:43:52 .....        22262         7089  Chapter7.html
+2024-04-06 05:43:52 .....        37383        11322  Chapter8.html
+2024-04-06 05:43:52 .....        24691         7994  Chapter9.html
+2024-04-06 05:43:52 .....       107704        16982  IndexPage.html
+2024-04-06 05:43:52 .....        16165         4346  index.html
+------------------- ----- ------------ ------------  ------------------------
+2024-04-06 05:43:52             839875       239914  20 files
+
+C:\Users\DavidHolberton\Downloads>
+
+
+
+
+
