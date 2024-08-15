@@ -1,0 +1,201 @@
+7:16 AM 8/15/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240815.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs
+
+06/02/2023  08:41 AM    <DIR>          myapp
+06/04/2023  08:29 AM    <DIR>          demo
+06/21/2023  08:09 AM    <DIR>          sb3110demo
+03/08/2024  09:06 AM    <DIR>          tutorials
+04/18/2024  07:53 AM    <DIR>          promslite-orig
+04/22/2024  06:21 AM    <DIR>          hucapp
+06/27/2024  08:12 AM    <DIR>          ahcapp
+06/28/2024  08:10 AM    <DIR>          sbapp2717g
+06/28/2024  08:23 AM    <DIR>          sbapp327g
+06/28/2024  08:27 AM    <DIR>          sbapp331g
+07/05/2024  09:49 AM    <DIR>          actionslite-save2
+07/07/2024  07:37 AM    <DIR>          asynchcapp-save2
+07/07/2024  07:37 AM    <DIR>          apachehcapp-save2
+07/09/2024  06:02 AM    <DIR>          annotationslite-save2
+07/09/2024  08:06 AM    <DIR>          httpsucapp-save2
+07/09/2024  08:20 AM    <DIR>          buddieslite-save2
+07/09/2024  08:21 AM    <DIR>          pandalite-save2
+07/14/2024  12:56 PM    <DIR>          promslite-save2
+07/14/2024  08:45 PM    <DIR>          .gradle
+07/16/2024  08:16 AM    <DIR>          apachehcapp         <-- add swagger, controller, service
+07/16/2024  08:17 AM    <DIR>          actionslite         <-- add swagger
+07/16/2024  08:18 AM    <DIR>          annotationslite     <-- add swagger
+07/16/2024  08:21 AM    <DIR>          buddieslite         <-- add swagger
+07/16/2024  08:23 AM    <DIR>          pandalite           <-- add swagger
+07/16/2024  08:25 AM    <DIR>          promslite           <-- add swagger
+07/16/2024  09:45 AM    <DIR>          httpsucapp          <-- add swagger, controller, service
+07/19/2024  06:37 PM    <DIR>          foo
+07/19/2024  07:14 PM    <DIR>          baz
+07/23/2024  08:30 AM    <DIR>          .
+07/23/2024  08:54 AM    <DIR>          asynchcapp2         <-- add swagger, controller, service
+07/30/2024  08:01 AM    <DIR>          asynchcapp          <-- add swagger, controller, service
+08/10/2024  11:04 AM    <DIR>          ..
+06/01/2023  06:14 AM            67,807 demo.zip
+06/21/2023  08:04 AM            68,050 sb3110demo.zip
+11/17/2023  09:18 AM            70,937 sbapp2717g.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+04/18/2024  07:28 AM             2,770 ashburncode.jks
+04/18/2024  07:31 AM             2,770 ashburncode.p12
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/27/2024  10:02 PM            52,191 sbapp327g.zip
+06/27/2024  10:06 PM            52,275 sbapp331g.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+07/14/2024  01:48 PM               226 application.properties
+07/14/2024  01:51 PM               226 application.properties.8080.txt
+07/14/2024  01:51 PM               226 application.properties.8081.txt
+07/14/2024  02:21 PM             1,199 build.gradle
+              24 File(s)        999,595 bytes
+              32 Dir(s)  467,387,449,344 bytes free
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs
+
+code .\apachehcapp    
+code .\actionslite    
+code .\annotationslite
+code .\buddieslite    
+code .\pandalite      
+code .\promslite      
+code .\httpsucapp     
+code .\asynchcapp2    
+code .\asynchcapp     
+
+cd C:\Users\DavidHolberton\sbprojs\apachehcapp    
+cd C:\Users\DavidHolberton\sbprojs\actionslite    
+cd C:\Users\DavidHolberton\sbprojs\annotationslite
+cd C:\Users\DavidHolberton\sbprojs\buddieslite    
+cd C:\Users\DavidHolberton\sbprojs\pandalite      
+cd C:\Users\DavidHolberton\sbprojs\promslite      
+cd C:\Users\DavidHolberton\sbprojs\httpsucapp     
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp2    
+cd C:\Users\DavidHolberton\sbprojs\asynchcapp  
+
+.\gradlew bootRun
+.\gradlew bootJar
+`
+http://localhost:8080/httpsuc/actuator
+http://localhost:8080/httpsuc/actuator/health
+http://localhost:8080/httpsuc/actuator/info
+http://localhost:8080/httpsuc/swagger-ui.html
+http://localhost:8080/httpsuc/v3/api-docs
+
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+// implementation 'org.springdoc:springdoc-openapi-ui:1.8.0'
+
+The Swagger UI page will then be available at http://server:port/context-path/swagger-ui.html and the OpenAPI description will be available at the following url for json format: http://server:port/context-path/v3/api-docs
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+http://localhost:8080/httpsuc/actuator/health
+
+{"status":"UP"}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+http://localhost:8080/httpsuc/actuator/info
+
+{"java":{"version":"17.0.7","vendor":{"name":"Oracle Corporation"},"runtime":{"name":"Java(TM) SE Runtime Environment","version":"17.0.7+8-LTS-224"},"jvm":{"name":"Java HotSpot(TM) 64-Bit Server VM","vendor":"Oracle Corporation","version":"17.0.7+8-LTS-224"}},"os":{"name":"Windows 11","version":"10.0","arch":"amd64"}}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+http://localhost:8080/httpsuc/v3/api-docs
+
+{"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8080/httpsuc","description":"Generated server url"}],"paths":{"/getRequest/{targetUrl}":{"get":{"tags":["httpsuc-controller"],"operationId":"targetUrl","parameters":[{"name":"targetUrl","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{}}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\httpsucapp>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   build.gradle
+        modified:   src/main/java/ashburncode/httpsucapp/HttpsucappApplication.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/main/java/ashburncode/httpsucapp/HttpsucController.java
+        src/main/java/ashburncode/httpsucapp/HttpsucService.java
+        src/main/java/ashburncode/httpsucapp/HttpsucServiceImpl.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\DavidHolberton\sbprojs\httpsucapp>
+C:\Users\DavidHolberton\sbprojs\httpsucapp>git add .
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/ashburncode/httpsucapp/HttpsucappApplication.java', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\DavidHolberton\sbprojs\httpsucapp>git commit -a -m "add swagger, controller, service"
+[main 94f472c] add swagger, controller, service
+ 5 files changed, 80 insertions(+), 4 deletions(-)
+ create mode 100644 src/main/java/ashburncode/httpsucapp/HttpsucController.java
+ create mode 100644 src/main/java/ashburncode/httpsucapp/HttpsucService.java
+ create mode 100644 src/main/java/ashburncode/httpsucapp/HttpsucServiceImpl.java
+
+C:\Users\DavidHolberton\sbprojs\httpsucapp>git push
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.71 KiB | 1.71 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To github.com:ashburndev/httpsucapp.git
+   f76de44..94f472c  main -> main
+
+C:\Users\DavidHolberton\sbprojs\httpsucapp>
+C:\Users\DavidHolberton\sbprojs\httpsucapp>
+

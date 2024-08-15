@@ -1,0 +1,386 @@
+11:07 AM 8/10/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240810.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+https://vscode.dev/
+https://code.visualstudio.com/updates/v1_92
+
+July 2024 (version 1.92)
+
+Update 1.92.1: The update addresses these issues.
+
+Downloads: Windows: x64 Arm64 | Mac: Universal Intel silicon | Linux: deb rpm tarball Arm snap
+
+Welcome to the July 2024 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:
+
+    Default browser - Configure which browser to use for opening links in VS Code.
+    Revert PRs - Easily create a revert PR for a merged PR.
+    Extension updates - More easily configure auto updating of extensions.
+    Override profiles - Override an existing profile with the Profiles Editor.
+    Paste files in CSS - Quickly add CSS file references with paste or drag and drop.
+    Move Panel to top - Position the Panel section at the top of the workbench.
+    Copilot uses GPT-4o - GitHub Copilot Chat upgraded to OpenAI's GPT-4o.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.jetbrains.com/ides/
+https://www.jetbrains.com/ides/#choose-your-ide
+https://www.jetbrains.com/idea/
+https://www.jetbrains.com/pycharm/
+https://www.jetbrains.com/datagrip/
+https://www.jetbrains.com/privacy-security/binaries-signatures/
+
+https://www.jetbrains.com/idea/download/?section=windows
+  Version: 2024.2
+  Build: 242.20224.300
+  6 August 2024
+
+https://www.jetbrains.com/pycharm/download/?section=windows
+  Version: 2024.1.6
+  Build: 241.19072.16
+  8 August 2024
+
+https://www.jetbrains.com/datagrip/download/#section=windows
+  Version: 2024.1.5
+  Build: 241.19072.24
+  8 August 2024
+
+08/10/2024  11:12 AM       100,358,280 VSCodeUserSetup-x64-1.92.1.exe
+08/10/2024  11:13 AM       100,357,984 VSCodeSetup-x64-1.92.1.exe
+08/10/2024  11:13 AM       139,519,402 VSCode-win32-x64-1.92.1.zip
+08/10/2024  11:18 AM             2,188 VSCode-win32-x64-1.92.1.sha256
+08/10/2024  11:26 AM     1,185,815,096 ideaIU-2024.2.exe
+08/10/2024  11:26 AM                84 ideaIU-2024.2.exe.sha256
+08/10/2024  11:28 AM     1,545,192,316 ideaIU-2024.2.win.zip
+08/10/2024  11:28 AM                88 ideaIU-2024.2.win.zip.sha256
+08/10/2024  11:29 AM       757,302,144 ideaIC-2024.2.exe
+08/10/2024  11:29 AM                84 ideaIC-2024.2.exe.sha256
+08/10/2024  11:29 AM     1,014,192,727 ideaIC-2024.2.win.zip
+08/10/2024  11:29 AM                88 ideaIC-2024.2.win.zip.sha256
+08/10/2024  11:43 AM       751,685,960 pycharm-professional-2024.1.6.exe
+08/10/2024  11:44 AM               100 pycharm-professional-2024.1.6.exe.sha256
+08/10/2024  11:44 AM       479,806,152 pycharm-community-2024.1.6.exe
+08/10/2024  11:44 AM                97 pycharm-community-2024.1.6.exe.sha256
+08/10/2024  11:48 AM       628,607,344 datagrip-2024.1.5.exe
+08/10/2024  11:48 AM                88 datagrip-2024.1.5.exe.sha256
+08/10/2024  11:48 AM       769,045,855 datagrip-2024.1.5.win.zip
+08/10/2024  11:49 AM                92 datagrip-2024.1.5.win.zip.sha256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\.vscode>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.vscode
+
+05/13/2023  11:01 AM    <DIR>          cli
+06/17/2023  09:12 AM    <DIR>          .
+08/10/2024  11:04 AM    <DIR>          ..
+08/10/2024  11:08 AM    <DIR>          extensions
+05/11/2022  06:24 PM               984 argv.json
+               1 File(s)            984 bytes
+               4 Dir(s)  467,155,496,960 bytes free
+
+C:\Users\DavidHolberton\.vscode>dir /o:gd extensions
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.vscode\extensions
+
+06/17/2023  09:12 AM    <DIR>          ..
+04/10/2024  06:43 AM    <DIR>          visualstudioexptteam.intellicode-api-usage-examples-0.2.8
+04/10/2024  06:43 AM    <DIR>          vscjava.vscode-maven-0.44.0
+04/10/2024  06:43 AM    <DIR>          visualstudioexptteam.vscodeintellicode-1.3.1
+04/10/2024  06:45 AM    <DIR>          vmware.vscode-boot-dev-pack-0.2.1
+04/10/2024  06:45 AM    <DIR>          vscjava.vscode-spring-initializr-0.11.2
+04/18/2024  07:02 AM    <DIR>          ms-vscode.hexeditor-1.9.14
+05/10/2024  08:24 AM    <DIR>          ms-azuretools.vscode-docker-1.29.1
+05/10/2024  08:24 AM    <DIR>          vscjava.vscode-java-test-0.41.1
+05/10/2024  08:24 AM    <DIR>          ms-vscode.hexeditor-1.10.0
+05/27/2024  09:42 AM    <DIR>          vscjava.vscode-spring-boot-dashboard-0.14.0
+06/04/2024  06:50 AM    <DIR>          vscjava.vscode-java-pack-0.27.0
+06/27/2024  07:21 AM    <DIR>          vscjava.vscode-java-debug-0.58.0
+06/27/2024  09:19 PM    <DIR>          redhat.java-1.32.0-win32-x64
+07/30/2024  07:18 AM    <DIR>          vscjava.vscode-java-dependency-0.24.0
+07/30/2024  07:18 AM    <DIR>          eamodio.gitlens-15.2.3
+07/30/2024  07:18 AM    <DIR>          vmware.vscode-spring-boot-1.56.0
+07/31/2024  06:58 AM    <DIR>          vscjava.vscode-gradle-3.16.0
+08/10/2024  11:08 AM    <DIR>          vscjava.vscode-java-pack-0.28.0
+08/10/2024  11:08 AM    <DIR>          vscjava.vscode-java-test-0.42.0
+08/10/2024  11:08 AM    <DIR>          vscjava.vscode-gradle-3.16.2
+08/10/2024  11:08 AM    <DIR>          redhat.java-1.33.0-win32-x64
+08/10/2024  11:08 AM    <DIR>          .
+07/13/2023  07:14 AM                 2 extensions.json
+08/10/2024  11:08 AM               151 .obsolete
+               2 File(s)            153 bytes
+              23 Dir(s)  467,155,492,864 bytes free
+
+C:\Users\DavidHolberton\.vscode>
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd *.vsix
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+05/17/2023  06:46 AM           769,981 mtxr.sqltools-0.27.1.vsix
+05/17/2023  06:47 AM           387,292 mtxr.sqltools-driver-mysql-0.5.1.vsix
+05/18/2023  06:57 AM           319,552 vscjava.vscode-lombok-1.1.0.vsix
+05/18/2023  06:59 AM         6,436,935 eamodio.gitlens-2023.5.1805.vsix
+05/18/2023  07:00 AM         2,294,246 Atlassian.atlascode-3.0.3.vsix
+07/19/2024  08:29 AM       109,445,984 redhat.java-1.33.2024071908@win32-x64.vsix
+07/19/2024  08:29 AM         3,156,108 vscjava.vscode-java-debug-0.58.2024071907.vsix
+07/19/2024  08:29 AM         2,805,233 vscjava.vscode-java-test-0.41.2024070902.vsix
+07/19/2024  08:30 AM        10,726,973 vscjava.vscode-maven-0.44.2024013105.vsix
+07/19/2024  08:30 AM           323,818 vscjava.vscode-java-dependency-0.23.2024070900.vsix
+07/19/2024  08:31 AM        44,336,467 vscjava.vscode-gradle-3.15.0.vsix
+07/19/2024  08:31 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023070103.vsix
+07/19/2024  08:32 AM           659,437 vscjava.vscode-spring-boot-dashboard-0.14.0.vsix
+07/19/2024  08:33 AM       226,681,282 vmware.vscode-spring-boot-1.56.2024071800.vsix
+07/19/2024  08:34 AM         1,357,683 ms-azuretools.vscode-docker-1.29.1.vsix
+              29 File(s)  1,000,593,345 bytes
+               0 Dir(s)  467,155,869,696 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>cd %appdata%
+
+C:\Users\DavidHolberton\AppData\Roaming>cd code
+
+C:\Users\DavidHolberton\AppData\Roaming\Code>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\AppData\Roaming\Code
+
+05/11/2022  06:24 PM    <DIR>          Code Cache
+05/11/2022  06:24 PM    <DIR>          Local Storage
+05/11/2022  06:24 PM    <DIR>          GPUCache
+05/11/2022  06:24 PM    <DIR>          Service Worker
+05/11/2022  06:24 PM    <DIR>          CachedExtensions
+05/11/2022  06:25 PM    <DIR>          CachedConfigurations
+05/11/2022  06:32 PM    <DIR>          Crashpad
+10/16/2022  11:57 AM    <DIR>          databases
+05/13/2023  11:01 AM    <DIR>          DawnCache
+04/10/2024  06:29 AM    <DIR>          Shared Dictionary
+04/10/2024  06:34 AM    <DIR>          CachedProfilesData
+04/16/2024  07:14 AM    <DIR>          VideoDecodeStats
+04/16/2024  07:14 AM    <DIR>          shared_proto_db
+04/21/2024  09:45 AM    <DIR>          ..
+05/15/2024  08:46 AM    <DIR>          Cache
+06/06/2024  01:04 PM    <DIR>          User
+07/19/2024  08:11 AM    <DIR>          CachedData
+07/30/2024  07:42 AM    <DIR>          WebStorage
+07/31/2024  07:46 AM    <DIR>          Session Storage
+08/10/2024  11:08 AM    <DIR>          blob_storage
+08/10/2024  11:08 AM    <DIR>          CachedExtensionVSIXs
+08/10/2024  11:08 AM    <DIR>          .
+08/10/2024  11:08 AM    <DIR>          logs
+08/10/2024  11:08 AM    <DIR>          Backups
+08/10/2024  12:01 PM    <DIR>          Network
+05/11/2022  06:24 PM                36 machineid
+04/10/2024  06:29 AM               434 Local State
+04/10/2024  06:31 AM                 0 SharedStorage
+08/10/2024  11:08 AM                 5 code.lock
+08/10/2024  11:08 AM                 2 languagepacks.json
+08/10/2024  11:08 AM                57 Preferences
+               6 File(s)            534 bytes
+              25 Dir(s)  467,148,218,368 bytes free
+
+C:\Users\DavidHolberton\AppData\Roaming\Code>
+C:\Users\DavidHolberton\AppData\Roaming\Code>dir /o:gd User
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\AppData\Roaming\Code\User
+
+05/11/2022  06:24 PM    <DIR>          snippets
+04/10/2024  06:33 AM    <DIR>          profiles
+06/06/2024  01:04 PM    <DIR>          .
+07/23/2024  08:31 AM    <DIR>          workspaceStorage
+08/10/2024  11:08 AM    <DIR>          ..
+08/10/2024  11:09 AM    <DIR>          History
+08/10/2024  11:40 AM    <DIR>          globalStorage
+06/06/2024  01:04 PM               243 settings.json
+               1 File(s)            243 bytes
+               7 Dir(s)  467,147,923,456 bytes free
+
+C:\Users\DavidHolberton\AppData\Roaming\Code>
+C:\Users\DavidHolberton\AppData\Roaming\Code>dir /o:gd User\workspaceStorage
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\AppData\Roaming\Code\User\workspaceStorage
+
+05/13/2023  11:01 AM    <DIR>          06cedbff9a07753083e33e842975bf21
+05/18/2023  07:58 AM    <DIR>          633b2475a26d6672ba4422a71171f92e
+05/18/2023  07:58 AM    <DIR>          a4fb973751b6ce8a6722e96c21293218
+06/01/2023  07:20 AM    <DIR>          f839b14ec35516c040c8f9a17bfffff7
+06/02/2023  08:23 AM    <DIR>          39498bba7ae76c2e2bcfc8763c7be780
+06/02/2023  08:36 AM    <DIR>          79b11378fa1a9f669c1f2018628118e6
+06/05/2023  05:35 AM    <DIR>          ad841c3723c7811f503a4a89280319b4
+06/12/2023  08:02 AM    <DIR>          89d380939bccd1f9781962e25c9a6f10
+06/12/2023  08:02 AM    <DIR>          a58c4ad96d9cdb5a130be3895b2d30a7
+07/13/2023  08:02 AM    <DIR>          604654e70201540c7109eb2e2535afe1
+02/14/2024  06:57 PM    <DIR>          d93e6a73e489a3cd3951859a128c021e
+03/08/2024  09:46 AM    <DIR>          9d85e60f0d84fe7718a8bbf14b4e5661
+03/08/2024  09:46 AM    <DIR>          13b3b623c09827757768000efb54e9eb
+03/11/2024  06:29 AM    <DIR>          c8021e612371dcca6d5377ff23e74906
+04/16/2024  06:44 AM    <DIR>          13afbcc6b247a5bd1b72929ccbf796e0
+04/16/2024  06:44 AM    <DIR>          15839ef6bb725c18e48dd457c235b748
+04/16/2024  06:44 AM    <DIR>          160b0568bc8764540d0244da5f17fa0a
+04/16/2024  06:44 AM    <DIR>          3efd326fc751f43cc07154475990a007
+04/16/2024  06:44 AM    <DIR>          69696b684a8e184f5a0b42ff19dfb1e5
+04/16/2024  06:44 AM    <DIR>          8cba4ec1f2cf1207d926913803a904f7
+04/16/2024  06:44 AM    <DIR>          ad35cf612ca6c7c8aa0f1c0ed86ce467
+04/16/2024  06:44 AM    <DIR>          b60cd2905f51c80116d4a961eb4afafc
+05/15/2024  09:12 AM    <DIR>          377a009405246094ab3cdbf5ba038f23
+05/27/2024  10:31 AM    <DIR>          518b3559234f908f5cb78ca7a53b39f8
+06/06/2024  01:04 PM    <DIR>          ..
+06/06/2024  01:11 PM    <DIR>          7fb7257f593c5b972252cb73b1b738c4
+06/27/2024  09:19 PM    <DIR>          47e9a6b8a16827077b7cc8fd8ab3214c
+06/28/2024  08:52 AM    <DIR>          e7068b9b5590be331311809c86c83e53
+06/28/2024  08:52 AM    <DIR>          8187e455c3bf61790a76896e92bd4c8f
+06/28/2024  08:52 AM    <DIR>          59239301a0836285126becd8241aa033
+06/30/2024  09:14 AM    <DIR>          b8a05749e73860d9f84fd2d9d8d7c23f
+06/30/2024  09:14 AM    <DIR>          9686d01ab5c6607dc9072ef11c18dc7c
+06/30/2024  09:14 AM    <DIR>          997e9ba82238744a3310b8749126633a
+07/09/2024  05:45 AM    <DIR>          dd48171a75344112c1ee030f7a75a08c
+07/16/2024  07:59 AM    <DIR>          1c71666185a0341b82665740bbce13e6
+07/16/2024  07:59 AM    <DIR>          b6760bd46e8e73a82c4a63c1e6fa6e52
+07/16/2024  08:18 AM    <DIR>          ce2c9abd2d4f7931feeb79ae13e35b9e
+07/16/2024  08:21 AM    <DIR>          919197c56c6e5b8a5fe03ef041313247
+07/16/2024  08:22 AM    <DIR>          b12af11f70be99488b3f23d089ed8aa1
+07/16/2024  08:24 AM    <DIR>          0332d9acd577c85dfd521bdd32a5ae2c
+07/16/2024  08:26 AM    <DIR>          7eb21baa0687907624522589ec9ebcbd
+07/16/2024  09:02 AM    <DIR>          99071bf59135849477ed3790952efef9
+07/16/2024  09:40 AM    <DIR>          1e726591ae3dbf82e1c637aef4b36d9e
+07/16/2024  09:42 AM    <DIR>          c6560f26d003a7eca1c91593416973ba
+07/16/2024  09:42 AM    <DIR>          090c62421ecc2f10320c67a723cdffbf
+07/16/2024  09:42 AM    <DIR>          347228f184dadeca0ef74d1c4e653829
+07/18/2024  12:55 PM    <DIR>          97caf1a6178fc93bf1a5a6d4e5b724bb
+07/19/2024  07:23 PM    <DIR>          70e00ae56126f66dcf2b0e48f90a9da4
+07/19/2024  07:23 PM    <DIR>          cd9807a40ad24159c97834ad2bc51061
+07/23/2024  08:31 AM    <DIR>          .
+07/23/2024  09:01 AM    <DIR>          3c28acf89664c6a7fe9787d7bb704acf
+07/30/2024  08:05 AM    <DIR>          b916db5f94be69318b6b2d24d069fdac
+08/10/2024  12:01 PM    <DIR>          7f3c230687321b8695ba84f005ccce49
+               0 File(s)              0 bytes
+              53 Dir(s)  467,147,927,552 bytes free
+
+C:\Users\DavidHolberton\AppData\Roaming\Code>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://springdoc.org/#google_vignette
+
+  <dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.6.0</version>
+  </dependency>
+
+  http://server:port/context-path/swagger-ui.html
+  http://server:port/context-path/v3/api-docs
+  
+  This dependency is relevant if you want to generate the OpenAPI description without using the swagger-ui. 
+
+  <dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+    <version>2.6.0</version>
+  </dependency>
+
+  http://server:port/context-path/v3/api-docs
+  http://server:port/context-path/v3/api-docs.yaml
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui/2.6.0   	Jun 30, 2024
+
+  // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+  implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui/1.8.0   Mar 12, 2024
+
+  // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+  implementation 'org.springdoc:springdoc-openapi-ui:1.8.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://springdoc.org/
+
+  springdoc-openapi v2.6.0
+
+  springdoc-openapi v1.8.0 is the latest Open Source release supporting  Spring Boot 2.x and 1.x.
+  An extended support for springdoc-openapi v1 project is now available for organizations that need support beyond 2023.
+  For more details, feel free to reach out: sales@springdoc.org
+
+  3.7. Actuator support
+
+    In order to display spring-boot-actuator endpoints, simply add the following property:
+    springdoc.show-actuator=true
+
+  9. Migrating from SpringFox
+
+    Remove springfox and swagger 2 dependencies. Add springdoc-openapi-starter-webmvc-ui dependency instead.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+https://www.geeksforgeeks.org/spring-boot-enabling-swagger2/
+https://medium.com/@nzuwera/api-documentation-using-spring-boot-2-7-8-and-swagger-292a42800b83
+
+
+
+
