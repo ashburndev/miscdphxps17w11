@@ -1,0 +1,466 @@
+9:23 AM 9/6/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.f5.com/go/ebook/complete-nginx-cookbook?utm_campaign=24Q3_amer_amer_nginx_PSE_nginx-cookbook_noa_EB&utm_source=google&utm_medium=cpc&utm_network=googlesearch&utm_gacampaign=AMER_USCA_USCA_ENG_BrandNGINX=utm_adgroup=NGINX&gad_source=1&gclid=Cj0KCQjw0Oq2BhCCARIsAA5hubXDVaQN0KudXn_FkCZTDaeyRX9TbuAUrqvfk5v2MjP4XydpXq1DOnoaAj3hEALw_wcB&gclsrc=aw.ds
+
+https://nginx.org/
+
+nginx news 2024-08-14	
+nginx-1.26.2 stable and nginx-1.27.1 mainline versions have been released, with a fix for the buffer overread vulnerability in the ngx_http_mp4_module (CVE-2024-7347). 
+
+http://nginx.org/en/docs/windows.html
+
+http://nginx.org/en/download.html
+
+nginx: download
+Mainline version
+CHANGES	nginx-1.27.1  pgp	nginx/Windows-1.27.1  pgp
+Stable version
+CHANGES-1.26	nginx-1.26.2  pgp	nginx/Windows-1.26.2  pgp
+Legacy versions
+CHANGES-1.24	nginx-1.24.0  pgp	nginx/Windows-1.24.0  pgp
+CHANGES-1.22	nginx-1.22.1  pgp	nginx/Windows-1.22.1  pgp
+CHANGES-1.20	nginx-1.20.2  pgp	nginx/Windows-1.20.2  pgp
+CHANGES-1.18	nginx-1.18.0  pgp	nginx/Windows-1.18.0  pgp
+CHANGES-1.16	nginx-1.16.1  pgp	nginx/Windows-1.16.1  pgp
+CHANGES-1.14	nginx-1.14.2  pgp	nginx/Windows-1.14.2  pgp
+
+09/06/2024  09:26 AM           328,118 CHANGES.txt
+09/06/2024  09:26 AM         1,245,244 nginx-1.27.1.tar.gz
+09/06/2024  09:26 AM               862 nginx-1.27.1.tar.gz.asc
+09/06/2024  09:26 AM         2,082,102 nginx-1.27.1.zip
+09/06/2024  09:26 AM               862 nginx-1.27.1.zip.asc
+09/06/2024  09:44 AM           327,851 CHANGES-1.26
+09/06/2024  09:44 AM         1,244,789 nginx-1.26.2.tar.gz
+09/06/2024  09:44 AM               862 nginx-1.26.2.tar.gz.asc
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+09/06/2024  09:44 AM               862 nginx-1.26.2.zip.asc
+             653 File(s) 104,051,729,956 bytes
+              12 Dir(s)  491,400,916,992 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>7z l nginx-1.27.1.tar.gz
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 1245244 bytes (1217 KiB)
+
+Listing archive: nginx-1.27.1.tar.gz
+
+--
+Path = nginx-1.27.1.tar.gz
+Type = gzip
+Headers Size = 10
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-08-12 12:37:27 .....      7757312      1245244  nginx-1.27.1.tar
+------------------- ----- ------------ ------------  ------------------------
+2024-08-12 12:37:27            7757312      1245244  1 files
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>7z l nginx-1.27.1.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 2082102 bytes (2034 KiB)
+
+Listing archive: nginx-1.27.1.zip
+
+--
+Path = nginx-1.27.1.zip
+Type = zip
+Physical Size = 2082102
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-08-13 08:44:36 D....            0            0  nginx-1.27.1
+2024-08-13 08:44:36 D....            0            0  nginx-1.27.1\temp
+2024-08-13 08:29:40 .....      4721152      1881957  nginx-1.27.1\nginx.exe
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\html
+2024-08-12 10:21:01 .....          615          376  nginx-1.27.1\html\index.html
+2024-08-12 10:21:01 .....          497          323  nginx-1.27.1\html\50x.html
+2024-08-13 08:44:36 D....            0            0  nginx-1.27.1\docs
+2024-01-22 14:32:37 .....          983          518  nginx-1.27.1\docs\zlib.LICENSE
+2024-08-12 10:21:01 .....         1397          715  nginx-1.27.1\docs\LICENSE
+2024-08-13 08:44:36 .....       328118        71301  nginx-1.27.1\docs\CHANGES
+2024-08-13 08:44:36 .....       501980        90334  nginx-1.27.1\docs\CHANGES.ru
+2021-08-31 11:37:43 .....         3477         1587  nginx-1.27.1\docs\PCRE.LICENCE
+2024-08-12 10:21:01 .....           49           49  nginx-1.27.1\docs\README
+2024-06-04 10:27:20 .....        10175         3562  nginx-1.27.1\docs\OpenSSL.LICENSE
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib\vim
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib\vim\indent
+2024-08-12 10:21:01 .....          250          165  nginx-1.27.1\contrib\vim\indent\nginx.vim
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib\vim\ftplugin
+2024-08-12 10:21:01 .....           29           29  nginx-1.27.1\contrib\vim\ftplugin\nginx.vim
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib\vim\ftdetect
+2024-08-12 10:21:01 .....          198           79  nginx-1.27.1\contrib\vim\ftdetect\nginx.vim
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib\vim\syntax
+2024-08-12 10:21:01 .....       113543        13087  nginx-1.27.1\contrib\vim\syntax\nginx.vim
+2024-08-12 10:21:01 .....          543          338  nginx-1.27.1\contrib\README
+2024-08-12 10:21:01 .....         1272          654  nginx-1.27.1\contrib\geo2nginx.pl
+2024-08-13 08:44:35 D....            0            0  nginx-1.27.1\contrib\unicode2nginx
+2024-08-12 10:21:01 .....         1090          566  nginx-1.27.1\contrib\unicode2nginx\unicode-to-nginx.pl
+2024-08-12 10:21:01 .....         5991         1290  nginx-1.27.1\contrib\unicode2nginx\koi-utf
+2024-08-12 10:21:01 .....         5339         1253  nginx-1.27.1\contrib\unicode2nginx\win-utf
+2024-08-13 08:44:36 D....            0            0  nginx-1.27.1\logs
+2024-08-13 08:44:36 D....            0            0  nginx-1.27.1\conf
+2024-08-13 08:44:36 .....         1032          416  nginx-1.27.1\conf\fastcgi_params
+2024-08-13 08:44:36 .....          653          263  nginx-1.27.1\conf\scgi_params
+2024-08-13 08:44:36 .....         1103          434  nginx-1.27.1\conf\fastcgi.conf
+2024-08-13 08:44:36 .....          681          270  nginx-1.27.1\conf\uwsgi_params
+2024-08-13 08:44:36 .....         2326          742  nginx-1.27.1\conf\koi-win
+2024-08-13 08:44:36 .....         5448         1022  nginx-1.27.1\conf\mime.types
+2024-08-13 08:44:36 .....         2946          930  nginx-1.27.1\conf\koi-utf
+2024-08-13 08:44:36 .....         3736         1188  nginx-1.27.1\conf\win-utf
+2024-08-13 08:44:36 .....         2773          974  nginx-1.27.1\conf\nginx.conf
+------------------- ----- ------------ ------------  ------------------------
+2024-08-13 08:44:36            5717396      2074422  28 files, 13 folders
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+http://nginx.org/en/docs/windows.html
+
+Version of nginx for Windows uses the native Win32 API (not the Cygwin emulation layer). Only the select() and poll() (1.15.9) connection processing methods are currently used, so high performance and scalability should not be expected. Due to this and some other known issues version of nginx for Windows is considered to be a beta version. At this time, it provides almost the same functionality as a UNIX version of nginx except for XSLT filter, image filter, GeoIP module, and embedded Perl language.
+
+To install nginx/Windows, download the latest mainline version distribution (1.27.1), since the mainline branch of nginx contains all known fixes. Then unpack the distribution, go to the nginx-1.27.1 directory, and run nginx. Here is an example for the drive C: root directory:
+
+    cd c:\
+    unzip nginx-1.27.1.zip
+    cd nginx-1.27.1
+    start nginx
+
+Run the tasklist command-line utility to see nginx processes:
+
+    C:\nginx-1.27.1>tasklist /fi "imagename eq nginx.exe"
+
+    Image Name           PID Session Name     Session#    Mem Usage
+    =============== ======== ============== ========== ============
+    nginx.exe            652 Console                 0      2 780 K
+    nginx.exe           1332 Console                 0      3 112 K
+
+One of the processes is the master process and another is the worker process. If nginx does not start, look for the reason in the error log file logs\error.log. If the log file has not been created, the reason for this should be reported in the Windows Event Log. If an error page is displayed instead of the expected page, also look for the reason in the logs\error.log file.
+
+nginx/Windows uses the directory where it has been run as the prefix for relative paths in the configuration. In the example above, the prefix is C:\nginx-1.27.1\. Paths in a configuration file must be specified in UNIX-style using forward slashes:
+
+    access_log   logs/site.log;
+    root         C:/web/html;
+
+nginx/Windows runs as a standard console application (not a service), and it can be managed using the following commands:
+
+    nginx -s stop 	fast shutdown
+    nginx -s quit 	graceful shutdown
+    nginx -s reload 	changing configuration, starting new worker processes with a new configuration, graceful shutdown of old worker processes
+    nginx -s reopen 	re-opening log files
+
+Known issues
+
+    Although several workers can be started, only one of them actually does any work.
+    The UDP proxy functionality is not supported.
+
+Possible future enhancements
+
+    Running as a service.
+    Using the I/O completion ports as a connection processing method.
+    Using multiple worker threads inside a single worker process.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://virendra.dev/blog/setting-up-nginx-as-a-reverse-proxy-on-windows
+
+Setting up Nginx as a Reverse Proxy on Windows
+
+Hi there, in this article, I want to show you how to set up Nginx as a reverse proxy on Windows. Nginx is a fast and reliable web server that can also act as a reverse proxy. It can be used to proxy requests to a backend server and provide load balancing, caching, and other features.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/2-2-install-nginx-configure-it-reverse-proxy
+
+https://serverfault.com/questions/997568/adding-cipher-suites-to-nginx-config-the-right-way
+
+Please note that the TLSv1.1 and TLSv1.2 parameters (1.1.13, 1.0.12) work only when OpenSSL 1.0.1 or higher is used. The TLSv1.3 parameter (1.13.0) works only when OpenSSL 1.1.1 built with TLSv1.3 support is used
+
+ssl_protocols               TLSv1.2 TLSv1.3;
+ssl_ciphers                 ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256;
+ssl_prefer_server_ciphers   on;
+
+https://docs.nginx.com/nginx/admin-guide/security-controls/securing-http-traffic-upstream/
+
+    server {
+        listen      80;
+        server_name www.example.com;
+        #...
+
+        location /upstream {
+            proxy_pass                    https://backend.example.com;
+            proxy_ssl_certificate         /etc/nginx/client.pem;
+            proxy_ssl_certificate_key     /etc/nginx/client.key;
+            proxy_ssl_protocols           TLSv1 TLSv1.1 TLSv1.2;
+            proxy_ssl_ciphers             HIGH:!aNULL:!MD5;
+            proxy_ssl_trusted_certificate /etc/nginx/trusted_ca_cert.crt;
+
+            proxy_ssl_verify        on;
+            proxy_ssl_verify_depth  2;
+            proxy_ssl_session_reuse on;
+        }
+    }
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://serverfault.com/questions/878657/configure-nginx-as-reverse-proxy-with-upstream-ssl-using-server-name
+
+https://usavps.com/blog/14980/
+
+http {
+  server {
+    listen 443;
+    server_name example.com;
+
+    location / {
+      proxy_pass https://backend;
+      proxy_ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512;
+    }
+  }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.tenable.com/audits/items/CIS_NGINX_v2.0.0_Level_1_Proxy.audit:4bd3c212fcd0a42f0ac6c0e51b6795f2
+
+Set the ssl_cipher directive as part of your server block, and set the proxy_ssl_ciphers directive as part of the location block for your upstream server.
+
+This should look similar to the below examples:
+
+Server block configuration for client connectivity to web server, proxy, or load balancer:
+
+server {
+ssl_ciphers ALL:!EXP:!NULL:!ADH:!LOW:!SSLv2:!SSLv3:!MD5:!RC4;
+}
+
+Proxy or load balancer configuration for defined upstream negotiation:
+
+location / {
+proxy_pass https://cisecurity.org;
+proxy_ssl_ciphers ALL:!EXP:!NULL:!ADH:!LOW:!SSLv2:!SSLv3:!MD5:!RC4;
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://stackoverflow.com/questions/78054367/nginx-reverse-proxy-to-avoid-legacy-cyphers
+Nginx Reverse proxy to avoid legacy cyphers
+Asked 6 months ago
+Modified 6 months ago
+
+I work for a company that has a legacy app that's using old ciphers on an old OS and one of the modules inside this app is a translation API that connects to api.cognitive.microsofttranslator.com. I've been trying to create a reverse proxy to act as a middleman/reverse proxy between my web server 1 "10.10.10.11" and web server 2 "10.10.10.12" and the Microsoft site as they removed old legacy unsupported ciphers. we are doing our best to update/fix the issue but we need the module to be functional until we fix it. can someone help me with the configuration file?
+
+what i tried is:
+
+server {
+    listen 443 ssl;
+    server_name api.cognitive.microsofttranslator.com;
+    ssl_certificate /etc/nginx/sites-available/ssl/certificate.crt;
+    ssl_certificate_key /etc/nginx/sites-available/ssl/private_key_decrypted.pem;
+    ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
+    ssl_ciphers 'ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4';
+
+    location / {
+        proxy_pass https://api.cognitive.microsofttranslator.com;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_ssl_server_name on;
+        proxy_ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
+        proxy_ssl_ciphers 'HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4';
+        proxy_ssl_trusted_certificate /etc/nginx/sites-available/ssl/rootCA.crt;
+        proxy_ssl_verify on;
+    }
+}
+
+those certificates are created using OpenSSL on Ubuntu and installed in the ubuntu server, and I changed the site ip in webserver local host file to point to nginx server. I appreciate any help you can provide.
+
+the supported ciphers are: Protocols TLS 1.3 Yes TLS 1.2 Yes
+
+# TLS 1.3 (suites in server-preferred order)TLS_AES_256_GCM_SHA384 (0x1302) ECDH x25519 (eq. 3072 bits RSA) FS 256TLS_CHACHA20_POLY1305_SHA256 (0x1303) ECDH x25519 (eq. 3072 bits RSA) FS 256TLS_AES_128_GCM_SHA256 (0x1301) ECDH x25519 (eq. 3072 bits RSA) FS 128
+
+# TLS 1.2 (suites in server-preferred order)
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f) ECDH x25519 (eq. 3072 bits RSA) FS 128
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030) ECDH x25519 (eq. 3072 bits RSA) FS 256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8) ECDH x25519 (eq. 3072 bits RSA) FS 256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://nginx.org/en/docs/http/ngx_http_proxy_module.html
+
+Module ngx_http_proxy_module
+  proxy_ssl_ciphers
+  proxy_ssl_protocols
+
+https://nginx.org/en/docs/http/ngx_http_proxy_module.html?&_ga=2.184636842.2017736319.1725631179-1228698268.1725631179#proxy_ssl_protocols
+
+Syntax:	proxy_ssl_protocols [SSLv2] [SSLv3] [TLSv1] [TLSv1.1] [TLSv1.2] [TLSv1.3];
+Default:	
+proxy_ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+Context:	http, server, location
+This directive appeared in version 1.5.6.
+
+Enables the specified protocols for requests to a proxied HTTPS server.
+
+The TLSv1.3 parameter is used by default since 1.23.4.
+
+https://nginx.org/en/docs/http/ngx_http_proxy_module.html?&_ga=2.105666688.2017736319.1725631179-1228698268.1725631179#proxy_ssl_ciphers
+
+Syntax:	proxy_ssl_ciphers ciphers;
+Default:	
+proxy_ssl_ciphers DEFAULT;
+Context:	http, server, location
+This directive appeared in version 1.5.6.
+
+Specifies the enabled ciphers for requests to a proxied HTTPS server. The ciphers are specified in the format understood by the OpenSSL library.
+
+The full list can be viewed using the “openssl ciphers” command.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openssl.org/1.1.1/man1/ciphers/#cipher-strings
+
+CIPHER SUITE NAMES¶
+
+The following lists give the SSL or TLS cipher suites names from the relevant specification and their OpenSSL equivalents. It should be noted, that several cipher suite names do not include the authentication used, e.g. DES-CBC3-SHA. In these cases, RSA authentication is used.
+
+TLS v1.2 cipher suites¶
+
+TLS_RSA_WITH_NULL_SHA256                  NULL-SHA256
+
+TLS_RSA_WITH_AES_128_CBC_SHA256           AES128-SHA256
+TLS_RSA_WITH_AES_256_CBC_SHA256           AES256-SHA256
+TLS_RSA_WITH_AES_128_GCM_SHA256           AES128-GCM-SHA256
+TLS_RSA_WITH_AES_256_GCM_SHA384           AES256-GCM-SHA384
+
+TLS_DH_RSA_WITH_AES_128_CBC_SHA256        DH-RSA-AES128-SHA256
+TLS_DH_RSA_WITH_AES_256_CBC_SHA256        DH-RSA-AES256-SHA256
+TLS_DH_RSA_WITH_AES_128_GCM_SHA256        DH-RSA-AES128-GCM-SHA256
+TLS_DH_RSA_WITH_AES_256_GCM_SHA384        DH-RSA-AES256-GCM-SHA384
+
+TLS_DH_DSS_WITH_AES_128_CBC_SHA256        DH-DSS-AES128-SHA256
+TLS_DH_DSS_WITH_AES_256_CBC_SHA256        DH-DSS-AES256-SHA256
+TLS_DH_DSS_WITH_AES_128_GCM_SHA256        DH-DSS-AES128-GCM-SHA256
+TLS_DH_DSS_WITH_AES_256_GCM_SHA384        DH-DSS-AES256-GCM-SHA384
+
+TLS_DHE_RSA_WITH_AES_128_CBC_SHA256       DHE-RSA-AES128-SHA256
+TLS_DHE_RSA_WITH_AES_256_CBC_SHA256       DHE-RSA-AES256-SHA256
+TLS_DHE_RSA_WITH_AES_128_GCM_SHA256       DHE-RSA-AES128-GCM-SHA256
+TLS_DHE_RSA_WITH_AES_256_GCM_SHA384       DHE-RSA-AES256-GCM-SHA384
+
+TLS_DHE_DSS_WITH_AES_128_CBC_SHA256       DHE-DSS-AES128-SHA256
+TLS_DHE_DSS_WITH_AES_256_CBC_SHA256       DHE-DSS-AES256-SHA256
+TLS_DHE_DSS_WITH_AES_128_GCM_SHA256       DHE-DSS-AES128-GCM-SHA256
+TLS_DHE_DSS_WITH_AES_256_GCM_SHA384       DHE-DSS-AES256-GCM-SHA384
+
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256     ECDHE-RSA-AES128-SHA256
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384     ECDHE-RSA-AES256-SHA384
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256     ECDHE-RSA-AES128-GCM-SHA256
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384     ECDHE-RSA-AES256-GCM-SHA384
+
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256   ECDHE-ECDSA-AES128-SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384   ECDHE-ECDSA-AES256-SHA384
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDHE-ECDSA-AES128-GCM-SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384   ECDHE-ECDSA-AES256-GCM-SHA384
+
+TLS_DH_anon_WITH_AES_128_CBC_SHA256       ADH-AES128-SHA256
+TLS_DH_anon_WITH_AES_256_CBC_SHA256       ADH-AES256-SHA256
+TLS_DH_anon_WITH_AES_128_GCM_SHA256       ADH-AES128-GCM-SHA256
+TLS_DH_anon_WITH_AES_256_GCM_SHA384       ADH-AES256-GCM-SHA384
+
+RSA_WITH_AES_128_CCM                      AES128-CCM
+RSA_WITH_AES_256_CCM                      AES256-CCM
+DHE_RSA_WITH_AES_128_CCM                  DHE-RSA-AES128-CCM
+DHE_RSA_WITH_AES_256_CCM                  DHE-RSA-AES256-CCM
+RSA_WITH_AES_128_CCM_8                    AES128-CCM8
+RSA_WITH_AES_256_CCM_8                    AES256-CCM8
+DHE_RSA_WITH_AES_128_CCM_8                DHE-RSA-AES128-CCM8
+DHE_RSA_WITH_AES_256_CCM_8                DHE-RSA-AES256-CCM8
+ECDHE_ECDSA_WITH_AES_128_CCM              ECDHE-ECDSA-AES128-CCM
+ECDHE_ECDSA_WITH_AES_256_CCM              ECDHE-ECDSA-AES256-CCM
+ECDHE_ECDSA_WITH_AES_128_CCM_8            ECDHE-ECDSA-AES128-CCM8
+ECDHE_ECDSA_WITH_AES_256_CCM_8            ECDHE-ECDSA-AES256-CCM8
+
+TLS v1.3 cipher suites¶
+
+TLS_AES_128_GCM_SHA256                     TLS_AES_128_GCM_SHA256
+TLS_AES_256_GCM_SHA384                     TLS_AES_256_GCM_SHA384
+TLS_CHACHA20_POLY1305_SHA256               TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_128_CCM_SHA256                     TLS_AES_128_CCM_SHA256
+TLS_AES_128_CCM_8_SHA256                   TLS_AES_128_CCM_8_SHA256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>wsl
+Windows Subsystem for Linux is now available in the Microsoft Store!
+You can upgrade by running 'wsl.exe --update' or by visiting https://aka.ms/wslstorepage
+Installing WSL from the Microsoft Store will give you the latest WSL updates, faster.
+For more information please visit https://aka.ms/wslstoreinfo
+
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Sep  6 11:04:47 EDT 2024
+
+  System load:  0.09               Processes:             13
+  Usage of /:   0.6% of 250.98GB   Users logged in:       0
+  Memory usage: 7%                 IPv4 address for eth0: 172.21.43.218
+  Swap usage:   0%
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ openssl version
+OpenSSL 1.1.1f  31 Mar 2020
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ openssl ciphers
+TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:DHE-RSA-AES256-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:RSA-PSK-AES256-GCM-SHA384:DHE-PSK-AES256-GCM-SHA384:RSA-PSK-CHACHA20-POLY1305:DHE-PSK-CHACHA20-POLY1305:ECDHE-PSK-CHACHA20-POLY1305:AES256-GCM-SHA384:PSK-AES256-GCM-SHA384:PSK-CHACHA20-POLY1305:RSA-PSK-AES128-GCM-SHA256:DHE-PSK-AES128-GCM-SHA256:AES128-GCM-SHA256:PSK-AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:ECDHE-PSK-AES256-CBC-SHA384:ECDHE-PSK-AES256-CBC-SHA:SRP-RSA-AES-256-CBC-SHA:SRP-AES-256-CBC-SHA:RSA-PSK-AES256-CBC-SHA384:DHE-PSK-AES256-CBC-SHA384:RSA-PSK-AES256-CBC-SHA:DHE-PSK-AES256-CBC-SHA:AES256-SHA:PSK-AES256-CBC-SHA384:PSK-AES256-CBC-SHA:ECDHE-PSK-AES128-CBC-SHA256:ECDHE-PSK-AES128-CBC-SHA:SRP-RSA-AES-128-CBC-SHA:SRP-AES-128-CBC-SHA:RSA-PSK-AES128-CBC-SHA256:DHE-PSK-AES128-CBC-SHA256:RSA-PSK-AES128-CBC-SHA:DHE-PSK-AES128-CBC-SHA:AES128-SHA:PSK-AES128-CBC-SHA256:PSK-AES128-CBC-SHA
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ nginx --version
+
+Command 'nginx' not found, but can be installed with:
+
+sudo apt install nginx-core    # version 1.18.0-0ubuntu1.4, or
+sudo apt install nginx-extras  # version 1.18.0-0ubuntu1.4
+sudo apt install nginx-full    # version 1.18.0-0ubuntu1.4
+sudo apt install nginx-light   # version 1.18.0-0ubuntu1.4
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ python -V
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$ python3 -V
+Python 3.8.10
+davidho@dphxps17:/mnt/c/Users/DavidHolberton$

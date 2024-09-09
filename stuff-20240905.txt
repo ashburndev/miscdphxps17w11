@@ -1,0 +1,46 @@
+8:08 AM 9/5/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240905.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/updates/v1_92
+  July 2024 (version 1.92)
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.youtube.com/@TechWorldwithNana
+
+https://www.youtube.com/watch?v=pg19Z8LL06w
+https://www.youtube.com/watch?v=pg19Z8LL06w&t=2346s
+Docker Crash Course for Absolute Beginners [NEW] 
+
+
+C:\>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\>
+
+
+
+
