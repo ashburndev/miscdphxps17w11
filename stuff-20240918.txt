@@ -1,0 +1,471 @@
+9:56 AM 9/18/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240918.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/updates/v1_93
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+
+Eclipse IDE for Java Developers
+Eclipse IDE for Enterprise Java and Web Developers
+Eclipse IDE for Java and DSL Developers
+
+https://spring.io/tools
+
+
+
+
+
+09/14/2024  06:44 AM       101,245,912 VSCodeUserSetup-x64-1.93.1.exe
+09/14/2024  06:44 AM       101,245,496 VSCodeSetup-x64-1.93.1.exe
+09/14/2024  06:45 AM       140,779,492 VSCode-win32-x64-1.93.1.zip
+09/14/2024  06:49 AM             2,275 VSCode-win32-x64-1.93.1.sha256
+09/18/2024  10:04 AM       347,223,286 eclipse-java-2024-09-R-win32-x86_64.zip
+09/18/2024  10:06 AM               171 eclipse-java-2024-09-R-win32-x86_64.zip.sha512
+09/18/2024  10:07 AM       556,138,684 eclipse-jee-2024-09-R-win32-x86_64.zip
+09/18/2024  10:08 AM               170 eclipse-jee-2024-09-R-win32-x86_64.zip.sha512
+09/18/2024  10:10 AM       526,241,214 eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/18/2024  10:15 AM               170 eclipse-dsl-2024-09-R-win32-x86_64.zip.sha512
+             663 File(s) 105,824,606,826 bytes
+              12 Dir(s)  478,316,388,352 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile eclipse-jee-2024-09-R-win32-x86_64.zip SHA512
+type               eclipse-jee-2024-09-R-win32-x86_64.zip.sha512
+7z x eclipse-jee-2024-09-R-win32-x86_64.zip -oC:\LocalApps\
+cd \LocalApps
+ren eclipse eclipse-jee-2024-09-R-win32-x86_64.zip
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile eclipse-java-2024-09-R-win32-x86_64.zip SHA512
+type               eclipse-java-2024-09-R-win32-x86_64.zip.sha512
+7z x eclipse-java-2024-09-R-win32-x86_64.zip -oC:\LocalApps\
+cd \LocalApps
+ren eclipse eclipse-java-2024-09-R-win32-x86_64.zip
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile eclipse-dsl-2024-09-R-win32-x86_64.zip SHA512
+type               eclipse-dsl-2024-09-R-win32-x86_64.zip.sha512
+7z x eclipse-dsl-2024-09-R-win32-x86_64.zip -oC:\LocalApps\
+cd \LocalApps
+ren eclipse eclipse-dsl-2024-09-R-win32-x86_64.zip
+
+7z x spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64.zip -oC:\LocalApps\
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>cd C:\Users\DavidHolberton\Downloads
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile eclipse-jee-2024-09-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-jee-2024-09-R-win32-x86_64.zip:
+e3862da16841af4bd34d333c94aa2d8fbc551336e3041f55f858f73437f4c909e02b3cb1acc049261e92982a588db2d02b4bece15b4a1f99597e566d410fea02
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-jee-2024-09-R-win32-x86_64.zip.sha512
+e3862da16841af4bd34d333c94aa2d8fbc551336e3041f55f858f73437f4c909e02b3cb1acc049261e92982a588db2d02b4bece15b4a1f99597e566d410fea02  eclipse-jee-2024-09-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>cd C:\Users\DavidHolberton\Downloads
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile eclipse-java-2024-09-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-java-2024-09-R-win32-x86_64.zip:
+f2db8fdaf6992005ddf3a3f4d7aceda42dcc8b95858adb1c019d50e23b97f9c16e5e085b584ace47322fbfb73d2d4d114a9bb2185030be1ebf482bf34f5e7d21
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-java-2024-09-R-win32-x86_64.zip.sha512
+f2db8fdaf6992005ddf3a3f4d7aceda42dcc8b95858adb1c019d50e23b97f9c16e5e085b584ace47322fbfb73d2d4d114a9bb2185030be1ebf482bf34f5e7d21  eclipse-java-2024-09-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>cd C:\Users\DavidHolberton\Downloads
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile eclipse-dsl-2024-09-R-win32-x86_64.zip SHA512
+SHA512 hash of eclipse-dsl-2024-09-R-win32-x86_64.zip:
+fd7e9b84a7f45d2f6d52e9e09cfb280cc60e5b34d3bab9998356da679fe05f865bc6d7b4c902c2a52ed21d6fd57fe4647ab2c1992ed3a1122df42e50bdb69989
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-dsl-2024-09-R-win32-x86_64.zip.sha512
+fd7e9b84a7f45d2f6d52e9e09cfb280cc60e5b34d3bab9998356da679fe05f865bc6d7b4c902c2a52ed21d6fd57fe4647ab2c1992ed3a1122df42e50bdb69989  eclipse-dsl-2024-09-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+07/31/2024  07:14 AM    <DIR>          putty
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+09/18/2024  10:42 AM    <DIR>          .
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/05/2023  06:49 AM               315 init.gradle
+06/05/2023  07:05 AM             2,123 settings.gradle
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+               7 File(s)    683,711,299 bytes
+              35 Dir(s)  474,983,989,248 bytes free
+
+C:\LocalApps>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+09/18/2024  10:42 AM    <DIR>          .
+06/05/2023  06:09 AM    <DIR>          .gradle
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+12/01/2023  10:25 PM    <DIR>          eclipse-java-2023-12-R-win32-x86_64
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+12/01/2023  10:40 PM    <DIR>          eclipse-jee-2023-12-R-win32-x86_64
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+02/01/1980  12:00 AM    <DIR>          gradle-5.4
+02/01/1980  12:00 AM    <DIR>          gradle-7.6.1
+02/01/1980  12:00 AM    <DIR>          gradle-8.1.1
+02/01/1980  12:00 AM    <DIR>          groovy-4.0.12
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+01/09/2024  08:11 AM    <DIR>          ideaIU-2023.3.2.win
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+07/31/2024  07:14 AM    <DIR>          putty
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/19/2023  05:05 AM    <DIR>          sts-4.19.0.RELEASE
+01/09/2024  07:40 AM    <DIR>          sts-4.21.0.RELEASE
+07/30/2024  07:51 AM    <DIR>          sts-4.24.0.RELEASE
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+06/17/2023  09:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  05:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  06:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+01/09/2024  06:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+02/08/2024  07:05 AM    <DIR>          VSCode-win32-x64-1.86.0
+04/10/2024  06:24 AM    <DIR>          VSCode-win32-x64-1.88.0
+07/19/2024  08:01 AM    <DIR>          VSCode-win32-x64-1.91.1
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/05/2023  06:49 AM               315 init.gradle
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+06/05/2023  07:05 AM             2,123 settings.gradle
+               7 File(s)    683,711,299 bytes
+              35 Dir(s)  474,983,989,248 bytes free
+
+C:\LocalApps>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile VSCode-win32-x64-1.93.1.zip SHA256
+type               VSCode-win32-x64-1.93.1.sha256
+mkdir C:\LocalApps\VSCode-win32-x64-1.93.1
+7z x               VSCode-win32-x64-1.93.1.zip -oC:\LocalApps\VSCode-win32-x64-1.93.1
+cd \LocalApps
+
+C:\Users\DavidHolberton>cd C:\Users\DavidHolberton\Downloads
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile VSCode-win32-x64-1.93.1.zip SHA256
+SHA256 hash of VSCode-win32-x64-1.93.1.zip:
+d74a51590e4d1c9c7ad63488c2aafb83f9b665d67f6982c8249281c21c640977
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               VSCode-win32-x64-1.93.1.sha256
+
+Get previous versions
+Windows User Installer (x64)    0cd4fbe62d04d3a468409fbe375d9a3ee0949adfa5158c197412dbed40dac5ba
+Windows System Installer (x64)  24b2b718bb8f5f08ee6703484b6e71604b0f1f10e9e23f18efc3b301d04c0c9d
+Windows .zip (x64)      d74a51590e4d1c9c7ad63488c2aafb83f9b665d67f6982c8249281c21c640977
+Windows CLI (x64)       a18151fdf02a23d9497f1091c15cca7d20973a0afbf6095035ec6287526362c7
+Windows User Installer (Arm64)  6acc029e24ec3bdc4eb974147b5e47fe7aba7644a30b653a158f729b9390f151
+Windows .zip (Arm64)    beace0327bbe1431735944d94b24d18f7fa69bfca09c55475f48a458439a7fcd
+Windows System Installer (Arm64)        2b1a0afc62561cc4e22085c7003c3589a06e933a4cbd507c3e729605e5f8c7fd
+Windows CLI (Arm64)     5d784f1cb7c474e8c7c7c001a16d31cc924fd588ef6b945acaed324df08a1f40
+Linux .deb (x64)        29a9431daea5307cf9a22f6a95cbbe328f48ace6bda126457e1171390dc84aed
+Linux .rpm (x64)        fa47c256ddc827f75d080d0f92269091a4a1ca18c05d51a09a8d04ee41a3cacd
+Linux .tar.gz (x64)     4a8598a8016630229f26f243b653bc14b0cc28795038f55ea224543f149fe510
+Linux CLI (x64) 1fd27b23ca8c6f4b55922de3181b312a094d8aa18ad6e0a716b7b94224064288
+Linux .tar.gz (Arm32)   6cd89823ecd48074164945d2a2f271a1089bf5a10b7bfb41c5c665f97dbf14ab
+Linux .deb (Arm32)      723aefc9c781d5af1ce3996ea88b64820274338da01b5eac3bda85a7865d653f
+Linux .rpm (Arm32)      dfb7708ba7ba4f37093bec313cf9b86a2b31e801188a9622017fc063e71eecd1
+Linux CLI (Arm32)       89d80da8f37364d23540b1b27de726d51607e455dcc170281c3e0929f8842410
+Linux .tar.gz (Arm64)   e0bba475bb227f0b25b3b79aec3cc623f3603307db2ce34abc37f44dccb9a591
+Linux .deb (Arm64)      7d84b3954018102ca9154c74fc5c4bd8129206eebdd0d5b1adb564917eded1fd
+Linux .rpm (Arm64)      cbf4da215f66a849e9c99ae653323d5c974ed9b79a1b5b30289cdfdbb93fa4bc
+Linux CLI (Arm64)       8c7a1acdc0b87b9b1afb6b4e18112158a215d7d2b736c4f26fc12007fef3bdb5
+Mac for Apple silicon   8bb425d1737c4699db5f2ef2f21c596a41680edf094966ac874d5d67813ab04d
+Mac CLI for Apple silicon       6c1c6564bd1107dbcbf5fda1c690e28b6ee4140258ce9316f2d0b862a59fea5c
+Mac for Intel chip      44fbc8b0c4dd1ad236979dcff08622d3ff09ce21a17f1263bffdc379ae205f97
+Mac CLI for Intel chip  1f0e2a45c7e61b212ab1c977a839ac05dc72511f5cff8c7f1e6f14bdd9f0ca27
+Mac Universal Build     26b8769e5299e1e5e313606ca4e29e88f4de84b94b504e072de0ab10bc546100
+
+    Follow us on X VS Code on Github VS Code on YouTube
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+07/31/2024  07:14 AM    <DIR>          putty
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+09/18/2024  10:55 AM    <DIR>          .
+09/18/2024  10:56 AM    <DIR>          VSCode-win32-x64-1.93.1
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/05/2023  06:49 AM               315 init.gradle
+06/05/2023  07:05 AM             2,123 settings.gradle
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+               7 File(s)    683,711,299 bytes
+              36 Dir(s)  474,383,245,312 bytes free
+
+C:\LocalApps>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+09/18/2024  10:55 AM    <DIR>          .
+06/05/2023  06:09 AM    <DIR>          .gradle
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+12/01/2023  10:25 PM    <DIR>          eclipse-java-2023-12-R-win32-x86_64
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+12/01/2023  10:40 PM    <DIR>          eclipse-jee-2023-12-R-win32-x86_64
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+02/01/1980  12:00 AM    <DIR>          gradle-5.4
+02/01/1980  12:00 AM    <DIR>          gradle-7.6.1
+02/01/1980  12:00 AM    <DIR>          gradle-8.1.1
+02/01/1980  12:00 AM    <DIR>          groovy-4.0.12
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+01/09/2024  08:11 AM    <DIR>          ideaIU-2023.3.2.win
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+07/31/2024  07:14 AM    <DIR>          putty
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/19/2023  05:05 AM    <DIR>          sts-4.19.0.RELEASE
+01/09/2024  07:40 AM    <DIR>          sts-4.21.0.RELEASE
+07/30/2024  07:51 AM    <DIR>          sts-4.24.0.RELEASE
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+06/17/2023  09:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  05:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  06:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+01/09/2024  06:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+02/08/2024  07:05 AM    <DIR>          VSCode-win32-x64-1.86.0
+04/10/2024  06:24 AM    <DIR>          VSCode-win32-x64-1.88.0
+07/19/2024  08:01 AM    <DIR>          VSCode-win32-x64-1.91.1
+09/18/2024  10:56 AM    <DIR>          VSCode-win32-x64-1.93.1
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/05/2023  06:49 AM               315 init.gradle
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+06/05/2023  07:05 AM             2,123 settings.gradle
+               7 File(s)    683,711,299 bytes
+              36 Dir(s)  474,383,245,312 bytes free
+
+C:\LocalApps>
+
+https://www.jetbrains.com/privacy-security/binaries-signatures/
+https://www.jetbrains.com/
+https://www.jetbrains.com/ides/
+
+https://www.jetbrains.com/ides/?language=java
+https://www.jetbrains.com/ides/?language=python
+https://www.jetbrains.com/ides/?language=ruby
+https://www.jetbrains.com/ides/?language=sql
+
+https://www.jetbrains.com/idea/
+https://www.jetbrains.com/idea/download/?section=windows
+  Version: 2024.2.1
+  Build: 242.21829.142
+  28 August 2024
+
+https://www.jetbrains.com/pycharm/
+https://www.jetbrains.com/pycharm/download/?section=windows
+  Version: 2024.2.1
+  Build: 242.21829.153
+  28 August 2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\Downloads
+certutil -hashfile ideaIU-2024.2.1.win.zip SHA256
+type               ideaIU-2024.2.1.win.zip.sha256
+mkdir C:\LocalApps\ideaIU-2024.2.1.win
+7z x               ideaIU-2024.2.1.win.zip -oC:\LocalApps\ideaIU-2024.2.1.win
+cd \LocalApps
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>cd C:\Users\DavidHolberton\Downloads
+
+C:\Users\DavidHolberton\Downloads>certutil -hashfile ideaIU-2024.2.1.win.zip SHA256
+SHA256 hash of ideaIU-2024.2.1.win.zip:
+7e2623029b5aefb5f671831467ec4ac6a54447d19a051438b24e61021bcc26e7
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               ideaIU-2024.2.1.win.zip.sha256
+7e2623029b5aefb5f671831467ec4ac6a54447d19a051438b24e61021bcc26e7 *ideaIU-2024.2.1.win.zip
+
+C:\Users\DavidHolberton\Downloads>mkdir C:\LocalApps\ideaIU-2024.2.1.win
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+07/31/2024  07:14 AM    <DIR>          putty
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+09/18/2024  11:06 AM    <DIR>          VSCode-win32-x64-1.93.1
+09/18/2024  11:33 AM    <DIR>          .
+09/18/2024  11:34 AM    <DIR>          ideaIU-2024.2.1.win
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/05/2023  06:49 AM               315 init.gradle
+06/05/2023  07:05 AM             2,123 settings.gradle
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+               7 File(s)    683,711,299 bytes
+              37 Dir(s)  465,728,491,520 bytes free
+
+C:\LocalApps>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+09/18/2024  11:33 AM    <DIR>          .
+06/05/2023  06:09 AM    <DIR>          .gradle
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+12/01/2023  10:25 PM    <DIR>          eclipse-java-2023-12-R-win32-x86_64
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+03/09/2023  04:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+12/01/2023  10:40 PM    <DIR>          eclipse-jee-2023-12-R-win32-x86_64
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+02/01/1980  12:00 AM    <DIR>          gradle-5.4
+02/01/1980  12:00 AM    <DIR>          gradle-7.6.1
+02/01/1980  12:00 AM    <DIR>          gradle-8.1.1
+02/01/1980  12:00 AM    <DIR>          groovy-4.0.12
+05/13/2023  10:04 AM    <DIR>          ideaIU-2023.1.1.win
+01/09/2024  08:11 AM    <DIR>          ideaIU-2023.3.2.win
+09/18/2024  11:34 AM    <DIR>          ideaIU-2024.2.1.win
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+07/31/2024  07:14 AM    <DIR>          putty
+05/13/2023  10:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/19/2023  05:05 AM    <DIR>          sts-4.19.0.RELEASE
+01/09/2024  07:40 AM    <DIR>          sts-4.21.0.RELEASE
+07/30/2024  07:51 AM    <DIR>          sts-4.24.0.RELEASE
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+06/17/2023  09:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  05:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  06:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+01/09/2024  06:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+02/08/2024  07:05 AM    <DIR>          VSCode-win32-x64-1.86.0
+04/10/2024  06:24 AM    <DIR>          VSCode-win32-x64-1.88.0
+07/19/2024  08:01 AM    <DIR>          VSCode-win32-x64-1.91.1
+09/18/2024  11:06 AM    <DIR>          VSCode-win32-x64-1.93.1
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/05/2023  06:49 AM               315 init.gradle
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+06/05/2023  07:05 AM             2,123 settings.gradle
+               7 File(s)    683,711,299 bytes
+              37 Dir(s)  465,728,487,424 bytes free
+
+C:\LocalApps>
+C:\LocalApps>dir /o:gd ideaIU-2024.2.1.win
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\ideaIU-2024.2.1.win
+
+09/18/2024  11:33 AM    <DIR>          ..
+09/18/2024  11:33 AM    <DIR>          help
+09/18/2024  11:33 AM    <DIR>          jdk-shared-indexes
+09/18/2024  11:33 AM    <DIR>          lib
+09/18/2024  11:33 AM    <DIR>          plugins
+09/18/2024  11:34 AM    <DIR>          bin
+09/18/2024  11:34 AM    <DIR>          license
+09/18/2024  11:34 AM    <DIR>          modules
+09/18/2024  11:34 AM    <DIR>          jbr
+09/18/2024  11:34 AM    <DIR>          .
+09/18/2024  11:15 AM                16 build.txt
+09/18/2024  11:15 AM           107,806 product-info.json
+09/18/2024  11:15 AM             2,051 Install-Windows-zip.txt
+               3 File(s)        109,873 bytes
+              10 Dir(s)  465,737,420,800 bytes free
+
+C:\LocalApps>
+

@@ -1,0 +1,375 @@
+7:20 AM 9/26/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240926.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://start.spring.io/
+
+3.3.4 and 3.2.10
+gradle or maven
+java 17 or Java 21
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.3.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact: sb334grajar17
+    Name: sb334grajar17
+    Description: Spring Boot application with gradle build, jar packaging, and java 17
+    Program name: com.ashburncode.sb334grajar17
+    Packaging: Jar
+    Java: 17
+  Dependencies:
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    GraalVM Native Support Developer Tools
+      Support for compiling Spring applications to native executables using the GraalVM native-image compiler.
+    Spring Data JPA SQL
+      Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+    Rest Repositories Web
+      Exposing Spring Data repositories over REST via Spring Data REST.
+    MySQL Driver SQL
+      MySQL JDBC driver.
+    H2 Database SQL
+      Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application.
+    PostgreSQL Driver SQL
+      A JDBC and R2DBC driver that allows Java programs to connect to a PostgreSQL database using standard, database independent Java code.
+    Oracle Driver SQL
+      A JDBC driver that provides access to Oracle.
+
+sb334grajav17
+sb334grajav21
+sb334mavjav17
+sb334mavjav21
+
+sb3210grajav17
+sb3210grajav21
+sb3210mavjav17
+sb3210mavjav21
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd sb*.zip
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+06/21/2023  08:04 AM            68,050 sb310demo.zip
+09/26/2024  07:52 AM            53,963 sb334grajar17.zip
+09/26/2024  07:53 AM            53,963 sb334grajar21.zip
+09/26/2024  07:54 AM            16,554 sb334mavjar17.zip
+09/26/2024  07:55 AM            16,553 sb334mavjar21.zip
+09/26/2024  07:58 AM            54,016 sb3210grajar17.zip
+09/26/2024  07:58 AM            54,013 sb3210grajar21.zip
+09/26/2024  07:59 AM            16,610 sb3210mavjar17.zip
+09/26/2024  07:59 AM            16,609 sb3210mavjar21.zip
+               9 File(s)        350,331 bytes
+               0 Dir(s)  460,428,484,608 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+sb334grajav17
+https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.3.4&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=sb334grajar17&name=sb334grajar17&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.sb334grajar17&dependencies=web,actuator,native,data-jpa,data-rest,mysql,h2,postgresql,oracle
+
+C:\Users\DavidHolberton\Downloads>7z l sb334grajar17.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 53963 bytes (53 KiB)
+
+Listing archive: sb334grajar17.zip
+
+--
+Path = sb334grajar17.zip
+Type = zip
+Physical Size = 53963
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-09-26 07:52:38 D....            0            2  sb334grajar17
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\gradle
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\gradle\wrapper
+2024-09-26 07:52:38 .....        43583        38865  sb334grajar17\gradle\wrapper\gradle-wrapper.jar
+2024-09-26 07:52:38 .....          253          153  sb334grajar17\gradle\wrapper\gradle-wrapper.properties
+2024-09-26 07:52:38 .....          444          242  sb334grajar17\.gitignore
+2024-09-26 07:52:38 .....         1100          463  sb334grajar17\build.gradle
+2024-09-26 07:52:38 .....         3910         1385  sb334grajar17\HELP.md
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\test
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\test\java
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\test\java\com
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\test\java\com\ashburncode
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\test\java\com\ashburncode\sb334grajar17
+2024-09-26 07:52:38 .....          228          160  sb334grajar17\src\test\java\com\ashburncode\sb334grajar17\Sb334grajar17ApplicationTests.java
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\java
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\java\com
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\java\com\ashburncode
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\java\com\ashburncode\sb334grajar17
+2024-09-26 07:52:38 .....          336          179  sb334grajar17\src\main\java\com\ashburncode\sb334grajar17\Sb334grajar17Application.java
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\resources
+2024-09-26 07:52:38 .....           38           40  sb334grajar17\src\main\resources\application.properties
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\resources\templates
+2024-09-26 07:52:38 D....            0            2  sb334grajar17\src\main\resources\static
+2024-09-26 07:52:38 .....         8762         3726  sb334grajar17\gradlew
+2024-09-26 07:52:38 .....           35           37  sb334grajar17\settings.gradle
+2024-09-26 07:52:38 .....         2966         1239  sb334grajar17\gradlew.bat
+------------------- ----- ------------ ------------  ------------------------
+2024-09-26 07:52:38              61655        46523  11 files, 17 folders
+
+cd C:\Users\DavidHolberton\Downloads>
+
+copy sb334grajar17.zip  C:\Users\DavidHolberton\sbprojs
+copy sb334grajar21.zip  C:\Users\DavidHolberton\sbprojs
+copy sb334mavjar17.zip  C:\Users\DavidHolberton\sbprojs
+copy sb334mavjar21.zip  C:\Users\DavidHolberton\sbprojs
+copy sb3210grajar17.zip C:\Users\DavidHolberton\sbprojs
+copy sb3210grajar21.zip C:\Users\DavidHolberton\sbprojs
+copy sb3210mavjar17.zip C:\Users\DavidHolberton\sbprojs
+copy sb3210mavjar21.zip C:\Users\DavidHolberton\sbprojs
+
+cd C:\Users\DavidHolberton\sbprojs
+
+7z x sb334grajar17.zip
+7z x sb334grajar21.zip
+7z x sb334mavjar17.zip
+7z x sb334mavjar21.zip
+7z x sb3210grajar17.zip
+7z x sb3210grajar21.zip
+7z x sb3210mavjar17.zip
+7z x sb3210mavjar21.zip
+
+cd C:\Users\DavidHolberton\sbprojs\sb334grajar17
+code .
+tree /a /F
+java -version
+.\gradlew --version
+.\gradlew bootRun
+
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   HELP.md
+|   settings.gradle
+|
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---com
+    |   |       \---ashburncode
+    |   |           \---sb334grajar17
+    |   |                   Sb334grajar17Application.java
+    |   |
+    |   \---resources
+    |       |   application.properties
+    |       |
+    |       +---static
+    |       \---templates
+    \---test
+        \---java
+            \---com
+                \---ashburncode
+                    \---sb334grajar17
+                            Sb334grajar17ApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>java -version
+java version "17.0.7" 2023-04-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.7+8-LTS-224)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.7+8-LTS-224, mixed mode, sharing)
+
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>.\gradlew --version
+
+Welcome to Gradle 8.10.2!
+
+Here are the highlights of this release:
+ - Support for Java 23
+ - Faster configuration cache
+ - Better configuration cache reports
+
+For more details see https://docs.gradle.org/8.10.2/release-notes.html
+
+------------------------------------------------------------
+Gradle 8.10.2
+------------------------------------------------------------
+
+Build time:    2024-09-23 21:28:39 UTC
+Revision:      415adb9e06a516c44b391edff552fd42139443f7
+
+Kotlin:        1.9.24
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+Daemon JVM:    C:\LocalApps\jdk-17.0.7 (no JDK specified, using current Java home)
+OS:            Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>.\gradlew bootRun
+Starting a Gradle Daemon, 2 incompatible Daemons could not be reused, use --status for details
+init.gradle
+
+> Task :processAot
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-09-26T08:21:24.596-04:00  INFO 36748 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : Starting Sb334grajar17Application using Java 17.0.7 with PID 36748 (C:\Users\DavidHolberton\sbprojs\sb334grajar17\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\sb334grajar17)
+2024-09-26T08:21:24.599-04:00  INFO 36748 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : No active profile set, falling back to 1 default profile: "default"
+2024-09-26T08:21:25.422-04:00  INFO 36748 --- [sb334grajar17] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T08:21:25.442-04:00  INFO 36748 --- [sb334grajar17] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-09-26T08:21:27.156-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController$$SpringCGLIB$$0 for class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2024-09-26T08:21:27.349-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.RepositoryController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.RepositoryController
+2024-09-26T08:21:27.363-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.RepositoryEntityController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.RepositoryEntityController
+2024-09-26T08:21:27.380-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController
+2024-09-26T08:21:27.387-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.RepositorySearchController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.RepositorySearchController
+2024-09-26T08:21:27.404-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.RepositorySchemaController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.RepositorySchemaController
+2024-09-26T08:21:27.408-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.alps.AlpsController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.alps.AlpsController
+2024-09-26T08:21:27.413-04:00  INFO 36748 --- [sb334grajar17] [           main] rocessor$ProxyRegisteringAotContribution : Created proxy type class org.springframework.data.rest.webmvc.ProfileController$$SpringCGLIB$$0 for class org.springframework.data.rest.webmvc.ProfileController
+2024-09-26T08:21:27.423-04:00  INFO 36748 --- [sb334grajar17] [           main] o.springframework.hateoas.aot.AotUtils   : Registering Spring HATEOAS types in org.springframework.hateoas.mediatype.hal for reflection.
+2024-09-26T08:21:27.464-04:00  INFO 36748 --- [sb334grajar17] [           main] o.springframework.hateoas.aot.AotUtils   : Registering Spring HATEOAS types in org.springframework.hateoas.mediatype.hal.forms for reflection.
+2024-09-26T08:21:27.471-04:00  INFO 36748 --- [sb334grajar17] [           main] o.springframework.hateoas.aot.AotUtils   : Registering Spring HATEOAS types in org.springframework.hateoas.mediatype.alps for reflection.
+2024-09-26T08:21:27.473-04:00  INFO 36748 --- [sb334grajar17] [           main] o.springframework.hateoas.aot.AotUtils   : Registering Spring HATEOAS types in org.springframework.hateoas.mediatype.problem for reflection.
+2024-09-26T08:21:27.541-04:00  INFO 36748 --- [sb334grajar17] [           main] o.springframework.hateoas.aot.AotUtils   : Registering Spring HATEOAS types in org.springframework.hateoas for reflection.
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-09-26T08:21:38.263-04:00  INFO 22500 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : Starting Sb334grajar17Application using Java 17.0.7 with PID 22500 (C:\Users\DavidHolberton\sbprojs\sb334grajar17\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\sb334grajar17)
+2024-09-26T08:21:38.266-04:00  INFO 22500 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : No active profile set, falling back to 1 default profile: "default"
+2024-09-26T08:21:38.829-04:00  INFO 22500 --- [sb334grajar17] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T08:21:38.845-04:00  INFO 22500 --- [sb334grajar17] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-09-26T08:21:39.344-04:00  INFO 22500 --- [sb334grajar17] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T08:21:39.353-04:00  INFO 22500 --- [sb334grajar17] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T08:21:39.354-04:00  INFO 22500 --- [sb334grajar17] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T08:21:39.406-04:00  INFO 22500 --- [sb334grajar17] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T08:21:39.406-04:00  INFO 22500 --- [sb334grajar17] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1107 ms
+2024-09-26T08:21:39.585-04:00  INFO 22500 --- [sb334grajar17] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T08:21:39.755-04:00  INFO 22500 --- [sb334grajar17] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9c434185-8d44-480b-a462-554973b51fef user=SA
+2024-09-26T08:21:39.756-04:00  INFO 22500 --- [sb334grajar17] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T08:21:39.796-04:00  INFO 22500 --- [sb334grajar17] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T08:21:39.835-04:00  INFO 22500 --- [sb334grajar17] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T08:21:39.859-04:00  INFO 22500 --- [sb334grajar17] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T08:21:40.069-04:00  INFO 22500 --- [sb334grajar17] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T08:21:40.350-04:00  INFO 22500 --- [sb334grajar17] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T08:21:40.354-04:00  INFO 22500 --- [sb334grajar17] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T08:21:40.392-04:00  WARN 22500 --- [sb334grajar17] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T08:21:41.068-04:00  INFO 22500 --- [sb334grajar17] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-26T08:21:41.125-04:00  INFO 22500 --- [sb334grajar17] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T08:21:41.136-04:00  INFO 22500 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : Started Sb334grajar17Application in 3.134 seconds (process running for 3.385)
+<===========--> 88% EXECUTING [55s]
+> :bootRun
+
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>
+C:\Users\DavidHolberton\sbprojs\sb334grajar17>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-09-26T08:34:44.690-04:00  INFO 36156 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : Starting Sb334grajar17Application using Java 17.0.7 with PID 36156 (C:\Users\DavidHolberton\sbprojs\sb334grajar17\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\sb334grajar17)
+2024-09-26T08:34:44.694-04:00  INFO 36156 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : No active profile set, falling back to 1 default profile: "default"
+2024-09-26T08:34:45.251-04:00  INFO 36156 --- [sb334grajar17] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26T08:34:45.265-04:00  INFO 36156 --- [sb334grajar17] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-09-26T08:34:45.750-04:00  INFO 36156 --- [sb334grajar17] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-26T08:34:45.759-04:00  INFO 36156 --- [sb334grajar17] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-26T08:34:45.759-04:00  INFO 36156 --- [sb334grajar17] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26T08:34:45.806-04:00  INFO 36156 --- [sb334grajar17] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-26T08:34:45.808-04:00  INFO 36156 --- [sb334grajar17] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1080 ms
+2024-09-26T08:34:45.974-04:00  INFO 36156 --- [sb334grajar17] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-26T08:34:46.089-04:00  INFO 36156 --- [sb334grajar17] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:3a3c9418-5f5e-4b59-8aa4-a00c5d899c1e user=SA
+2024-09-26T08:34:46.090-04:00  INFO 36156 --- [sb334grajar17] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-26T08:34:46.117-04:00  INFO 36156 --- [sb334grajar17] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26T08:34:46.154-04:00  INFO 36156 --- [sb334grajar17] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26T08:34:46.185-04:00  INFO 36156 --- [sb334grajar17] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-26T08:34:46.394-04:00  INFO 36156 --- [sb334grajar17] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26T08:34:46.656-04:00  INFO 36156 --- [sb334grajar17] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26T08:34:46.660-04:00  INFO 36156 --- [sb334grajar17] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26T08:34:46.707-04:00  WARN 36156 --- [sb334grajar17] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26T08:34:47.349-04:00  INFO 36156 --- [sb334grajar17] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-26T08:34:47.407-04:00  INFO 36156 --- [sb334grajar17] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-26T08:34:47.417-04:00  INFO 36156 --- [sb334grajar17] [           main] c.a.s.Sb334grajar17Application           : Started Sb334grajar17Application in 2.98 seconds (process running for 3.214)
+<===========--> 88% EXECUTING [18s]
+> :bootRun
+
+http://localhost:8080/
+http://localhost:8080/profile
+http://localhost:8080/actuator
+
+_links	
+self	
+href	"http://localhost:8080/actuator"
+templated	false
+health	
+href	"http://localhost:8080/actuator/health"
+templated	false
+health-path	
+href	"http://localhost:8080/actuator/health/{*path}"
+templated	true
+
+http://localhost:8080/actuator/health
+
+C:\>curl http://localhost:8080/actuator/health
+{"status":"UP"}
+C:\>
+C:\>curl http://localhost:8080/actuator
+{"_links":{"self":{"href":"http://localhost:8080/actuator","templated":false},"health":{"href":"http://localhost:8080/actuator/health","templated":false},"health-path":{"href":"http://localhost:8080/actuator/health/{*path}","templated":true}}}
+C:\>
+C:\>
+

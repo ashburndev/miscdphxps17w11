@@ -1,0 +1,108 @@
+7:06 AM 9/25/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+support for gradle toolchains first appeared in gradle 6.7
+the current version of gradle is gradle 8.10.2
+
+
+https://docs.gradle.org/current/userguide/compatibility.html
+
+Compatibility Matrix
+Contents
+
+    Java Runtime
+    Kotlin
+    Groovy
+    Android
+
+The sections below describe Gradle’s compatibility with several integrations. Versions not listed here may or may not work.
+Java Runtime
+
+Gradle runs on the Java Virtual Machine (JVM), which is often provided by either a JDK or JRE. A JVM version between 8 and 23 is required to execute Gradle. JVM 24 and later versions are not yet supported.
+
+Executing the Gradle daemon with JVM 16 or earlier has been deprecated and will become an error in Gradle 9.0. The Gradle wrapper, Gradle client, Tooling API client, and TestKit client will remain compatible with JVM 8.
+
+JDK 6 and 7 can be used for compilation. Testing with JVM 6 and 7 is deprecated and will not be supported in Gradle 9.0.
+
+Any fully supported version of Java can be used for compilation or testing. However, the latest Java version may only be supported for compilation or testing, not for running Gradle. Support is achieved using toolchains and applies to all tasks supporting toolchains.
+
+See the table below for the Java version supported by a specific Gradle release:
+Table 1. Java Compatibility Java version 	Support for toolchains 	Support for running Gradle
+
+https://docs.gradle.org/current/userguide/build_environment.html
+
+Here are all possible configurations of specifying the JDK installation directory in order of priority:
+
+    Command Line
+
+    $ ./gradlew exampleTask -Dorg.gradle.java.home=/path/to/your/java/home --scan
+
+    Gradle Properties File
+    gradle.properties
+
+    org.gradle.java.home=/path/to/your/java/home
+
+    Environment Variable
+
+    $ export JAVA_HOME=/path/to/your/java/home
+
+https://docs.gradle.org/current/userguide/toolchains.html
+
+For example, to show all toolchains of a project, run:
+
+gradle -q javaToolchains
+
+Output of gradle -q javaToolchains
+
+> gradle -q javaToolchains
+
+ + Options
+     | Auto-detection:     Enabled
+     | Auto-download:      Enabled
+
+ + AdoptOpenJDK 1.8.0_242
+     | Location:           /Users/username/myJavaInstalls/8.0.242.hs-adpt/jre
+     | Language Version:   8
+     | Vendor:             AdoptOpenJDK
+     | Architecture:       x86_64
+     | Is JDK:             false
+     | Detected by:        Gradle property 'org.gradle.java.installations.paths'
+
+ + Microsoft JDK 16.0.2+7
+     | Location:           /Users/username/.sdkman/candidates/java/16.0.2.7.1-ms
+     | Language Version:   16
+     | Vendor:             Microsoft
+     | Architecture:       aarch64
+     | Is JDK:             true
+     | Detected by:        SDKMAN!
+
+ + OpenJDK 15-ea
+     | Location:           /Users/user/customJdks/15.ea.21-open
+     | Language Version:   15
+     | Vendor:             AdoptOpenJDK
+     | Architecture:       x86_64
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK16'
+
+ + Oracle JDK 1.7.0_80
+     | Location:           /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre
+     | Language Version:   7
+     | Vendor:             Oracle
+     | Architecture:       x86_64
+     | Is JDK:             false
+     | Detected by:        MacOS java_home
+
+Custom toolchain locations
+
+If auto-detecting local toolchains is not sufficient or disabled, there are additional ways you can let Gradle know about installed toolchains.
+
+If your setup already provides environment variables pointing to installed JVMs, you can also let Gradle know about which environment variables to take into account. Assuming the environment variables JDK8 and JRE17 point to valid java installations, the following instructs Gradle to resolve those environment variables and consider those installations when looking for a matching toolchain.
+
+org.gradle.java.installations.fromEnv=JDK8,JRE17
+
+Additionally, you can provide a comma-separated list of paths to specific installations using the org.gradle.java.installations.paths property. For example, using the following in your gradle.properties will let Gradle know which directories to look at when detecting toolchains. Gradle will treat these directories as possible installations but will not descend into any nested directories.
+
+org.gradle.java.installations.paths=/custom/path/jdk1.8,/shared/jre11
+

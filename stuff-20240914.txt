@@ -1,0 +1,143 @@
+6:33 AM 9/14/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20240914.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.91.1
+f1e16e1e6214d7c44d078b1f0607b2388f29d729
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://stackoverflow.com/questions/40123124/java-post-connection-using-try-with-resources
+Java Post Connection Using Try with Resources
+
+I want to implement the code for handling POST requests using try with resources.
+Following is my code:
+
+public static String sendPostRequestDummy(String url, String queryString) {
+    log.info("Sending 'POST' request to URL : " + url);
+    log.info("Data : " + queryString);
+    BufferedReader in = null;
+    HttpURLConnection con = null;
+    StringBuilder response = new StringBuilder();
+    try{
+        URL obj = new URL(url);
+        con = (HttpURLConnection) obj.openConnection();
+        // add request header
+        con.setRequestMethod("POST");
+        con.setRequestProperty("User-Agent", "Mozilla/5.0");
+        con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+        con.setRequestProperty("Content-Type", "application/json");
+        // Send post request
+        con.setDoOutput(true);
+        DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+        wr.writeBytes(queryString);
+        wr.flush();
+        wr.close();
+        int responseCode = con.getResponseCode();
+        log.info("Response Code : " + responseCode);
+        if (responseCode >= 400)
+            in = new BufferedReader(new InputStreamReader(con.getErrorStream()));
+        else 
+            in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+
+        String inputLine;
+
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+    }catch(Exception e){
+        log.error(e.getMessage(), e);
+        log.error("Error during posting request");
+    }
+    finally{
+        closeConnectionNoException(in,con);
+    }
+    return response.toString();
+}
+
+I have the following concerns for the code:
+
+    How to introduce conditional statements in try with resources for the above scenario?
+    Is there a way to pass on the connection in try with resources? (It can be done using nested try-catch blocks since URL and HTTPConnection is not AutoCloseable, which itself is not a compliant solution)
+    Is using try with resources for the above problem is a better approach?
+
+    javaexceptiontry-catchtry-with-resources
+
+Try this.
+
+HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+try (AutoCloseable conc = () -> con.disconnect()) {
+    // add request headers
+    try (DataOutputStream wr = new DataOutputStream(con.getOutputStream())) {
+        wr.writeBytes(queryString);
+    }
+    int responseCode = con.getResponseCode();
+    try (InputStream ins = responseCode >= 400 ? con.getErrorStream() : con.getInputStream();
+        BufferedReader in = new BufferedReader(new InputStreamReader(ins))) {
+        // receive response
+    }
+}
+
+() -> con.disconnect() is a lambda expression which execute con.disconnect() at finally stage of the try statement.
+
+HttpURLConnection does not implement the AutoCloseable interface in Java 8 or later versions. Since HttpURLConnection does not implement AutoCloseable, you cannot use it directly in a try-with-resources block. However, you can create a wrapper class that implements AutoCloseable and encapsulates the HttpURLConnection object, and then use the wrapper class in a try-with-resources block.
+
+1: You can use conditional statements inside try with resources statement also. Unfortunately you have to define new variable for this block and cannot use a predefined variable. ( variable in in your code)
+
+try (BufferedReader in = (responseCode >= 400 ? new BufferedReader(new InputStreamReader(con.getErrorStream())) : new BufferedReader(new InputStreamReader(con.getInputStream())))) {
+   // your code for getting string data
+}
+
+2: I'm not sure HttpUrlConnection is AutoCloseable, So it might be a good idea to call the disconnect() yourself. I'm open to any suggestion on this one.
+
+3: try with resources will definitely help you in managing the resources. But if you're confident that you're releasing the resources properly after use, then your code is fine.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+Version 1.93 is now available! Read about the new features and fixes from August.
+
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+https://code.visualstudio.com/updates/v1_93
+
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+
+09/06/2024  09:26 AM           328,118 CHANGES.txt
+09/06/2024  09:26 AM         1,245,244 nginx-1.27.1.tar.gz
+09/06/2024  09:26 AM               862 nginx-1.27.1.tar.gz.asc
+09/06/2024  09:26 AM         2,082,102 nginx-1.27.1.zip
+09/06/2024  09:26 AM               862 nginx-1.27.1.zip.asc
+09/06/2024  09:44 AM           327,851 CHANGES-1.26
+09/06/2024  09:44 AM         1,244,789 nginx-1.26.2.tar.gz
+09/06/2024  09:44 AM               862 nginx-1.26.2.tar.gz.asc
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+09/06/2024  09:44 AM               862 nginx-1.26.2.zip.asc
+09/14/2024  06:44 AM       101,245,912 VSCodeUserSetup-x64-1.93.1.exe
+09/14/2024  06:44 AM       101,245,496 VSCodeSetup-x64-1.93.1.exe
+09/14/2024  06:45 AM       140,779,492 VSCode-win32-x64-1.93.1.zip
+09/14/2024  06:49 AM             2,275 VSCode-win32-x64-1.93.1.sha256
+09/14/2024  06:54 AM       138,750,560 eclipse-inst-jre-win64(1).exe
+09/14/2024  06:55 AM       526,241,214 eclipse-dsl-2024-09-R-win32-x86_64.zip
+             659 File(s) 105,059,994,905 bytes
+              12 Dir(s)  478,208,196,608 bytes free
+
+C:\Users\DavidHolberton\Downloads>
