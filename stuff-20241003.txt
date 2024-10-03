@@ -1,0 +1,258 @@
+6:21 AM 10/3/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241003.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+code .
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui/2.6.0
+
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
+https://springdoc.org/
+The Swagger UI page will then be available at http://server:port/context-path/swagger-ui.html 
+and the OpenAPI description will be available at the following url for json format: http://server:port/context-path/v3/api-docs
+
+http://localhost:8080/
+http://localhost:8080/actuator
+http://localhost:8080/actuator/health
+http://localhost:8080/actuator/info
+http://localhost:8080/swagger-ui.html
+http://localhost:8080/v3/api-docs
+http://localhost:8080/v3/api-docs.yaml
+
+curl http://localhost:8080/
+curl http://localhost:8080/v3/api-docs
+curl http://localhost:8080/v3/api-docs.yaml
+
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+- url: http://localhost:8080
+  description: Generated server url
+paths:
+  /:
+    get:
+      tags:
+      - hello-controller
+      operationId: index
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: string
+components: {}
+
+C:\Users\DavidHolberton>curl http://localhost:8080/
+Greetings from Hello Nebula java.vendor = Oracle Corporation java.vm.version = 17.0.7+8-LTS-224
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/v3/api-docs
+{"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8080","description":"Generated server url"}],"paths":{"/":{"get":{"tags":["hello-controller"],"operationId":"index","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{}}
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+code .
+
+.\gradlew --version
+.\gradlew -q javaToolchains
+.\gradlew tasks
+.\gradlew dependencies
+
+.\gradlew --version           > hellonebula-gradle-version.txt 
+.\gradlew -q javaToolchains   > hellonebula-gradle-javatoolchains.txt 
+.\gradlew tasks               > hellonebula-gradle-tasks.txt 
+.\gradlew dependencies        > hellonebula-gradle-dependencies.txt 
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.10.2
+------------------------------------------------------------
+
+Build time:    2024-09-23 21:28:39 UTC
+Revision:      415adb9e06a516c44b391edff552fd42139443f7
+
+Kotlin:        1.9.24
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  17.0.7 (Oracle Corporation 17.0.7+8-LTS-224)
+Daemon JVM:    C:\LocalApps\jdk-17.0.7 (no JDK specified, using current Java home)
+OS:            Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew -q javaToolchains
+init.gradle
+
+ + Options
+     | Auto-detection:     Enabled
+     | Auto-download:      Enabled
+
+ + Oracle JDK 17.0.7+8-LTS-224
+     | Location:           C:\LocalApps\jdk-17.0.7
+     | Language Version:   17
+     | Vendor:             Oracle
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        Current JVM
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew --version           > hellonebula-gradle-version.txt
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew -q javaToolchains   > hellonebula-gradle-javatoolchains.txt
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew tasks               > hellonebula-gradle-tasks.txt
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+GRADLE_OPTS=-Dgradle.user.home=C:\LocalApps\.gradle
+GRADLE_USER_HOME=C:\LocalApps\.gradle
+JAVA_HOME=C:\LocalApps\jdk-17.0.7
+
+C:\LocalApps>dir /o:gn jdk*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+               0 File(s)              0 bytes
+               5 Dir(s)  460,883,623,936 bytes free
+
+C:\LocalApps>
+
+https://docs.gradle.org/current/userguide/userguide.html
+https://docs.gradle.org/current/userguide/gradle_daemon.html
+
+$ gradle --status
+jps
+$ gradle <task> --daemon
+$ ./gradlew updateDaemonJvm --jvm-version=17
+
+https://docs.gradle.org/current/userguide/toolchains.html
+
+build.gradle
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+build.gradle
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+        vendor = JvmVendorSpec.ADOPTIUM
+    }
+}
+
+Output of gradle -q javaToolchains
+
+> gradle -q javaToolchains
+
+ + Options
+     | Auto-detection:     Enabled
+     | Auto-download:      Enabled
+
+ + AdoptOpenJDK 1.8.0_242
+     | Location:           /Users/username/myJavaInstalls/8.0.242.hs-adpt/jre
+     | Language Version:   8
+     | Vendor:             AdoptOpenJDK
+     | Architecture:       x86_64
+     | Is JDK:             false
+     | Detected by:        Gradle property 'org.gradle.java.installations.paths'
+
+ + Microsoft JDK 16.0.2+7
+     | Location:           /Users/username/.sdkman/candidates/java/16.0.2.7.1-ms
+     | Language Version:   16
+     | Vendor:             Microsoft
+     | Architecture:       aarch64
+     | Is JDK:             true
+     | Detected by:        SDKMAN!
+
+ + OpenJDK 15-ea
+     | Location:           /Users/user/customJdks/15.ea.21-open
+     | Language Version:   15
+     | Vendor:             AdoptOpenJDK
+     | Architecture:       x86_64
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK16'
+
+ + Oracle JDK 1.7.0_80
+     | Location:           /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre
+     | Language Version:   7
+     | Vendor:             Oracle
+     | Architecture:       x86_64
+     | Is JDK:             false
+     | Detected by:        MacOS java_home
+
+gradle.properties
+
+org.gradle.java.installations.fromEnv=JDK8,JRE17
+org.gradle.java.installations.paths=/custom/path/jdk1.8,/shared/jre11
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-03T08:26:48.220-04:00  INFO 28764 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication using Java 17.0.7 with PID 28764 (C:\Users\DavidHolberton\sbprojs\hellonebula\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\hellonebula)
+2024-10-03T08:26:48.223-04:00  INFO 28764 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-03T08:26:48.980-04:00  INFO 28764 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-03T08:26:48.992-04:00  INFO 28764 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-03T08:26:48.992-04:00  INFO 28764 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-03T08:26:49.036-04:00  INFO 28764 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-03T08:26:49.036-04:00  INFO 28764 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 780 ms
+2024-10-03T08:26:49.399-04:00  INFO 28764 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-03T08:26:49.438-04:00  INFO 28764 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-03T08:26:49.449-04:00  INFO 28764 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 1.5 seconds (process running for 1.717)
+<==========---> 80% EXECUTING [20s]
+> :bootRun
+
