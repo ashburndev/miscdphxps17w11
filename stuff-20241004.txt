@@ -1,0 +1,491 @@
+7:49 AM 10/4/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241004.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/docs/languages/java
+Java in Visual Studio Code
+
+Install a Java Development Kit (JDK)
+
+A Java Development Kit (JDK) is a software development environment used for developing Java applications. In order to run Java within Visual Studio Code, you need to install a JDK. The Extension Pack for Java supports Java version 1.8 or above.
+
+We recommend you to consider installing the JDK from one of these sources:
+
+    Amazon Corretto
+    Azul Zulu
+    Eclipse Adoptium's Temurin
+    IBM Semeru Runtimes
+    Microsoft Build of OpenJDK
+    Oracle Java SE
+    Red Hat build of OpenJDK
+    SapMachine
+
+https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc
+https://www.azul.com/downloads/?package=jdk#zulu
+https://adoptium.net/
+https://www.oracle.com/java/technologies/downloads/?er=221886
+https://developers.redhat.com/products/openjdk/download
+
+https://adoptium.net/temurin/releases/
+https://adoptium.net/temurin/archive/
+
+Checksum (SHA256)
+The checksum is used to ensure the file has not been corrupted during download. You should compare the checksum of the file you received with the value below to ensure the file you received is complete and unmodified.
+On Windows use certUtil -hashfile file SHA256, on Linux use sha256sum file, and on macOS use shasum -a 256 file.
+
+https://gradle.org/install/
+https://gradle.org/releases/
+https://docs.gradle.org/current/userguide/userguide.html
+https://docs.gradle.org/current/userguide/toolchains.html
+https://docs.gradle.org/current/userguide/compatibility.html
+https://docs.gradle.org/current/userguide/installation.html
+https://gradle.org/release-checksums/#v8.10.2
+
+Gradle distribution and wrapper JAR checksum reference
+
+This page lists the SHA-256 checksums for all Gradle distributions and gradle-wrapper.jar files for your reference. See how to verify downloaded Gradle distributions and wrapper JARs in the Gradle documentation.
+
+v8.10.2
+
+    Binary-only (-bin) ZIP Checksum: 31c55713e40233a8303827ceb42ca48a47267a0ad4bab9177123121e71524c26
+    Complete (-all) ZIP Checksum: 2ab88d6de2c23e6adae7363ae6e29cbdd2a709e992929b48b6530fd0c7133bd6
+    Wrapper JAR Checksum: 2db75c40782f5e8ba1fc278a5574bab070adccb2d21ca5a6e5ed840888448046
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://documentation.help/7-Zip/
+https://documentation.help/7-Zip/output_dir.htm
+
+  Example
+    7z x archive.zip -oc:\Doc
+    extracts all files from the archive.zip archive to the c:\Doc directory.
+    7z x *.zip -o*
+    extracts all *.zip archives to subfolders with names of these archives.
+
+C:\Users\DavidHolberton\Downloads>mkdir c:\foobar
+
+C:\Users\DavidHolberton\Downloads>7z x gradle-8.10.2-all.zip -oc:\foobar
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 227989293 bytes (218 MiB)
+
+Extracting archive: gradle-8.10.2-all.zip
+--
+Path = gradle-8.10.2-all.zip
+Type = zip
+Physical Size = 227989293
+
+Everything is Ok
+
+Folders: 4670
+Files: 21891
+Size:       469748452
+Compressed: 227989293
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd c:\foobar
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of c:\foobar
+
+02/01/1980  12:00 AM    <DIR>          gradle-8.10.2
+10/04/2024  08:23 AM    <DIR>          .
+               0 File(s)              0 bytes
+               2 Dir(s)  460,178,419,712 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd C:\LocalApps\*jdk*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+               0 File(s)              0 bytes
+               5 Dir(s)  460,177,182,720 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+cd C:\Users\DavidHolberton\Downloads
+
+7z l OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
+7z l OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip
+7z l OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip
+7z l OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip
+7z l gradle-8.10.2-bin.zip
+7z l gradle-8.10.2-all.zip
+
+7z x OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip     -oC:\LocalApps\
+7z x OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip    -oC:\LocalApps\
+7z x OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip -oC:\LocalApps\
+7z x OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip      -oC:\LocalApps\
+7z x gradle-8.10.2-all.zip                               -oC:\LocalApps\
+
+C:\LocalApps>dir /o:gn *jdk*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+07/19/2024  01:07 AM    <DIR>          jdk-11.0.24+8
+07/16/2024  07:04 PM    <DIR>          jdk-17.0.12+7
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+07/16/2024  08:14 PM    <DIR>          jdk-21.0.4+7
+07/18/2024  09:57 AM    <DIR>          jdk8u422-b05
+               0 File(s)              0 bytes
+               9 Dir(s)  458,487,230,464 bytes free
+
+C:\LocalApps>dir /o:gd *jdk*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+02/28/2023  07:10 PM    <DIR>          jdk-17.0.7
+03/27/2023  03:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  06:12 AM    <DIR>          jdk-11.0.21
+10/05/2023  09:49 AM    <DIR>          jdk-21.0.1
+10/10/2023  06:24 PM    <DIR>          jdk-17.0.9
+07/16/2024  07:04 PM    <DIR>          jdk-17.0.12+7
+07/16/2024  08:14 PM    <DIR>          jdk-21.0.4+7
+07/18/2024  09:57 AM    <DIR>          jdk8u422-b05
+07/19/2024  01:07 AM    <DIR>          jdk-11.0.24+8
+               0 File(s)              0 bytes
+               9 Dir(s)  458,487,164,928 bytes free
+
+C:\LocalApps>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps\gradle-8.10.2\bin>mkdir C:\foobarbaz
+
+C:\LocalApps\gradle-8.10.2\bin>cd    C:\foobarbaz
+
+C:\foobarbaz>C:\LocalApps\gradle-8.10.2\bin\gradle init
+Starting a Gradle Daemon, 4 incompatible and 1 stopped Daemons could not be reused, use --status for details
+init.gradle
+
+Select type of build to generate:
+  1: Application
+  2: Library
+  3: Gradle plugin
+  4: Basic (build structure only)
+Enter selection (default: Application) [1..4] 1
+
+Select implementation language:
+  1: Java
+  2: Kotlin
+  3: Groovy
+  4: Scala
+  5: C++
+  6: Swift
+Enter selection (default: Java) [1..6] 1
+
+Enter target Java version (min: 7, default: 21):
+
+Project name (default: foobarbaz):
+
+Select application structure:
+  1: Single application project
+  2: Application and library project
+Enter selection (default: Single application project) [1..2] 1
+
+Select build script DSL:
+  1: Kotlin
+  2: Groovy
+Enter selection (default: Kotlin) [1..2] 2
+
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4] 1
+
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no]
+ yes
+
+> Task :init
+Learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.10.2/samples/sample_building_java_applications.html
+
+BUILD SUCCESSFUL in 1m 28s
+1 actionable task: 1 executed
+C:\foobarbaz>
+
+C:\foobarbaz>
+C:\foobarbaz>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   .gitattributes
+|   .gitignore
+|   gradle.properties
+|   gradlew
+|   gradlew.bat
+|   settings.gradle
+|
++---app
+|   |   build.gradle
+|   |
+|   \---src
+|       +---main
+|       |   +---java
+|       |   |   \---org
+|       |   |       \---example
+|       |   |               App.java
+|       |   |
+|       |   \---resources
+|       \---test
+|           +---java
+|           |   \---org
+|           |       \---example
+|           |               AppTest.java
+|           |
+|           \---resources
+\---gradle
+    |   libs.versions.toml
+    |
+    \---wrapper
+            gradle-wrapper.jar
+            gradle-wrapper.properties
+
+C:\foobarbaz>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps\jdk-17.0.12+7
+C:\LocalApps\jdk-21.0.4+7
+C:\LocalApps\jdk8u422-b05
+C:\LocalApps\jdk-11.0.24+8
+
+GRADLE_OPTS=-Dgradle.user.home=C:\LocalApps\.gradle
+GRADLE_USER_HOME=C:\LocalApps\.gradle
+JAVA_HOME=C:\LocalApps\jdk-17.0.7
+JDK11=C:\LocalApps\jdk-11.0.24+8
+JDK17=C:\LocalApps\jdk-17.0.12+7
+JDK21=C:\LocalApps\jdk-21.0.4+7
+JDK8=C:\LocalApps\jdk8u422-b05
+
+C:\Users\DavidHolberton>
+
+C:\Users\DavidHolberton>echo %GRADLE_USER_HOME%
+C:\LocalApps\.gradle
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>echo %JAVA_HOME%
+C:\LocalApps\jdk-17.0.12+7
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>java -version
+openjdk version "17.0.12" 2024-07-16
+OpenJDK Runtime Environment Temurin-17.0.12+7 (build 17.0.12+7)
+OpenJDK 64-Bit Server VM Temurin-17.0.12+7 (build 17.0.12+7, mixed mode, sharing)
+
+C:\Users\DavidHolberton>javac -version
+javac 17.0.12
+
+C:\Users\DavidHolberton>echo %JAVA_HOME%
+C:\LocalApps\jdk-17.0.12+7
+
+C:\Users\DavidHolberton>
+
+https://docs.gradle.org/current/userguide/toolchains.html
+  gradle -q javaToolchains
+    C:\LocalApps\.gradle\gradle.properties
+      # https://docs.gradle.org/current/userguide/toolchains.html
+      # org.gradle.java.installations.fromEnv=JDK8,JRE17
+      # org.gradle.java.installations.paths=/custom/path/jdk1.8,/shared/jre11
+      org.gradle.java.installations.fromEnv=JDK21,JDK17,JDK11,JDK8
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.10.2
+------------------------------------------------------------
+
+Build time:    2024-09-23 21:28:39 UTC
+Revision:      415adb9e06a516c44b391edff552fd42139443f7
+
+Kotlin:        1.9.24
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  17.0.12 (Eclipse Adoptium 17.0.12+7)
+Daemon JVM:    C:\LocalApps\jdk-17.0.12+7 (no JDK specified, using current Java home)
+OS:            Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew -q javaToolchain
+init.gradle
+
+ + Options
+     | Auto-detection:     Enabled
+     | Auto-download:      Enabled
+
+ + Eclipse Temurin JDK 1.8.0_422-b05
+     | Location:           C:\LocalApps\jdk8u422-b05
+     | Language Version:   8
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK8'
+
+ + Eclipse Temurin JDK 11.0.24+8
+     | Location:           C:\LocalApps\jdk-11.0.24+8
+     | Language Version:   11
+     | Vendor:             Eclipse Temurin
+     | Architecture:       x86
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK11'
+
+ + Eclipse Temurin JDK 17.0.12+7
+     | Location:           C:\LocalApps\jdk-17.0.12+7
+     | Language Version:   17
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        Current JVM
+
+ + Eclipse Temurin JDK 21.0.4+7-LTS
+     | Location:           C:\LocalApps\jdk-21.0.4+7
+     | Language Version:   21
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK21'
+
+ + Eclipse Temurin JDK 21.0.4+7-LTS
+     | Location:           C:\LocalApps\.gradle\jdks\eclipse_adoptium-21-amd64-windows.2
+     | Language Version:   21
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        Auto-provisioned by Gradle
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-04T09:32:18.021-04:00  INFO 15624 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication using Java 17.0.12 with PID 15624 (C:\Users\DavidHolberton\sbprojs\hellonebula\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\hellonebula)
+2024-10-04T09:32:18.024-04:00  INFO 15624 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T09:32:18.760-04:00  INFO 15624 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-04T09:32:18.768-04:00  INFO 15624 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T09:32:18.769-04:00  INFO 15624 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T09:32:18.808-04:00  INFO 15624 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-04T09:32:18.808-04:00  INFO 15624 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2024-10-04T09:32:19.160-04:00  INFO 15624 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-04T09:32:19.199-04:00  INFO 15624 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-04T09:32:19.211-04:00  INFO 15624 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 1.437 seconds (process running for 1.657)
+<==========---> 80% EXECUTING [29s]
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>curl http://localhost:8080
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.17324347134038370599
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.17324347134038370599
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.12+7
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.12+7
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.12+7
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-07-16
+ java.version = 17.0.12
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.12+7
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\Users\DavidHolberton\sbprojs\hellonebula
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+
+http://localhost:8080/actuator/info
+
+java	
+version	"17.0.12"
+vendor	
+name	"Eclipse Adoptium"
+version	"Temurin-17.0.12+7"
+runtime	
+name	"OpenJDK Runtime Environment"
+version	"17.0.12+7"
+jvm	
+name	"OpenJDK 64-Bit Server VM"
+vendor	"Eclipse Adoptium"
+version	"17.0.12+7"
+os	
+name	"Windows 11"
+version	"10.0"
+arch	"amd64"
+process	
+pid	3156
+parentPid	25688
+owner	"DPHXPS17\\DavidHolberton"
+cpus	16
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+

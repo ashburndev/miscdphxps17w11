@@ -1,0 +1,1037 @@
+6:43 AM 10/7/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241007.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/docs/?dv=win64user
+https://code.visualstudio.com/docs/?dv=win64
+https://code.visualstudio.com/docs/?dv=winzip
+
+https://jqlang.github.io/jq/download/
+https://jqlang.github.io/jq/download/
+
+10/04/2024  07:58 AM       203,910,854 OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
+10/04/2024  08:00 AM                66 OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip.sha256
+10/04/2024  08:02 AM       189,575,306 OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip
+10/04/2024  08:03 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip.sha256
+10/04/2024  08:05 AM       177,287,155 OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip
+10/04/2024  08:06 AM                66 OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip.sha256
+10/04/2024  08:08 AM       106,045,224 OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip
+10/04/2024  08:09 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip.sha256
+10/04/2024  08:15 AM       136,715,430 gradle-8.10.2-bin.zip
+10/04/2024  08:15 AM       227,989,293 gradle-8.10.2-all.zip
+10/07/2024  06:46 AM       100,464,792 VSCodeUserSetup-x64-1.94.0.exe
+10/07/2024  06:46 AM       100,464,424 VSCodeSetup-x64-1.94.0.exe
+10/07/2024  06:46 AM       140,560,967 VSCode-win32-x64-1.94.0.zip
+10/07/2024  06:50 AM             2,188 VSCode-win32-x64-1.94.0.sha256
+10/07/2024  06:53 AM           985,088 jq-windows-amd64.exe
+10/07/2024  06:55 AM             2,129 sha256sum.txt
+             700 File(s) 112,855,694,294 bytes
+              12 Dir(s)  457,250,029,568 bytes free
+
+C:\Users\DavidHolberton\Downloads>ren sha256sum.txt jq-windows-amd64.exe.sha256sum.txt
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula\build.gradle
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+.\gradlew clean bootJar
+copy build\libs\hellonebula-0.0.1-SNAPSHOT.jar hellonebula17.jar
+
+C:\Users\DavidHolberton\sbprojs\hellonebula\build.gradle
+java {
+	toolchain {
+		// languageVersion = JavaLanguageVersion.of(17)
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+.\gradlew clean bootJar
+copy build\libs\hellonebula-0.0.1-SNAPSHOT.jar hellonebula21.jar
+
+10/07/2024  07:01 AM        22,588,972 hellonebula17.jar
+10/07/2024  07:09 AM        22,588,969 hellonebula21.jar
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+C:\LocalApps\jdk-17.0.12+7\bin\java  -version
+C:\LocalApps\jdk-21.0.4+7\bin\java   -version
+C:\LocalApps\jdk8u422-b05\bin\java   -version
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+C:\LocalApps\jdk-17.0.12+7\bin\java  -jar hellonebula17.jar     works
+C:\LocalApps\jdk-21.0.4+7\bin\java   -jar hellonebula17.jar     works
+C:\LocalApps\jdk-17.0.12+7\bin\java  -jar hellonebula21.jar     fails (as expected)
+C:\LocalApps\jdk-21.0.4+7\bin\java   -jar hellonebula21.jar     works
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>
+C:\>cd C:\Users\DavidHolberton\sbprojs\hellonebula
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>C:\LocalApps\jdk-17.0.12+7\bin\java  -version
+openjdk version "17.0.12" 2024-07-16
+OpenJDK Runtime Environment Temurin-17.0.12+7 (build 17.0.12+7)
+OpenJDK 64-Bit Server VM Temurin-17.0.12+7 (build 17.0.12+7, mixed mode, sharing)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>C:\LocalApps\jdk-21.0.4+7\bin\java   -version
+openjdk version "21.0.4" 2024-07-16 LTS
+OpenJDK Runtime Environment Temurin-21.0.4+7 (build 21.0.4+7-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.4+7 (build 21.0.4+7-LTS, mixed mode, sharing)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>C:\LocalApps\jdk8u422-b05\bin\java   -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>copy \Users\DavidHolberton\Downloads\jq-windows-amd64.exe jq.exe
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps\jdk-17.0.12+7\bin\java  -jar hellonebula17.jar
+curl http://localhost:8080
+curl http://localhost:8080/actuator/health | jq
+curl http://localhost:8080/actuator/info | jq
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>C:\LocalApps\jdk-17.0.12+7\bin\java  -jar hellonebula17.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-07T07:25:14.207-04:00  INFO 32440 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 32440 (C:\Users\DavidHolberton\sbprojs\hellonebula\hellonebula17.jar started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\hellonebula)
+2024-10-07T07:25:14.211-04:00  INFO 32440 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-07T07:25:15.377-04:00  INFO 32440 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-07T07:25:15.392-04:00  INFO 32440 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-07T07:25:15.393-04:00  INFO 32440 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07T07:25:15.424-04:00  INFO 32440 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-07T07:25:15.425-04:00  INFO 32440 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2024-10-07T07:25:15.965-04:00  INFO 32440 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-07T07:25:16.028-04:00  INFO 32440 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-07T07:25:16.043-04:00  INFO 32440 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 2.184 seconds (process running for 2.589)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.13928639444531474893
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.13928639444531474893
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.12+7
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.12+7
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.12+7
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-07-16
+ java.version = 17.0.12
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.12+7
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\Users\DavidHolberton\sbprojs\hellonebula
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/health | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    15    0    15    0     0    844      0 --:--:-- --:--:-- --:--:--   882
+{
+  "status": "UP"
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/info | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   406    0   406    0     0  16773      0 --:--:-- --:--:-- --:--:-- 16916
+{
+  "java": {
+    "version": "17.0.12",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.12+7"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.12+7"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.12+7"
+    }
+  },
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  },
+  "process": {
+    "pid": 32440,
+    "parentPid": 40476,
+    "owner": "DPHXPS17\\DavidHolberton",
+    "cpus": 16
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+C:\LocalApps\jdk-17.0.12+7\bin\java  -jar hellonebula17.jar
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>C:\LocalApps\jdk-17.0.12+7\bin\java  -jar hellonebula21.jar
+Exception in thread "main" java.lang.UnsupportedClassVersionError: com/ashburncode/hellonebula/HellonebulaApplication has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+        at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+        at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+        at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+        at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+        at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+        at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+        at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+        at org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader.loadClass(JarUrlClassLoader.java:107)
+        at org.springframework.boot.loader.launch.LaunchedClassLoader.loadClass(LaunchedClassLoader.java:91)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+        at java.base/java.lang.Class.forName0(Native Method)
+        at java.base/java.lang.Class.forName(Class.java:467)
+        at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:99)
+        at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+        at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+C:\LocalApps\jdk-21.0.4+7\bin\java   -jar hellonebula21.jar 
+curl http://localhost:8080
+curl http://localhost:8080/actuator/health | jq
+curl http://localhost:8080/actuator/info | jq
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>C:\LocalApps\jdk-21.0.4+7\bin\java   -jar hellonebula21.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-07T07:41:44.532-04:00  INFO 15356 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication v0.0.1-SNAPSHOT using Java 21.0.4 with PID 15356 (C:\Users\DavidHolberton\sbprojs\hellonebula\hellonebula21.jar started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\hellonebula)
+2024-10-07T07:41:44.537-04:00  INFO 15356 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-07T07:41:45.619-04:00  INFO 15356 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-07T07:41:45.630-04:00  INFO 15356 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-07T07:41:45.631-04:00  INFO 15356 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07T07:41:45.666-04:00  INFO 15356 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-07T07:41:45.667-04:00  INFO 15356 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2024-10-07T07:41:46.242-04:00  INFO 15356 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-07T07:41:46.309-04:00  INFO 15356 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-07T07:41:46.322-04:00  INFO 15356 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 2.123 seconds (process running for 2.532)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.14798619696811473453
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.14798619696811473453
+ java.class.version = 65.0
+ java.home = C:\LocalApps\jdk-21.0.4+7
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 21.0.4+7-LTS
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 21
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-21.0.4+7
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-07-16
+ java.version = 21.0.4
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 21
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 21.0.4+7-LTS
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\Users\DavidHolberton\sbprojs\hellonebula
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/health | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    15    0    15    0     0    175      0 --:--:-- --:--:-- --:--:--   176
+{
+  "status": "UP"
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/info | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   410    0   410    0     0   9424      0 --:--:-- --:--:-- --:--:--  9534
+{
+  "java": {
+    "version": "21.0.4",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-21.0.4+7"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "21.0.4+7-LTS"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "21.0.4+7-LTS"
+    }
+  },
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  },
+  "process": {
+    "pid": 15356,
+    "parentPid": 29320,
+    "owner": "DPHXPS17\\DavidHolberton",
+    "cpus": 16
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://hub.docker.com/_/eclipse-temurin
+https://hub.docker.com/r/amd64/eclipse-temurin/
+
+https://hub.docker.com/r/amd64/eclipse-temurin/tags?name=17
+    docker pull amd64/eclipse-temurin:17.0.12_7-jdk
+
+https://hub.docker.com/r/amd64/eclipse-temurin/tags?name=21
+    docker pull amd64/eclipse-temurin:21.0.4_7-jdk
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>
+C:\>docker pull amd64/eclipse-temurin:17.0.12_7-jdk
+17.0.12_7-jdk: Pulling from amd64/eclipse-temurin
+c9d5878ec977: Pull complete
+fa9830867d30: Pull complete
+ce7a6b0f1836: Pull complete
+50221a9fa313: Pull complete
+e12dd96760d5: Pull complete
+Digest: sha256:2512778c320c8c7b1caa06b5f3d4f1ac85724708c0ebccbfb7077ece1a84032a
+Status: Downloaded newer image for amd64/eclipse-temurin:17.0.12_7-jdk
+docker.io/amd64/eclipse-temurin:17.0.12_7-jdk
+
+C:\>docker pull amd64/eclipse-temurin:21.0.4_7-jdk
+21.0.4_7-jdk: Pulling from amd64/eclipse-temurin
+c9d5878ec977: Already exists
+fa9830867d30: Already exists
+3f32c6933243: Pull complete
+7d4eb760b29d: Pull complete
+39a120cd9571: Pull complete
+Digest: sha256:44792b3a58b856503de76a0495fede50acf816dbe75f1146405acd12ad458974
+Status: Downloaded newer image for amd64/eclipse-temurin:21.0.4_7-jdk
+docker.io/amd64/eclipse-temurin:21.0.4_7-jdk
+
+C:\>docker images
+REPOSITORY              TAG             IMAGE ID       CREATED         SIZE
+amd64/eclipse-temurin   17.0.12_7-jdk   14ef1a4e4983   6 weeks ago     414MB
+amd64/eclipse-temurin   21.0.4_7-jdk    1fb508d963b8   6 weeks ago     442MB
+debian                  latest          5027089adc4c   4 months ago    117MB
+eclipse-temurin         17-jdk-focal    bfa8957a99b7   5 months ago    411MB
+nginx                   1.23            a7be6198544f   16 months ago   142MB
+busybox                 latest          8135583d97fe   16 months ago   4.86MB
+hello-world             latest          9c7a54a9a43c   17 months ago   13.3kB
+nginx                   1.22            0f8498f13f3a   18 months ago   142MB
+
+C:\>
+
+C:\>docker inspect 14ef1a4e4983
+[
+    {
+        "Id": "sha256:14ef1a4e498319180a2a4c97f73295f5b900ac7cd7ed76e499a7394e5036b1ef",
+        "RepoTags": [
+            "amd64/eclipse-temurin:17.0.12_7-jdk"
+        ],
+        "RepoDigests": [
+            "amd64/eclipse-temurin@sha256:2512778c320c8c7b1caa06b5f3d4f1ac85724708c0ebccbfb7077ece1a84032a"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-08-22T07:58:33Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/opt/java/openjdk",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_VERSION=jdk-17.0.12+7"
+            ],
+            "Cmd": [
+                "jshell"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/__cacert_entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 414076220,
+        "VirtualSize": 414076220,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/76b287498628821b7d624e6b84d1408f214fb65845df62aaf7d9c69158491cd8/diff:/var/lib/docker/overlay2/7310ff25cd3c35cfa17c6fdee8a35f4af47e9e5288b7ddda8c2b80d4d3eb7248/diff:/var/lib/docker/overlay2/456aacb7107461d31e1a1664832f9b919566cd6bb2ebe26ca1a007c2ed1101ae/diff:/var/lib/docker/overlay2/b19805f108049d081b5eca92d6ebe96f0f7cda8698d8cc99a714e39d58e461f6/diff",
+                "MergedDir": "/var/lib/docker/overlay2/358952c918584adf04c5d05d1e03e6d68b43a24e5d0c5bc712d16a97a8cbce87/merged",
+                "UpperDir": "/var/lib/docker/overlay2/358952c918584adf04c5d05d1e03e6d68b43a24e5d0c5bc712d16a97a8cbce87/diff",
+                "WorkDir": "/var/lib/docker/overlay2/358952c918584adf04c5d05d1e03e6d68b43a24e5d0c5bc712d16a97a8cbce87/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:ba8dbc5b24b59c2e6aff3639f32c5402af5e30be686342d08925ad852bd8c7c4",
+                "sha256:8bd5c9e7c8f159ff672b1a575619dbf3e9592eb988652745985240e76a820b61",
+                "sha256:fac1bf5ea0ab5355f6a65381841833e747c7dd72a9d93152600e317adb8b2f19",
+                "sha256:c81175f7dc5dfddb35747a68a152b65f1a8a4d000cc9bc7c6723e0fab0baf0c4",
+                "sha256:5ebe8d717311cd80eeb003e97a20204b27a77ae454ff17c6f270a11b6289a4b4"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+
+C:\>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://spring.io/guides/gs/spring-boot-docker
+
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+
+If you use Gradle, you can run it with the following command:
+docker build --build-arg JAR_FILE=build/libs/\*.jar -t springio/gs-spring-boot-docker .
+
+FROM openjdk:8-jdk-alpine
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+
+docker build -t springio/gs-spring-boot-docker .
+docker run -p 8080:8080 springio/gs-spring-boot-docker
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.docker.com/blog/kickstart-your-spring-boot-application-development/
+
+FROM eclipse-temurin:17-jdk-focal
+WORKDIR /app
+COPY .mvn/ .mvn
+COPY mvnw pom.xml ./
+RUN ./mvnw dependency:go-offline
+COPY src ./src
+CMD ["./mvnw", "spring-boot:run"]
+
+docker build --platform linux/amd64 -t spring-helloworld .
+docker run -p 8080:8080 -t spring-helloworld
+
+docker-compose.yml
+
+services:
+  backend:
+    build: backend
+    ports:
+      - 8080:8080
+    environment:
+      - POSTGRES_DB=example
+    networks:
+      - spring-postgres
+  db:
+    image: postgres
+    restart: always
+    secrets:
+      - db-password
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - spring-postgres
+    environment:
+      - POSTGRES_DB=example
+      - POSTGRES_PASSWORD_FILE=/run/secrets/db-password
+    expose:
+      - 5432
+volumes:
+  db-data:
+secrets:
+  db-password:
+    file: db/password.txt
+networks:
+  spring-postgres:
+
+  docker compose up -d
+  docker compose download
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/dockerizing-spring-boot-application
+
+FROM openjdk:17-jdk-alpine
+MAINTAINER baeldung.com
+COPY target/docker-message-server-1.0.0.jar message-server-1.0.0.jar
+ENTRYPOINT ["java","-jar","/message-server-1.0.0.jar"]
+
+docker build --tag=message-server:latest .
+docker run -p8887:8888 message-server:latest
+
+$> docker inspect message-server
+$> docker stop message-server
+$> docker rm message-server
+
+2.1. Changing the Base Image
+We can easily change the base image in order to use a different Java version. For example, if we want to use the Corretto distribution from Amazon, we can simply change the Dockerfile:
+
+FROM amazoncorretto:17-alpine-jdk
+MAINTAINER baeldung.com
+COPY target/docker-message-server-1.0.0.jar message-server-1.0.0.jar
+ENTRYPOINT ["java","-jar","/message-server-1.0.0.jar"]
+
+3.2. The Docker Compose File
+
+We can combine the configuration for both services in one file called docker-compose.yml:
+
+version: '2'
+services:
+    message-server:
+        container_name: message-server
+        build:
+            context: docker-message-server
+            dockerfile: Dockerfile
+        image: message-server:latest
+        ports:
+            - 18888:8888
+        networks:
+            - spring-cloud-network
+    product-server:
+        container_name: product-server
+        build:
+            context: docker-product-server
+            dockerfile: Dockerfile
+        image: product-server:latest
+        ports:
+            - 19999:9999
+        networks:
+            - spring-cloud-network
+networks:
+    spring-cloud-network:
+        driver: bridge
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.youtube.com/watch?v=pg19Z8LL06w
+
+docker run --name web-app -d -p 9000:80 nginx:1.23
+docker logs <container-id>
+docker stop <container-id>
+docker start <container-id>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula\Dockerfile
+
+FROM amd64/eclipse-temurin:17.0.12_7-jdk
+WORKDIR /app
+COPY hellonebula17.jar /app/hellonebula17.jar 
+ENTRYPOINT ["java","-jar","/app/hellonebula17.jar"]
+
+docker build -t hellonebula17 .
+docker images
+docker run -p 8080:8080 hellonebula17
+docker ps
+curl http://localhost:8080
+curl http://localhost:8080/actuator/health | jq
+curl http://localhost:8080/actuator/info | jq
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker build -t hellonebula17 .
+[+] Building 0.4s (8/8) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                          0.0s
+ => => transferring dockerfile: 194B                                                                                                                          0.0s
+ => [internal] load .dockerignore                                                                                                                             0.0s
+ => => transferring context: 2B                                                                                                                               0.0s
+ => [internal] load metadata for docker.io/amd64/eclipse-temurin:17.0.12_7-jdk                                                                                0.0s
+ => [1/3] FROM docker.io/amd64/eclipse-temurin:17.0.12_7-jdk                                                                                                  0.1s
+ => [internal] load build context                                                                                                                             0.2s
+ => => transferring context: 22.59MB                                                                                                                          0.1s
+ => [2/3] WORKDIR /app                                                                                                                                        0.0s
+ => [3/3] COPY hellonebula17.jar /app/hellonebula17.jar                                                                                                       0.1s
+ => exporting to image                                                                                                                                        0.1s
+ => => exporting layers                                                                                                                                       0.1s
+ => => writing image sha256:f3ed7c8c09d214f3fef3737ba36715514bef5ac972dbd90de82b1d4f9bba4404                                                                  0.0s
+ => => naming to docker.io/library/hellonebula17                                                                                                              0.0s
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker images
+REPOSITORY              TAG             IMAGE ID       CREATED         SIZE
+hellonebula17           latest          f3ed7c8c09d2   2 minutes ago   437MB
+amd64/eclipse-temurin   17.0.12_7-jdk   14ef1a4e4983   6 weeks ago     414MB
+amd64/eclipse-temurin   21.0.4_7-jdk    1fb508d963b8   6 weeks ago     442MB
+debian                  latest          5027089adc4c   4 months ago    117MB
+eclipse-temurin         17-jdk-focal    bfa8957a99b7   5 months ago    411MB
+nginx                   1.23            a7be6198544f   16 months ago   142MB
+busybox                 latest          8135583d97fe   16 months ago   4.86MB
+hello-world             latest          9c7a54a9a43c   17 months ago   13.3kB
+nginx                   1.22            0f8498f13f3a   18 months ago   142MB
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker run -p 8080:8080 hellonebula17
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-07T13:05:59.454Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 1 (/app/hellonebula17.jar started by root in /app)
+2024-10-07T13:05:59.456Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-07T13:06:00.322Z  INFO 1 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-07T13:06:00.331Z  INFO 1 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-07T13:06:00.331Z  INFO 1 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07T13:06:00.357Z  INFO 1 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-07T13:06:00.358Z  INFO 1 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 857 ms
+2024-10-07T13:06:00.800Z  INFO 1 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-07T13:06:00.852Z  INFO 1 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-07T13:06:00.864Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 1.683 seconds (process running for 2.006)
+2024-10-07T13:07:51.786Z  INFO 1 --- [hellonebula] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07T13:07:51.786Z  INFO 1 --- [hellonebula] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-07T13:07:51.787Z  INFO 1 --- [hellonebula] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080
+Greetings from Hello Nebula
+ catalina.base = /tmp/tomcat.8080.17657435227475276306
+ catalina.home = /tmp/tomcat.8080.17657435227475276306
+ java.class.version = 61.0
+ java.home = /opt/java/openjdk
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.12+7
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.12+7
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-07-16
+ java.version = 17.0.12
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.12+7
+ os.name = Linux
+ os.version = 5.10.16.3-microsoft-standard-WSL2
+ user.dir = /app
+ user.home = /root
+ user.name = root
+ user.timezone = Etc/UTC
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/health | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    15    0    15    0     0    221      0 --:--:-- --:--:-- --:--:--   220
+{
+  "status": "UP"
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/info | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   403    0   403    0     0  15839      0 --:--:-- --:--:-- --:--:-- 16120
+{
+  "java": {
+    "version": "17.0.12",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.12+7"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.12+7"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.12+7"
+    }
+  },
+  "os": {
+    "name": "Linux",
+    "version": "5.10.16.3-microsoft-standard-WSL2",
+    "arch": "amd64"
+  },
+  "process": {
+    "pid": 1,
+    "parentPid": -1,
+    "owner": "root",
+    "cpus": 16
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker ps
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS         PORTS                    NAMES
+8afced7d0570   hellonebula17   "java -jar /app/hell…"   7 minutes ago   Up 7 minutes   0.0.0.0:8080->8080/tcp   quirky_lovelace
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker inspect quirky_lovelace
+[
+    {
+        "Id": "8afced7d05709f7dfdef1fb21d7d8bc35906495e6dd71740c4e3512667d31861",
+        "Created": "2024-10-07T13:05:58.168518569Z",
+        "Path": "java",
+        "Args": [
+            "-jar",
+            "/app/hellonebula17.jar"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 29655,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-10-07T13:05:58.857466802Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:f3ed7c8c09d214f3fef3737ba36715514bef5ac972dbd90de82b1d4f9bba4404",
+        "ResolvConfPath": "/var/lib/docker/containers/8afced7d05709f7dfdef1fb21d7d8bc35906495e6dd71740c4e3512667d31861/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/8afced7d05709f7dfdef1fb21d7d8bc35906495e6dd71740c4e3512667d31861/hostname",
+        "HostsPath": "/var/lib/docker/containers/8afced7d05709f7dfdef1fb21d7d8bc35906495e6dd71740c4e3512667d31861/hosts",
+        "LogPath": "/var/lib/docker/containers/8afced7d05709f7dfdef1fb21d7d8bc35906495e6dd71740c4e3512667d31861/8afced7d05709f7dfdef1fb21d7d8bc35906495e6dd71740c4e3512667d31861-json.log",
+        "Name": "/quirky_lovelace",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                46,
+                163
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/49e907dfe7b71221739f7f99f3c2aa030aadd07ee2ccf701525a62aedc93823b-init/diff:/var/lib/docker/overlay2/34x445z28bbou20r0jjxiqzdl/diff:/var/lib/docker/overlay2/w09wjfch73hpsm85e2iwx338z/diff:/var/lib/docker/overlay2/358952c918584adf04c5d05d1e03e6d68b43a24e5d0c5bc712d16a97a8cbce87/diff:/var/lib/docker/overlay2/76b287498628821b7d624e6b84d1408f214fb65845df62aaf7d9c69158491cd8/diff:/var/lib/docker/overlay2/7310ff25cd3c35cfa17c6fdee8a35f4af47e9e5288b7ddda8c2b80d4d3eb7248/diff:/var/lib/docker/overlay2/456aacb7107461d31e1a1664832f9b919566cd6bb2ebe26ca1a007c2ed1101ae/diff:/var/lib/docker/overlay2/b19805f108049d081b5eca92d6ebe96f0f7cda8698d8cc99a714e39d58e461f6/diff",
+                "MergedDir": "/var/lib/docker/overlay2/49e907dfe7b71221739f7f99f3c2aa030aadd07ee2ccf701525a62aedc93823b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/49e907dfe7b71221739f7f99f3c2aa030aadd07ee2ccf701525a62aedc93823b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/49e907dfe7b71221739f7f99f3c2aa030aadd07ee2ccf701525a62aedc93823b/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "8afced7d0570",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/opt/java/openjdk",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_VERSION=jdk-17.0.12+7"
+            ],
+            "Cmd": null,
+            "Image": "hellonebula17",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "java",
+                "-jar",
+                "/app/hellonebula17.jar"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "262787df5e4c3381195b736f4e49be82166890aca96bba08c0338a7a703290df",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/262787df5e4c",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "5141edf9796aab6a782b07f95700111caa68e58cc7b7347517e306e97081d583",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "50279c308f76e33a04ec043aa9669c9799396aa3b6c87dbb91a5e9373b2bb980",
+                    "EndpointID": "5141edf9796aab6a782b07f95700111caa68e58cc7b7347517e306e97081d583",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
