@@ -1,0 +1,2588 @@
+7:00 AM 10/9/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241009.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.oracle.com/java/technologies/downloads/
+
+https://www.oracle.com/java/technologies/downloads/#java17
+JDK Development Kit 17.0.12 downloads
+
+This is the last planned update of JDK 17 under the NFTC. Updates after September 2024 will be licensed under the Java SE OTN License (OTN) and production use beyond the limited free grants of the OTN license will require a fee.
+
+JDK 17 binaries are free to use in production and free to redistribute, at no cost, under the Oracle No-Fee Terms and Conditions (NFTC).
+
+x64 Compressed Archive 	174.33 MB 	https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz ( sha256)
+
+https://www.oracle.com/java/technologies/downloads/#java21
+JDK Development Kit 21.0.4 downloads
+
+x64 Compressed Archive 	188.39 MB 	https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz (sha256)
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://adoptium.net/temurin/releases/
+
+21.0.4+7-LTSTemurin
+AQAvit logoJuly 17, 2024	Linux	x64	
+JDK - 207 MB
+Checksum
+JRE - 52 MB
+Checksum
+
+https://adoptium.net/temurin/releases/?version=17
+
+17.0.12+7Temurin
+AQAvit logoJuly 17, 2024	Linux	x64	
+JDK - 192 MB
+Checksum
+JRE - 46 MB
+Checksum
+
+Checksum (SHA256)
+The checksum is used to ensure the file has not been corrupted during download. You should compare the checksum of the file you received with the value below to ensure the file you received is complete and unmodified.
+On Windows use certUtil -hashfile file SHA256, on Linux use sha256sum file, and on macOS use shasum -a 256 file.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+10/09/2024  07:04 AM       182,799,609 jdk-17_linux-x64_bin.tar.gz
+10/09/2024  07:04 AM                64 jdk-17_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:07 AM       197,545,777 jdk-21_linux-x64_bin.tar.gz
+10/09/2024  07:07 AM                64 jdk-21_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:13 AM       207,789,015 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:15 AM                66 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:15 AM        52,466,639 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:16 AM                66 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:20 AM       192,452,655 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:21 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+10/09/2024  07:22 AM        46,398,176 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:24 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+             712 File(s) 113,735,146,557 bytes
+              12 Dir(s)  454,896,160,768 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+7z l jdk-17_linux-x64_bin.tar.gz
+7z x jdk-17_linux-x64_bin.tar.gz -oC:\LocalApps
+cd C:\LocalApps
+7z l jdk-17_linux-x64_bin.tar
+7z x jdk-17_linux-x64_bin.tar
+
+jar tvf jdk-17_linux-x64_bin.tar
+copy jdk-17_linux-x64_bin.tar jdk-17_linux-x64_bin.zip
+ar tvf jdk-17_linux-x64_bin.zip
+
+
+C:\Users\DavidHolberton\Downloads>7z l jdk-17_linux-x64_bin.tar.gz
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 182799609 bytes (175 MiB)
+
+Listing archive: jdk-17_linux-x64_bin.tar.gz
+
+--
+Path = jdk-17_linux-x64_bin.tar.gz
+Type = gzip
+Headers Size = 10
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-06-05 01:45:27 .....    318894080    182799609  jdk-17_linux-x64_bin.tar
+------------------- ----- ------------ ------------  ------------------------
+2024-06-05 01:45:27          318894080    182799609  1 files
+
+C:\Users\DavidHolberton\Downloads>
+
+C:\LocalApps
+C:\LocalApps>jar tvf jdk-17_linux-x64_bin.tar
+java.util.zip.ZipException: zip END header not found
+        at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1469)
+        at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1477)
+        at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1315)
+        at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1277)
+        at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)
+        at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+        at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+        at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:143)
+        at jdk.jartool/sun.tools.jar.Main.list(Main.java:1502)
+        at jdk.jartool/sun.tools.jar.Main.run(Main.java:361)
+        at jdk.jartool/sun.tools.jar.Main.main(Main.java:1683)
+
+C:\LocalApps>copy jdk-17_linux-x64_bin.tar jdk-17_linux-x64_bin.zip
+        1 file(s) copied.
+
+C:\LocalApps>jar tvf jdk-17_linux-x64_bin.zip
+java.util.zip.ZipException: zip END header not found
+        at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1469)
+        at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1477)
+        at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1315)
+        at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1277)
+        at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)
+        at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+        at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+        at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:143)
+        at jdk.jartool/sun.tools.jar.Main.list(Main.java:1502)
+        at jdk.jartool/sun.tools.jar.Main.run(Main.java:361)
+        at jdk.jartool/sun.tools.jar.Main.main(Main.java:1683)
+
+C:\LocalApps>
+C:\LocalApps>7z l jdk-17_linux-x64_bin.tar
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 318894080 bytes (305 MiB)
+
+Listing archive: jdk-17_linux-x64_bin.tar
+
+--
+Path = jdk-17_linux-x64_bin.tar
+Type = tar
+Physical Size = 318894080
+Headers Size = 205312
+Code Page = UTF-8
+Characteristics = ASCII
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-06-05 01:45:26 .....           23            0  jdk-17.0.12\LICENSE
+2024-06-05 01:45:26 .....          290          512  jdk-17.0.12\README
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jar
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\jarsigner
+2024-06-05 01:45:26 .....        12368        12800  jdk-17.0.12\bin\java
+2024-06-05 01:45:26 .....        12416        12800  jdk-17.0.12\bin\javac
+2024-06-05 01:45:26 .....        12424        12800  jdk-17.0.12\bin\javadoc
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\javap
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jcmd
+2024-06-05 01:45:26 .....        12456        12800  jdk-17.0.12\bin\jconsole
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jdb
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\jdeprscan
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jdeps
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jfr
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jhsdb
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\jimage
+2024-06-05 01:45:26 .....        12416        12800  jdk-17.0.12\bin\jinfo
+2024-06-05 01:45:26 .....        12416        12800  jdk-17.0.12\bin\jlink
+2024-06-05 01:45:26 .....        12416        12800  jdk-17.0.12\bin\jmap
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jmod
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\jpackage
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jps
+2024-06-05 01:45:26 .....        12424        12800  jdk-17.0.12\bin\jrunscript
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\jshell
+2024-06-05 01:45:26 .....        12424        12800  jdk-17.0.12\bin\jstack
+2024-06-05 01:45:26 .....        12384        12800  jdk-17.0.12\bin\jstat
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\jstatd
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\keytool
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\rmiregistry
+2024-06-05 01:45:26 .....        12392        12800  jdk-17.0.12\bin\serialver
+2024-06-05 01:45:26 .....         2732         3072  jdk-17.0.12\conf\logging.properties
+2024-06-05 01:45:26 .....         3997         4096  jdk-17.0.12\conf\management\jmxremote.access
+2024-06-05 01:45:26 .....         5690         6144  jdk-17.0.12\conf\management\jmxremote.password.template
+2024-06-05 01:45:26 .....        14410        14848  jdk-17.0.12\conf\management\management.properties
+2024-06-05 01:45:26 .....         6608         6656  jdk-17.0.12\conf\net.properties
+2024-06-05 01:45:26 .....         1455         1536  jdk-17.0.12\conf\sdp\sdp.conf.template
+2024-06-05 01:45:26 .....         2180         2560  jdk-17.0.12\conf\security\java.policy
+2024-06-05 01:45:26 .....        58228        58368  jdk-17.0.12\conf\security\java.security
+2024-06-05 01:45:26 .....         2390         2560  jdk-17.0.12\conf\security\policy\README.txt
+2024-06-05 01:45:26 .....          146          512  jdk-17.0.12\conf\security\policy\limited\default_US_export.policy
+2024-06-05 01:45:26 .....          647         1024  jdk-17.0.12\conf\security\policy\limited\default_local.policy
+2024-06-05 01:45:26 .....          566         1024  jdk-17.0.12\conf\security\policy\limited\exempt_local.policy
+2024-06-05 01:45:26 .....          146          512  jdk-17.0.12\conf\security\policy\unlimited\default_US_export.policy
+2024-06-05 01:45:26 .....          193          512  jdk-17.0.12\conf\security\policy\unlimited\default_local.policy
+2024-06-05 01:45:26 .....         1210         1536  jdk-17.0.12\conf\sound.properties
+2024-06-05 01:45:26 .....        21158        21504  jdk-17.0.12\include\classfile_constants.h
+2024-06-05 01:45:26 .....        11461        11776  jdk-17.0.12\include\jawt.h
+2024-06-05 01:45:26 .....         7154         7168  jdk-17.0.12\include\jdwpTransport.h
+2024-06-05 01:45:26 .....        74681        74752  jdk-17.0.12\include\jni.h
+2024-06-05 01:45:26 .....        80670        80896  jdk-17.0.12\include\jvmti.h
+2024-06-05 01:45:26 .....         3774         4096  jdk-17.0.12\include\jvmticmlr.h
+2024-06-05 01:45:26 .....          968         1024  jdk-17.0.12\include\linux\jawt_md.h
+2024-06-05 01:45:26 .....         1211         1536  jdk-17.0.12\include\linux\jni_md.h
+2024-06-05 01:45:26 .....     21093019     21093376  jdk-17.0.12\jmods\java.base.jmod
+2024-06-05 01:45:26 .....       125374       125440  jdk-17.0.12\jmods\java.compiler.jmod
+2024-06-05 01:45:26 .....        53940        54272  jdk-17.0.12\jmods\java.datatransfer.jmod
+2024-06-05 01:45:26 .....     13993057     13993472  jdk-17.0.12\jmods\java.desktop.jmod
+2024-06-05 01:45:26 .....        41497        41984  jdk-17.0.12\jmods\java.instrument.jmod
+2024-06-05 01:45:26 .....       117082       117248  jdk-17.0.12\jmods\java.logging.jmod
+2024-06-05 01:45:26 .....       897610       898048  jdk-17.0.12\jmods\java.management.jmod
+2024-06-05 01:45:26 .....        94612        94720  jdk-17.0.12\jmods\java.management.rmi.jmod
+2024-06-05 01:45:26 .....       470140       470528  jdk-17.0.12\jmods\java.naming.jmod
+2024-06-05 01:45:26 .....       742178       742400  jdk-17.0.12\jmods\java.net.http.jmod
+2024-06-05 01:45:26 .....        64235        64512  jdk-17.0.12\jmods\java.prefs.jmod
+2024-06-05 01:45:26 .....       263213       263680  jdk-17.0.12\jmods\java.rmi.jmod
+2024-06-05 01:45:26 .....        41808        41984  jdk-17.0.12\jmods\java.scripting.jmod
+2024-06-05 01:45:26 .....         4670         5120  jdk-17.0.12\jmods\java.se.jmod
+2024-06-05 01:45:26 .....       617651       617984  jdk-17.0.12\jmods\java.security.jgss.jmod
+2024-06-05 01:45:26 .....        84160        84480  jdk-17.0.12\jmods\java.security.sasl.jmod
+2024-06-05 01:45:26 .....        58107        58368  jdk-17.0.12\jmods\java.smartcardio.jmod
+2024-06-05 01:45:26 .....        78485        78848  jdk-17.0.12\jmods\java.sql.jmod
+2024-06-05 01:45:26 .....       195773       196096  jdk-17.0.12\jmods\java.sql.rowset.jmod
+2024-06-05 01:45:26 .....         6498         6656  jdk-17.0.12\jmods\java.transaction.xa.jmod
+2024-06-05 01:45:26 .....       689137       689152  jdk-17.0.12\jmods\java.xml.crypto.jmod
+2024-06-05 01:45:26 .....      4656477      4656640  jdk-17.0.12\jmods\java.xml.jmod
+2024-06-05 01:45:26 .....        57013        57344  jdk-17.0.12\jmods\jdk.accessibility.jmod
+2024-06-05 01:45:26 .....        33014        33280  jdk-17.0.12\jmods\jdk.attach.jmod
+2024-06-05 01:45:26 .....      1192527      1192960  jdk-17.0.12\jmods\jdk.charsets.jmod
+2024-06-05 01:45:26 .....      9660145      9660416  jdk-17.0.12\jmods\jdk.compiler.jmod
+2024-06-05 01:45:26 .....       373682       373760  jdk-17.0.12\jmods\jdk.crypto.cryptoki.jmod
+2024-06-05 01:45:26 .....       134533       134656  jdk-17.0.12\jmods\jdk.crypto.ec.jmod
+2024-06-05 01:45:26 .....       160735       160768  jdk-17.0.12\jmods\jdk.dynalink.jmod
+2024-06-05 01:45:26 .....         9573         9728  jdk-17.0.12\jmods\jdk.editpad.jmod
+2024-06-05 01:45:26 .....      2303605      2304000  jdk-17.0.12\jmods\jdk.hotspot.agent.jmod
+2024-06-05 01:45:26 .....       109126       109568  jdk-17.0.12\jmods\jdk.httpserver.jmod
+2024-06-05 01:45:26 .....       320093       320512  jdk-17.0.12\jmods\jdk.incubator.foreign.jmod
+2024-06-05 01:45:26 .....      1065116      1065472  jdk-17.0.12\jmods\jdk.incubator.vector.jmod
+2024-06-05 01:45:26 .....         9979        10240  jdk-17.0.12\jmods\jdk.internal.ed.jmod
+2024-06-05 01:45:26 .....        96673        96768  jdk-17.0.12\jmods\jdk.internal.jvmstat.jmod
+2024-06-05 01:45:26 .....       432346       432640  jdk-17.0.12\jmods\jdk.internal.le.jmod
+2024-06-05 01:45:26 .....        84362        84480  jdk-17.0.12\jmods\jdk.internal.opt.jmod
+2024-06-05 01:45:26 .....       448873       449024  jdk-17.0.12\jmods\jdk.internal.vm.ci.jmod
+2024-06-05 01:45:26 .....         4458         4608  jdk-17.0.12\jmods\jdk.internal.vm.compiler.jmod
+2024-06-05 01:45:26 .....         4465         4608  jdk-17.0.12\jmods\jdk.internal.vm.compiler.management.jmod
+2024-06-05 01:45:26 .....       212099       212480  jdk-17.0.12\jmods\jdk.jartool.jmod
+2024-06-05 01:45:26 .....      1379495      1379840  jdk-17.0.12\jmods\jdk.javadoc.jmod
+2024-06-05 01:45:26 .....       129582       130048  jdk-17.0.12\jmods\jdk.jcmd.jmod
+2024-06-05 01:45:26 .....       471926       472064  jdk-17.0.12\jmods\jdk.jconsole.jmod
+2024-06-05 01:45:26 .....       738903       739328  jdk-17.0.12\jmods\jdk.jdeps.jmod
+2024-06-05 01:45:26 .....       844450       844800  jdk-17.0.12\jmods\jdk.jdi.jmod
+2024-06-05 01:45:26 .....       144156       144384  jdk-17.0.12\jmods\jdk.jdwp.agent.jmod
+2024-06-05 01:45:26 .....       641966       642048  jdk-17.0.12\jmods\jdk.jfr.jmod
+2024-06-05 01:45:26 .....       411059       411136  jdk-17.0.12\jmods\jdk.jlink.jmod
+2024-06-05 01:45:26 .....       719736       719872  jdk-17.0.12\jmods\jdk.jpackage.jmod
+2024-06-05 01:45:26 .....       677293       677376  jdk-17.0.12\jmods\jdk.jshell.jmod
+2024-06-05 01:45:26 .....         5563         5632  jdk-17.0.12\jmods\jdk.jsobject.jmod
+2024-06-05 01:45:26 .....        31826        32256  jdk-17.0.12\jmods\jdk.jstatd.jmod
+2024-06-05 01:45:26 .....     10247549     10247680  jdk-17.0.12\jmods\jdk.localedata.jmod
+2024-06-05 01:45:26 .....        77564        77824  jdk-17.0.12\jmods\jdk.management.agent.jmod
+2024-06-05 01:45:26 .....        57037        57344  jdk-17.0.12\jmods\jdk.management.jfr.jmod
+2024-06-05 01:45:26 .....        72250        72704  jdk-17.0.12\jmods\jdk.management.jmod
+2024-06-05 01:45:26 .....        64674        65024  jdk-17.0.12\jmods\jdk.naming.dns.jmod
+2024-06-05 01:45:26 .....        25671        26112  jdk-17.0.12\jmods\jdk.naming.rmi.jmod
+2024-06-05 01:45:26 .....        26222        26624  jdk-17.0.12\jmods\jdk.net.jmod
+2024-06-05 01:45:26 .....         5034         5120  jdk-17.0.12\jmods\jdk.nio.mapmode.jmod
+2024-06-05 01:45:26 .....        24323        24576  jdk-17.0.12\jmods\jdk.random.jmod
+2024-06-05 01:45:26 .....        87989        88064  jdk-17.0.12\jmods\jdk.sctp.jmod
+2024-06-05 01:45:26 .....        70057        70144  jdk-17.0.12\jmods\jdk.security.auth.jmod
+2024-06-05 01:45:26 .....        27663        28160  jdk-17.0.12\jmods\jdk.security.jgss.jmod
+2024-06-05 01:45:26 .....        16440        16896  jdk-17.0.12\jmods\jdk.unsupported.desktop.jmod
+2024-06-05 01:45:26 .....        19791        19968  jdk-17.0.12\jmods\jdk.unsupported.jmod
+2024-06-05 01:45:26 .....        44801        45056  jdk-17.0.12\jmods\jdk.xml.dom.jmod
+2024-06-05 01:45:26 .....       107883       108032  jdk-17.0.12\jmods\jdk.zipfs.jmod
+2024-06-05 01:45:26 .....         3244         3584  jdk-17.0.12\legal\java.base\COPYRIGHT
+2024-06-05 01:45:26 .....         6186         6656  jdk-17.0.12\legal\java.base\LICENSE
+2024-06-05 01:45:26 .....         1444         1536  jdk-17.0.12\legal\java.base\aes.md
+2024-06-05 01:45:26 .....         1584         2048  jdk-17.0.12\legal\java.base\asm.md
+2024-06-05 01:45:26 .....         1556         2048  jdk-17.0.12\legal\java.base\c-libutl.md
+2024-06-05 01:45:26 .....         9130         9216  jdk-17.0.12\legal\java.base\cldr.md
+2024-06-05 01:45:26 .....        11086        11264  jdk-17.0.12\legal\java.base\icu.md
+2024-06-05 01:45:26 .....        17785        17920  jdk-17.0.12\legal\java.base\public_suffix.md
+2024-06-05 01:45:26 .....         8256         8704  jdk-17.0.12\legal\java.base\siphash.md
+2024-06-05 01:45:26 .....         2384         2560  jdk-17.0.12\legal\java.base\unicode.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.compiler\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.compiler\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.datatransfer\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.datatransfer\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.desktop\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.desktop\LICENSE
+2024-06-05 01:45:26 .....          167          512  jdk-17.0.12\legal\java.desktop\colorimaging.md
+2024-06-05 01:45:26 .....         1288         1536  jdk-17.0.12\legal\java.desktop\giflib.md
+2024-06-05 01:45:26 .....         3627         4096  jdk-17.0.12\legal\java.desktop\harfbuzz.md
+2024-06-05 01:45:26 .....         3475         3584  jdk-17.0.12\legal\java.desktop\jpeg.md
+2024-06-05 01:45:26 .....         2544         2560  jdk-17.0.12\legal\java.desktop\lcms.md
+2024-06-05 01:45:26 .....         6980         7168  jdk-17.0.12\legal\java.desktop\libpng.md
+2024-06-05 01:45:26 .....         5732         6144  jdk-17.0.12\legal\java.desktop\mesa3d.md
+2024-06-05 01:45:26 .....         1348         1536  jdk-17.0.12\legal\java.desktop\xwd.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.instrument\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.instrument\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.logging\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.logging\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.management.rmi\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.management.rmi\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.management\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.management\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.naming\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.naming\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.net.http\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.net.http\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.prefs\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.prefs\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.rmi\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.rmi\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.scripting\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.scripting\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.se\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.se\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.security.jgss\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.security.jgss\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.security.sasl\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.security.sasl\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.smartcardio\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.smartcardio\LICENSE
+2024-06-05 01:45:26 .....         2155         2560  jdk-17.0.12\legal\java.smartcardio\pcsclite.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.sql.rowset\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.sql.rowset\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.sql\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.sql\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.transaction.xa\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.transaction.xa\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.xml.crypto\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.xml.crypto\LICENSE
+2024-06-05 01:45:26 .....        11499        11776  jdk-17.0.12\legal\java.xml.crypto\santuario.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\java.xml\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\java.xml\LICENSE
+2024-06-05 01:45:26 .....        11195        11264  jdk-17.0.12\legal\java.xml\bcel.md
+2024-06-05 01:45:26 .....         3761         4096  jdk-17.0.12\legal\java.xml\dom.md
+2024-06-05 01:45:26 .....         1448         1536  jdk-17.0.12\legal\java.xml\jcup.md
+2024-06-05 01:45:26 .....        13494        13824  jdk-17.0.12\legal\java.xml\xalan.md
+2024-06-05 01:45:26 .....        11852        12288  jdk-17.0.12\legal\java.xml\xerces.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.accessibility\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.accessibility\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.attach\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.attach\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.charsets\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.charsets\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.compiler\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.compiler\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.crypto.cryptoki\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.crypto.cryptoki\LICENSE
+2024-06-05 01:45:26 .....         3923         4096  jdk-17.0.12\legal\jdk.crypto.cryptoki\pkcs11cryptotoken.md
+2024-06-05 01:45:26 .....         2131         2560  jdk-17.0.12\legal\jdk.crypto.cryptoki\pkcs11wrapper.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.crypto.ec\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.crypto.ec\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.dynalink\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.dynalink\LICENSE
+2024-06-05 01:45:26 .....         1502         1536  jdk-17.0.12\legal\jdk.dynalink\dynalink.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.editpad\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.editpad\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.hotspot.agent\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.hotspot.agent\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.httpserver\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.httpserver\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.incubator.foreign\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.incubator.foreign\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.incubator.vector\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.incubator.vector\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.ed\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.ed\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.jvmstat\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.jvmstat\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.le\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.le\LICENSE
+2024-06-05 01:45:26 .....         1579         2048  jdk-17.0.12\legal\jdk.internal.le\jline.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.opt\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.opt\LICENSE
+2024-06-05 01:45:26 .....         1122         1536  jdk-17.0.12\legal\jdk.internal.opt\jopt-simple.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.vm.ci\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.vm.ci\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.vm.compiler.management\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.vm.compiler.management\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.internal.vm.compiler\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.internal.vm.compiler\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jartool\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jartool\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.javadoc\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.javadoc\LICENSE
+2024-06-05 01:45:26 .....         2936         3072  jdk-17.0.12\legal\jdk.javadoc\jquery.md
+2024-06-05 01:45:26 .....         1870         2048  jdk-17.0.12\legal\jdk.javadoc\jqueryUI.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jcmd\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jcmd\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jconsole\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jconsole\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jdeps\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jdeps\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jdi\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jdi\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jdwp.agent\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jdwp.agent\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jfr\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jfr\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jlink\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jlink\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jpackage\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jpackage\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jshell\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jshell\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jsobject\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jsobject\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.jstatd\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.jstatd\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.localedata\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.localedata\LICENSE
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.localedata\cldr.md
+2024-06-05 01:45:26 .....         1346         1536  jdk-17.0.12\legal\jdk.localedata\thaidict.md
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.management.agent\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.management.agent\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.management.jfr\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.management.jfr\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.management\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.management\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.naming.dns\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.naming.dns\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.naming.rmi\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.naming.rmi\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.net\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.net\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.nio.mapmode\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.nio.mapmode\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.random\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.random\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.sctp\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.sctp\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.security.auth\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.security.auth\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.security.jgss\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.security.jgss\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.unsupported.desktop\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.unsupported.desktop\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.unsupported\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.unsupported\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.xml.dom\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.xml.dom\LICENSE
+2024-06-05 01:45:26 .....           22            0  jdk-17.0.12\legal\jdk.zipfs\COPYRIGHT
+2024-06-05 01:45:26 .....           20            0  jdk-17.0.12\legal\jdk.zipfs\LICENSE
+2024-06-05 01:45:26 .....        71545        71680  jdk-17.0.12\lib\classlist
+2024-06-05 01:45:26 .....      8888726      8888832  jdk-17.0.12\lib\ct.sym
+2024-06-05 01:45:26 .....        12480        12800  jdk-17.0.12\lib\jexec
+2024-06-05 01:45:26 .....        35894        36352  jdk-17.0.12\lib\jfr\default.jfc
+2024-06-05 01:45:26 .....        35854        36352  jdk-17.0.12\lib\jfr\profile.jfc
+2024-06-05 01:45:26 .....       110501       110592  jdk-17.0.12\lib\jrt-fs.jar
+2024-06-05 01:45:26 .....        17728        17920  jdk-17.0.12\lib\jspawnhelper
+2024-06-05 01:45:26 .....           29          512  jdk-17.0.12\lib\jvm.cfg
+2024-06-05 01:45:26 .....        12808        13312  jdk-17.0.12\lib\libattach.so
+2024-06-05 01:45:26 .....       899864       900096  jdk-17.0.12\lib\libawt.so
+2024-06-05 01:45:26 .....        38488        38912  jdk-17.0.12\lib\libawt_headless.so
+2024-06-05 01:45:26 .....       473880       474112  jdk-17.0.12\lib\libawt_xawt.so
+2024-06-05 01:45:26 .....        27648        27648  jdk-17.0.12\lib\libdt_socket.so
+2024-06-05 01:45:26 .....        12832        13312  jdk-17.0.12\lib\libextnet.so
+2024-06-05 01:45:26 .....      2915304      2915328  jdk-17.0.12\lib\libfontmanager.so
+2024-06-05 01:45:26 .....        50328        50688  jdk-17.0.12\lib\libinstrument.so
+2024-06-05 01:45:26 .....        47032        47104  jdk-17.0.12\lib\libj2gss.so
+2024-06-05 01:45:26 .....        17632        17920  jdk-17.0.12\lib\libj2pcsc.so
+2024-06-05 01:45:26 .....        92360        92672  jdk-17.0.12\lib\libj2pkcs11.so
+2024-06-05 01:45:26 .....         7712         8192  jdk-17.0.12\lib\libjaas.so
+2024-06-05 01:45:26 .....       190392       190464  jdk-17.0.12\lib\libjava.so
+2024-06-05 01:45:26 .....       239976       240128  jdk-17.0.12\lib\libjavajpeg.so
+2024-06-05 01:45:26 .....         7736         8192  jdk-17.0.12\lib\libjawt.so
+2024-06-05 01:45:26 .....       289528       289792  jdk-17.0.12\lib\libjdwp.so
+2024-06-05 01:45:26 .....       145544       145920  jdk-17.0.12\lib\libjimage.so
+2024-06-05 01:45:26 .....        73056        73216  jdk-17.0.12\lib\libjli.so
+2024-06-05 01:45:26 .....        12672        12800  jdk-17.0.12\lib\libjsig.so
+2024-06-05 01:45:26 .....        80336        80384  jdk-17.0.12\lib\libjsound.so
+2024-06-05 01:45:26 .....       866496       866816  jdk-17.0.12\lib\libjsvml.so
+2024-06-05 01:45:26 .....       619240       619520  jdk-17.0.12\lib\liblcms.so
+2024-06-05 01:45:26 .....        25456        25600  jdk-17.0.12\lib\libmanagement.so
+2024-06-05 01:45:26 .....         7752         8192  jdk-17.0.12\lib\libmanagement_agent.so
+2024-06-05 01:45:26 .....        32984        33280  jdk-17.0.12\lib\libmanagement_ext.so
+2024-06-05 01:45:26 .....       607208       607232  jdk-17.0.12\lib\libmlib_image.so
+2024-06-05 01:45:26 .....       108464       108544  jdk-17.0.12\lib\libnet.so
+2024-06-05 01:45:26 .....        99848       100352  jdk-17.0.12\lib\libnio.so
+2024-06-05 01:45:26 .....        11976        12288  jdk-17.0.12\lib\libprefs.so
+2024-06-05 01:45:26 .....         7480         7680  jdk-17.0.12\lib\librmi.so
+2024-06-05 01:45:26 .....       180152       180224  jdk-17.0.12\lib\libsaproc.so
+2024-06-05 01:45:26 .....        27872        28160  jdk-17.0.12\lib\libsctp.so
+2024-06-05 01:45:26 .....       368536       368640  jdk-17.0.12\lib\libsplashscreen.so
+2024-06-05 01:45:26 .....         7464         7680  jdk-17.0.12\lib\libsyslookup.so
+2024-06-05 01:45:26 .....        64016        64512  jdk-17.0.12\lib\libverify.so
+2024-06-05 01:45:26 .....        41056        41472  jdk-17.0.12\lib\libzip.so
+2024-06-05 01:45:26 .....    127182992    127183360  jdk-17.0.12\lib\modules
+2024-06-05 01:45:26 .....         2796         3072  jdk-17.0.12\lib\psfont.properties.ja
+2024-06-05 01:45:26 .....        10393        10752  jdk-17.0.12\lib\psfontj2d.properties
+2024-06-05 01:45:26 .....         2488         2560  jdk-17.0.12\lib\security\blocked.certs
+2024-06-05 01:45:26 .....       124583       124928  jdk-17.0.12\lib\security\cacerts
+2024-06-05 01:45:26 .....        10293        10752  jdk-17.0.12\lib\security\default.policy
+2024-06-05 01:45:26 .....       228598       228864  jdk-17.0.12\lib\security\public_suffix_list.dat
+2024-06-05 01:45:27 .....     13770752     13770752  jdk-17.0.12\lib\server\classes.jsa
+2024-06-05 01:45:27 .....     12537856     12537856  jdk-17.0.12\lib\server\classes_nocoops.jsa
+2024-06-05 01:45:26 .....        12672        12800  jdk-17.0.12\lib\server\libjsig.so
+2024-06-05 01:45:26 .....     22937064     22937088  jdk-17.0.12\lib\server\libjvm.so
+2024-06-05 01:45:26 .....     43996984     43997184  jdk-17.0.12\lib\src.zip
+2024-06-05 01:45:26 .....       104163       104448  jdk-17.0.12\lib\tzdb.dat
+2024-06-05 01:45:26 .....         1519         1536  jdk-17.0.12\man\man1\jabswitch.1
+2024-06-05 01:45:26 .....         9719         9728  jdk-17.0.12\man\man1\jaccessinspector.1
+2024-06-05 01:45:26 .....         1968         2048  jdk-17.0.12\man\man1\jaccesswalker.1
+2024-06-05 01:45:26 .....        10783        11264  jdk-17.0.12\man\man1\jar.1
+2024-06-05 01:45:26 .....        54878        55296  jdk-17.0.12\man\man1\jarsigner.1
+2024-06-05 01:45:26 .....       188022       188416  jdk-17.0.12\man\man1\java.1
+2024-06-05 01:45:26 .....        84178        84480  jdk-17.0.12\man\man1\javac.1
+2024-06-05 01:45:26 .....        45554        45568  jdk-17.0.12\man\man1\javadoc.1
+2024-06-05 01:45:26 .....         6747         7168  jdk-17.0.12\man\man1\javap.1
+2024-06-05 01:45:26 .....        33946        34304  jdk-17.0.12\man\man1\jcmd.1
+2024-06-05 01:45:26 .....         2601         3072  jdk-17.0.12\man\man1\jconsole.1
+2024-06-05 01:45:26 .....         7833         8192  jdk-17.0.12\man\man1\jdb.1
+2024-06-05 01:45:26 .....         7074         7168  jdk-17.0.12\man\man1\jdeprscan.1
+2024-06-05 01:45:26 .....        11182        11264  jdk-17.0.12\man\man1\jdeps.1
+2024-06-05 01:45:26 .....         7969         8192  jdk-17.0.12\man\man1\jfr.1
+2024-06-05 01:45:26 .....         6273         6656  jdk-17.0.12\man\man1\jhsdb.1
+2024-06-05 01:45:26 .....         2432         2560  jdk-17.0.12\man\man1\jinfo.1
+2024-06-05 01:45:26 .....        10873        11264  jdk-17.0.12\man\man1\jlink.1
+2024-06-05 01:45:26 .....         2421         2560  jdk-17.0.12\man\man1\jmap.1
+2024-06-05 01:45:26 .....        11045        11264  jdk-17.0.12\man\man1\jmod.1
+2024-06-05 01:45:26 .....        13731        13824  jdk-17.0.12\man\man1\jpackage.1
+2024-06-05 01:45:26 .....         7389         7680  jdk-17.0.12\man\man1\jps.1
+2024-06-05 01:45:26 .....         4212         4608  jdk-17.0.12\man\man1\jrunscript.1
+2024-06-05 01:45:26 .....        42610        43008  jdk-17.0.12\man\man1\jshell.1
+2024-06-05 01:45:26 .....         1981         2048  jdk-17.0.12\man\man1\jstack.1
+2024-06-05 01:45:26 .....        23035        23040  jdk-17.0.12\man\man1\jstat.1
+2024-06-05 01:45:26 .....         6808         7168  jdk-17.0.12\man\man1\jstatd.1
+2024-06-05 01:45:26 .....       110800       111104  jdk-17.0.12\man\man1\keytool.1
+2024-06-05 01:45:26 .....         5018         5120  jdk-17.0.12\man\man1\kinit.1
+2024-06-05 01:45:26 .....         2286         2560  jdk-17.0.12\man\man1\klist.1
+2024-06-05 01:45:26 .....         4678         5120  jdk-17.0.12\man\man1\ktab.1
+2024-06-05 01:45:26 .....         2189         2560  jdk-17.0.12\man\man1\rmiregistry.1
+2024-06-05 01:45:26 .....         1844         2048  jdk-17.0.12\man\man1\serialver.1
+2024-06-05 01:45:26 .....         1273         1536  jdk-17.0.12\release
+------------------- ----- ------------ ------------  ------------------------
+2024-06-05 01:45:27          318624096    318688768  386 files
+
+C:\LocalApps>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Downloads
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+12/26/2022  04:19 PM    <DIR>          ebooks
+04/18/2023  08:44 AM    <DIR>          boa-visa
+04/27/2023  07:32 AM    <DIR>          voya-401k
+04/27/2023  07:35 AM    <DIR>          fidelity-401k
+03/08/2024  05:21 AM    <DIR>          tutorials-master
+03/11/2024  05:59 AM    <DIR>          usr
+03/11/2024  06:24 AM    <DIR>          curl-8.6.0_4-win64-mingw
+06/28/2024  07:41 AM    <DIR>          linux-sbapp
+06/30/2024  07:56 AM    <DIR>          temp
+08/10/2024  11:14 AM    <DIR>          Download Visual Studio Code - Mac, Linux, Windows_files
+10/04/2024  09:35 AM    <DIR>          ..
+10/09/2024  07:23 AM    <DIR>          .
+05/11/2022  02:27 PM         1,414,600 ChromeSetup.exe
+05/11/2022  02:38 PM           336,336 Firefox Installer.exe
+05/11/2022  03:01 PM       113,653,600 1PasswordSetup-latest.exe
+05/11/2022  04:01 PM       731,359,272 ideaIU-2022.1.1.exe
+05/11/2022  04:01 PM                86 ideaIU-2022.1.1.exe.sha256
+05/11/2022  04:01 PM     1,010,655,457 ideaIU-2022.1.1.win.zip
+05/11/2022  04:02 PM                90 ideaIU-2022.1.1.win.zip.sha256
+05/11/2022  04:03 PM       621,048,696 ideaIC-2022.1.1.exe
+05/11/2022  04:03 PM                86 ideaIC-2022.1.1.exe.sha256
+05/11/2022  04:04 PM       848,498,945 ideaIC-2022.1.1.win.zip
+05/11/2022  04:04 PM                90 ideaIC-2022.1.1.win.zip.sha256
+05/11/2022  04:07 PM        79,521,248 VSCodeUserSetup-x64-1.67.1.exe
+05/11/2022  04:07 PM        79,521,024 VSCodeSetup-x64-1.67.1.exe
+05/11/2022  04:08 PM       109,164,813 VSCode-win32-x64-1.67.1.zip
+05/11/2022  04:10 PM       538,960,719 eclipse-jee-2022-03-R-win32-x86_64.zip
+05/11/2022  04:13 PM               170 eclipse-jee-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  04:14 PM       322,677,235 eclipse-java-2022-03-R-win32-x86_64.zip
+05/11/2022  04:17 PM               171 eclipse-java-2022-03-R-win32-x86_64.zip.sha512
+05/11/2022  04:32 PM       181,189,155 jdk-18.0.1.1_windows-x64_bin.zip
+05/11/2022  04:32 PM                64 jdk-18.0.1.1_windows-x64_bin.zip.sha256
+05/11/2022  04:32 PM       160,827,664 jdk-18.0.1.1_windows-x64_bin.exe
+05/11/2022  04:33 PM                64 jdk-18.0.1.1_windows-x64_bin.exe.sha256
+05/11/2022  04:33 PM       159,657,984 jdk-18.0.1.1_windows-x64_bin.msi
+05/11/2022  04:33 PM                64 jdk-18.0.1.1_windows-x64_bin.msi.sha256
+05/11/2022  04:37 PM       179,958,887 jdk-17.0.3.1_windows-x64_bin.zip
+05/11/2022  04:48 PM                64 jdk-17.0.3.1_windows-x64_bin.zip.sha256
+05/11/2022  04:49 PM       160,061,712 jdk-17.0.3.1_windows-x64_bin.exe
+05/11/2022  04:51 PM                64 jdk-17.0.3.1_windows-x64_bin.exe.sha256
+05/11/2022  04:56 PM       158,892,032 jdk-17.0.3.1_windows-x64_bin.msi
+05/11/2022  04:56 PM                64 jdk-17.0.3.1_windows-x64_bin.msi.sha256
+05/11/2022  04:59 PM       147,226,896 jdk-11.0.15.1_windows-x64_bin.exe
+05/11/2022  05:00 PM       165,784,406 jdk-11.0.15.1_windows-x64_bin.zip
+05/11/2022  05:00 PM             7,396 jdk-11-0-15-1-checksum.html
+05/11/2022  05:03 PM       166,945,536 jdk-8u333-windows-i586.exe
+05/11/2022  05:03 PM       181,048,576 jdk-8u333-windows-x64.exe
+05/11/2022  05:04 PM            11,299 jdk-8u333checksum.html
+05/11/2022  05:05 PM         2,251,520 jre-8u333-windows-i586-iftw.exe
+05/11/2022  05:05 PM        75,902,720 jre-8u333-windows-i586.exe
+05/11/2022  05:05 PM        74,256,834 jre-8u333-windows-i586.tar.gz
+05/11/2022  05:06 PM        87,061,248 jre-8u333-windows-x64.exe
+05/11/2022  05:06 PM        80,575,913 jre-8u333-windows-x64.tar.gz
+05/11/2022  05:06 PM        55,916,740 jdk-8u333-windows-i586-demos.zip
+05/11/2022  05:06 PM        55,937,583 jdk-8u333-windows-x64-demos.zip
+05/11/2022  05:12 PM       125,169,043 jdk-8u333-docs-all.zip
+05/11/2022  05:12 PM        10,473,619 javafx-8u331-apidocs.zip
+05/11/2022  05:13 PM        53,807,711 jdk-11.0.15.1_doc-all.zip
+05/11/2022  05:17 PM        51,329,631 jdk-17.0.3.1_doc-all.zip
+05/11/2022  05:17 PM        52,230,737 jdk-18.0.1.1_doc-all.zip
+05/11/2022  06:16 PM         1,533,613 7z2107-x64.exe
+10/16/2022  11:03 AM       737,543,104 ideaIU-2022.2.3.exe
+10/16/2022  11:03 AM                86 ideaIU-2022.2.3.exe.sha256
+10/16/2022  11:04 AM     1,022,713,061 ideaIU-2022.2.3.win.zip
+10/16/2022  11:04 AM                90 ideaIU-2022.2.3.win.zip.sha256
+10/16/2022  11:04 AM       628,520,112 ideaIC-2022.2.3.exe
+10/16/2022  11:05 AM                86 ideaIC-2022.2.3.exe.sha256
+10/16/2022  11:05 AM       860,274,108 ideaIC-2022.2.3.win.zip
+10/16/2022  11:05 AM                90 ideaIC-2022.2.3.win.zip.sha256
+10/16/2022  11:11 AM       493,217,728 pycharm-professional-2022.2.3.exe
+10/16/2022  11:11 AM               100 pycharm-professional-2022.2.3.exe.sha256
+10/16/2022  11:11 AM       396,601,896 pycharm-community-2022.2.3.exe
+10/16/2022  11:11 AM                97 pycharm-community-2022.2.3.exe.sha256
+10/16/2022  11:18 AM       427,383,512 RubyMine-2022.2.3.exe
+10/16/2022  11:18 AM                88 RubyMine-2022.2.3.exe.sha256
+10/16/2022  11:19 AM       601,326,226 RubyMine-2022.2.3.win.zip
+10/16/2022  11:19 AM                92 RubyMine-2022.2.3.win.zip.sha256
+10/16/2022  11:23 AM        86,038,200 VSCodeUserSetup-x64-1.72.2.exe
+10/16/2022  11:23 AM        86,038,208 VSCodeSetup-x64-1.72.2.exe
+10/16/2022  11:24 AM       120,083,536 VSCode-win32-x64-1.72.2.zip
+10/16/2022  11:25 AM       119,478,024 eclipse-inst-jre-win64.exe
+10/16/2022  11:27 AM               158 eclipse-inst-jre-win64.exe.sha512
+10/16/2022  11:29 AM       526,527,070 eclipse-jee-2022-09-R-win32-x86_64.zip
+10/16/2022  11:33 AM       309,865,828 eclipse-java-2022-09-R-win32-x86_64.zip
+10/16/2022  11:34 AM               171 eclipse-java-2022-09-R-win32-x86_64.zip.sha512
+10/16/2022  11:39 AM       600,722,077 spring-tool-suite-4-4.16.0.RELEASE-e4.25.0-win32.win32.x86_64.self-extracting.jar
+10/29/2022  10:55 AM         7,422,744 OfficeSetup.exe
+12/04/2022  02:07 PM       792,833,080 ideaIU-2022.3.exe
+12/04/2022  02:07 PM                84 ideaIU-2022.3.exe.sha256
+12/04/2022  02:08 PM     1,108,431,128 ideaIU-2022.3.win.zip
+12/04/2022  02:09 PM                88 ideaIU-2022.3.win.zip.sha256
+12/04/2022  02:10 PM       683,003,488 ideaIC-2022.3.exe
+12/04/2022  02:10 PM                84 ideaIC-2022.3.exe.sha256
+12/04/2022  02:10 PM       945,935,713 ideaIC-2022.3.win.zip
+12/04/2022  02:11 PM                88 ideaIC-2022.3.win.zip.sha256
+12/04/2022  02:13 PM       504,214,264 pycharm-professional-2022.3.exe
+12/04/2022  02:13 PM                98 pycharm-professional-2022.3.exe.sha256
+12/04/2022  02:14 PM       414,052,512 pycharm-community-2022.3.exe
+12/04/2022  02:14 PM                95 pycharm-community-2022.3.exe.sha256
+12/04/2022  02:17 PM       435,397,480 RubyMine-2022.3.exe
+12/04/2022  02:17 PM                86 RubyMine-2022.3.exe.sha256
+12/04/2022  02:17 PM       612,602,265 RubyMine-2022.3.win.zip
+12/04/2022  02:18 PM                90 RubyMine-2022.3.win.zip.sha256
+12/04/2022  02:19 PM       412,981,160 WebStorm-2022.3.exe
+12/04/2022  02:20 PM                86 WebStorm-2022.3.exe.sha256
+12/04/2022  02:27 PM        92,599,272 VSCodeUserSetup-x64-1.73.1.exe
+12/04/2022  02:27 PM        92,599,072 VSCodeSetup-x64-1.73.1.exe
+12/04/2022  02:31 PM       129,492,436 VSCode-win32-x64-1.73.1.zip
+12/26/2022  04:28 PM       791,547,136 ideaIU-2022.3.1.exe
+12/26/2022  04:28 PM                86 ideaIU-2022.3.1.exe.sha256
+12/26/2022  04:29 PM     1,103,933,865 ideaIU-2022.3.1.win.zip
+12/26/2022  04:29 PM                90 ideaIU-2022.3.1.win.zip.sha256
+12/26/2022  04:30 PM       681,138,616 ideaIC-2022.3.1.exe
+12/26/2022  04:30 PM                86 ideaIC-2022.3.1.exe.sha256
+12/26/2022  04:31 PM       940,422,576 ideaIC-2022.3.1.win.zip
+12/26/2022  04:31 PM                90 ideaIC-2022.3.1.win.zip.sha256
+12/26/2022  04:37 PM       415,229,488 WebStorm-2022.3.1.exe
+12/26/2022  04:37 PM                88 WebStorm-2022.3.1.exe.sha256
+12/26/2022  04:41 PM        93,080,608 VSCodeUserSetup-x64-1.74.2.exe
+12/26/2022  04:41 PM        93,080,592 VSCodeSetup-x64-1.74.2.exe
+12/26/2022  04:41 PM       131,072,105 VSCode-win32-x64-1.74.2.zip
+12/26/2022  04:41 PM         5,106,010 vscode_cli_win32_x64_cli.zip
+12/26/2022  04:45 PM       458,097,493 netbeans-16-bin.zip
+12/26/2022  04:47 PM               152 netbeans-16-bin.zip.sha512
+12/26/2022  04:47 PM               866 netbeans-16-bin.zip.asc
+12/26/2022  04:48 PM       458,271,024 Apache-NetBeans-16-bin-windows-x64.exe
+12/26/2022  04:48 PM               169 Apache-NetBeans-16-bin-windows-x64.exe.sha512
+12/26/2022  04:48 PM               858 Apache-NetBeans-16-bin-windows-x64.exe.asc
+12/30/2022  08:23 AM       513,169,376 pycharm-professional-2022.3.1.exe
+12/30/2022  08:23 AM               100 pycharm-professional-2022.3.1.exe.sha256
+12/30/2022  08:23 AM       422,493,552 pycharm-community-2022.3.1.exe
+12/30/2022  08:23 AM                97 pycharm-community-2022.3.1.exe.sha256
+12/30/2022  08:24 AM       437,510,936 RubyMine-2022.3.1.exe
+12/30/2022  08:25 AM                88 RubyMine-2022.3.1.exe.sha256
+12/30/2022  08:25 AM       433,987,352 datagrip-2022.3.2.exe
+12/30/2022  08:25 AM                88 datagrip-2022.3.2.exe.sha256
+12/30/2022  09:22 AM        52,999,992 Git-2.39.0.2-64-bit.exe
+03/30/2023  07:33 AM           116,319 img_1164.jpg
+03/30/2023  07:34 AM           244,828 img_1165.jpg
+03/30/2023  07:34 AM           240,631 img_1166.jpg
+03/30/2023  07:39 AM         1,873,509 mytickets.png
+04/18/2023  08:38 AM           217,971 eStmt_2023-04-11.pdf
+04/18/2023  08:39 AM           167,993 eStmt_2023-03-11.pdf
+04/18/2023  08:39 AM           166,847 eStmt_2023-02-11.pdf
+04/18/2023  08:39 AM           168,384 eStmt_2023-01-11.pdf
+04/18/2023  08:41 AM           168,954 eStmt_2022-12-11.pdf
+04/18/2023  08:41 AM           163,465 eStmt_2022-11-11.pdf
+04/18/2023  08:41 AM           163,065 eStmt_2022-10-11.pdf
+04/18/2023  08:41 AM           308,365 eStmt_2022-09-11.pdf
+04/18/2023  08:41 AM           163,092 eStmt_2022-08-11.pdf
+04/18/2023  08:42 AM           308,287 eStmt_2022-07-11.pdf
+04/18/2023  08:42 AM           162,448 eStmt_2022-06-11.pdf
+04/18/2023  08:42 AM           199,282 eStmt_2022-05-11.pdf
+04/18/2023  08:42 AM           226,150 eStmt_2022-04-11.pdf
+04/18/2023  08:42 AM           162,202 eStmt_2022-03-11.pdf
+04/18/2023  08:42 AM           162,285 eStmt_2022-02-11.pdf
+04/18/2023  08:42 AM           162,359 eStmt_2022-01-11.pdf
+04/18/2023  07:06 PM            36,933 202112_Tax Return Transcript_HOLB_104429703991.pdf
+04/18/2023  07:08 PM            36,937 202012_Tax Return Transcript_HOLB_104429723319.pdf
+04/18/2023  07:08 PM            35,263 201912_Tax Return Transcript_HOLB_104429729826.pdf
+05/10/2023  06:58 AM       189,593,592 .0.1.zip
+05/10/2023  06:58 AM                64 jdk-20.0.1_windows-x64_bin.zip.sha256
+05/10/2023  06:58 AM       167,721,624 jdk-20.0.1_windows-x64_bin.exe
+05/10/2023  06:59 AM                64 jdk-20.0.1_windows-x64_bin.exe.sha256
+05/10/2023  07:01 AM       166,449,152 jdk-20.0.1_windows-x64_bin.msi
+05/10/2023  07:01 AM                64 jdk-20.0.1_windows-x64_bin.msi.sha256
+05/10/2023  07:05 AM       180,556,094 jdk-17.0.7_windows-x64_bin.zip
+05/10/2023  07:05 AM                64 jdk-17.0.7_windows-x64_bin.zip.sha256
+05/10/2023  07:05 AM       160,723,096 jdk-17.0.7_windows-x64_bin.exe
+05/10/2023  07:06 AM                64 jdk-17.0.7_windows-x64_bin.exe.sha256
+05/10/2023  07:07 AM       159,457,280 jdk-17.0.7_windows-x64_bin.msi
+05/10/2023  07:07 AM                64 jdk-17.0.7_windows-x64_bin.msi.sha256
+05/10/2023  07:09 AM       148,066,968 jdk-11.0.19_windows-x64_bin.exe
+05/10/2023  07:10 AM       166,680,672 jdk-11.0.19_windows-x64_bin.zip
+05/10/2023  07:11 AM             7,493 11-0-19-checksum.html
+05/10/2023  07:13 AM       143,409,800 jdk-8u371-windows-i586.exe
+05/10/2023  07:13 AM            11,838 8u371checksum.html
+05/10/2023  07:17 AM        92,709,688 VSCodeUserSetup-x64-1.78.1.exe
+05/10/2023  07:18 AM        92,709,296 VSCodeSetup-x64-1.78.1.exe
+05/10/2023  07:20 AM       129,122,487 VSCode-win32-x64-1.78.1.zip
+05/10/2023  07:29 AM       543,091,149 eclipse-jee-2023-03-R-win32-x86_64.zip
+05/10/2023  07:32 AM               170 eclipse-jee-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:34 AM       320,977,114 eclipse-java-2023-03-R-win32-x86_64.zip
+05/10/2023  07:37 AM               171 eclipse-java-2023-03-R-win32-x86_64.zip.sha512
+05/10/2023  07:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+05/13/2023  08:32 AM       778,578,512 ideaIU-2023.1.1.exe
+05/13/2023  08:32 AM                86 ideaIU-2023.1.1.exe.txt
+05/13/2023  08:38 AM     1,105,510,053 ideaIU-2023.1.1.win.zip
+05/13/2023  08:39 AM                90 ideaIU-2023.1.1.win.zip.txt
+05/13/2023  08:40 AM       663,963,584 ideaIC-2023.1.1.exe
+05/13/2023  08:41 AM                86 ideaIC-2023.1.1.exe.txt
+05/13/2023  08:42 AM       937,113,057 ideaIC-2023.1.1.win.zip
+05/13/2023  08:43 AM                90 ideaIC-2023.1.1.win.zip.txt
+05/13/2023  09:29 AM        92,718,208 VSCodeUserSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM        92,717,704 VSCodeSetup-x64-1.78.2.exe
+05/13/2023  09:30 AM       129,121,640 VSCode-win32-x64-1.78.2.zip
+05/13/2023  09:43 AM         1,575,742 7z2201-x64.exe
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/15/2023  07:26 AM       106,869,233 redhat.java-1.19.2023051504@win32-x64.vsix
+05/15/2023  07:28 AM         3,203,465 vscjava.vscode-java-debug-0.50.2023042406.vsix
+05/15/2023  07:29 AM         2,357,505 vscjava.vscode-java-test-0.38.2023051002.vsix
+05/15/2023  07:31 AM        10,685,457 vscjava.vscode-maven-0.41.2023042103.vsix
+05/15/2023  07:32 AM           340,091 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+05/15/2023  07:34 AM        88,923,068 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+05/15/2023  07:37 AM           260,459 vmware.vscode-boot-dev-pack-0.2.1.vsix
+05/15/2023  07:38 AM       124,577,448 vmware.vscode-spring-boot-1.47.2023051304.vsix
+05/15/2023  07:40 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+05/15/2023  07:41 AM           658,201 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+05/15/2023  07:42 AM        36,430,975 vscjava.vscode-gradle-3.12.2023042700.vsix
+05/15/2023  07:43 AM        12,491,795 shengchen.vscode-checkstyle-1.4.2.vsix
+05/15/2023  07:44 AM       201,841,036 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+05/17/2023  06:42 AM         1,383,285 ms-azuretools.vscode-docker-1.25.1.vsix
+05/17/2023  06:46 AM           769,981 mtxr.sqltools-0.27.1.vsix
+05/17/2023  06:47 AM           387,292 mtxr.sqltools-driver-mysql-0.5.1.vsix
+05/18/2023  06:57 AM           319,552 vscjava.vscode-lombok-1.1.0.vsix
+05/18/2023  06:59 AM         6,436,935 eamodio.gitlens-2023.5.1805.vsix
+05/18/2023  07:00 AM         2,294,246 Atlassian.atlascode-3.0.3.vsix
+05/20/2023  11:58 AM       124,643,981 gradle-8.1.1-bin.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-bin.zip.sha256
+05/20/2023  11:58 AM       168,381,151 gradle-8.1.1-all.zip
+05/20/2023  11:58 AM                64 gradle-8.1.1-all.zip.sha256
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+05/20/2023  12:12 PM               838 apache-groovy-binary-4.0.12.zip.asc
+05/20/2023  12:12 PM                66 apache-groovy-binary-4.0.12.zip.sha256
+05/20/2023  12:14 PM        44,478,871 apache-groovy-binary-3.0.17.zip
+05/20/2023  12:15 PM               838 apache-groovy-binary-3.0.17.zip.asc
+05/20/2023  12:15 PM                66 apache-groovy-binary-3.0.17.zip.sha256
+05/20/2023  12:18 PM       186,251,326 grails-5.3.2.zip
+05/20/2023  12:22 PM         9,154,322 grails-docs.zip
+05/20/2023  12:24 PM       130,754,587 grails-4.1.2.zip
+05/20/2023  12:27 PM         8,729,987 apache-ant-1.9.16-bin.zip
+05/20/2023  12:28 PM               224 apache-ant-1.9.16-bin.zip.asc
+05/20/2023  12:28 PM               129 apache-ant-1.9.16-bin.zip.sha512
+05/20/2023  12:28 PM         5,839,799 apache-ant-1.9.16-bin.tar.gz
+05/20/2023  12:29 PM               224 apache-ant-1.9.16-bin.tar.gz.asc
+05/20/2023  12:29 PM               129 apache-ant-1.9.16-bin.tar.gz.sha512
+05/20/2023  12:30 PM         9,861,715 apache-ant-1.10.13-bin.zip
+05/20/2023  12:30 PM               833 apache-ant-1.10.13-bin.zip.asc
+05/20/2023  12:30 PM               129 apache-ant-1.10.13-bin.zip.sha512
+05/20/2023  12:31 PM         6,866,302 apache-ant-1.10.13-bin.tar.gz
+05/20/2023  12:31 PM               833 apache-ant-1.10.13-bin.tar.gz.asc
+05/20/2023  12:32 PM               129 apache-ant-1.10.13-bin.tar.gz.sha512
+05/21/2023  09:11 AM         9,248,920 apache-maven-3.9.2-bin.tar.gz
+05/21/2023  09:11 AM               128 apache-maven-3.9.2-bin.tar.gz.sha512
+05/21/2023  09:11 AM               833 apache-maven-3.9.2-bin.tar.gz.asc
+05/21/2023  09:14 AM         9,352,027 apache-maven-3.9.2-bin.zip
+05/21/2023  09:14 AM               128 apache-maven-3.9.2-bin.zip.sha512
+05/21/2023  09:15 AM               833 apache-maven-3.9.2-bin.zip.asc
+05/21/2023  09:21 AM        89,917,226 solr-9.2.1-src.tgz
+05/21/2023  09:21 AM               853 solr-9.2.1-src.tgz.asc
+05/21/2023  09:21 AM               148 solr-9.2.1-src.tgz.sha512
+05/21/2023  09:21 AM       278,512,901 solr-9.2.1.tgz
+05/21/2023  09:21 AM               853 solr-9.2.1.tgz.asc
+05/21/2023  09:21 AM               144 solr-9.2.1.tgz.sha512
+05/21/2023  09:23 AM       140,440,440 solr-8.11.2-src.tgz
+05/21/2023  09:23 AM               833 solr-8.11.2-src.tgz.asc
+05/21/2023  09:24 AM               150 solr-8.11.2-src.tgz.sha512
+05/21/2023  09:24 AM       218,171,227 solr-8.11.2.tgz
+05/21/2023  09:24 AM               833 solr-8.11.2.tgz.asc
+05/21/2023  09:25 AM               146 solr-8.11.2.tgz.sha512
+05/21/2023  09:25 AM       219,753,282 solr-8.11.2.zip
+05/21/2023  09:25 AM               833 solr-8.11.2.zip.asc
+05/21/2023  09:25 AM               146 solr-8.11.2.zip.sha512
+05/21/2023  09:28 AM        51,312,208 lucene-9.6.0-src.tgz
+05/21/2023  09:30 AM               853 lucene-9.6.0-src.tgz.asc
+05/21/2023  09:30 AM               150 lucene-9.6.0-src.tgz.sha512
+05/21/2023  09:31 AM        68,873,480 lucene-9.6.0.tgz
+05/21/2023  09:31 AM               853 lucene-9.6.0.tgz.asc
+05/21/2023  09:31 AM               146 lucene-9.6.0.tgz.sha512
+05/21/2023  09:32 AM        50,619,104 lucene-8.11.2-src.tgz
+05/21/2023  09:33 AM               833 lucene-8.11.2-src.tgz.asc
+05/21/2023  09:33 AM               152 lucene-8.11.2-src.tgz.sha512
+05/21/2023  10:14 AM        85,707,562 lucene-8.11.2.tgz
+05/21/2023  10:14 AM               833 lucene-8.11.2.tgz.asc
+05/21/2023  10:15 AM               148 lucene-8.11.2.tgz.sha512
+05/21/2023  10:15 AM        98,941,782 lucene-8.11.2.zip
+05/21/2023  10:16 AM               833 lucene-8.11.2.zip.asc
+05/21/2023  10:16 AM               148 lucene-8.11.2.zip.sha512
+05/21/2023  10:57 AM        98,358,036 jenkins.2.387.3.war
+05/21/2023  10:58 AM                66 jenkins.2.387.3.war.sha256
+05/21/2023  10:59 AM       104,505,344 jenkins.2.387.3.msi
+05/21/2023  11:09 AM        78,259,207 HTTPie-Setup-2023.2.4.exe
+05/21/2023  11:38 AM        12,188,374 apache-tomcat-9.0.75.zip
+05/21/2023  11:38 AM               833 apache-tomcat-9.0.75.zip.asc
+05/21/2023  11:38 AM               154 apache-tomcat-9.0.75.zip.sha512
+05/21/2023  11:39 AM        11,645,293 apache-tomcat-9.0.75.tar.gz
+05/21/2023  11:39 AM               833 apache-tomcat-9.0.75.tar.gz.asc
+05/21/2023  11:39 AM               157 apache-tomcat-9.0.75.tar.gz.sha512
+05/21/2023  11:39 AM        12,908,207 apache-tomcat-9.0.75-windows-x64.zip
+05/21/2023  11:39 AM               833 apache-tomcat-9.0.75-windows-x64.zip.asc
+05/21/2023  11:39 AM               166 apache-tomcat-9.0.75-windows-x64.zip.sha512
+05/21/2023  11:39 AM        12,450,736 apache-tomcat-9.0.75.exe
+05/21/2023  11:39 AM               833 apache-tomcat-9.0.75.exe.asc
+05/21/2023  11:39 AM               154 apache-tomcat-9.0.75.exe.sha512
+05/21/2023  11:43 AM        12,670,929 apache-tomcat-10.1.9.zip
+05/21/2023  11:43 AM               849 apache-tomcat-10.1.9.zip.asc
+05/21/2023  11:43 AM               154 apache-tomcat-10.1.9.zip.sha512
+05/21/2023  11:44 AM        12,115,190 apache-tomcat-10.1.9.tar.gz
+05/21/2023  11:44 AM               849 apache-tomcat-10.1.9.tar.gz.asc
+05/21/2023  11:44 AM               157 apache-tomcat-10.1.9.tar.gz.sha512
+05/21/2023  11:45 AM        13,810,389 apache-tomcat-10.1.9-windows-x64.zip
+05/21/2023  11:45 AM               849 apache-tomcat-10.1.9-windows-x64.zip.asc
+05/21/2023  11:45 AM               166 apache-tomcat-10.1.9-windows-x64.zip.sha512
+05/21/2023  11:45 AM        13,498,912 apache-tomcat-10.1.9.exe
+05/21/2023  11:45 AM               849 apache-tomcat-10.1.9.exe.asc
+05/21/2023  11:45 AM               154 apache-tomcat-10.1.9.exe.sha512
+05/21/2023  11:47 AM       778,742,392 ideaIU-2023.1.2.exe
+05/21/2023  11:48 AM                86 ideaIU-2023.1.2.exe.txt
+05/21/2023  11:49 AM     1,105,734,882 ideaIU-2023.1.2.win.zip
+05/21/2023  11:50 AM                90 ideaIU-2023.1.2.win.zip.txt
+05/21/2023  11:50 AM       663,994,680 ideaIC-2023.1.2.exe
+05/21/2023  11:52 AM                86 ideaIC-2023.1.2.exe.txt
+05/21/2023  11:52 AM       937,233,781 ideaIC-2023.1.2.win.zip
+05/21/2023  11:53 AM                90 ideaIC-2023.1.2.win.zip.txt
+05/21/2023  11:55 AM       521,054,240 pycharm-professional-2023.1.2.exe
+05/21/2023  11:56 AM               100 pycharm-professional-2023.1.2.exe.txt
+05/21/2023  11:57 AM       422,872,184 pycharm-community-2023.1.2.exe
+05/21/2023  11:58 AM                97 pycharm-community-2023.1.2.exe.txt
+06/01/2023  06:14 AM            67,807 demo.zip
+06/02/2023  06:13 AM       122,052,640 gradle-7.6.1-bin.zip
+06/02/2023  06:13 AM                64 gradle-7.6.1-bin.zip.sha256
+06/02/2023  06:17 AM        87,106,040 gradle-5.4-bin.zip
+06/02/2023  06:17 AM                64 gradle-5.4-bin.zip.sha256
+06/07/2023  07:16 AM       152,568,968 jdk-8u371-windows-x64.exe
+06/12/2023  05:42 AM        93,012,080 VSCodeUserSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM        93,011,880 VSCodeSetup-x64-1.79.0.exe
+06/12/2023  05:42 AM       129,219,132 VSCode-win32-x64-1.79.0.zip
+06/12/2023  05:46 AM       165,594,858 gradle-7.6.1-all.zip
+06/12/2023  05:46 AM                64 gradle-7.6.1-all.zip.sha256
+06/12/2023  05:47 AM       132,684,940 gradle-5.4-all.zip
+06/12/2023  05:47 AM                64 gradle-5.4-all.zip.sha256
+06/19/2023  04:35 AM       547,932,670 eclipse-jee-2023-06-R-win32-x86_64.zip
+06/19/2023  04:37 AM               170 eclipse-jee-2023-06-R-win32-x86_64.zip.sha512
+06/19/2023  04:37 AM       341,577,457 eclipse-java-2023-06-R-win32-x86_64.zip
+06/19/2023  04:38 AM               171 eclipse-java-2023-06-R-win32-x86_64.zip.sha512
+06/19/2023  04:41 AM       607,189,124 spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+06/19/2023  04:46 AM        92,999,832 VSCodeUserSetup-x64-1.79.2.exe
+06/19/2023  04:46 AM        92,999,648 VSCodeSetup-x64-1.79.2.exe
+06/19/2023  04:46 AM       129,219,363 VSCode-win32-x64-1.79.2.zip
+06/21/2023  08:04 AM            68,050 sb310demo.zip
+06/22/2023  07:12 AM       778,798,688 ideaIU-2023.1.3.exe
+06/22/2023  07:13 AM                86 ideaIU-2023.1.3.exe.sha256
+06/22/2023  07:13 AM       664,033,944 ideaIC-2023.1.3.exe
+06/22/2023  07:13 AM                86 ideaIC-2023.1.3.exe.sha256
+07/13/2023  06:28 AM        93,171,624 VSCodeUserSetup-x64-1.80.0.exe
+07/13/2023  06:29 AM        93,171,520 VSCodeSetup-x64-1.80.0.exe
+07/13/2023  06:29 AM       129,548,276 VSCode-win32-x64-1.80.0.zip
+07/13/2023  07:46 AM       778,854,224 ideaIU-2023.1.4.exe
+07/13/2023  07:46 AM                86 ideaIU-2023.1.4.exe.sha256
+07/13/2023  07:46 AM     1,105,896,658 ideaIU-2023.1.4.win.zip
+07/13/2023  07:47 AM                90 ideaIU-2023.1.4.win.zip.sha256
+07/13/2023  07:47 AM       664,066,680 ideaIC-2023.1.4.exe
+07/13/2023  07:47 AM                86 ideaIC-2023.1.4.exe.sha256
+07/13/2023  07:48 AM       937,332,248 ideaIC-2023.1.4.win.zip
+07/13/2023  07:48 AM                90 ideaIC-2023.1.4.win.zip.sha256
+08/10/2023  07:23 PM           376,398 C_asset_allocation.pdf
+08/30/2023  07:20 AM       810,138,528 ideaIU-2023.2.1.exe
+08/30/2023  07:21 AM                86 ideaIU-2023.2.1.exe.sha256
+08/30/2023  07:21 AM     1,150,359,535 ideaIU-2023.2.1.win.zip
+08/30/2023  07:22 AM                90 ideaIU-2023.2.1.win.zip.sha256
+08/30/2023  07:22 AM       695,861,528 ideaIC-2023.2.1.exe
+08/30/2023  07:22 AM                86 ideaIC-2023.2.1.exe.sha256
+08/30/2023  07:23 AM       983,436,924 ideaIC-2023.2.1.win.zip
+08/30/2023  07:23 AM                90 ideaIC-2023.2.1.win.zip.sha256
+08/30/2023  07:24 AM       542,595,544 pycharm-professional-2023.2.1.exe
+08/30/2023  07:24 AM               100 pycharm-professional-2023.2.1.exe.sha256
+08/30/2023  07:25 AM       438,617,856 pycharm-community-2023.2.1.exe
+08/30/2023  07:25 AM                97 pycharm-community-2023.2.1.exe.sha256
+08/30/2023  07:26 AM       434,699,744 WebStorm-2023.2.1.exe
+08/30/2023  07:26 AM                88 WebStorm-2023.2.1.exe.sha256
+08/30/2023  07:27 AM       451,103,784 RubyMine-2023.2.1.exe
+08/30/2023  07:27 AM                88 RubyMine-2023.2.1.exe.sha256
+08/30/2023  07:27 AM       637,169,693 RubyMine-2023.2.1.win.zip
+08/30/2023  07:27 AM                92 RubyMine-2023.2.1.win.zip.sha256
+08/30/2023  07:28 AM       448,155,640 datagrip-2023.2.1.exe
+08/30/2023  07:28 AM                88 datagrip-2023.2.1.exe.sha256
+08/30/2023  07:28 AM       567,374,747 datagrip-2023.2.1.win.zip
+08/30/2023  07:28 AM                92 datagrip-2023.2.1.win.zip.sha256
+08/30/2023  07:29 AM       599,338,501 spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+08/30/2023  07:31 AM        93,351,472 VSCodeUserSetup-x64-1.81.1.exe
+08/30/2023  07:31 AM        93,351,136 VSCodeSetup-x64-1.81.1.exe
+08/30/2023  07:31 AM       129,795,305 VSCode-win32-x64-1.81.1.zip
+10/03/2023  06:51 AM       194,361,047 jdk-21_windows-x64_bin.zip
+10/03/2023  06:52 AM                64 jdk-21_windows-x64_bin.zip.sha256
+10/03/2023  06:52 AM       171,745,904 jdk-21_windows-x64_bin.exe
+10/03/2023  06:52 AM                64 jdk-21_windows-x64_bin.exe.sha256
+10/03/2023  06:52 AM       170,467,328 jdk-21_windows-x64_bin.msi
+10/03/2023  06:52 AM                64 jdk-21_windows-x64_bin.msi.sha256
+10/03/2023  06:53 AM        52,696,201 jdk-21_doc-all.zip
+10/03/2023  06:55 AM       180,754,820 jdk-17_windows-x64_bin.zip
+10/03/2023  06:55 AM                64 jdk-17_windows-x64_bin.zip.sha256
+10/03/2023  06:55 AM       160,940,664 jdk-17_windows-x64_bin.exe
+10/03/2023  06:55 AM                64 jdk-17_windows-x64_bin.exe.sha256
+10/03/2023  06:55 AM       159,670,272 jdk-17_windows-x64_bin.msi
+10/03/2023  06:55 AM                64 jdk-17_windows-x64_bin.msi.sha256
+10/03/2023  06:59 AM        51,289,227 jdk-17.0.8_doc-all.zip
+10/03/2023  07:04 AM       148,260,984 jdk-11.0.20_windows-x64_bin.exe
+10/03/2023  07:04 AM       166,869,559 jdk-11.0.20_windows-x64_bin.zip
+10/03/2023  07:05 AM        53,771,666 jdk-11.0.20_doc-all.zip
+10/03/2023  07:06 AM             7,492 11-0-20-checksum.html
+10/03/2023  07:07 AM       143,476,840 jdk-8u381-windows-i586.exe
+10/03/2023  07:07 AM       152,623,720 jdk-8u381-windows-x64.exe
+10/03/2023  07:08 AM       125,203,200 jdk-8u381-docs-all.zip
+10/03/2023  07:08 AM        10,291,167 javafx-8u381-apidocs.zip
+10/03/2023  07:09 AM            12,562 8u381checksum.html
+10/07/2023  03:24 PM         1,373,744 ChromeSetup(1).exe
+10/07/2023  03:24 PM         1,373,744 ChromeSetup(2).exe
+01/04/2024  12:26 PM       194,395,707 jdk-21.0.1_windows-x64_bin.zip
+01/04/2024  12:26 PM                64 jdk-21.0.1_windows-x64_bin.zip.sha256
+01/04/2024  12:27 PM       171,778,680 jdk-21.0.1_windows-x64_bin.exe
+01/04/2024  12:27 PM                64 jdk-21.0.1_windows-x64_bin.exe.sha256
+01/04/2024  12:27 PM       170,500,096 jdk-21.0.1_windows-x64_bin.msi
+01/04/2024  12:27 PM                64 jdk-21.0.1_windows-x64_bin.msi.sha256
+01/04/2024  12:29 PM        52,710,407 jdk-21.0.1_doc-all.zip
+01/04/2024  12:47 PM       180,797,351 jdk-17.0.9_windows-x64_bin.zip
+01/04/2024  12:49 PM                64 jdk-17.0.9_windows-x64_bin.zip.sha256
+01/04/2024  12:49 PM       160,969,336 jdk-17.0.9_windows-x64_bin.exe
+01/04/2024  12:50 PM                64 jdk-17.0.9_windows-x64_bin.exe.sha256
+01/04/2024  12:50 PM       159,698,944 jdk-17.0.9_windows-x64_bin.msi
+01/04/2024  12:50 PM                64 jdk-17.0.9_windows-x64_bin.msi.sha256
+01/04/2024  12:54 PM        51,296,347 jdk-17.0.9_doc-all.zip
+01/04/2024  01:06 PM       148,281,464 jdk-11.0.21_windows-x64_bin.exe
+01/04/2024  01:07 PM       166,886,503 jdk-11.0.21_windows-x64_bin.zip
+01/04/2024  01:08 PM        53,768,639 jdk-11.0.21_doc-all.zip
+01/04/2024  01:09 PM             7,492 11-0-21-checksum.html
+01/04/2024  01:11 PM       146,440,296 jdk-8u391-windows-i586.exe
+01/04/2024  01:12 PM       156,229,224 jdk-8u391-windows-x64.exe
+01/04/2024  01:14 PM       125,198,237 jdk-8u391-docs-all.zip
+01/04/2024  01:15 PM        10,298,609 javafx-8u391-apidocs.zip
+01/04/2024  01:16 PM            12,344 8u391checksum.html
+01/09/2024  06:34 AM        94,785,416 VSCodeUserSetup-x64-1.85.1.exe
+01/09/2024  06:36 AM        94,784,968 VSCodeSetup-x64-1.85.1.exe
+01/09/2024  06:36 AM       131,526,249 VSCode-win32-x64-1.85.1.zip
+01/09/2024  06:36 AM         7,014,253 vscode_cli_win32_x64_cli(1).zip
+01/09/2024  06:57 AM       538,460,540 eclipse-jee-2023-12-R-win32-x86_64.zip
+01/09/2024  06:59 AM               170 eclipse-jee-2023-12-R-win32-x86_64.zip.sha512
+01/09/2024  07:00 AM       333,514,143 eclipse-java-2023-12-R-win32-x86_64.zip
+01/09/2024  07:02 AM               171 eclipse-java-2023-12-R-win32-x86_64.zip.sha512
+01/09/2024  07:34 AM       642,641,044 spring-tool-suite-4-4.21.0.RELEASE-e4.30.0-win32.win32.x86_64.self-extracting.jar
+01/09/2024  07:49 AM       700,707,216 ideaIU-2023.3.2.exe
+01/09/2024  07:49 AM                86 ideaIU-2023.3.2.exe.sha256
+01/09/2024  07:50 AM     1,005,458,882 ideaIU-2023.3.2.win.zip
+01/09/2024  07:51 AM                90 ideaIU-2023.3.2.win.zip.sha256
+01/09/2024  07:57 AM       572,922,312 ideaIC-2023.3.2.exe
+01/09/2024  07:57 AM                86 ideaIC-2023.3.2.exe.sha256
+01/09/2024  07:57 AM       814,468,452 ideaIC-2023.3.2.win.zip
+01/09/2024  07:58 AM                90 ideaIC-2023.3.2.win.zip.sha256
+01/09/2024  08:16 AM       569,468,120 pycharm-professional-2023.3.2.exe
+01/09/2024  08:16 AM               100 pycharm-professional-2023.3.2.exe.sha256
+01/09/2024  08:17 AM       448,669,184 pycharm-community-2023.3.2.exe
+01/09/2024  08:17 AM                97 pycharm-community-2023.3.2.exe.sha256
+01/09/2024  08:20 AM       445,128,160 WebStorm-2023.3.2.exe
+01/09/2024  08:21 AM                88 WebStorm-2023.3.2.exe.sha256
+01/09/2024  09:12 AM       464,230,736 RubyMine-2023.3.2.exe
+01/09/2024  09:12 AM                88 RubyMine-2023.3.2.exe.sha256
+01/09/2024  09:13 AM       670,783,498 RubyMine-2023.3.2.win.zip
+01/09/2024  09:13 AM                92 RubyMine-2023.3.2.win.zip.sha256
+01/09/2024  09:15 AM                88 datagrip-2023.3.2.exe.sha256
+01/09/2024  09:15 AM       459,216,616 datagrip-2023.3.2.exe
+01/09/2024  09:16 AM       585,403,489 datagrip-2023.3.2.win.zip
+01/09/2024  09:16 AM                92 datagrip-2023.3.2.win.zip.sha256
+02/08/2024  06:30 AM       549,869,160 Docker Desktop Installer(1).exe
+02/08/2024  06:49 AM        98,965,208 VSCodeUserSetup-x64-1.86.0.exe
+02/08/2024  06:50 AM        98,964,712 VSCodeSetup-x64-1.86.0.exe
+02/08/2024  06:50 AM       137,072,293 VSCode-win32-x64-1.86.0.zip
+02/14/2024  06:12 PM       194,529,222 jdk-21.0.2_windows-x64_bin.zip
+02/14/2024  06:18 PM                64 jdk-21.0.2_windows-x64_bin.zip.sha256
+02/14/2024  06:19 PM       171,876,984 jdk-21.0.2_windows-x64_bin.exe
+02/14/2024  06:22 PM                64 jdk-21.0.2_windows-x64_bin.exe.sha256
+02/14/2024  06:24 PM       180,845,327 jdk-17.0.10_windows-x64_bin.zip
+02/14/2024  06:25 PM                64 jdk-17.0.10_windows-x64_bin.zip.sha256
+02/14/2024  06:26 PM       161,010,808 jdk-17.0.10_windows-x64_bin.exe
+02/14/2024  06:27 PM                64 jdk-17.0.10_windows-x64_bin.exe.sha256
+02/14/2024  06:32 PM       166,916,646 jdk-11.0.22_windows-x64_bin.zip
+02/14/2024  06:33 PM       148,301,944 jdk-11.0.22_windows-x64_bin.exe
+02/14/2024  06:33 PM             7,454 jdk-11-0-22-checksum.html
+02/14/2024  06:36 PM        53,768,633 jdk-11.0.22_doc-all.zip
+02/14/2024  06:53 PM       156,324,968 jdk-8u401-windows-x64.exe
+02/14/2024  06:53 PM       146,514,024 jdk-8u401-windows-i586.exe
+02/14/2024  06:53 PM            12,381 8u401checksum.html
+02/14/2024  06:54 PM       125,204,499 jdk-8u401-docs-all.zip
+02/14/2024  06:54 PM        10,298,596 javafx-8u401-apidocs.zip
+03/08/2024  09:04 AM        62,813,976 tutorials-master.zip
+03/11/2024  05:47 AM        98,129,072 VSCodeUserSetup-x64-1.87.1.exe
+03/11/2024  05:47 AM        98,128,752 VSCodeSetup-x64-1.87.1.exe
+03/11/2024  05:47 AM       135,873,845 VSCode-win32-x64-1.87.1.zip
+03/11/2024  05:52 AM         7,661,326 curl-8.6.0_4-win64-mingw.zip
+03/11/2024  05:52 AM           880,640 curl-8.6.0-1.tar
+03/11/2024  05:52 AM           353,780 curl-8.6.0-1.tar.xz
+03/12/2024  07:23 PM           194,534 raspberry-pi-5a.jpg
+03/12/2024  07:25 PM           327,600 raspberry-pi-5b.jpg
+04/10/2024  06:12 AM        99,455,728 VSCodeUserSetup-x64-1.88.0.exe
+04/10/2024  06:13 AM        99,455,168 VSCodeSetup-x64-1.88.0.exe
+04/10/2024  06:13 AM       138,065,759 VSCode-win32-x64-1.88.0.zip
+04/10/2024  07:12 AM             2,190 VSCode-win32-x64-1.88.0.sha256-hashes.txt
+04/14/2024  06:15 PM           198,107 ng1099r2023.pdf
+04/14/2024  06:15 PM           251,463 ng1099r2022.pdf
+04/14/2024  06:16 PM           198,006 ng1099r2321.pdf
+04/14/2024  06:16 PM           199,229 ng1099r2020.pdf
+04/14/2024  06:17 PM           197,031 ng1099r2019.pdf
+04/14/2024  06:17 PM           197,225 ng1099r2018.pdf
+04/14/2024  06:18 PM           193,282 ng1099r2017.pdf
+04/16/2024  06:30 AM       545,459,269 eclipse-jee-2024-03-R-win32-x86_64.zip
+04/16/2024  06:31 AM               170 eclipse-jee-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:32 AM       336,505,713 eclipse-java-2024-03-R-win32-x86_64.zip
+04/16/2024  06:33 AM               171 eclipse-java-2024-03-R-win32-x86_64.zip.sha512
+04/16/2024  06:35 AM       655,114,210 spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+04/16/2024  06:37 AM       997,351,008 ideaIU-2024.1.exe
+04/16/2024  06:38 AM                84 ideaIU-2024.1.exe.sha256
+04/16/2024  06:38 AM     1,329,941,433 ideaIU-2024.1.win.zip
+04/16/2024  06:38 AM                88 ideaIU-2024.1.win.zip.sha256
+04/16/2024  06:39 AM       596,665,744 ideaIC-2024.1.exe
+04/16/2024  06:39 AM                84 ideaIC-2024.1.exe.sha256
+04/16/2024  06:39 AM       839,348,461 ideaIC-2024.1.win.zip
+04/16/2024  06:39 AM                88 ideaIC-2024.1.win.zip.sha256
+04/18/2024  06:44 AM            52,609 promslite-orig.zip
+04/18/2024  06:52 AM            52,198 hucapp.zip
+04/18/2024  06:56 AM            52,197 ahcapp.zip
+05/12/2024  09:17 AM        99,559,288 VSCodeUserSetup-x64-1.89.1.exe
+05/12/2024  09:17 AM        99,558,992 VSCodeSetup-x64-1.89.1.exe
+05/12/2024  09:17 AM       138,334,713 VSCode-win32-x64-1.89.1.zip
+05/12/2024  09:18 AM         7,105,968 vscode_cli_win32_x64_cli(2).zip
+05/12/2024  09:21 AM       545,459,269 eclipse-jee-2024-03-R-win32-x86_64(1).zip
+05/12/2024  09:23 AM       336,505,713 eclipse-java-2024-03-R-win32-x86_64(1).zip
+05/12/2024  09:24 AM       674,830,372 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-linux.gtk.x86_64.tar.gz
+05/12/2024  09:26 AM       659,709,638 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+05/12/2024  09:28 AM     1,000,810,056 ideaIU-2024.1.1.exe
+05/12/2024  09:28 AM                86 ideaIU-2024.1.1.exe.sha256
+05/12/2024  09:28 AM     1,333,780,695 ideaIU-2024.1.1.win.zip
+05/12/2024  09:29 AM                90 ideaIU-2024.1.1.win.zip.sha256
+05/12/2024  09:29 AM       597,808,792 ideaIC-2024.1.1.exe
+05/12/2024  09:29 AM                86 ideaIC-2024.1.1.exe.sha256
+05/12/2024  09:31 AM       840,548,175 ideaIC-2024.1.1.win.zip
+05/12/2024  09:31 AM                90 ideaIC-2024.1.1.win.zip.sha256
+05/12/2024  09:39 AM       749,447,232 pycharm-professional-2024.1.1.exe
+05/12/2024  09:39 AM               100 pycharm-professional-2024.1.1.exe.sha256
+05/12/2024  09:39 AM       479,602,224 pycharm-community-2024.1.1.exe
+05/12/2024  09:39 AM                97 pycharm-community-2024.1.1.exe.sha256
+06/06/2024  11:48 AM            52,536 httpsucapp330.zip
+06/06/2024  11:50 AM            52,535 asynchcapp330.zip
+06/06/2024  11:51 AM            52,604 apachehcapp330.zip
+06/30/2024  09:02 AM            52,307 httpsucapp.zip
+06/30/2024  09:02 AM            52,307 asynchcapp.zip
+06/30/2024  09:03 AM            52,373 apachehcapp.zip
+06/30/2024  09:03 AM            52,370 actionslite.zip
+06/30/2024  09:04 AM            52,635 annotationslite.zip
+06/30/2024  09:04 AM            52,374 buddieslite.zip
+06/30/2024  09:04 AM            52,241 pandalite.zip
+06/30/2024  09:05 AM            52,241 promslite.zip
+07/01/2024  07:26 AM       193,080,199 jdk-22.0.1_windows-x64_bin.zip
+07/01/2024  07:26 AM                64 jdk-22.0.1_windows-x64_bin.zip.sha256
+07/01/2024  07:27 AM       172,293,240 jdk-22.0.1_windows-x64_bin.exe
+07/01/2024  07:27 AM                64 jdk-22.0.1_windows-x64_bin.exe.sha256
+07/01/2024  07:27 AM       170,979,328 jdk-22.0.1_windows-x64_bin.msi
+07/01/2024  07:27 AM                64 jdk-22.0.1_windows-x64_bin.msi.sha256
+07/01/2024  07:29 AM       194,808,606 jdk-21.0.3_windows-x64_bin.zip
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.zip.sha256
+07/01/2024  07:30 AM       172,133,496 jdk-21.0.3_windows-x64_bin.exe
+07/01/2024  07:30 AM                64 jdk-21.0.3_windows-x64_bin.exe.sha256
+07/01/2024  07:30 AM       170,819,584 jdk-21.0.3_windows-x64_bin.msi
+07/01/2024  07:31 AM                64 jdk-21.0.3_windows-x64_bin.msi.sha256
+07/01/2024  07:33 AM       181,221,684 jdk-17.0.11_windows-x64_bin.zip
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.zip.sha256
+07/01/2024  07:33 AM       161,382,008 jdk-17.0.11_windows-x64_bin.exe
+07/01/2024  07:33 AM                64 jdk-17.0.11_windows-x64_bin.exe.sha256
+07/01/2024  07:34 AM       160,075,776 jdk-17.0.11_windows-x64_bin.msi
+07/01/2024  07:34 AM                64 jdk-17.0.11_windows-x64_bin.msi.sha256
+07/01/2024  07:38 AM       148,584,056 jdk-11.0.23_windows-x64_bin.exe
+07/01/2024  07:39 AM       167,206,166 jdk-11.0.23_windows-x64_bin.zip
+07/01/2024  07:42 AM       147,864,168 jdk-8u411-windows-i586.exe
+07/01/2024  07:42 AM       157,865,576 jdk-8u411-windows-x64.exe
+07/01/2024  07:43 AM            12,382 jdk-8u411-windows-checksum.html
+07/01/2024  07:44 AM             7,456 jdk-11.0.23_windows-checksum.html
+07/01/2024  08:07 AM       100,596,664 VSCodeUserSetup-x64-1.90.2.exe
+07/01/2024  08:08 AM       100,596,448 VSCodeSetup-x64-1.90.2.exe
+07/01/2024  08:08 AM       139,378,832 VSCode-win32-x64-1.90.2.zip
+07/01/2024  08:15 AM       556,345,220 eclipse-jee-2024-06-R-win32-x86_64.zip
+07/01/2024  08:17 AM               170 eclipse-jee-2024-06-R-win32-x86_64.zip.sha512
+07/01/2024  08:17 AM       344,447,294 eclipse-java-2024-06-R-win32-x86_64.zip
+07/01/2024  08:18 AM               171 eclipse-java-2024-06-R-win32-x86_64.zip.sha512
+07/01/2024  08:21 AM       681,019,289 spring-tool-suite-4-4.23.1.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+07/01/2024  08:26 AM     1,003,067,264 ideaIU-2024.1.4.exe
+07/01/2024  08:26 AM                86 ideaIU-2024.1.4.exe.sha256
+07/01/2024  08:26 AM     1,336,732,334 ideaIU-2024.1.4.win.zip
+07/01/2024  08:27 AM                90 ideaIU-2024.1.4.win.zip.sha256
+07/01/2024  08:27 AM       598,125,080 ideaIC-2024.1.4.exe
+07/01/2024  08:27 AM                86 ideaIC-2024.1.4.exe.sha256
+07/01/2024  08:28 AM       841,156,074 ideaIC-2024.1.4.win.zip
+07/01/2024  08:28 AM                90 ideaIC-2024.1.4.win.zip.sha256
+07/14/2024  11:30 AM        99,546,648 VSCodeUserSetup-x64-1.91.1.exe
+07/14/2024  11:30 AM        99,546,416 VSCodeSetup-x64-1.91.1.exe
+07/14/2024  11:31 AM       137,738,578 VSCode-win32-x64-1.91.1.zip
+07/14/2024  11:41 AM             2,188 VSCode-win32-x64-1.91.1.sha256
+07/19/2024  08:29 AM       109,445,984 redhat.java-1.33.2024071908@win32-x64.vsix
+07/19/2024  08:29 AM         3,156,108 vscjava.vscode-java-debug-0.58.2024071907.vsix
+07/19/2024  08:29 AM         2,805,233 vscjava.vscode-java-test-0.41.2024070902.vsix
+07/19/2024  08:30 AM        10,726,973 vscjava.vscode-maven-0.44.2024013105.vsix
+07/19/2024  08:30 AM           323,818 vscjava.vscode-java-dependency-0.23.2024070900.vsix
+07/19/2024  08:31 AM        44,336,467 vscjava.vscode-gradle-3.15.0.vsix
+07/19/2024  08:31 AM           435,168 vscjava.vscode-spring-initializr-0.11.2023070103.vsix
+07/19/2024  08:32 AM           659,437 vscjava.vscode-spring-boot-dashboard-0.14.0.vsix
+07/19/2024  08:33 AM       226,681,282 vmware.vscode-spring-boot-1.56.2024071800.vsix
+07/19/2024  08:34 AM         1,357,683 ms-azuretools.vscode-docker-1.29.1.vsix
+07/30/2024  07:20 AM       680,035,403 spring-tool-suite-4-4.24.0.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+07/30/2024  07:23 AM       122,921,536 dbeaver-ce-24.1.3-x86_64-setup.exe
+07/30/2024  07:23 AM       126,450,378 dbeaver-ce-24.1.3-win32.win32.x86_64.zip
+07/30/2024  07:26 AM       137,435,184 Postman-win64-Setup.exe
+07/31/2024  07:02 AM           243,030 puttydoc.zip
+07/31/2024  07:03 AM           599,612 puttydoc.txt
+07/31/2024  07:04 AM             9,409 md5sums.txt
+07/31/2024  07:04 AM            10,117 md5sums.gpg
+07/31/2024  07:04 AM            10,601 sha1sums.txt
+07/31/2024  07:04 AM            11,309 sha1sums.gpg
+07/31/2024  07:04 AM            14,177 sha256sums.txt
+07/31/2024  07:05 AM            14,885 sha256sums.gpg
+07/31/2024  07:05 AM            23,713 sha512sums.txt
+07/31/2024  07:05 AM            24,421 sha512sums.gpg
+07/31/2024  07:07 AM         3,712,000 putty-64bit-0.81-installer.msi
+07/31/2024  07:07 AM               438 putty-64bit-0.81-installer.msi.gpg
+07/31/2024  07:08 AM         1,663,264 putty.exe
+07/31/2024  07:08 AM               438 putty.exe.gpg
+07/31/2024  07:08 AM           997,136 pscp.exe
+07/31/2024  07:08 AM               438 pscp.exe.gpg
+07/31/2024  07:08 AM         1,015,072 psftp.exe
+07/31/2024  07:08 AM               438 psftp.exe.gpg
+07/31/2024  07:08 AM           996,656 plink.exe
+07/31/2024  07:08 AM               438 plink.exe.gpg
+07/31/2024  07:08 AM           888,592 pageant.exe
+07/31/2024  07:08 AM               438 pageant.exe.gpg
+07/31/2024  07:08 AM         1,036,600 pterm.exe
+07/31/2024  07:09 AM               438 pterm.exe.gpg
+07/31/2024  07:09 AM         3,959,924 putty.zip
+07/31/2024  07:09 AM               438 putty.zip.gpg
+07/31/2024  07:09 AM         3,133,399 putty-src.zip
+07/31/2024  07:09 AM               438 putty-src.zip.gpg
+08/10/2024  11:12 AM       100,358,280 VSCodeUserSetup-x64-1.92.1.exe
+08/10/2024  11:13 AM       100,357,984 VSCodeSetup-x64-1.92.1.exe
+08/10/2024  11:13 AM       139,519,402 VSCode-win32-x64-1.92.1.zip
+08/10/2024  11:18 AM             2,188 VSCode-win32-x64-1.92.1.sha256
+08/10/2024  11:26 AM     1,185,815,096 ideaIU-2024.2.exe
+08/10/2024  11:26 AM                84 ideaIU-2024.2.exe.sha256
+08/10/2024  11:28 AM     1,545,192,316 ideaIU-2024.2.win.zip
+08/10/2024  11:28 AM                88 ideaIU-2024.2.win.zip.sha256
+08/10/2024  11:29 AM       757,302,144 ideaIC-2024.2.exe
+08/10/2024  11:29 AM                84 ideaIC-2024.2.exe.sha256
+08/10/2024  11:29 AM     1,014,192,727 ideaIC-2024.2.win.zip
+08/10/2024  11:29 AM                88 ideaIC-2024.2.win.zip.sha256
+08/10/2024  11:43 AM       751,685,960 pycharm-professional-2024.1.6.exe
+08/10/2024  11:44 AM               100 pycharm-professional-2024.1.6.exe.sha256
+08/10/2024  11:44 AM       479,806,152 pycharm-community-2024.1.6.exe
+08/10/2024  11:44 AM                97 pycharm-community-2024.1.6.exe.sha256
+08/10/2024  11:48 AM       628,607,344 datagrip-2024.1.5.exe
+08/10/2024  11:48 AM                88 datagrip-2024.1.5.exe.sha256
+08/10/2024  11:48 AM       769,045,855 datagrip-2024.1.5.win.zip
+08/10/2024  11:49 AM                92 datagrip-2024.1.5.win.zip.sha256
+09/06/2024  09:26 AM           328,118 CHANGES.txt
+09/06/2024  09:26 AM         1,245,244 nginx-1.27.1.tar.gz
+09/06/2024  09:26 AM               862 nginx-1.27.1.tar.gz.asc
+09/06/2024  09:26 AM         2,082,102 nginx-1.27.1.zip
+09/06/2024  09:26 AM               862 nginx-1.27.1.zip.asc
+09/06/2024  09:44 AM           327,851 CHANGES-1.26
+09/06/2024  09:44 AM         1,244,789 nginx-1.26.2.tar.gz
+09/06/2024  09:44 AM               862 nginx-1.26.2.tar.gz.asc
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+09/06/2024  09:44 AM               862 nginx-1.26.2.zip.asc
+09/14/2024  06:44 AM       101,245,912 VSCodeUserSetup-x64-1.93.1.exe
+09/14/2024  06:44 AM       101,245,496 VSCodeSetup-x64-1.93.1.exe
+09/14/2024  06:45 AM       140,779,492 VSCode-win32-x64-1.93.1.zip
+09/14/2024  06:49 AM             2,275 VSCode-win32-x64-1.93.1.sha256
+09/18/2024  10:04 AM       347,223,286 eclipse-java-2024-09-R-win32-x86_64.zip
+09/18/2024  10:06 AM               171 eclipse-java-2024-09-R-win32-x86_64.zip.sha512
+09/18/2024  10:07 AM       556,138,684 eclipse-jee-2024-09-R-win32-x86_64.zip
+09/18/2024  10:08 AM               170 eclipse-jee-2024-09-R-win32-x86_64.zip.sha512
+09/18/2024  10:10 AM       526,241,214 eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/18/2024  10:15 AM               170 eclipse-dsl-2024-09-R-win32-x86_64.zip.sha512
+09/18/2024  10:36 AM       699,557,523 spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64.zip
+09/18/2024  11:14 AM     1,071,542,888 ideaIU-2024.2.1.exe
+09/18/2024  11:14 AM                86 ideaIU-2024.2.1.exe.sha256
+09/18/2024  11:15 AM     1,432,747,443 ideaIU-2024.2.1.win.zip
+09/18/2024  11:15 AM                90 ideaIU-2024.2.1.win.zip.sha256
+09/18/2024  11:16 AM       642,211,504 ideaIC-2024.2.1.exe
+09/18/2024  11:16 AM                86 ideaIC-2024.2.1.exe.sha256
+09/18/2024  11:16 AM       900,336,574 ideaIC-2024.2.1.win.zip
+09/18/2024  11:17 AM                90 ideaIC-2024.2.1.win.zip.sha256
+09/18/2024  11:17 AM       900,336,574 ideaIC-2024.2.1.win(1).zip
+09/24/2024  08:30 AM            15,773 spring-boot-docker.zip
+09/26/2024  07:52 AM            53,963 sb334grajar17.zip
+09/26/2024  07:53 AM            53,963 sb334grajar21.zip
+09/26/2024  07:54 AM            16,554 sb334mavjar17.zip
+09/26/2024  07:55 AM            16,553 sb334mavjar21.zip
+09/26/2024  07:58 AM            54,016 sb3210grajar17.zip
+09/26/2024  07:58 AM            54,013 sb3210grajar21.zip
+09/26/2024  07:59 AM            16,610 sb3210mavjar17.zip
+09/26/2024  07:59 AM            16,609 sb3210mavjar21.zip
+10/02/2024  08:01 AM            53,060 hellonebula.zip
+10/03/2024  07:22 AM               382 api-docs.yaml
+10/04/2024  07:58 AM       203,910,854 OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
+10/04/2024  08:00 AM                66 OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip.sha256
+10/04/2024  08:02 AM       189,575,306 OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip
+10/04/2024  08:03 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip.sha256
+10/04/2024  08:05 AM       177,287,155 OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip
+10/04/2024  08:06 AM                66 OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip.sha256
+10/04/2024  08:08 AM       106,045,224 OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip
+10/04/2024  08:09 AM                66 OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip.sha256
+10/04/2024  08:15 AM       136,715,430 gradle-8.10.2-bin.zip
+10/04/2024  08:15 AM       227,989,293 gradle-8.10.2-all.zip
+10/07/2024  06:46 AM       100,464,792 VSCodeUserSetup-x64-1.94.0.exe
+10/07/2024  06:46 AM       100,464,424 VSCodeSetup-x64-1.94.0.exe
+10/07/2024  06:46 AM       140,560,967 VSCode-win32-x64-1.94.0.zip
+10/07/2024  06:50 AM             2,188 VSCode-win32-x64-1.94.0.sha256
+10/07/2024  06:53 AM           985,088 jq-windows-amd64.exe
+10/07/2024  06:55 AM             2,129 jq-windows-amd64.exe.sha256sum.txt
+10/09/2024  07:04 AM       182,799,609 jdk-17_linux-x64_bin.tar.gz
+10/09/2024  07:04 AM                64 jdk-17_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:07 AM       197,545,777 jdk-21_linux-x64_bin.tar.gz
+10/09/2024  07:07 AM                64 jdk-21_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:13 AM       207,789,015 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:15 AM                66 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:15 AM        52,466,639 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:16 AM                66 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:20 AM       192,452,655 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:21 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+10/09/2024  07:22 AM        46,398,176 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:24 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+             712 File(s) 113,735,146,557 bytes
+              12 Dir(s)  453,930,496,000 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>bash
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Oct  9 07:58:20 EDT 2024
+
+  System load:  0.01               Processes:             13
+  Usage of /:   0.6% of 250.98GB   Users logged in:       0
+  Memory usage: 8%                 IPv4 address for eth0: 172.28.27.190
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once a day. To disable it please create the
+/home/davidho/.hushlogin file.
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ tar -tzf jdk-17_linux-x64_bin.tar.gz
+jdk-17.0.12/LICENSE
+jdk-17.0.12/README
+jdk-17.0.12/bin/jar
+jdk-17.0.12/bin/jarsigner
+jdk-17.0.12/bin/java
+jdk-17.0.12/bin/javac
+jdk-17.0.12/bin/javadoc
+jdk-17.0.12/bin/javap
+jdk-17.0.12/bin/jcmd
+jdk-17.0.12/bin/jconsole
+jdk-17.0.12/bin/jdb
+jdk-17.0.12/bin/jdeprscan
+jdk-17.0.12/bin/jdeps
+jdk-17.0.12/bin/jfr
+jdk-17.0.12/bin/jhsdb
+jdk-17.0.12/bin/jimage
+jdk-17.0.12/bin/jinfo
+jdk-17.0.12/bin/jlink
+jdk-17.0.12/bin/jmap
+jdk-17.0.12/bin/jmod
+jdk-17.0.12/bin/jpackage
+jdk-17.0.12/bin/jps
+jdk-17.0.12/bin/jrunscript
+jdk-17.0.12/bin/jshell
+jdk-17.0.12/bin/jstack
+jdk-17.0.12/bin/jstat
+jdk-17.0.12/bin/jstatd
+jdk-17.0.12/bin/keytool
+jdk-17.0.12/bin/rmiregistry
+jdk-17.0.12/bin/serialver
+jdk-17.0.12/conf/logging.properties
+jdk-17.0.12/conf/management/jmxremote.access
+jdk-17.0.12/conf/management/jmxremote.password.template
+jdk-17.0.12/conf/management/management.properties
+jdk-17.0.12/conf/net.properties
+jdk-17.0.12/conf/sdp/sdp.conf.template
+jdk-17.0.12/conf/security/java.policy
+jdk-17.0.12/conf/security/java.security
+jdk-17.0.12/conf/security/policy/README.txt
+jdk-17.0.12/conf/security/policy/limited/default_US_export.policy
+jdk-17.0.12/conf/security/policy/limited/default_local.policy
+jdk-17.0.12/conf/security/policy/limited/exempt_local.policy
+jdk-17.0.12/conf/security/policy/unlimited/default_US_export.policy
+jdk-17.0.12/conf/security/policy/unlimited/default_local.policy
+jdk-17.0.12/conf/sound.properties
+jdk-17.0.12/include/classfile_constants.h
+jdk-17.0.12/include/jawt.h
+jdk-17.0.12/include/jdwpTransport.h
+jdk-17.0.12/include/jni.h
+jdk-17.0.12/include/jvmti.h
+jdk-17.0.12/include/jvmticmlr.h
+jdk-17.0.12/include/linux/jawt_md.h
+jdk-17.0.12/include/linux/jni_md.h
+jdk-17.0.12/jmods/java.base.jmod
+jdk-17.0.12/jmods/java.compiler.jmod
+jdk-17.0.12/jmods/java.datatransfer.jmod
+jdk-17.0.12/jmods/java.desktop.jmod
+jdk-17.0.12/jmods/java.instrument.jmod
+jdk-17.0.12/jmods/java.logging.jmod
+jdk-17.0.12/jmods/java.management.jmod
+jdk-17.0.12/jmods/java.management.rmi.jmod
+jdk-17.0.12/jmods/java.naming.jmod
+jdk-17.0.12/jmods/java.net.http.jmod
+jdk-17.0.12/jmods/java.prefs.jmod
+jdk-17.0.12/jmods/java.rmi.jmod
+jdk-17.0.12/jmods/java.scripting.jmod
+jdk-17.0.12/jmods/java.se.jmod
+jdk-17.0.12/jmods/java.security.jgss.jmod
+jdk-17.0.12/jmods/java.security.sasl.jmod
+jdk-17.0.12/jmods/java.smartcardio.jmod
+jdk-17.0.12/jmods/java.sql.jmod
+jdk-17.0.12/jmods/java.sql.rowset.jmod
+jdk-17.0.12/jmods/java.transaction.xa.jmod
+jdk-17.0.12/jmods/java.xml.crypto.jmod
+jdk-17.0.12/jmods/java.xml.jmod
+jdk-17.0.12/jmods/jdk.accessibility.jmod
+jdk-17.0.12/jmods/jdk.attach.jmod
+jdk-17.0.12/jmods/jdk.charsets.jmod
+jdk-17.0.12/jmods/jdk.compiler.jmod
+jdk-17.0.12/jmods/jdk.crypto.cryptoki.jmod
+jdk-17.0.12/jmods/jdk.crypto.ec.jmod
+jdk-17.0.12/jmods/jdk.dynalink.jmod
+jdk-17.0.12/jmods/jdk.editpad.jmod
+jdk-17.0.12/jmods/jdk.hotspot.agent.jmod
+jdk-17.0.12/jmods/jdk.httpserver.jmod
+jdk-17.0.12/jmods/jdk.incubator.foreign.jmod
+jdk-17.0.12/jmods/jdk.incubator.vector.jmod
+jdk-17.0.12/jmods/jdk.internal.ed.jmod
+jdk-17.0.12/jmods/jdk.internal.jvmstat.jmod
+jdk-17.0.12/jmods/jdk.internal.le.jmod
+jdk-17.0.12/jmods/jdk.internal.opt.jmod
+jdk-17.0.12/jmods/jdk.internal.vm.ci.jmod
+jdk-17.0.12/jmods/jdk.internal.vm.compiler.jmod
+jdk-17.0.12/jmods/jdk.internal.vm.compiler.management.jmod
+jdk-17.0.12/jmods/jdk.jartool.jmod
+jdk-17.0.12/jmods/jdk.javadoc.jmod
+jdk-17.0.12/jmods/jdk.jcmd.jmod
+jdk-17.0.12/jmods/jdk.jconsole.jmod
+jdk-17.0.12/jmods/jdk.jdeps.jmod
+jdk-17.0.12/jmods/jdk.jdi.jmod
+jdk-17.0.12/jmods/jdk.jdwp.agent.jmod
+jdk-17.0.12/jmods/jdk.jfr.jmod
+jdk-17.0.12/jmods/jdk.jlink.jmod
+jdk-17.0.12/jmods/jdk.jpackage.jmod
+jdk-17.0.12/jmods/jdk.jshell.jmod
+jdk-17.0.12/jmods/jdk.jsobject.jmod
+jdk-17.0.12/jmods/jdk.jstatd.jmod
+jdk-17.0.12/jmods/jdk.localedata.jmod
+jdk-17.0.12/jmods/jdk.management.agent.jmod
+jdk-17.0.12/jmods/jdk.management.jfr.jmod
+jdk-17.0.12/jmods/jdk.management.jmod
+jdk-17.0.12/jmods/jdk.naming.dns.jmod
+jdk-17.0.12/jmods/jdk.naming.rmi.jmod
+jdk-17.0.12/jmods/jdk.net.jmod
+jdk-17.0.12/jmods/jdk.nio.mapmode.jmod
+jdk-17.0.12/jmods/jdk.random.jmod
+jdk-17.0.12/jmods/jdk.sctp.jmod
+jdk-17.0.12/jmods/jdk.security.auth.jmod
+jdk-17.0.12/jmods/jdk.security.jgss.jmod
+jdk-17.0.12/jmods/jdk.unsupported.desktop.jmod
+jdk-17.0.12/jmods/jdk.unsupported.jmod
+jdk-17.0.12/jmods/jdk.xml.dom.jmod
+jdk-17.0.12/jmods/jdk.zipfs.jmod
+jdk-17.0.12/legal/java.base/COPYRIGHT
+jdk-17.0.12/legal/java.base/LICENSE
+jdk-17.0.12/legal/java.base/aes.md
+jdk-17.0.12/legal/java.base/asm.md
+jdk-17.0.12/legal/java.base/c-libutl.md
+jdk-17.0.12/legal/java.base/cldr.md
+jdk-17.0.12/legal/java.base/icu.md
+jdk-17.0.12/legal/java.base/public_suffix.md
+jdk-17.0.12/legal/java.base/siphash.md
+jdk-17.0.12/legal/java.base/unicode.md
+jdk-17.0.12/legal/java.compiler/COPYRIGHT
+jdk-17.0.12/legal/java.compiler/LICENSE
+jdk-17.0.12/legal/java.datatransfer/COPYRIGHT
+jdk-17.0.12/legal/java.datatransfer/LICENSE
+jdk-17.0.12/legal/java.desktop/COPYRIGHT
+jdk-17.0.12/legal/java.desktop/LICENSE
+jdk-17.0.12/legal/java.desktop/colorimaging.md
+jdk-17.0.12/legal/java.desktop/giflib.md
+jdk-17.0.12/legal/java.desktop/harfbuzz.md
+jdk-17.0.12/legal/java.desktop/jpeg.md
+jdk-17.0.12/legal/java.desktop/lcms.md
+jdk-17.0.12/legal/java.desktop/libpng.md
+jdk-17.0.12/legal/java.desktop/mesa3d.md
+jdk-17.0.12/legal/java.desktop/xwd.md
+jdk-17.0.12/legal/java.instrument/COPYRIGHT
+jdk-17.0.12/legal/java.instrument/LICENSE
+jdk-17.0.12/legal/java.logging/COPYRIGHT
+jdk-17.0.12/legal/java.logging/LICENSE
+jdk-17.0.12/legal/java.management.rmi/COPYRIGHT
+jdk-17.0.12/legal/java.management.rmi/LICENSE
+jdk-17.0.12/legal/java.management/COPYRIGHT
+jdk-17.0.12/legal/java.management/LICENSE
+jdk-17.0.12/legal/java.naming/COPYRIGHT
+jdk-17.0.12/legal/java.naming/LICENSE
+jdk-17.0.12/legal/java.net.http/COPYRIGHT
+jdk-17.0.12/legal/java.net.http/LICENSE
+jdk-17.0.12/legal/java.prefs/COPYRIGHT
+jdk-17.0.12/legal/java.prefs/LICENSE
+jdk-17.0.12/legal/java.rmi/COPYRIGHT
+jdk-17.0.12/legal/java.rmi/LICENSE
+jdk-17.0.12/legal/java.scripting/COPYRIGHT
+jdk-17.0.12/legal/java.scripting/LICENSE
+jdk-17.0.12/legal/java.se/COPYRIGHT
+jdk-17.0.12/legal/java.se/LICENSE
+jdk-17.0.12/legal/java.security.jgss/COPYRIGHT
+jdk-17.0.12/legal/java.security.jgss/LICENSE
+jdk-17.0.12/legal/java.security.sasl/COPYRIGHT
+jdk-17.0.12/legal/java.security.sasl/LICENSE
+jdk-17.0.12/legal/java.smartcardio/COPYRIGHT
+jdk-17.0.12/legal/java.smartcardio/LICENSE
+jdk-17.0.12/legal/java.smartcardio/pcsclite.md
+jdk-17.0.12/legal/java.sql.rowset/COPYRIGHT
+jdk-17.0.12/legal/java.sql.rowset/LICENSE
+jdk-17.0.12/legal/java.sql/COPYRIGHT
+jdk-17.0.12/legal/java.sql/LICENSE
+jdk-17.0.12/legal/java.transaction.xa/COPYRIGHT
+jdk-17.0.12/legal/java.transaction.xa/LICENSE
+jdk-17.0.12/legal/java.xml.crypto/COPYRIGHT
+jdk-17.0.12/legal/java.xml.crypto/LICENSE
+jdk-17.0.12/legal/java.xml.crypto/santuario.md
+jdk-17.0.12/legal/java.xml/COPYRIGHT
+jdk-17.0.12/legal/java.xml/LICENSE
+jdk-17.0.12/legal/java.xml/bcel.md
+jdk-17.0.12/legal/java.xml/dom.md
+jdk-17.0.12/legal/java.xml/jcup.md
+jdk-17.0.12/legal/java.xml/xalan.md
+jdk-17.0.12/legal/java.xml/xerces.md
+jdk-17.0.12/legal/jdk.accessibility/COPYRIGHT
+jdk-17.0.12/legal/jdk.accessibility/LICENSE
+jdk-17.0.12/legal/jdk.attach/COPYRIGHT
+jdk-17.0.12/legal/jdk.attach/LICENSE
+jdk-17.0.12/legal/jdk.charsets/COPYRIGHT
+jdk-17.0.12/legal/jdk.charsets/LICENSE
+jdk-17.0.12/legal/jdk.compiler/COPYRIGHT
+jdk-17.0.12/legal/jdk.compiler/LICENSE
+jdk-17.0.12/legal/jdk.crypto.cryptoki/COPYRIGHT
+jdk-17.0.12/legal/jdk.crypto.cryptoki/LICENSE
+jdk-17.0.12/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+jdk-17.0.12/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+jdk-17.0.12/legal/jdk.crypto.ec/COPYRIGHT
+jdk-17.0.12/legal/jdk.crypto.ec/LICENSE
+jdk-17.0.12/legal/jdk.dynalink/COPYRIGHT
+jdk-17.0.12/legal/jdk.dynalink/LICENSE
+jdk-17.0.12/legal/jdk.dynalink/dynalink.md
+jdk-17.0.12/legal/jdk.editpad/COPYRIGHT
+jdk-17.0.12/legal/jdk.editpad/LICENSE
+jdk-17.0.12/legal/jdk.hotspot.agent/COPYRIGHT
+jdk-17.0.12/legal/jdk.hotspot.agent/LICENSE
+jdk-17.0.12/legal/jdk.httpserver/COPYRIGHT
+jdk-17.0.12/legal/jdk.httpserver/LICENSE
+jdk-17.0.12/legal/jdk.incubator.foreign/COPYRIGHT
+jdk-17.0.12/legal/jdk.incubator.foreign/LICENSE
+jdk-17.0.12/legal/jdk.incubator.vector/COPYRIGHT
+jdk-17.0.12/legal/jdk.incubator.vector/LICENSE
+jdk-17.0.12/legal/jdk.internal.ed/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.ed/LICENSE
+jdk-17.0.12/legal/jdk.internal.jvmstat/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.jvmstat/LICENSE
+jdk-17.0.12/legal/jdk.internal.le/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.le/LICENSE
+jdk-17.0.12/legal/jdk.internal.le/jline.md
+jdk-17.0.12/legal/jdk.internal.opt/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.opt/LICENSE
+jdk-17.0.12/legal/jdk.internal.opt/jopt-simple.md
+jdk-17.0.12/legal/jdk.internal.vm.ci/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.vm.ci/LICENSE
+jdk-17.0.12/legal/jdk.internal.vm.compiler.management/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.vm.compiler.management/LICENSE
+jdk-17.0.12/legal/jdk.internal.vm.compiler/COPYRIGHT
+jdk-17.0.12/legal/jdk.internal.vm.compiler/LICENSE
+jdk-17.0.12/legal/jdk.jartool/COPYRIGHT
+jdk-17.0.12/legal/jdk.jartool/LICENSE
+jdk-17.0.12/legal/jdk.javadoc/COPYRIGHT
+jdk-17.0.12/legal/jdk.javadoc/LICENSE
+jdk-17.0.12/legal/jdk.javadoc/jquery.md
+jdk-17.0.12/legal/jdk.javadoc/jqueryUI.md
+jdk-17.0.12/legal/jdk.jcmd/COPYRIGHT
+jdk-17.0.12/legal/jdk.jcmd/LICENSE
+jdk-17.0.12/legal/jdk.jconsole/COPYRIGHT
+jdk-17.0.12/legal/jdk.jconsole/LICENSE
+jdk-17.0.12/legal/jdk.jdeps/COPYRIGHT
+jdk-17.0.12/legal/jdk.jdeps/LICENSE
+jdk-17.0.12/legal/jdk.jdi/COPYRIGHT
+jdk-17.0.12/legal/jdk.jdi/LICENSE
+jdk-17.0.12/legal/jdk.jdwp.agent/COPYRIGHT
+jdk-17.0.12/legal/jdk.jdwp.agent/LICENSE
+jdk-17.0.12/legal/jdk.jfr/COPYRIGHT
+jdk-17.0.12/legal/jdk.jfr/LICENSE
+jdk-17.0.12/legal/jdk.jlink/COPYRIGHT
+jdk-17.0.12/legal/jdk.jlink/LICENSE
+jdk-17.0.12/legal/jdk.jpackage/COPYRIGHT
+jdk-17.0.12/legal/jdk.jpackage/LICENSE
+jdk-17.0.12/legal/jdk.jshell/COPYRIGHT
+jdk-17.0.12/legal/jdk.jshell/LICENSE
+jdk-17.0.12/legal/jdk.jsobject/COPYRIGHT
+jdk-17.0.12/legal/jdk.jsobject/LICENSE
+jdk-17.0.12/legal/jdk.jstatd/COPYRIGHT
+jdk-17.0.12/legal/jdk.jstatd/LICENSE
+jdk-17.0.12/legal/jdk.localedata/COPYRIGHT
+jdk-17.0.12/legal/jdk.localedata/LICENSE
+jdk-17.0.12/legal/jdk.localedata/cldr.md
+jdk-17.0.12/legal/jdk.localedata/thaidict.md
+jdk-17.0.12/legal/jdk.management.agent/COPYRIGHT
+jdk-17.0.12/legal/jdk.management.agent/LICENSE
+jdk-17.0.12/legal/jdk.management.jfr/COPYRIGHT
+jdk-17.0.12/legal/jdk.management.jfr/LICENSE
+jdk-17.0.12/legal/jdk.management/COPYRIGHT
+jdk-17.0.12/legal/jdk.management/LICENSE
+jdk-17.0.12/legal/jdk.naming.dns/COPYRIGHT
+jdk-17.0.12/legal/jdk.naming.dns/LICENSE
+jdk-17.0.12/legal/jdk.naming.rmi/COPYRIGHT
+jdk-17.0.12/legal/jdk.naming.rmi/LICENSE
+jdk-17.0.12/legal/jdk.net/COPYRIGHT
+jdk-17.0.12/legal/jdk.net/LICENSE
+jdk-17.0.12/legal/jdk.nio.mapmode/COPYRIGHT
+jdk-17.0.12/legal/jdk.nio.mapmode/LICENSE
+jdk-17.0.12/legal/jdk.random/COPYRIGHT
+jdk-17.0.12/legal/jdk.random/LICENSE
+jdk-17.0.12/legal/jdk.sctp/COPYRIGHT
+jdk-17.0.12/legal/jdk.sctp/LICENSE
+jdk-17.0.12/legal/jdk.security.auth/COPYRIGHT
+jdk-17.0.12/legal/jdk.security.auth/LICENSE
+jdk-17.0.12/legal/jdk.security.jgss/COPYRIGHT
+jdk-17.0.12/legal/jdk.security.jgss/LICENSE
+jdk-17.0.12/legal/jdk.unsupported.desktop/COPYRIGHT
+jdk-17.0.12/legal/jdk.unsupported.desktop/LICENSE
+jdk-17.0.12/legal/jdk.unsupported/COPYRIGHT
+jdk-17.0.12/legal/jdk.unsupported/LICENSE
+jdk-17.0.12/legal/jdk.xml.dom/COPYRIGHT
+jdk-17.0.12/legal/jdk.xml.dom/LICENSE
+jdk-17.0.12/legal/jdk.zipfs/COPYRIGHT
+jdk-17.0.12/legal/jdk.zipfs/LICENSE
+jdk-17.0.12/lib/classlist
+jdk-17.0.12/lib/ct.sym
+jdk-17.0.12/lib/jexec
+jdk-17.0.12/lib/jfr/default.jfc
+jdk-17.0.12/lib/jfr/profile.jfc
+jdk-17.0.12/lib/jrt-fs.jar
+jdk-17.0.12/lib/jspawnhelper
+jdk-17.0.12/lib/jvm.cfg
+jdk-17.0.12/lib/libattach.so
+jdk-17.0.12/lib/libawt.so
+jdk-17.0.12/lib/libawt_headless.so
+jdk-17.0.12/lib/libawt_xawt.so
+jdk-17.0.12/lib/libdt_socket.so
+jdk-17.0.12/lib/libextnet.so
+jdk-17.0.12/lib/libfontmanager.so
+jdk-17.0.12/lib/libinstrument.so
+jdk-17.0.12/lib/libj2gss.so
+jdk-17.0.12/lib/libj2pcsc.so
+jdk-17.0.12/lib/libj2pkcs11.so
+jdk-17.0.12/lib/libjaas.so
+jdk-17.0.12/lib/libjava.so
+jdk-17.0.12/lib/libjavajpeg.so
+jdk-17.0.12/lib/libjawt.so
+jdk-17.0.12/lib/libjdwp.so
+jdk-17.0.12/lib/libjimage.so
+jdk-17.0.12/lib/libjli.so
+jdk-17.0.12/lib/libjsig.so
+jdk-17.0.12/lib/libjsound.so
+jdk-17.0.12/lib/libjsvml.so
+jdk-17.0.12/lib/liblcms.so
+jdk-17.0.12/lib/libmanagement.so
+jdk-17.0.12/lib/libmanagement_agent.so
+jdk-17.0.12/lib/libmanagement_ext.so
+jdk-17.0.12/lib/libmlib_image.so
+jdk-17.0.12/lib/libnet.so
+jdk-17.0.12/lib/libnio.so
+jdk-17.0.12/lib/libprefs.so
+jdk-17.0.12/lib/librmi.so
+jdk-17.0.12/lib/libsaproc.so
+jdk-17.0.12/lib/libsctp.so
+jdk-17.0.12/lib/libsplashscreen.so
+jdk-17.0.12/lib/libsyslookup.so
+jdk-17.0.12/lib/libverify.so
+jdk-17.0.12/lib/libzip.so
+jdk-17.0.12/lib/modules
+jdk-17.0.12/lib/psfont.properties.ja
+jdk-17.0.12/lib/psfontj2d.properties
+jdk-17.0.12/lib/security/blocked.certs
+jdk-17.0.12/lib/security/cacerts
+jdk-17.0.12/lib/security/default.policy
+jdk-17.0.12/lib/security/public_suffix_list.dat
+jdk-17.0.12/lib/server/classes.jsa
+jdk-17.0.12/lib/server/classes_nocoops.jsa
+jdk-17.0.12/lib/server/libjsig.so
+jdk-17.0.12/lib/server/libjvm.so
+jdk-17.0.12/lib/src.zip
+jdk-17.0.12/lib/tzdb.dat
+jdk-17.0.12/man/man1/jabswitch.1
+jdk-17.0.12/man/man1/jaccessinspector.1
+jdk-17.0.12/man/man1/jaccesswalker.1
+jdk-17.0.12/man/man1/jar.1
+jdk-17.0.12/man/man1/jarsigner.1
+jdk-17.0.12/man/man1/java.1
+jdk-17.0.12/man/man1/javac.1
+jdk-17.0.12/man/man1/javadoc.1
+jdk-17.0.12/man/man1/javap.1
+jdk-17.0.12/man/man1/jcmd.1
+jdk-17.0.12/man/man1/jconsole.1
+jdk-17.0.12/man/man1/jdb.1
+jdk-17.0.12/man/man1/jdeprscan.1
+jdk-17.0.12/man/man1/jdeps.1
+jdk-17.0.12/man/man1/jfr.1
+jdk-17.0.12/man/man1/jhsdb.1
+jdk-17.0.12/man/man1/jinfo.1
+jdk-17.0.12/man/man1/jlink.1
+jdk-17.0.12/man/man1/jmap.1
+jdk-17.0.12/man/man1/jmod.1
+jdk-17.0.12/man/man1/jpackage.1
+jdk-17.0.12/man/man1/jps.1
+jdk-17.0.12/man/man1/jrunscript.1
+jdk-17.0.12/man/man1/jshell.1
+jdk-17.0.12/man/man1/jstack.1
+jdk-17.0.12/man/man1/jstat.1
+jdk-17.0.12/man/man1/jstatd.1
+jdk-17.0.12/man/man1/keytool.1
+jdk-17.0.12/man/man1/kinit.1
+jdk-17.0.12/man/man1/klist.1
+jdk-17.0.12/man/man1/ktab.1
+jdk-17.0.12/man/man1/rmiregistry.1
+jdk-17.0.12/man/man1/serialver.1
+jdk-17.0.12/release
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ tar -tzf OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz
+jdk-17.0.12+7/
+jdk-17.0.12+7/conf/
+jdk-17.0.12+7/conf/sound.properties
+jdk-17.0.12+7/conf/security/
+jdk-17.0.12+7/conf/security/java.policy
+jdk-17.0.12+7/conf/security/policy/
+jdk-17.0.12+7/conf/security/policy/unlimited/
+jdk-17.0.12+7/conf/security/policy/unlimited/default_US_export.policy
+jdk-17.0.12+7/conf/security/policy/unlimited/default_local.policy
+jdk-17.0.12+7/conf/security/policy/README.txt
+jdk-17.0.12+7/conf/security/policy/limited/
+jdk-17.0.12+7/conf/security/policy/limited/default_US_export.policy
+jdk-17.0.12+7/conf/security/policy/limited/default_local.policy
+jdk-17.0.12+7/conf/security/policy/limited/exempt_local.policy
+jdk-17.0.12+7/conf/security/java.security
+jdk-17.0.12+7/conf/sdp/
+jdk-17.0.12+7/conf/sdp/sdp.conf.template
+jdk-17.0.12+7/conf/logging.properties
+jdk-17.0.12+7/conf/net.properties
+jdk-17.0.12+7/conf/management/
+jdk-17.0.12+7/conf/management/jmxremote.password.template
+jdk-17.0.12+7/conf/management/jmxremote.access
+jdk-17.0.12+7/conf/management/management.properties
+jdk-17.0.12+7/NOTICE
+jdk-17.0.12+7/man/
+jdk-17.0.12+7/man/man1/
+jdk-17.0.12+7/man/man1/jinfo.1
+jdk-17.0.12+7/man/man1/jdb.1
+jdk-17.0.12+7/man/man1/jstatd.1
+jdk-17.0.12+7/man/man1/javadoc.1
+jdk-17.0.12+7/man/man1/jconsole.1
+jdk-17.0.12+7/man/man1/jmod.1
+jdk-17.0.12+7/man/man1/serialver.1
+jdk-17.0.12+7/man/man1/jpackage.1
+jdk-17.0.12+7/man/man1/jstat.1
+jdk-17.0.12+7/man/man1/jhsdb.1
+jdk-17.0.12+7/man/man1/jcmd.1
+jdk-17.0.12+7/man/man1/jdeps.1
+jdk-17.0.12+7/man/man1/jshell.1
+jdk-17.0.12+7/man/man1/jlink.1
+jdk-17.0.12+7/man/man1/jdeprscan.1
+jdk-17.0.12+7/man/man1/jar.1
+jdk-17.0.12+7/man/man1/javac.1
+jdk-17.0.12+7/man/man1/jfr.1
+jdk-17.0.12+7/man/man1/javap.1
+jdk-17.0.12+7/man/man1/java.1
+jdk-17.0.12+7/man/man1/jstack.1
+jdk-17.0.12+7/man/man1/keytool.1
+jdk-17.0.12+7/man/man1/jrunscript.1
+jdk-17.0.12+7/man/man1/jarsigner.1
+jdk-17.0.12+7/man/man1/rmiregistry.1
+jdk-17.0.12+7/man/man1/jmap.1
+jdk-17.0.12+7/man/man1/jps.1
+jdk-17.0.12+7/bin/
+jdk-17.0.12+7/bin/jimage
+jdk-17.0.12+7/bin/jdb
+jdk-17.0.12+7/bin/javac
+jdk-17.0.12+7/bin/jps
+jdk-17.0.12+7/bin/jdeprscan
+jdk-17.0.12+7/bin/jcmd
+jdk-17.0.12+7/bin/jar
+jdk-17.0.12+7/bin/java
+jdk-17.0.12+7/bin/jlink
+jdk-17.0.12+7/bin/jfr
+jdk-17.0.12+7/bin/jinfo
+jdk-17.0.12+7/bin/jhsdb
+jdk-17.0.12+7/bin/jstack
+jdk-17.0.12+7/bin/keytool
+jdk-17.0.12+7/bin/rmiregistry
+jdk-17.0.12+7/bin/jmod
+jdk-17.0.12+7/bin/jstat
+jdk-17.0.12+7/bin/jdeps
+jdk-17.0.12+7/bin/javap
+jdk-17.0.12+7/bin/jarsigner
+jdk-17.0.12+7/bin/jrunscript
+jdk-17.0.12+7/bin/jpackage
+jdk-17.0.12+7/bin/jmap
+jdk-17.0.12+7/bin/serialver
+jdk-17.0.12+7/bin/jconsole
+jdk-17.0.12+7/bin/jstatd
+jdk-17.0.12+7/bin/jshell
+jdk-17.0.12+7/bin/javadoc
+jdk-17.0.12+7/release
+jdk-17.0.12+7/lib/
+jdk-17.0.12+7/lib/libjaas.so
+jdk-17.0.12+7/lib/libjsig.so
+jdk-17.0.12+7/lib/jrt-fs.jar
+jdk-17.0.12+7/lib/libmanagement.so
+jdk-17.0.12+7/lib/src.zip
+jdk-17.0.12+7/lib/ct.sym
+jdk-17.0.12+7/lib/psfontj2d.properties
+jdk-17.0.12+7/lib/libzip.so
+jdk-17.0.12+7/lib/server/
+jdk-17.0.12+7/lib/server/libjsig.so
+jdk-17.0.12+7/lib/server/classes.jsa
+jdk-17.0.12+7/lib/server/libjvm.so
+jdk-17.0.12+7/lib/server/classes_nocoops.jsa
+jdk-17.0.12+7/lib/libsaproc.so
+jdk-17.0.12+7/lib/libjimage.so
+jdk-17.0.12+7/lib/libawt.so
+jdk-17.0.12+7/lib/libprefs.so
+jdk-17.0.12+7/lib/libjsvml.so
+jdk-17.0.12+7/lib/libnet.so
+jdk-17.0.12+7/lib/security/
+jdk-17.0.12+7/lib/security/public_suffix_list.dat
+jdk-17.0.12+7/lib/security/cacerts
+jdk-17.0.12+7/lib/security/default.policy
+jdk-17.0.12+7/lib/security/blocked.certs
+jdk-17.0.12+7/lib/libfontmanager.so
+jdk-17.0.12+7/lib/jvm.cfg
+jdk-17.0.12+7/lib/jspawnhelper
+jdk-17.0.12+7/lib/jfr/
+jdk-17.0.12+7/lib/jfr/profile.jfc
+jdk-17.0.12+7/lib/jfr/default.jfc
+jdk-17.0.12+7/lib/tzdb.dat
+jdk-17.0.12+7/lib/libawt_xawt.so
+jdk-17.0.12+7/lib/jexec
+jdk-17.0.12+7/lib/libj2gss.so
+jdk-17.0.12+7/lib/modules
+jdk-17.0.12+7/lib/liblcms.so
+jdk-17.0.12+7/lib/classlist
+jdk-17.0.12+7/lib/libsyslookup.so
+jdk-17.0.12+7/lib/librmi.so
+jdk-17.0.12+7/lib/libmanagement_agent.so
+jdk-17.0.12+7/lib/libjavajpeg.so
+jdk-17.0.12+7/lib/libmanagement_ext.so
+jdk-17.0.12+7/lib/libverify.so
+jdk-17.0.12+7/lib/libmlib_image.so
+jdk-17.0.12+7/lib/libinstrument.so
+jdk-17.0.12+7/lib/libsctp.so
+jdk-17.0.12+7/lib/libj2pkcs11.so
+jdk-17.0.12+7/lib/libjsound.so
+jdk-17.0.12+7/lib/psfont.properties.ja
+jdk-17.0.12+7/lib/libj2pcsc.so
+jdk-17.0.12+7/lib/libjawt.so
+jdk-17.0.12+7/lib/libjdwp.so
+jdk-17.0.12+7/lib/libawt_headless.so
+jdk-17.0.12+7/lib/libdt_socket.so
+jdk-17.0.12+7/lib/libjava.so
+jdk-17.0.12+7/lib/libsplashscreen.so
+jdk-17.0.12+7/lib/libattach.so
+jdk-17.0.12+7/lib/libjli.so
+jdk-17.0.12+7/lib/libnio.so
+jdk-17.0.12+7/lib/libextnet.so
+jdk-17.0.12+7/jmods/
+jdk-17.0.12+7/jmods/java.desktop.jmod
+jdk-17.0.12+7/jmods/jdk.javadoc.jmod
+jdk-17.0.12+7/jmods/jdk.accessibility.jmod
+jdk-17.0.12+7/jmods/jdk.zipfs.jmod
+jdk-17.0.12+7/jmods/java.security.jgss.jmod
+jdk-17.0.12+7/jmods/java.datatransfer.jmod
+jdk-17.0.12+7/jmods/java.net.http.jmod
+jdk-17.0.12+7/jmods/java.base.jmod
+jdk-17.0.12+7/jmods/jdk.naming.dns.jmod
+jdk-17.0.12+7/jmods/jdk.jdi.jmod
+jdk-17.0.12+7/jmods/jdk.jsobject.jmod
+jdk-17.0.12+7/jmods/jdk.crypto.ec.jmod
+jdk-17.0.12+7/jmods/java.security.sasl.jmod
+jdk-17.0.12+7/jmods/jdk.security.auth.jmod
+jdk-17.0.12+7/jmods/jdk.internal.jvmstat.jmod
+jdk-17.0.12+7/jmods/java.transaction.xa.jmod
+jdk-17.0.12+7/jmods/jdk.nio.mapmode.jmod
+jdk-17.0.12+7/jmods/jdk.internal.vm.ci.jmod
+jdk-17.0.12+7/jmods/jdk.crypto.cryptoki.jmod
+jdk-17.0.12+7/jmods/jdk.internal.le.jmod
+jdk-17.0.12+7/jmods/java.compiler.jmod
+jdk-17.0.12+7/jmods/java.xml.crypto.jmod
+jdk-17.0.12+7/jmods/jdk.jstatd.jmod
+jdk-17.0.12+7/jmods/jdk.httpserver.jmod
+jdk-17.0.12+7/jmods/jdk.internal.vm.compiler.jmod
+jdk-17.0.12+7/jmods/jdk.editpad.jmod
+jdk-17.0.12+7/jmods/jdk.unsupported.desktop.jmod
+jdk-17.0.12+7/jmods/jdk.jdeps.jmod
+jdk-17.0.12+7/jmods/jdk.internal.vm.compiler.management.jmod
+jdk-17.0.12+7/jmods/java.smartcardio.jmod
+jdk-17.0.12+7/jmods/java.prefs.jmod
+jdk-17.0.12+7/jmods/java.sql.jmod
+jdk-17.0.12+7/jmods/java.scripting.jmod
+jdk-17.0.12+7/jmods/jdk.random.jmod
+jdk-17.0.12+7/jmods/jdk.jdwp.agent.jmod
+jdk-17.0.12+7/jmods/jdk.incubator.vector.jmod
+jdk-17.0.12+7/jmods/java.instrument.jmod
+jdk-17.0.12+7/jmods/java.sql.rowset.jmod
+jdk-17.0.12+7/jmods/jdk.charsets.jmod
+jdk-17.0.12+7/jmods/jdk.management.jfr.jmod
+jdk-17.0.12+7/jmods/jdk.attach.jmod
+jdk-17.0.12+7/jmods/jdk.security.jgss.jmod
+jdk-17.0.12+7/jmods/java.rmi.jmod
+jdk-17.0.12+7/jmods/java.management.rmi.jmod
+jdk-17.0.12+7/jmods/jdk.internal.ed.jmod
+jdk-17.0.12+7/jmods/jdk.jpackage.jmod
+jdk-17.0.12+7/jmods/jdk.sctp.jmod
+jdk-17.0.12+7/jmods/jdk.internal.opt.jmod
+jdk-17.0.12+7/jmods/jdk.unsupported.jmod
+jdk-17.0.12+7/jmods/jdk.net.jmod
+jdk-17.0.12+7/jmods/jdk.jlink.jmod
+jdk-17.0.12+7/jmods/jdk.jfr.jmod
+jdk-17.0.12+7/jmods/jdk.localedata.jmod
+jdk-17.0.12+7/jmods/java.logging.jmod
+jdk-17.0.12+7/jmods/java.se.jmod
+jdk-17.0.12+7/jmods/jdk.jcmd.jmod
+jdk-17.0.12+7/jmods/jdk.xml.dom.jmod
+jdk-17.0.12+7/jmods/java.naming.jmod
+jdk-17.0.12+7/jmods/jdk.dynalink.jmod
+jdk-17.0.12+7/jmods/jdk.hotspot.agent.jmod
+jdk-17.0.12+7/jmods/jdk.compiler.jmod
+jdk-17.0.12+7/jmods/java.management.jmod
+jdk-17.0.12+7/jmods/jdk.management.jmod
+jdk-17.0.12+7/jmods/java.xml.jmod
+jdk-17.0.12+7/jmods/jdk.management.agent.jmod
+jdk-17.0.12+7/jmods/jdk.jartool.jmod
+jdk-17.0.12+7/jmods/jdk.jconsole.jmod
+jdk-17.0.12+7/jmods/jdk.naming.rmi.jmod
+jdk-17.0.12+7/jmods/jdk.jshell.jmod
+jdk-17.0.12+7/jmods/jdk.incubator.foreign.jmod
+jdk-17.0.12+7/legal/
+jdk-17.0.12+7/legal/jdk.incubator.vector/
+jdk-17.0.12+7/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.incubator.vector/LICENSE
+jdk-17.0.12+7/legal/jdk.charsets/
+jdk-17.0.12+7/legal/jdk.charsets/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.charsets/LICENSE
+jdk-17.0.12+7/legal/java.scripting/
+jdk-17.0.12+7/legal/java.scripting/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.scripting/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.scripting/LICENSE
+jdk-17.0.12+7/legal/jdk.jcmd/
+jdk-17.0.12+7/legal/jdk.jcmd/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jcmd/LICENSE
+jdk-17.0.12+7/legal/jdk.security.auth/
+jdk-17.0.12+7/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.security.auth/LICENSE
+jdk-17.0.12+7/legal/jdk.xml.dom/
+jdk-17.0.12+7/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.xml.dom/LICENSE
+jdk-17.0.12+7/legal/jdk.naming.dns/
+jdk-17.0.12+7/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.naming.dns/LICENSE
+jdk-17.0.12+7/legal/java.management/
+jdk-17.0.12+7/legal/java.management/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.management/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.management/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler/
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler/LICENSE
+jdk-17.0.12+7/legal/jdk.management.jfr/
+jdk-17.0.12+7/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.management.jfr/LICENSE
+jdk-17.0.12+7/legal/java.sql.rowset/
+jdk-17.0.12+7/legal/java.sql.rowset/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.sql.rowset/LICENSE
+jdk-17.0.12+7/legal/jdk.jdwp.agent/
+jdk-17.0.12+7/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jdwp.agent/LICENSE
+jdk-17.0.12+7/legal/jdk.incubator.foreign/
+jdk-17.0.12+7/legal/jdk.incubator.foreign/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.incubator.foreign/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.incubator.foreign/LICENSE
+jdk-17.0.12+7/legal/jdk.hotspot.agent/
+jdk-17.0.12+7/legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.hotspot.agent/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler.management/
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.vm.compiler.management/LICENSE
+jdk-17.0.12+7/legal/java.naming/
+jdk-17.0.12+7/legal/java.naming/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.naming/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.naming/LICENSE
+jdk-17.0.12+7/legal/jdk.localedata/
+jdk-17.0.12+7/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.localedata/cldr.md
+jdk-17.0.12+7/legal/jdk.localedata/thaidict.md
+jdk-17.0.12+7/legal/jdk.localedata/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.opt/
+jdk-17.0.12+7/legal/jdk.internal.opt/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.opt/jopt-simple.md
+jdk-17.0.12+7/legal/jdk.internal.opt/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.le/
+jdk-17.0.12+7/legal/jdk.internal.le/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.le/jline.md
+jdk-17.0.12+7/legal/jdk.internal.le/LICENSE
+jdk-17.0.12+7/legal/jdk.naming.rmi/
+jdk-17.0.12+7/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.naming.rmi/LICENSE
+jdk-17.0.12+7/legal/java.security.jgss/
+jdk-17.0.12+7/legal/java.security.jgss/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.security.jgss/LICENSE
+jdk-17.0.12+7/legal/jdk.jconsole/
+jdk-17.0.12+7/legal/jdk.jconsole/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jconsole/LICENSE
+jdk-17.0.12+7/legal/java.base/
+jdk-17.0.12+7/legal/java.base/asm.md
+jdk-17.0.12+7/legal/java.base/zlib.md
+jdk-17.0.12+7/legal/java.base/public_suffix.md
+jdk-17.0.12+7/legal/java.base/unicode.md
+jdk-17.0.12+7/legal/java.base/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.base/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.base/c-libutl.md
+jdk-17.0.12+7/legal/java.base/cldr.md
+jdk-17.0.12+7/legal/java.base/icu.md
+jdk-17.0.12+7/legal/java.base/aes.md
+jdk-17.0.12+7/legal/java.base/LICENSE
+jdk-17.0.12+7/legal/java.base/siphash.md
+jdk-17.0.12+7/legal/java.se/
+jdk-17.0.12+7/legal/java.se/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.se/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.se/LICENSE
+jdk-17.0.12+7/legal/java.desktop/
+jdk-17.0.12+7/legal/java.desktop/harfbuzz.md
+jdk-17.0.12+7/legal/java.desktop/giflib.md
+jdk-17.0.12+7/legal/java.desktop/mesa3d.md
+jdk-17.0.12+7/legal/java.desktop/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.desktop/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.desktop/xwd.md
+jdk-17.0.12+7/legal/java.desktop/colorimaging.md
+jdk-17.0.12+7/legal/java.desktop/libpng.md
+jdk-17.0.12+7/legal/java.desktop/jpeg.md
+jdk-17.0.12+7/legal/java.desktop/LICENSE
+jdk-17.0.12+7/legal/java.desktop/lcms.md
+jdk-17.0.12+7/legal/jdk.jdeps/
+jdk-17.0.12+7/legal/jdk.jdeps/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jdeps/LICENSE
+jdk-17.0.12+7/legal/jdk.accessibility/
+jdk-17.0.12+7/legal/jdk.accessibility/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.accessibility/LICENSE
+jdk-17.0.12+7/legal/jdk.jlink/
+jdk-17.0.12+7/legal/jdk.jlink/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jlink/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jlink/LICENSE
+jdk-17.0.12+7/legal/java.compiler/
+jdk-17.0.12+7/legal/java.compiler/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.compiler/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.compiler/LICENSE
+jdk-17.0.12+7/legal/java.prefs/
+jdk-17.0.12+7/legal/java.prefs/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.prefs/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.prefs/LICENSE
+jdk-17.0.12+7/legal/java.transaction.xa/
+jdk-17.0.12+7/legal/java.transaction.xa/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.transaction.xa/LICENSE
+jdk-17.0.12+7/legal/jdk.nio.mapmode/
+jdk-17.0.12+7/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.nio.mapmode/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.ed/
+jdk-17.0.12+7/legal/jdk.internal.ed/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.ed/LICENSE
+jdk-17.0.12+7/legal/jdk.zipfs/
+jdk-17.0.12+7/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.zipfs/LICENSE
+jdk-17.0.12+7/legal/java.smartcardio/
+jdk-17.0.12+7/legal/java.smartcardio/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.smartcardio/pcsclite.md
+jdk-17.0.12+7/legal/java.smartcardio/LICENSE
+jdk-17.0.12+7/legal/java.xml.crypto/
+jdk-17.0.12+7/legal/java.xml.crypto/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.xml.crypto/santuario.md
+jdk-17.0.12+7/legal/java.xml.crypto/LICENSE
+jdk-17.0.12+7/legal/jdk.management/
+jdk-17.0.12+7/legal/jdk.management/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.management/LICENSE
+jdk-17.0.12+7/legal/java.instrument/
+jdk-17.0.12+7/legal/java.instrument/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.instrument/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.instrument/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.vm.ci/
+jdk-17.0.12+7/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.vm.ci/LICENSE
+jdk-17.0.12+7/legal/jdk.jfr/
+jdk-17.0.12+7/legal/jdk.jfr/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jfr/LICENSE
+jdk-17.0.12+7/legal/jdk.compiler/
+jdk-17.0.12+7/legal/jdk.compiler/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.compiler/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.compiler/LICENSE
+jdk-17.0.12+7/legal/java.sql/
+jdk-17.0.12+7/legal/java.sql/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.sql/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.sql/LICENSE
+jdk-17.0.12+7/legal/jdk.jdi/
+jdk-17.0.12+7/legal/jdk.jdi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jdi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jdi/LICENSE
+jdk-17.0.12+7/legal/jdk.sctp/
+jdk-17.0.12+7/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.sctp/LICENSE
+jdk-17.0.12+7/legal/jdk.httpserver/
+jdk-17.0.12+7/legal/jdk.httpserver/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.httpserver/LICENSE
+jdk-17.0.12+7/legal/jdk.unsupported.desktop/
+jdk-17.0.12+7/legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.unsupported.desktop/LICENSE
+jdk-17.0.12+7/legal/jdk.jpackage/
+jdk-17.0.12+7/legal/jdk.jpackage/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jpackage/LICENSE
+jdk-17.0.12+7/legal/jdk.editpad/
+jdk-17.0.12+7/legal/jdk.editpad/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.editpad/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.editpad/LICENSE
+jdk-17.0.12+7/legal/java.xml/
+jdk-17.0.12+7/legal/java.xml/bcel.md
+jdk-17.0.12+7/legal/java.xml/xalan.md
+jdk-17.0.12+7/legal/java.xml/dom.md
+jdk-17.0.12+7/legal/java.xml/jcup.md
+jdk-17.0.12+7/legal/java.xml/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.xml/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.xml/xerces.md
+jdk-17.0.12+7/legal/java.xml/LICENSE
+jdk-17.0.12+7/legal/jdk.security.jgss/
+jdk-17.0.12+7/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.security.jgss/LICENSE
+jdk-17.0.12+7/legal/jdk.management.agent/
+jdk-17.0.12+7/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.management.agent/LICENSE
+jdk-17.0.12+7/legal/jdk.attach/
+jdk-17.0.12+7/legal/jdk.attach/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.attach/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.attach/LICENSE
+jdk-17.0.12+7/legal/jdk.unsupported/
+jdk-17.0.12+7/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.unsupported/LICENSE
+jdk-17.0.12+7/legal/jdk.net/
+jdk-17.0.12+7/legal/jdk.net/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.net/LICENSE
+jdk-17.0.12+7/legal/jdk.jsobject/
+jdk-17.0.12+7/legal/jdk.jsobject/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jsobject/LICENSE
+jdk-17.0.12+7/legal/jdk.crypto.ec/
+jdk-17.0.12+7/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.crypto.ec/LICENSE
+jdk-17.0.12+7/legal/java.net.http/
+jdk-17.0.12+7/legal/java.net.http/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.net.http/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.net.http/LICENSE
+jdk-17.0.12+7/legal/java.security.sasl/
+jdk-17.0.12+7/legal/java.security.sasl/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.security.sasl/LICENSE
+jdk-17.0.12+7/legal/jdk.crypto.cryptoki/
+jdk-17.0.12+7/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+jdk-17.0.12+7/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+jdk-17.0.12+7/legal/jdk.crypto.cryptoki/LICENSE
+jdk-17.0.12+7/legal/jdk.dynalink/
+jdk-17.0.12+7/legal/jdk.dynalink/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.dynalink/dynalink.md
+jdk-17.0.12+7/legal/jdk.dynalink/LICENSE
+jdk-17.0.12+7/legal/jdk.internal.jvmstat/
+jdk-17.0.12+7/legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.internal.jvmstat/LICENSE
+jdk-17.0.12+7/legal/jdk.jstatd/
+jdk-17.0.12+7/legal/jdk.jstatd/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jstatd/LICENSE
+jdk-17.0.12+7/legal/java.datatransfer/
+jdk-17.0.12+7/legal/java.datatransfer/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.datatransfer/LICENSE
+jdk-17.0.12+7/legal/jdk.jartool/
+jdk-17.0.12+7/legal/jdk.jartool/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jartool/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jartool/LICENSE
+jdk-17.0.12+7/legal/jdk.random/
+jdk-17.0.12+7/legal/jdk.random/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.random/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.random/LICENSE
+jdk-17.0.12+7/legal/jdk.javadoc/
+jdk-17.0.12+7/legal/jdk.javadoc/jquery.md
+jdk-17.0.12+7/legal/jdk.javadoc/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.javadoc/LICENSE
+jdk-17.0.12+7/legal/jdk.javadoc/jqueryUI.md
+jdk-17.0.12+7/legal/jdk.jshell/
+jdk-17.0.12+7/legal/jdk.jshell/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/jdk.jshell/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/jdk.jshell/LICENSE
+jdk-17.0.12+7/legal/java.rmi/
+jdk-17.0.12+7/legal/java.rmi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.rmi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.rmi/LICENSE
+jdk-17.0.12+7/legal/java.logging/
+jdk-17.0.12+7/legal/java.logging/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.logging/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.logging/LICENSE
+jdk-17.0.12+7/legal/java.management.rmi/
+jdk-17.0.12+7/legal/java.management.rmi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7/legal/java.management.rmi/LICENSE
+jdk-17.0.12+7/include/
+jdk-17.0.12+7/include/classfile_constants.h
+jdk-17.0.12+7/include/jni.h
+jdk-17.0.12+7/include/jvmti.h
+jdk-17.0.12+7/include/linux/
+jdk-17.0.12+7/include/linux/jawt_md.h
+jdk-17.0.12+7/include/linux/jni_md.h
+jdk-17.0.12+7/include/jdwpTransport.h
+jdk-17.0.12+7/include/jawt.h
+jdk-17.0.12+7/include/jvmticmlr.h
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ tar tzf OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz
+jdk-17.0.12+7-jre/
+jdk-17.0.12+7-jre/conf/
+jdk-17.0.12+7-jre/conf/sound.properties
+jdk-17.0.12+7-jre/conf/security/
+jdk-17.0.12+7-jre/conf/security/java.policy
+jdk-17.0.12+7-jre/conf/security/policy/
+jdk-17.0.12+7-jre/conf/security/policy/unlimited/
+jdk-17.0.12+7-jre/conf/security/policy/unlimited/default_US_export.policy
+jdk-17.0.12+7-jre/conf/security/policy/unlimited/default_local.policy
+jdk-17.0.12+7-jre/conf/security/policy/README.txt
+jdk-17.0.12+7-jre/conf/security/policy/limited/
+jdk-17.0.12+7-jre/conf/security/policy/limited/default_US_export.policy
+jdk-17.0.12+7-jre/conf/security/policy/limited/default_local.policy
+jdk-17.0.12+7-jre/conf/security/policy/limited/exempt_local.policy
+jdk-17.0.12+7-jre/conf/security/java.security
+jdk-17.0.12+7-jre/conf/sdp/
+jdk-17.0.12+7-jre/conf/sdp/sdp.conf.template
+jdk-17.0.12+7-jre/conf/logging.properties
+jdk-17.0.12+7-jre/conf/net.properties
+jdk-17.0.12+7-jre/conf/management/
+jdk-17.0.12+7-jre/conf/management/jmxremote.password.template
+jdk-17.0.12+7-jre/conf/management/jmxremote.access
+jdk-17.0.12+7-jre/conf/management/management.properties
+jdk-17.0.12+7-jre/NOTICE
+jdk-17.0.12+7-jre/bin/
+jdk-17.0.12+7-jre/bin/java
+jdk-17.0.12+7-jre/bin/jfr
+jdk-17.0.12+7-jre/bin/keytool
+jdk-17.0.12+7-jre/bin/rmiregistry
+jdk-17.0.12+7-jre/bin/jrunscript
+jdk-17.0.12+7-jre/release
+jdk-17.0.12+7-jre/lib/
+jdk-17.0.12+7-jre/lib/libjaas.so
+jdk-17.0.12+7-jre/lib/libjsig.so
+jdk-17.0.12+7-jre/lib/jrt-fs.jar
+jdk-17.0.12+7-jre/lib/libmanagement.so
+jdk-17.0.12+7-jre/lib/psfontj2d.properties
+jdk-17.0.12+7-jre/lib/libzip.so
+jdk-17.0.12+7-jre/lib/server/
+jdk-17.0.12+7-jre/lib/server/libjsig.so
+jdk-17.0.12+7-jre/lib/server/classes.jsa
+jdk-17.0.12+7-jre/lib/server/libjvm.so
+jdk-17.0.12+7-jre/lib/server/classes_nocoops.jsa
+jdk-17.0.12+7-jre/lib/libjimage.so
+jdk-17.0.12+7-jre/lib/libawt.so
+jdk-17.0.12+7-jre/lib/libprefs.so
+jdk-17.0.12+7-jre/lib/libjsvml.so
+jdk-17.0.12+7-jre/lib/libnet.so
+jdk-17.0.12+7-jre/lib/security/
+jdk-17.0.12+7-jre/lib/security/public_suffix_list.dat
+jdk-17.0.12+7-jre/lib/security/cacerts
+jdk-17.0.12+7-jre/lib/security/default.policy
+jdk-17.0.12+7-jre/lib/security/blocked.certs
+jdk-17.0.12+7-jre/lib/libfontmanager.so
+jdk-17.0.12+7-jre/lib/jvm.cfg
+jdk-17.0.12+7-jre/lib/jspawnhelper
+jdk-17.0.12+7-jre/lib/jfr/
+jdk-17.0.12+7-jre/lib/jfr/profile.jfc
+jdk-17.0.12+7-jre/lib/jfr/default.jfc
+jdk-17.0.12+7-jre/lib/tzdb.dat
+jdk-17.0.12+7-jre/lib/libawt_xawt.so
+jdk-17.0.12+7-jre/lib/jexec
+jdk-17.0.12+7-jre/lib/libj2gss.so
+jdk-17.0.12+7-jre/lib/modules
+jdk-17.0.12+7-jre/lib/liblcms.so
+jdk-17.0.12+7-jre/lib/classlist
+jdk-17.0.12+7-jre/lib/libsyslookup.so
+jdk-17.0.12+7-jre/lib/librmi.so
+jdk-17.0.12+7-jre/lib/libmanagement_agent.so
+jdk-17.0.12+7-jre/lib/libjavajpeg.so
+jdk-17.0.12+7-jre/lib/libmanagement_ext.so
+jdk-17.0.12+7-jre/lib/libverify.so
+jdk-17.0.12+7-jre/lib/libmlib_image.so
+jdk-17.0.12+7-jre/lib/libinstrument.so
+jdk-17.0.12+7-jre/lib/libsctp.so
+jdk-17.0.12+7-jre/lib/libj2pkcs11.so
+jdk-17.0.12+7-jre/lib/libjsound.so
+jdk-17.0.12+7-jre/lib/psfont.properties.ja
+jdk-17.0.12+7-jre/lib/libj2pcsc.so
+jdk-17.0.12+7-jre/lib/libjawt.so
+jdk-17.0.12+7-jre/lib/libjdwp.so
+jdk-17.0.12+7-jre/lib/libawt_headless.so
+jdk-17.0.12+7-jre/lib/libdt_socket.so
+jdk-17.0.12+7-jre/lib/libjava.so
+jdk-17.0.12+7-jre/lib/libsplashscreen.so
+jdk-17.0.12+7-jre/lib/libjli.so
+jdk-17.0.12+7-jre/lib/libnio.so
+jdk-17.0.12+7-jre/lib/libextnet.so
+jdk-17.0.12+7-jre/legal/
+jdk-17.0.12+7-jre/legal/jdk.incubator.vector/
+jdk-17.0.12+7-jre/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.incubator.vector/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.charsets/
+jdk-17.0.12+7-jre/legal/jdk.charsets/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.charsets/LICENSE
+jdk-17.0.12+7-jre/legal/java.scripting/
+jdk-17.0.12+7-jre/legal/java.scripting/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.scripting/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.scripting/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.security.auth/
+jdk-17.0.12+7-jre/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.security.auth/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.xml.dom/
+jdk-17.0.12+7-jre/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.xml.dom/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.naming.dns/
+jdk-17.0.12+7-jre/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.naming.dns/LICENSE
+jdk-17.0.12+7-jre/legal/java.management/
+jdk-17.0.12+7-jre/legal/java.management/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.management/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.management/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler/
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.management.jfr/
+jdk-17.0.12+7-jre/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.management.jfr/LICENSE
+jdk-17.0.12+7-jre/legal/java.sql.rowset/
+jdk-17.0.12+7-jre/legal/java.sql.rowset/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.sql.rowset/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.jdwp.agent/
+jdk-17.0.12+7-jre/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.jdwp.agent/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.incubator.foreign/
+jdk-17.0.12+7-jre/legal/jdk.incubator.foreign/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.incubator.foreign/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.incubator.foreign/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler.management/
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.compiler.management/LICENSE
+jdk-17.0.12+7-jre/legal/java.naming/
+jdk-17.0.12+7-jre/legal/java.naming/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.naming/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.naming/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.localedata/
+jdk-17.0.12+7-jre/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.localedata/cldr.md
+jdk-17.0.12+7-jre/legal/jdk.localedata/thaidict.md
+jdk-17.0.12+7-jre/legal/jdk.localedata/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.naming.rmi/
+jdk-17.0.12+7-jre/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.naming.rmi/LICENSE
+jdk-17.0.12+7-jre/legal/java.security.jgss/
+jdk-17.0.12+7-jre/legal/java.security.jgss/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.security.jgss/LICENSE
+jdk-17.0.12+7-jre/legal/java.base/
+jdk-17.0.12+7-jre/legal/java.base/asm.md
+jdk-17.0.12+7-jre/legal/java.base/zlib.md
+jdk-17.0.12+7-jre/legal/java.base/public_suffix.md
+jdk-17.0.12+7-jre/legal/java.base/unicode.md
+jdk-17.0.12+7-jre/legal/java.base/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.base/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.base/c-libutl.md
+jdk-17.0.12+7-jre/legal/java.base/cldr.md
+jdk-17.0.12+7-jre/legal/java.base/icu.md
+jdk-17.0.12+7-jre/legal/java.base/aes.md
+jdk-17.0.12+7-jre/legal/java.base/LICENSE
+jdk-17.0.12+7-jre/legal/java.base/siphash.md
+jdk-17.0.12+7-jre/legal/java.se/
+jdk-17.0.12+7-jre/legal/java.se/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.se/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.se/LICENSE
+jdk-17.0.12+7-jre/legal/java.desktop/
+jdk-17.0.12+7-jre/legal/java.desktop/harfbuzz.md
+jdk-17.0.12+7-jre/legal/java.desktop/giflib.md
+jdk-17.0.12+7-jre/legal/java.desktop/mesa3d.md
+jdk-17.0.12+7-jre/legal/java.desktop/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.desktop/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.desktop/xwd.md
+jdk-17.0.12+7-jre/legal/java.desktop/colorimaging.md
+jdk-17.0.12+7-jre/legal/java.desktop/libpng.md
+jdk-17.0.12+7-jre/legal/java.desktop/jpeg.md
+jdk-17.0.12+7-jre/legal/java.desktop/LICENSE
+jdk-17.0.12+7-jre/legal/java.desktop/lcms.md
+jdk-17.0.12+7-jre/legal/jdk.accessibility/
+jdk-17.0.12+7-jre/legal/jdk.accessibility/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.accessibility/LICENSE
+jdk-17.0.12+7-jre/legal/java.compiler/
+jdk-17.0.12+7-jre/legal/java.compiler/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.compiler/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.compiler/LICENSE
+jdk-17.0.12+7-jre/legal/java.prefs/
+jdk-17.0.12+7-jre/legal/java.prefs/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.prefs/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.prefs/LICENSE
+jdk-17.0.12+7-jre/legal/java.transaction.xa/
+jdk-17.0.12+7-jre/legal/java.transaction.xa/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.transaction.xa/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.nio.mapmode/
+jdk-17.0.12+7-jre/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.nio.mapmode/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.zipfs/
+jdk-17.0.12+7-jre/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.zipfs/LICENSE
+jdk-17.0.12+7-jre/legal/java.smartcardio/
+jdk-17.0.12+7-jre/legal/java.smartcardio/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.smartcardio/pcsclite.md
+jdk-17.0.12+7-jre/legal/java.smartcardio/LICENSE
+jdk-17.0.12+7-jre/legal/java.xml.crypto/
+jdk-17.0.12+7-jre/legal/java.xml.crypto/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.xml.crypto/santuario.md
+jdk-17.0.12+7-jre/legal/java.xml.crypto/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.management/
+jdk-17.0.12+7-jre/legal/jdk.management/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.management/LICENSE
+jdk-17.0.12+7-jre/legal/java.instrument/
+jdk-17.0.12+7-jre/legal/java.instrument/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.instrument/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.instrument/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.ci/
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.internal.vm.ci/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.jfr/
+jdk-17.0.12+7-jre/legal/jdk.jfr/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.jfr/LICENSE
+jdk-17.0.12+7-jre/legal/java.sql/
+jdk-17.0.12+7-jre/legal/java.sql/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.sql/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.sql/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.sctp/
+jdk-17.0.12+7-jre/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.sctp/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.httpserver/
+jdk-17.0.12+7-jre/legal/jdk.httpserver/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.httpserver/LICENSE
+jdk-17.0.12+7-jre/legal/java.xml/
+jdk-17.0.12+7-jre/legal/java.xml/bcel.md
+jdk-17.0.12+7-jre/legal/java.xml/xalan.md
+jdk-17.0.12+7-jre/legal/java.xml/dom.md
+jdk-17.0.12+7-jre/legal/java.xml/jcup.md
+jdk-17.0.12+7-jre/legal/java.xml/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.xml/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.xml/xerces.md
+jdk-17.0.12+7-jre/legal/java.xml/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.security.jgss/
+jdk-17.0.12+7-jre/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.security.jgss/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.management.agent/
+jdk-17.0.12+7-jre/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.management.agent/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.unsupported/
+jdk-17.0.12+7-jre/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.unsupported/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.net/
+jdk-17.0.12+7-jre/legal/jdk.net/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.net/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.jsobject/
+jdk-17.0.12+7-jre/legal/jdk.jsobject/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.jsobject/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.crypto.ec/
+jdk-17.0.12+7-jre/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.crypto.ec/LICENSE
+jdk-17.0.12+7-jre/legal/java.net.http/
+jdk-17.0.12+7-jre/legal/java.net.http/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.net.http/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.net.http/LICENSE
+jdk-17.0.12+7-jre/legal/java.security.sasl/
+jdk-17.0.12+7-jre/legal/java.security.sasl/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.security.sasl/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.crypto.cryptoki/
+jdk-17.0.12+7-jre/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+jdk-17.0.12+7-jre/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+jdk-17.0.12+7-jre/legal/jdk.crypto.cryptoki/LICENSE
+jdk-17.0.12+7-jre/legal/jdk.dynalink/
+jdk-17.0.12+7-jre/legal/jdk.dynalink/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/jdk.dynalink/dynalink.md
+jdk-17.0.12+7-jre/legal/jdk.dynalink/LICENSE
+jdk-17.0.12+7-jre/legal/java.datatransfer/
+jdk-17.0.12+7-jre/legal/java.datatransfer/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.datatransfer/LICENSE
+jdk-17.0.12+7-jre/legal/java.rmi/
+jdk-17.0.12+7-jre/legal/java.rmi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.rmi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.rmi/LICENSE
+jdk-17.0.12+7-jre/legal/java.logging/
+jdk-17.0.12+7-jre/legal/java.logging/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.logging/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.logging/LICENSE
+jdk-17.0.12+7-jre/legal/java.management.rmi/
+jdk-17.0.12+7-jre/legal/java.management.rmi/ASSEMBLY_EXCEPTION
+jdk-17.0.12+7-jre/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO
+jdk-17.0.12+7-jre/legal/java.management.rmi/LICENSE
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+
