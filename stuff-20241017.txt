@@ -1,0 +1,457 @@
+7:27 AM 10/17/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241017.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+https://code.visualstudio.com/updates/v1_94
+
+September 2024 (version 1.94)
+Update 1.94.1: The update addresses this security issue.
+Update 1.94.2: The update addresses these issues.
+
+https://code.visualstudio.com/docs/languages/java
+
+We recommend you to consider installing the JDK from one of these sources:
+    Amazon Corretto
+    Azul Zulu
+    Eclipse Adoptium's Temurin
+    IBM Semeru Runtimes
+    Microsoft Build of OpenJDK
+    Oracle Java SE
+    Red Hat build of OpenJDK
+    SapMachine
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html
+
+10/17/2024  08:03 AM       193,433,315 amazon-corretto-17.0.13.11.1-linux-x64.tar.gz
+10/17/2024  08:03 AM       187,422,342 amazon-corretto-17.0.13.11.1-windows-x64-jdk.zip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.azul.com/downloads/?package=jdk#zulu
+https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu
+
+10/17/2024  07:47 AM       198,242,125 zulu17.54.21-ca-jdk17.0.13-linux_x64.tar.gz
+10/17/2024  07:55 AM       195,583,839 zulu17.54.21-ca-jdk17.0.13-win_x64.zip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://adoptium.net/temurin/releases/?version=17
+
+still 17.0.12+7 as of 20241017
+
+17.0.13+11Temurin
+AQAvit logoOctober 17, 2024	Linux	x64	
+JDK - 191 MB   Checksum
+JRE -  46 MB   Checksum
+
+10/18/2024  07:05 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:07 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz	
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.oracle.com/java/technologies/downloads/#java17
+
+JDK Development Kit 17.0.13 downloads
+
+The Oracle JDK 17 license changed in October 2024
+
+The Oracle Technology Network License Agreement for Oracle Java SE is substantially different from prior Oracle JDK 17 licenses. This license permits certain uses, such as personal use and development use, at no cost -- but other uses authorized under prior Oracle JDK licenses may no longer be available. Please review the terms carefully before downloading and using this product. FAQs are available here.
+
+Commercial license and support are available for a low cost with Java SE Universal Subscription. 
+
+x64 Compressed Archive 	174.37 MB 	jdk-17.0.13_linux-x64_bin.tar.gz
+x64 Compressed Archive 	172.79 MB 	jdk-17.0.13_windows-x64_bin.zip
+
+10/17/2024  08:10 AM       182,840,393 jdk-17.0.13_linux-x64_bin.tar.gz
+10/17/2024  08:11 AM       181,179,441 jdk-17.0.13_windows-x64_bin.zip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://start.spring.io/
+
+10/02/2024  08:01 AM            53,060 hellonebula.zip
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\hellonebula
+
+10/02/2024  08:01 AM    <DIR>          gradle
+10/02/2024  08:01 AM    <DIR>          src
+10/03/2024  06:39 AM    <DIR>          .vscode
+10/03/2024  06:51 AM    <DIR>          ..
+10/04/2024  09:14 AM    <DIR>          .gradle
+10/07/2024  07:09 AM    <DIR>          build
+10/07/2024  09:12 AM    <DIR>          .
+10/02/2024  08:01 AM                33 settings.gradle
+10/02/2024  08:01 AM             8,762 gradlew
+10/02/2024  08:01 AM             2,966 gradlew.bat
+10/02/2024  08:01 AM             2,030 HELP.md
+10/02/2024  08:01 AM               444 .gitignore
+10/02/2024  08:06 AM             3,037 hellonebula-7z-listing.txt
+10/02/2024  09:22 AM             2,968 hellonebula-actuator.json
+10/02/2024  09:22 AM                24 hellonebula-actuator-health.json
+10/02/2024  09:23 AM               688 hellonebula-actuator-info.json
+10/02/2024  09:23 AM               120 hellonebula.json
+10/02/2024  09:26 AM            16,623 hellonebula-actuator-env.json
+10/03/2024  07:42 AM               547 hellonebula-gradle-version.txt
+10/03/2024  07:42 AM               360 hellonebula-gradle-javatoolchains.txt
+10/03/2024  07:43 AM             2,876 hellonebula-gradle-tasks.txt
+10/03/2024  07:51 AM            77,190 hellonebula-gradle-dependencies.txt
+10/07/2024  06:53 AM           985,088 jq.exe
+10/07/2024  07:01 AM        22,588,972 hellonebula17.jar
+10/07/2024  07:06 AM             1,181 build.gradle
+10/07/2024  07:09 AM        22,588,969 hellonebu21.jar
+10/07/2024  08:58 AM               155 Dockerfile
+              20 File(s)     46,283,033 bytes
+               7 Dir(s)  445,707,407,360 bytes free
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>code .
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>type Dockerfile
+FROM amd64/eclipse-temurin:17.0.12_7-jdk
+WORKDIR /app
+COPY hellonebula17.jar /app/hellonebula17.jar
+ENTRYPOINT ["java","-jar","/app/hellonebula17.jar"]
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git mv  src\main\java\com\ashburncode\hellonebula\HelloController.java src\main\java\com\ashburncode\hellonebula\SyspropsController.java
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.10.2
+------------------------------------------------------------
+
+Build time:    2024-09-23 21:28:39 UTC
+Revision:      415adb9e06a516c44b391edff552fd42139443f7
+
+Kotlin:        1.9.24
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  17.0.12 (Eclipse Adoptium 17.0.12+7)
+Daemon JVM:    C:\LocalApps\jdk-17.0.12+7 (no JDK specified, using current Java home)
+OS:            Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew clean bootRun
+Starting a Gradle Daemon, 5 incompatible and 3 stopped Daemons could not be reused, use --status for details
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-17T08:24:35.302-04:00  INFO 33992 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication using Java 21.0.4 with PID 33992 (C:\Users\DavidHolberton\sbprojs\hellonebula\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\hellonebula)
+2024-10-17T08:24:35.304-04:00  INFO 33992 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T08:24:36.078-04:00  INFO 33992 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-17T08:24:36.090-04:00  INFO 33992 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-17T08:24:36.090-04:00  INFO 33992 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17T08:24:36.134-04:00  INFO 33992 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-17T08:24:36.134-04:00  INFO 33992 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 789 ms
+2024-10-17T08:24:36.506-04:00  INFO 33992 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-17T08:24:36.550-04:00  INFO 33992 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-17T08:24:36.558-04:00  INFO 33992 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 1.52 seconds (process running for 1.786)
+<==========---> 83% EXECUTING [21s]
+> :bootRun
+
+C:\>
+C:\>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.6982256498332746235
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.6982256498332746235
+ java.class.version = 65.0
+ java.home = C:\LocalApps\jdk-21.0.4+7
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 21.0.4+7-LTS
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 21
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-21.0.4+7
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-07-16
+ java.version = 21.0.4
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 21
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 21.0.4+7-LTS
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\Users\DavidHolberton\sbprojs\hellonebula
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\>
+C:\>
+C:\>docker image ls
+REPOSITORY              TAG             IMAGE ID       CREATED         SIZE
+hellonebula17           latest          f3ed7c8c09d2   9 days ago      437MB
+amd64/eclipse-temurin   17.0.12_7-jdk   14ef1a4e4983   8 weeks ago     414MB
+amd64/eclipse-temurin   21.0.4_7-jdk    1fb508d963b8   8 weeks ago     442MB
+debian                  latest          5027089adc4c   5 months ago    117MB
+eclipse-temurin         17-jdk-focal    bfa8957a99b7   5 months ago    411MB
+nginx                   1.23            a7be6198544f   17 months ago   142MB
+busybox                 latest          8135583d97fe   17 months ago   4.86MB
+hello-world             latest          9c7a54a9a43c   17 months ago   13.3kB
+nginx                   1.22            0f8498f13f3a   18 months ago   142MB
+
+C:\>
+C:\>docker container ls
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\>docker container ls -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED      STATUS                    PORTS     NAMES
+8afced7d0570   hellonebula17   "java -jar /app/hell…"   9 days ago   Exited (130) 9 days ago             quirky_lovelace
+
+C:\>
+C:\>docker --version
+Docker version 23.0.5, build bc4487a
+
+C:\>
+
+> :bootRun
+Terminate batch job (Y/N)? y
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker run -p 8080:8080 hellonebula17 -d -t hellonebula17:1.1
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-17T12:35:54.197Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 1 (/app/hellonebula17.jar started by root in /app)
+2024-10-17T12:35:54.199Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T12:35:55.117Z  INFO 1 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-17T12:35:55.126Z  INFO 1 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-17T12:35:55.127Z  INFO 1 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17T12:35:55.153Z  INFO 1 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-17T12:35:55.155Z  INFO 1 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 917 ms
+2024-10-17T12:35:55.600Z  INFO 1 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-17T12:35:55.652Z  INFO 1 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-17T12:35:55.669Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 1.761 seconds (process running for 2.133)
+
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker container ls
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS         PORTS                    NAMES
+b7ed524adf2f   hellonebula17   "java -jar /app/hell…"   4 minutes ago   Up 4 minutes   0.0.0.0:8080->8080/tcp   happy_davinci
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker container ls -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS                    PORTS                    NAMES
+b7ed524adf2f   hellonebula17   "java -jar /app/hell…"   4 minutes ago   Up 4 minutes              0.0.0.0:8080->8080/tcp   happy_davinci
+8afced7d0570   hellonebula17   "java -jar /app/hell…"   10 days ago     Exited (130) 9 days ago                            quirky_lovelace
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/health
+{"status":"UP"}
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/info
+{"java":{"version":"17.0.12","vendor":{"name":"Eclipse Adoptium","version":"Temurin-17.0.12+7"},"runtime":{"name":"OpenJDK Runtime Environment","version":"17.0.12+7"},"jvm":{"name":"OpenJDK 64-Bit Server VM","vendor":"Eclipse Adoptium","version":"17.0.12+7"}},"os":{"name":"Linux","version":"5.10.16.3-microsoft-standard-WSL2","arch":"amd64"},"process":{"pid":1,"parentPid":-1,"owner":"root","cpus":16}}
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/actuator/info | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   403    0   403    0     0  22685      0 --:--:-- --:--:-- --:--:-- 23705
+{
+  "java": {
+    "version": "17.0.12",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.12+7"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.12+7"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.12+7"
+    }
+  },
+  "os": {
+    "name": "Linux",
+    "version": "5.10.16.3-microsoft-standard-WSL2",
+    "arch": "amd64"
+  },
+  "process": {
+    "pid": 1,
+    "parentPid": -1,
+    "owner": "root",
+    "cpus": 16
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/sysprops
+{"timestamp":"2024-10-17T12:41:32.607+00:00","status":404,"error":"Not Found","path":"/sysprops"}
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl http://localhost:8080/
+Greetings from Hello Nebula
+ catalina.base = /tmp/tomcat.8080.16329541481342639412
+ catalina.home = /tmp/tomcat.8080.16329541481342639412
+ java.class.version = 61.0
+ java.home = /opt/java/openjdk
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.12+7
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.12+7
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-07-16
+ java.version = 17.0.12
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.12+7
+ os.name = Linux
+ os.version = 5.10.16.3-microsoft-standard-WSL2
+ user.dir = /app
+ user.home = /root
+ user.name = root
+ user.timezone = Etc/UTC
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker logs happy_davinci
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-17T12:35:54.197Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Starting HellonebulaApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 1 (/app/hellonebula17.jar started by root in /app)
+2024-10-17T12:35:54.199Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T12:35:55.117Z  INFO 1 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-17T12:35:55.126Z  INFO 1 --- [hellonebula] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-17T12:35:55.127Z  INFO 1 --- [hellonebula] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17T12:35:55.153Z  INFO 1 --- [hellonebula] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-17T12:35:55.155Z  INFO 1 --- [hellonebula] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 917 ms
+2024-10-17T12:35:55.600Z  INFO 1 --- [hellonebula] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2024-10-17T12:35:55.652Z  INFO 1 --- [hellonebula] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-17T12:35:55.669Z  INFO 1 --- [hellonebula] [           main] c.a.hellonebula.HellonebulaApplication   : Started HellonebulaApplication in 1.761 seconds (process running for 2.133)
+2024-10-17T12:38:36.690Z  INFO 1 --- [hellonebula] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17T12:38:36.690Z  INFO 1 --- [hellonebula] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-17T12:38:36.691Z  INFO 1 --- [hellonebula] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{
+  "java": {
+    "version": "17.0.12",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.12+7"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.12+7"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.12+7"
+    }
+  },
+  "os": {
+    "name": "Linux",
+    "version": "5.10.16.3-microsoft-standard-WSL2",
+    "arch": "amd64"
+  },
+  "process": {
+    "pid": 1,
+    "parentPid": -1,
+    "owner": "root",
+    "cpus": 16
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker container stop  happy_davinci
+happy_davinci
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>docker container ps -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED          STATUS                        PORTS     NAMES
+b7ed524adf2f   hellonebula17   "java -jar /app/hell…"   57 minutes ago   Exited (143) 19 seconds ago             happy_davinci
+8afced7d0570   hellonebula17   "java -jar /app/hell…"   10 days ago      Exited (130) 10 days ago                quirky_lovelace
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+10/09/2024  07:04 AM       182,799,609 jdk-17_linux-x64_bin.tar.gz
+10/09/2024  07:04 AM                64 jdk-17_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:07 AM       197,545,777 jdk-21_linux-x64_bin.tar.gz
+10/09/2024  07:07 AM                64 jdk-21_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:13 AM       207,789,015 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:15 AM                66 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:15 AM        52,466,639 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:16 AM                66 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:20 AM       192,452,655 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:21 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+10/09/2024  07:22 AM        46,398,176 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:24 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+10/17/2024  07:47 AM       198,242,125 zulu17.54.21-ca-jdk17.0.13-linux_x64.tar.gz
+10/17/2024  07:55 AM       195,583,839 zulu17.54.21-ca-jdk17.0.13-win_x64.zip
+10/17/2024  08:03 AM       193,433,315 amazon-corretto-17.0.13.11.1-linux-x64.tar.gz
+10/17/2024  08:03 AM       187,422,342 amazon-corretto-17.0.13.11.1-windows-x64-jdk.zip
+10/17/2024  08:10 AM       182,840,393 jdk-17.0.13_linux-x64_bin.tar.gz
+10/17/2024  08:11 AM       181,179,441 jdk-17.0.13_windows-x64_bin.zip
+10/18/2024  07:05 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:06 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz.sha256
+10/18/2024  07:07 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:08 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz.sha256
+             722 File(s) 115,111,798,301 bytes
+              12 Dir(s)  447,669,850,112 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
