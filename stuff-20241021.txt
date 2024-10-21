@@ -1,0 +1,402 @@
+7:33 AM 10/21/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff=20241021.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://adoptium.net/temurin/releases/?version=17
+
+10/18/2024  07:05 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:06 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz.sha256
+10/18/2024  07:07 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:08 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz.sha256
+10/21/2024  07:37 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/21/2024  07:38 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip.sha256
+10/21/2024  07:38 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+10/21/2024  07:39 AM                66 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip.sha256
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ tar tzvf OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz | head
+drwxr-xr-x root/root         0 2024-10-15 19:26 jdk-17.0.13+11/
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11/include/
+-rw-r--r-- root/root     12458 2024-10-15 19:21 jdk-17.0.13+11/include/jawt.h
+-rw-r--r-- root/root      4771 2024-10-15 19:21 jdk-17.0.13+11/include/jvmticmlr.h
+-rw-r--r-- root/root     75678 2024-10-15 19:21 jdk-17.0.13+11/include/jni.h
+-rw-r--r-- root/root     81725 2024-10-15 19:21 jdk-17.0.13+11/include/jvmti.h
+-rw-r--r-- root/root      8151 2024-10-15 19:21 jdk-17.0.13+11/include/jdwpTransport.h
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11/include/linux/
+-rw-r--r-- root/root      1965 2024-10-15 19:21 jdk-17.0.13+11/include/linux/jawt_md.h
+-rw-r--r-- root/root      2208 2024-10-15 19:21 jdk-17.0.13+11/include/linux/jni_md.h
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ tar tzvf OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz | head
+drwxr-xr-x root/root         0 2024-10-15 19:26 jdk-17.0.13+11-jre/
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/sdp/
+-rw-r--r-- root/root      1455 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/sdp/sdp.conf.template
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/security/
+-rw-r--r-- root/root      2293 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/security/java.policy
+-rw-r--r-- root/root     58078 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/security/java.security
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/security/policy/
+-rw-r--r-- root/root      2390 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/security/policy/README.txt
+drwxr-xr-x root/root         0 2024-10-15 19:21 jdk-17.0.13+11-jre/conf/security/policy/limited/
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+
+C:\Users\DavidHolberton\Downloads>7z l OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip | more
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 191161562 bytes (183 MiB)
+
+Listing archive: OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+
+--
+Path = OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+Type = zip
+Physical Size = 191161562
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-10-15 21:03:00 D....            0            0  jdk-17.0.13+11
+2024-10-15 21:08:00 D....            0            0  jdk-17.0.13+11\bin
+2024-10-15 21:07:24 .....        42736        15654  jdk-17.0.13+11\bin\api-ms-win-core-console-l1-1-0.dll
+2024-10-15 21:07:24 .....        42640        15568  jdk-17.0.13+11\bin\api-ms-win-core-console-l1-2-0.dll
+2024-10-15 21:07:25 .....        42736        15473  jdk-17.0.13+11\bin\api-ms-win-core-datetime-l1-1-0.dll
+2024-10-15 21:07:25 .....        42640        15368  jdk-17.0.13+11\bin\api-ms-win-core-debug-l1-1-0.dll
+2024-10-15 21:07:26 .....        42736        15539  jdk-17.0.13+11\bin\api-ms-win-core-errorhandling-l1-1-0.dll
+2024-10-15 21:07:26 .....        42736        15479  jdk-17.0.13+11\bin\api-ms-win-core-fibers-l1-1-0.dll
+2024-10-15 21:07:27 .....        42640        15311  jdk-17.0.13+11\bin\api-ms-win-core-fibers-l1-1-1.dll
+2024-10-15 21:07:27 .....        46736        16470  jdk-17.0.13+11\bin\api-ms-win-core-file-l1-1-0.dll
+2024-10-15 21:07:28 .....        42752        15532  jdk-17.0.13+11\bin\api-ms-win-core-file-l1-2-0.dll
+2024-10-15 21:07:28 .....        42736        15643  jdk-17.0.13+11\bin\api-ms-win-core-file-l2-1-0.dll
+2024-10-15 21:07:28 .....        42752        15533  jdk-17.0.13+11\bin\api-ms-win-core-handle-l1-1-0.dll
+2024-10-15 21:07:29 .....        42752        15708  jdk-17.0.13+11\bin\api-ms-win-core-heap-l1-1-0.dll
+2024-10-15 21:07:29 .....        42752        15565  jdk-17.0.13+11\bin\api-ms-win-core-interlocked-l1-1-0.dll
+2024-10-15 21:07:29 .....        42640        15637  jdk-17.0.13+11\bin\api-ms-win-core-kernel32-legacy-l1-1-1.dll
+2024-10-15 21:07:30 .....        42640        15714  jdk-17.0.13+11\bin\api-ms-win-core-libraryloader-l1-1-0.dll
+2024-10-15 21:07:30 .....        42736        16342  jdk-17.0.13+11\bin\api-ms-win-core-localization-l1-2-0.dll
+2024-10-15 21:07:30 .....        42736        15686  jdk-17.0.13+11\bin\api-ms-win-core-memory-l1-1-0.dll
+2024-10-15 21:07:31 .....        42736        15616  jdk-17.0.13+11\bin\api-ms-win-core-namedpipe-l1-1-0.dll
+2024-10-15 21:07:31 .....        42736        15762  jdk-17.0.13+11\bin\api-ms-win-core-processenvironment-l1-1-0.dll
+2024-10-15 21:07:31 .....        42736        16227  jdk-17.0.13+11\bin\api-ms-win-core-processthreads-l1-1-0.dll
+2024-10-15 21:07:32 .....        42752        15737  jdk-17.0.13+11\bin\api-ms-win-core-processthreads-l1-1-1.dll
+2024-10-15 21:07:32 .....        42632        15353  jdk-17.0.13+11\bin\api-ms-win-core-profile-l1-1-0.dll
+2024-10-15 21:07:32 .....        42632        15595  jdk-17.0.13+11\bin\api-ms-win-core-rtlsupport-l1-1-0.dll
+2024-10-15 21:07:33 .....        42752        15587  jdk-17.0.13+11\bin\api-ms-win-core-string-l1-1-0.dll
+2024-10-15 21:07:33 .....        42632        15946  jdk-17.0.13+11\bin\api-ms-win-core-synch-l1-1-0.dll
+2024-10-15 21:07:33 .....        42752        15767  jdk-17.0.13+11\bin\api-ms-win-core-synch-l1-2-0.dll
+2024-10-15 21:07:33 .....        42640        15671  jdk-17.0.13+11\bin\api-ms-win-core-sysinfo-l1-1-0.dll
+2024-10-15 21:07:34 .....        42640        15508  jdk-17.0.13+11\bin\api-ms-win-core-sysinfo-l1-2-0.dll
+
+Break signaled
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>7z l OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip | more
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 44083354 bytes (43 MiB)
+
+Listing archive: OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+
+--
+Path = OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+Type = zip
+Physical Size = 44083354
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-10-15 21:03:00 D....            0            0  jdk-17.0.13+11-jre
+2024-10-15 21:08:43 D....            0            0  jdk-17.0.13+11-jre\bin
+2024-10-15 21:08:40 .....       231640       129961  jdk-17.0.13+11-jre\bin\splashscreen.dll
+2024-10-15 21:08:16 .....        42736        15474  jdk-17.0.13+11-jre\bin\api-ms-win-core-datetime-l1-1-0.dll
+2024-10-15 21:08:16 .....        42640        15368  jdk-17.0.13+11-jre\bin\api-ms-win-core-debug-l1-1-0.dll
+2024-10-15 21:08:17 .....        42736        15539  jdk-17.0.13+11-jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll
+2024-10-15 21:08:17 .....        42736        15483  jdk-17.0.13+11-jre\bin\api-ms-win-core-fibers-l1-1-0.dll
+2024-10-15 21:08:17 .....        42640        15316  jdk-17.0.13+11-jre\bin\api-ms-win-core-fibers-l1-1-1.dll
+2024-10-15 21:08:18 .....        46736        16470  jdk-17.0.13+11-jre\bin\api-ms-win-core-file-l1-1-0.dll
+2024-10-15 21:08:18 .....        42752        15533  jdk-17.0.13+11-jre\bin\api-ms-win-core-file-l1-2-0.dll
+2024-10-15 21:08:19 .....        42736        15644  jdk-17.0.13+11-jre\bin\api-ms-win-core-file-l2-1-0.dll
+2024-10-15 21:08:19 .....        42752        15534  jdk-17.0.13+11-jre\bin\api-ms-win-core-handle-l1-1-0.dll
+2024-10-15 21:08:19 .....        42752        15707  jdk-17.0.13+11-jre\bin\api-ms-win-core-heap-l1-1-0.dll
+2024-10-15 21:08:20 .....        42752        15564  jdk-17.0.13+11-jre\bin\api-ms-win-core-interlocked-l1-1-0.dll
+2024-10-15 21:08:20 .....        42640        15637  jdk-17.0.13+11-jre\bin\api-ms-win-core-kernel32-legacy-l1-1-1.dll
+2024-10-15 21:08:20 .....        42640        15709  jdk-17.0.13+11-jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll
+2024-10-15 21:08:21 .....        42736        16339  jdk-17.0.13+11-jre\bin\api-ms-win-core-localization-l1-2-0.dll
+2024-10-15 21:08:21 .....        42736        15684  jdk-17.0.13+11-jre\bin\api-ms-win-core-memory-l1-1-0.dll
+2024-10-15 21:08:21 .....        42736        15614  jdk-17.0.13+11-jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll
+2024-10-15 21:08:22 .....        42736        15761  jdk-17.0.13+11-jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll
+2024-10-15 21:08:22 .....        42736        16223  jdk-17.0.13+11-jre\bin\api-ms-win-core-processthreads-l1-1-0.dll
+2024-10-15 21:08:22 .....        42752        15736  jdk-17.0.13+11-jre\bin\api-ms-win-core-processthreads-l1-1-1.dll
+2024-10-15 21:08:23 .....        42632        15352  jdk-17.0.13+11-jre\bin\api-ms-win-core-profile-l1-1-0.dll
+2024-10-15 21:08:23 .....        42632        15595  jdk-17.0.13+11-jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll
+2024-10-15 21:08:23 .....        42752        15589  jdk-17.0.13+11-jre\bin\api-ms-win-core-string-l1-1-0.dll
+2024-10-15 21:08:23 .....        42632        15946  jdk-17.0.13+11-jre\bin\api-ms-win-core-synch-l1-1-0.dll
+2024-10-15 21:08:24 .....        42752        15765  jdk-17.0.13+11-jre\bin\api-ms-win-core-synch-l1-2-0.dll
+2024-10-15 21:08:24 .....        42640        15671  jdk-17.0.13+11-jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll
+2024-10-15 21:08:24 .....        42640        15504  jdk-17.0.13+11-jre\bin\api-ms-win-core-sysinfo-l1-2-0.dll
+2024-10-15 21:08:24 .....        42632        15553  jdk-17.0.13+11-jre\bin\api-ms-win-core-timezone-l1-1-0.dll
+
+Break signaled
+
+C:\Users\DavidHolberton\Downloads>
+
+7z x OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip   -oC:\LocalApps\
+
+C:\Users\DavidHolberton\Downloads>7z x OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip   -oC:\LocalApps\
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 191161562 bytes (183 MiB)
+
+Extracting archive: OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+--
+Path = OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+Type = zip
+Physical Size = 191161562
+
+Everything is Ok
+
+Folders: 88
+Files: 492
+Size:       318905363
+Compressed: 191161562
+
+C:\Users\DavidHolberton\Downloads>
+
+07/19/2024  08:01 AM    <DIR>          VSCode-win32-x64-1.91.1
+07/30/2024  07:51 AM    <DIR>          sts-4.24.0.RELEASE
+07/31/2024  07:14 AM    <DIR>          putty
+08/13/2024  08:46 AM    <DIR>          nginx-1.26.2
+09/05/2024  07:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/05/2024  07:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+09/05/2024  07:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+09/10/2024  03:04 PM    <DIR>          sts-4.25.0.RELEASE
+09/18/2024  11:06 AM    <DIR>          VSCode-win32-x64-1.93.1
+09/18/2024  11:34 AM    <DIR>          ideaIU-2024.2.1.win
+09/24/2024  08:32 AM    <DIR>          docker-tests
+10/09/2024  07:34 AM    <DIR>          jdk-17.0.12
+10/15/2024  09:03 PM    <DIR>          jdk-17.0.13+11
+10/21/2024  07:50 AM    <DIR>          .
+05/15/2023  07:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  12:11 PM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  07:59 AM               308 gradle.properties-save
+06/04/2023  11:57 AM               336 gradle.properties-foo
+06/05/2023  06:49 AM               315 init.gradle
+06/05/2023  07:05 AM             2,123 settings.gradle
+06/05/2024  01:45 AM       318,894,080 jdk-17_linux-x64_bin.zip
+06/05/2024  01:45 AM       318,894,080 jdk-17_linux-x64_bin.tar
+09/06/2024  09:44 AM         2,081,815 nginx-1.26.2.zip
+               9 File(s)  1,321,499,459 bytes
+              45 Dir(s)  446,858,625,024 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+10/04/2024  08:15 AM       136,715,430 gradle-8.10.2-bin.zip
+10/04/2024  08:15 AM       227,989,293 gradle-8.10.2-all.zip
+10/07/2024  06:46 AM       100,464,792 VSCodeUserSetup-x64-1.94.0.exe
+10/07/2024  06:46 AM       100,464,424 VSCodeSetup-x64-1.94.0.exe
+10/07/2024  06:46 AM       140,560,967 VSCode-win32-x64-1.94.0.zip
+10/07/2024  06:50 AM             2,188 VSCode-win32-x64-1.94.0.sha256
+10/07/2024  06:53 AM           985,088 jq-windows-amd64.exe
+10/07/2024  06:55 AM             2,129 jq-windows-amd64.exe.sha256sum.txt
+10/09/2024  07:04 AM       182,799,609 jdk-17_linux-x64_bin.tar.gz
+10/09/2024  07:04 AM                64 jdk-17_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:07 AM       197,545,777 jdk-21_linux-x64_bin.tar.gz
+10/09/2024  07:07 AM                64 jdk-21_linux-x64_bin.tar.gz.sha256
+10/09/2024  07:13 AM       207,789,015 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:15 AM                66 OpenJDK21U-jdk_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:15 AM        52,466,639 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz
+10/09/2024  07:16 AM                66 OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz.sha256
+10/09/2024  07:20 AM       192,452,655 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:21 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+10/09/2024  07:22 AM        46,398,176 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz
+10/09/2024  07:24 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.12_7.tar.gz.sha256
+10/17/2024  07:47 AM       198,242,125 zulu17.54.21-ca-jdk17.0.13-linux_x64.tar.gz
+10/17/2024  07:55 AM       195,583,839 zulu17.54.21-ca-jdk17.0.13-win_x64.zip
+10/17/2024  08:03 AM       193,433,315 amazon-corretto-17.0.13.11.1-linux-x64.tar.gz
+10/17/2024  08:03 AM       187,422,342 amazon-corretto-17.0.13.11.1-windows-x64-jdk.zip
+10/17/2024  08:10 AM       182,840,393 jdk-17.0.13_linux-x64_bin.tar.gz
+10/17/2024  08:11 AM       181,179,441 jdk-17.0.13_windows-x64_bin.zip
+10/18/2024  07:05 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:06 AM                66 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz.sha256
+10/18/2024  07:07 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:08 AM                66 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz.sha256
+10/21/2024  07:37 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/21/2024  07:38 AM                66 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip.sha256
+10/21/2024  07:38 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+10/21/2024  07:39 AM                66 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip.sha256
+             726 File(s) 115,347,043,349 bytes
+              12 Dir(s)  446,859,415,552 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd VSCode-win32-x64-1.9*.zip
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+07/01/2024  08:08 AM       139,378,832 VSCode-win32-x64-1.90.2.zip
+07/14/2024  11:31 AM       137,738,578 VSCode-win32-x64-1.91.1.zip
+08/10/2024  11:13 AM       139,519,402 VSCode-win32-x64-1.92.1.zip
+09/14/2024  06:45 AM       140,779,492 VSCode-win32-x64-1.93.1.zip
+10/07/2024  06:46 AM       140,560,967 VSCode-win32-x64-1.94.0.zip
+10/21/2024  08:04 AM       140,560,854 VSCode-win32-x64-1.94.2.zip
+               6 File(s)    838,538,125 bytes
+               0 Dir(s)  446,512,148,480 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd c:\LocalApps\*code*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of c:\LocalApps
+
+05/11/2022  06:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+05/13/2023  09:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+06/17/2023  09:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  05:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  06:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+01/09/2024  06:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+02/08/2024  07:05 AM    <DIR>          VSCode-win32-x64-1.86.0
+04/10/2024  06:24 AM    <DIR>          VSCode-win32-x64-1.88.0
+07/19/2024  08:01 AM    <DIR>          VSCode-win32-x64-1.91.1
+09/18/2024  11:06 AM    <DIR>          VSCode-win32-x64-1.93.1
+               0 File(s)              0 bytes
+              10 Dir(s)  446,802,362,368 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+mkdir C:\LocalApps\VSCode-win32-x64-1.94.2
+7z x VSCode-win32-x64-1.94.2.zip  -oC:\LocalApps\VSCode-win32-x64-1.94.2
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\Users\DavidHolberton>cd sbprojs\hellonebula
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.10.2
+------------------------------------------------------------
+
+Build time:    2024-09-23 21:28:39 UTC
+Revision:      415adb9e06a516c44b391edff552fd42139443f7
+
+Kotlin:        1.9.24
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  17.0.13 (Eclipse Adoptium 17.0.13+11)
+Daemon JVM:    C:\LocalApps\jdk-17.0.13+11 (no JDK specified, using current Java home)
+OS:            Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>set | findstr "JDK"
+JDK11=C:\LocalApps\jdk-11.0.24+8
+JDK17=C:\LocalApps\jdk-17.0.13+11
+JDK21=C:\LocalApps\jdk-21.0.4+7
+JDK8=C:\LocalApps\jdk8u422-b05
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>set | findstr -I "java"
+JAVA_HOME=C:\LocalApps\jdk-17.0.13+11
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+C:\Users\DavidHolberton\sbprojs\hellonebula>.\gradlew -q javaToolchain
+init.gradle
+
+ + Options
+     | Auto-detection:     Enabled
+     | Auto-download:      Enabled
+
+ + Eclipse Temurin JDK 1.8.0_422-b05
+     | Location:           C:\LocalApps\jdk8u422-b05
+     | Language Version:   8
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK8'
+
+ + Eclipse Temurin JDK 11.0.24+8
+     | Location:           C:\LocalApps\jdk-11.0.24+8
+     | Language Version:   11
+     | Vendor:             Eclipse Temurin
+     | Architecture:       x86
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK11'
+
+ + Eclipse Temurin JDK 17.0.13+11
+     | Location:           C:\LocalApps\jdk-17.0.13+11
+     | Language Version:   17
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        Current JVM
+
+ + Eclipse Temurin JDK 21.0.4+7-LTS
+     | Location:           C:\LocalApps\jdk-21.0.4+7
+     | Language Version:   21
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        environment variable 'JDK21'
+
+ + Eclipse Temurin JDK 21.0.4+7-LTS
+     | Location:           C:\LocalApps\.gradle\jdks\eclipse_adoptium-21-amd64-windows.2
+     | Language Version:   21
+     | Vendor:             Eclipse Temurin
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        Auto-provisioned by Gradle
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
