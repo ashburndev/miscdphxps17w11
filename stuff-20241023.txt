@@ -1,0 +1,599 @@
+7:04 AM 10/23/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241023.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2
+
+VSCode-win32-x64-1.94.2
+
+vscode_home=C:\LocalApps\VSCode-win32-x64-1.94.2
+windir=C:\WINDOWS
+ZES_ENABLE_SYSMAN=1
+
+C:\Users\DavidHolberton>echo %path%
+C:\LocalApps\jdk-17.0.12+7\bin;C:\LocalApps\VSCode-win32-x64-1.93.1\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2;C:\Users\DavidHolberton\AppData\Local\Microsoft\WindowsApps;
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://api.adoptopenjdk.net/README
+https://api.adoptium.net/q/swagger-ui/
+https://api.adoptium.net/q/swagger-ui/#/Binary/getBinary
+https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc
+https://api.adoptium.net/v3/info/available_releases
+
+curl -v -k -L --output OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz https://api.adoptium.net/v3/binary/latest/17/ga/linux/x64/jdk/hotspot/normal/eclipse
+curl -v -k -L --output OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz https://api.adoptium.net/v3/binary/latest/17/ga/linux/x64/jre/hotspot/normal/eclipse
+curl -v -k -L --output OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jdk/hotspot/normal/eclipse
+curl -v -k -L --output OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jre/hotspot/normal/eclipse
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Documents\dir-stuff\temp
+
+10/22/2024  07:51 AM    <DIR>          ..
+10/22/2024  08:05 AM    <DIR>          .
+10/22/2024  08:04 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/22/2024  08:04 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/22/2024  08:04 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/22/2024  08:04 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+               4 File(s)    473,195,073 bytes
+               2 Dir(s)  447,052,914,688 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>curl -V
+curl 8.9.1 (Windows) libcurl/8.9.1 Schannel zlib/1.3 WinIDN
+Release-Date: 2024-07-31
+Protocols: dict file ftp ftps http https imap imaps ipfs ipns mqtt pop3 pop3s smb smbs smtp smtps telnet tftp
+Features: alt-svc AsynchDNS HSTS HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM SPNEGO SSL SSPI threadsafe Unicode UnixSockets
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>curl -v -L --output OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz https://api.adoptium.net/v3/binary/latest/17/ga/linux/x64/jdk/hotspot/normal/eclipse
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host api.adoptium.net:443 was resolved.
+* IPv6: (none)
+* IPv4: 104.18.20.66, 104.18.21.66
+*   Trying 104.18.20.66:443...
+* Connected to api.adoptium.net (104.18.20.66) port 443
+* schannel: disabled automatic use of client certificate
+* ALPN: curl offers http/1.1
+* ALPN: server accepted http/1.1
+* using HTTP/1.x
+> GET /v3/binary/latest/17/ga/linux/x64/jdk/hotspot/normal/eclipse HTTP/1.1
+> Host: api.adoptium.net
+> User-Agent: curl/8.9.1
+> Accept: */*
+>
+* Request completely sent off
+* schannel: remote party requests renegotiation
+* schannel: renegotiating SSL/TLS connection
+* schannel: SSL/TLS connection renegotiated
+< HTTP/1.1 307 Temporary Redirect
+< Date: Wed, 23 Oct 2024 11:15:43 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< strict-transport-security: max-age=63072000; includeSubDomains; preload
+< x-content-type-options: nosniff
+< x-frame-options: DENY
+< Content-Encoding: identity
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+< x-pod-hostname: frontend-service-f6979b64b-bxldp
+< CF-Cache-Status: DYNAMIC
+< Server: cloudflare
+< CF-RAY: 8d714f96f82e2058-IAD
+< alt-svc: h3=":443"; ma=86400
+* Ignoring the response-body
+<
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host api.adoptium.net left intact
+* Issue another request to this URL: 'https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz'
+* Host github.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 140.82.114.4
+*   Trying 140.82.114.4:443...
+* Connected to github.com (140.82.114.4) port 443
+* schannel: disabled automatic use of client certificate
+* ALPN: curl offers http/1.1
+* ALPN: server accepted http/1.1
+* using HTTP/1.x
+> GET /adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz HTTP/1.1
+> Host: github.com
+> User-Agent: curl/8.9.1
+> Accept: */*
+>
+* Request completely sent off
+* schannel: remote party requests renegotiation
+* schannel: renegotiating SSL/TLS connection
+* schannel: SSL/TLS connection renegotiated
+* schannel: remote party requests renegotiation
+* schannel: renegotiating SSL/TLS connection
+* schannel: SSL/TLS connection renegotiated
+< HTTP/1.1 302 Found
+< Server: GitHub.com
+< Date: Wed, 23 Oct 2024 11:14:51 GMT
+< Content-Type: text/html; charset=utf-8
+< Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+< Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/372925194/53ea8a6c-9b7f-498b-80db-39fdee8e3fe2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T111451Z&X-Amz-Expires=300&X-Amz-Signature=853fa8e94fb50dee7df0ea69d797785a2d0c53b7f4517da3a57ffcc64b613378&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz&response-content-type=application%2Foctet-stream
+< Cache-Control: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< X-Frame-Options: deny
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Referrer-Policy: no-referrer-when-downgrade
+< Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
+< Content-Length: 0
+< X-GitHub-Request-Id: C2C5:F799F:46C531:631AEC:6718DADF
+* Ignoring the response-body
+<
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #1 to host github.com left intact
+* Issue another request to this URL: 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/372925194/53ea8a6c-9b7f-498b-80db-39fdee8e3fe2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T111451Z&X-Amz-Expires=300&X-Amz-Signature=853fa8e94fb50dee7df0ea69d797785a2d0c53b7f4517da3a57ffcc64b613378&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz&response-content-type=application%2Foctet-stream'
+* Host objects.githubusercontent.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 185.199.108.133, 185.199.109.133, 185.199.111.133, 185.199.110.133
+*   Trying 185.199.108.133:443...
+* Connected to objects.githubusercontent.com (185.199.108.133) port 443
+* schannel: disabled automatic use of client certificate
+* ALPN: curl offers http/1.1
+* ALPN: server accepted http/1.1
+* using HTTP/1.x
+> GET /github-production-release-asset-2e65be/372925194/53ea8a6c-9b7f-498b-80db-39fdee8e3fe2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T111451Z&X-Amz-Expires=300&X-Amz-Signature=853fa8e94fb50dee7df0ea69d797785a2d0c53b7f4517da3a57ffcc64b613378&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz&response-content-type=application%2Foctet-stream HTTP/1.1
+> Host: objects.githubusercontent.com
+> User-Agent: curl/8.9.1
+> Accept: */*
+>
+* Request completely sent off
+* schannel: remote party requests renegotiation
+* schannel: renegotiating SSL/TLS connection
+* schannel: SSL/TLS connection renegotiated
+* schannel: failed to decrypt data, need more data
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Content-Length: 191867538
+< Content-Type: application/octet-stream
+< Last-Modified: Thu, 17 Oct 2024 21:12:07 GMT
+< ETag: "0x8DCEEF05BD1D7E2"
+< Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< x-ms-request-id: 7a6632b6-001e-0015-59d9-20f6e6000000
+< x-ms-version: 2024-08-04
+< x-ms-creation-time: Thu, 17 Oct 2024 21:12:07 GMT
+< x-ms-lease-status: unlocked
+< x-ms-lease-state: available
+< x-ms-blob-type: BlockBlob
+< Content-Disposition: attachment; filename=OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+< x-ms-server-encrypted: true
+< Fastly-Restarts: 1
+< Accept-Ranges: bytes
+< Date: Wed, 23 Oct 2024 11:15:44 GMT
+< Via: 1.1 varnish
+< Age: 3057
+< X-Served-By: cache-iad-kiad7000145-IAD
+< X-Cache: HIT
+< X-Cache-Hits: 1
+< X-Timer: S1729682144.091592,VS0,VE1
+<
+* schannel: failed to decrypt data, need more data
+{ [81920 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [81920 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [32768 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [81920 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [65536 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [65536 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [49152 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [98304 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [98492 bytes data]
+* schannel: failed to decrypt data, need more data
+{ [98304 bytes data]
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Documents\dir-stuff\temp2
+
+10/23/2024  07:14 AM    <DIR>          ..
+10/23/2024  07:52 AM    <DIR>          .
+10/23/2024  07:19 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  07:51 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  07:51 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/23/2024  07:52 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+               4 File(s)    473,195,073 bytes
+               2 Dir(s)  446,537,179,136 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+curl -v -k -L --output OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz https://api.adoptium.net/v3/binary/latest/17/ga/linux/x64/jdk/hotspot/normal/eclipse
+
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+> GET                         /adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz HTTP/1.1
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://api.adoptium.net/q/swagger-ui/
+
+Binary
+GET
+/v3/binary/latest/{feature_version}/{release_type}/{os}/{arch}/{image_type}/{jvm_impl}/{heap_size}/{vendor}
+Redirects to the binary that matches your current query
+GET
+/v3/binary/version/{release_name}/{os}/{arch}/{image_type}/{jvm_impl}/{heap_size}/{vendor}
+Redirects to the binary that matches your current query
+
+curl -v -k -L --output OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11dup.tar.gz https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Documents\dir-stuff\temp2
+
+10/23/2024  07:14 AM    <DIR>          ..
+10/23/2024  07:56 AM    <DIR>          .
+10/23/2024  07:19 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  07:51 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  07:51 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/23/2024  07:52 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+10/23/2024  07:56 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11dup.tar.gz
+               5 File(s)    665,062,611 bytes
+               2 Dir(s)  446,345,809,920 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp2>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+curl -v -k -L --output OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz https://api.adoptium.net/v3/binary/latest/17/ga/linux/x64/jdk/hotspot/normal/eclipse | grep http
+curl -v -k -L --output OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz https://api.adoptium.net/v3/binary/latest/17/ga/linux/x64/jre/hotspot/normal/eclipse | grep http
+curl -v -k -L --output OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jdk/hotspot/normal/eclipse | grep http
+curl -v -k -L --output OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jre/hotspot/normal/eclipse | grep http
+
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Documents/dir-stuff/temp3$ curl -v -k -L --output OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jre/hotspot/normal/eclipse | grep http
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 104.18.20.66:443...
+* TCP_NODELAY set
+* Connected to api.adoptium.net (104.18.20.66) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [2533 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [78 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=adoptium.net
+*  start date: Oct  4 15:13:41 2024 GMT
+*  expire date: Jan  2 15:13:40 2025 GMT
+*  issuer: C=US; O=Google Trust Services; CN=WE1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+} [5 bytes data]
+* Using Stream ID: 1 (easy handle 0x557e784ee8f0)
+} [5 bytes data]
+> GET /v3/binary/latest/17/ga/windows/x64/jre/hotspot/normal/eclipse HTTP/2
+> Host: api.adoptium.net
+> user-agent: curl/7.68.0
+> accept: */*
+>
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [238 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [238 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+} [5 bytes data]
+< HTTP/2 307
+< date: Wed, 23 Oct 2024 12:06:44 GMT
+< content-length: 0
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+< strict-transport-security: max-age=63072000; includeSubDomains; preload
+< x-content-type-options: nosniff
+< x-frame-options: DENY
+< content-encoding: identity
+< x-pod-hostname: frontend-service-f6979b64b-j59hm
+< cf-cache-status: DYNAMIC
+< server: cloudflare
+< cf-ray: 8d719a50e9f12d06-IAD
+< alt-svc: h3=":443"; ma=86400
+<
+{ [0 bytes data]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host api.adoptium.net left intact
+* Issue another request to this URL: 'https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip'
+*   Trying 140.82.113.4:443...
+* TCP_NODELAY set
+* Connected to github.com (140.82.113.4) port 443 (#1)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [3137 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [78 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=github.com
+*  start date: Mar  7 00:00:00 2024 GMT
+*  expire date: Mar  7 23:59:59 2025 GMT
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo ECC Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+} [5 bytes data]
+* Using Stream ID: 1 (easy handle 0x557e784ee8f0)
+} [5 bytes data]
+> GET /adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip HTTP/2
+> Host: github.com
+> user-agent: curl/7.68.0
+> accept: */*
+>
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [57 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [57 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+} [5 bytes data]
+< HTTP/2 302
+< server: GitHub.com
+< date: Wed, 23 Oct 2024 12:06:44 GMT
+< content-type: text/html; charset=utf-8
+< vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+< location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/372925194/e10253e0-e81a-4ada-993b-b133619f60b9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T120644Z&X-Amz-Expires=300&X-Amz-Signature=c6ce14f415522ab59021d3208c40bda41e8fab2c6c8e972cf6a2c4bb21b70f85&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip&response-content-type=application%2Foctet-stream
+< cache-control: no-cache
+< strict-transport-security: max-age=31536000; includeSubdomains; preload
+< x-frame-options: deny
+< x-content-type-options: nosniff
+< x-xss-protection: 0
+< referrer-policy: no-referrer-when-downgrade
+< content-security-policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
+< content-length: 0
+< x-github-request-id: C7FC:D0ECB:1251705:19F588F:6718E6D4
+<
+{ [0 bytes data]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #1 to host github.com left intact
+* Issue another request to this URL: 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/372925194/e10253e0-e81a-4ada-993b-b133619f60b9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T120644Z&X-Amz-Expires=300&X-Amz-Signature=c6ce14f415522ab59021d3208c40bda41e8fab2c6c8e972cf6a2c4bb21b70f85&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip&response-content-type=application%2Foctet-stream'
+*   Trying 185.199.108.133:443...
+* TCP_NODELAY set
+* Connected to objects.githubusercontent.com (185.199.108.133) port 443 (#2)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [3099 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=*.github.io
+*  start date: Mar 15 00:00:00 2024 GMT
+*  expire date: Mar 14 23:59:59 2025 GMT
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+} [5 bytes data]
+* Using Stream ID: 1 (easy handle 0x557e784ee8f0)
+} [5 bytes data]
+> GET /github-production-release-asset-2e65be/372925194/e10253e0-e81a-4ada-993b-b133619f60b9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T120644Z&X-Amz-Expires=300&X-Amz-Signature=c6ce14f415522ab59021d3208c40bda41e8fab2c6c8e972cf6a2c4bb21b70f85&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DOpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip&response-content-type=application%2Foctet-stream HTTP/2
+> Host: objects.githubusercontent.com
+> user-agent: curl/7.68.0
+> accept: */*
+>
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [193 bytes data]
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+} [5 bytes data]
+< HTTP/2 200
+< content-type: application/octet-stream
+< last-modified: Tue, 22 Oct 2024 14:46:24 GMT
+< etag: "0x8DCF2A84D5F3814"
+< server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+< x-ms-request-id: 9d9c5f4b-b01e-0000-4e91-24e155000000
+< x-ms-version: 2024-08-04
+< x-ms-creation-time: Tue, 22 Oct 2024 14:46:24 GMT
+< x-ms-lease-status: unlocked
+< x-ms-lease-state: available
+< x-ms-blob-type: BlockBlob
+< content-disposition: attachment; filename=OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+< x-ms-server-encrypted: true
+< accept-ranges: bytes
+< date: Wed, 23 Oct 2024 12:06:44 GMT
+< via: 1.1 varnish
+< age: 1200
+< x-served-by: cache-iad-kiad7000166-IAD
+< x-cache: HIT
+< x-cache-hits: 1
+< x-timer: S1729685205.790189,VS0,VE1
+< content-length: 44083354
+<
+{ [5 bytes data]
+100 42.0M  100 42.0M    0     0  48.7M      0 --:--:-- --:--:-- --:--:-- 66.7M
+* Connection #2 to host objects.githubusercontent.com left intact
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Documents/dir-stuff/temp3$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Documents/dir-stuff/temp3$ ls -latr
+total 462112
+drwxrwxrwx 1 davidho davidho       512 Oct 23 08:00 ..
+-rwxrwxrwx 1 davidho davidho 191867538 Oct 23 08:02 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+-rwxrwxrwx 1 davidho davidho  46082619 Oct 23 08:04 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+-rwxrwxrwx 1 davidho davidho 191161562 Oct 23 08:05 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+drwxrwxrwx 1 davidho davidho       512 Oct 23 08:06 .
+-rwxrwxrwx 1 davidho davidho  44083354 Oct 23 08:06 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Documents/dir-stuff/temp3$
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp3>
+C:\Users\DavidHolberton\Documents\dir-stuff\temp3>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Documents\dir-stuff\temp3
+
+10/23/2024  08:00 AM    <DIR>          ..
+10/23/2024  08:06 AM    <DIR>          .
+10/23/2024  08:02 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  08:04 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  08:05 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/23/2024  08:06 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+               4 File(s)    473,195,073 bytes
+               2 Dir(s)  445,860,691,968 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp3>
+C:\Users\DavidHolberton\Documents\dir-stuff\temp3>
+
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+< location: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+
+curl -s -L -O https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+curl -s -L -O https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+curl -s -L -O https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+curl -s -L -O https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp4>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Documents\dir-stuff\temp4
+
+10/23/2024  08:12 AM    <DIR>          ..
+10/23/2024  08:17 AM    <DIR>          .
+10/23/2024  08:15 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  08:16 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/23/2024  08:17 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/23/2024  08:17 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+               4 File(s)    473,195,073 bytes
+               2 Dir(s)  445,384,691,712 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp4>
+
+10/18/2024  07:05 AM       191,867,538 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+10/18/2024  07:07 AM        46,082,619 OpenJDK17U-jre_x64_linux_hotspot_17.0.13_11.tar.gz
+10/21/2024  07:37 AM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
+10/21/2024  07:38 AM        44,083,354 OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip
+
+curl -s -O https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp5>curl -s -O https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp5>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Documents\dir-stuff\temp5
+
+10/23/2024  08:20 AM    <DIR>          .
+10/23/2024  08:20 AM    <DIR>          ..
+10/23/2024  08:20 AM                 0 OpenJDK17U-jdk_x64_linux_hotspot_17.0.13_11.tar.gz
+               1 File(s)              0 bytes
+               2 Dir(s)  445,362,130,944 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff\temp5>
+
