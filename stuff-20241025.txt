@@ -1,0 +1,87 @@
+8:26 AM 10/25/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241025.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>dir d:\
+ Volume in drive D has no label.
+ Volume Serial Number is 5EC2-0C8A
+
+ Directory of d:\
+
+07/14/2016  07:06 PM    <DIR>          SanDiskSecureAccess
+02/05/2015  11:47 AM        16,024,600 RunSanDiskSecureAccess_Win.exe
+               1 File(s)     16,024,600 bytes
+               1 Dir(s)  31,447,875,584 bytes free
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+D:\>
+D:\>dir /o:gd /s d:\
+ Volume in drive D has no label.
+ Volume Serial Number is 5EC2-0C8A
+
+ Directory of d:\
+
+07/14/2016  07:06 PM    <DIR>          SanDiskSecureAccess
+10/24/2024  09:41 PM    <DIR>          HPSCANS
+02/05/2015  11:47 AM        16,024,600 RunSanDiskSecureAccess_Win.exe
+               1 File(s)     16,024,600 bytes
+
+ Directory of d:\SanDiskSecureAccess
+
+08/03/2016  12:33 PM    <DIR>          ..
+08/03/2016  12:33 PM    <DIR>          .
+02/09/2015  06:09 PM           355,233 DownloadSanDiskSecureAccess_Mac.pdf
+02/10/2015  12:48 AM         2,676,267 SanDisk_SecureAccess_QSG.pdf
+               2 File(s)      3,031,500 bytes
+
+ Directory of d:\System Volume Information
+
+04/18/2023  08:03 AM    <DIR>          ..
+04/18/2023  08:03 AM    <DIR>          .
+04/18/2023  08:03 AM                76 IndexerVolumeGuid
+04/18/2023  08:03 AM                12 WPSettings.dat
+               2 File(s)             88 bytes
+
+ Directory of d:\HPSCANS
+
+10/24/2024  09:41 PM    <DIR>          ..
+10/24/2024  09:41 PM    <DIR>          .
+10/24/2024  09:41 PM           511,347 gdit-oci-document-signed.pdf
+10/24/2024  09:41 PM           511,347 scan.pdf
+               2 File(s)      1,022,694 bytes
+
+     Total Files Listed:
+               7 File(s)     20,078,882 bytes
+               8 Dir(s)  31,446,810,624 bytes free
+
+D:\>c:
+
+C:\Users\DavidHolberton>
+

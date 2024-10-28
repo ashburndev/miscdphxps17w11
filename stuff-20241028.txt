@@ -1,0 +1,336 @@
+7:29 AM 10/28/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241028.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.93.1
+38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+vscode_home=C:\LocalApps\VSCode-win32-x64-1.94.2
+
+Path=C:\LocalApps\jdk-17.0.12+7\bin;C:\LocalApps\VSCode-win32-x64-1.93.1\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2;C:\Users\DavidHolberton\AppData\Local\Microsoft\WindowsApps;
+
+%JAVA_HOME%\bin;%vscode_home%\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2
+
+... why do I have to do this ???  ... use C:\LocalApps\VSCode-win32-x64-1.94.2\bin instead of %vscode_home%\bin
+
+%JAVA_HOME%\bin;C:\LocalApps\VSCode-win32-x64-1.94.2\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://stackoverflow.com/questions/59556405/provide-spring-boot-git-and-build-information-via-actuator-info-endpoint-when-u
+https://dzone.com/articles/magic-with-spring-boot-actuator
+https://reflectoring.io/spring-boot-info-endpoint/
+https://www.pkslow.com/docs/en/springboot-actuator-git-build-info/
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\sbprojs\hellonebula
+code .
+.\gradlew clean bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+with only these two lines in C:\Users\DavidHolberton\sbprojs\hellonebula\src\main\resources\application.properties
+
+spring.application.name=hellonebula
+management.endpoints.web.exposure.include=*
+
+o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+with only these three lines in C:\Users\DavidHolberton\sbprojs\hellonebula\src\main\resources\application.properties
+
+spring.application.name=hellonebula
+management.endpoints.web.exposure.include=*
+management.info.java.enabled = true
+
+o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{
+  "java": {
+    "version": "17.0.13",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.13+11"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.13+11"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.13+11"
+    }
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+with only these three lines in C:\Users\DavidHolberton\sbprojs\hellonebula\src\main\resources\application.properties
+
+spring.application.name=hellonebula
+management.endpoints.web.exposure.include=*
+management.info.os.enabled = true
+
+o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+with only these three lines in C:\Users\DavidHolberton\sbprojs\hellonebula\src\main\resources\application.properties
+
+spring.application.name=hellonebula
+management.endpoints.web.exposure.include=*
+management.info.process.enabled = true
+
+o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{
+  "process": {
+    "pid": 30976,
+    "parentPid": 52968,
+    "owner": "DPHXPS17\\DavidHolberton",
+    "cpus": 16
+  }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+with only these two lines in C:\Users\DavidHolberton\sbprojs\hellonebula\src\main\resources\application.properties
+
+spring.application.name=hellonebula
+management.endpoints.web.exposure.include=*
+
+and with these three lines added to C:\Users\DavidHolberton\sbprojs\hellonebula\build.gradle
+
+springBoot {
+    buildInfo()
+}
+
+o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{
+  "build": {
+    "artifact": "hellonebula",
+    "name": "hellonebula",
+    "time": "2024-10-28T12:10:41.628Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "com.ashburncode"
+  }
+}
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+... still not getting git info ???
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.17538802436308372632
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.17538802436308372632
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\Users\DavidHolberton\sbprojs\hellonebula
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>curl -s http://localhost:8080/actuator/info | jq
+{
+  "build": {
+    "artifact": "hellonebula",
+    "name": "hellonebula",
+    "time": "2024-10-28T12:54:38.398Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "com.ashburncode"
+  },
+  "java": {
+    "version": "17.0.13",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.13+11"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.13+11"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.13+11"
+    }
+  },
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  },
+  "process": {
+    "pid": 56852,
+    "parentPid": 52968,
+    "owner": "DPHXPS17\\DavidHolberton",
+    "cpus": 16
+  }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    src/main/java/com/ashburncode/hellonebula/HelloController.java -> src/main/java/com/ashburncode/hellonebula/SyspropsController.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   build.gradle
+        modified:   src/main/java/com/ashburncode/hellonebula/SyspropsController.java
+        modified:   src/main/resources/application.properties
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git add .
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git commit -a -m "testing actuator info endpoint"
+[main a5312a4] testing actuator info endpoint
+ 3 files changed, 18 insertions(+), 9 deletions(-)
+ rename src/main/java/com/ashburncode/hellonebula/{HelloController.java => SyspropsController.java} (93%)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git push
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (12/12), 2.18 KiB | 2.18 MiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:ashburndev/hellonebula.git
+   5622047..a5312a4  main -> main
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/main/resources/application.properties
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git add .
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/main/resources/application.properties
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git commit -a -m "wip git output in actuator info endpoint"
+[main c1fab3e] wip git output in actuator info endpoint
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 517 bytes | 517.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:ashburndev/hellonebula.git
+   a5312a4..c1fab3e  main -> main
+
+C:\Users\DavidHolberton\sbprojs\hellonebula>
+
