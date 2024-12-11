@@ -1,0 +1,518 @@
+7:13 AM 12/11/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241209.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Share your configuration
+  Use this link to share the current configuration. Attributes can be removed from the URL if you want to rely on our defaults.
+
+    https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.4.0&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=helloneb340&name=helloneb340&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.helloneb340&dependencies=web,actuator,devtools,lombok,data-jpa,data-rest,mysql,h2
+
+    12/09/2024  05:50 PM            53,357 helloneb340.zip
+    12/09/2024  05:51 PM            53,356 helloneb336.zip
+
+    https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.4.0&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=helloneb340b&name=helloneb340b&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.helloneb340b&dependencies=web,actuator,devtools,lombok,data-jpa,data-rest,mysql,h2,security,oauth2-client,oauth2-authorization-server,oauth2-resource-server
+
+    10/02/2024  07:01 AM            53,060 hellonebula.zip
+    12/09/2024  05:50 PM            53,357 helloneb340.zip
+    12/09/2024  05:51 PM            53,356 helloneb336.zip
+    12/11/2024  07:28 AM            53,631 helloneb340b.zip
+
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:ashburndev/helloneb340.git
+git branch -M main
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:ashburndev/helloneb340b.git
+git branch -M main
+git push -u origin main
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.3.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact: hellonebula
+    Name: hellonebula
+    Description: Spring Boot application with gradle build, jar packaging, and java 17
+    Program name: com.ashburncode.sb334grajar17
+    Packaging: Jar
+    Java: 17
+  Dependencies
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    Spring Boot DevTools Developer Tools
+      Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+    Lombok Developer Tools
+      Java annotation library which helps to reduce boilerplate code.
+    Spring Data JPA SQL
+      Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+    Rest Repositories Web
+      Exposing Spring Data repositories over REST via Spring Data REST.
+    MySQL Driver SQL
+      MySQL JDBC driver.
+    H2 Database SQL
+      Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application.
+    Spring Security Security
+      Highly customizable authentication and access-control framework for Spring applications.
+    OAuth2 Client Security
+      Spring Boot integration for Spring Security's OAuth2/OpenID Connect client features.
+    OAuth2 Authorization Server Security
+      Spring Boot integration for Spring Authorization Server.
+    OAuth2 Resource Server Security
+      Spring Boot integration for Spring Security's OAuth2 resource server features.
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>dir /o:gd helloneb*.zip
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+10/02/2024  07:01 AM            53,060 hellonebula.zip
+12/09/2024  05:50 PM            53,357 helloneb340.zip
+12/09/2024  05:51 PM            53,356 helloneb336.zip
+12/11/2024  07:28 AM            53,631 helloneb340b.zip
+               4 File(s)        213,404 bytes
+               0 Dir(s)  437,435,482,112 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+copy C:\Users\DavidHolberton\Downloads\helloneb340.zip C:\Users\DavidHolberton\sbprojs
+cd C:\Users\DavidHolberton\sbprojs
+7z l helloneb340.zip > helloneb340-7z-listing.txt
+7z x helloneb340.zip
+cd helloneb340
+dir /o:gn
+tree /a /f
+java -version
+javac -version
+echo %java_home%%
+echo %gradle_user_home%
+.\gradlew dependencies > helloneb340-dependencies.txt
+
+C:\Users\DavidHolberton\sbprojs\helloneb340>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\helloneb340
+
+12/09/2024  05:49 PM    <DIR>          .
+12/11/2024  07:39 AM    <DIR>          ..
+12/09/2024  05:49 PM    <DIR>          gradle
+12/09/2024  05:49 PM    <DIR>          src
+12/09/2024  05:49 PM                54 .gitattributes
+12/09/2024  05:49 PM               444 .gitignore
+12/09/2024  05:49 PM             1,067 build.gradle
+12/09/2024  05:49 PM             8,762 gradlew
+12/09/2024  05:49 PM             2,966 gradlew.bat
+12/09/2024  05:49 PM             1,952 HELP.md
+12/09/2024  05:49 PM                33 settings.gradle
+               7 File(s)         15,278 bytes
+               4 Dir(s)  433,455,484,928 bytes free
+
+C:\Users\DavidHolberton\sbprojs\helloneb340>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   .gitattributes
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   HELP.md
+|   settings.gradle
+|
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---com
+    |   |       \---ashburncode
+    |   |           \---helloneb340
+    |   |                   Helloneb340Application.java
+    |   |
+    |   \---resources
+    |       |   application.properties
+    |       |
+    |       +---static
+    |       \---templates
+    \---test
+        \---java
+            \---com
+                \---ashburncode
+                    \---helloneb340
+                            Helloneb340ApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs\helloneb340>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+copy C:\Users\DavidHolberton\Downloads\helloneb340b.zip C:\Users\DavidHolberton\sbprojs
+cd C:\Users\DavidHolberton\sbprojs
+7z l helloneb340b.zip > helloneb340b-7z-listing.txt
+7z x helloneb340b.zip
+cd helloneb340b
+dir /o:gn
+tree /a /f
+java -version
+javac -version
+echo %java_home%%
+echo %gradle_user_home%
+.\gradlew dependencies > helloneb340b-dependencies.txt
+
+C:\Users\DavidHolberton\sbprojs\helloneb340b>dir /o:gn
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\helloneb340b
+
+12/11/2024  07:24 AM    <DIR>          .
+12/11/2024  07:46 AM    <DIR>          ..
+12/11/2024  07:24 AM    <DIR>          gradle
+12/11/2024  07:24 AM    <DIR>          src
+12/11/2024  07:24 AM                54 .gitattributes
+12/11/2024  07:24 AM               444 .gitignore
+12/11/2024  07:24 AM             1,465 build.gradle
+12/11/2024  07:24 AM             8,762 gradlew
+12/11/2024  07:24 AM             2,966 gradlew.bat
+12/11/2024  07:24 AM             2,695 HELP.md
+12/11/2024  07:24 AM                34 settings.gradle
+               7 File(s)         16,420 bytes
+               4 Dir(s)  437,054,255,104 bytes free
+
+C:\Users\DavidHolberton\sbprojs\helloneb340b>tree /a /f
+Folder PATH listing for volume OS
+Volume serial number is 38E4-68D8
+C:.
+|   .gitattributes
+|   .gitignore
+|   build.gradle
+|   gradlew
+|   gradlew.bat
+|   HELP.md
+|   settings.gradle
+|
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|
+\---src
+    +---main
+    |   +---java
+    |   |   \---com
+    |   |       \---ashburncode
+    |   |           \---helloneb340b
+    |   |                   Helloneb340bApplication.java
+    |   |
+    |   \---resources
+    |       |   application.properties
+    |       |
+    |       +---static
+    |       \---templates
+    \---test
+        \---java
+            \---com
+                \---ashburncode
+                    \---helloneb340b
+                            Helloneb340bApplicationTests.java
+
+C:\Users\DavidHolberton\sbprojs\helloneb340b>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+compileClasspath - Compile classpath for source set 'main'.
+
++--- org.springframework.boot:spring-boot-starter-oauth2-authorization-server -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter-web:3.4.0 (*)
+|    \--- org.springframework.security:spring-security-oauth2-authorization-server:1.4.0
+|         +--- org.springframework.security:spring-security-config:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1
+|         |    |    +--- org.springframework.security:spring-security-crypto:6.4.1
+|         |    |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-expression:6.2.0 (*)
+|         |    |    \--- io.micrometer:micrometer-observation:1.14.1 (*)
+|         |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    \--- org.springframework:spring-core:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-web:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    +--- org.springframework:spring-expression:6.2.0 (*)
+|         |    \--- org.springframework:spring-web:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-oauth2-core:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    \--- org.springframework:spring-web:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-oauth2-jose:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    \--- com.nimbusds:nimbus-jose-jwt:9.37.3 -> 9.47
+|         +--- org.springframework.security:spring-security-oauth2-resource-server:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-web:6.4.1 (*)
+|         |    \--- org.springframework:spring-core:6.2.0 (*)
+|         +--- org.springframework:spring-core:6.2.0 (*)
+|         +--- com.nimbusds:nimbus-jose-jwt:9.47
+|         \--- com.fasterxml.jackson.core:jackson-databind:2.18.1 (*)
++--- org.springframework.boot:spring-boot-starter-oauth2-client -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-oauth2-client:6.4.1
+|    |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|    |    +--- org.springframework.security:spring-security-web:6.4.1 (*)
+|    |    +--- org.springframework:spring-core:6.2.0 (*)
+|    |    \--- com.nimbusds:oauth2-oidc-sdk:9.43.4
+|    |         +--- com.github.stephenc.jcip:jcip-annotations:1.0-1
+|    |         +--- com.nimbusds:content-type:2.2
+|    |         +--- net.minidev:json-smart:[1.3.3,2.4.10] -> 2.5.1
+|    |         |    \--- net.minidev:accessors-smart:2.5.1
+|    |         |         \--- org.ow2.asm:asm:9.6
+|    |         +--- com.nimbusds:lang-tag:1.7
+|    |         \--- com.nimbusds:nimbus-jose-jwt:9.37.3 -> 9.47
+|    \--- org.springframework.security:spring-security-oauth2-jose:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-oauth2-resource-server -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-oauth2-resource-server:6.4.1 (*)
+|    \--- org.springframework.security:spring-security-oauth2-jose:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-security -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework:spring-aop:6.2.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    \--- org.springframework.security:spring-security-web:6.4.1 (*)
+
+developmentOnly - Configuration for development-only dependencies such as Spring Boot's DevTools.
+
++--- org.springframework.boot:spring-boot-starter-oauth2-authorization-server (n)
++--- org.springframework.boot:spring-boot-starter-oauth2-client (n)
++--- org.springframework.boot:spring-boot-starter-oauth2-resource-server (n)
++--- org.springframework.boot:spring-boot-starter-security (n)
+
+productionRuntimeClasspath
+
++--- org.springframework.boot:spring-boot-starter-oauth2-authorization-server -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter-web:3.4.0 (*)
+|    \--- org.springframework.security:spring-security-oauth2-authorization-server:1.4.0
+|         +--- org.springframework.security:spring-security-config:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1
+|         |    |    +--- org.springframework.security:spring-security-crypto:6.4.1
+|         |    |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-expression:6.2.0 (*)
+|         |    |    \--- io.micrometer:micrometer-observation:1.14.1 (*)
+|         |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    \--- org.springframework:spring-core:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-web:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    +--- org.springframework:spring-expression:6.2.0 (*)
+|         |    \--- org.springframework:spring-web:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-oauth2-core:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    \--- org.springframework:spring-web:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-oauth2-jose:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    \--- com.nimbusds:nimbus-jose-jwt:9.37.3 -> 9.47
+|         +--- org.springframework.security:spring-security-oauth2-resource-server:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-web:6.4.1 (*)
+|         |    \--- org.springframework:spring-core:6.2.0 (*)
+|         +--- org.springframework:spring-core:6.2.0 (*)
+|         +--- com.nimbusds:nimbus-jose-jwt:9.47
+|         \--- com.fasterxml.jackson.core:jackson-databind:2.18.1 (*)
++--- org.springframework.boot:spring-boot-starter-oauth2-client -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-oauth2-client:6.4.1
+|    |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|    |    +--- org.springframework.security:spring-security-web:6.4.1 (*)
+|    |    +--- org.springframework:spring-core:6.2.0 (*)
+|    |    \--- com.nimbusds:oauth2-oidc-sdk:9.43.4
+|    |         +--- com.github.stephenc.jcip:jcip-annotations:1.0-1
+|    |         +--- com.nimbusds:content-type:2.2
+|    |         +--- net.minidev:json-smart:[1.3.3,2.4.10] -> 2.5.1 (*)
+|    |         +--- com.nimbusds:lang-tag:1.7
+|    |         \--- com.nimbusds:nimbus-jose-jwt:9.37.3 -> 9.47
+|    \--- org.springframework.security:spring-security-oauth2-jose:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-oauth2-resource-server -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-oauth2-resource-server:6.4.1 (*)
+|    \--- org.springframework.security:spring-security-oauth2-jose:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-security -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework:spring-aop:6.2.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    \--- org.springframework.security:spring-security-web:6.4.1 (*)
+
+testCompileClasspath - Compile classpath for source set 'test'.
+
++--- org.springframework.boot:spring-boot-starter-oauth2-authorization-server -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter-web:3.4.0 (*)
+|    \--- org.springframework.security:spring-security-oauth2-authorization-server:1.4.0
+|         +--- org.springframework.security:spring-security-config:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1
+|         |    |    +--- org.springframework.security:spring-security-crypto:6.4.1
+|         |    |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    |    +--- org.springframework:spring-expression:6.2.0 (*)
+|         |    |    \--- io.micrometer:micrometer-observation:1.14.1 (*)
+|         |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    \--- org.springframework:spring-core:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-web:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    +--- org.springframework:spring-aop:6.2.0 (*)
+|         |    +--- org.springframework:spring-beans:6.2.0 (*)
+|         |    +--- org.springframework:spring-context:6.2.0 (*)
+|         |    +--- org.springframework:spring-expression:6.2.0 (*)
+|         |    \--- org.springframework:spring-web:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-oauth2-core:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    \--- org.springframework:spring-web:6.2.0 (*)
+|         +--- org.springframework.security:spring-security-oauth2-jose:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|         |    +--- org.springframework:spring-core:6.2.0 (*)
+|         |    \--- com.nimbusds:nimbus-jose-jwt:9.37.3 -> 9.47
+|         +--- org.springframework.security:spring-security-oauth2-resource-server:6.4.0 -> 6.4.1
+|         |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|         |    +--- org.springframework.security:spring-security-web:6.4.1 (*)
+|         |    \--- org.springframework:spring-core:6.2.0 (*)
+|         +--- org.springframework:spring-core:6.2.0 (*)
+|         +--- com.nimbusds:nimbus-jose-jwt:9.47
+|         \--- com.fasterxml.jackson.core:jackson-databind:2.18.1 (*)
++--- org.springframework.boot:spring-boot-starter-oauth2-client -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-oauth2-client:6.4.1
+|    |    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    |    +--- org.springframework.security:spring-security-oauth2-core:6.4.1 (*)
+|    |    +--- org.springframework.security:spring-security-web:6.4.1 (*)
+|    |    +--- org.springframework:spring-core:6.2.0 (*)
+|    |    \--- com.nimbusds:oauth2-oidc-sdk:9.43.4
+|    |         +--- com.github.stephenc.jcip:jcip-annotations:1.0-1
+|    |         +--- com.nimbusds:content-type:2.2
+|    |         +--- net.minidev:json-smart:[1.3.3,2.4.10] -> 2.5.1
+|    |         |    \--- net.minidev:accessors-smart:2.5.1
+|    |         |         \--- org.ow2.asm:asm:9.6
+|    |         +--- com.nimbusds:lang-tag:1.7
+|    |         \--- com.nimbusds:nimbus-jose-jwt:9.37.3 -> 9.47
+|    \--- org.springframework.security:spring-security-oauth2-jose:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-oauth2-resource-server -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-core:6.4.1 (*)
+|    +--- org.springframework.security:spring-security-oauth2-resource-server:6.4.1 (*)
+|    \--- org.springframework.security:spring-security-oauth2-jose:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-security -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework:spring-aop:6.2.0 (*)
+|    +--- org.springframework.security:spring-security-config:6.4.1 (*)
+|    \--- org.springframework.security:spring-security-web:6.4.1 (*)
++--- org.springframework.boot:spring-boot-starter-web -> 3.4.0 (*)
++--- org.springframework.boot:spring-boot-starter-test -> 3.4.0
+|    +--- org.springframework.boot:spring-boot-starter:3.4.0 (*)
+|    +--- org.springframework.boot:spring-boot-test:3.4.0
+|    |    +--- org.springframework.boot:spring-boot:3.4.0 (*)
+|    |    \--- org.springframework:spring-test:6.2.0
+|    |         \--- org.springframework:spring-core:6.2.0 (*)
+|    +--- org.springframework.boot:spring-boot-test-autoconfigure:3.4.0
+|    |    +--- org.springframework.boot:spring-boot:3.4.0 (*)
+|    |    +--- org.springframework.boot:spring-boot-test:3.4.0 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:3.4.0 (*)
+|    +--- com.jayway.jsonpath:json-path:2.9.0
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.2
+|    |    \--- jakarta.activation:jakarta.activation-api:2.1.3
+|    +--- net.minidev:json-smart:2.5.1 (*)
+|    +--- org.assertj:assertj-core:3.26.3
+|    |    \--- net.bytebuddy:byte-buddy:1.14.18 -> 1.15.10
+|    +--- org.awaitility:awaitility:4.2.2
+|    |    \--- org.hamcrest:hamcrest:2.1 -> 2.2
+|    +--- org.hamcrest:hamcrest:2.2
+|    +--- org.junit.jupiter:junit-jupiter:5.11.3
+|    |    +--- org.junit:junit-bom:5.11.3
+|    |    |    +--- org.junit.jupiter:junit-jupiter:5.11.3 (c)
+|    |    |    +--- org.junit.jupiter:junit-jupiter-api:5.11.3 (c)
+|    |    |    +--- org.junit.jupiter:junit-jupiter-params:5.11.3 (c)
+|    |    |    \--- org.junit.platform:junit-platform-commons:1.11.3 (c)
+|    |    +--- org.junit.jupiter:junit-jupiter-api:5.11.3
+

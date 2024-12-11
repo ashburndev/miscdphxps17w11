@@ -1,0 +1,177 @@
+4:52 PM 12/9/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241209.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+Version 1.95 is now available! Read about the new features and fixes from October.
+https://code.visualstudio.com/updates/v1_95
+October 2024 (version 1.95)
+
+https://code.visualstudio.com/docs/languages/java
+
+  Amazon Corretto
+  Azul Zulu
+  Eclipse Adoptium's Temurin
+    https://adoptium.net/
+      https://adoptium.net/temurin/releases/?os=windows&arch=x64&package=jdk&version=17
+        17.0.13+11Temurin
+        AQAvit logoOctober 22, 2024	Windows	x64	
+        .msi JDK - 168 MB  Checksum
+        .zip DK - 191 MB  Checksum
+          12/09/2024  05:08 PM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11(1).zip
+  IBM Semeru Runtimes
+  Microsoft Build of OpenJDK
+  Oracle Java SE
+    https://www.oracle.com/java/technologies/downloads/
+    JDK Development Kit 23.0.1 downloads
+    JDK Development Kit 21.0.5 downloads
+    JDK Development Kit 17.0.13 downloads
+    Java SE Development Kit 11.0.25
+    Java SE Development Kit 8u431
+  Red Hat build of OpenJDK
+  SapMachine
+
+https://www.eclipse.org/downloads/packages/release/2024-12/r
+  12/09/2024  05:12 PM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64.zip
+  12/09/2024  05:14 PM               170 eclipse-jee-2024-12-R-win32-x86_64.zip.sha512
+  12/09/2024  05:15 PM       356,492,981 eclipse-java-2024-12-R-win32-x86_64.zip
+  12/09/2024  05:17 PM               171 eclipse-java-2024-12-R-win32-x86_64.zip.sha512
+
+https://spring.io/tools
+  10/16/2022  10:39 AM       600,722,077 spring-tool-suite-4-4.16.0.RELEASE-e4.25.0-win32.win32.x86_64.self-extracting.jar
+  05/10/2023  06:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+  06/19/2023  03:41 AM       607,189,124 spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+  08/30/2023  06:29 AM       599,338,501 spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+  01/09/2024  06:34 AM       642,641,044 spring-tool-suite-4-4.21.0.RELEASE-e4.30.0-win32.win32.x86_64.self-extracting.jar
+  04/16/2024  05:35 AM       655,114,210 spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+  05/12/2024  08:24 AM       674,830,372 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-linux.gtk.x86_64.tar.gz
+  05/12/2024  08:26 AM       659,709,638 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+  07/01/2024  07:21 AM       681,019,289 spring-tool-suite-4-4.23.1.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+  07/30/2024  06:20 AM       680,035,403 spring-tool-suite-4-4.24.0.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+  09/18/2024  09:36 AM       699,557,523 spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64.zip
+  12/09/2024  05:19 PM       737,409,017 spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64.zip
+
+https://www.jetbrains.com/idea/download/?section=windows
+  Version: 2024.3.1
+  Build: 243.22562.145
+  8 December 2024
+    12/09/2024  05:27 PM     1,575,377,998 ideaIU-2024.3.1.win.zip
+    12/09/2024  05:27 PM                90 ideaIU-2024.3.1.win.zip.sha256
+    12/09/2024  05:28 PM       959,143,656 ideaIC-2024.3.1.win.zip
+    12/09/2024  05:28 PM                90 ideaIC-2024.3.1.win.zip.sha256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Documents\dir-stuff\stuff-20241002.txt
+
+https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.3.4&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=hellonebula&name=hellonebula&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.hellonebula&dependencies=web,actuator,devtools,lombok,data-jpa,data-rest,mysql,h2
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.4&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=hellonebula&name=hellonebula&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.hellonebula&dependencies=web,actuator,devtools,lombok,data-jpa,data-rest,mysql,h2
+
+https://start.spring.io/
+
+3.3.4 and 3.2.10
+gradle or maven
+java 17 or Java 21
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.3.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact: hellonebula
+    Name: hellonebula
+    Description: Spring Boot application with gradle build, jar packaging, and java 17
+    Program name: com.ashburncode.sb334grajar17
+    Packaging: Jar
+    Java: 17
+  Dependencies:
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    Spring Boot DevTools Developer Tools
+      Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+    Lombok Developer Tools
+      Java annotation library which helps to reduce boilerplate code.
+    Spring Data JPA SQL
+      Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+    Rest Repositories Web
+      Exposing Spring Data repositories over REST via Spring Data REST.
+    MySQL Driver SQL
+      MySQL JDBC driver.
+    H2 Database SQL
+      Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://start.spring.io/
+
+3.4.0 and 3.2.10
+gradle or maven
+java 17 or Java 21
+
+  Project: Gradle - Groovy
+  Language: Java
+  Spring Boot: 3.3.4
+  Project Metadata:
+    Group: com.ashburncode
+    Artifact: helloneb340
+    Name: helloneb340
+    Description: Spring Boot application with gradle build, jar packaging, and java 17
+    Program name: com.ashburncode.helloneb340
+    Packaging: Jar
+    Java: 17
+  Dependencies:
+    Spring Web Web
+      Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    Spring Boot Actuator Ops
+      Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+    Spring Boot DevTools Developer Tools
+      Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+    Lombok Developer Tools
+      Java annotation library which helps to reduce boilerplate code.
+    Spring Data JPA SQL
+      Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+    Rest Repositories Web
+      Exposing Spring Data repositories over REST via Spring Data REST.
+    MySQL Driver SQL
+      MySQL JDBC driver.
+    H2 Database SQL
+      Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application.
+
+Bookmark
+  Project Gradle - Groovy, Language Java, Spring Boot 3.4.0Dependencies: Spring Web, Spring Boot Actuator, Spring Boot DevTools, Lombok, Spring Data JPA, Rest Repositories, MySQL Driver, H2 Database
+Name
+  Bookmark 12/9/2024 17:46
+
+Share your configuration
+  Use this link to share the current configuration. Attributes can be removed from the URL if you want to rely on our defaults.
+
+    https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.4.0&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=helloneb340&name=helloneb340&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.helloneb340&dependencies=web,actuator,devtools,lombok,data-jpa,data-rest,mysql,h2
+
+    https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.3.6&packaging=jar&jvmVersion=17&groupId=com.ashburncode&artifactId=helloneb336&name=helloneb336&description=Spring%20Boot%20application%20with%20gradle%20build%2C%20jar%20packaging%2C%20and%20java%2017&packageName=com.ashburncode.helloneb336&dependencies=web,actuator,devtools,lombok,data-jpa,data-rest,mysql,h2
+
+    12/09/2024  05:50 PM            53,357 helloneb340.zip
+    12/09/2024  05:51 PM            53,356 helloneb336.zip
