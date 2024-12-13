@@ -1,0 +1,56 @@
+7:09 PM 12/12/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241212.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download
+
+11/14/2024  08:57 AM       103,356,872 VSCodeUserSetup-x64-1.95.2.exe
+11/14/2024  08:57 AM       103,356,496 VSCodeSetup-x64-1.95.2.exe
+11/14/2024  08:58 AM       144,703,179 VSCode-win32-x64-1.95.2.zip
+12/09/2024  05:08 PM       191,161,562 OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11(1).zip
+12/09/2024  05:12 PM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64.zip
+12/09/2024  05:14 PM               170 eclipse-jee-2024-12-R-win32-x86_64.zip.sha512
+12/09/2024  05:15 PM       356,492,981 eclipse-java-2024-12-R-win32-x86_64.zip
+12/09/2024  05:17 PM               171 eclipse-java-2024-12-R-win32-x86_64.zip.sha512
+12/09/2024  05:19 PM       737,409,017 spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64.zip
+12/09/2024  05:27 PM     1,575,377,998 ideaIU-2024.3.1.win.zip
+12/09/2024  05:27 PM                90 ideaIU-2024.3.1.win.zip.sha256
+12/09/2024  05:28 PM       959,143,656 ideaIC-2024.3.1.win.zip
+12/09/2024  05:28 PM                90 ideaIC-2024.3.1.win.zip.sha256
+12/09/2024  05:50 PM            53,357 helloneb340.zip
+12/09/2024  05:51 PM            53,356 helloneb336.zip
+12/11/2024  07:28 AM            53,631 helloneb340b.zip
+12/12/2024  07:14 PM       104,934,400 VSCodeUserSetup-x64-1.96.0.exe
+12/12/2024  07:15 PM       101,523,192 VSCodeSetup-arm64-1.96.0.exe
+12/12/2024  07:15 PM       147,541,083 VSCode-win32-arm64-1.96.0.zip
+12/12/2024  07:21 PM             2,188 VSCode-win32-arm64-1.96.0.zip.sha256
+             750 File(s) 120,783,591,192 bytes
+              12 Dir(s)  439,474,700,288 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+
