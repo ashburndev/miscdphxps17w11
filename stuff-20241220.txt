@@ -1,0 +1,169 @@
+8:16 AM 12/20/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241220.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton
+rmdir /s /q orw
+mkdir orw
+cd orw
+copy C:\Users\DavidHolberton\sbprojs\sbapp2717g.zip .
+7z l sbapp2717g.zip > sbapp2717g.zip-7z-list.txt-orig
+7z x sbapp2717g.zip
+cd sbapp2717g
+dir /o:gd
+tree /a /f > sbapp2717g-gtree-list.txt-orig
+
+copy build.gradle build.gradle-orig
+copy settings.gradle settings.gradle-orig
+copy gradle\wrapper\gradle-wrapper.properties gradle\wrapper\gradle-wrapper.properties-orig
+copy src\main\resources\application.properties src\main\resources\application.properties-orig
+
+.\gradlew --version
+.\gradlew tasks > sbapp2717g-gradle-tasks.txt-orig
+.\gradlew dependencies > sbapp2717g-gradle-dependencies.txt-orig
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+
+1.  Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("6.28.3")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-spring:5.25.0")
+}
+
+2.  Run gradle rewriteRun to run the recipe.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\orw\sbapp2717g>.\gradlew rewriteRun
+init.gradle
+
+> Task :rewriteRun
+Validating active recipes
+Scanning sources in project :
+Using active styles []
+All sources parsed, running active recipes: org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+Changes have been made to build.gradle by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=2.7.x}
+        org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=3.0.x}
+            org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=io.spring.dependency-management, newVersion=1.1.x}
+Please review and commit the results.
+Estimate time saved: 5m
+
+BUILD SUCCESSFUL in 35s
+4 actionable tasks: 4 executed
+C:\Users\DavidHolberton\orw\sbapp2717g>
+C:\Users\DavidHolberton\orw\sbapp2717g>dir /o:gd build\reports\rewrite\datatables\2024-12-20_08-47-27-798
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\orw\sbapp2717g\build\reports\rewrite\datatables\2024-12-20_08-47-27-798
+
+12/20/2024  08:47 AM    <DIR>          ..
+12/20/2024  08:47 AM    <DIR>          .
+12/20/2024  08:47 AM             1,300 org.openrewrite.table.SourcesFileResults.csv
+12/20/2024  08:47 AM            49,404 org.openrewrite.table.RecipeRunStats.csv
+12/20/2024  08:47 AM             4,385 org.openrewrite.maven.table.DependenciesInUse.csv
+               3 File(s)         55,089 bytes
+               2 Dir(s)  431,218,241,536 bytes free
+
+C:\Users\DavidHolberton\orw\sbapp2717g>
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.17'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.0.13'
+	id 'io.spring.dependency-management' version '1.1.7'
+	id("org.openrewrite.rewrite") version("6.28.3")
+}
+
+
+C:\Users\DavidHolberton\orw\sbapp2717g>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\orw\sbapp2717g
+
+11/17/2023  08:18 AM    <DIR>          gradle
+11/17/2023  08:18 AM    <DIR>          src
+12/20/2024  08:34 AM    <DIR>          ..
+12/20/2024  08:45 AM    <DIR>          .
+12/20/2024  08:45 AM    <DIR>          .vscode
+12/20/2024  08:46 AM    <DIR>          .gradle
+12/20/2024  08:47 AM    <DIR>          build
+11/17/2023  08:18 AM                32 settings.gradle
+11/17/2023  08:18 AM                32 settings.gradle-orig
+11/17/2023  08:18 AM             8,692 gradlew
+11/17/2023  08:18 AM               737 build.gradle-orig
+11/17/2023  08:18 AM             2,868 gradlew.bat
+11/17/2023  08:18 AM             1,724 HELP.md
+11/17/2023  08:18 AM               444 .gitignore
+12/20/2024  08:34 AM               833 sbapp2717g-gtree-list.txt-orig
+12/20/2024  08:34 AM             2,731 sbapp2717g-gradle-tasks.txt-orig
+12/20/2024  08:36 AM            60,392 sbapp2717g-gradle-dependencies.txt-orig
+12/20/2024  08:47 AM               953 build.gradle
+              11 File(s)         79,438 bytes
+               7 Dir(s)  431,222,841,344 bytes free
+
+C:\Users\DavidHolberton\orw\sbapp2717g>
+C:\Users\DavidHolberton\orw\sbapp2717g>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.13 (Eclipse Adoptium 17.0.13+11)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\orw\sbapp2717g>
+
