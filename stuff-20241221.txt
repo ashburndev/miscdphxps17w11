@@ -1,0 +1,101 @@
+7:38 AM 12/21/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241221.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Migrate from Spring Boot 1.x to 2.0
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_0
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_1
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_2
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_3
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_4
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_5
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_6
+https://docs.openrewrite.org/recipes/java/spring/boot2/upgradespringboot_2_7
+
+Migrate to Spring Boot 3.0
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_1
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_2
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_3
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_4   not yet
+
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_0")
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_2")
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_3")
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_4")
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_5")
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6")
+activeRecipe("org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7")
+
+activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_1")
+activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_1")
+activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2")
+activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_3")
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Rewrite Spring
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring/5.25.0   Dec 18, 2024
+
+// https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+runtimeOnly 'org.openrewrite.recipe:rewrite-spring:5.25.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+SpringFox Swagger UI
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui/3.0.0   Jul 14, 2020
+
+// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+https://stackoverflow.com/questions/74614369/how-to-run-swagger-3-on-spring-boot-3
+How to run Swagger 3 on Spring Boot 3
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+SpringDoc OpenAPI Starter WebMVC UI
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui/2.7.0   Nov 23, 2024
+
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.7.0'
+
+Documenting a Spring REST API Using OpenAPI 3.0
+https://www.baeldung.com/spring-rest-openapi-documentation
+
+http://localhost:8080/v3/api-docs   default
+
+springdoc.api-docs.path=/api-docs
+http://localhost:8080/api-docs
+
+http://localhost:8080/swagger-ui/index.html
+
+springdoc.swagger-ui.path=/swagger-ui-custom.html
+http://localhost:8080/swagger-ui-custom.html
+

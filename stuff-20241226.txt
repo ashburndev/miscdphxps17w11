@@ -1,0 +1,2151 @@
+9:19 AM 12/26/2024
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20241226.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://dzone.com/articles/best-practices-to-deal-with-javax-to-jakarta-migra
+Best Practices To Deal With Javax to Jakarta Migration
+
+https://github.com/eclipse-transformer/transformer
+
+https://www.jetbrains.com/guide/java/tutorials/migrating-javax-jakarta/use-migration-tool/
+
+spring application advisor
+
+https://techdocs.broadcom.com/us/en/vmware-tanzu/spring/tanzu-spring/commercial/spring-tanzu/index-app-advisor.html
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/reference/gradle-plugin-configuration
+
+plugins {
+    id("java")
+    id("org.openrewrite.rewrite") version("6.28.3")
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("junit:junit:4.13")
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:latest.release"))
+    rewrite("org.openrewrite.recipe:rewrite-testing-frameworks")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.testing.junit5.JUnit5BestPractices")
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/org.openrewrite.rewrite
+https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin     Nov 20, 2024
+https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin/6.27.2
+
+// https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin
+implementation group: 'org.openrewrite.rewrite', name: 'org.openrewrite.rewrite.gradle.plugin', version: '6.27.2', ext: 'pom'
+
+// https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin
+implementation 'org.openrewrite.rewrite:org.openrewrite.rewrite.gradle.plugin:6.27.2'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/org.openrewrite.maven
+https://mvnrepository.com/artifact/org.openrewrite.maven/rewrite-maven-plugin
+https://mvnrepository.com/artifact/org.openrewrite.maven/rewrite-maven-plugin/5.47.1     Dec 23, 2024
+
+// https://mvnrepository.com/artifact/org.openrewrite.maven/rewrite-maven-plugin
+implementation group: 'org.openrewrite.maven', name: 'rewrite-maven-plugin', version: '5.47.1'
+
+// https://mvnrepository.com/artifact/org.openrewrite.maven/rewrite-maven-plugin
+implementation 'org.openrewrite.maven:rewrite-maven-plugin:5.47.1'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+plugins {
+    id("org.openrewrite.rewrite") version("6.29.0")
+}
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_3
+plugins {
+    id("org.openrewrite.rewrite") version("6.29.0")
+}
+
+https://docs.openrewrite.org/recipes/gradle/updategradlewrapper
+plugins {
+    id("org.openrewrite.rewrite") version("6.29.0")
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://plugins.gradle.org/m2/
+https://plugins.gradle.org/m2/org/
+https://plugins.gradle.org/m2/org/openrewrite/
+https://plugins.gradle.org/m2/org/openrewrite/plugin/
+  6.24.0/
+  6.25.0/
+  6.25.1/
+  6.26.0/
+  6.27.0/
+  6.27.1/
+  6.27.2/
+  6.28.0/
+  6.28.1/
+  6.28.2/
+  6.28.3/
+  6.29.0/
+  6.29.1/
+
+https://plugins.gradle.org/m2/org/openrewrite/plugin/6.29.1/
+  plugin-6.29.1-javadoc.jar
+  plugin-6.29.1-javadoc.jar.md5
+  plugin-6.29.1-javadoc.jar.sha1
+  plugin-6.29.1-sources.jar
+  plugin-6.29.1-sources.jar.md5
+  plugin-6.29.1-sources.jar.sha1
+  plugin-6.29.1.jar
+  plugin-6.29.1.jar.md5
+  plugin-6.29.1.jar.sha1
+  plugin-6.29.1.module
+  plugin-6.29.1.module.md5
+  plugin-6.29.1.module.sha1
+  plugin-6.29.1.pom
+  plugin-6.29.1.pom.md5
+  plugin-6.29.1.pom.sha1
+
+https://plugins.gradle.org/m2/org/openrewrite/plugin/6.27.0/
+  plugin-6.27.0-javadoc.jar
+  plugin-6.27.0-javadoc.jar.md5
+  plugin-6.27.0-javadoc.jar.sha1
+  plugin-6.27.0-sources.jar
+  plugin-6.27.0-sources.jar.md5
+  plugin-6.27.0-sources.jar.sha1
+  plugin-6.27.0.jar
+  plugin-6.27.0.jar.md5
+  plugin-6.27.0.jar.sha1
+  plugin-6.27.0.module
+  plugin-6.27.0.module.md5
+  plugin-6.27.0.module.sha1
+  plugin-6.27.0.pom
+  plugin-6.27.0.pom.md5
+  plugin-6.27.0.pom.sha1
+
+12/26/2024  10:51 AM           132,915 plugin-6.27.0-javadoc.jar
+12/26/2024  10:51 AM            43,371 plugin-6.27.0-sources.jar
+12/26/2024  10:51 AM            90,834 plugin-6.27.0.jar
+12/26/2024  10:51 AM             1,588 plugin-6.27.0.pom
+             754 File(s) 120,783,859,900 bytes
+              12 Dir(s)  424,248,606,720 bytes free
+
+C:\Users\DavidHolberton\Downloads>jar tvf plugin-6.27.0.jar | findstr -i "Task"
+  3038 Fri Nov 08 19:06:00 EST 2024 org/openrewrite/gradle/RewriteDryRunTask.class
+   986 Fri Nov 08 19:06:02 EST 2024 org/openrewrite/gradle/RewriteDiscoverTask.class
+  1885 Fri Nov 08 19:06:02 EST 2024 org/openrewrite/gradle/RewriteRunTask.class
+  4955 Fri Nov 08 19:06:00 EST 2024 org/openrewrite/gradle/AbstractRewriteTask.class
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://plugins.gradle.org/plugin/org.openrewrite.rewrite
+
+Version 6.29.1 (latest)
+
+Created 23 December 2024.
+Automatically eliminate technical debt
+Other versions 
+
+Add this plugin to your build using the plugins DSL:
+
+plugins {
+  id("org.openrewrite.rewrite") version "6.29.1"
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://plugins.gradle.org/
+https://plugins.gradle.org/search?term=openrewrite
+https://github.com/openrewrite/rewrite-build-gradle-plugin
+https://plugins.gradle.org/plugin/org.openrewrite.build.recipe-repositories
+  org.openrewrite.build.recipe-repositories
+  Owner: Moderne, Inc.
+  Configures the repositories that OpenRewrite modules in open source draw dependencies from, such as Maven Central and Nexus Snapshots. 
+  https://github.com/openrewrite/rewrite-build-gradle-plugin
+  Sources: https://github.com/openrewrite/rewrite-build-gradle-plugin.git
+      #rewrite #refactoring #oss 
+  Version 1.20.5 (latest)
+  Created 18 December 2024.
+  Configures the repositories that OpenRewrite modules in open source draw dependencies from, such as Maven Central and Nexus Snapshots. 
+  Other versions 
+  Add this plugin to your build using the plugins DSL:
+  plugins {
+    id("org.openrewrite.build.recipe-repositories") version "1.20.5"
+  }
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.gradle.org/current/userguide/plugins.html#sec:subprojects_plugins_dsl
+
+Types of plugins
+
+Plugins can be implemented as binary plugins, precompiled script plugins, or script plugins:
+1. Script Plugins
+
+Script plugins are Groovy DSL or Kotlin DSL scripts that are applied directly to a Gradle build script using the apply from: syntax. They are applied inline within a build script to add functionality or customize the build process. They are not recommended but it’s important to understand how to work:
+
+Apply a script plugins.
+The legacy apply() method in the build file. Not Recommended. Legacy.
+apply<MyCustomBarfuinTaskInfoPlugin>()
+
+1. Applying plugins using the plugins{} block
+
+The plugin DSL provides a concise and convenient way to declare plugin dependencies.
+
+The plugins block configures an instance of PluginDependenciesSpec:
+
+plugins {
+    application                                     // by name
+    java                                            // by name
+    id("java")                                      // by id - recommended
+    id("org.jetbrains.kotlin.jvm") version "1.9.0"  // by id - recommended
+}
+
+Plugin Management
+
+The pluginManagement{} block is used to configure repositories for plugin resolution and to define version constraints for plugins that are applied in the build scripts.
+
+The pluginManagement{} block can be used in a settings.gradle(.kts) file, where it must be the first block in the file:
+
+https://plugins.gradle.org/?_gl=1*1gju9b4*_gcl_au*MjEwNTEyMTY2Mi4xNzM1MjI2MjA0*_ga*MTY5ODc4OTU2My4xNjg1ODc4MDc0*_ga_7W7NC6YNPT*MTczNTIyNjIwNC4xMS4wLjE3MzUyMjYyMDQuNjAuMC4w
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring/5.25.0     Dec 18, 2024
+
+// https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+runtimeOnly group: 'org.openrewrite.recipe', name: 'rewrite-spring', version: '5.25.0'
+
+// https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+runtimeOnly 'org.openrewrite.recipe:rewrite-spring:5.25.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Rewrite tasks
+-------------
+rewriteDiscover - Lists all available recipes and their visitors
+rewriteDryRun - Run the active refactoring recipes, producing a patch file. No source files will be changed.
+rewriteRun - Apply the active refactoring recipes
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+C:\Users\DavidHolberton\orw\sbapp2717g>rewriteDiscover
+'rewriteDiscover' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\DavidHolberton\orw\sbapp2717g>.\gradlew rewriteDiscover
+init.gradle
+
+> Task :rewriteDiscover
+Available Recipes:
+    org.openrewrite.DeleteSourceFiles
+    org.openrewrite.ExcludeFileFromGitignore
+    org.openrewrite.FindCollidingSourceFiles
+    org.openrewrite.FindDeserializationErrors
+    org.openrewrite.FindGitProvenance
+    org.openrewrite.FindLstProvenance
+    org.openrewrite.FindParseFailures
+    org.openrewrite.FindQuarks
+    org.openrewrite.FindSourceFiles
+    org.openrewrite.IsInRepository
+    org.openrewrite.ListRuntimeClasspath
+    org.openrewrite.RenameFile
+    org.openrewrite.SetFilePermissions
+    org.openrewrite.analysis.controlflow.ControlFlowVisualization
+    org.openrewrite.analysis.search.FindFlowBetweenMethods
+    org.openrewrite.analysis.search.FindMethods
+    org.openrewrite.analysis.search.UriCreatedWithHttpScheme
+    org.openrewrite.apache.commons.codec.ApacheBase64ToJavaBase64
+    org.openrewrite.apache.commons.io.ApacheCommonsFileUtilsRecipes
+    org.openrewrite.apache.commons.io.ApacheCommonsFileUtilsRecipes$GetFileRecipe
+    org.openrewrite.apache.commons.io.ApacheCommonsFileUtilsRecipes$WriteStringToFileRecipe
+    org.openrewrite.apache.commons.io.ApacheFileUtilsToJavaFiles
+    org.openrewrite.apache.commons.io.ApacheIOUtilsUseExplicitCharset
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$AbbreviateRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$CapitalizeRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$DefaultStringFallbackRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$DefaultStringRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$DeleteWhitespaceRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$EqualsIgnoreCaseRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$EqualsRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$LowercaseRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$RemoveEndRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$ReplaceRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$ReverseRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$SplitRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$StripRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$TrimRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$TrimToEmptyRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$TrimToNullRecipe
+    org.openrewrite.apache.commons.lang.ApacheCommonsStringUtilsRecipes$UppercaseRecipe
+    org.openrewrite.apache.commons.lang.IsNotEmptyToJdk
+    org.openrewrite.apache.httpclient4.MigrateDefaultHttpClient
+    org.openrewrite.apache.httpclient5.AddTimeUnitArgument
+    org.openrewrite.apache.httpclient5.MigrateAuthScope
+    org.openrewrite.apache.httpclient5.MigrateRequestConfig
+    org.openrewrite.apache.httpclient5.NewStatusLine
+    org.openrewrite.apache.httpclient5.UsernamePasswordCredentials
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$AbbreviateRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$CapitaliseRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$DefaultStringFallbackRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$DefaultStringRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$DeleteWhitespaceRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$EqualsIgnoreCaseRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$EqualsRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$LowercaseRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$ReplaceRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$ReverseRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$SplitRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$StripRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$TrimRecipe
+    org.openrewrite.apache.maven.shared.MavenSharedStringUtilsRecipes$UppercaseRecipe
+    org.openrewrite.apache.poi.ReplaceSetBoldweightWithSetBoldRecipes
+    org.openrewrite.apache.poi.ReplaceSetBoldweightWithSetBoldRecipes$ReplaceSetBoldweightBoldWithSetBoldTrueRecipe
+    org.openrewrite.apache.poi.ReplaceSetBoldweightWithSetBoldRecipes$ReplaceSetBoldweightNormalWithSetBoldFalseRecipe
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes$ReplaceSetCellTypeBlankRecipe
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes$ReplaceSetCellTypeBooleanRecipe
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes$ReplaceSetCellTypeErrorRecipe
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes$ReplaceSetCellTypeFormulaRecipe
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes$ReplaceSetCellTypeNumericRecipe
+    org.openrewrite.apache.poi.ReplaceSetCellTypeRecipes$ReplaceSetCellTypeStringRecipe
+    org.openrewrite.codehaus.plexus.AbstractLogEnabledToSlf4j
+    org.openrewrite.codehaus.plexus.PlexusFileUtilsRecipes
+    org.openrewrite.codehaus.plexus.PlexusFileUtilsRecipes$DeleteDirectoryFileRecipe
+    org.openrewrite.codehaus.plexus.PlexusFileUtilsRecipes$DeleteDirectoryStringRecipe
+    org.openrewrite.codehaus.plexus.PlexusFileUtilsRecipes$FileExistsStringRecipe
+    org.openrewrite.codehaus.plexus.PlexusFileUtilsRecipes$GetFileRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$AbbreviateRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$CapitaliseRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$DefaultStringFallbackRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$DefaultStringRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$DeleteWhitespaceRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$EqualsIgnoreCaseRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$EqualsRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$LowercaseRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$ReplaceRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$ReverseRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$SplitRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$StripRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$TrimRecipe
+    org.openrewrite.codehaus.plexus.PlexusStringUtilsRecipes$UppercaseRecipe
+    org.openrewrite.config.CompositeRecipe
+    org.openrewrite.github.AddCronTrigger
+    org.openrewrite.github.AutoCancelInProgressWorkflow
+    org.openrewrite.github.ChangeAction
+    org.openrewrite.github.ChangeActionVersion
+    org.openrewrite.github.ChangeDependabotScheduleInterval
+    org.openrewrite.github.FindMissingTimeout
+    org.openrewrite.github.PreferSecretsInheritWorkflow
+    org.openrewrite.github.PreferTemurinDistributions
+    org.openrewrite.github.RemoveAllCronTriggers
+    org.openrewrite.github.ReplaceRunners
+    org.openrewrite.github.SetupJavaAdoptOpenJDKToTemurin
+    org.openrewrite.github.SetupJavaAdoptOpenj9ToSemeru
+    org.openrewrite.github.SetupJavaCaching
+    org.openrewrite.github.SetupJavaUpgradeJavaVersion
+    org.openrewrite.github.UpgradeSlackNotificationVersion2
+    org.openrewrite.gradle.AddDependency
+    org.openrewrite.gradle.AddProperty
+    org.openrewrite.gradle.ChangeDependency
+    org.openrewrite.gradle.ChangeDependencyArtifactId
+    org.openrewrite.gradle.ChangeDependencyClassifier
+    org.openrewrite.gradle.ChangeDependencyConfiguration
+    org.openrewrite.gradle.ChangeDependencyExtension
+    org.openrewrite.gradle.ChangeDependencyGroupId
+    org.openrewrite.gradle.ChangeExtraProperty
+    org.openrewrite.gradle.DependencyConstraintToRule
+    org.openrewrite.gradle.DependencyUseMapNotation
+    org.openrewrite.gradle.DependencyUseStringNotation
+    org.openrewrite.gradle.RemoveDependency
+    org.openrewrite.gradle.RemoveEnableFeaturePreview
+    org.openrewrite.gradle.RemoveRedundantDependencyVersions
+    org.openrewrite.gradle.RemoveRepository
+    org.openrewrite.gradle.UpdateGradleWrapper
+    org.openrewrite.gradle.UpdateJavaCompatibility
+    org.openrewrite.gradle.UpgradeDependencyVersion
+    org.openrewrite.gradle.UpgradeTransitiveDependencyVersion
+    org.openrewrite.gradle.plugins.AddBuildPlugin
+    org.openrewrite.gradle.plugins.AddDevelocityGradlePlugin
+    org.openrewrite.gradle.plugins.AddSettingsPlugin
+    org.openrewrite.gradle.plugins.AddSettingsPluginRepository
+    org.openrewrite.gradle.plugins.ChangePlugin
+    org.openrewrite.gradle.plugins.ChangePluginVersion
+    org.openrewrite.gradle.plugins.MigrateGradleEnterpriseToDevelocity
+    org.openrewrite.gradle.plugins.RemoveBuildPlugin
+    org.openrewrite.gradle.plugins.RemoveSettingsPlugin
+    org.openrewrite.gradle.plugins.UpgradePluginVersion
+    org.openrewrite.gradle.search.DependencyInsight
+    org.openrewrite.gradle.search.FindDependency
+    org.openrewrite.gradle.search.FindGradleProject
+    org.openrewrite.gradle.search.FindGradleWrapper
+    org.openrewrite.gradle.search.FindPlugins
+    org.openrewrite.gradle.search.FindRepository
+    org.openrewrite.gradle.security.UseHttpsForRepositories
+    org.openrewrite.gradle.spring.AddSpringDependencyManagementPlugin
+    org.openrewrite.groovy.format.AutoFormat
+    org.openrewrite.groovy.format.GStringCurlyBraces
+    org.openrewrite.groovy.format.OmitParenthesesForLastArgumentLambda
+    org.openrewrite.groovy.format.OmitParenthesesFormat
+    org.openrewrite.hcl.DeleteContent
+    org.openrewrite.hcl.MoveContentToFile
+    org.openrewrite.hcl.format.AutoFormat
+    org.openrewrite.hcl.format.BlankLines
+    org.openrewrite.hcl.format.NormalizeFormat
+    org.openrewrite.hcl.format.RemoveTrailingWhitespace
+    org.openrewrite.hcl.format.Spaces
+    org.openrewrite.hcl.format.TabsAndIndents
+    org.openrewrite.hcl.search.FindAndReplaceLiteral
+    org.openrewrite.hcl.search.FindContent
+    org.openrewrite.hibernate.EmptyInterceptorToInterface
+    org.openrewrite.hibernate.MigrateBooleanMappings
+    org.openrewrite.hibernate.MigrateResultCheckStyleToExpectation
+    org.openrewrite.hibernate.MigrateUserType
+    org.openrewrite.hibernate.RemoveInvalidHibernateGeneratedValueAnnotation
+    org.openrewrite.hibernate.ReplaceLazyCollectionAnnotation
+    org.openrewrite.hibernate.TypeAnnotationParameter
+    org.openrewrite.java.AddCommentToMethod
+    org.openrewrite.java.AddLicenseHeader
+    org.openrewrite.java.AddLiteralMethodArgument
+    org.openrewrite.java.AddMethodParameter
+    org.openrewrite.java.AddNullMethodArgument
+    org.openrewrite.java.AddOrUpdateAnnotationAttribute
+    org.openrewrite.java.ChangeAnnotationAttributeName
+    org.openrewrite.java.ChangeMethodAccessLevel
+    org.openrewrite.java.ChangeMethodName
+    org.openrewrite.java.ChangeMethodTargetToStatic
+    org.openrewrite.java.ChangeMethodTargetToVariable
+    org.openrewrite.java.ChangePackage
+    org.openrewrite.java.ChangeStaticFieldToMethod
+    org.openrewrite.java.ChangeType
+    org.openrewrite.java.CreateEmptyJavaClass
+    org.openrewrite.java.DeleteMethodArgument
+    org.openrewrite.java.NoStaticImport
+    org.openrewrite.java.OrderImports
+    org.openrewrite.java.RandomizeId
+    org.openrewrite.java.RecipeMarkupDemonstration
+    org.openrewrite.java.RemoveAnnotation
+    org.openrewrite.java.RemoveAnnotationAttribute
+    org.openrewrite.java.RemoveImplements
+    org.openrewrite.java.RemoveMethodInvocations
+    org.openrewrite.java.RemoveObjectsIsNull
+    org.openrewrite.java.RemoveUnusedImports
+    org.openrewrite.java.ReorderMethodArguments
+    org.openrewrite.java.ReplaceAnnotation
+    org.openrewrite.java.ReplaceConstant
+    org.openrewrite.java.ReplaceConstantWithAnotherConstant
+    org.openrewrite.java.ReplaceStringLiteralWithConstant
+    org.openrewrite.java.ShortenFullyQualifiedTypeReferences
+    org.openrewrite.java.SimplifyMethodChain
+    org.openrewrite.java.UpdateSourcePositions
+    org.openrewrite.java.UseStaticImport
+    org.openrewrite.java.ai.ClassDefinitionLength
+    org.openrewrite.java.ai.MethodDefinitionLength
+    org.openrewrite.java.dependencies.AddDependency
+    org.openrewrite.java.dependencies.ChangeDependency
+    org.openrewrite.java.dependencies.DependencyInsight
+    org.openrewrite.java.dependencies.DependencyList
+    org.openrewrite.java.dependencies.DependencyResolutionDiagnostic
+    org.openrewrite.java.dependencies.RelocatedDependencyCheck
+    org.openrewrite.java.dependencies.RemoveDependency
+    org.openrewrite.java.dependencies.RemoveExpiredSuppressions
+    org.openrewrite.java.dependencies.UpgradeDependencyVersion
+    org.openrewrite.java.dependencies.UpgradeTransitiveDependencyVersion
+    org.openrewrite.java.dependencies.search.FindMinimumDependencyVersion
+    org.openrewrite.java.format.AutoFormat
+    org.openrewrite.java.format.BlankLines
+    org.openrewrite.java.format.EmptyNewlineAtEndOfFile
+    org.openrewrite.java.format.MethodParamPad
+    org.openrewrite.java.format.NoWhitespaceAfter
+    org.openrewrite.java.format.NoWhitespaceBefore
+    org.openrewrite.java.format.NormalizeFormat
+    org.openrewrite.java.format.NormalizeLineBreaks
+    org.openrewrite.java.format.NormalizeTabsOrSpaces
+    org.openrewrite.java.format.PadEmptyForLoopComponents
+    org.openrewrite.java.format.RemoveTrailingWhitespace
+    org.openrewrite.java.format.SingleLineComments
+    org.openrewrite.java.format.Spaces
+    org.openrewrite.java.format.TabsAndIndents
+    org.openrewrite.java.format.TypecastParenPad
+    org.openrewrite.java.format.WrappingAndBraces
+    org.openrewrite.java.logging.ChangeLombokLogAnnotation
+    org.openrewrite.java.logging.ParameterizedLogging
+    org.openrewrite.java.logging.PrintStackTraceToLogError
+    org.openrewrite.java.logging.SystemErrToLogging
+    org.openrewrite.java.logging.SystemOutToLogging
+    org.openrewrite.java.logging.SystemPrintToLogging
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelConfigSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelConfigToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelFineSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelFineToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelFinerSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelFinerToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelFinestSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelFinestToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelInfoSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelInfoToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelSevereSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelSevereToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelWarningSupplierToMethodRecipe
+    org.openrewrite.java.logging.jul.LoggerLevelArgumentToMethodRecipes$LogLevelWarningToMethodRecipe
+    org.openrewrite.java.logging.log4j.ConvertJulEntering
+    org.openrewrite.java.logging.log4j.ConvertJulExiting
+    org.openrewrite.java.logging.log4j.LoggingExceptionConcatenationRecipe
+    org.openrewrite.java.logging.log4j.PrependRandomName
+    org.openrewrite.java.logging.logback.Log4jAppenderToLogback
+    org.openrewrite.java.logging.logback.Log4jLayoutToLogback
+    org.openrewrite.java.logging.slf4j.ChangeLogLevel
+    org.openrewrite.java.logging.slf4j.CompleteExceptionLogging
+    org.openrewrite.java.logging.slf4j.JulGetLoggerToLoggerFactoryRecipes
+    org.openrewrite.java.logging.slf4j.JulGetLoggerToLoggerFactoryRecipes$GetLoggerClassCanonicalNameToLoggerFactoryRecipe
+    org.openrewrite.java.logging.slf4j.JulGetLoggerToLoggerFactoryRecipes$GetLoggerClassNameToLoggerFactoryRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelAllRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelConfigRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelFineRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelFinerRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelFinestRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelInfoRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelSevereRecipe
+    org.openrewrite.java.logging.slf4j.JulIsLoggableToIsEnabledRecipes$LoggerIsLoggableLevelWarningRecipe
+    org.openrewrite.java.logging.slf4j.JulLevelAllToTraceRecipe
+    org.openrewrite.java.logging.slf4j.JulParameterizedArguments
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierConfigRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierFineRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierFinerRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierFinestRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierInfoRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogAllRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogConfigRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogFineRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogFinerRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogFinestRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogInfoRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogSevereRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierLogWarningRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierSevereRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierRecipes$JulToSlf4jSupplierWarningRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierAllRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierConfigRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierFineRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierFinerRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierFinestRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierInfoRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierSevereRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jLambdaSupplierWithThrowableRecipes$JulToSlf4jSupplierWarningRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierAllRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierConfigRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierFineRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierFinerRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierFinestRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierInfoRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierSevereRecipe
+    org.openrewrite.java.logging.slf4j.JulToSlf4jSimpleCallsWithThrowableRecipes$JulToSlf4jSupplierWarningRecipe
+    org.openrewrite.java.logging.slf4j.LoggersNamedForEnclosingClass
+    org.openrewrite.java.logging.slf4j.Slf4jLogShouldBeConstant
+    org.openrewrite.java.migrate.AddJDeprScanPlugin
+    org.openrewrite.java.migrate.AddMissingMethodImplementation
+    org.openrewrite.java.migrate.AddSuppressionForIllegalReflectionWarningsPlugin
+    org.openrewrite.java.migrate.ArrayStoreExceptionToTypeNotPresentException
+    org.openrewrite.java.migrate.BeanDiscovery
+    org.openrewrite.java.migrate.BeansXmlNamespace
+    org.openrewrite.java.migrate.CastArraysAsListToList
+    org.openrewrite.java.migrate.ChangeMethodInvocationReturnType
+    org.openrewrite.java.migrate.DontOverfetchDto
+    org.openrewrite.java.migrate.IllegalArgumentExceptionToAlreadyConnectedException
+    org.openrewrite.java.migrate.JREThrowableFinalMethods
+    org.openrewrite.java.migrate.JpaCacheProperties
+    org.openrewrite.java.migrate.MXBeanRule
+    org.openrewrite.java.migrate.ReferenceCloneMethod
+    org.openrewrite.java.migrate.RemoveIllegalSemicolons
+    org.openrewrite.java.migrate.RemovedSecurityManagerMethods
+    org.openrewrite.java.migrate.ReplaceAWTGetPeerMethod
+    org.openrewrite.java.migrate.ReplaceComSunAWTUtilitiesMethods
+    org.openrewrite.java.migrate.ReplaceLocalizedStreamMethods
+    org.openrewrite.java.migrate.ReplaceStringLiteralValue
+    org.openrewrite.java.migrate.UpgradeJavaVersion
+    org.openrewrite.java.migrate.UseJavaUtilBase64
+    org.openrewrite.java.migrate.UseTabsOrSpaces
+    org.openrewrite.java.migrate.guava.NoGuavaAtomicsNewReference
+    org.openrewrite.java.migrate.guava.NoGuavaCreateTempDir
+    org.openrewrite.java.migrate.guava.NoGuavaDirectExecutor
+    org.openrewrite.java.migrate.guava.NoGuavaImmutableListOf
+    org.openrewrite.java.migrate.guava.NoGuavaImmutableMapOf
+    org.openrewrite.java.migrate.guava.NoGuavaImmutableSetOf
+    org.openrewrite.java.migrate.guava.NoGuavaListsNewArrayList
+    org.openrewrite.java.migrate.guava.NoGuavaListsNewCopyOnWriteArrayList
+    org.openrewrite.java.migrate.guava.NoGuavaListsNewLinkedList
+    org.openrewrite.java.migrate.guava.NoGuavaMapsNewHashMap
+    org.openrewrite.java.migrate.guava.NoGuavaMapsNewLinkedHashMap
+    org.openrewrite.java.migrate.guava.NoGuavaMapsNewTreeMap
+    org.openrewrite.java.migrate.guava.NoGuavaOptionalFromJavaUtil
+    org.openrewrite.java.migrate.guava.NoGuavaOptionalToJavaUtil
+    org.openrewrite.java.migrate.guava.NoGuavaPrimitiveAsList
+    org.openrewrite.java.migrate.guava.NoGuavaRefasterRecipes
+    org.openrewrite.java.migrate.guava.NoGuavaRefasterRecipes$PreconditionsCheckNotNullToObjectsRequireNonNullRecipe
+    org.openrewrite.java.migrate.guava.NoGuavaRefasterRecipes$PreconditionsCheckNotNullWithMessageToObjectsRequireNonNullMessageTypeObjectRecipe
+    org.openrewrite.java.migrate.guava.NoGuavaRefasterRecipes$PreconditionsCheckNotNullWithMessageToObjectsRequireNonNullRecipe
+    org.openrewrite.java.migrate.guava.NoGuavaSetsNewConcurrentHashSet
+    org.openrewrite.java.migrate.guava.NoGuavaSetsNewHashSet
+    org.openrewrite.java.migrate.guava.NoGuavaSetsNewLinkedHashSet
+    org.openrewrite.java.migrate.guava.PreferJavaStringJoin
+    org.openrewrite.java.migrate.guava.PreferJavaUtilOptionalOrElseNull
+    org.openrewrite.java.migrate.guava.PreferJavaUtilOptionalOrSupplier
+    org.openrewrite.java.migrate.io.ReplaceFileInOrOutputStreamFinalizeWithClose
+    org.openrewrite.java.migrate.jakarta.ApplicationPathWildcardNoLongerAccepted
+    org.openrewrite.java.migrate.jakarta.BeanValidationMessages
+    org.openrewrite.java.migrate.jakarta.RemoveBeanIsNullable
+    org.openrewrite.java.migrate.jakarta.UpdateAddAnnotatedTypes
+    org.openrewrite.java.migrate.jakarta.UpdateBeanManagerMethods
+    org.openrewrite.java.migrate.jakarta.UpdateGetRealPath
+    org.openrewrite.java.migrate.javax.AddColumnAnnotation
+    org.openrewrite.java.migrate.javax.AddDefaultConstructorToEntityClass
+    org.openrewrite.java.migrate.javax.AddJaxbRuntime
+    org.openrewrite.java.migrate.javax.AddJaxwsRuntime
+    org.openrewrite.java.migrate.javax.AddJaxwsRuntime$AddJaxwsRuntimeGradle
+    org.openrewrite.java.migrate.javax.AddJaxwsRuntime$AddJaxwsRuntimeMaven
+    org.openrewrite.java.migrate.javax.AddScopeToInjectedClass
+    org.openrewrite.java.migrate.javax.AddTableGenerator
+    org.openrewrite.java.migrate.javax.AddTransientAnnotationToCollections
+    org.openrewrite.java.migrate.javax.AddTransientAnnotationToEntity
+    org.openrewrite.java.migrate.javax.AddTransientAnnotationToPrivateAccessor
+    org.openrewrite.java.migrate.javax.HttpSessionInvalidate
+    org.openrewrite.java.migrate.javax.RemoveEmbeddableId
+    org.openrewrite.java.migrate.javax.RemoveTemporalAnnotation
+    org.openrewrite.java.migrate.javax.UseJoinColumnForMapping
+    org.openrewrite.java.migrate.joda.JodaTimeRecipe
+    org.openrewrite.java.migrate.lang.ExplicitRecordImport
+    org.openrewrite.java.migrate.lang.MigrateClassLoaderDefineClass
+    org.openrewrite.java.migrate.lang.MigrateClassNewInstanceToGetDeclaredConstructorNewInstance
+    org.openrewrite.java.migrate.lang.MigrateSecurityManagerMulticast
+    org.openrewrite.java.migrate.lang.StringFormatted
+    org.openrewrite.java.migrate.lang.StringRulesRecipes
+    org.openrewrite.java.migrate.lang.StringRulesRecipes$IndexOfCharRecipe
+    org.openrewrite.java.migrate.lang.StringRulesRecipes$IndexOfStringRecipe
+    org.openrewrite.java.migrate.lang.StringRulesRecipes$RedundantCallRecipe
+    org.openrewrite.java.migrate.lang.StringRulesRecipes$UseEqualsIgnoreCaseRecipe
+    org.openrewrite.java.migrate.lang.ThreadStopUnsupported
+    org.openrewrite.java.migrate.lang.UseStringIsEmptyRecipe
+    org.openrewrite.java.migrate.lang.UseTextBlocks
+    org.openrewrite.java.migrate.lang.var.UseVarForGenericMethodInvocations
+    org.openrewrite.java.migrate.lang.var.UseVarForGenericsConstructors
+    org.openrewrite.java.migrate.lang.var.UseVarForObject
+    org.openrewrite.java.migrate.lang.var.UseVarForPrimitive
+    org.openrewrite.java.migrate.logging.MigrateGetLoggingMXBeanToGetPlatformMXBean
+    org.openrewrite.java.migrate.logging.MigrateLogRecordSetMillisToSetInstant
+    org.openrewrite.java.migrate.logging.MigrateLoggerGlobalToGetGlobal
+    org.openrewrite.java.migrate.logging.MigrateLoggerLogrbToUseResourceBundle
+    org.openrewrite.java.migrate.lombok.LombokValToFinalVar
+    org.openrewrite.java.migrate.lombok.LombokValueToRecord
+    org.openrewrite.java.migrate.lombok.UseLombokGetter
+    org.openrewrite.java.migrate.lombok.UseLombokSetter
+    org.openrewrite.java.migrate.maven.UpdateMavenProjectPropertyJavaVersion
+    org.openrewrite.java.migrate.maven.UseMavenCompilerPluginReleaseConfiguration
+    org.openrewrite.java.migrate.metrics.SimplifyMicrometerMeterTags
+    org.openrewrite.java.migrate.net.MigrateHttpURLConnectionHttpServerErrorToHttpInternalError
+    org.openrewrite.java.migrate.net.MigrateMulticastSocketSetTTLToSetTimeToLive
+    org.openrewrite.java.migrate.net.MigrateURLDecoderDecode
+    org.openrewrite.java.migrate.net.MigrateURLEncoderEncode
+    org.openrewrite.java.migrate.net.URLConstructorsToURIRecipes
+    org.openrewrite.java.migrate.net.URLConstructorsToURIRecipes$URLFourArgumentConstructorRecipe
+    org.openrewrite.java.migrate.net.URLConstructorsToURIRecipes$URLSingleArgumentConstructorRecipe
+    org.openrewrite.java.migrate.net.URLConstructorsToURIRecipes$URLThreeArgumentConstructorRecipe
+    org.openrewrite.java.migrate.search.AboutJavaVersion
+    org.openrewrite.java.migrate.search.FindDataUsedOnDto
+    org.openrewrite.java.migrate.search.FindDtoOverfetching
+    org.openrewrite.java.migrate.search.FindInternalJavaxApis
+    org.openrewrite.java.migrate.search.FindJavaVersion
+    org.openrewrite.java.migrate.search.PlanJavaMigration
+    org.openrewrite.java.migrate.sql.MigrateDriverManagerSetLogStream
+    org.openrewrite.java.migrate.util.IteratorNext
+    org.openrewrite.java.migrate.util.ListFirstAndLast
+    org.openrewrite.java.migrate.util.MigrateCollectionsSingletonList
+    org.openrewrite.java.migrate.util.MigrateCollectionsSingletonMap
+    org.openrewrite.java.migrate.util.MigrateCollectionsSingletonSet
+    org.openrewrite.java.migrate.util.MigrateCollectionsUnmodifiableList
+    org.openrewrite.java.migrate.util.MigrateCollectionsUnmodifiableSet
+    org.openrewrite.java.migrate.util.OptionalNotEmptyToIsPresent
+    org.openrewrite.java.migrate.util.OptionalNotPresentToIsEmpty
+    org.openrewrite.java.migrate.util.OptionalStreamRecipe
+    org.openrewrite.java.migrate.util.RemoveFinalizerFromZip
+    org.openrewrite.java.migrate.util.ReplaceMathRandomWithThreadLocalRandomRecipe
+    org.openrewrite.java.migrate.util.ReplaceStreamCollectWithToList
+    org.openrewrite.java.migrate.util.StreamFindFirst
+    org.openrewrite.java.migrate.util.UseEnumSetOf
+    org.openrewrite.java.migrate.util.UseLocaleOf
+    org.openrewrite.java.migrate.util.UseMapOf
+    org.openrewrite.java.recipes.BlankLinesAroundFieldsWithAnnotations
+    org.openrewrite.java.recipes.ExecutionContextParameterName
+    org.openrewrite.java.recipes.FindRecipes
+    org.openrewrite.java.recipes.MissingOptionExample
+    org.openrewrite.java.recipes.NoMutableStaticFieldsInRecipes
+    org.openrewrite.java.recipes.RecipeEqualsAndHashCodeCallSuper
+    org.openrewrite.java.recipes.RewriteTestClassesShouldNotBePublic
+    org.openrewrite.java.recipes.SelectRecipeExamples
+    org.openrewrite.java.recipes.SetDefaultEstimatedEffortPerOccurrence
+    org.openrewrite.java.recipes.SourceSpecTextBlockIndentation
+    org.openrewrite.java.recipes.UseTreeRandomId
+    org.openrewrite.java.search.ClasspathTypeCounts
+    org.openrewrite.java.search.DoesNotUseType
+    org.openrewrite.java.search.FindAnnotations
+    org.openrewrite.java.search.FindClassHierarchy
+    org.openrewrite.java.search.FindComments
+    org.openrewrite.java.search.FindDeprecatedClasses
+    org.openrewrite.java.search.FindDeprecatedFields
+    org.openrewrite.java.search.FindDeprecatedMethods
+    org.openrewrite.java.search.FindDeprecatedUses
+    org.openrewrite.java.search.FindEmptyClasses
+    org.openrewrite.java.search.FindEmptyMethods
+    org.openrewrite.java.search.FindFields
+    org.openrewrite.java.search.FindFieldsOfType
+    org.openrewrite.java.search.FindImplementations
+    org.openrewrite.java.search.FindImports
+    org.openrewrite.java.search.FindLiterals
+    org.openrewrite.java.search.FindMethodDeclaration
+    org.openrewrite.java.search.FindMethods
+    org.openrewrite.java.search.FindMissingTypes
+    org.openrewrite.java.search.FindRepeatableAnnotations
+    org.openrewrite.java.search.FindTypeMappings
+    org.openrewrite.java.search.FindTypes
+    org.openrewrite.java.search.HasBuildToolVersion
+    org.openrewrite.java.search.HasJavaVersion
+    org.openrewrite.java.search.HasMinimumJavaVersion
+    org.openrewrite.java.search.HasSourceSet
+    org.openrewrite.java.search.IsLikelyNotTest
+    org.openrewrite.java.search.IsLikelyTest
+    org.openrewrite.java.search.ResultOfMethodCallIgnored
+    org.openrewrite.java.spring.AddSpringProperty
+    org.openrewrite.java.spring.ChangeMethodParameter
+    org.openrewrite.java.spring.ChangeSpringPropertyKey
+    org.openrewrite.java.spring.ChangeSpringPropertyValue
+    org.openrewrite.java.spring.CommentOutSpringPropertyKey
+    org.openrewrite.java.spring.DeleteSpringProperty
+    org.openrewrite.java.spring.ExpandProperties
+    org.openrewrite.java.spring.ImplicitWebAnnotationNames
+    org.openrewrite.java.spring.NoAutowiredOnConstructor
+    org.openrewrite.java.spring.NoRepoAnnotationOnRepoInterface
+    org.openrewrite.java.spring.NoRequestMappingAnnotation
+    org.openrewrite.java.spring.PropertiesToKebabCase
+    org.openrewrite.java.spring.RenameBean
+    org.openrewrite.java.spring.SeparateApplicationYamlByProfile
+    org.openrewrite.java.spring.UpdateApiManifest
+    org.openrewrite.java.spring.amqp.UseTlsAmqpConnectionString
+    org.openrewrite.java.spring.batch.MigrateItemWriterWrite
+    org.openrewrite.java.spring.batch.MigrateJobBuilderFactory
+    org.openrewrite.java.spring.batch.MigrateStepBuilderFactory
+    org.openrewrite.java.spring.batch.RemoveDefaultBatchConfigurer
+    org.openrewrite.java.spring.batch.ReplaceSupportClassWithItsInterface
+    org.openrewrite.java.spring.boot2.AddConfigurationAnnotationIfBeansPresent
+    org.openrewrite.java.spring.boot2.ChangeEmbeddedServletContainerCustomizer
+    org.openrewrite.java.spring.boot2.ConditionalOnBeanAnyNestedCondition
+    org.openrewrite.java.spring.boot2.DatabaseComponentAndBeanInitializationOrdering
+    org.openrewrite.java.spring.boot2.GetErrorAttributes
+    org.openrewrite.java.spring.boot2.HeadersConfigurerLambdaDsl
+    org.openrewrite.java.spring.boot2.HttpSecurityLambdaDsl
+    org.openrewrite.java.spring.boot2.MergeBootstrapYamlWithApplicationYaml
+    org.openrewrite.java.spring.boot2.MigrateActuatorMediaTypeToApiVersion
+    org.openrewrite.java.spring.boot2.MigrateConfigurationPropertiesBindingPostProcessorValidatorBeanName
+    org.openrewrite.java.spring.boot2.MigrateDatabaseCredentials
+    org.openrewrite.java.spring.boot2.MigrateDiskSpaceHealthIndicatorConstructor
+    org.openrewrite.java.spring.boot2.MigrateErrorPropertiesIncludeStackTraceConstants
+    org.openrewrite.java.spring.boot2.MigrateHsqlEmbeddedDatabaseConnection
+    org.openrewrite.java.spring.boot2.MigrateLocalServerPortAnnotation
+    org.openrewrite.java.spring.boot2.MigrateLoggingSystemPropertyConstants
+    org.openrewrite.java.spring.boot2.MigrateMultipartConfigFactory
+    org.openrewrite.java.spring.boot2.MigrateRestTemplateBuilderTimeoutByInt
+    org.openrewrite.java.spring.boot2.MoveAutoConfigurationToImportsFile
+    org.openrewrite.java.spring.boot2.OutputCaptureExtension
+    org.openrewrite.java.spring.boot2.ReplaceDeprecatedEnvironmentTestUtils
+    org.openrewrite.java.spring.boot2.ReplaceExtendWithAndContextConfiguration
+    org.openrewrite.java.spring.boot2.RestTemplateBuilderRequestFactory
+    org.openrewrite.java.spring.boot2.SamlRelyingPartyPropertyApplicationPropertiesMove
+    org.openrewrite.java.spring.boot2.ServerHttpSecurityLambdaDsl
+    org.openrewrite.java.spring.boot2.SpringBootMavenPluginMigrateAgentToAgents
+    org.openrewrite.java.spring.boot2.UnnecessarySpringExtension
+    org.openrewrite.java.spring.boot2.search.CustomizingJooqDefaultConfiguration
+    org.openrewrite.java.spring.boot2.search.IntegrationSchedulerPoolRecipe
+    org.openrewrite.java.spring.boot2.search.LoggingShutdownHooks
+    org.openrewrite.java.spring.boot3.AddRouteTrailingSlash
+    org.openrewrite.java.spring.boot3.AddSetUseTrailingSlashMatch
+    org.openrewrite.java.spring.boot3.ConfigurationOverEnableSecurity
+    org.openrewrite.java.spring.boot3.DowngradeServletApiWhenUsingJetty
+    org.openrewrite.java.spring.boot3.MaintainTrailingSlashURLMappings
+    org.openrewrite.java.spring.boot3.MigrateWebMvcTagsToObservationConvention
+    org.openrewrite.java.spring.boot3.PreciseBeanType
+    org.openrewrite.java.spring.boot3.RemoveConstructorBindingAnnotation
+    org.openrewrite.java.spring.boot3.RemoveEnableBatchProcessing
+    org.openrewrite.java.spring.boot3.RemoveSolrAutoConfigurationExclude
+    org.openrewrite.java.spring.cloud2022.AddLoggingPatternLevelForSleuth
+    org.openrewrite.java.spring.data.MigrateAuditorAwareToOptional
+    org.openrewrite.java.spring.data.MigrateJpaSort
+    org.openrewrite.java.spring.data.MigrateQuerydslJpaRepository
+    org.openrewrite.java.spring.data.RefactorSimpleMongoDbFactory
+    org.openrewrite.java.spring.data.UseTlsJdbcConnectionString
+    org.openrewrite.java.spring.framework.BeanMethodReturnNull
+    org.openrewrite.java.spring.framework.BeanMethodsNotPublic
+    org.openrewrite.java.spring.framework.EnvironmentAcceptsProfiles
+    org.openrewrite.java.spring.framework.HttpComponentsClientHttpRequestFactoryReadTimeout
+    org.openrewrite.java.spring.framework.JdbcTemplateObjectArrayArgToVarArgs
+    org.openrewrite.java.spring.framework.MigrateHandlerInterceptor
+    org.openrewrite.java.spring.framework.MigrateInstantiationAwareBeanPostProcessorAdapter
+    org.openrewrite.java.spring.framework.MigrateResponseEntityExceptionHandlerHttpStatusToHttpStatusCode
+    org.openrewrite.java.spring.framework.MigrateResponseStatusExceptionGetRawStatusCodeMethod
+    org.openrewrite.java.spring.framework.MigrateResponseStatusExceptionGetStatusCodeMethod
+    org.openrewrite.java.spring.framework.MigrateUtf8MediaTypes
+    org.openrewrite.java.spring.framework.MigrateWebMvcConfigurerAdapter
+    org.openrewrite.java.spring.http.ReplaceStringLiteralsWithHttpHeadersConstants
+    org.openrewrite.java.spring.http.ReplaceStringLiteralsWithMediaTypeConstants
+    org.openrewrite.java.spring.http.SimplifyMediaTypeParseCalls
+    org.openrewrite.java.spring.http.SimplifyWebTestClientCalls
+    org.openrewrite.java.spring.kafka.KafkaOperationsSendReturnType
+    org.openrewrite.java.spring.kafka.KafkaTestUtilsDuration
+    org.openrewrite.java.spring.kafka.RemoveUsingCompletableFuture
+    org.openrewrite.java.spring.search.FindApiCalls
+    org.openrewrite.java.spring.search.FindApiEndpoints
+    org.openrewrite.java.spring.search.FindSpringComponents
+    org.openrewrite.java.spring.security5.AuthorizeHttpRequests
+    org.openrewrite.java.spring.security5.ReplaceGlobalMethodSecurityWithMethodSecurity
+    org.openrewrite.java.spring.security5.UpdateArgon2PasswordEncoder
+    org.openrewrite.java.spring.security5.UpdatePbkdf2PasswordEncoder
+    org.openrewrite.java.spring.security5.UpdateSCryptPasswordEncoder
+    org.openrewrite.java.spring.security5.UseNewRequestMatchers
+    org.openrewrite.java.spring.security5.UseNewSecurityMatchers
+    org.openrewrite.java.spring.security5.WebSecurityConfigurerAdapter
+    org.openrewrite.java.spring.security6.ApplyToWithLambdaDsl
+    org.openrewrite.java.spring.security6.PropagateAuthenticationServiceExceptions
+    org.openrewrite.java.spring.security6.RemoveFilterSecurityInterceptorOncePerRequest
+    org.openrewrite.java.spring.security6.RemoveOauth2LoginConfig
+    org.openrewrite.java.spring.security6.RequireExplicitSavingOfSecurityContextRepository
+    org.openrewrite.java.spring.security6.UpdateEnableReactiveMethodSecurity
+    org.openrewrite.java.spring.security6.UpdateRequestCache
+    org.openrewrite.java.spring.security6.UseSha256InRememberMe
+    org.openrewrite.java.spring.security6.oauth2.client.OAuth2ClientLambdaDsl
+    org.openrewrite.java.spring.security6.oauth2.client.OAuth2LoginLambdaDsl
+    org.openrewrite.java.spring.security6.oauth2.server.resource.OAuth2ResourceServerLambdaDsl
+    org.openrewrite.java.spring.test.SpringRulesToJUnitExtension
+    org.openrewrite.java.testing.assertj.AdoptAssertJDurationAssertions
+    org.openrewrite.java.testing.assertj.CollapseConsecutiveAssertThatStatements
+    org.openrewrite.java.testing.assertj.JUnitAssertArrayEqualsToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertEqualsToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertFalseToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertInstanceOfToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertNotEqualsToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertNotNullToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertNullToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertSameToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitAssertThrowsToAssertExceptionType
+    org.openrewrite.java.testing.assertj.JUnitAssertTrueToAssertThat
+    org.openrewrite.java.testing.assertj.JUnitFailToAssertJFail
+    org.openrewrite.java.testing.assertj.SimplifyAssertJAssertion
+    org.openrewrite.java.testing.assertj.SimplifyChainedAssertJAssertion
+    org.openrewrite.java.testing.cleanup.AssertEqualsBooleanToAssertBoolean
+    org.openrewrite.java.testing.cleanup.AssertEqualsNullToAssertNull
+    org.openrewrite.java.testing.cleanup.AssertFalseEqualsToAssertNotEquals
+    org.openrewrite.java.testing.cleanup.AssertFalseNegationToAssertTrue
+    org.openrewrite.java.testing.cleanup.AssertFalseNullToAssertNotNull
+    org.openrewrite.java.testing.cleanup.AssertLiteralBooleanToFailRecipe
+    org.openrewrite.java.testing.cleanup.AssertNotEqualsBooleanToAssertBoolean
+    org.openrewrite.java.testing.cleanup.AssertTrueComparisonToAssertEquals
+    org.openrewrite.java.testing.cleanup.AssertTrueEqualsToAssertEquals
+    org.openrewrite.java.testing.cleanup.AssertTrueNegationToAssertFalse
+    org.openrewrite.java.testing.cleanup.AssertTrueNullToAssertNull
+    org.openrewrite.java.testing.cleanup.AssertionsArgumentOrder
+    org.openrewrite.java.testing.cleanup.RemoveEmptyTests
+    org.openrewrite.java.testing.cleanup.RemoveTestPrefix
+    org.openrewrite.java.testing.cleanup.SimplifyTestThrows
+    org.openrewrite.java.testing.cleanup.TestsShouldIncludeAssertions
+    org.openrewrite.java.testing.cleanup.TestsShouldNotBePublic
+    org.openrewrite.java.testing.dbrider.ExecutionListenerToDbRiderAnnotation
+    org.openrewrite.java.testing.easymock.EasyMockVerifyToMockitoVerify
+    org.openrewrite.java.testing.easymock.RemoveExtendsEasyMockSupport
+    org.openrewrite.java.testing.hamcrest.AssertThatBooleanToAssertJ
+    org.openrewrite.java.testing.hamcrest.HamcrestInstanceOfToJUnit5
+    org.openrewrite.java.testing.hamcrest.HamcrestIsMatcherToAssertJ
+    org.openrewrite.java.testing.hamcrest.HamcrestMatcherToAssertJ
+    org.openrewrite.java.testing.hamcrest.HamcrestMatcherToJUnit5
+    org.openrewrite.java.testing.hamcrest.HamcrestNotMatcherToAssertJ
+    org.openrewrite.java.testing.hamcrest.HamcrestOfMatchersToAssertJ
+    org.openrewrite.java.testing.hamcrest.RemoveIsMatcher
+    org.openrewrite.java.testing.jmockit.JMockitAnnotatedArgumentToMockito
+    org.openrewrite.java.testing.jmockit.JMockitBlockToMockito
+    org.openrewrite.java.testing.jmockit.JMockitMockUpToMockito
+    org.openrewrite.java.testing.junit5.AddHamcrestJUnitDependency
+    org.openrewrite.java.testing.junit5.AddJupiterDependencies
+    org.openrewrite.java.testing.junit5.AddMissingNested
+    org.openrewrite.java.testing.junit5.AddMissingTestBeforeAfterAnnotations
+    org.openrewrite.java.testing.junit5.AddParameterizedTestAnnotation
+    org.openrewrite.java.testing.junit5.AssertThrowsOnLastStatement
+    org.openrewrite.java.testing.junit5.AssertToAssertions
+    org.openrewrite.java.testing.junit5.AssertTrueInstanceofToAssertInstanceOf
+    org.openrewrite.java.testing.junit5.CategoryToTag
+    org.openrewrite.java.testing.junit5.CleanupJUnitImports
+    org.openrewrite.java.testing.junit5.EnclosedToNested
+    org.openrewrite.java.testing.junit5.ExpectedExceptionToAssertThrows
+    org.openrewrite.java.testing.junit5.GradleUseJunitJupiter
+    org.openrewrite.java.testing.junit5.JUnitParamsRunnerToParameterized
+    org.openrewrite.java.testing.junit5.LifecycleNonPrivate
+    org.openrewrite.java.testing.junit5.MigrateJUnitTestCase
+    org.openrewrite.java.testing.junit5.MockitoJUnitToMockitoExtension
+    org.openrewrite.java.testing.junit5.ParameterizedRunnerToParameterized
+    org.openrewrite.java.testing.junit5.RemoveDuplicateTestTemplates
+    org.openrewrite.java.testing.junit5.RemoveObsoleteRunners
+    org.openrewrite.java.testing.junit5.RemoveTryCatchFailBlocks
+    org.openrewrite.java.testing.junit5.RunnerToExtension
+    org.openrewrite.java.testing.junit5.TempDirNonFinal
+    org.openrewrite.java.testing.junit5.TemporaryFolderToTempDir
+    org.openrewrite.java.testing.junit5.TestRuleToTestInfo
+    org.openrewrite.java.testing.junit5.UpdateBeforeAfterAnnotations
+    org.openrewrite.java.testing.junit5.UpdateMockWebServer
+    org.openrewrite.java.testing.junit5.UpdateTestAnnotation
+    org.openrewrite.java.testing.junit5.UseAssertSame
+    org.openrewrite.java.testing.junit5.UseTestMethodOrder
+    org.openrewrite.java.testing.junit5.UseWiremockExtension
+    org.openrewrite.java.testing.mockito.AnyStringToNullable
+    org.openrewrite.java.testing.mockito.AnyToNullable
+    org.openrewrite.java.testing.mockito.CleanupMockitoImports
+    org.openrewrite.java.testing.mockito.MockUtilsToStatic
+    org.openrewrite.java.testing.mockito.MockitoJUnitRunnerSilentToExtension
+    org.openrewrite.java.testing.mockito.MockitoWhenOnStaticToMockStatic
+    org.openrewrite.java.testing.mockito.NoInitializationForInjectMock
+    org.openrewrite.java.testing.mockito.PowerMockitoMockStaticToMockito
+    org.openrewrite.java.testing.mockito.RemoveTimesZeroAndOne
+    org.openrewrite.java.testing.mockito.SimplifyMockitoVerifyWhenGiven
+    org.openrewrite.java.testing.mockito.VerifyZeroToNoMoreInteractions
+    org.openrewrite.java.testing.testcontainers.ExplicitContainerImage
+    org.openrewrite.java.testing.testng.TestNgAssertEqualsToAssertThat
+    org.openrewrite.java.testing.testng.TestNgAssertNotEqualsToAssertThat
+    org.openrewrite.jenkins.AddJellyXmlDeclaration
+    org.openrewrite.jenkins.AddPluginsBom
+    org.openrewrite.jenkins.CreateIndexJelly
+    org.openrewrite.jenkins.DisableLocalResolutionForParentPom
+    org.openrewrite.jenkins.IsJenkinsPlugin
+    org.openrewrite.jenkins.ReplaceLibrariesWithApiPlugin
+    org.openrewrite.jenkins.UpgradeJavaVersion
+    org.openrewrite.jenkins.UpgradeVersionProperty
+    org.openrewrite.jenkins.github.AddTeamToCodeowners
+    org.openrewrite.json.ChangeKey
+    org.openrewrite.json.ChangeValue
+    org.openrewrite.json.DeleteKey
+    org.openrewrite.json.search.FindKey
+    org.openrewrite.kotlin.FindKotlinSources
+    org.openrewrite.kotlin.RenameTypeAlias
+    org.openrewrite.kotlin.cleanup.EqualsMethodUsage
+    org.openrewrite.kotlin.cleanup.ImplicitParameterInLambda
+    org.openrewrite.kotlin.cleanup.RemoveTrailingComma
+    org.openrewrite.kotlin.cleanup.RemoveTrailingSemicolon
+    org.openrewrite.kotlin.cleanup.ReplaceCharToIntWithCode
+    org.openrewrite.kotlin.cleanup.UnnecessaryTypeParentheses
+    org.openrewrite.kotlin.format.AutoFormat
+    org.openrewrite.maven.AddAnnotationProcessor
+    org.openrewrite.maven.AddCommentToMavenDependency
+    org.openrewrite.maven.AddDependency
+    org.openrewrite.maven.AddDevelocityMavenExtension
+    org.openrewrite.maven.AddManagedDependency
+    org.openrewrite.maven.AddParentPom
+    org.openrewrite.maven.AddPlugin
+    org.openrewrite.maven.AddPluginDependency
+    org.openrewrite.maven.AddProfile
+    org.openrewrite.maven.AddProperty
+    org.openrewrite.maven.AddRepository
+    org.openrewrite.maven.AddRuntimeConfig
+    org.openrewrite.maven.ChangeDependencyClassifier
+    org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId
+    org.openrewrite.maven.ChangeDependencyScope
+    org.openrewrite.maven.ChangeManagedDependencyGroupIdAndArtifactId
+    org.openrewrite.maven.ChangePackaging
+    org.openrewrite.maven.ChangeParentPom
+    org.openrewrite.maven.ChangePluginConfiguration
+    org.openrewrite.maven.ChangePluginDependencies
+    org.openrewrite.maven.ChangePluginExecutions
+    org.openrewrite.maven.ChangePluginGroupIdAndArtifactId
+    org.openrewrite.maven.ChangeProjectVersion
+    org.openrewrite.maven.ChangePropertyValue
+    org.openrewrite.maven.ExcludeDependency
+    org.openrewrite.maven.IncrementProjectVersion
+    org.openrewrite.maven.ManageDependencies
+    org.openrewrite.maven.ModernizeObsoletePoms
+    org.openrewrite.maven.OrderPomElements
+    org.openrewrite.maven.RemoveDependency
+    org.openrewrite.maven.RemoveDuplicateDependencies
+    org.openrewrite.maven.RemoveExclusion
+    org.openrewrite.maven.RemoveManagedDependency
+    org.openrewrite.maven.RemovePlugin
+    org.openrewrite.maven.RemovePluginDependency
+    org.openrewrite.maven.RemoveProperty
+    org.openrewrite.maven.RemoveRedundantDependencyVersions
+    org.openrewrite.maven.RemoveRepository
+    org.openrewrite.maven.RemoveUnusedProperties
+    org.openrewrite.maven.RenamePropertyKey
+    org.openrewrite.maven.UpdateMavenWrapper
+    org.openrewrite.maven.UpgradeDependencyVersion
+    org.openrewrite.maven.UpgradeParentVersion
+    org.openrewrite.maven.UpgradePluginVersion
+    org.openrewrite.maven.UpgradeTransitiveDependencyVersion
+    org.openrewrite.maven.cleanup.DependencyManagementDependencyRequiresVersion
+    org.openrewrite.maven.cleanup.ExplicitPluginGroupId
+    org.openrewrite.maven.cleanup.ExplicitPluginVersion
+    org.openrewrite.maven.search.DependencyInsight
+    org.openrewrite.maven.search.DoesNotIncludeDependency
+    org.openrewrite.maven.search.EffectiveDependencies
+    org.openrewrite.maven.search.EffectiveManagedDependencies
+    org.openrewrite.maven.search.EffectiveMavenRepositories
+    org.openrewrite.maven.search.FindDependency
+    org.openrewrite.maven.search.FindManagedDependency
+    org.openrewrite.maven.search.FindMavenProject
+    org.openrewrite.maven.search.FindMavenSettings
+    org.openrewrite.maven.search.FindPlugin
+    org.openrewrite.maven.search.FindProperties
+    org.openrewrite.maven.search.FindRepositoryOrder
+    org.openrewrite.maven.search.ParentPomInsight
+    org.openrewrite.maven.security.UseHttpsForRepositories
+    org.openrewrite.maven.spring.UpgradeExplicitSpringBootDependencies
+    org.openrewrite.maven.utilities.PrintMavenAsDot
+    org.openrewrite.micrometer.TimerToObservation
+    org.openrewrite.micrometer.dropwizard.FindDropwizardMetrics
+    org.openrewrite.micrometer.misk.MigrateEmptyLabelMiskCounter
+    org.openrewrite.micrometer.misk.NoExplicitEmptyLabelList
+    org.openrewrite.openapi.swagger.ConvertApiResponseCodesToStrings
+    org.openrewrite.openapi.swagger.MigrateApiImplicitParamDataTypeClass
+    org.openrewrite.openapi.swagger.MigrateApiToTag
+    org.openrewrite.properties.AddProperty
+    org.openrewrite.properties.AddPropertyComment
+    org.openrewrite.properties.ChangePropertyKey
+    org.openrewrite.properties.ChangePropertyValue
+    org.openrewrite.properties.CreatePropertiesFile
+    org.openrewrite.properties.DeleteProperty
+    org.openrewrite.properties.search.FindProperties
+    org.openrewrite.reactive.reactor.ReactorDoAfterSuccessOrErrorToTap
+    org.openrewrite.reactive.reactor.ReactorProcessorCacheToSinkRecipes
+    org.openrewrite.reactive.reactor.ReactorProcessorCacheToSinkRecipes$ReplayProcessorCacheDefaultToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCacheToSinkRecipes$ReplayProcessorCacheToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$DirectProcessorCreateToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$EmitterProcessorCreateBooleanToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$EmitterProcessorCreateIntBooleanToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$EmitterProcessorCreateIntToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$EmitterProcessorCreateToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$MonoProcessorCreateToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateIntLiteralFalseToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateIntLiteralTrueToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateIntToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateSizeAndTimeoutSchedulerToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateSizeAndTimeoutToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateTimeoutSchedulerToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateTimeoutToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$ReplayProcessorCreateToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$UnicastProcessorCreateQueueConsumerDisposableToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$UnicastProcessorCreateQueueDisposableToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$UnicastProcessorCreateQueueToSinkRecipe
+    org.openrewrite.reactive.reactor.ReactorProcessorCreateToSinkRecipes$UnicastProcessorCreateToSinkRecipe
+    org.openrewrite.search.FindBuildMetadata
+    org.openrewrite.search.FindCommitters
+    org.openrewrite.search.FindParseToPrintInequality
+    org.openrewrite.staticanalysis.AddSerialAnnotationToSerialVersionUID
+    org.openrewrite.staticanalysis.AddSerialVersionUidToSerializable
+    org.openrewrite.staticanalysis.AnnotateNullableMethods
+    org.openrewrite.staticanalysis.AtomicPrimitiveEqualsUsesGet
+    org.openrewrite.staticanalysis.AvoidBoxedBooleanExpressions
+    org.openrewrite.staticanalysis.BigDecimalDoubleConstructorRecipe
+    org.openrewrite.staticanalysis.BigDecimalRoundingConstantsToEnums
+    org.openrewrite.staticanalysis.BooleanChecksNotInverted
+    org.openrewrite.staticanalysis.BufferedWriterCreationRecipes
+    org.openrewrite.staticanalysis.BufferedWriterCreationRecipes$BufferedWriterFromNewFileWriterWithFileAndBooleanArgumentsRecipe
+    org.openrewrite.staticanalysis.BufferedWriterCreationRecipes$BufferedWriterFromNewFileWriterWithFileArgumentRecipe
+    org.openrewrite.staticanalysis.BufferedWriterCreationRecipes$BufferedWriterFromNewFileWriterWithStringAndBooleanArgumentsRecipe
+    org.openrewrite.staticanalysis.BufferedWriterCreationRecipes$BufferedWriterFromNewFileWriterWithStringArgumentRecipe
+    org.openrewrite.staticanalysis.CaseInsensitiveComparisonsDoNotChangeCase
+    org.openrewrite.staticanalysis.CatchClauseOnlyRethrows
+    org.openrewrite.staticanalysis.ChainStringBuilderAppendCalls
+    org.openrewrite.staticanalysis.CombineSemanticallyEqualCatchBlocks
+    org.openrewrite.staticanalysis.CompareEnumsWithEqualityOperator
+    org.openrewrite.staticanalysis.ControlFlowIndentation
+    org.openrewrite.staticanalysis.CovariantEquals
+    org.openrewrite.staticanalysis.DeclarationSiteTypeVariance
+    org.openrewrite.staticanalysis.DefaultComesLast
+    org.openrewrite.staticanalysis.EmptyBlock
+    org.openrewrite.staticanalysis.EqualsAvoidsNull
+    org.openrewrite.staticanalysis.EqualsToContentEquals
+    org.openrewrite.staticanalysis.ExplicitCharsetOnStringGetBytes
+    org.openrewrite.staticanalysis.ExplicitInitialization
+    org.openrewrite.staticanalysis.ExplicitLambdaArgumentTypes
+    org.openrewrite.staticanalysis.ExternalizableHasNoArgsConstructor
+    org.openrewrite.staticanalysis.FallThrough
+    org.openrewrite.staticanalysis.FinalClass
+    org.openrewrite.staticanalysis.FinalizeLocalVariables
+    org.openrewrite.staticanalysis.FinalizeMethodArguments
+    org.openrewrite.staticanalysis.FinalizePrivateFields
+    org.openrewrite.staticanalysis.FixStringFormatExpressions
+    org.openrewrite.staticanalysis.ForLoopControlVariablePostfixOperators
+    org.openrewrite.staticanalysis.ForLoopIncrementInUpdate
+    org.openrewrite.staticanalysis.HiddenField
+    org.openrewrite.staticanalysis.HideUtilityClassConstructor
+    org.openrewrite.staticanalysis.IndexOfChecksShouldUseAStartPosition
+    org.openrewrite.staticanalysis.IndexOfReplaceableByContains
+    org.openrewrite.staticanalysis.IndexOfShouldNotCompareGreaterThanZero
+    org.openrewrite.staticanalysis.InlineVariable
+    org.openrewrite.staticanalysis.InstanceOfPatternMatch
+    org.openrewrite.staticanalysis.IsEmptyCallOnCollections
+    org.openrewrite.staticanalysis.LambdaBlockToExpression
+    org.openrewrite.staticanalysis.LowercasePackage
+    org.openrewrite.staticanalysis.MaskCreditCardNumbers
+    org.openrewrite.staticanalysis.MethodNameCasing
+    org.openrewrite.staticanalysis.MinimumSwitchCases
+    org.openrewrite.staticanalysis.MissingOverrideAnnotation
+    org.openrewrite.staticanalysis.ModifierOrder
+    org.openrewrite.staticanalysis.MultipleVariableDeclarations
+    org.openrewrite.staticanalysis.NeedBraces
+    org.openrewrite.staticanalysis.NestedEnumsAreNotStatic
+    org.openrewrite.staticanalysis.NewStringBuilderBufferWithCharArgument
+    org.openrewrite.staticanalysis.NoDoubleBraceInitialization
+    org.openrewrite.staticanalysis.NoEmptyCollectionWithRawType
+    org.openrewrite.staticanalysis.NoEqualityInForCondition
+    org.openrewrite.staticanalysis.NoFinalizedLocalVariables
+    org.openrewrite.staticanalysis.NoFinalizer
+    org.openrewrite.staticanalysis.NoPrimitiveWrappersForToStringOrCompareTo
+    org.openrewrite.staticanalysis.NoRedundantJumpStatements
+    org.openrewrite.staticanalysis.NoToStringOnStringType
+    org.openrewrite.staticanalysis.NoValueOfOnStringType
+    org.openrewrite.staticanalysis.NullableOnMethodReturnType
+    org.openrewrite.staticanalysis.ObjectFinalizeCallsSuper
+    org.openrewrite.staticanalysis.OperatorWrap
+    org.openrewrite.staticanalysis.PrimitiveWrapperClassConstructorToValueOf
+    org.openrewrite.staticanalysis.RedundantFileCreation
+    org.openrewrite.staticanalysis.ReferentialEqualityToObjectEquals
+    org.openrewrite.staticanalysis.RemoveCallsToObjectFinalize
+    org.openrewrite.staticanalysis.RemoveCallsToSystemGc
+    org.openrewrite.staticanalysis.RemoveEmptyJavaDocParameters
+    org.openrewrite.staticanalysis.RemoveExtraSemicolons
+    org.openrewrite.staticanalysis.RemoveHashCodeCallsFromArrayInstances
+    org.openrewrite.staticanalysis.RemoveInstanceOfPatternMatch
+    org.openrewrite.staticanalysis.RemoveJavaDocAuthorTag
+    org.openrewrite.staticanalysis.RemoveRedundantTypeCast
+    org.openrewrite.staticanalysis.RemoveSystemOutPrintln
+    org.openrewrite.staticanalysis.RemoveToStringCallsFromArrayInstances
+    org.openrewrite.staticanalysis.RemoveUnneededAssertion
+    org.openrewrite.staticanalysis.RemoveUnneededBlock
+    org.openrewrite.staticanalysis.RemoveUnusedLocalVariables
+    org.openrewrite.staticanalysis.RemoveUnusedPrivateFields
+    org.openrewrite.staticanalysis.RemoveUnusedPrivateMethods
+    org.openrewrite.staticanalysis.RenameExceptionInEmptyCatch
+    org.openrewrite.staticanalysis.RenameLocalVariablesToCamelCase
+    org.openrewrite.staticanalysis.RenameMethodsNamedHashcodeEqualOrToString
+    org.openrewrite.staticanalysis.RenamePrivateFieldsToCamelCase
+    org.openrewrite.staticanalysis.ReplaceClassIsInstanceWithInstanceof
+    org.openrewrite.staticanalysis.ReplaceCollectionToArrayArgWithEmptyArray
+    org.openrewrite.staticanalysis.ReplaceDeprecatedRuntimeExecMethods
+    org.openrewrite.staticanalysis.ReplaceDuplicateStringLiterals
+    org.openrewrite.staticanalysis.ReplaceLambdaWithMethodReference
+    org.openrewrite.staticanalysis.ReplaceOptionalIsPresentWithIfPresent
+    org.openrewrite.staticanalysis.ReplaceRedundantFormatWithPrintf
+    org.openrewrite.staticanalysis.ReplaceStackWithDeque
+    org.openrewrite.staticanalysis.ReplaceStreamToListWithCollect
+    org.openrewrite.staticanalysis.ReplaceStringBuilderWithString
+    org.openrewrite.staticanalysis.ReplaceTextBlockWithString
+    org.openrewrite.staticanalysis.ReplaceValidateNotNullHavingVarargsWithObjectsRequireNonNull
+    org.openrewrite.staticanalysis.ReplaceWeekYearWithYear
+    org.openrewrite.staticanalysis.SimplifyBooleanExpression
+    org.openrewrite.staticanalysis.SimplifyBooleanReturn
+    org.openrewrite.staticanalysis.SimplifyCompoundStatement
+    org.openrewrite.staticanalysis.SimplifyConsecutiveAssignments
+    org.openrewrite.staticanalysis.SimplifyConstantIfBranchExecution
+    org.openrewrite.staticanalysis.SimplifyDurationCreationUnits
+    org.openrewrite.staticanalysis.SimplifyTernaryRecipes
+    org.openrewrite.staticanalysis.SimplifyTernaryRecipes$SimplifyTernaryFalseTrueRecipe
+    org.openrewrite.staticanalysis.SimplifyTernaryRecipes$SimplifyTernaryTrueFalseRecipe
+    org.openrewrite.staticanalysis.SortedSetStreamToLinkedHashSet
+    org.openrewrite.staticanalysis.StaticMethodNotFinal
+    org.openrewrite.staticanalysis.StringLiteralEquality
+    org.openrewrite.staticanalysis.TernaryOperatorsShouldNotBeNested
+    org.openrewrite.staticanalysis.TypecastParenPad
+    org.openrewrite.staticanalysis.URLEqualsHashCodeRecipes
+    org.openrewrite.staticanalysis.URLEqualsHashCodeRecipes$URLEqualsRecipe
+    org.openrewrite.staticanalysis.URLEqualsHashCodeRecipes$URLHashCodeRecipe
+    org.openrewrite.staticanalysis.UnnecessaryCatch
+    org.openrewrite.staticanalysis.UnnecessaryCloseInTryWithResources
+    org.openrewrite.staticanalysis.UnnecessaryExplicitTypeArguments
+    org.openrewrite.staticanalysis.UnnecessaryParentheses
+    org.openrewrite.staticanalysis.UnnecessaryPrimitiveAnnotations
+    org.openrewrite.staticanalysis.UnnecessaryReturnAsLastStatement
+    org.openrewrite.staticanalysis.UnnecessaryThrows
+    org.openrewrite.staticanalysis.UnwrapRepeatableAnnotations
+    org.openrewrite.staticanalysis.UpperCaseLiteralSuffixes
+    org.openrewrite.staticanalysis.UseAsBuilder
+    org.openrewrite.staticanalysis.UseCollectionInterfaces
+    org.openrewrite.staticanalysis.UseDiamondOperator
+    org.openrewrite.staticanalysis.UseForEachRemoveInsteadOfSetRemoveAll
+    org.openrewrite.staticanalysis.UseJavaStyleArrayDeclarations
+    org.openrewrite.staticanalysis.UseLambdaForFunctionalInterface
+    org.openrewrite.staticanalysis.UseListSort
+    org.openrewrite.staticanalysis.UseObjectNotifyAll
+    org.openrewrite.staticanalysis.UseStandardCharset
+    org.openrewrite.staticanalysis.UseStringReplace
+    org.openrewrite.staticanalysis.UseSystemLineSeparator
+    org.openrewrite.staticanalysis.WhileInsteadOfFor
+    org.openrewrite.staticanalysis.WriteOctalValuesAsDecimal
+    org.openrewrite.staticanalysis.java.MoveFieldAnnotationToType
+    org.openrewrite.text.AppendToTextFile
+    org.openrewrite.text.ChangeText
+    org.openrewrite.text.CreateTextFile
+    org.openrewrite.text.EndOfLineAtEndOfFile
+    org.openrewrite.text.Find
+    org.openrewrite.text.FindAndReplace
+    org.openrewrite.text.FindMultiselect
+    org.openrewrite.xml.AddCommentToXmlTag
+    org.openrewrite.xml.AddOrUpdateChildTag
+    org.openrewrite.xml.ChangeNamespaceValue
+    org.openrewrite.xml.ChangeTagAttribute
+    org.openrewrite.xml.ChangeTagName
+    org.openrewrite.xml.ChangeTagValue
+    org.openrewrite.xml.CreateXmlFile
+    org.openrewrite.xml.RemoveEmptyXmlTags
+    org.openrewrite.xml.RemoveTrailingWhitespace
+    org.openrewrite.xml.RemoveXmlTag
+    org.openrewrite.xml.XsltTransformation
+    org.openrewrite.xml.format.AutoFormat
+    org.openrewrite.xml.format.LineBreaks
+    org.openrewrite.xml.format.NormalizeFormat
+    org.openrewrite.xml.format.NormalizeLineBreaks
+    org.openrewrite.xml.format.NormalizeTabsOrSpaces
+    org.openrewrite.xml.format.TabsAndIndents
+    org.openrewrite.xml.search.FindNamespacePrefix
+    org.openrewrite.xml.search.FindTags
+    org.openrewrite.xml.search.HasNamespaceUri
+    org.openrewrite.xml.security.AddOwaspDateBoundSuppressions
+    org.openrewrite.xml.security.IsOwaspSuppressionsFile
+    org.openrewrite.xml.security.RemoveOwaspSuppressions
+    org.openrewrite.xml.security.UpdateOwaspSuppressionDate
+    org.openrewrite.xml.style.AutodetectDebug
+    org.openrewrite.yaml.AppendToSequence
+    org.openrewrite.yaml.ChangeKey
+    org.openrewrite.yaml.ChangePropertyKey
+    org.openrewrite.yaml.ChangePropertyValue
+    org.openrewrite.yaml.ChangeValue
+    org.openrewrite.yaml.CoalesceProperties
+    org.openrewrite.yaml.CommentOutProperty
+    org.openrewrite.yaml.CopyValue
+    org.openrewrite.yaml.CreateYamlFile
+    org.openrewrite.yaml.DeleteKey
+    org.openrewrite.yaml.DeleteProperty
+    org.openrewrite.yaml.MergeYaml
+    org.openrewrite.yaml.cleanup.RemoveUnused
+    org.openrewrite.yaml.format.Indents
+    org.openrewrite.yaml.search.FindKey
+    org.openrewrite.yaml.search.FindProperty
+    tech.picnic.errorprone.refasterrules.AssertJBigDecimalRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJBigDecimalRulesRecipes$AbstractBigDecimalAssertIsEqualByComparingToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBigDecimalRulesRecipes$AbstractBigDecimalAssertIsNotEqualByComparingToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBigIntegerRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJBigIntegerRulesRecipes$AbstractBigIntegerAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBigIntegerRulesRecipes$AbstractBigIntegerAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBigIntegerRulesRecipes$AbstractBigIntegerAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBigIntegerRulesRecipes$AbstractBigIntegerAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBigIntegerRulesRecipes$AbstractBigIntegerAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes$AbstractBooleanAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes$AbstractBooleanAssertIsFalseRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes$AbstractBooleanAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes$AbstractBooleanAssertIsTrueRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes$AssertThatBooleanIsFalseRecipe
+    tech.picnic.errorprone.refasterrules.AssertJBooleanRulesRecipes$AssertThatBooleanIsTrueRecipe
+    tech.picnic.errorprone.refasterrules.AssertJByteRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJByteRulesRecipes$AbstractByteAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJByteRulesRecipes$AbstractByteAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJByteRulesRecipes$AbstractByteAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJByteRulesRecipes$AbstractByteAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJByteRulesRecipes$AbstractByteAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJCharSequenceRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJCharSequenceRulesRecipes$AssertThatCharSequenceHasSizeRecipe
+    tech.picnic.errorprone.refasterrules.AssertJCharSequenceRulesRecipes$AssertThatCharSequenceIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.AssertJCharSequenceRulesRecipes$AssertThatCharSequenceIsNotEmptyRecipe
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes$AbstractDoubleAssertIsCloseToWithOffsetRecipe
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes$AbstractDoubleAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes$AbstractDoubleAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes$AbstractDoubleAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes$AbstractDoubleAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJDoubleRulesRecipes$AbstractDoubleAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes$AbstractFloatAssertIsCloseToWithOffsetRecipe
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes$AbstractFloatAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes$AbstractFloatAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes$AbstractFloatAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes$AbstractFloatAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJFloatRulesRecipes$AbstractFloatAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJIntegerRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJIntegerRulesRecipes$AbstractIntegerAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJIntegerRulesRecipes$AbstractIntegerAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJIntegerRulesRecipes$AbstractIntegerAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJIntegerRulesRecipes$AbstractIntegerAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJIntegerRulesRecipes$AbstractIntegerAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJLongRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJLongRulesRecipes$AbstractLongAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJLongRulesRecipes$AbstractLongAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJLongRulesRecipes$AbstractLongAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJLongRulesRecipes$AbstractLongAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJLongRulesRecipes$AbstractLongAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJNumberRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJNumberRulesRecipes$NumberAssertIsNegativeRecipe
+    tech.picnic.errorprone.refasterrules.AssertJNumberRulesRecipes$NumberAssertIsNotNegativeRecipe
+    tech.picnic.errorprone.refasterrules.AssertJNumberRulesRecipes$NumberAssertIsNotPositiveRecipe
+    tech.picnic.errorprone.refasterrules.AssertJNumberRulesRecipes$NumberAssertIsPositiveRecipe
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes$AssertThatIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes$AssertThatIsGreaterThanOrEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes$AssertThatIsGreaterThanRecipe
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes$AssertThatIsLessThanOrEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes$AssertThatIsLessThanRecipe
+    tech.picnic.errorprone.refasterrules.AssertJPrimitiveRulesRecipes$AssertThatIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJRulesRecipes$AssertThatOptionalDoubleRecipe
+    tech.picnic.errorprone.refasterrules.AssertJRulesRecipes$AssertThatOptionalIntRecipe
+    tech.picnic.errorprone.refasterrules.AssertJRulesRecipes$AssertThatOptionalLongRecipe
+    tech.picnic.errorprone.refasterrules.AssertJShortRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJShortRulesRecipes$AbstractShortAssertIsEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJShortRulesRecipes$AbstractShortAssertIsNotEqualToRecipe
+    tech.picnic.errorprone.refasterrules.AssertJShortRulesRecipes$AbstractShortAssertIsNotZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJShortRulesRecipes$AbstractShortAssertIsOneRecipe
+    tech.picnic.errorprone.refasterrules.AssertJShortRulesRecipes$AbstractShortAssertIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AbstractStringAssertStringIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AbstractStringAssertStringIsNotEmptyRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AssertThatDoesNotMatchRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AssertThatMatchesRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AssertThatPathContentRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AssertThatPathContentUtf8Recipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AssertThatStringIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.AssertJStringRulesRecipes$AssertThatStringIsNotEmptyRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByHasMessageContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByHasMessageNotContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByHasMessageRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByHasMessageStartingWithRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIOExceptionHasMessageContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIOExceptionHasMessageNotContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIOExceptionHasMessageRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIOExceptionHasMessageStartingWithRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIOExceptionRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalArgumentExceptionHasMessageContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalArgumentExceptionHasMessageRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalArgumentExceptionHasMessageStartingWithRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalArgumentExceptionRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalStateExceptionHasMessageContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalStateExceptionHasMessageNotContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalStateExceptionHasMessageRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalStateExceptionHasMessageStartingWithRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByIllegalStateExceptionRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByNullPointerExceptionHasMessageContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByNullPointerExceptionHasMessageNotContainingRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByNullPointerExceptionHasMessageRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByNullPointerExceptionHasMessageStartingWithRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByNullPointerExceptionRecipe
+    tech.picnic.errorprone.refasterrules.AssertJThrowingCallableRulesRecipes$AssertThatThrownByRecipe
+    tech.picnic.errorprone.refasterrules.AssortedRulesRecipes
+    tech.picnic.errorprone.refasterrules.AssortedRulesRecipes$CheckIndexRecipe
+    tech.picnic.errorprone.refasterrules.AssortedRulesRecipes$LogicalImplicationRecipe
+    tech.picnic.errorprone.refasterrules.AssortedRulesRecipes$SplitToStreamRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalOneRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalSignumIsNegativeRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalSignumIsPositiveRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalSignumIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalTenRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalValueOfRecipe
+    tech.picnic.errorprone.refasterrules.BigDecimalRulesRecipes$BigDecimalZeroRecipe
+    tech.picnic.errorprone.refasterrules.BugCheckerRulesRecipes
+    tech.picnic.errorprone.refasterrules.BugCheckerRulesRecipes$BugCheckerRefactoringTestHelperAddInputLinesExpectUnchangedRecipe
+    tech.picnic.errorprone.refasterrules.BugCheckerRulesRecipes$BugCheckerRefactoringTestHelperIdentityRecipe
+    tech.picnic.errorprone.refasterrules.BugCheckerRulesRecipes$ConstantsFormatRecipe
+    tech.picnic.errorprone.refasterrules.BugCheckerRulesRecipes$NameContentEqualsRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$ConcatOneDoubleStreamRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$ConcatTwoDoubleStreamsRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamAllMatchRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamAnyMatchRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamFilterSortedRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamIsNotEmptyRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamMinRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamNoneMatchRecipe
+    tech.picnic.errorprone.refasterrules.DoubleStreamRulesRecipes$DoubleStreamTakeWhileRecipe
+    tech.picnic.errorprone.refasterrules.EqualityRulesRecipes
+    tech.picnic.errorprone.refasterrules.EqualityRulesRecipes$DoubleNegationRecipe
+    tech.picnic.errorprone.refasterrules.EqualityRulesRecipes$IndirectDoubleNegationRecipe
+    tech.picnic.errorprone.refasterrules.EqualityRulesRecipes$NegationRecipe
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes$FilesCreateTempFileInCustomDirectoryToFileRecipe
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes$FilesCreateTempFileToFileRecipe
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes$FilesReadStringRecipe
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes$FilesReadStringWithCharsetRecipe
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes$PathInstanceRecipe
+    tech.picnic.errorprone.refasterrules.FileRulesRecipes$PathOfUriRecipe
+    tech.picnic.errorprone.refasterrules.InputStreamRulesRecipes
+    tech.picnic.errorprone.refasterrules.InputStreamRulesRecipes$InputStreamReadAllBytesRecipe
+    tech.picnic.errorprone.refasterrules.InputStreamRulesRecipes$InputStreamReadNBytesRecipe
+    tech.picnic.errorprone.refasterrules.InputStreamRulesRecipes$InputStreamSkipNBytesRecipe
+    tech.picnic.errorprone.refasterrules.InputStreamRulesRecipes$InputStreamTransferToRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$ConcatOneIntStreamRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$ConcatTwoIntStreamsRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamAllMatchRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamAnyMatchRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamClosedOpenRangeRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamFilterSortedRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamIsNotEmptyRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamMinRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamNoneMatchRecipe
+    tech.picnic.errorprone.refasterrules.IntStreamRulesRecipes$IntStreamTakeWhileRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatCodeDoesNotThrowAnyExceptionRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatCodeWithFailMessageStringDoesNotThrowAnyExceptionRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatCodeWithFailMessageSupplierDoesNotThrowAnyExceptionRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatIsFalseRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatIsNotNullRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatIsNotSameAsRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatIsNullRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatIsSameAsRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatIsTrueRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageStringIsFalseRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageStringIsNotNullRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageStringIsNotSameAsRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageStringIsNullRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageStringIsSameAsRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageStringIsTrueRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageSupplierIsFalseRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageSupplierIsNotNullRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageSupplierIsNotSameAsRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageSupplierIsNullRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageSupplierIsSameAsRecipe
+    tech.picnic.errorprone.refasterrules.JUnitToAssertJRulesRecipes$AssertThatWithFailMessageSupplierIsTrueRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$ConcatOneLongStreamRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$ConcatTwoLongStreamsRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamAllMatchRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamAnyMatchRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamClosedOpenRangeRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamFilterSortedRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamIsNotEmptyRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamMinRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamNoneMatchRecipe
+    tech.picnic.errorprone.refasterrules.LongStreamRulesRecipes$LongStreamTakeWhileRecipe
+    tech.picnic.errorprone.refasterrules.MicrometerRulesRecipes
+    tech.picnic.errorprone.refasterrules.MicrometerRulesRecipes$TagsOf1Recipe
+    tech.picnic.errorprone.refasterrules.MicrometerRulesRecipes$TagsOf2Recipe
+    tech.picnic.errorprone.refasterrules.MicrometerRulesRecipes$TagsOf3Recipe
+    tech.picnic.errorprone.refasterrules.MicrometerRulesRecipes$TagsOf4Recipe
+    tech.picnic.errorprone.refasterrules.MicrometerRulesRecipes$TagsOf5Recipe
+    tech.picnic.errorprone.refasterrules.MockitoRulesRecipes
+    tech.picnic.errorprone.refasterrules.MockitoRulesRecipes$InvocationOnMockGetArgumentsRecipe
+    tech.picnic.errorprone.refasterrules.MockitoRulesRecipes$NeverRecipe
+    tech.picnic.errorprone.refasterrules.NullRulesRecipes
+    tech.picnic.errorprone.refasterrules.NullRulesRecipes$IsNotNullRecipe
+    tech.picnic.errorprone.refasterrules.NullRulesRecipes$IsNullRecipe
+    tech.picnic.errorprone.refasterrules.PatternRulesRecipes
+    tech.picnic.errorprone.refasterrules.PatternRulesRecipes$PatternAsPredicateRecipe
+    tech.picnic.errorprone.refasterrules.PatternRulesRecipes$PatternCompileAsPredicateRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$BooleanHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$ByteHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$CharacterBytesRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$CharacterHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$DoubleBytesRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$DoubleHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$DoubleIsFiniteRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$FloatBytesRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$FloatHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$FloatIsFiniteRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$GreaterThanOrEqualToRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$GreaterThanRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerBytesRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerCompareUnsignedRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerDivideUnsignedRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerParseUnsignedIntRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerParseUnsignedIntWithRadixRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerRemainderUnsignedRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerSignumIsNegativeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerSignumIsPositiveRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerToUnsignedStringRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$IntegerToUnsignedStringWithRadixRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LessThanOrEqualToRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LessThanRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongBytesRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongCompareUnsignedRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongDivideUnsignedRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongParseUnsignedLongRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongParseUnsignedLongWithRadixRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongRemainderUnsignedRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongSignumIsNegativeRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongSignumIsPositiveRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongToIntExactRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongToUnsignedStringRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$LongToUnsignedStringWithRadixRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$ShortBytesRecipe
+    tech.picnic.errorprone.refasterrules.PrimitiveRulesRecipes$ShortHashCodeRecipe
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes$StepVerifierLastStepVerifyCompleteRecipe
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes$StepVerifierLastStepVerifyErrorMatchesRecipe
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes$StepVerifierLastStepVerifyErrorMessageRecipe
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes$StepVerifierLastStepVerifyErrorRecipe
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes$StepVerifierLastStepVerifyErrorSatisfiesRecipe
+    tech.picnic.errorprone.refasterrules.ReactorRulesRecipes$StepVerifierLastStepVerifyTimeoutRecipe
+    tech.picnic.errorprone.refasterrules.RxJava2AdapterRulesRecipes
+    tech.picnic.errorprone.refasterrules.RxJava2AdapterRulesRecipes$CompletableToMonoRecipe
+    tech.picnic.errorprone.refasterrules.StreamRulesRecipes
+    tech.picnic.errorprone.refasterrules.StreamRulesRecipes$JoiningRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$FilterEmptyStringRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$JoinStringsRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$NewStringFromCharArrayRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$NewStringFromCharArraySubSequenceRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$OptionalNonEmptyStringRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringIndexOfCharRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringIndexOfStringRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringIsEmptyRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringIsNullOrEmptyRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringLastIndexOfCharRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringLastIndexOfCharWithIndexRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringLastIndexOfStringRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringLastIndexOfStringWithIndexRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringStartsWithRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$StringValueOfRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$SubstringRemainderRecipe
+    tech.picnic.errorprone.refasterrules.StringRulesRecipes$Utf8EncodedLengthRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixDeleteRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixPostfixWithRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixPrefixWithRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixReplaceStartEndRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixReplaceTreeRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixReplaceTreeStartEndRecipe
+    tech.picnic.errorprone.refasterrules.SuggestedFixRulesRecipes$SuggestedFixSwapRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualArrayIterationOrderRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualArrayIterationOrderWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualArraysIrrespectiveOfOrderRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualArraysIrrespectiveOfOrderWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualDoublesWithDeltaRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualDoublesWithDeltaWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualFloatsWithDeltaRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualFloatsWithDeltaWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertEqualWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertFalseRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertFalseWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertNotNullRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertNotNullWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertNotSameRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertNotSameWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertNullRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertNullWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertSameRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertSameWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertThrowsRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertTrueRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertTrueWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertUnequalDoublesWithDeltaRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertUnequalDoublesWithDeltaWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertUnequalFloatsWithDeltaRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertUnequalFloatsWithDeltaWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertUnequalRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$AssertUnequalWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$FailRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$FailWithMessageAndThrowableRecipe
+    tech.picnic.errorprone.refasterrules.TestNGToAssertJRulesRecipes$FailWithMessageRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ChronoLocalDateIsAfterRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ChronoLocalDateIsBeforeRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ChronoLocalDateTimeIsAfterRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ChronoLocalDateTimeIsBeforeRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ChronoZonedDateTimeIsAfterRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ChronoZonedDateTimeIsBeforeRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ClockInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationBetweenInstantsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationBetweenOffsetDateTimesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationIsZeroRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationOfDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationOfHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationOfMillisRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationOfMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationOfNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$DurationOfSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$EpochInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$InstantAtOffsetRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$InstantAtZoneRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$InstantIsAfterRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$InstantIsBeforeRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateAtStartOfDayRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateMinusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateMinusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateMinusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateMinusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateOfInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDatePlusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDatePlusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDatePlusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDatePlusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeMinusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimeOfInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalDateTimePlusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimeMinRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimeMinusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimeMinusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimeMinusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimeMinusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimeOfInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimePlusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimePlusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimePlusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$LocalTimePlusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeIsAfterRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeIsBeforeRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeMinusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimeOfInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetDateTimePlusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimeMinusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimeMinusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimeMinusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimeMinusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimeOfInstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimePlusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimePlusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimePlusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$OffsetTimePlusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$UtcClockRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$UtcConstantRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZeroDurationRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZeroPeriodRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimeMinusYearsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusDaysRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusHoursRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusMinutesRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusMonthsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusNanosRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusSecondsRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusWeeksRecipe
+    tech.picnic.errorprone.refasterrules.TimeRulesRecipes$ZonedDateTimePlusYearsRecipe
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes$WebClientGetRecipe
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes$WebClientHeadRecipe
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes$WebClientOptionsRecipe
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes$WebClientPatchRecipe
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes$WebClientPostRecipe
+    tech.picnic.errorprone.refasterrules.WebClientRulesRecipes$WebClientPutRecipe
+    org.openrewrite.jenkins.ModernizePluginForJava8
+    org.openrewrite.jenkins.ModernizePlugin
+    org.openrewrite.jenkins.ModernizeJenkinsfile
+    org.openrewrite.jenkins.CommonsLang3ToApiPlugin
+    org.openrewrite.java.testing.htmlunit.UpgradeHtmlUnit_3
+    org.openrewrite.jenkins.migrate.hudson.UtilGetPastTimeStringToGetTimeSpanString
+    org.openrewrite.jenkins.JavaxAnnotationsToSpotbugs
+    org.openrewrite.java.testing.assertj.Assertj
+    org.openrewrite.java.testing.assertj.StaticImports
+    org.openrewrite.java.testing.assertj.SimplifyChainedAssertJAssertions
+    org.openrewrite.java.testing.assertj.SimplifyAssertJAssertions
+    org.openrewrite.java.testing.assertj.JUnitToAssertj
+    org.openrewrite.java.testing.jmockit.JMockitToMockito
+    org.openrewrite.java.testing.junit5.JUnit5BestPractices
+    org.openrewrite.java.testing.junit5.StaticImports
+    org.openrewrite.java.testing.junit5.JUnit4to5Migration
+    org.openrewrite.java.testing.junit5.UseHamcrestAssertThat
+    org.openrewrite.java.testing.junit5.MigrateAssumptions
+    org.openrewrite.java.testing.junit5.UseMockitoExtension
+    org.openrewrite.java.testing.junit5.IgnoreToDisabled
+    org.openrewrite.java.testing.junit5.ThrowingRunnableToExecutable
+    org.openrewrite.java.testing.junit5.VertxUnitToVertxJunit5
+    org.openrewrite.java.testing.junit5.UpgradeOkHttpMockWebServer
+    org.openrewrite.java.testing.junit5.CleanupAssertions
+    org.openrewrite.java.testing.junit5.UseXMLUnitLegacy
+    org.openrewrite.java.testing.junit5.UpgradeSurefirePlugin
+    org.openrewrite.java.testing.mockito.MockitoBestPractices
+    org.openrewrite.java.testing.mockito.Mockito1to5Migration
+    org.openrewrite.java.testing.mockito.Mockito4to5Only
+    org.openrewrite.java.testing.mockito.Mockito1to4Migration
+    org.openrewrite.java.testing.mockito.Mockito1to3Migration
+    org.openrewrite.java.testing.archunit.ArchUnit0to1Migration
+    org.openrewrite.java.testing.easymock.EasyMockToMockito
+    org.openrewrite.java.testing.mockito.ReplacePowerMockito
+    org.openrewrite.java.testing.cleanup.BestPractices
+    org.openrewrite.java.testing.dbrider.MigrateDbRiderSpringToDbRiderJUnit5
+    org.openrewrite.java.testing.hamcrest.AddHamcrestIfUsed
+    org.openrewrite.java.testing.hamcrest.ConsistentHamcrestMatcherImports
+    org.openrewrite.java.testing.hamcrest.MigrateHamcrestToJUnit5
+    org.openrewrite.java.testing.hamcrest.MigrateHamcrestToAssertJ
+    org.openrewrite.java.testing.testng.TestNgToAssertj
+    org.openrewrite.java.testing.datafaker.JavaFakerToDataFaker
+    org.openrewrite.java.testing.testcontainers.TestContainersBestPractices
+    org.openrewrite.java.testing.testcontainers.GetHostMigration
+    org.openrewrite.java.testing.testcontainers.ExplicitContainerImages
+    org.openrewrite.staticanalysis.CodeCleanup
+    org.openrewrite.staticanalysis.ReplaceThreadRunWithThreadStart
+    org.openrewrite.staticanalysis.CommonDeclarationSiteTypeVariances
+    org.openrewrite.staticanalysis.CommonStaticAnalysis
+    org.openrewrite.staticanalysis.JavaApiBestPractices
+    org.openrewrite.staticanalysis.UseMapContainsKey
+    org.openrewrite.staticanalysis.ReplaceApacheCommonsLang3ValidateNotNullWithObjectsRequireNonNull
+    org.openrewrite.staticanalysis.ReplaceValidateNotNullHavingSingleArgWithObjectsRequireNonNull
+    org.openrewrite.openapi.swagger.SwaggerToOpenAPI
+    org.openrewrite.openapi.swagger.UseJakartaSwaggerArtifacts
+    org.openrewrite.openapi.swagger.MigrateApiOperationToOperation
+    org.openrewrite.openapi.swagger.MigrateApiResponsesToApiResponses
+    org.openrewrite.openapi.swagger.MigrateApiImplicitParamsToParameters
+    org.openrewrite.openapi.swagger.MigrateApiParamToParameter
+    org.openrewrite.openapi.swagger.MigrateApiModelPropertyToSchema
+    org.openrewrite.openapi.swagger.MigrateApiModelToSchema
+    org.openrewrite.java.logging.log4j.ParameterizedLogging
+    org.openrewrite.java.logging.log4j.Log4j1ToLog4j2
+    org.openrewrite.java.logging.log4j.UpgradeLog4J2DependencyVersion
+    org.openrewrite.java.logging.log4j.CommonsLoggingToLog4j
+    org.openrewrite.java.logging.log4j.JulToLog4j
+    org.openrewrite.java.logging.log4j.Slf4jToLog4j
+    org.openrewrite.java.logging.slf4j.Log4jToSlf4j
+    org.openrewrite.java.logging.slf4j.ParameterizedLogging
+    org.openrewrite.java.logging.slf4j.Log4j2ToSlf4j1
+    org.openrewrite.java.logging.slf4j.Log4j1ToSlf4j1
+    org.openrewrite.java.logging.slf4j.Slf4jBestPractices
+    org.openrewrite.java.logging.slf4j.CommonsLogging1ToSlf4j1
+    org.openrewrite.java.logging.slf4j.JulToSlf4j
+    org.openrewrite.java.logging.logback.Log4jToLogback
+    org.openrewrite.java.migrate.UpgradeToJava17
+    org.openrewrite.java.migrate.UpgradeBuildToJava17
+    org.openrewrite.java.migrate.UpgradePluginsForJava17
+    org.openrewrite.java.migrate.DeprecatedJavaxSecurityCert
+    org.openrewrite.java.migrate.RemovedLegacySunJSSEProviderName
+    org.openrewrite.java.migrate.DeprecatedLogRecordThreadID
+    org.openrewrite.java.migrate.Jre17AgentMainPreMainPublic
+    org.openrewrite.java.migrate.RemovedZipFinalizeMethods
+    org.openrewrite.java.migrate.RemovedSSLSessionGetPeerCertificateChainMethodImpl
+    org.openrewrite.java.migrate.SunNetSslPackageUnavailable
+    org.openrewrite.java.migrate.RemovedRMIConnectorServerCredentialTypesConstant
+    org.openrewrite.java.migrate.DeprecatedCountStackFramesMethod
+    org.openrewrite.java.migrate.RemovedFileIOFinalizeMethods
+    org.openrewrite.java.migrate.RemovedToolProviderConstructor
+    org.openrewrite.java.migrate.RemovedModifierAndConstantBootstrapsConstructors
+    org.openrewrite.java.migrate.RemovedRuntimeTraceMethods
+    org.openrewrite.java.migrate.AddLombokMapstructBinding
+    org.openrewrite.java.migrate.jakarta.Faces2xMigrationToJakarta4x
+    org.openrewrite.java.migrate.jakarta.JakartaFacesXhtml
+    org.openrewrite.java.migrate.jakarta.JavaxFacesConfigXmlToJakartaFacesConfigXml
+    org.openrewrite.java.migrate.jakarta.JavaxFacesTagLibraryXmlToJakartaFacesTagLibraryXml
+    org.openrewrite.java.migrate.jakarta.JavaxWebFragmentXmlToJakartaWebFragmentXml
+    org.openrewrite.java.migrate.jakarta.JavaxWebXmlToJakartaWebXml
+    org.openrewrite.java.migrate.jakarta.JakartaFacesEcmaScript
+    org.openrewrite.java.migrate.jakarta.FacesJNDINamesChanged
+    org.openrewrite.java.migrate.jakarta.RemovedJakartaFacesResourceResolver
+    org.openrewrite.java.migrate.jakarta.RemovedUIComponentConstant
+    org.openrewrite.java.migrate.jakarta.RemovedStateManagerMethods
+    org.openrewrite.java.migrate.jakarta.RemovedJakartaFacesExpressionLanguageClasses
+    org.openrewrite.java.migrate.jakarta.FacesManagedBeansRemoved
+    org.openrewrite.java.migrate.jakarta.UpgradeFacesOpenSourceLibraries
+    org.openrewrite.java.migrate.jakarta.JakartaEE10
+    org.openrewrite.java.migrate.jakarta.ServletCookieBehaviorChangeRFC6265
+    org.openrewrite.java.migrate.jakarta.WsWsocServerContainerDeprecation
+    org.openrewrite.java.migrate.jakarta.RemovedIsParmetersProvidedMethod
+    org.openrewrite.java.migrate.jakarta.RemovedSOAPElementFactory
+    org.openrewrite.java.migrate.jakarta.JavaxBeansXmlToJakartaBeansXml
+    org.openrewrite.java.migrate.jakarta.JavaxEjbJarXmlToJakartaEjbJarXml
+    org.openrewrite.java.migrate.jakarta.JavaxBeanValidationXmlToJakartaBeanValidationXml
+    org.openrewrite.java.migrate.jakarta.RemovalsServletJakarta10
+    org.openrewrite.java.migrate.jakarta.DeprecatedCDIAPIsRemoved40
+    org.openrewrite.java.migrate.jakarta.JavaxToJakartaCdiExtensions
+    org.openrewrite.java.migrate.jakarta.UpdateJakartaPlatform10
+    org.openrewrite.java.migrate.jakarta.UpdateJakartaAnnotations2
+    org.openrewrite.java.migrate.lombok.UpdateLombokToJava11
+    org.openrewrite.java.migrate.guava.NoGuava
+    org.openrewrite.java.migrate.guava.NoGuavaJava11
+    org.openrewrite.java.migrate.guava.NoGuavaJava21
+    org.openrewrite.java.migrate.guava.PreferJavaNioCharsetStandardCharsets
+    org.openrewrite.java.migrate.guava.PreferJavaUtilFunction
+    org.openrewrite.java.migrate.guava.PreferJavaUtilOptional
+    org.openrewrite.java.migrate.guava.PreferJavaUtilPredicate
+    org.openrewrite.java.migrate.guava.PreferJavaUtilSupplier
+    org.openrewrite.java.migrate.guava.PreferJavaUtilObjectsEquals
+    org.openrewrite.java.migrate.guava.PreferJavaUtilObjectsHashCode
+    org.openrewrite.java.migrate.guava.PreferJavaUtilObjectsRequireNonNullElse
+    org.openrewrite.java.migrate.guava.PreferJavaUtilCollectionsUnmodifiableNavigableMap
+    org.openrewrite.java.migrate.guava.PreferJavaUtilCollectionsSynchronizedNavigableMap
+    org.openrewrite.java.migrate.guava.PreferCharCompare
+    org.openrewrite.java.migrate.guava.PreferIntegerCompare
+    org.openrewrite.java.migrate.guava.PreferLongCompare
+    org.openrewrite.java.migrate.guava.PreferShortCompare
+    org.openrewrite.java.migrate.guava.PreferIntegerCompareUnsigned
+    org.openrewrite.java.migrate.guava.PreferIntegerDivideUnsigned
+    org.openrewrite.java.migrate.guava.PreferIntegerParseUnsignedInt
+    org.openrewrite.java.migrate.guava.PreferIntegerRemainderUnsigned
+    org.openrewrite.java.migrate.guava.PreferLongCompareUnsigned
+    org.openrewrite.java.migrate.guava.PreferLongDivideUnsigned
+    org.openrewrite.java.migrate.guava.PreferLongParseUnsignedLong
+    org.openrewrite.java.migrate.guava.PreferLongRemainderUnsigned
+    org.openrewrite.java.migrate.guava.PreferMathAddExact
+    org.openrewrite.java.migrate.guava.PreferMathSubtractExact
+    org.openrewrite.java.migrate.guava.PreferMathMultiplyExact
+    org.openrewrite.java.migrate.guava.PreferMathClamp
+    org.openrewrite.scala.migrate.UpgradeScala_2_12
+    org.openrewrite.java.migrate.javax.JavaxXmlStreamAPIs
+    org.openrewrite.java.migrate.javax.MigrateXMLEventFactoryNewInstanceToNewFactory
+    org.openrewrite.java.migrate.javax.MigrateXMLInputFactoryNewInstanceToNewFactory
+    org.openrewrite.java.migrate.javax.MigrateXMLOutputFactoryNewInstanceToNewFactory
+    org.openrewrite.java.migrate.UpgradeToJava21
+    org.openrewrite.java.migrate.UpgradeBuildToJava21
+    org.openrewrite.java.migrate.UpgradePluginsForJava21
+    org.openrewrite.java.migrate.util.SequencedCollection
+    org.openrewrite.java.migrate.RemovedSubjectMethods
+    org.openrewrite.java.migrate.DeleteDeprecatedFinalize
+    org.openrewrite.java.migrate.cobertura.RemoveCoberturaMavenPlugin
+    org.openrewrite.java.migrate.javax.JavaxManagementMonitorAPIs
+    org.openrewrite.java.migrate.javax.MigrateCounterMonitorSetThresholdToSetInitThreshold
+    org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+    org.openrewrite.java.migrate.jakarta.JavaxActivationMigrationToJakartaActivation
+    org.openrewrite.java.migrate.jakarta.JavaxAnnotationMigrationToJakartaAnnotation
+    org.openrewrite.java.migrate.jakarta.JavaxAuthenticationMigrationToJakartaAuthentication
+    org.openrewrite.java.migrate.jakarta.JavaxAuthorizationMigrationToJakartaAuthorization
+    org.openrewrite.java.migrate.jakarta.JavaxBatchMigrationToJakartaBatch
+    org.openrewrite.java.migrate.jakarta.JavaxValidationMigrationToJakartaValidation
+    org.openrewrite.java.migrate.jakarta.JavaxDecoratorToJakartaDecorator
+    org.openrewrite.java.migrate.jakarta.JavaxEjbToJakartaEjb
+    org.openrewrite.java.migrate.jakarta.JavaxElToJakartaEl
+    org.openrewrite.java.migrate.jakarta.JavaxEnterpriseToJakartaEnterprise
+    org.openrewrite.java.migrate.jakarta.JavaxFacesToJakartaFaces
+    org.openrewrite.java.migrate.jakarta.JavaxInjectMigrationToJakartaInject
+    org.openrewrite.java.migrate.jakarta.JavaxInterceptorToJakartaInterceptor
+    org.openrewrite.java.migrate.jakarta.JavaxJmsToJakartaJms
+    org.openrewrite.java.migrate.jakarta.JavaxJsonToJakartaJson
+    org.openrewrite.java.migrate.jakarta.JavaxJwsToJakartaJws
+    org.openrewrite.java.migrate.jakarta.JavaxMailToJakartaMail
+    org.openrewrite.java.migrate.jakarta.JavaxPersistenceToJakartaPersistence
+    org.openrewrite.java.migrate.jakarta.JavaxResourceToJakartaResource
+    org.openrewrite.java.migrate.jakarta.JavaxSecurityToJakartaSecurity
+    org.openrewrite.java.migrate.jakarta.JavaxServletToJakartaServlet
+    org.openrewrite.java.migrate.jakarta.JavaxTransactionMigrationToJakartaTransaction
+    org.openrewrite.java.migrate.jakarta.JavaxWebsocketToJakartaWebsocket
+    org.openrewrite.java.migrate.jakarta.JavaxWsToJakartaWs
+    org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+    org.openrewrite.java.migrate.jakarta.JavaxXmlSoapToJakartaXmlSoap
+    org.openrewrite.java.migrate.jakarta.JavaxXmlWsMigrationToJakartaXmlWs
+    org.openrewrite.java.migrate.jakarta.JavaxOrmXmlToJakartaOrmXml
+    org.openrewrite.java.migrate.jakarta.JavaxPersistenceXmlToJakartaPersistenceXml
+    org.openrewrite.java.migrate.jakarta.JacksonJavaxToJakarta
+    org.openrewrite.java.migrate.jakarta.EhcacheJavaxToJakarta
+    org.openrewrite.java.migrate.jakarta.JohnzonJavaxToJakarta
+    org.openrewrite.java.migrate.jakarta.RestAssuredJavaxToJakarta
+    org.openrewrite.java.migrate.jakarta.UpdateApacheWSSecurityPackages
+    org.openrewrite.java.migrate.jakarta.JavaxEEApiToJakarta
+    org.openrewrite.java.migrate.jakarta.RemoveJakartaAnnotationDependency
+    org.openrewrite.java.migrate.logging.JavaLoggingAPIs
+    org.openrewrite.java.migrate.logging.MigrateInterfaceLoggingMXBeanToPlatformLoggingMXBean
+    org.openrewrite.java.migrate.util.JavaUtilAPIs
+    org.openrewrite.java.migrate.javax.JavaxLangModelUtil
+    org.openrewrite.java.migrate.javax.MigrateAbstractAnnotationValueVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateAbstractElementVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateAbstractTypeVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateElementKindVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateElementScanner6To9
+    org.openrewrite.java.migrate.javax.MigrateSimpleAnnotationValueVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateSimpleElementVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateSimpleTypeVisitor6To9
+    org.openrewrite.java.migrate.javax.MigrateTypeKindVisitor6To9
+    org.openrewrite.java.migrate.javax.AddCommonAnnotationsDependencies
+    org.openrewrite.java.migrate.lang.JavaLangAPIs
+    org.openrewrite.java.migrate.lang.MigrateCharacterIsJavaLetterToIsJavaIdentifierStart
+    org.openrewrite.java.migrate.lang.MigrateCharacterIsJavaLetterOrDigitToIsJavaIdentifierPart
+    org.openrewrite.java.migrate.lang.MigrateCharacterIsSpaceToIsWhitespace
+    org.openrewrite.java.migrate.lang.MigrateRuntimeVersionMajorToFeature
+    org.openrewrite.java.migrate.lang.MigrateRuntimeVersionMinorToInterim
+    org.openrewrite.java.migrate.lang.MigrateRuntimeVersionSecurityToUpdate
+    org.openrewrite.java.migrate.net.JavaNetAPIs
+    org.openrewrite.java.migrate.net.MigrateMulticastSocketGetTTLToGetTimeToLive
+    org.openrewrite.java.migrate.joda.NoJodaTime
+    org.openrewrite.java.migrate.concurrent.JavaConcurrentAPIs
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicBooleanWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicIntegerWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicIntegerArrayWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicLongWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicLongArrayWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicReferenceWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.concurrent.MigrateAtomicReferenceArrayWeakCompareAndSetToWeakCompareAndSetPlain
+    org.openrewrite.java.migrate.Java8toJava11
+    org.openrewrite.java.migrate.UpgradeBuildToJava11
+    org.openrewrite.java.migrate.UpgradePluginsForJava11
+    org.openrewrite.java.migrate.javax.AddJaxbDependencies
+    org.openrewrite.java.migrate.javax.AddJaxwsDependencies
+    org.openrewrite.java.migrate.InternalBindPackages
+    org.openrewrite.java.migrate.RemovedPolicy
+    org.openrewrite.java.migrate.ThreadStopDestroy
+    org.openrewrite.java.migrate.nio.file.PathsGetToPathOf
+    org.openrewrite.java.migrate.javaee6
+    org.openrewrite.java.migrate.UpgradeToJava7
+    org.openrewrite.java.migrate.JREJdbcInterfaceNewMethods
+    org.openrewrite.java.migrate.IBMSemeru
+    org.openrewrite.java.migrate.IBMJDKtoOracleJDK
+    org.openrewrite.java.migrate.JREDoNotUseSunNetSslInternalWwwProtocolHttpsHandler
+    org.openrewrite.java.migrate.JREDoNotUseSunNetSslInternalWwwProtocol
+    org.openrewrite.java.migrate.JREDoNotUseSunNetSslInternalSslProvider
+    org.openrewrite.java.migrate.JREDoNotUseSunNetSslAPIs
+    org.openrewrite.java.migrate.Krb5LoginModuleClass
+    org.openrewrite.java.migrate.RemovedJavaXMLWSModuleProvided
+    org.openrewrite.java.migrate.RemovedJaxBModuleProvided
+    org.openrewrite.java.migrate.javax.openJPAToEclipseLink
+    org.openrewrite.java.migrate.javax.AddInjectDependencies
+    org.openrewrite.java.migrate.lang.UseVar
+    org.openrewrite.java.migrate.javaee8
+    org.openrewrite.java.migrate.javaee8.ServletIsRequestedSessionIdFromURL
+    org.openrewrite.java.migrate.javaee8.ApacheDefaultProvider
+    org.openrewrite.java.migrate.UpgradeToJava8
+    org.openrewrite.java.migrate.jacoco.UpgradeJaCoCo
+    org.openrewrite.java.migrate.UpgradeToJava6
+    org.openrewrite.java.migrate.JREWrapperInterface
+    org.openrewrite.java.migrate.javaee7
+    org.openrewrite.java.migrate.javaee7.OpenJPAPersistenceProvider
+    org.openrewrite.java.migrate.sql.JavaSqlAPIs
+    org.openrewrite.java.jspecify.MigrateToJspecify
+    org.openrewrite.java.jspecify.MigrateFromJavaxAnnotationApi
+    org.openrewrite.java.jspecify.MigrateFromJakartaAnnotationApi
+    org.openrewrite.java.jspecify.MigrateFromJetbrainsAnnotations
+    org.openrewrite.java.jspecify.MigrateFromSpringFrameworkAnnotations
+    org.openrewrite.gradle.MigrateToGradle5
+    org.openrewrite.gradle.MigrateToGradle7
+    org.openrewrite.gradle.MigrateToGradle6
+    org.openrewrite.gradle.search.FindDependencyHandler
+    org.openrewrite.gradle.EnableGradleBuildCache
+    org.openrewrite.gradle.EnableGradleParallelExecution
+    org.openrewrite.gradle.MigrateToGradle8
+    org.openrewrite.gradle.AddJUnitPlatformLauncher
+    org.openrewrite.micrometer.misk.MigrateMiskToMicrometer
+    org.openrewrite.micrometer.UpgradeMicrometer_1_13
+    org.openrewrite.micrometer.UpgradeMicrometer
+    org.openrewrite.hibernate.MigrateToHibernate62
+    org.openrewrite.hibernate.MigrateToHypersistenceUtilsHibernate6.2
+    org.openrewrite.hibernate.validator.HibernateValidator_8_0
+    org.openrewrite.hibernate.MigrateToHibernate61
+    org.openrewrite.hibernate.MigrateToHibernate60
+    org.openrewrite.hibernate.MigrateToHibernateDependencies60
+    org.openrewrite.hibernate.TypeDescriptorToType
+    org.openrewrite.hibernate.MigrateToHypersistenceUtilsHibernate6.0
+    org.openrewrite.hibernate.MigrateToHibernate65
+    org.openrewrite.hibernate.MigrateToHibernate63
+    org.openrewrite.hibernate.MigrateToHypersistenceUtilsHibernate6.3
+    org.openrewrite.hibernate.MigrateToHibernate64
+    org.openrewrite.java.jspecify.MigrateFromOpenRewriteAnnotations
+    org.openrewrite.apache.httpclient5.UpgradeApacheHttpClient_5
+    org.openrewrite.apache.httpclient5.UpgradeApacheHttpClient_5_ClassMapping
+    org.openrewrite.apache.httpclient5.UpgradeApacheHttpClient_5_DeprecatedMethods
+    org.openrewrite.apache.httpclient5.UpgradeApacheHttpClient_5_TimeUnit
+    org.openrewrite.apache.httpclient5.StatusLine
+    org.openrewrite.apache.commons.lang.UpgradeApacheCommonsLang_2_3
+    org.openrewrite.apache.commons.collections.UpgradeApacheCommonsCollections_3_4
+    org.openrewrite.apache.commons.io.RelocateApacheCommonsIo
+    org.openrewrite.apache.commons.io.UseSystemLineSeparator
+    org.openrewrite.apache.commons.io.UseStandardCharsets
+    org.openrewrite.apache.poi.UpgradeApachePoi_3_17
+    org.openrewrite.apache.httpclient4.UpgradeApacheHttpClient_4_5
+    org.openrewrite.apache.httpclient4.MappingDeprecatedClasses
+    org.openrewrite.apache.commons.math.UpgradeApacheCommonsMath_2_3
+    org.openrewrite.java.spring.security6.UpgradeSpringSecurity_6_1
+    org.openrewrite.java.boot3.ReplaceMockBeanAndSpyBean
+    org.openrewrite.java.spring.framework.UpgradeSpringFramework_5_3
+    org.openrewrite.java.spring.framework.UseObjectUtilsIsEmpty
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_4
+    org.openrewrite.java.spring.boot2.MigrateUndertowServletWebServerFactoryIsEagerInitFilters
+    org.openrewrite.java.spring.boot2.MigrateUndertowServletWebServerFactorySetEagerInitFilters
+    org.openrewrite.java.spring.boot2.SpringBoot2JUnit4to5Migration
+    org.openrewrite.java.spring.boot2.UnnecessarySpringRunWith
+    org.openrewrite.java.spring.boot2.RemoveObsoleteSpringRunners
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_2
+    org.openrewrite.java.spring.boot2.MigrateApplicationHealthIndicatorToPingHealthIndicator
+    org.openrewrite.java.spring.boot2.MigrateWebTestClientBuilderCustomizerPackageName
+    org.openrewrite.java.spring.security6.UpgradeSpringSecurity_6_0
+    org.openrewrite.java.spring.security6.RemoveUseAuthorizationManager
+    org.openrewrite.java.spring.data.UpgradeSpringData_2_3
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_3
+    org.openrewrite.java.spring.boot2.MigrateRestClientBuilderCustomizerPackageName
+    org.openrewrite.java.spring.data.UpgradeSpringData_2_5
+    org.openrewrite.java.spring.data.UseJpaRepositoryGetById
+    org.openrewrite.java.spring.data.UseJpaRepositoryDeleteAllInBatch
+    org.openrewrite.java.spring.framework.UpgradeSpringFramework_5_0
+    org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
+    org.openrewrite.java.spring.boot3.RelocateLauncherClasses
+    org.openrewrite.java.spring.framework.UpgradeSpringFramework_5_2
+    org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+    org.openrewrite.java.spring.boot3.ActuatorEndpointSanitization
+    org.openrewrite.java.spring.boot3.MigrateMaxHttpHeaderSize
+    org.openrewrite.java.spring.boot3.MigrateThymeleafDependencies
+    org.openrewrite.java.spring.boot3.MigrateDropWizardDependencies
+    org.openrewrite.java.spring.boot3.MigrateSapCfJavaLoggingSupport
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_1
+    org.openrewrite.java.spring.boot2.MigrateRestTemplateBuilderBasicAuthorization
+    org.openrewrite.java.spring.boot2.SpringBoot2BestPractices
+    org.openrewrite.java.spring.boot3.SpringBoot3BestPractices
+    org.openrewrite.java.spring.boot3.EnableVirtualThreads
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_3
+    org.openrewrite.java.spring.cloud2022.UpgradeSpringCloud_2022
+    org.openrewrite.java.spring.cloud2022.DependencyUpgrades
+    org.openrewrite.java.spring.cloud2022.MigrateCloudSleuthToMicrometerTracing
+    org.openrewrite.java.spring.batch.SpringBatch4To5Migration
+    org.openrewrite.java.spring.batch.ListenerSupportClassToInterface
+    org.openrewrite.java.spring.batch.UpgradeSkipPolicyParameterType
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_1
+    org.openrewrite.java.spring.framework.UpgradeSpringFramework_5_1
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_0
+    org.openrewrite.java.spring.cloud2023.UpgradeSpringCloud_2023
+    org.openrewrite.java.spring.cloud2023.DependencyUpgrades
+    org.openrewrite.java.spring.kafka.UpgradeSpringKafka_3_0
+    org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_3
+    org.openrewrite.java.spring.security6.UpgradeSpringSecurity_6_2
+    org.openrewrite.java.spring.boot3.SpringBootProperties_3_2
+    org.openrewrite.java.spring.security5.UpgradeSpringSecurity_5_7
+    org.openrewrite.java.spring.http.SpringWebDependency
+    org.openrewrite.java.spring.boot3.SpringBootProperties_3_0
+    org.openrewrite.java.spring.security5.UpgradeSpringSecurity_5_8
+    org.openrewrite.java.spring.security5.search.FindEncryptorsQueryableTextUses
+    org.openrewrite.java.spring.security5.ReplaceGlobalMethodSecurityWithMethodSecurityXml
+    org.openrewrite.java.spring.security5.RenameNimbusdsJsonObjectPackageName
+    org.openrewrite.java.spring.data.UpgradeSpringData_2_7
+    org.openrewrite.java.spring.data.UseJpaRepositoryGetReferenceById
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_4
+    org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_1
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_6
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_7
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_5
+    org.openrewrite.java.spring.boot2.search.FindUpgradeRequirementsSpringBoot_2_5
+    org.openrewrite.java.spring.boot2.search.MessagesInTheDefaultErrorView
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_0
+    org.openrewrite.java.spring.boot2.MigrateToWebServerFactoryCustomizer
+    org.openrewrite.java.spring.boot2.MigrateSpringBootServletInitializerPackageName
+    org.openrewrite.java.spring.boot2.MigrateHttpMessageConvertersPackageName
+    org.openrewrite.java.spring.boot2.MigrateErrorControllerPackageName
+    org.openrewrite.java.spring.boot2.MigrateHibernateConstraintsToJavax
+    org.openrewrite.java.spring.boot2.MaybeAddJavaxValidationApi
+    org.openrewrite.java.spring.boot3.SpringBootProperties_3_3
+    org.openrewrite.java.spring.framework.UpgradeSpringFramework_6_0
+    org.openrewrite.java.spring.framework.MigrateResponseStatusException
+    org.openrewrite.java.spring.framework.MigrateSpringAssert
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_5
+    org.openrewrite.java.spring.boot3.SpringBootProperties_3_1
+    org.openrewrite.java.spring.framework.UpgradeSpringFramework_6_1
+    org.openrewrite.java.spring.boot2.SpringBootProperties_2_2
+    org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+    org.openrewrite.java.springdoc.SwaggerToSpringDoc
+    org.openrewrite.java.springdoc.ReplaceSpringFoxDependencies
+    org.openrewrite.java.springdoc.UpgradeSpringDoc_2
+    org.openrewrite.java.springdoc.MigrateSpringdocCommon
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+    org.openrewrite.github.AddManualTrigger
+    org.openrewrite.github.DependabotCheckForGithubActionsUpdatesDaily
+    org.openrewrite.github.DependabotCheckForGithubActionsUpdatesWeekly
+    org.openrewrite.github.FindGitHubActionSecretReferences
+    org.openrewrite.github.gradle.RenameWrapperValidationAction
+    org.openrewrite.github.gradle.RenameGradleBuildActionToSetupGradle
+    org.openrewrite.java.search.FindSecrets
+    org.openrewrite.java.AddApache2LicenseHeader
+    org.openrewrite.reactive.reactor.ReactorBestPractices
+    org.openrewrite.reactive.reactor.UpgradeReactor_3_5
+    org.openrewrite.maven.BestPractices
+    org.openrewrite.maven.cleanup.PrefixlessExpressions
+
+Available Styles:
+    org.openrewrite.java.IntelliJ
+    org.openrewrite.kotlin.IntelliJ
+    org.openrewrite.java.SpringFormat
+    com.netflix.genie.Style
+    org.openrewrite.java.GoogleJavaFormat
+    com.netflix.eureka.Style
+
+Active Styles:
+
+Active Recipes:
+    org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+
+Found 1848 available recipes and 6 available styles.
+Configured with 1 active recipes and 0 active styles.
+
+BUILD SUCCESSFUL in 19s
+1 actionable task: 1 executed
+C:\Users\DavidHolberton\orw\sbapp2717g>
+
+
