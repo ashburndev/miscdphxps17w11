@@ -1,0 +1,200 @@
+8:05 AM 1/23/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250123.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+at work: Eclipse Neon (APPV5) (v4.6.1 RC3)
+
+https://www.eclipse.org/downloads/packages/release/neon/3
+https://www.eclipse.org/downloads/packages/release/neon/3
+  This release was published on 06/22/2016. A newer release is available here.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+01/20/2025  08:58 AM       104,960,024 VSCodeUserSetup-x64-1.96.4.exe
+01/20/2025  08:59 AM       104,959,544 VSCodeSetup-x64-1.96.4.exe
+01/20/2025  08:59 AM       147,242,817 VSCode-win32-x64-1.96.4.zip
+01/20/2025  09:03 AM             2,188 VSCode-win32-x64-1.96.4.sha256
+01/20/2025  09:07 AM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64(1).zip
+01/20/2025  09:14 AM       737,409,017 spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64(1).zip
+01/20/2025  09:29 AM     1,211,982,632 ideaIU-2024.3.2.exe
+01/20/2025  09:30 AM                86 ideaIU-2024.3.2.exe.sha256
+01/20/2025  09:32 AM     1,603,628,501 ideaIU-2024.3.2.win.zip
+01/20/2025  09:32 AM                90 ideaIU-2024.3.2.win.zip.sha256
+01/20/2025  09:33 AM       725,867,472 ideaIC-2024.3.2.exe
+01/20/2025  09:33 AM                86 ideaIC-2024.3.2.exe.sha256
+01/20/2025  09:34 AM     1,020,764,264 ideaIC-2024.3.2.win.zip
+01/20/2025  09:34 AM                90 ideaIC-2024.3.2.win.zip.sha256
+
+01/20/2025  08:59 AM       147,242,817 VSCode-win32-x64-1.96.4.zip
+01/20/2025  09:07 AM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64(1).zip
+01/20/2025  09:14 AM       737,409,017 spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64(1).zip
+01/20/2025  09:32 AM     1,603,628,501 ideaIU-2024.3.2.win.zip
+01/20/2025  09:34 AM     1,020,764,264 ideaIC-2024.3.2.win.zip
+
+mkdir C:\temp1\VSCode-win32-x64-1.96.4
+mkdir C:\temp2\eclipse-jee-2024-12-R-win32-x86_64
+mkdir C:\temp3\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32
+mkdir C:\temp4\ideaIU-2024.3.2.win
+mkdir C:\temp5\ideaIC-2024.3.2.win
+
+mkdir C:\temp1
+mkdir C:\temp2
+mkdir C:\temp3
+mkdir C:\temp4
+mkdir C:\temp5
+
+7z l VSCode-win32-x64-1.96.4.zip
+7z l eclipse-jee-2024-12-R-win32-x86_64.zip
+7z l spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64.zip
+7z l ideaIU-2024.3.2.win.zip
+7z l ideaIC-2024.3.2.win.zip
+
+7z x VSCode-win32-x64-1.96.4.zip                                        -oC:\temp1
+7z x eclipse-jee-2024-12-R-win32-x86_64.zip                             -oC:\temp2
+7z x spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64.zip  -oC:\temp3
+7z x ideaIU-2024.3.2.win.zip                                            -oC:\temp4
+7z x ideaIC-2024.3.2.win.zip                                            -oC:\temp5
+
+dir /o:gd C:\temp1
+dir /o:gd C:\temp2
+dir /o:gd C:\temp3
+dir /o:gd C:\temp4
+dir /o:gd C:\temp5
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd C:\temp1
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp1
+
+01/15/2025  08:13 PM    <DIR>          resources
+01/15/2025  08:13 PM    <DIR>          policies
+01/15/2025  08:13 PM    <DIR>          locales
+01/15/2025  08:44 PM    <DIR>          tools
+01/15/2025  08:44 PM    <DIR>          bin
+01/23/2025  08:19 AM    <DIR>          .
+01/15/2025  08:13 PM               367 Code.VisualElementsManifest.xml
+01/15/2025  08:13 PM           666,177 v8_context_snapshot.bin
+01/15/2025  08:13 PM         9,294,972 LICENSES.chromium.html
+01/15/2025  08:13 PM           151,326 chrome_100_percent.pak
+01/15/2025  08:13 PM        10,468,208 icudtl.dat
+01/15/2025  08:13 PM               106 vk_swiftshader_icd.json
+01/15/2025  08:13 PM         5,441,667 resources.pak
+01/15/2025  08:13 PM           313,526 snapshot_blob.bin
+01/15/2025  08:13 PM           228,242 chrome_200_percent.pak
+01/15/2025  08:44 PM           504,992 libEGL.dll
+01/15/2025  08:44 PM           915,624 vulkan-1.dll
+01/15/2025  08:44 PM         2,818,240 ffmpeg.dll
+01/15/2025  08:44 PM         4,927,160 d3dcompiler_47.dll
+01/15/2025  08:44 PM         8,385,200 libGLESv2.dll
+01/15/2025  08:44 PM         5,469,368 vk_swiftshader.dll
+01/15/2025  08:45 PM       177,426,504 Code.exe
+              16 File(s)    227,011,679 bytes
+               6 Dir(s)  428,934,230,016 bytes free
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd C:\temp2
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp2
+
+11/28/2024  09:39 AM    <DIR>          eclipse
+01/23/2025  08:19 AM    <DIR>          .
+               0 File(s)              0 bytes
+               2 Dir(s)  428,934,230,016 bytes free
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd C:\temp3
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp3
+
+11/28/2024  11:40 AM    <DIR>          sts-4.27.0.RELEASE
+01/23/2025  08:19 AM    <DIR>          .
+               0 File(s)              0 bytes
+               2 Dir(s)  428,934,230,016 bytes free
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd C:\temp4
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp4
+
+01/23/2025  08:19 AM    <DIR>          help
+01/23/2025  08:19 AM    <DIR>          jdk-shared-indexes
+01/23/2025  08:19 AM    <DIR>          lib
+01/23/2025  08:20 AM    <DIR>          plugins
+01/23/2025  08:20 AM    <DIR>          bin
+01/23/2025  08:20 AM    <DIR>          license
+01/23/2025  08:20 AM    <DIR>          modules
+01/23/2025  08:20 AM    <DIR>          jbr
+01/23/2025  08:20 AM    <DIR>          .
+01/20/2025  09:32 AM                16 build.txt
+01/20/2025  09:32 AM           114,166 product-info.json
+01/20/2025  09:32 AM             2,051 Install-Windows-zip.txt
+               3 File(s)        116,233 bytes
+               9 Dir(s)  428,934,230,016 bytes free
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd C:\temp5
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp5
+
+01/23/2025  08:20 AM    <DIR>          lib
+01/23/2025  08:20 AM    <DIR>          license
+01/23/2025  08:20 AM    <DIR>          plugins
+01/23/2025  08:20 AM    <DIR>          bin
+01/23/2025  08:20 AM    <DIR>          modules
+01/23/2025  08:20 AM    <DIR>          jbr
+01/23/2025  08:20 AM    <DIR>          .
+01/20/2025  09:34 AM               128 NOTICE.txt
+01/20/2025  09:34 AM                16 build.txt
+01/20/2025  09:34 AM            69,037 product-info.json
+01/20/2025  09:34 AM            11,358 LICENSE.txt
+               4 File(s)         80,539 bytes
+               7 Dir(s)  428,934,230,016 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+com.unboundid.ldap.sdk.ldapconnection
+
+https://docs.ldap.com/ldap-sdk/docs/javadoc/com/unboundid/ldap/sdk/LDAPConnection.html
+
+https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk
+https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk/7.0.2     Dec 04, 2024
+
+// https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk
+testImplementation 'com.unboundid:unboundid-ldapsdk:7.0.2'
+
+
+
+
+

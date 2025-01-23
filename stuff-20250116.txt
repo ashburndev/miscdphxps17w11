@@ -1,0 +1,578 @@
+7:49 AM 1\16\2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250116.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https:\\mvnrepository.com\artifact\org.glassfish.jaxb\jaxb-runtime
+https:\\mvnrepository.com\artifact\org.glassfish.jaxb\jaxb-runtime\4.0.5   Mar 07, 2024
+\\ https:\\mvnrepository.com\artifact\org.glassfish.jaxb\jaxb-runtime
+implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.5'
+
+org\glassfish\jaxb\jaxb-runtime\4.0.5
+
+..\
+jaxb-runtime-4.0.5-cyclonedx.json                 2024-03-06 06:01     25226      
+jaxb-runtime-4.0.5-cyclonedx.json.asc             2024-03-06 06:01       833      
+jaxb-runtime-4.0.5-cyclonedx.json.md5             2024-03-06 06:01        32      
+jaxb-runtime-4.0.5-cyclonedx.json.sha1            2024-03-06 06:01        40      
+jaxb-runtime-4.0.5-cyclonedx.xml                  2024-03-06 06:01     21452      
+jaxb-runtime-4.0.5-cyclonedx.xml.asc              2024-03-06 06:01       833      
+jaxb-runtime-4.0.5-cyclonedx.xml.md5              2024-03-06 06:01        32      
+jaxb-runtime-4.0.5-cyclonedx.xml.sha1             2024-03-06 06:01        40      
+jaxb-runtime-4.0.5-javadoc.jar                    2024-03-06 06:01   1930885      
+jaxb-runtime-4.0.5-javadoc.jar.asc                2024-03-06 06:01       833      
+jaxb-runtime-4.0.5-javadoc.jar.md5                2024-03-06 06:01        32      
+jaxb-runtime-4.0.5-javadoc.jar.sha1               2024-03-06 06:01        40      
+jaxb-runtime-4.0.5-sources.jar                    2024-03-06 06:01    651409      
+jaxb-runtime-4.0.5-sources.jar.asc                2024-03-06 06:01       833      
+jaxb-runtime-4.0.5-sources.jar.md5                2024-03-06 06:01        32      
+jaxb-runtime-4.0.5-sources.jar.sha1               2024-03-06 06:01        40      
+jaxb-runtime-4.0.5.jar                            2024-03-06 06:01    920213      
+jaxb-runtime-4.0.5.jar.asc                        2024-03-06 06:01       833      
+jaxb-runtime-4.0.5.jar.md5                        2024-03-06 06:01        32      
+jaxb-runtime-4.0.5.jar.sha1                       2024-03-06 06:01        40      
+jaxb-runtime-4.0.5.pom                            2024-03-06 06:01     10834      
+jaxb-runtime-4.0.5.pom.asc                        2024-03-06 06:01       833      
+jaxb-runtime-4.0.5.pom.md5                        2024-03-06 06:01        32      
+jaxb-runtime-4.0.5.pom.sha1                       2024-03-06 06:01        40      
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Which JAXB version was used in Java 8?
+https:\\stackoverflow.com\questions\63608553\which-jaxb-version-was-used-in-java-8
+
+$ $(\usr\libexec\java_home -v 1.8)\bin\xjc -version
+xjc 2.2.8-b130911.1802
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+google search: spring boot 2 swagger
+
+Integrating Swagger with Spring Boot
+
+Swagger is an open-source framework that helps in documenting REST APIs. It provides a user-friendly interface to interact with the API and view its details. Integrating Swagger with Spring Boot is straightforward and involves a few key steps.
+
+Setting Up Swagger in a Spring Boot Project
+
+Adding Dependencies
+
+First, you need to add the necessary dependencies to your Maven or Gradle project. For Maven, include the following in your pom.xml:
+
+<dependency>
+<groupId>io.springfox<\groupId>
+<artifactId>springfox-boot-starter<\artifactId>
+<version>3.0.0<\version>
+<\dependency>
+For Gradle, add the following to your build.gradle:
+
+dependencies {
+implementation 'io.springfox:springfox-boot-starter:3.0.0'
+}
+These dependencies will include both Swagger 2 and Swagger UI.
+
+Configuring Swagger
+
+Next, you need to configure Swagger in your Spring Boot application. Create a configuration class and define a Docket bean:
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+
+@Configuration
+public class SwaggerConfig {
+@Bean
+public Docket api() {
+return new Docket(DocumentationType.SWAGGER_2)
+.select()
+.apis(RequestHandlerSelectors.any())
+.paths(PathSelectors.any())
+.build();
+}
+}
+This configuration will enable Swagger to document all the APIs in your application.
+
+Enabling Swagger UI
+
+Swagger UI provides a web interface to interact with the API documentation. To enable it, add the following dependency:
+
+<dependency>
+<groupId>io.springfox<\groupId>
+<artifactId>springfox-swagger-ui<\artifactId>
+<version>3.0.0<\version>
+<\dependency>
+Now, you can access the Swagger UI at http:\\localhost:8080\swagger-ui\.
+
+Customizing Swagger Documentation
+
+You can customize the Swagger documentation by providing additional information such as API title, description, and contact details. Modify the Docket bean to include this information:
+
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.builders.ApiInfoBuilder;
+
+@Bean
+public Docket api() {
+return new Docket(DocumentationType.SWAGGER_2)
+.select()
+.apis(RequestHandlerSelectors.basePackage("com.example.controller"))
+.paths(PathSelectors.any())
+.build()
+.apiInfo(apiInfo());
+}
+
+private ApiInfo apiInfo() {
+return new ApiInfoBuilder()
+.title("My REST API")
+.description("Some custom description of API.")
+.version("1.0")
+.contact(new Contact("John Doe", "www.example.com", "myeaddress@company.com"))
+.build();
+}
+This will add custom information to the Swagger UI.
+
+Securing Swagger with OAuth
+
+If your API is secured with OAuth, you can configure Swagger to access the secured endpoints. Define a SecurityScheme and SecurityContext in your configuration:
+
+import springfox.documentation.service.AuthorizationScope;
+import springfox.documentation.service.SecurityReference;
+import springfox.documentation.spi.service.contexts.SecurityContext;
+import springfox.documentation.builders.OAuthBuilder;
+import springfox.documentation.service.GrantType;
+import springfox.documentation.service.TokenEndpoint;
+import springfox.documentation.service.TokenRequestEndpoint;
+import springfox.documentation.service.SecurityScheme;
+
+@Bean
+public Docket api() {
+return new Docket(DocumentationType.SWAGGER_2)
+.select()
+.apis(RequestHandlerSelectors.any())
+.paths(PathSelectors.any())
+.build()
+.securitySchemes(Arrays.asList(securityScheme()))
+.securityContexts(Arrays.asList(securityContext()));
+}
+
+private SecurityScheme securityScheme() {
+GrantType grantType = new AuthorizationCodeGrantBuilder()
+.tokenEndpoint(new TokenEndpoint("http:\\auth-server\token", "oauthtoken"))
+.tokenRequestEndpoint(new TokenRequestEndpoint("http:\\auth-server\authorize", "clientId", "clientSecret"))
+.build();
+
+return new OAuthBuilder().name("spring_oauth")
+.grantTypes(Arrays.asList(grantType))
+.scopes(Arrays.asList(new AuthorizationScope("read", "for read operations"), new AuthorizationScope("write", "for write operations")))
+.build();
+}
+
+private SecurityContext securityContext() {
+return SecurityContext.builder()
+.securityReferences(Arrays.asList(new SecurityReference("spring_oauth", new AuthorizationScope[]{new AuthorizationScope("read", "for read operations"), new AuthorizationScope("write", "for write operations")})))
+.forPaths(PathSelectors.regex("\.*"))
+.build();
+}
+This configuration will enable Swagger to interact with OAuth-secured endpoints.
+
+Conclusion
+
+Integrating Swagger with Spring Boot simplifies the process of documenting and testing REST APIs. By following the steps outlined above, you can set up Swagger in your Spring Boot application and customize it to suit your needs
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+google search: spring boot 2 swagger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs>copy sbapp2717g.zip orw
+        1 file(s) copied.
+
+C:\Users\DavidHolberton\sbprojs>cd orw
+
+C:\Users\DavidHolberton\sbprojs\orw>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\sbprojs\orw
+
+01\16\2025  08:04 AM    <DIR>          .
+01\16\2025  08:03 AM    <DIR>          ..
+11\17\2023  08:18 AM            70,937 sbapp2717g.zip
+               1 File(s)         70,937 bytes
+               2 Dir(s)  429,078,343,680 bytes free
+
+C:\Users\DavidHolberton\sbprojs\orw>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\orw>
+
+cd C:\Users\DavidHolberton\sbprojs\orw
+copy .. .\hellonebula\src\main\java\com\ashburncode\hellonebula\SyspropsController.java .
+
+cd C:\Users\DavidHolberton\sbprojs\orw
+mkdir orw0
+mkdir \LocalApps\VSCode-win32-x64-1.85.1
+7z x sbapp2717g.zip -oorw0
+cd orw0
+
+code .
+
+C:\Users\DavidHolberton\sbprojs\orw\orw0>cd sbapp2717g
+C:\Users\DavidHolberton\sbprojs\orw\orw0\sbapp2717g>code .
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\orw\orw0\sbapp2717g>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-01-16 09:03:26.755  INFO 28132 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 on dphxps17 with PID 28132 (C:\Users\DavidHolberton\sbprojs\orw\orw0\sbapp2717g\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\orw\orw0\sbapp2717g)
+2025-01-16 09:03:26.758  INFO 28132 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-01-16 09:03:27.390  INFO 28132 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-16 09:03:27.397  INFO 28132 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-16 09:03:27.398  INFO 28132 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-01-16 09:03:27.469  INFO 28132 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-16 09:03:27.469  INFO 28132 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 672 ms
+2025-01-16 09:03:27.695  INFO 28132 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-16 09:03:27.702  INFO 28132 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.244 seconds (JVM running for 1.492)
+<==========---> 83% EXECUTING [1m 57s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>http:\\localhost:8080\sysprops
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\DavidHolberton>http:\\localhost:8080\sysprop
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\DavidHolberton>
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\orw0>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\Users\DavidHolberton\sbprojs\orw0>
+C:\Users\DavidHolberton\sbprojs\orw0>javac -version
+javac 17.0.13
+
+C:\Users\DavidHolberton\sbprojs\orw0>
+C:\Users\DavidHolberton\sbprojs\orw0>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.13 (Eclipse Adoptium 17.0.13+11)
+OS:           Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\orw0>
+C:\Users\DavidHolberton\sbprojs\orw0>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-01-16T11:57:39.780-05:00  INFO 3252 --- [           main] com.ashburncode.aaa.OrwApplication       : Starting OrwApplication using Java 17.0.13 with PID 3252 (C:\Users\DavidHolberton\sbprojs\orw0\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\orw0)
+2025-01-16T11:57:39.782-05:00  INFO 3252 --- [           main] com.ashburncode.aaa.OrwApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-01-16T11:57:40.335-05:00  INFO 3252 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-16T11:57:40.344-05:00  INFO 3252 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-16T11:57:40.344-05:00  INFO 3252 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16T11:57:40.380-05:00  INFO 3252 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-16T11:57:40.380-05:00  INFO 3252 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 563 ms
+2025-01-16T11:57:40.587-05:00  INFO 3252 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-16T11:57:40.593-05:00  INFO 3252 --- [           main] com.ashburncode.aaa.OrwApplication       : Started OrwApplication in 1.068 seconds (process running for 1.263)
+<==========---> 83% EXECUTING [18s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+{"timestamp":"2025-01-16T16:59:05.495+00:00","status":404,"error":"Not Found","path":"/sysprops"}
+C:\Users\DavidHolberton>
+
+
+
+
+
+
+
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+C:\Users\DavidHolberton\sbprojs>
+C:\Users\DavidHolberton\sbprojs>7z l orw.zip
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 52417 bytes (52 KiB)
+
+Listing archive: orw.zip
+
+--
+Path = orw.zip
+Type = zip
+Physical Size = 52417
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2025-01-16 12:02:15 D....            0            2  orw
+2025-01-16 12:02:15 .....           25           27  orw\settings.gradle
+2025-01-16 12:02:15 .....          444          242  orw\.gitignore
+2025-01-16 12:02:15 D....            0            2  orw\gradle
+2025-01-16 12:02:15 D....            0            2  orw\gradle\wrapper
+2025-01-16 12:02:15 .....          253          153  orw\gradle\wrapper\gradle-wrapper.properties
+2025-01-16 12:02:15 .....        43583        38865  orw\gradle\wrapper\gradle-wrapper.jar
+2025-01-16 12:02:15 .....          960          455  orw\HELP.md
+2025-01-16 12:02:15 .....         8762         3726  orw\gradlew
+2025-01-16 12:02:15 .....           54           44  orw\.gitattributes
+2025-01-16 12:02:15 .....         2966         1239  orw\gradlew.bat
+2025-01-16 12:02:15 D....            0            2  orw\src
+2025-01-16 12:02:15 D....            0            2  orw\src\test
+2025-01-16 12:02:15 D....            0            2  orw\src\test\java
+2025-01-16 12:02:15 D....            0            2  orw\src\test\java\com
+2025-01-16 12:02:15 D....            0            2  orw\src\test\java\com\ashburncode
+2025-01-16 12:02:15 D....            0            2  orw\src\test\java\com\ashburncode\orw
+2025-01-16 12:02:15 .....          208          148  orw\src\test\java\com\ashburncode\orw\OrwApplicationTests.java
+2025-01-16 12:02:15 D....            0            2  orw\src\main
+2025-01-16 12:02:15 D....            0            2  orw\src\main\resources
+2025-01-16 12:02:15 D....            0            2  orw\src\main\resources\templates
+2025-01-16 12:02:15 D....            0            2  orw\src\main\resources\static
+2025-01-16 12:02:15 .....           28           30  orw\src\main\resources\application.properties
+2025-01-16 12:02:15 D....            0            2  orw\src\main\java
+2025-01-16 12:02:15 D....            0            2  orw\src\main\java\com
+2025-01-16 12:02:15 D....            0            2  orw\src\main\java\com\ashburncode
+2025-01-16 12:02:15 D....            0            2  orw\src\main\java\com\ashburncode\orw
+2025-01-16 12:02:15 .....          306          168  orw\src\main\java\com\ashburncode\orw\OrwApplication.java
+2025-01-16 12:02:15 .....          549          300  orw\build.gradle
+------------------- ----- ------------ ------------  ------------------------
+2025-01-16 12:02:15              58138        45431  12 files, 17 folders
+
+C:\Users\DavidHolberton\sbprojs>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\sbprojs\orw341>
+C:\Users\DavidHolberton\sbprojs\orw341>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\Users\DavidHolberton\sbprojs\orw341>javac -version
+javac 17.0.13
+
+C:\Users\DavidHolberton\sbprojs\orw341>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.11.1
+------------------------------------------------------------
+
+Build time:    2024-11-20 16:56:46 UTC
+Revision:      481cb05a490e0ef9f8620f7873b83bd8a72e7c39
+
+Kotlin:        2.0.20
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  17.0.13 (Eclipse Adoptium 17.0.13+11)
+Daemon JVM:    C:\LocalApps\jdk-17.0.13+11 (no JDK specified, using current Java home)
+OS:            Windows 11 10.0 amd64
+
+C:\Users\DavidHolberton\sbprojs\orw341>
+C:\Users\DavidHolberton\sbprojs\orw341>.\gradlew clean bootRun
+Starting a Gradle Daemon, 3 incompatible and 1 stopped Daemons could not be reused, use --status for details
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-01-16T12:21:35.816-05:00  INFO 15572 --- [orw] [           main] com.ashburncode.orw.OrwApplication       : Starting OrwApplication using Java 17.0.13 with PID 15572 (C:\Users\DavidHolberton\sbprojs\orw341\build\classes\java\main started by DavidHolberton in C:\Users\DavidHolberton\sbprojs\orw341)
+2025-01-16T12:21:35.827-05:00  INFO 15572 --- [orw] [           main] com.ashburncode.orw.OrwApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-01-16T12:21:36.443-05:00  INFO 15572 --- [orw] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-16T12:21:36.452-05:00  INFO 15572 --- [orw] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-16T12:21:36.452-05:00  INFO 15572 --- [orw] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16T12:21:36.489-05:00  INFO 15572 --- [orw] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-16T12:21:36.490-05:00  INFO 15572 --- [orw] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2025-01-16T12:21:36.693-05:00  INFO 15572 --- [orw] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-16T12:21:36.698-05:00  INFO 15572 --- [orw] [           main] com.ashburncode.orw.OrwApplication       : Started OrwApplication in 1.191 seconds (process running for 1.406)
+2025-01-16T12:21:51.471-05:00  INFO 15572 --- [orw] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-16T12:21:51.471-05:00  INFO 15572 --- [orw] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-16T12:21:51.472-05:00  INFO 15572 --- [orw] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+<==========---> 83% EXECUTING [3m]
+> :bootRun
+> IDLE
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.16910237184821615957
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.16910237184821615957
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17ues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/iss
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\Users\DavidHolberton\sbprojs\orw341
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+
+
+
+cd C:\Users\DavidHolberton\sbproj
+
+7z x orw.zip
+ren orw orw341
+cd orw341
+dir /o:gd
+tree /a /f       > orwe41-tree-list.txt
+7z l ..\orw.zip  > orw341-zip-list.txt
+git init
+git add .
+git commit -a -m "first commit"
+copy build.gradle build.gradle.orig
+copy src\main\resources\application.properties src\main\resources\application.properties-orig
+
+
+cd C:\Users\DavidHolberton\sbprojs
+mkdir C:\Users\DavidHolberton\sbprojs\orw2717temp
+7z x sbapp2717g.zip -oC:\Users\DavidHolberton\sbprojs\orw2717temp
+move C:\Users\DavidHolberton\sbprojs\orw2717temp\sbapp2717g C:\Users\DavidHolberton\sbprojs\orw2717
+rmdir /s /q C:\Users\DavidHolberton\sbprojs\orw2717temp
+
+cd orw2717
+dir /o:gd
+tree /a /f              > orw2717-tree-list.txt
+7z l ..\sbapp2717g.zip  > orw2717-zip-list.txt
+git init
+git add .
+git commit -a -m "first commit"
+copy build.gradle build.gradle.orig
+copy src\main\resources\application.properties src\main\resources\application.properties-orig
+
+
+

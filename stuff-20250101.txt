@@ -1,0 +1,142 @@
+6:53 AM 1/1/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250101.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.94.2
+384ff7382de624fb94dbaf6da11977bba1ecd427
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps>jdk8u422-b05\bin\xjc -version
+xjc 2.2.8-b130911.1802
+
+C:\LocalApps>jdk8u422-b05\bin\java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\LocalApps>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://stackoverflow.com/questions/9981387/how-to-determine-the-jaxb-version-used-in-an-application    
+How to determine the JAXB version used in an application
+
+If there are any annotations from the javax.xml.bind.annotation package in your model then you are using JAXB 2 (JSR-222). These annotations did not exist in JAXB 1 (JSR-31). A JAXB 1 model consists of spec defined generated interfaces backed by implementation specific impl classes.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://stackoverflow.com/questions/63608553/which-jaxb-version-was-used-in-java-8
+Which JAXB version was used in Java 8?
+
+JAXB (Java Architecture for XML Binding) has been publised as Maven artifacts although it was bundled with JREs until Java 8 (and Java 9/10 with an option).
+
+My question here is: Which JAXB version on Maven Central corresponds to Java 8's bundled version? (And, also for Java 9/10's under a feature option?)
+
+I'm seeing in https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api :
+
+  2.2.* (~ 2.2.12)
+  2.3.0
+  2.3.1
+  2.4.0-* (under development)
+  (3.0.0 to be jakarta.xml.*)
+
+As far as Java 8:
+
+$ $(/usr/libexec/java_home -v 1.8)/bin/xjc -version
+xjc 2.2.8-b130911.1802
+
+which is documented here specifying the Maven coordinates:
+
+  <dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-bom</artifactId>
+    <version>2.2.8</version>
+    <type>pom</type>
+  </dependency>
+
+although
+
+  <dependency>                                                          
+    <groupId>javax.xml.bind</groupId>                                   
+    <artifactId>jaxb-api</artifactId>                                   
+    <version>2.2.8</version>                                            
+    <scope>provided</scope>                                             
+  </dependency>
+
+is accurate for Java 8. For Java 9+, the latest available (as you observed) is:
+
+  <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.4.0-b180830.0359</version>
+  </dependency>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/javax.xml.bind
+
+Relocated → jakarta.xml.bind » jakarta.xml.bind-api
+
+https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+
+https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.0   Jul 31, 2017
+// https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+implementation 'javax.xml.bind:jaxb-api:2.3.0'
+
+https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.1   Oct 02, 2018
+// https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+implementation 'javax.xml.bind:jaxb-api:2.3.1'
+
+https://mvnrepository.com/artifact/jakarta.xml.bind
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+
+Version  Vulnerabilities  Repository  Usages  Date
+4.0.2                     Central     1,228   Mar 07, 2024
+4.0.1                     Central       938   Sep 14, 2023
+4.0.0                     Central     1,125   Apr 09, 2022
+4.0.0-RC3                 Central        58   Feb 15, 2022
+4.0.0-RC2                 Central        13   Oct 06, 2021
+4.0.0-RC1                 Central         7   Aug 18, 2021
+3.0.1                     Central       464   Apr 27, 2021
+3.0.0                     Central       195   Nov 05, 2020
+3.0.0-RC3                 Central        58   Mar 31, 2020
+3.0.0-RC2                 Central         8   Mar 23, 2020
+3.0.0-RC1                 Central         8   Feb 07, 2020
+2.3.3                     Central     1,091   Feb 28, 2020
+2.3.2                     Central       797   Jan 08, 2019
+
+// https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.2'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/search?q=org.glassfish.jaxb
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime/4.0.5   Mar 07, 2024
+// https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.5'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
