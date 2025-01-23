@@ -194,7 +194,82 @@ https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk/7.0.2     Dec
 // https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk
 testImplementation 'com.unboundid:unboundid-ldapsdk:7.0.2'
 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
+cd C:\Users\DavidHolberton\Documents\dir-stuff
+copy stuff-20250101.txt c:\Users\DavidHolberton\repos\miscdphxps17w11
+copy stuff-20250116.txt c:\Users\DavidHolberton\repos\miscdphxps17w11
+copy stuff-20250120.txt c:\Users\DavidHolberton\repos\miscdphxps17w11
+copy stuff-20250123.txt c:\Users\DavidHolberton\repos\miscdphxps17w11
+cd  c:\Users\DavidHolberton\repos\miscdphxps17w11
+dir /o:gd
+git status
+git add .
+git commit -a -m "add stuff-20250101.txt stuff-20250116.txt stuff-20250120.txt stuff-20250123.txt"
+git push
 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
+google search for: com.unboundid.ldap.sdk.ldapconnection cipher
+
+https://docs.ldap.com/ldap-sdk/docs/javadoc/com/unboundid/util/ssl/SSLUtil.html
+
+com.unboundid.util.ssl
+Class SSLUtil
+
+    java.lang.Object
+        com.unboundid.util.ssl.SSLUtil 
+
+    @ThreadSafety(level=COMPLETELY_THREADSAFE)
+    public final class SSLUtil
+    extends java.lang.Object
+
+    This class provides a relatively simple interface for helping to configure secure communication using TLS (formerly known as SSL) and StartTLS (which uses an LDAP extended operation to convert an already-established non-secure connection to one that uses TLS security). When establishing secure connections, there are five main concepts to be aware of:
+        The allowed set of TLS protocol versions
+        The allowed set of TLS cipher suites
+        The key manager (if any) to use for obtaining local certificates
+        The trust manager to use for determining whether to trust peer certificates
+        The logic used to validate certificate hostnames
+    Each of these is covered in more detail below. 
+
+static void 	setDefaultSSLProtocol(java.lang.String defaultSSLProtocol)
+Specifies the SSL protocol string that will be used by calls to createSSLContext() that do not explicitly specify which protocol to use.
+
+static void 	setEnabledSSLCipherSuites(java.util.Collection<java.lang.String> enabledSSLCipherSuites)
+Specifies the set of SSL cipher suites that will be enabled for SSL sockets created within the LDAP SDK.
+
+static void 	setEnabledSSLProtocols(java.util.Collection<java.lang.String> enabledSSLProtocols)
+Specifies the set of SSL protocols that will be enabled for use for SSL sockets created within the LDAP SDK.
+
+    setEnabledSSLCipherSuites
+
+    public static void setEnabledSSLCipherSuites(@Nullable
+                                                 java.util.Collection<java.lang.String> enabledSSLCipherSuites)
+
+    Specifies the set of SSL cipher suites that will be enabled for SSL sockets created within the LDAP SDK. When creating an SSL socket, the SSLSocket.getSupportedCipherSuites method will be used to determine which cipher suites are supported for that socket, and then the SSLSocket.setEnabledCipherSuites method will be used to enable those suites which are listed as both supported by the socket and included in this set. If the provided set is null or empty, then the default set of enabled cipher suites will be used.
+
+    Parameters:
+        enabledSSLCipherSuites - The set of SSL cipher suites that will be enabled for use for SSL sockets created within the LDAP SDK. It may be null or empty to indicate that the JDK-default set of enabled cipher suites should be used for the socket.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.baeldung.com/java-init-list-one-line
+
+2. Create From an Array
+
+We can create a List from an array. And thanks to array literals, we can initialize them in one line:
+
+List<String> list = Arrays.asList(new String[]{"foo", "bar"});
+
+We can trust the varargs mechanism to handle the array creation. With that, we can write more concise and readable code:
+
+@Test
+public void givenArraysAsList_thenInitialiseList() {
+    List<String> list = Arrays.asList("foo", "bar");
+
+    assertTrue(list.contains("foo"));
+}
 
