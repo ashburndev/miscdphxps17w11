@@ -1,0 +1,526 @@
+6:53 AM 1/27/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250127.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://getpocket.com/explore/item/5-tried-and-true-methods-for-removing-rust-from-metal-objects?utm_source=firefox-newtab-en-us
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://marketplace.visualstudio.com/vscode
+
+https://marketplace.visualstudio.com/search?term=java&target=VSCode&category=All%20categories&sortBy=Relevance
+
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+Language Support for Java(TM) by Red Hat
+https://github.com/redhat-developer/vscode-java
+
+https://code.visualstudio.com/docs/editor/extension-marketplace#_can-i-download-an-extension-directly-from-the-marketplace
+
+I did not upgrade any of these today (I can not find a way to download the .vsix files). But the redhat and docker directories below have a recent date.
+
+C:\Users\DavidHolberton\.vscode>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.vscode
+
+05/13/2023  10:01 AM    <DIR>          cli
+06/17/2023  08:12 AM    <DIR>          .
+01/23/2025  08:05 AM    <DIR>          ..
+01/26/2025  11:42 AM    <DIR>          extensions
+05/11/2022  05:24 PM               984 argv.json
+               1 File(s)            984 bytes
+               4 Dir(s)  399,769,423,872 bytes free
+
+C:\Users\DavidHolberton\.vscode>dir /o:gd extensions
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\.vscode\extensions
+
+06/17/2023  08:12 AM    <DIR>          ..
+04/10/2024  05:43 AM    <DIR>          visualstudioexptteam.intellicode-api-usage-examples-0.2.8
+04/10/2024  05:43 AM    <DIR>          vscjava.vscode-maven-0.44.0
+04/10/2024  05:43 AM    <DIR>          visualstudioexptteam.vscodeintellicode-1.3.1
+04/10/2024  05:45 AM    <DIR>          vmware.vscode-boot-dev-pack-0.2.1
+04/10/2024  05:45 AM    <DIR>          vscjava.vscode-spring-initializr-0.11.2
+05/27/2024  08:42 AM    <DIR>          vscjava.vscode-spring-boot-dashboard-0.14.0
+08/15/2024  06:17 AM    <DIR>          vscjava.vscode-java-pack-0.29.0
+08/15/2024  06:17 AM    <DIR>          vscjava.vscode-gradle-3.16.4
+10/25/2024  07:27 AM    <DIR>          visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+10/25/2024  07:27 AM    <DIR>          visualstudioexptteam.vscodeintellicode-1.3.2
+11/14/2024  07:20 AM    <DIR>          vscjava.vscode-java-dependency-0.24.1
+11/14/2024  07:20 AM    <DIR>          vscjava.vscode-java-debug-0.58.1
+11/14/2024  07:20 AM    <DIR>          ms-vscode.hexeditor-1.11.1
+11/14/2024  07:20 AM    <DIR>          vscjava.vscode-java-test-0.43.0
+12/09/2024  04:53 PM    <DIR>          vmware.vscode-spring-boot-1.59.0
+01/23/2025  08:06 AM    <DIR>          ms-azuretools.vscode-docker-1.29.4
+01/23/2025  08:06 AM    <DIR>          eamodio.gitlens-16.2.1
+01/23/2025  08:06 AM    <DIR>          redhat.java-1.39.0-win32-x64
+01/26/2025  11:42 AM    <DIR>          .
+07/13/2023  06:14 AM                 2 extensions.json
+               1 File(s)              2 bytes
+              20 Dir(s)  399,769,358,336 bytes free
+
+C:\Users\DavidHolberton\.vscode>
+
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ ls -latr *.vsix
+-rwxrwxrwx 1 davidho davidho 106869233 May 15  2023 redhat.java-1.19.2023051504@win32-x64.vsix
+-rwxrwxrwx 1 davidho davidho   3203465 May 15  2023 vscjava.vscode-java-debug-0.50.2023042406.vsix
+-rwxrwxrwx 1 davidho davidho   2357505 May 15  2023 vscjava.vscode-java-test-0.38.2023051002.vsix
+-rwxrwxrwx 1 davidho davidho  10685457 May 15  2023 vscjava.vscode-maven-0.41.2023042103.vsix
+-rwxrwxrwx 1 davidho davidho    340091 May 15  2023 vscjava.vscode-java-dependency-0.22.2023042900.vsix
+-rwxrwxrwx 1 davidho davidho  88923068 May 15  2023 VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+-rwxrwxrwx 1 davidho davidho    260459 May 15  2023 vmware.vscode-boot-dev-pack-0.2.1.vsix
+-rwxrwxrwx 1 davidho davidho 124577448 May 15  2023 vmware.vscode-spring-boot-1.47.2023051304.vsix
+-rwxrwxrwx 1 davidho davidho    435168 May 15  2023 vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+-rwxrwxrwx 1 davidho davidho    658201 May 15  2023 vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+-rwxrwxrwx 1 davidho davidho  36430975 May 15  2023 vscjava.vscode-gradle-3.12.2023042700.vsix
+-rwxrwxrwx 1 davidho davidho  12491795 May 15  2023 shengchen.vscode-checkstyle-1.4.2.vsix
+-rwxrwxrwx 1 davidho davidho 201841036 May 15  2023 SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+-rwxrwxrwx 1 davidho davidho   1383285 May 17  2023 ms-azuretools.vscode-docker-1.25.1.vsix
+-rwxrwxrwx 1 davidho davidho    769981 May 17  2023 mtxr.sqltools-0.27.1.vsix
+-rwxrwxrwx 1 davidho davidho    387292 May 17  2023 mtxr.sqltools-driver-mysql-0.5.1.vsix
+-rwxrwxrwx 1 davidho davidho    319552 May 18  2023 vscjava.vscode-lombok-1.1.0.vsix
+-rwxrwxrwx 1 davidho davidho   6436935 May 18  2023 eamodio.gitlens-2023.5.1805.vsix
+-rwxrwxrwx 1 davidho davidho   2294246 May 18  2023 Atlassian.atlascode-3.0.3.vsix
+-rwxrwxrwx 1 davidho davidho 109445984 Jul 19  2024 redhat.java-1.33.2024071908@win32-x64.vsix
+-rwxrwxrwx 1 davidho davidho   3156108 Jul 19  2024 vscjava.vscode-java-debug-0.58.2024071907.vsix
+-rwxrwxrwx 1 davidho davidho   2805233 Jul 19  2024 vscjava.vscode-java-test-0.41.2024070902.vsix
+-rwxrwxrwx 1 davidho davidho  10726973 Jul 19  2024 vscjava.vscode-maven-0.44.2024013105.vsix
+-rwxrwxrwx 1 davidho davidho    323818 Jul 19  2024 vscjava.vscode-java-dependency-0.23.2024070900.vsix
+-rwxrwxrwx 1 davidho davidho  44336467 Jul 19  2024 vscjava.vscode-gradle-3.15.0.vsix
+-rwxrwxrwx 1 davidho davidho    435168 Jul 19  2024 vscjava.vscode-spring-initializr-0.11.2023070103.vsix
+-rwxrwxrwx 1 davidho davidho    659437 Jul 19  2024 vscjava.vscode-spring-boot-dashboard-0.14.0.vsix
+-rwxrwxrwx 1 davidho davidho 226681282 Jul 19  2024 vmware.vscode-spring-boot-1.56.2024071800.vsix
+-rwxrwxrwx 1 davidho davidho   1357683 Jul 19  2024 ms-azuretools.vscode-docker-1.29.1.vsix
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$ find . -name "*.vsix" -print
+./Atlassian.atlascode-3.0.3.vsix
+./eamodio.gitlens-2023.5.1805.vsix
+./ms-azuretools.vscode-docker-1.25.1.vsix
+./ms-azuretools.vscode-docker-1.29.1.vsix
+./mtxr.sqltools-0.27.1.vsix
+./mtxr.sqltools-driver-mysql-0.5.1.vsix
+./redhat.java-1.19.2023051504@win32-x64.vsix
+./redhat.java-1.33.2024071908@win32-x64.vsix
+./shengchen.vscode-checkstyle-1.4.2.vsix
+./SonarSource.sonarlint-vscode-3.17.0@win32-x64.vsix
+./VisualStudioExptTeam.vscodeintellicode-1.2.30.vsix
+./vmware.vscode-boot-dev-pack-0.2.1.vsix
+./vmware.vscode-spring-boot-1.47.2023051304.vsix
+./vmware.vscode-spring-boot-1.56.2024071800.vsix
+./vscjava.vscode-gradle-3.12.2023042700.vsix
+./vscjava.vscode-gradle-3.15.0.vsix
+./vscjava.vscode-java-debug-0.50.2023042406.vsix
+./vscjava.vscode-java-debug-0.58.2024071907.vsix
+./vscjava.vscode-java-dependency-0.22.2023042900.vsix
+./vscjava.vscode-java-dependency-0.23.2024070900.vsix
+./vscjava.vscode-java-test-0.38.2023051002.vsix
+./vscjava.vscode-java-test-0.41.2024070902.vsix
+./vscjava.vscode-lombok-1.1.0.vsix
+./vscjava.vscode-maven-0.41.2023042103.vsix
+./vscjava.vscode-maven-0.44.2024013105.vsix
+./vscjava.vscode-spring-boot-dashboard-0.13.2023051200.vsix
+./vscjava.vscode-spring-boot-dashboard-0.14.0.vsix
+./vscjava.vscode-spring-initializr-0.11.2023041103.vsix
+./vscjava.vscode-spring-initializr-0.11.2023070103.vsix
+davidho@dphxps17:/mnt/c/Users/DavidHolberton/Downloads$
+
+default
+dphprof1
+Java spring
+p1
+
+C:\>
+C:\>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\>code --list-extensions
+
+C:\>code --list-extensions --profile p1
+eamodio.gitlens
+ms-azuretools.vscode-docker
+ms-vscode.hexeditor
+redhat.java
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-spring-boot
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-spring-boot-dashboard
+vscjava.vscode-spring-initializr
+
+C:\>code --list-extensions --profile p1 --show-versions
+eamodio.gitlens@16.2.1
+ms-azuretools.vscode-docker@1.29.4
+ms-vscode.hexeditor@1.11.1
+redhat.java@1.39.0
+visualstudioexptteam.intellicode-api-usage-examples@0.2.9
+visualstudioexptteam.vscodeintellicode@1.3.2
+vmware.vscode-boot-dev-pack@0.2.1
+vmware.vscode-spring-boot@1.59.0
+vscjava.vscode-gradle@3.16.4
+vscjava.vscode-java-debug@0.58.1
+vscjava.vscode-java-dependency@0.24.1
+vscjava.vscode-java-pack@0.29.0
+vscjava.vscode-java-test@0.43.0
+vscjava.vscode-maven@0.44.0
+vscjava.vscode-spring-boot-dashboard@0.14.0
+vscjava.vscode-spring-initializr@0.11.2
+
+C:\>
+C:\>code --update-extensions
+No extension to update
+
+C:\>code --update-extensions --profile p1
+No extension to update
+
+C:\>
+C:\>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\>
+
+Version: 1.96.4
+Commit: cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+Date: 2025-01-16T00:16:19.038Z
+Electron: 32.2.6
+ElectronBuildId: 10629634
+Chromium: 128.0.6613.186
+Node.js: 20.18.1
+V8: 12.8.374.38-electron.0
+OS: Windows_NT x64 10.0.22631
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Terminate batch job (Y/N)? y
+
+C:\temp9\orw2717>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-01-27 08:08:45.628  INFO 19132 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 on dphxps17 with PID 19132 (C:\temp9\orw2717\build\classes\java\main started by DavidHolberton in C:\temp9\orw2717)
+2025-01-27 08:08:45.630  INFO 19132 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-01-27 08:08:46.224  INFO 19132 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-27 08:08:46.232  INFO 19132 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-27 08:08:46.232  INFO 19132 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-01-27 08:08:46.302  INFO 19132 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-27 08:08:46.302  INFO 19132 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 642 ms
+2025-01-27 08:08:46.496  INFO 19132 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-27 08:08:46.501  INFO 19132 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.142 seconds (JVM running for 1.379)
+2025-01-27 08:09:05.372  INFO 19132 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-27 08:09:05.372  INFO 19132 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-27 08:09:05.373  INFO 19132 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+<==========---> 80% EXECUTING [1m 7s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.17806527678967126538
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.17806527678967126538
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp9\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>
+
+https://springfox.github.io/springfox/docs/current/
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-boot-starter</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+The configuration of Swagger mainly centers around the Docket bean:
+
+@Configuration
+public class SpringFoxConfig {                                    
+    @Bean
+    public Docket api() { 
+        return new Docket(DocumentationType.SWAGGER_2)  
+          .select()                                  
+          .apis(RequestHandlerSelectors.any())              
+          .paths(PathSelectors.any())                          
+          .build();                                           
+    }
+}
+
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger2/3.0.0
+// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+implementation 'io.springfox:springfox-swagger2:3.0.0'
+
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui/3.0.0
+// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter/3.0.0
+// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
+http://localhost:8080/sysprops
+http://localhost:8080/swagger-ui.html
+
+http://localhost:8080/swagger-ui
+
+http://localhost:8080/v2/api-docs
+http://localhost:8080/swagger-ui/
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp9\orw2717>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\temp9\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.13 (Eclipse Adoptium 17.0.13+11)
+OS:           Windows 11 10.0 amd64
+
+C:\temp9\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp9\orw2717\build.gradle
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.17'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'ashburncode'
+version = '0.0.1-SNAPSHOT'
+
+// java {
+// 	sourceCompatibility = '8'
+// }
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(8)
+  }
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// runtimeOnly 'com.mysql:mysql-connector-j'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	
+  // // https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+  implementation 'io.springfox:springfox-swagger2:3.0.0'
+
+  // // https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+  implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+  // // https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+  // implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
+}
+
+tasks.named('bootBuildImage') {
+	builder = 'paketobuildpacks/builder-jammy-base:latest'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\Users\DavidHolberton>cd C:\temp9\orw2717
+
+C:\temp9\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\temp9\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\temp9\orw2717>.\gradlew cleabn bootRun
+Starting a Gradle Daemon, 10 incompatible Daemons could not be reused, use --status for details
+init.gradle
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'cleabn' not found in root project 'sbapp2717g'. Some candidates are: 'clean'.
+
+* Try:
+> Run gradlew tasks to get a list of available tasks.
+> For more on name expansion, please refer to https://docs.gradle.org/8.4/userguide/command_line_interface.html#sec:name_abbreviation in the Gradle documentation.
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+
+C:\temp9\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-01-27 09:09:08.251  INFO 21608 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 21608 (C:\temp9\orw2717\build\classes\java\main started by DavidHolberton in C:\temp9\orw2717)
+2025-01-27 09:09:08.255  INFO 21608 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-01-27 09:09:09.044  INFO 21608 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-27 09:09:09.049  INFO 21608 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-27 09:09:09.049  INFO 21608 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-01-27 09:09:09.102  INFO 21608 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-27 09:09:09.102  INFO 21608 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 803 ms
+2025-01-27 09:09:09.288  INFO 21608 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-27 09:09:09.294  INFO 21608 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.364 seconds (JVM running for 1.61)
+<=<==========---> 83% EXECUTING [20s]
+<=<==========---> 83% EXECUTING [43s]
+^A
+^ATerminate batch job (Y/N)? y
+
+C:\temp9\orw2717>
+
+
+
+
+
+
+https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter/3.0.0
+
+https://springfox.github.io/springfox/docs/snapshot/
+
+
+2.1.1. Gradle
+Release
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+//  For Spring boot Projects
+    implementation "io.springfox:springfox-boot-starter:3.0.0"
+//  Uncomment for regular spring mvc projects and commend above dependency
+//    implementation "io.springfox:springfox-oas:3.0.0"
+}
+
+
+
+

@@ -1,0 +1,1307 @@
+8:30 AM 1/31/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250131.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp9>dir
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp9
+
+01/27/2025  08:04 AM    <DIR>          .
+01/27/2025  09:10 AM    <DIR>          orw2717
+10/28/2024  06:52 AM             4,186 SyspropsController.java
+               1 File(s)          4,186 bytes
+               2 Dir(s)  399,864,778,752 bytes free
+
+C:\temp9>cd orw2717
+
+C:\temp9\orw2717>
+C:\temp9\orw2717>
+C:\temp9\orw2717>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\temp9\orw2717>
+C:\temp9\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\temp9\orw2717>.\gradlew bootRun
+> Task :bootRun FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun'.
+> Process 'command 'C:\LocalApps\jdk8u422-b05\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 10s
+4 actionable tasks: 3 executed, 1 up-to-date
+
+C:\temp9\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps>dir jdk*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+03/27/2023  02:55 AM    <DIR>          jdk-11.0.19
+09/13/2023  05:12 AM    <DIR>          jdk-11.0.21
+07/19/2024  12:07 AM    <DIR>          jdk-11.0.24+8
+10/09/2024  06:34 AM    <DIR>          jdk-17.0.12
+07/16/2024  06:04 PM    <DIR>          jdk-17.0.12+7
+10/15/2024  08:03 PM    <DIR>          jdk-17.0.13+11
+02/28/2023  06:10 PM    <DIR>          jdk-17.0.7
+10/10/2023  05:24 PM    <DIR>          jdk-17.0.9
+06/05/2024  12:45 AM       318,894,080 jdk-17_linux-x64_bin.tar
+06/05/2024  12:45 AM       318,894,080 jdk-17_linux-x64_bin.zip
+10/05/2023  08:49 AM    <DIR>          jdk-21.0.1
+07/16/2024  07:14 PM    <DIR>          jdk-21.0.4+7
+07/18/2024  08:57 AM    <DIR>          jdk8u422-b05
+               2 File(s)    637,788,160 bytes
+              11 Dir(s)  399,866,372,096 bytes free
+
+C:\LocalApps>
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\Users\DavidHolberton>echo %path%
+C:\LocalApps\jdk8u422-b05\bin;C:\LocalApps\VSCode-win32-x64-1.96.4\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2;C:\Users\DavidHolberton\AppData\Local\Microsoft\WindowsApps;
+
+C:\Users\DavidHolberton>
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.6275008336564086713
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.6275008336564086713
+ java.class.version = 52.0
+ java.home = C:\LocalApps\jdk8u422-b05\jre
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 1.8.0_422-b05
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 1.8
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = null
+ java.vendor = Temurin
+ java.version.date = null
+ java.version = 1.8.0_422
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 1.8
+ java.vm.vendor = Temurin
+ java.vm.version = 25.422-b05
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp9\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://springfox.github.io/springfox/docs/snapshot/
+
+Spring Boot Applications
+  Remove library inclusions of earlier releases. Specifically remove springfox-swagger2 and springfox-swagger-ui inclusions.
+  Remove the @EnableSwagger2 annotations
+  Add the springfox-boot-starter
+
+	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+	// implementation 'io.springfox:springfox-swagger2:3.0.0'
+
+	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+	// implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+	// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
+swagger-ui location has moved from http://host/context-path/swagger-ui.html to http://host/context-path/swagger-ui/index.html OR http://host/context-path/swagger-ui/ for short. This makes it work much better with pulling it as a web jar and turning it off using configuration properties if not needed. 
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp9\orw2717>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun FAILED
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-01 10:01:55.769  INFO 27708 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 27708 (C:\temp9\orw2717\build\classes\java\main started by DavidHolberton in C:\temp9\orw2717)
+2025-02-01 10:01:55.771  INFO 27708 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-01 10:01:56.565  INFO 27708 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-01 10:01:56.570  INFO 27708 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01 10:01:56.570  INFO 27708 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-01 10:01:56.621  INFO 27708 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01 10:01:56.622  INFO 27708 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 826 ms
+2025-02-01 10:01:56.922  INFO 27708 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-01 10:01:56.924  WARN 27708 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2025-02-01 10:01:57.061  INFO 27708 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-01 10:01:57.070  INFO 27708 --- [           main] ConditionEvaluationReportLoggingListener :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-02-01 10:01:57.085 ERROR 27708 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+        at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.3.30.jar:5.3.30]
+        at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.30.jar:5.3.30]
+        at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:357) ~[spring-context-5.3.30.jar:5.3.30]
+        at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_422]
+
+ 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =     
+
+google: springfox Failed to start bean 'documentationPluginsBootstrapper'
+
+https://stackoverflow.com/questions/40241843/failed-to-start-bean-documentationpluginsbootstrapper-in-spring-data-rest
+
+I got same issue using springfox-swagger2 and springfox-swagger-ui version(3.0.0), spring-boot version(2.6.2)
+
+The way to resolve this issue is by adding pathmatcher in application. properties or application.yml
+for application.properties:
+
+spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =   
+
+C:\temp9\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\temp9\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\temp9\orw2717>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-01 10:12:32.562  INFO 31264 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 31264 (C:\temp9\orw2717\build\classes\java\main started by DavidHolberton in C:\temp9\orw2717)
+2025-02-01 10:12:32.564  INFO 31264 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-01 10:12:33.373  INFO 31264 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-01 10:12:33.378  INFO 31264 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01 10:12:33.379  INFO 31264 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-01 10:12:33.435  INFO 31264 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01 10:12:33.436  INFO 31264 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 847 ms
+2025-02-01 10:12:33.735  INFO 31264 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-01 10:12:33.837  INFO 31264 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.49 seconds (JVM running for 1.715)
+<==========---> 80% EXECUTING [9s]
+> :bootRun
+
+http://localhost:8080/v2/api-docs     ... works
+http://localhost:8080/swagger-ui/     ... works
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =   
+
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+https://docs.spring.io/spring-boot/api/rest/actuator/health.html
+
+Retrieving the Health of the Application
+To retrieve the health of the application, make a GET request to /actuator/health, as shown in the following curl-based example:
+curl 'http://localhost:8080/actuator/health' -i -X GET -H 'Accept: application/json'
+curl 'http://localhost:8080/actuator/health/db' -i -X GET -H 'Accept: application/json'
+
+https://www.baeldung.com/spring-boot-actuators
+
+Unlike in previous versions, Actuator comes with most endpoints disabled.
+Thus, the only two available by default are /health and /info.
+
+http://localhost:8080/actuator
+http://localhost:8080/actuator/health
+http://localhost:8080/actuator/info
+
+curl http://localhost:8082/actuator            -i -X GET -H 'Accept: application/json'
+curl http://localhost:8082/actuator/health     -i -X GET -H 'Accept: application/json'
+curl http://localhost:8082/actuator/info       -i -X GET -H 'Accept: application/json'
+
+curl http://localhost:8082/actuator/env        -i -X GET -H 'Accept: application/json' | jq
+curl http://localhost:8082/actuator/ | jq
+curl http://localhost:8082/actuator/ -s | jq
+curl http://localhost:8082/actuator/mappings -s | jq
+
+
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/ -s | jq
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:8082/actuator",
+      "templated": false
+    },
+    "beans": {
+      "href": "http://localhost:8082/actuator/beans",
+      "templated": false
+    },
+    "caches-cache": {
+      "href": "http://localhost:8082/actuator/caches/{cache}",
+      "templated": true
+    },
+    "caches": {
+      "href": "http://localhost:8082/actuator/caches",
+      "templated": false
+    },
+    "health": {
+      "href": "http://localhost:8082/actuator/health",
+      "templated": false
+    },
+    "health-path": {
+      "href": "http://localhost:8082/actuator/health/{*path}",
+      "templated": true
+    },
+    "info": {
+      "href": "http://localhost:8082/actuator/info",
+      "templated": false
+    },
+    "conditions": {
+      "href": "http://localhost:8082/actuator/conditions",
+      "templated": false
+    },
+    "configprops": {
+      "href": "http://localhost:8082/actuator/configprops",
+      "templated": false
+    },
+    "configprops-prefix": {
+      "href": "http://localhost:8082/actuator/configprops/{prefix}",
+      "templated": true
+    },
+    "env": {
+      "href": "http://localhost:8082/actuator/env",
+      "templated": false
+    },
+    "env-toMatch": {
+      "href": "http://localhost:8082/actuator/env/{toMatch}",
+      "templated": true
+    },
+    "loggers": {
+      "href": "http://localhost:8082/actuator/loggers",
+      "templated": false
+    },
+    "loggers-name": {
+      "href": "http://localhost:8082/actuator/loggers/{name}",
+      "templated": true
+    },
+    "heapdump": {
+      "href": "http://localhost:8082/actuator/heapdump",
+      "templated": false
+    },
+    "threaddump": {
+      "href": "http://localhost:8082/actuator/threaddump",
+      "templated": false
+    },
+    "metrics-requiredMetricName": {
+      "href": "http://localhost:8082/actuator/metrics/{requiredMetricName}",
+      "templated": true
+    },
+    "metrics": {
+      "href": "http://localhost:8082/actuator/metrics",
+      "templated": false
+    },
+    "scheduledtasks": {
+      "href": "http://localhost:8082/actuator/scheduledtasks",
+      "templated": false
+    },
+    "mappings": {
+      "href": "http://localhost:8082/actuator/mappings",
+      "templated": false
+    }
+  }
+}
+
+
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/mappings -s | jq
+{
+  "contexts": {
+    "application": {
+      "mappings": {
+        "dispatcherServlets": {
+          "dispatcherServlet": [
+            {
+              "handler": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)",
+              "predicate": "{ [/error]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController",
+                  "name": "error",
+                  "descriptor": "(Ljavax/servlet/http/HttpServletRequest;)Lorg/springframework/http/ResponseEntity;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [],
+                  "params": [],
+                  "patterns": [
+                    "/error"
+                  ],
+                  "produces": []
+                }
+              }
+            },
+            {
+              "handler": "springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)",
+              "predicate": "{GET [/v2/api-docs], produces [application/json || application/hal+json]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "springfox.documentation.swagger2.web.Swagger2ControllerWebMvc",
+                  "name": "getDocumentation",
+                  "descriptor": "(Ljava/lang/String;Ljavax/servlet/http/HttpServletRequest;)Lorg/springframework/http/ResponseEntity;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [
+                    "GET"
+                  ],
+                  "params": [],
+                  "patterns": [
+                    "/v2/api-docs"
+                  ],
+                  "produces": [
+                    {
+                      "mediaType": "application/json",
+                      "negated": false
+                    },
+                    {
+                      "mediaType": "application/hal+json",
+                      "negated": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "handler": "springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()",
+              "predicate": "{GET [/swagger-resources/configuration/security], produces [application/json]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "springfox.documentation.swagger.web.ApiResourceController",
+                  "name": "securityConfiguration",
+                  "descriptor": "()Lorg/springframework/http/ResponseEntity;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [
+                    "GET"
+                  ],
+                  "params": [],
+                  "patterns": [
+                    "/swagger-resources/configuration/security"
+                  ],
+                  "produces": [
+                    {
+                      "mediaType": "application/json",
+                      "negated": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "handler": "springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()",
+              "predicate": "{GET [/swagger-resources/configuration/ui], produces [application/json]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "springfox.documentation.swagger.web.ApiResourceController",
+                  "name": "uiConfiguration",
+                  "descriptor": "()Lorg/springframework/http/ResponseEntity;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [
+                    "GET"
+                  ],
+                  "params": [],
+                  "patterns": [
+                    "/swagger-resources/configuration/ui"
+                  ],
+                  "produces": [
+                    {
+                      "mediaType": "application/json",
+                      "negated": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "handler": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)",
+              "predicate": "{ [/error], produces [text/html]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController",
+                  "name": "errorHtml",
+                  "descriptor": "(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [],
+                  "params": [],
+                  "patterns": [
+                    "/error"
+                  ],
+                  "produces": [
+                    {
+                      "mediaType": "text/html",
+                      "negated": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "handler": "springfox.documentation.swagger.web.ApiResourceController#swaggerResources()",
+              "predicate": "{GET [/swagger-resources], produces [application/json]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "springfox.documentation.swagger.web.ApiResourceController",
+                  "name": "swaggerResources",
+                  "descriptor": "()Lorg/springframework/http/ResponseEntity;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [
+                    "GET"
+                  ],
+                  "params": [],
+                  "patterns": [
+                    "/swagger-resources"
+                  ],
+                  "produces": [
+                    {
+                      "mediaType": "application/json",
+                      "negated": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "handler": "ashburncode.sbapp2717g.SyspropsController#sysprops()",
+              "predicate": "{GET [/sysprops]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "ashburncode.sbapp2717g.SyspropsController",
+                  "name": "sysprops",
+                  "descriptor": "()Ljava/lang/String;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [
+                    "GET"
+                  ],
+                  "params": [],
+                  "patterns": [
+                    "/sysprops"
+                  ],
+                  "produces": []
+                }
+              }
+            },
+            {
+              "handler": "springfox.documentation.oas.web.OpenApiControllerWebMvc#getDocumentation(String, HttpServletRequest)",
+              "predicate": "{GET [/v3/api-docs], produces [application/json || application/hal+json]}",
+              "details": {
+                "handlerMethod": {
+                  "className": "springfox.documentation.oas.web.OpenApiControllerWebMvc",
+                  "name": "getDocumentation",
+                  "descriptor": "(Ljava/lang/String;Ljavax/servlet/http/HttpServletRequest;)Lorg/springframework/http/ResponseEntity;"
+                },
+                "requestMappingConditions": {
+                  "consumes": [],
+                  "headers": [],
+                  "methods": [
+                    "GET"
+                  ],
+                  "params": [],
+                  "patterns": [
+                    "/v3/api-docs"
+                  ],
+                  "produces": [
+                    {
+                      "mediaType": "application/json",
+                      "negated": false
+                    },
+                    {
+                      "mediaType": "application/hal+json",
+                      "negated": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "handler": "ParameterizableViewController [view=\"forward:/swagger-ui/index.html\"]",
+              "predicate": "/swagger-ui/",
+              "details": null
+            },
+            {
+              "handler": "ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]",
+              "predicate": "/webjars/**",
+              "details": null
+            },
+            {
+              "handler": "ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]",
+              "predicate": "/**",
+              "details": null
+            },
+            {
+              "handler": "ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]",
+              "predicate": "/swagger-ui/**",
+              "details": null
+            }
+          ]
+        },
+        "servletFilters": [
+          {
+            "urlPatternMappings": [
+              "/*"
+            ],
+            "servletNameMappings": [],
+            "name": "webMvcMetricsFilter",
+            "className": "org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter"
+          },
+          {
+            "urlPatternMappings": [
+              "/*"
+            ],
+            "servletNameMappings": [],
+            "name": "requestContextFilter",
+            "className": "org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter"
+          },
+          {
+            "urlPatternMappings": [
+              "/*"
+            ],
+            "servletNameMappings": [],
+            "name": "Tomcat WebSocket (JSR356) Filter",
+            "className": "org.apache.tomcat.websocket.server.WsFilter"
+          },
+          {
+            "urlPatternMappings": [
+              "/*"
+            ],
+            "servletNameMappings": [],
+            "name": "characterEncodingFilter",
+            "className": "org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter"
+          },
+          {
+            "urlPatternMappings": [
+              "/*"
+            ],
+            "servletNameMappings": [],
+            "name": "formContentFilter",
+            "className": "org.springframework.boot.web.servlet.filter.OrderedFormContentFilter"
+          }
+        ],
+        "servlets": [
+          {
+            "mappings": [
+              "/"
+            ],
+            "name": "dispatcherServlet",
+            "className": "org.springframework.web.servlet.DispatcherServlet"
+          }
+        ]
+      },
+      "parentId": null
+    }
+  }
+}
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+
+https://stackoverflow.com/questions/74649600/spring-actuator-conflicting-with-springfox-documentationpluginsbootstrapper-e
+
+Spring Actuator conflicting with Springfox: 'documentationPluginsBootstrapper' exception
+
+I have upgraded my Spring Boot project to 2.7.4 & Springfox to 3.0.0. But this resulted in the exception,
+
+    Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+
+After doing some research, I added the following config in the application.properties, but the issue was still not fixed.
+
+spring.mvc.pathmatch.matching-strategy=ant-path-matcher
+
+Then I found out that, Spring Actuator is causing this issue, and setting the following property fixed the issue.
+
+management.server.port=8082
+
+I don't want to define a custom management port, instead I want it to take the default server port.
+
+Why is Actuator conflicting with Springfox? How do I fix this issue?
+
+Springfox has not been maintained for quite some time now. Getting it to work with Spring Boot 2.7 is possible by disabling more recent Spring Boot features but probably not worth your time. It's unlikely to work at all with Spring Boot 3.
+
+You can use Springdoc instead. The migration is usually not much work: https://springdoc.org/migrating-from-springfox.html
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+
+https://springdoc.org/migrating-from-springfox.html
+
+Migrating from SpringFox
+
+  Remove springfox and swagger 2 dependencies. Add springdoc-openapi-starter-webmvc-ui dependency instead.
+
+   <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>2.8.4</version>
+   </dependency>
+
+    Replace swagger 2 annotations with swagger 3 annotations (it is already included with springdoc-openapi-starter-webmvc-ui dependency). Package for swagger 3 annotations is io.swagger.v3.oas.annotations.
+
+        @Api → @Tag
+        @ApiIgnore → @Parameter(hidden = true) or @Operation(hidden = true) or @Hidden
+        @ApiImplicitParam → @Parameter
+        @ApiImplicitParams → @Parameters
+        @ApiModel → @Schema
+        @ApiModelProperty(allowEmptyValue = true) → @Schema(nullable = true)
+        @ApiModelProperty → @Schema
+        @ApiOperation(value = "foo", notes = "bar") → @Operation(summary = "foo", description = "bar")
+        @ApiParam → @Parameter
+        @ApiResponse(code = 404, message = "foo") → @ApiResponse(responseCode = "404", description = "foo")
+
+    This step is optional: Only if you have multiple Docket beans replace them with GroupedOpenApi beans.
+
+Before:
+
+  @Bean
+  public Docket publicApi() {
+      return new Docket(DocumentationType.SWAGGER_2)
+              .select()
+              .apis(RequestHandlerSelectors.basePackage("org.github.springshop.web.public"))
+              .paths(PathSelectors.regex("/public.*"))
+              .build()
+              .groupName("springshop-public")
+              .apiInfo(apiInfo());
+  }
+
+  @Bean
+  public Docket adminApi() {
+      return new Docket(DocumentationType.SWAGGER_2)
+              .select()
+              .apis(RequestHandlerSelectors.basePackage("org.github.springshop.web.admin"))
+              .paths(PathSelectors.regex("/admin.*"))
+              .apis(RequestHandlerSelectors.withMethodAnnotation(Admin.class))
+              .build()
+              .groupName("springshop-admin")
+              .apiInfo(apiInfo());
+  }
+
+Now:
+
+  @Bean
+  public GroupedOpenApi publicApi() {
+      return GroupedOpenApi.builder()
+              .group("springshop-public")
+              .pathsToMatch("/public/**")
+              .build();
+  }
+  @Bean
+  public GroupedOpenApi adminApi() {
+      return GroupedOpenApi.builder()
+              .group("springshop-admin")
+              .pathsToMatch("/admin/**")
+              .addOpenApiMethodFilter(method -> method.isAnnotationPresent(Admin.class))
+              .build();
+  }
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+
+https://www.google.com/search?client=firefox-b-1-d&q=actuator+java+info
+management.endpoints.web.exposure.include=info
+
+https://www.baeldung.com/spring-boot-info-actuator-custom
+https://stackoverflow.com/questions/77360825/actuator-info-endpoint-displays-number-instead-of-readable-build-time
+
+https://www.geeksforgeeks.org/spring-boot-actuator/
+management.endpoints.web.exposure.include=info
+management.endpoints.web.exposure.include=metrics,info
+management.endpoints.web.exposure.include=*
+
+C:\temp9\orw2717>.\gradlew bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-01 11:07:33.981  INFO 44912 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 44912 (C:\temp9\orw2717\build\classes\java\main started by DavidHolberton in C:\temp9\orw2717)
+2025-02-01 11:07:33.983  INFO 44912 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-01 11:07:34.898  INFO 44912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-01 11:07:34.904  INFO 44912 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01 11:07:34.904  INFO 44912 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-01 11:07:34.961  INFO 44912 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01 11:07:34.961  INFO 44912 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 952 ms
+2025-02-01 11:07:35.398  INFO 44912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-01 11:07:35.433  INFO 44912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-01 11:07:35.433  INFO 44912 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01 11:07:35.433  INFO 44912 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-01 11:07:35.441  INFO 44912 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-01 11:07:35.441  INFO 44912 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 41 ms
+2025-02-01 11:07:35.447  INFO 44912 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-01 11:07:35.469  INFO 44912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-01 11:07:35.628  INFO 44912 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.866 seconds (JVM running for 2.103)
+<==========---> 80% EXECUTING [36s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+openrewrite
+
+https://docs.openrewrite.org/
+
+https://docs.openrewrite.org/reference/supported-languages
+
+  Programming languages
+    Java
+    Kotlin
+    Groovy
+
+  Many different frameworks are supported such as (but not limited to):
+    Spring
+    Quarkus
+    Micronaut
+    Jakarta
+    
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://springdoc.org/#Introduction
+
+https://springdoc.org/#migrating-from-springdoc-v1
+
+https://docs.openrewrite.org/recipes/java/springdoc
+
+https://docs.openrewrite.org/recipes/java/springdoc/upgradespringdoc_2
+
+https://docs.openrewrite.org/recipes/java/springdoc/swaggertospringdoc
+
+https://docs.openrewrite.org/recipes/java/springdoc/springfoxtospringdoc
+
+Migrate from SpringFox Swagger to SpringDoc and OpenAPI
+
+  rewrite {
+    activeRecipe("org.openrewrite.java.springdoc.SpringFoxToSpringDoc")
+    setExportDatatables(true)
+  }
+
+https://docs.openrewrite.org/recipes/java/springdoc/replacespringfoxdependencies
+
+  Remove a Gradle or Maven dependency
+    groupId: io.springfox
+    artifactId: *
+  Add Gradle or Maven dependency
+    groupId: org.springdoc
+    artifactId: springdoc-openapi-ui
+    version: 1.5.x
+
+Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.springdoc.ReplaceSpringFoxDependencies")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-spring:6.0.2")
+}
+
+Run gradle rewriteRun to run the recipe.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/org.openrewrite.rewrite
+https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin
+https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin/7.0.4   Jan 25, 2025
+  org.openrewrite.rewrite.gradle.plugin-7.0.4.pom
+  org.openrewrite.rewrite.gradle.plugin-7.0.4.pom.md5
+  org.openrewrite.rewrite.gradle.plugin-7.0.4.pom.sha1
+
+// https://mvnrepository.com/artifact/org.openrewrite.rewrite/org.openrewrite.rewrite.gradle.plugin
+implementation 'org.openrewrite.rewrite:org.openrewrite.rewrite.gradle.plugin:7.0.4'
+
+Note: this artifact is located at Gradle Plugins repository (https://plugins.gradle.org/m2/)
+
+https://plugins.gradle.org/m2/
+https://plugins.gradle.org/m2/org/
+https://plugins.gradle.org/m2/org/openrewrite/
+https://plugins.gradle.org/m2/org/openrewrite/plugin/
+https://plugins.gradle.org/m2/org/openrewrite/plugin/7.0.4/
+  plugin-7.0.4-javadoc.jar
+  plugin-7.0.4-javadoc.jar.md5
+  plugin-7.0.4-javadoc.jar.sha1
+  plugin-7.0.4-sources.jar
+  plugin-7.0.4-sources.jar.md5
+  plugin-7.0.4-sources.jar.sha1
+  plugin-7.0.4.jar
+  plugin-7.0.4.jar.md5
+  plugin-7.0.4.jar.sha1
+  plugin-7.0.4.module
+  plugin-7.0.4.module.md5
+  plugin-7.0.4.module.sha1
+  plugin-7.0.4.pom
+  plugin-7.0.4.pom.md5
+  plugin-7.0.4.pom.sha1
+
+https://plugins.gradle.org/m2/org/openrewrite/plugin/7.0.5/
+  plugin-7.0.5-javadoc.jar
+  plugin-7.0.5-javadoc.jar.md5
+  plugin-7.0.5-javadoc.jar.sha1
+  plugin-7.0.5-sources.jar
+  plugin-7.0.5-sources.jar.md5
+  plugin-7.0.5-sources.jar.sha1
+  plugin-7.0.5.jar
+  plugin-7.0.5.jar.md5
+  plugin-7.0.5.jar.sha1
+  plugin-7.0.5.module
+  plugin-7.0.5.module.md5
+  plugin-7.0.5.module.sha1
+  plugin-7.0.5.pom
+  plugin-7.0.5.pom.md5
+  plugin-7.0.5.pom.sha1
+
+https://plugins.gradle.org/m2/org/openrewrite/rewrite/
+https://plugins.gradle.org/m2/org/openrewrite/rewrite/org.openrewrite.rewrite.gradle.plugin/
+https://plugins.gradle.org/m2/org/openrewrite/rewrite/org.openrewrite.rewrite.gradle.plugin/7.0.4/
+  org.openrewrite.rewrite.gradle.plugin-7.0.4.pom
+  org.openrewrite.rewrite.gradle.plugin-7.0.4.pom.md5
+  org.openrewrite.rewrite.gradle.plugin-7.0.4.pom.sha1
+
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring/6.0.2   Jan 24, 2025
+// https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-spring
+runtimeOnly 'org.openrewrite.recipe:rewrite-spring:6.0.2'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_1
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_2
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_3
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+
+Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-spring:6.0.2")
+}
+
+    Run gradle rewriteRun to run the recipe.
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/io.springfox
+
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger2/3.0.0   Jul 14, 2020
+// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+implementation 'io.springfox:springfox-swagger2:3.0.0'
+
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui/3.0.0   Jul 14, 2020
+// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter/3.0.0   Jul 14, 2020
+// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://central.sonatype.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+https://stackoverflow.com/questions/74614369/how-to-run-swagger-3-on-spring-boot-3
+https://www.javainuse.com/boot3/sec/9
+
+https://mvnrepository.com/artifact/org.springdoc
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui/1.8.0   Mar 12, 2024
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
+implementation 'org.springdoc:springdoc-openapi-ui:1.8.0'
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui/2.8.4   Jan 26, 2025
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.4'
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-webmvc-core
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-webmvc-core/1.8.0   Mar 12, 2024
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-webmvc-core
+implementation 'org.springdoc:springdoc-openapi-webmvc-core:1.8.0'
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-common
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-common/1.8.0   Mar 12, 2024
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-common
+implementation 'org.springdoc:springdoc-openapi-common:1.8.0'
+
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-api
+https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-api/2.8.4   Jan 26, 2025
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-api
+testImplementation 'org.springdoc:springdoc-openapi-starter-webmvc-api:2.8.4'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/migrate/javax/addjaxbdependencies
+https://docs.openrewrite.org/recipes/java/migrate/jakarta/javaxxmlbindmigrationtojakartaxmlbind
+https://docs.openrewrite.org/recipes/io/quarkus/updates/core/quarkus30/javaxxmlbindmigrationtojakartaxmlbind
+
+Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("io.quarkus.updates.core.quarkus30.JavaxXmlBindMigrationToJakartaXmlBind")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-third-party:0.15.0")
+}
+
+    Run gradle rewriteRun to run the recipe.
+
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-third-party
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-third-party/0.15.0   Jan 24, 2025
+// https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-third-party
+implementation 'org.openrewrite.recipe:rewrite-third-party:0.15.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/migrate/jakarta/javaxxmlbindmigrationtojakartaxmlbind
+
+Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-migrate-java:3.1.0")
+}
+
+Run gradle rewriteRun to run the recipe.
+
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-migrate-java
+https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-migrate-java/3.1.0   Jan 24, 2025
+// https://mvnrepository.com/artifact/org.openrewrite.recipe/rewrite-migrate-java
+runtimeOnly 'org.openrewrite.recipe:rewrite-migrate-java:3.1.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+spring boot actuator info java
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+https://reflectoring.io/spring-boot-info-endpoint/
+
+ID      Bean Name                   Usage
+build   BuildInfoContributor        Exposes build information.
+env     EnvironmentInfoContributor  Exposes any property from the Environment whose name starts with info.
+git     GitInfoContributor          Exposes Git related information.
+java    JavaInfoContributor         Exposes Java runtime information.
+
+management.info.java.enabled=true
+management.info.env.enabled=true
+
+... add to build.gradle ...
+springBoot {
+  buildInfo()
+}
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/env/JDK8 -s | jq
+{
+  "property": {
+    "source": "systemEnvironment",
+    "value": "C:\\LocalApps\\jdk8u422-b05"
+  },
+  "activeProfiles": [],
+  "propertySources": [
+    {
+      "name": "server.ports"
+    },
+    {
+      "name": "servletConfigInitParams"
+    },
+    {
+      "name": "servletContextInitParams"
+    },
+    {
+      "name": "systemProperties"
+    },
+    {
+      "name": "systemEnvironment",
+      "property": {
+        "value": "C:\\LocalApps\\jdk8u422-b05",
+        "origin": "System Environment Property \"JDK8\""
+      }
+    },
+    {
+      "name": "random"
+    },
+    {
+      "name": "Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'"
+    }
+  ]
+}
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/health
+{"status":"UP"}
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/info
+{"build":{"version":"0.0.1-SNAPSHOT","artifact":"sbapp2717g","name":"sbapp2717g","group":"ashburncode","time":"2025-02-02T18:49:17.980Z"},"java":{"version":"1.8.0_422","vendor":{"name":"Temurin","version":null},"runtime":{"name":"OpenJDK Runtime Environment","version":"1.8.0_422-b05"},"jvm":{"name":"OpenJDK 64-Bit Server VM","vendor":"Temurin","version":"25.422-b05"}}}
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/info -s | jq
+{
+  "build": {
+    "version": "0.0.1-SNAPSHOT",
+    "artifact": "sbapp2717g",
+    "name": "sbapp2717g",
+    "group": "ashburncode",
+    "time": "2025-02-02T18:49:17.980Z"
+  },
+  "java": {
+    "version": "1.8.0_422",
+    "vendor": {
+      "name": "Temurin",
+      "version": null
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "1.8.0_422-b05"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Temurin",
+      "version": "25.422-b05"
+    }
+  }
+}
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.1193194663939507898
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.3252468019086859927
+ java.class.version = 52.0
+ java.home = C:\LocalApps\jdk8u422-b05\jre
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 1.8.0_422-b05
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 1.8
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = null
+ java.vendor = Temurin
+ java.version.date = null
+ java.version = 1.8.0_422
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 1.8
+ java.vm.vendor = Temurin
+ java.vm.version = 25.422-b05
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp9\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>
+
+https://javaalmanac.io/bytecode/versions/
+
+Class File Versions
+
+Each JDK Release comes with its class file version. Class files are backward compatible. But class files compiled for newer JDK releases cannot be executed and will result in an UnsupportedClassVersionError.
+
+The following table lists class file versions for each JDK release. Follow the linked JDK information to find download options for a suitable JDK.
+JDK Version      Class File Version
+Java 1.0         45.0
+Java 1.1         45.3
+Java 1.2         46.0
+Java 1.3         47.0
+Java 1.4         48.0
+Java 5           49.0
+Java 6           50.0
+Java 7           51.0
+Java 8           52.0
+Java 9           53.0
+Java 10          54.0
+Java 11          55.0
+Java 12          56.0
+Java 13          57.0
+Java 14          58.0
+Java 15          59.0
+Java 16          60.0
+Java 17          61.0
+Java 18          62.0
+Java 19          63.0
+Java 20          64.0
+Java 21          65.0
+Java 22          66.0
+Java 23          67.0
+Java 24          68.0
+Java 25          69.0
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+

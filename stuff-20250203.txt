@@ -1,0 +1,683 @@
+6:24 AM 2/3/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250203.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\temp7\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-03 06:36:22.711  INFO 45272 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 45272 (C:\temp7\orw2717\build\classes\java\main started by DavidHolberton in C:\temp7\orw2717)
+2025-02-03 06:36:22.713  INFO 45272 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-03 06:36:23.752  INFO 45272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-03 06:36:23.758  INFO 45272 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03 06:36:23.758  INFO 45272 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-03 06:36:23.820  INFO 45272 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03 06:36:23.821  INFO 45272 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
+2025-02-03 06:36:24.296  INFO 45272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-03 06:36:24.335  INFO 45272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-03 06:36:24.336  INFO 45272 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03 06:36:24.336  INFO 45272 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-03 06:36:24.344  INFO 45272 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-03 06:36:24.344  INFO 45272 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 45 ms
+2025-02-03 06:36:24.351  INFO 45272 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-03 06:36:24.375  INFO 45272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-03 06:36:24.552  INFO 45272 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 2.111 seconds (JVM running for 2.393)
+<===========--> 85% EXECUTING [19s]
+> :bootRun
+
+http://localhost:8080/sysprops      ... works
+http://localhost:8080/v2/api-docs   ... works
+http://localhost:8080/swagger-ui/   ... works
+
+java {
+  toolchain {
+    // languageVersion = JavaLanguageVersion.of(8)
+	languageVersion = JavaLanguageVersion.of(17)
+  }
+}
+
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-03 06:45:00.599  INFO 8760 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 on dphxps17 with PID 8760 (C:\temp7\orw2717\build\classes\java\main started by DavidHolberton in C:\temp7\orw2717)
+2025-02-03 06:45:00.602  INFO 8760 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-03 06:45:01.465  INFO 8760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-03 06:45:01.472  INFO 8760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03 06:45:01.473  INFO 8760 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-03 06:45:01.546  INFO 8760 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03 06:45:01.546  INFO 8760 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2025-02-03 06:45:02.041  INFO 8760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-03 06:45:02.084  INFO 8760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-03 06:45:02.084  INFO 8760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03 06:45:02.084  INFO 8760 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-03 06:45:02.098  INFO 8760 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-03 06:45:02.098  INFO 8760 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 54 ms
+2025-02-03 06:45:02.104  INFO 8760 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-03 06:45:02.125  INFO 8760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-03 06:45:02.242  INFO 8760 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.909 seconds (JVM running for 2.17)
+<===========--> 85% EXECUTING [17s]
+> :bootRun
+
+Response body
+
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.1177246387524494634
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.2247060677146565428
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp7\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+
+http://localhost:8080/sysprops      ... works
+http://localhost:8080/v2/api-docs   ... works
+http://localhost:8080/swagger-ui/   ... works
+
+plugins {
+  id 'java'
+  // id 'org.springframework.boot' version '2.7.17'
+  // id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+  id 'org.springframework.boot' version '3.4.2'
+  id 'io.spring.dependency-management' version '1.1.7'
+}
+
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'sbapp2717g'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:3.4.2.
+     Required by:
+         project : > org.springframework.boot:org.springframework.boot.gradle.plugin:3.4.2
+      > No matching variant of org.springframework.boot:spring-boot-gradle-plugin:3.4.2 was found. The consumer was configured to find a library for use during runtime, compatible with Java 8, packaged as a jar, and its dependencies declared externally, as well as attribute 'org.gradle.plugin.api-version' with value '8.4' but:
+          - Variant 'apiElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.4.2 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component for use during compile-time, compatible with Java 17 and the consumer needed a component for use during runtime, compatible with Java 8
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'javadocElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.4.2 declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 8)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'runtimeElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.4.2 declares a library for use during runtime, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component, compatible with Java 17 and the consumer needed a component, compatible with Java 8
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'sourcesElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.4.2 declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 8)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 897ms
+
+C:\temp7\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+
+https://docs.openrewrite.org/recipes/java/springdoc/upgradespringdoc_2
+
+
+1. Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-spring:6.0.2")
+}
+
+2. Run gradle rewriteRun to run the recip
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>.\gradlew rewriteRun
+init.gradle
+
+> Task :rewriteRun
+Validating active recipes
+Scanning sources in project :
+Using active styles []
+All sources parsed, running active recipes: org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+Changes have been made to build.gradle by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.ReplaceSpringFoxDependencies
+                    org.openrewrite.java.dependencies.RemoveDependency: {groupId=io.springfox, artifactId=*}
+                    org.openrewrite.java.dependencies.AddDependency: {groupId=org.springdoc, artifactId=springdoc-openapi-ui, version=1.5.x}
+        org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=2.7.x}
+        org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=org.springdoc, artifactId=*, newVersion=1.8.x}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+                        org.openrewrite.gradle.UpdateJavaCompatibility: {version=11, allowDowngrade=false}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+                    org.openrewrite.gradle.UpdateJavaCompatibility: {version=17, allowDowngrade=false}
+            org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=3.0.x}
+                org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=io.spring.dependency-management, newVersion=1.1.x}
+                    org.openrewrite.java.springdoc.UpgradeSpringDoc_2
+                        org.openrewrite.java.dependencies.ChangeDependency: {oldGroupId=org.springdoc, oldArtifactId=springdoc-openapi-ui, newArtifactId=springdoc-openapi-starter-webmvc-ui, newVersion=2.1.x}
+Please review and commit the results.
+Estimate time saved: 5m
+
+BUILD SUCCESSFUL in 30s
+5 actionable tasks: 4 executed, 1 up-to-date
+C:\temp7\orw2717>
+
+
+C:\temp7\orw2717\build\reports\rewrite\datatables>dir /o:gd /s
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717\build\reports\rewrite\datatables
+
+02/03/2025  07:10 AM    <DIR>          ..
+02/03/2025  07:10 AM    <DIR>          .
+02/03/2025  07:10 AM    <DIR>          2025-02-03_07-10-28-408
+               0 File(s)              0 bytes
+
+ Directory of C:\temp7\orw2717\build\reports\rewrite\datatables\2025-02-03_07-10-28-408
+
+02/03/2025  07:10 AM    <DIR>          ..
+02/03/2025  07:10 AM    <DIR>          .
+02/03/2025  07:10 AM            10,894 org.openrewrite.table.SourcesFileResults.csv
+02/03/2025  07:10 AM            50,073 org.openrewrite.table.RecipeRunStats.csv
+02/03/2025  07:10 AM             4,109 org.openrewrite.maven.table.DependenciesInUse.csv
+               3 File(s)         65,076 bytes
+
+     Total Files Listed:
+               3 File(s)         65,076 bytes
+               5 Dir(s)  385,272,090,624 bytes free
+
+C:\temp7\orw2717\build\reports\rewrite\datatables>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\temp7\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>dir src\main\java\ashburncode\sbapp2717g
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g
+
+02/03/2025  06:30 AM    <DIR>          .
+02/03/2025  06:30 AM    <DIR>          ..
+11/17/2023  08:18 AM               339 Sbapp2717grajarj17Application.java
+01/27/2025  08:42 AM             2,691 SpringFoxConfig.java
+01/27/2025  08:07 AM             4,181 SyspropsController.java
+               3 File(s)          7,211 bytes
+               2 Dir(s)  385,286,316,032 bytes free
+
+C:\temp7\orw2717>del src\main\java\ashburncode\sbapp2717g\SpringFoxConfig.java
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.13)
+
+2025-02-03T07:34:08.801-05:00  INFO 22200 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 with PID 22200 (C:\temp7\orw2717\build\classes\java\main started by DavidHolberton in C:\temp7\orw2717)
+2025-02-03T07:34:08.806-05:00  INFO 22200 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T07:34:09.660-05:00  INFO 22200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-03T07:34:09.668-05:00  INFO 22200 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T07:34:09.669-05:00  INFO 22200 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-03T07:34:09.740-05:00  INFO 22200 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T07:34:09.740-05:00  INFO 22200 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2025-02-03T07:34:10.203-05:00  INFO 22200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-03T07:34:10.253-05:00  INFO 22200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-03T07:34:10.253-05:00  INFO 22200 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T07:34:10.254-05:00  INFO 22200 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-03T07:34:10.273-05:00  INFO 22200 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-03T07:34:10.273-05:00  INFO 22200 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 68 ms
+2025-02-03T07:34:10.287-05:00  INFO 22200 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-03T07:34:10.313-05:00  INFO 22200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-03T07:34:10.322-05:00  INFO 22200 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.773 seconds (process running for 2.059)
+<===========--> 85% EXECUTING [25s]
+> :bootRun
+
+http://localhost:8080/sysprops          ... works
+http://localhost:8080/v2/api-docs       ... fails
+http://localhost:8080/swagger-ui/       ... fails
+http://localhost:8082/actuator          ... works
+http://localhost:8082/actuator/health   ... works
+http://localhost:8082/actuator/info     ... works
+
+build	
+artifact	"sbapp2717g"
+name	"sbapp2717g"
+time	"2025-02-03T12:34:05.686Z"
+version	"0.0.1-SNAPSHOT"
+group	"ashburncode"
+java	
+version	"17.0.13"
+vendor	
+name	"Eclipse Adoptium"
+version	"Temurin-17.0.13+11"
+runtime	
+name	"OpenJDK Runtime Environment"
+version	"17.0.13+11"
+jvm	
+name	"OpenJDK 64-Bit Server VM"
+vendor	"Eclipse Adoptium"
+version	"17.0.13+11"
+
+http://localhost:8080/v3/api-docs       ... works
+	
+openapi	"3.0.1"
+info	
+title	"OpenAPI definition"
+version	"v0"
+servers	
+0	
+url	"http://localhost:8080"
+description	"Generated server url"
+paths	
+/sysprops	
+get	
+tags	
+0	"sysprops-controller"
+operationId	"sysprops"
+responses	
+200	
+description	"OK"
+content	
+*/*	
+schema	{…}
+components	{}
+
+... all of these URLs work ...
+
+http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/sysprops-controller/sysprops
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717\build.gradle-save2
+
+plugins {
+  id 'java'
+  id 'org.springframework.boot' version '2.7.17'
+  id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+  id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+    setExportDatatables(true)
+}
+
+group = 'ashburncode'
+version = '0.0.1-SNAPSHOT'
+
+// java {
+// 	sourceCompatibility = '8'
+// }
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(8)
+  }
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// runtimeOnly 'com.mysql:mysql-connector-j'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
+  rewrite("org.openrewrite.recipe:rewrite-spring:6.0.2")
+}
+
+tasks.named('bootBuildImage') {
+	builder = 'paketobuildpacks/builder-jammy-base:latest'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+springBoot {
+  buildInfo()
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717\build.gradle-save3
+
+plugins {
+  id 'java'
+  id 'org.springframework.boot' version '3.0.13'
+  id 'io.spring.dependency-management' version '1.1.7'
+  id("org.openrewrite.rewrite") version("7.0.4")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+    setExportDatatables(true)
+}
+
+group = 'ashburncode'
+version = '0.0.1-SNAPSHOT'
+
+// java {
+// 	sourceCompatibility = '8'
+// }
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(17)
+  }
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0"
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// runtimeOnly 'com.mysql:mysql-connector-j'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+  rewrite("org.openrewrite.recipe:rewrite-spring:6.0.2")
+}
+
+tasks.named('bootBuildImage') {
+	builder = 'paketobuildpacks/builder-jammy-base:latest'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+springBoot {
+  buildInfo()
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+google: java 17 build.gradle jaxb
+
+To use JAXB with Java 17 and Gradle, you can follow these steps:
+1. Add the JAXB dependencies
+Since JAXB is not included in Java SE since Java 9, you need to add it explicitly as a dependency:
+Code
+
+dependencies {
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.0'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.2'
+}
+
+2. Apply the JAXB plugin (optional)
+You can use a Gradle plugin to simplify the process of generating JAXB classes from XSD schemas. Here's an example using the com.intershop.gradle.jaxb plugin:
+Code
+
+plugins {
+    id 'java'
+    id 'com.intershop.gradle.jaxb' version '7.0.1'
+}
+
+jaxb {
+    xjc {
+        schema = 'src/main/resources/schema.xsd'
+        outputDir = file('src/main/java')
+    }
+}
+
+3. Configure the Java toolchain (for Java 17)
+Ensure your project is using Java 17 by configuring the Java toolchain:
+Code
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+Example build.gradle:
+Code
+
+plugins {
+    id 'java'
+    id 'com.intershop.gradle.jaxb' version '7.0.1'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.0'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.2'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+jaxb {
+    xjc {
+        schema = 'src/main/resources/schema.xsd'
+        outputDir = file('src/main/java')
+    }
+}
+
+Generative AI is experimental.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://mvnrepository.com/artifact/jakarta.xml.bind
+
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/4.0.2   Mar 07, 2024
+// https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.2'
+
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime/4.0.5   Mar 07, 2024
+// https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.5'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Documents\dir-stuff>dir /o:gd
+
+01/20/2025  10:14 AM             8,169 stuff-20250120.txt
+01/23/2025  09:09 AM            12,318 stuff-20250123.txt
+01/26/2025  12:51 PM             1,205 stuff-20250126.txt
+01/31/2025  09:39 AM            22,448 stuff-20250127.txt
+02/02/2025  01:32 PM            11,213 stuff-20240527.txt  <-- oops
+02/02/2025  02:04 PM            53,630 stuff-20250131.txt
+02/03/2025  08:16 AM            28,610 stuff-20250203.txt
+             115 File(s)      2,314,945 bytes
+               7 Dir(s)  385,283,088,384 bytes free
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+C:\Users\DavidHolberton\Documents\dir-stuff>dir /o:gd ..\..\repos\miscdphxps17w11
+
+12/11/2024  08:32 AM            27,127 stuff-20241211.txt
+12/12/2024  07:23 PM             2,549 stuff-20241212.txt
+12/13/2024  08:23 AM            53,323 downloads-xps9710w11-20241213.txt
+12/20/2024  09:00 AM             6,090 stuff-20241220.txt
+12/26/2024  09:41 AM             4,704 stuff-20241221.txt
+12/26/2024  11:38 AM           145,685 stuff-20241226.txt
+01/01/2025  07:59 AM             5,827 stuff-20250101.txt
+01/16/2025  01:49 PM            26,203 stuff-20250116.txt
+01/20/2025  10:14 AM             8,169 stuff-20250120.txt
+01/23/2025  09:09 AM            12,318 stuff-20250123.txt
+             109 File(s)      6,109,962 bytes
+               2 Dir(s)  385,284,730,880 bytes free
+
+dir  ..\..\repos\miscdphxps17w11\stuff-20240527.txt
+copy ..\..\repos\miscdphxps17w11\stuff-20240527.txt
+
+copy stuff-20250120.txt ..\..\repos\miscdphxps17w11
+copy stuff-20250123.txt ..\..\repos\miscdphxps17w11
+copy stuff-20250126.txt ..\..\repos\miscdphxps17w11
+copy stuff-20250127.txt ..\..\repos\miscdphxps17w11
+copy stuff-20250131.txt ..\..\repos\miscdphxps17w11
+copy stuff-20250203.txt ..\..\repos\miscdphxps17w11
+
+
