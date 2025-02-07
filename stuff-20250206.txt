@@ -1,0 +1,1020 @@
+7:24 AM 2/6/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250206.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.opm.gov/
+https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/current-status/
+
+Status: Open With Option for Unscheduled Leave or Unscheduled Telework
+Washington, DC Area
+Applies to: Thursday, February 6, 2025
+
+https://jakarta.ee/specifications/xml-binding/2.3/apidocs/javax/xml/bind/annotation/package-summary
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\temp7\orw2717
+bash
+find . -type f -exec ls -la {} \; | grep -v git/ | grep -v gradle/
+
+davidho@dphxps17:/mnt/c/temp7/orw2717$
+davidho@dphxps17:/mnt/c/temp7/orw2717$ find . -type f -exec ls -la {} \; | grep -v git/ | grep -v gradle/
+-rwxrwxrwx 1 davidho davidho 444 Nov 17  2023 ./.gitignore
+-rwxrwxrwx 1 davidho davidho 122 Feb  5 11:00 ./.vscode/settings.json
+-rwxrwxrwx 1 davidho davidho 166 Feb  2 13:41 ./bin/main/application.properties
+-rwxrwxrwx 1 davidho davidho 1 Nov 17  2023 ./bin/main/application.properties-orig
+-rwxrwxrwx 1 davidho davidho 2929 Feb  5 11:17 ./bin/main/ashburncode/Book.class
+-rwxrwxrwx 1 davidho davidho 2651 Feb  5 13:34 ./bin/main/ashburncode/sbapp2717g/Book.class
+-rwxrwxrwx 1 davidho davidho 1361 Feb  5 13:35 ./bin/main/ashburncode/sbapp2717g/DemojaxbController.class
+-rwxrwxrwx 1 davidho davidho 757 Feb  5 11:00 ./bin/main/ashburncode/sbapp2717g/Sbapp2717grajarj17Application.class
+-rwxrwxrwx 1 davidho davidho 2531 Feb  5 11:00 ./bin/main/ashburncode/sbapp2717g/SyspropsController.class
+-rwxrwxrwx 1 davidho davidho 585 Feb  5 11:00 ./bin/test/ashburncode/sbapp2717g/Sbapp2717grajarj17ApplicationTests.class
+-rwxrwxrwx 1 davidho davidho 1314 Feb  5 13:35 ./build/classes/java/main/ashburncode/sbapp2717g/Book.class
+-rwxrwxrwx 1 davidho davidho 2739 Feb  5 13:35 ./build/classes/java/main/ashburncode/sbapp2717g/DemojaxbController.class
+-rwxrwxrwx 1 davidho davidho 787 Feb  5 13:35 ./build/classes/java/main/ashburncode/sbapp2717g/Sbapp2717grajarj17Application.class
+-rwxrwxrwx 1 davidho davidho 2429 Feb  5 13:35 ./build/classes/java/main/ashburncode/sbapp2717g/SyspropsController.class
+-rwxrwxrwx 1 davidho davidho 52 Feb  5 13:35 ./build/resolvedMainClassName
+-rwxrwxrwx 1 davidho davidho 166 Feb  5 13:35 ./build/resources/main/application.properties
+-rwxrwxrwx 1 davidho davidho 1 Feb  5 13:35 ./build/resources/main/application.properties-orig
+-rwxrwxrwx 1 davidho davidho 150 Feb  5 13:35 ./build/resources/main/META-INF/build-info.properties
+-rwxrwxrwx 1 davidho davidho 29117 Feb  5 13:35 ./build/tmp/compileJava/previous-compilation-data.bin
+-rwxrwxrwx 1 davidho davidho 1622 Feb  5 11:00 ./build.gradle
+-rwxrwxrwx 1 davidho davidho 1146 Feb  2 13:47 ./build.gradle-save1
+-rwxrwxrwx 1 davidho davidho 1300 Feb  3 07:08 ./build.gradle-save2
+-rwxrwxrwx 1 davidho davidho 1232 Feb  3 07:10 ./build.gradle-save3
+-rwxrwxrwx 1 davidho davidho 737 Nov 17  2023 ./build.gradle.orig
+-rwxrwxrwx 1 davidho davidho 8692 Nov 17  2023 ./gradlew
+-rwxrwxrwx 1 davidho davidho 2868 Nov 17  2023 ./gradlew.bat
+-rwxrwxrwx 1 davidho davidho 1724 Nov 17  2023 ./HELP.md
+-rwxrwxrwx 1 davidho davidho 824 Jan 16 13:40 ./orw2717-tree-list.txt
+-rwxrwxrwx 1 davidho davidho 2833 Jan 16 13:40 ./orw2717-zip-list.txt
+-rwxrwxrwx 1 davidho davidho 32 Nov 17  2023 ./settings.gradle
+-rwxrwxrwx 1 davidho davidho 2275 Feb  5 13:34 ./src/main/java/ashburncode/sbapp2717g/Book.java
+-rwxrwxrwx 1 davidho davidho 2611 Feb  5 13:35 ./src/main/java/ashburncode/sbapp2717g/DemojaxbController.java
+-rwxrwxrwx 1 davidho davidho 339 Nov 17  2023 ./src/main/java/ashburncode/sbapp2717g/Sbapp2717grajarj17Application.java
+-rwxrwxrwx 1 davidho davidho 4181 Jan 27 08:07 ./src/main/java/ashburncode/sbapp2717g/SyspropsController.java
+-rwxrwxrwx 1 davidho davidho 166 Feb  2 13:41 ./src/main/resources/application.properties
+-rwxrwxrwx 1 davidho davidho 1 Nov 17  2023 ./src/main/resources/application.properties-orig
+-rwxrwxrwx 1 davidho davidho 226 Nov 17  2023 ./src/test/java/ashburncode/sbapp2717g/Sbapp2717grajarj17ApplicationTests.java
+davidho@dphxps17:/mnt/c/temp7/orw2717$
+
+C:\temp7\orw2717>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717
+
+02/03/2025  06:30 AM    <DIR>          .gradle
+02/03/2025  06:30 AM    <DIR>          .vscode
+02/03/2025  06:30 AM    <DIR>          bin
+02/03/2025  06:30 AM    <DIR>          gradle
+02/03/2025  06:30 AM    <DIR>          src
+02/03/2025  07:31 AM    <DIR>          ..
+02/05/2025  01:35 PM    <DIR>          .
+02/05/2025  01:35 PM    <DIR>          build
+11/17/2023  08:18 AM                32 settings.gradle
+11/17/2023  08:18 AM             8,692 gradlew
+11/17/2023  08:18 AM               737 build.gradle.orig
+11/17/2023  08:18 AM             2,868 gradlew.bat
+11/17/2023  08:18 AM             1,724 HELP.md
+11/17/2023  08:18 AM               444 .gitignore
+01/16/2025  01:40 PM               824 orw2717-tree-list.txt
+01/16/2025  01:40 PM             2,833 orw2717-zip-list.txt
+02/02/2025  01:47 PM             1,146 build.gradle-save1
+02/03/2025  07:08 AM             1,300 build.gradle-save2
+02/03/2025  07:10 AM             1,232 build.gradle-save3
+02/05/2025  11:00 AM             1,622 build.gradle
+              12 File(s)         23,454 bytes
+               8 Dir(s)  387,047,182,336 bytes free
+
+C:\temp7\orw2717>copy build.gradle build.gradle-save5
+        1 file(s) copied.
+
+C:\temp7\orw2717>cd src\main\java\ashburncode\sbapp2717g\
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g
+
+02/05/2025  11:49 AM    <DIR>          ..
+02/05/2025  11:49 AM    <DIR>          .
+11/17/2023  08:18 AM               339 Sbapp2717grajarj17Application.java
+01/27/2025  08:07 AM             4,181 SyspropsController.java
+02/05/2025  01:34 PM             2,275 Book.java
+02/05/2025  01:35 PM             2,611 DemojaxbController.java
+               4 File(s)          9,406 bytes
+               2 Dir(s)  387,046,813,696 bytes free
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>copy Book.java Book.java-save5
+        1 file(s) copied.
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>copy DemojaxbController.java DemojaxbController.java-save5
+        1 file(s) copied.
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g
+
+02/05/2025  11:49 AM    <DIR>          ..
+02/06/2025  07:40 AM    <DIR>          .
+11/17/2023  08:18 AM               339 Sbapp2717grajarj17Application.java
+01/27/2025  08:07 AM             4,181 SyspropsController.java
+02/05/2025  01:34 PM             2,275 Book.java-save5
+02/05/2025  01:34 PM             2,275 Book.java
+02/05/2025  01:35 PM             2,611 DemojaxbController.java-save5
+02/05/2025  01:35 PM             2,611 DemojaxbController.java
+               6 File(s)         14,292 bytes
+               2 Dir(s)  387,046,473,728 bytes free
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>
+
+C:\LocalApps\jdk-17.0.13+11
+C:\LocalApps\jdk8u422-b05
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+curl http://localhost:8080/demojaxbmarshaller
+curl http://localhost:8080/sysprops
+
+curl http://localhost:8082/actuator/health
+curl http://localhost:8082/actuator/info
+curl http://localhost:8082/actuator/info -s | jq
+
+https://springfox.github.io/springfox/docs/current/
+
+swagger-ui location has moved from http://host/context-path/swagger-ui.html to http://host/context-path/swagger-ui/index.html OR http://host/context-path/swagger-ui/ for short. This makes it work much better with pulling it as a web jar and turning it off using configuration properties if not needed. 
+
+ http://localhost:8080/swagger-ui/index.html
+ http://localhost:8080/swagger-ui/
+ http://localhost:8080/v2/api-docs
+
+  http://localhost:8080/swagger-ui.html   Whitelabel Error Page
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\temp7\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\temp7\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>.\gradlew clean bootJar
+init.gradle
+
+BUILD SUCCESSFUL in 1s
+6 actionable tasks: 6 executed
+C:\temp7\orw2717>
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-06 08:53:21.211  INFO 7592 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 7592 (C:\temp7\orw2717\build\classes\java\main started by DavidHolberton in C:\temp7\orw2717)
+2025-02-06 08:53:21.211  INFO 7592 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-06 08:53:22.121  INFO 7592 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-06 08:53:22.121  INFO 7592 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-06 08:53:22.121  INFO 7592 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-06 08:53:22.184  INFO 7592 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-06 08:53:22.184  INFO 7592 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2025-02-06 08:53:22.607  INFO 7592 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-06 08:53:22.638  INFO 7592 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-06 08:53:22.638  INFO 7592 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-06 08:53:22.638  INFO 7592 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-06 08:53:22.654  INFO 7592 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-06 08:53:22.654  INFO 7592 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 47 ms
+2025-02-06 08:53:22.654  INFO 7592 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-06 08:53:22.669  INFO 7592 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-06 08:53:22.843  INFO 7592 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.851 seconds (JVM running for 2.09)
+<===========--> 85% EXECUTING [14s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>curl http://localhost:8082/actuator/health
+{"status":"UP"}
+C:\>
+C:\>curl http://localhost:8082/actuator/info -s | jq
+{
+  "build": {
+    "version": "0.0.1-SNAPSHOT",
+    "artifact": "sbapp2717g",
+    "name": "sbapp2717g",
+    "group": "ashburncode",
+    "time": "2025-02-06T14:02:24.606Z"
+  },
+  "java": {
+    "version": "1.8.0_422",
+    "vendor": {
+      "name": "Temurin",
+      "version": null
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "1.8.0_422-b05"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Temurin",
+      "version": "25.422-b05"
+    }
+  },
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  }
+}
+
+C:\>
+C:\>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.1175069225317724760
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.4144537166113199886
+ java.class.version = 52.0
+ java.home = C:\LocalApps\jdk8u422-b05\jre
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 1.8.0_422-b05
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 1.8
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = null
+ java.vendor = Temurin
+ java.version.date = null
+ java.version = 1.8.0_422
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 1.8
+ java.vm.vendor = Temurin
+ java.vm.version = 25.422-b05
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp7\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717
+
+02/03/2025  06:30 AM    <DIR>          .gradle
+02/03/2025  06:30 AM    <DIR>          .vscode
+02/03/2025  06:30 AM    <DIR>          bin
+02/03/2025  06:30 AM    <DIR>          gradle
+02/03/2025  06:30 AM    <DIR>          src
+02/03/2025  07:31 AM    <DIR>          ..
+02/06/2025  09:02 AM    <DIR>          build
+02/06/2025  10:48 AM    <DIR>          .
+11/17/2023  08:18 AM                32 settings.gradle
+11/17/2023  08:18 AM             8,692 gradlew
+11/17/2023  08:18 AM               737 build.gradle.orig
+11/17/2023  08:18 AM             2,868 gradlew.bat
+11/17/2023  08:18 AM             1,724 HELP.md
+11/17/2023  08:18 AM               444 .gitignore
+01/16/2025  01:40 PM               824 orw2717-tree-list.txt
+01/16/2025  01:40 PM             2,833 orw2717-zip-list.txt
+02/02/2025  01:47 PM             1,146 build.gradle-save1
+02/03/2025  07:08 AM             1,300 build.gradle-save2
+02/03/2025  07:10 AM             1,232 build.gradle-save3
+02/05/2025  11:00 AM             1,622 build.gradle-save5
+02/06/2025  07:43 AM             1,300 build.gradle
+02/06/2025  07:43 AM             1,300 build.gradle-save6
+              14 File(s)         26,054 bytes
+               8 Dir(s)  386,992,635,904 bytes free
+
+C:\temp7\orw2717>
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g
+
+02/05/2025  11:49 AM    <DIR>          ..
+02/06/2025  10:49 AM    <DIR>          .
+11/17/2023  08:18 AM               339 Sbapp2717grajarj17Application.java
+01/27/2025  08:42 AM             2,691 SpringFoxConfig.java
+02/05/2025  01:34 PM             2,275 Book.java-save5
+02/05/2025  01:35 PM             2,611 DemojaxbController.java-save5
+02/06/2025  08:07 AM             2,319 Book.java-save6
+02/06/2025  08:07 AM             2,319 Book.java
+02/06/2025  08:52 AM             4,327 SyspropsController.java
+02/06/2025  08:52 AM             4,327 SyspropsController.java-save6
+02/06/2025  08:53 AM             2,588 DemojaxbController.java-save6
+02/06/2025  08:53 AM             2,588 DemojaxbController.java
+              10 File(s)         26,384 bytes
+               2 Dir(s)  386,993,516,544 bytes free
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>.\gradlew rewriteRun
+init.gradle
+
+> Task :rewriteRun
+Validating active recipes
+Scanning sources in project :
+Using active styles []
+All sources parsed, running active recipes: org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+Changes have been made to src\main\java\ashburncode\sbapp2717g\Book.java by:
+    org.openrewrite.java.migrate.UpgradeToJava17
+        org.openrewrite.java.migrate.Java8toJava11
+            org.openrewrite.java.migrate.UpgradeBuildToJava11
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+        org.openrewrite.java.migrate.UpgradeBuildToJava17
+            org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+        org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+            org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+                org.openrewrite.java.ChangePackage: {oldPackageName=javax.xml.bind, newPackageName=jakarta.xml.bind, recursive=true}
+Changes have been made to src\main\java\ashburncode\sbapp2717g\DemojaxbController.java by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.SwaggerToSpringDoc
+                    org.openrewrite.openapi.swagger.SwaggerToOpenAPI
+                        org.openrewrite.openapi.swagger.MigrateApiOperationToOperation
+                            org.openrewrite.java.ChangeType: {oldFullyQualifiedTypeName=io.swagger.annotations.ApiOperation, newFullyQualifiedTypeName=io.swagger.v3.oas.annotations.Operation}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=notes, newAttributeName=description}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=value, newAttributeName=summary}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+            org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+                org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+                    org.openrewrite.java.ChangePackage: {oldPackageName=javax.xml.bind, newPackageName=jakarta.xml.bind, recursive=true}
+Changes have been made to src\main\java\ashburncode\sbapp2717g\SyspropsController.java by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.SwaggerToSpringDoc
+                    org.openrewrite.openapi.swagger.SwaggerToOpenAPI
+                        org.openrewrite.openapi.swagger.MigrateApiOperationToOperation
+                            org.openrewrite.java.ChangeType: {oldFullyQualifiedTypeName=io.swagger.annotations.ApiOperation, newFullyQualifiedTypeName=io.swagger.v3.oas.annotations.Operation}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=notes, newAttributeName=description}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=value, newAttributeName=summary}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+Changes have been made to build.gradle by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.ReplaceSpringFoxDependencies
+                    org.openrewrite.java.dependencies.RemoveDependency: {groupId=io.springfox, artifactId=*}
+                    org.openrewrite.java.dependencies.AddDependency: {groupId=org.springdoc, artifactId=springdoc-openapi-ui, version=1.5.x}
+        org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=2.7.x}
+        org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=org.springdoc, artifactId=*, newVersion=1.8.x}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.javax.AddJaxbDependencies
+                    org.openrewrite.java.dependencies.AddDependency: {groupId=jakarta.xml.bind, artifactId=jakarta.xml.bind-api, version=2.3.x, onlyIfUsing=javax.xml.bind..*, acceptTransitive=true}
+                    org.openrewrite.java.migrate.javax.AddJaxbRuntime: {runtime=glassfish}
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+                        org.openrewrite.gradle.UpdateJavaCompatibility: {version=11, allowDowngrade=false}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+                    org.openrewrite.gradle.UpdateJavaCompatibility: {version=17, allowDowngrade=false}
+            org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=3.0.x}
+                org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=io.spring.dependency-management, newVersion=1.1.x}
+                    org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+                        org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+                            org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=jakarta.xml.bind, artifactId=jakarta.xml.bind-api, newVersion=latest.release}
+                            org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=org.glassfish.jaxb, artifactId=jaxb-runtime, newVersion=latest.release}
+                        org.openrewrite.java.springdoc.UpgradeSpringDoc_2
+                            org.openrewrite.java.dependencies.ChangeDependency: {oldGroupId=org.springdoc, oldArtifactId=springdoc-openapi-ui, newArtifactId=springdoc-openapi-starter-webmvc-ui, newVersion=2.1.x}
+Please review and commit the results.
+Estimate time saved: 15m
+
+BUILD SUCCESSFUL in 41s
+5 actionable tasks: 3 executed, 2 up-to-date
+C:\temp7\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717
+
+02/03/2025  06:30 AM    <DIR>          .gradle
+02/03/2025  06:30 AM    <DIR>          .vscode
+02/03/2025  06:30 AM    <DIR>          bin
+02/03/2025  06:30 AM    <DIR>          gradle
+02/03/2025  06:30 AM    <DIR>          src
+02/03/2025  07:31 AM    <DIR>          ..
+02/06/2025  10:48 AM    <DIR>          .
+02/06/2025  10:54 AM    <DIR>          build
+11/17/2023  08:18 AM             8,692 gradlew
+11/17/2023  08:18 AM                32 settings.gradle
+11/17/2023  08:18 AM             2,868 gradlew.bat
+11/17/2023  08:18 AM               737 build.gradle.orig
+11/17/2023  08:18 AM             1,724 HELP.md
+11/17/2023  08:18 AM               444 .gitignore
+01/16/2025  01:40 PM               824 orw2717-tree-list.txt
+01/16/2025  01:40 PM             2,833 orw2717-zip-list.txt
+02/02/2025  01:47 PM             1,146 build.gradle-save1
+02/03/2025  07:08 AM             1,300 build.gradle-save2
+02/03/2025  07:10 AM             1,232 build.gradle-save3
+02/05/2025  11:00 AM             1,622 build.gradle-save5
+02/06/2025  07:43 AM             1,300 build.gradle-save6
+02/06/2025  10:54 AM             1,354 build.gradle
+              14 File(s)         26,108 bytes
+               8 Dir(s)  386,993,467,392 bytes free
+
+C:\temp7\orw2717>
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g
+
+02/05/2025  11:49 AM    <DIR>          ..
+02/06/2025  10:49 AM    <DIR>          .
+11/17/2023  08:18 AM               339 Sbapp2717grajarj17Application.java
+01/27/2025  08:42 AM             2,691 SpringFoxConfig.java
+02/05/2025  01:34 PM             2,275 Book.java-save5
+02/05/2025  01:35 PM             2,611 DemojaxbController.java-save5
+02/06/2025  08:07 AM             2,319 Book.java-save6
+02/06/2025  08:52 AM             4,327 SyspropsController.java-save6
+02/06/2025  08:53 AM             2,588 DemojaxbController.java-save6
+02/06/2025  10:54 AM             2,337 Book.java
+02/06/2025  10:54 AM             2,613 DemojaxbController.java
+02/06/2025  10:54 AM             4,336 SyspropsController.java
+              10 File(s)         26,436 bytes
+               2 Dir(s)  386,993,037,312 bytes free
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717\src\main\java\ashburncode\sbapp2717g\SpringFoxConfig.java
+
+package ashburncode.sbapp2717g;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+// import com.fasterxml.classmate.TypeResolver;
+// import org.joda.time.LocalDate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.context.request.async.DeferredResult;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.builders.ResponseBuilder;
+import springfox.documentation.schema.ScalarType;
+import springfox.documentation.schema.WildcardType;
+import springfox.documentation.service.ApiKey;
+import springfox.documentation.service.AuthorizationScope;
+import springfox.documentation.service.ParameterType;
+import springfox.documentation.service.SecurityReference;
+import springfox.documentation.service.Tag;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spi.service.contexts.SecurityContext;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger.web.DocExpansion;
+import springfox.documentation.swagger.web.ModelRendering;
+import springfox.documentation.swagger.web.OperationsSorter;
+import springfox.documentation.swagger.web.SecurityConfiguration;
+import springfox.documentation.swagger.web.SecurityConfigurationBuilder;
+import springfox.documentation.swagger.web.TagsSorter;
+import springfox.documentation.swagger.web.UiConfiguration;
+import springfox.documentation.swagger.web.UiConfigurationBuilder;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+// import springfox.petstore.controller.PetController;
+
+import java.util.List;
+
+import static java.util.Collections.*;
+import static springfox.documentation.schema.AlternateTypeRules.*;
+
+
+@Configuration
+public class SpringFoxConfig {                                    
+    @Bean
+    public Docket api() { 
+        return new Docket(DocumentationType.SWAGGER_2)  
+          .select()                                  
+          .apis(RequestHandlerSelectors.any())              
+          .paths(PathSelectors.any())                          
+          .build();                                           
+    }
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717\src\main\resources\application.properties
+
+spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
+management.server.port=8082
+management.endpoints.web.exposure.include=*
+management.info.java.enabled=true
+management.info.os.enabled = true
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>.\gradlew clean bootJar
+init.gradle
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'sbapp2717g'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not resolve org.springframework.boot:spring-boot-gradle-plugin:3.0.13.
+     Required by:
+         project : > org.springframework.boot:org.springframework.boot.gradle.plugin:3.0.13
+      > No matching variant of org.springframework.boot:spring-boot-gradle-plugin:3.0.13 was found. The consumer was configured to find a library for use during runtime, compatible with Java 8, packaged as a jar, and its dependencies declared externally, as well as attribute 'org.gradle.plugin.api-version' with value '8.4' but:
+          - Variant 'apiElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.13 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component for use during compile-time, compatible with Java 17 and the consumer needed a component for use during runtime, compatible with Java 8
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'javadocElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.13 declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 8)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'mavenOptionalApiElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.13 declares a library, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component for use during compile-time, compatible with Java 17 and the consumer needed a component for use during runtime, compatible with Java 8
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'mavenOptionalRuntimeElements' capability org.springframework.boot:spring-boot-gradle-plugin-maven-optional:3.0.13 declares a library for use during runtime, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component, compatible with Java 17 and the consumer needed a component, compatible with Java 8
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'runtimeElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.13 declares a library for use during runtime, packaged as a jar, and its dependencies declared externally:
+              - Incompatible because this component declares a component, compatible with Java 17 and the consumer needed a component, compatible with Java 8
+              - Other compatible attribute:
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+          - Variant 'sourcesElements' capability org.springframework.boot:spring-boot-gradle-plugin:3.0.13 declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java version (required compatibility with Java 8)
+                  - Doesn't say anything about its elements (required them packaged as a jar)
+                  - Doesn't say anything about org.gradle.plugin.api-version (required '8.4')
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+
+C:\temp7\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Path=C:\LocalApps\jdk-17.0.13+11\bin;C:\LocalApps\VSCode-win32-x64-1.96.4\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2;C:\LocalApps\bin;C:\Users\DavidHolberton\AppData\Local\Microsoft\WindowsApps;
+
+set Path=C:\LocalApps\jdk-17.0.13+11\bin;C:\LocalApps\VSCode-win32-x64-1.96.4\bin;C:\Program Files\7-Zip;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\LocalApps\gradle-7.6.1\bin;C:\LocalApps\nginx-1.26.2;C:\LocalApps\bin;C:\Users\DavidHolberton\AppData\Local\Microsoft\WindowsApps;
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>javac -version
+javac 17.0.13
+
+C:\temp7\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.13 (Eclipse Adoptium 17.0.13+11)
+OS:           Windows 11 10.0 amd64
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>del src\main\java\ashburncode\sbapp2717g\SpringFoxConfig.java
+
+C:\temp7\orw2717>
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd \temp7\orw2717
+
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.13)
+
+2025-02-06T11:32:14.574-05:00  INFO 57156 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 with PID 57156 (C:\temp7\orw2717\build\classes\java\main started by DavidHolberton in C:\temp7\orw2717)
+2025-02-06T11:32:14.577-05:00  INFO 57156 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-06T11:32:15.383-05:00  INFO 57156 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-06T11:32:15.393-05:00  INFO 57156 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-06T11:32:15.393-05:00  INFO 57156 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-06T11:32:15.461-05:00  INFO 57156 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-06T11:32:15.462-05:00  INFO 57156 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 826 ms
+2025-02-06T11:32:15.944-05:00  INFO 57156 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-06T11:32:15.995-05:00  INFO 57156 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-06T11:32:15.996-05:00  INFO 57156 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-06T11:32:15.996-05:00  INFO 57156 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-06T11:32:16.009-05:00  INFO 57156 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-06T11:32:16.010-05:00  INFO 57156 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2025-02-06T11:32:16.019-05:00  INFO 57156 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-06T11:32:16.043-05:00  INFO 57156 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-06T11:32:16.054-05:00  INFO 57156 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.759 seconds (process running for 2.028)
+<===========--> 85% EXECUTING [30s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+curl http://localhost:8080/demojaxbmarshaller
+curl http://localhost:8080/sysprops
+
+curl http://localhost:8082/actuator/health
+curl http://localhost:8082/actuator/info
+curl http://localhost:8082/actuator/info -s | jq
+
+http://localhost:8080/v3/api-docs
+http://localhost:8080/swagger-ui/index.html?configUrl=/v3/
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/health
+{"status":"UP"}
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/info -s | jq
+{
+  "build": {
+    "artifact": "sbapp2717g",
+    "name": "sbapp2717g",
+    "time": "2025-02-06T16:32:12.836Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "ashburncode"
+  },
+  "java": {
+    "version": "17.0.13",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.13+11"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.13+11"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.13+11"
+    }
+  },
+  "os": {
+    "name": "Windows 11",
+    "version": "10.0",
+    "arch": "amd64"
+  }
+}
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/demojaxbmarshaller
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book id="1">
+    <name>Book1</name>
+    <author>Author1</author>
+</book>
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.12626628076408428203
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.9765045045695688198
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp7\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   build.gradle
+        modified:   src/main/resources/application.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        build.gradle-save1
+        build.gradle-save2
+        build.gradle-save3
+        build.gradle-save5
+        build.gradle-save6
+        build.gradle.orig
+        src/main/java/ashburncode/sbapp2717g/Book.java
+        src/main/java/ashburncode/sbapp2717g/Book.java-save5
+        src/main/java/ashburncode/sbapp2717g/Book.java-save6
+        src/main/java/ashburncode/sbapp2717g/DemojaxbController.java
+        src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save5
+        src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save6
+        src/main/java/ashburncode/sbapp2717g/SyspropsController.java
+        src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save6
+        src/main/resources/application.properties-orig
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\temp7\orw2717>git add .
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save2', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save3', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save5', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save6', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle.orig', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties-orig', LF will be replaced by CRLF the next time Git touches it
+
+C:\temp7\orw2717>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   build.gradle
+        new file:   build.gradle-save1
+        new file:   build.gradle-save2
+        new file:   build.gradle-save3
+        new file:   build.gradle-save5
+        new file:   build.gradle-save6
+        new file:   build.gradle.orig
+        new file:   src/main/java/ashburncode/sbapp2717g/Book.java
+        new file:   src/main/java/ashburncode/sbapp2717g/Book.java-save5
+        new file:   src/main/java/ashburncode/sbapp2717g/Book.java-save6
+        new file:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java
+        new file:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save5
+        new file:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save6
+        new file:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java
+        new file:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save6
+        modified:   src/main/resources/application.properties
+        new file:   src/main/resources/application.properties-orig
+
+C:\temp7\orw2717>git commit -a -m "after running .\gradlew rewriteRun in C:\temp7\orw2717"
+[master 2cfe654] after running .\gradlew rewriteRun in C:\temp7\orw2717
+ 17 files changed, 1070 insertions(+), 8 deletions(-)
+ create mode 100644 build.gradle-save1
+ create mode 100644 build.gradle-save2
+ create mode 100644 build.gradle-save3
+ create mode 100644 build.gradle-save5
+ create mode 100644 build.gradle-save6
+ create mode 100644 build.gradle.orig
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/Book.java
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/Book.java-save5
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/Book.java-save6
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/DemojaxbController.java
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save5
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save6
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/SyspropsController.java
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save6
+ create mode 100644 src/main/resources/application.properties-orig
+
+C:\temp7\orw2717>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+C:\temp7\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:ashburndev/orw2717.git
+git branch -M main
+git push -u origin main
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\temp7\orw2717>git remote add origin git@github.com:ashburndev/orw2717.git
+
+C:\temp7\orw2717>git branch -M main
+
+C:\temp7\orw2717>git push -u origin main
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (48/48), 69.64 KiB | 3.48 MiB/s, done.
+Total 48 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), done.
+To github.com:ashburndev/orw2717.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\temp7\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>.\gradlew tasks
+init.gradle
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'sbapp2717g'
+------------------------------------------------------------
+
+Application tasks
+-----------------
+bootRun - Runs this project as a Spring Boot application.
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+bootBuildImage - Builds an OCI image of the application using the output of the bootJar task
+bootBuildInfo - Generates a META-INF/build-info.properties file.
+bootJar - Assembles an executable jar archive containing the main classes and their dependencies.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+jar - Assembles a jar archive containing the classes of the 'main' feature.
+resolveMainClassName - Resolves the name of the application's main class.
+testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the 'main' feature.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'sbapp2717g'.
+dependencies - Displays all dependencies declared in root project 'sbapp2717g'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'sbapp2717g'.
+dependencyManagement - Displays the dependency management declared in root project 'sbapp2717g'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'sbapp2717g'.
+projects - Displays the sub-projects of root project 'sbapp2717g'.
+properties - Displays the properties of root project 'sbapp2717g'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'sbapp2717g'.
+tasks - Displays the tasks runnable from root project 'sbapp2717g'.
+
+Rewrite tasks
+-------------
+rewriteDiscover - Lists all available recipes and their visitors
+rewriteDryRun - Run the active refactoring recipes, producing a patch file. No source files will be changed.
+rewriteRun - Apply the active refactoring recipes
+
+Verification tasks
+------------------
+check - Runs all checks.
+test - Runs the test suite.
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>
+
+BUILD SUCCESSFUL in 971ms
+1 actionable task: 1 executed
+C:\temp7\orw2717>
+

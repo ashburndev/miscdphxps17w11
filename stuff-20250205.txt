@@ -1,0 +1,441 @@
+9:30 AM 2/5/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250205.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+convert spring boot 2 to 3
+
+https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide
+https://www.baeldung.com/spring-boot-3-migration
+https://docs.openrewrite.org/running-recipes/popular-recipe-guides/migrate-to-spring-3
+https://www.geeksforgeeks.org/migrate-application-from-spring-boot-2-to-spring-boot-3/
+https://medium.com/@karthickrangasamy11/spring-boot-2-x-to-3-x-migration-a-comprehensive-guide-d161f5eecdf2
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+https://javatechonline.com/spring-boot-3-migration-guide/
+https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0
+https://www.reddit.com/r/SpringBoot/comments/109usfn/migration_java_11_to_17_and_spring_boot_2_to_3/?rdt=58728
+
+https://docs.openrewrite.org/running-recipes/popular-recipe-guides/migrate-to-spring-3
+https://docs.openrewrite.org/recipes/java/spring/boot3
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\>
+
+https://mvnrepository.com/artifact/jakarta.xml.bind
+
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/4.0.2   Mar 07, 2024
+// https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.2'
+
+https://mvnrepository.com/search?q=org.glassfish.jaxb
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+
+https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime/4.0.5   Mar 07, 2024
+// https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.5'
+
+https://mvnrepository.com/artifact/org.projectlombok/lombok
+https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.36   Nov 15, 2024
+// https://mvnrepository.com/artifact/org.projectlombok/lombok
+compileOnly 'org.projectlombok:lombok:1.18.36'
+
+https://start.spring.io/
+  compileOnly 'org.projectlombok:lombok'
+  annotationProcessor 'org.projectlombok:lombok'
+
+
+This artifact was moved to:  jakarta.xml.bind » jakarta.xml.bind-api
+https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+
+https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.1   Oct 02, 2018
+// https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+implementation 'javax.xml.bind:jaxb-api:2.3.1'
+
+https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.0   Jul 31, 2017
+// https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+implementation 'javax.xml.bind:jaxb-api:2.3.0'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://eclipse-ee4j.github.io/jaxb-ri/
+
+Download Jakarta XML Binding Release
+
+The latest stable release of Eclipse Implementation of JAXB is available for download as well as for consumption through maven.
+
+        <dependencies>
+            <dependency>
+                <groupId>jakarta.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>4.0.2</version>
+            </dependency>
+        </dependencies>
+
+        <dependencies>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>4.0.5</version>
+                <scope>runtime</scope>
+            </dependency>
+        </dependencies>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.geeksforgeeks.org/introduction-to-project-lombok-in-java-and-how-to-get-started/
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Employee {
+    private @Getter @Setter Integer employeeId;
+    private @Getter @Setter String name;
+    private @Getter @Setter String company;
+    private @Getter @Setter String emailId;
+}
+
+6. @Data: This annotation is a shortcut annotation and bundles @ToString, @Getter, @Setter, @EqualsAndHashCode and @RequiredArgsConstructor annotations into a single annotation.
+
+7. @Builder: This annotation can be used remove boilerplate code involved in setting properties for an object. 
+
+
+
+https://www.google.com/search?client=firefox-b-1-d&q=java+import+lombok
+
+implementation 'org.projectlombok:lombok:1.18.26' // Use the latest version
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+// ... other Lombok annotations you need
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Person {
+    private String name;
+    private int age;
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+
+
+https://www.baeldung.com/jaxb
+
+
+https://docs.openrewrite.org/recipes/java/migrate/jakarta/javaxxmlbindmigrationtojakartaxmlbind
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.geeksforgeeks.org/spring-and-jaxb-integration/
+
+
+https://ahrooran.hashnode.dev/technical-challenges-migrating-from-jdk-8-to-17-and-spring-boot-2x-to-3x
+
+  <dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.3.1</version>
+  </dependency>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://stackoverflow.com/questions/31884406/use-lombok-with-xmlelement
+
+@Data
+@XmlRootElement(name = "root")
+@XmlAccessorType(XmlAccessType.FIELD)      // UPDATE: Need this or else exception
+public class Data {
+    @XmlElement(name = "test")
+    public double testData;
+}
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.0'
+implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.0'
+
+https://docs.openrewrite.org/recipes/java/migrate/jakarta/javaxxmlbindmigrationtojakartaxmlbind
+
+https://howtodoinjava.com/jaxb/jaxb-annotations/
+https://github.com/eclipse-transformer/transformer
+https://www.geeksforgeeks.org/introduction-to-project-lombok-in-java-and-how-to-get-started/
+https://stackoverflow.com/questions/77359486/javax-to-jakarta-migration-glassfish-jaxb-4-x-reads-jakarta-xml-bind-annotation
+https://howtodoinjava.com/jaxb/jaxb-annotations/
+
+https://docs.openrewrite.org/recipes/java/migrate/jakarta/javaxxmlbindmigrationtojakartaxmlbind
+Migrate deprecated javax.xml.bind packages to jakarta.xml.bind
+
+https://www.bing.com/search?q=java+jaxb&form=ANNTH1&refig=ce360ce4514046caa6363b9da56f514e&pc=DCTS
+
+Understanding JAXB (Java Architecture for XML Binding)
+
+Java Architecture for XML Binding (JAXB) is a framework that provides a fast and convenient way to bind XML schemas and Java representations. It allows Java developers to convert Java objects to XML and vice versa, making it easier to incorporate XML data and processing functions in Java applications
+
+Key Principles
+
+Marshalling and Unmarshalling
+
+Marshalling is the process of converting a Java object into XML. JAXB provides a Marshaller class to handle this process. For example:
+
+public void marshal() throws JAXBException, IOException {
+Book book = new Book();
+book.setId(1L);
+book.setName("Book1");
+book.setAuthor("Author1");
+book.setDate(new Date());
+
+JAXBContext context = JAXBContext.newInstance(Book.class);
+Marshaller mar = context.createMarshaller();
+mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+mar.marshal(book, new File("./book.xml"));
+}
+This code snippet creates a Book object and marshals it into an XML file named book.xml
+1
+.
+
+Unmarshalling is the reverse process, where XML data is converted back into Java objects. JAXB provides an Unmarshaller class for this purpose. For example:
+
+public Book unmarshal() throws JAXBException, IOException {
+JAXBContext context = JAXBContext.newInstance(Book.class);
+return (Book) context.createUnmarshaller().unmarshal(new FileReader("./book.xml"));
+}
+This code snippet reads the XML file book.xml and converts it back into a Book object
+1
+.
+
+JAXB Annotations
+
+JAXB uses Java annotations to map XML elements and attributes to Java fields and properties. Some common annotations include:
+
+@XmlRootElement: Specifies the root element of the XML.
+
+@XmlType: Defines the order of the fields in the XML.
+
+@XmlElement: Specifies the XML element name.
+
+@XmlAttribute: Maps a field as an attribute instead of an element.
+
+@XmlTransient: Excludes a field from the XML
+1
+.
+
+Generating Java Classes from XML Schema
+
+JAXB can generate Java classes from an XML schema (XSD) using tools like the JAXB-2 Maven plugin. This process is known as binding. For example, the following XSD schema defines a UserRequest and UserResponse:
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="/jaxb/gen" xmlns:userns="/jaxb/gen" elementFormDefault="qualified">
+<element name="userRequest" type="userns:UserRequest"></element>
+<element name="userResponse" type="userns:UserResponse"></element>
+<complexType name="UserRequest">
+<sequence>
+<element name="id" type="int" />
+<element name="name" type="string" />
+</sequence>
+</complexType>
+<complexType name="UserResponse">
+<sequence>
+<element name="id" type="int" />
+<element name="name" type="string" />
+<element name="gender" type="string" />
+<element name="created" type="dateTime" />
+</sequence>
+</complexType>
+</schema>
+Using the JAXB-2 Maven plugin, you can generate Java classes from this schema
+1
+.
+
+Customizing JAXB Bindings
+
+JAXB allows customization of bindings through annotations and external binding files. For example, you can use the @XmlJavaTypeAdapter annotation to specify a custom adapter for handling complex data types
+1
+.
+
+Conclusion
+
+JAXB simplifies the process of working with XML in Java by providing a straightforward way to convert between Java objects and XML. It supports various customization options and can handle complex data types, making it a powerful tool for Java-XML applications
+1
+2
+3
+.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\temp7\orw2717>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\temp7\orw2717>
+C:\temp7\orw2717>.\gradlew clean bootJar
+init.gradle
+
+BUILD SUCCESSFUL in 1s
+6 actionable tasks: 6 executed
+C:\temp7\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.13)
+
+2025-02-05T13:35:29.250-05:00  INFO 44704 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 with PID 44704 (C:\temp7\orw2717\build\classes\java\main started by DavidHolberton in C:\temp7\orw2717)
+2025-02-05T13:35:29.250-05:00  INFO 44704 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-05T13:35:30.028-05:00  INFO 44704 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-05T13:35:30.038-05:00  INFO 44704 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T13:35:30.038-05:00  INFO 44704 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-05T13:35:30.100-05:00  INFO 44704 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-05T13:35:30.100-05:00  INFO 44704 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 812 ms
+2025-02-05T13:35:30.554-05:00  INFO 44704 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-05T13:35:30.601-05:00  INFO 44704 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-05T13:35:30.601-05:00  INFO 44704 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T13:35:30.601-05:00  INFO 44704 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-05T13:35:30.616-05:00  INFO 44704 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-05T13:35:30.616-05:00  INFO 44704 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 62 ms
+2025-02-05T13:35:30.616-05:00  INFO 44704 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-05T13:35:30.632-05:00  INFO 44704 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-05T13:35:30.648-05:00  INFO 44704 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.638 seconds (process running for 1.848)
+2025-02-05T13:35:38.548-05:00  INFO 44704 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05T13:35:38.548-05:00  INFO 44704 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-05T13:35:38.548-05:00  INFO 44704 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-05T13:36:50.420-05:00  INFO 44704 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05T13:36:50.420-05:00  INFO 44704 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-05T13:36:50.421-05:00  INFO 44704 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+<===========--> 85% EXECUTING [7m 34s]
+> :bootRun
+
+C:\Users\DavidHolberton>curl http://localhost:8080/demojaxbmarshaller
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book id="1">
+    <name>Book1</name>
+    <author>Author1</author>
+</book>
+
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.3156696674772971179
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.4462269290019020343
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\temp7\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+
+curl http://localhost:8080/demojaxbmarshaller
+curl http://localhost:8080/sysprops
+
+http://localhost:8080/v3/api-docs
+http://localhost:8080/swagger-ui/index.html
+
+curl http://localhost:8082/actuator/health
+curl http://localhost:8082/actuator/info
+curl http://localhost:8082/actuator/info -s | jq
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/health
+{"status":"UP"}
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/info
+{"build":{"artifact":"sbapp2717g","name":"sbapp2717g","time":"2025-02-05T18:35:28.463Z","version":"0.0.1-SNAPSHOT","group":"ashburncode"},"java":{"version":"17.0.13","vendor":{"name":"Eclipse Adoptium","version":"Temurin-17.0.13+11"},"runtime":{"name":"OpenJDK Runtime Environment","version":"17.0.13+11"},"jvm":{"name":"OpenJDK 64-Bit Server VM","vendor":"Eclipse Adoptium","version":"17.0.13+11"}}}
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8082/actuator/info -s | jq
+{
+  "build": {
+    "artifact": "sbapp2717g",
+    "name": "sbapp2717g",
+    "time": "2025-02-05T18:35:28.463Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "ashburncode"
+  },
+  "java": {
+    "version": "17.0.13",
+    "vendor": {
+      "name": "Eclipse Adoptium",
+      "version": "Temurin-17.0.13+11"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "17.0.13+11"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Eclipse Adoptium",
+      "version": "17.0.13+11"
+    }
+  }
+}
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+

@@ -673,11 +673,10 @@ C:\Users\DavidHolberton\Documents\dir-stuff>dir /o:gd ..\..\repos\miscdphxps17w1
 dir  ..\..\repos\miscdphxps17w11\stuff-20240527.txt
 copy ..\..\repos\miscdphxps17w11\stuff-20240527.txt
 
-copy stuff-20250120.txt ..\..\repos\miscdphxps17w11
-copy stuff-20250123.txt ..\..\repos\miscdphxps17w11
-copy stuff-20250126.txt ..\..\repos\miscdphxps17w11
-copy stuff-20250127.txt ..\..\repos\miscdphxps17w11
-copy stuff-20250131.txt ..\..\repos\miscdphxps17w11
-copy stuff-20250203.txt ..\..\repos\miscdphxps17w11
-
+copy /y stuff-20250120.txt ..\..\repos\miscdphxps17w11
+copy /y stuff-20250123.txt ..\..\repos\miscdphxps17w11
+copy /y stuff-20250126.txt ..\..\repos\miscdphxps17w11
+copy /y stuff-20250127.txt ..\..\repos\miscdphxps17w11
+copy /y stuff-20250131.txt ..\..\repos\miscdphxps17w11
+copy /y stuff-20250203.txt ..\..\repos\miscdphxps17w11
 
