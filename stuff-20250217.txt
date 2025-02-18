@@ -1,0 +1,596 @@
+7:40 AM 2/17/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.2894]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250217.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.96.4
+cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://code.visualstudio.com/download#
+https://code.visualstudio.com/updates/v1_97
+https://code.visualstudio.com/docs
+
+https://www.eclipse.org/downloads/packages/
+Eclipse IDE 2024-12 R Packages
+Eclipse IDE for Enterprise Java and Web Developers
+Eclipse IDE for Java Developers
+
+https://spring.io/tools
+Spring Tools for Visual Studio Code
+Spring Tools for Eclipse
+
+https://www.jetbrains.com/idea/download/?section=windows
+Version: 2024.3.3
+Build: 243.24978.46
+11 February 2025
+IntelliJ IDEA Ultimate  The IDE for Professional Development in Java and Kotlin
+IntelliJ IDEA Community Edition  The IDE for Java and Kotlin enthusiasts
+
+02/17/2025  07:42 AM       105,639,336 VSCodeUserSetup-x64-1.97.2.exe
+02/17/2025  07:43 AM       102,208,560 VSCodeSetup-arm64-1.97.2.exe
+02/17/2025  07:44 AM       148,707,174 VSCode-win32-arm64-1.97.2.zip
+02/17/2025  07:56 AM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64(2).zip
+02/17/2025  07:56 AM       356,492,981 eclipse-java-2024-12-R-win32-x86_64(1).zip
+02/17/2025  08:01 AM       678,850,293 spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64.zip
+02/17/2025  08:05 AM     1,214,074,904 ideaIU-2024.3.3.exe
+02/17/2025  08:05 AM                86 ideaIU-2024.3.3.exe.sha256
+02/17/2025  08:06 AM     1,606,807,049 ideaIU-2024.3.3.win.zip
+02/17/2025  08:06 AM                90 ideaIU-2024.3.3.win.zip.sha256
+02/17/2025  08:07 AM       727,959,224 ideaIC-2024.3.3.exe
+02/17/2025  08:07 AM                86 ideaIC-2024.3.3.exe.sha256
+02/17/2025  08:08 AM     1,023,805,996 ideaIC-2024.3.3.win.zip
+02/17/2025  08:08 AM                90 ideaIC-2024.3.3.win.zip.sha256
+             783 File(s) 133,545,273,649 bytes
+              12 Dir(s)  385,772,134,400 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+12/09/2024  05:12 PM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64.zip
+12/09/2024  05:14 PM               170 eclipse-jee-2024-12-R-win32-x86_64.zip.sha512
+12/09/2024  05:15 PM       356,492,981 eclipse-java-2024-12-R-win32-x86_64.zip
+12/09/2024  05:17 PM               171 eclipse-java-2024-12-R-win32-x86_64.zip.sha512
+01/20/2025  09:07 AM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64(1).zip
+02/17/2025  07:56 AM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64(2).zip
+02/17/2025  07:56 AM       356,492,981 eclipse-java-2024-12-R-win32-x86_64(1).zip
+              44 File(s) 10,960,374,778 bytes
+               0 Dir(s)  394,574,057,472 bytes free
+
+C:\Users\DavidHolberton\Downloads>dir /o:gd spring-tool*
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\Users\DavidHolberton\Downloads
+
+10/16/2022  10:39 AM       600,722,077 spring-tool-suite-4-4.16.0.RELEASE-e4.25.0-win32.win32.x86_64.self-extracting.jar
+05/10/2023  06:54 AM       559,436,768 spring-tool-suite-4-4.18.1.RELEASE-e4.27.0-win32.win32.x86_64.self-extracting.jar
+06/19/2023  03:41 AM       607,189,124 spring-tool-suite-4-4.19.0.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+08/30/2023  06:29 AM       599,338,501 spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting.jar
+01/09/2024  06:34 AM       642,641,044 spring-tool-suite-4-4.21.0.RELEASE-e4.30.0-win32.win32.x86_64.self-extracting.jar
+04/16/2024  05:35 AM       655,114,210 spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+05/12/2024  08:24 AM       674,830,372 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-linux.gtk.x86_64.tar.gz
+05/12/2024  08:26 AM       659,709,638 spring-tool-suite-4-4.22.1.RELEASE-e4.31.0-win32.win32.x86_64.self-extracting.jar
+07/01/2024  07:21 AM       681,019,289 spring-tool-suite-4-4.23.1.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+07/30/2024  06:20 AM       680,035,403 spring-tool-suite-4-4.24.0.RELEASE-e4.32.0-win32.win32.x86_64.self-extracting.jar
+09/18/2024  09:36 AM       699,557,523 spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64.zip
+12/09/2024  05:19 PM       737,409,017 spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64.zip
+01/20/2025  09:14 AM       737,409,017 spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64(1).zip
+02/17/2025  08:01 AM       678,850,293 spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64.zip
+              14 File(s)  9,213,262,276 bytes
+               0 Dir(s)  386,308,214,784 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+02/17/2025  07:56 AM       569,999,326 eclipse-jee-2024-12-R-win32-x86_64(2).zip
+02/17/2025  07:56 AM       356,492,981 eclipse-java-2024-12-R-win32-x86_64(1).zip
+02/17/2025  08:01 AM       678,850,293 spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64.zip
+02/17/2025  08:05 AM     1,214,074,904 ideaIU-2024.3.3.exe
+02/17/2025  08:05 AM                86 ideaIU-2024.3.3.exe.sha256
+02/17/2025  08:06 AM     1,606,807,049 ideaIU-2024.3.3.win.zip
+02/17/2025  08:06 AM                90 ideaIU-2024.3.3.win.zip.sha256
+02/17/2025  08:07 AM       727,959,224 ideaIC-2024.3.3.exe
+02/17/2025  08:07 AM                86 ideaIC-2024.3.3.exe.sha256
+02/17/2025  08:08 AM     1,023,805,996 ideaIC-2024.3.3.win.zip
+02/17/2025  08:08 AM                90 ideaIC-2024.3.3.win.zip.sha256
+02/17/2025  09:15 AM             1,401 badcode.txt
+02/17/2025  09:45 AM       105,639,336 VSCodeUserSetup-x64-1.97.2.exe
+02/17/2025  09:45 AM       105,639,144 VSCodeSetup-x64-1.97.2.exe
+02/17/2025  09:46 AM       148,419,820 VSCode-win32-x64-1.97.2.zip
+02/17/2025  10:02 AM             2,192 VSCode-win32-x64-1.97.2-sha256-hashes.txt
+             785 File(s) 133,548,420,472 bytes
+              12 Dir(s)  380,901,109,760 bytes free
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.2894]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>code --version
+This version of C:\LocalApps\VSCode-win32-x64-1.97.2\Code.exe is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+
+C:\Users\DavidHolberton>c:\LocalApps\VSCode-win32-x64-1.97.2\bin\code --verson
+This version of c:\LocalApps\VSCode-win32-x64-1.97.2\Code.exe is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+
+C:\Users\DavidHolberton>c:\LocalApps\VSCode-win32-x64-1.97.2\bin\code --version
+This version of c:\LocalApps\VSCode-win32-x64-1.97.2\Code.exe is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+certUtil -hashfileVSCode-win32-x64-1.97.2.zip sha256
+find /I "zip" vscode.hashes
+
+
+C:\Users\DavidHolberton\Downloads>certUtil -hashfile VSCode-win32-arm64-1.97.2.zip sha256
+SHA256 hash of VSCode-win32-arm64-1.97.2.zip:
+52b31922b4d506380aad82eac32fe76c88d3f07c89883cf8298cc9295786571e
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>
+
+
+
+
+ Directory of C:\idetemp2
+
+02/17/2025  08:33 AM    <DIR>          .
+02/13/2025  03:11 PM    <DIR>          sts-4.28.1.RELEASE
+               0 File(s)              0 bytes
+               2 Dir(s)  385,405,857,792 bytes free
+
+
+
+C:\Users\DavidHolberton\Downloads>find /I "zip" vscode.hashes
+
+---------- VSCODE.HASHES
+Windows .zip (x64)      b82a2280f06ff8feeed5278cb849e200c46c2ed5195c6db7e1138e36dbd4928d
+Windows .zip (Arm64)    52b31922b4d506380aad82eac32fe76c88d3f07c89883cf8298cc9295786571e
+
+C:\Users\DavidHolberton\Downloads>
+C:\Users\DavidHolberton\Downloads>
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\Users\DavidHolberton\Downloads
+certUtil -hashfile VSCode-win32-x64-1.97.2.zip sha256
+find /I "zip" VSCode-win32-x64-1.97.2-sha256-hashes.txt
+
+cd C:\Users\DavidHolberton\Downloads
+certUtil -hashfile eclipse-jee-2024-12-R-win32-x86_64.zip sha512
+type               eclipse-jee-2024-12-R-win32-x86_64.zip.sha512
+
+cd C:\Users\DavidHolberton\Downloads
+certUtil -hashfile eclipse-java-2024-12-R-win32-x86_64.zip sha512
+type               eclipse-java-2024-12-R-win32-x86_64.zip.sha512
+
+cd C:\Users\DavidHolberton\Downloads
+certUtil -hashfile ideaIC-2024.3.3.win.zip sha256
+type               ideaIC-2024.3.3.win.zip.sha256
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>certUtil -hashfile VSCode-win32-x64-1.97.2.zip sha256
+SHA256 hash of VSCode-win32-x64-1.97.2.zip:
+b82a2280f06ff8feeed5278cb849e200c46c2ed5195c6db7e1138e36dbd4928d
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>find /I "zip" VSCode-win32-x64-1.97.2-sha256-hashes.txt
+
+---------- VSCODE-WIN32-X64-1.97.2-SHA256-HASHES.TXT
+Windows .zip (x64)      b82a2280f06ff8feeed5278cb849e200c46c2ed5195c6db7e1138e36dbd4928d
+Windows .zip (Arm64)    52b31922b4d506380aad82eac32fe76c88d3f07c89883cf8298cc9295786571e
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>certUtil -hashfile eclipse-jee-2024-12-R-win32-x86_64.zip sha512
+SHA512 hash of eclipse-jee-2024-12-R-win32-x86_64.zip:
+ddac99369c1c764ed70e39278c6d09281d21740adbde47d95126e19e669b2116365cc42a7e63d05a7cccb92bb73b9bb260a41049f3ee81ac98a740e2c293562b
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-jee-2024-12-R-win32-x86_64.zip.sha512
+ddac99369c1c764ed70e39278c6d09281d21740adbde47d95126e19e669b2116365cc42a7e63d05a7cccb92bb73b9bb260a41049f3ee81ac98a740e2c293562b  eclipse-jee-2024-12-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>certUtil -hashfile eclipse-java-2024-12-R-win32-x86_64.zip sha512
+SHA512 hash of eclipse-java-2024-12-R-win32-x86_64.zip:
+9a9b308853cef79d92e7aee33234fc89035ffd15198b9f7dafcf682d5730cdc24cbaae8b53159863eb8be23d349804572a2fbebe8702377daceb7124dfe8016b
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               eclipse-java-2024-12-R-win32-x86_64.zip.sha512
+9a9b308853cef79d92e7aee33234fc89035ffd15198b9f7dafcf682d5730cdc24cbaae8b53159863eb8be23d349804572a2fbebe8702377daceb7124dfe8016b  eclipse-java-2024-12-R-win32-x86_64.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\Users\DavidHolberton\Downloads>cd C:\Users\DavidHolberton\Downloads
+
+C:\Users\DavidHolberton\Downloads>certUtil -hashfile ideaIC-2024.3.3.win.zip sha256
+SHA256 hash of ideaIC-2024.3.3.win.zip:
+856c63417701d3d689af10ef1fde15af60da9edc5fb4c389de5c0a45d5806e99
+CertUtil: -hashfile command completed successfully.
+
+C:\Users\DavidHolberton\Downloads>type               ideaIC-2024.3.3.win.zip.sha256
+856c63417701d3d689af10ef1fde15af60da9edc5fb4c389de5c0a45d5806e99 *ideaIC-2024.3.3.win.zip
+
+C:\Users\DavidHolberton\Downloads>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+mkdir C:\idetemp1\VSCode-win32-x64-1.97.2
+cd    C:\idetemp1\VSCode-win32-x64-1.97.2
+7z x  C:\Users\DavidHolberton\Downloads\VSCode-win32-x64-1.97.2.zip
+cd    C:\idetemp1
+move  VSCode-win32-x64-1.97.2 C:\LocalApps\
+
+mkdir C:\idetemp2
+cd    C:\idetemp2
+7z x  C:\Users\DavidHolberton\Downloads\eclipse-jee-2024-12-R-win32-x86_64.zip
+ren   eclipse eclipse-jee-2024-12-R-win32-x86_64
+move  eclipse-jee-2024-12-R-win32-x86_64 C:\LocalApps\
+
+mkdir C:\idetemp3
+cd    C:\idetemp3
+7z x  C:\Users\DavidHolberton\Downloads\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64.zip
+move  sts-4.28.1.RELEASE C:\LocalApps\
+
+mkdir C:\idetemp4\ideaIU-2024.3.3.win
+cd    C:\idetemp4\ideaIU-2024.3.3.win
+7z x  C:\Users\DavidHolberton\Downloads\ideaIU-2024.3.3.win.zip
+cd    C:\idetemp4
+move  ideaIU-2024.3.3.win C:\LocalApps\
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+cd C:\
+rmdir /s /q C:\idetemp1
+rmdir /s /q C:\idetemp2
+rmdir /s /q C:\idetemp3
+rmdir /s /q C:\idetemp4
+
+dir /o:gd C:\LocalApps\
+
+C:\>dir /o:gd C:\LocalApps\
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps
+
+01/31/1980  11:00 PM    <DIR>          groovy-4.0.12
+01/31/1980  11:00 PM    <DIR>          gradle-8.10.2
+01/31/1980  11:00 PM    <DIR>          gradle-8.1.1
+01/31/1980  11:00 PM    <DIR>          gradle-5.4
+01/31/1980  11:00 PM    <DIR>          gradle-7.6.1
+05/11/2022  05:20 PM    <DIR>          VSCode-win32-x64-1.67.1
+02/28/2023  06:10 PM    <DIR>          jdk-17.0.7
+03/09/2023  03:28 PM    <DIR>          eclipse-jee-2023-03-R-win32-x86_64
+03/27/2023  02:55 AM    <DIR>          jdk-11.0.19
+05/13/2023  08:51 AM    <DIR>          VSCode-win32-x64-1.78.2
+05/13/2023  09:04 AM    <DIR>          ideaIU-2023.1.1.win
+05/13/2023  09:50 AM    <DIR>          sts-4.18.1.RELEASE
+06/05/2023  05:09 AM    <DIR>          .gradle
+06/17/2023  08:04 AM    <DIR>          VSCode-win32-x64-1.79.0
+06/19/2023  04:05 AM    <DIR>          sts-4.19.0.RELEASE
+06/19/2023  04:13 AM    <DIR>          VSCode-win32-x64-1.79.2
+07/13/2023  05:36 AM    <DIR>          VSCode-win32-x64-1.80.0
+09/13/2023  05:12 AM    <DIR>          jdk-11.0.21
+10/05/2023  08:49 AM    <DIR>          jdk-21.0.1
+10/10/2023  05:24 PM    <DIR>          jdk-17.0.9
+12/01/2023  09:25 PM    <DIR>          eclipse-java-2023-12-R-win32-x86_64
+12/01/2023  09:40 PM    <DIR>          eclipse-jee-2023-12-R-win32-x86_64
+01/09/2024  05:41 AM    <DIR>          VSCode-win32-x64-1.85.1
+01/09/2024  06:40 AM    <DIR>          sts-4.21.0.RELEASE
+01/09/2024  07:11 AM    <DIR>          ideaIU-2023.3.2.win
+02/08/2024  06:05 AM    <DIR>          VSCode-win32-x64-1.86.0
+04/10/2024  05:24 AM    <DIR>          VSCode-win32-x64-1.88.0
+07/16/2024  06:04 PM    <DIR>          jdk-17.0.12+7
+07/16/2024  07:14 PM    <DIR>          jdk-21.0.4+7
+07/18/2024  08:57 AM    <DIR>          jdk8u422-b05
+07/19/2024  12:07 AM    <DIR>          jdk-11.0.24+8
+07/19/2024  07:01 AM    <DIR>          VSCode-win32-x64-1.91.1
+07/30/2024  06:51 AM    <DIR>          sts-4.24.0.RELEASE
+07/31/2024  06:14 AM    <DIR>          putty
+08/13/2024  07:46 AM    <DIR>          nginx-1.26.2
+09/05/2024  06:11 AM    <DIR>          eclipse-dsl-2024-09-R-win32-x86_64.zip
+09/05/2024  06:22 AM    <DIR>          eclipse-java-2024-09-R-win32-x86_64.zip
+09/05/2024  06:34 AM    <DIR>          eclipse-jee-2024-09-R-win32-x86_64.zip
+09/10/2024  02:04 PM    <DIR>          sts-4.25.0.RELEASE
+09/18/2024  10:06 AM    <DIR>          VSCode-win32-x64-1.93.1
+09/18/2024  10:34 AM    <DIR>          ideaIU-2024.2.1.win
+09/24/2024  07:32 AM    <DIR>          docker-tests
+10/09/2024  06:34 AM    <DIR>          jdk-17.0.12
+10/15/2024  08:03 PM    <DIR>          jdk-17.0.13+11
+11/28/2024  09:39 AM    <DIR>          eclipse-jee-2024-12-R-win32-x86_64
+02/01/2025  11:28 AM    <DIR>          bin
+02/13/2025  03:11 PM    <DIR>          sts-4.28.1.RELEASE
+02/17/2025  09:48 AM    <DIR>          VSCode-win32-x64-1.97.2
+02/17/2025  10:22 AM    <DIR>          ideaIU-2024.3.3.win
+02/17/2025  10:22 AM    <DIR>          .
+05/15/2023  06:19 AM       651,885,904 Docker Desktop Installer.exe
+05/20/2023  11:11 AM        29,740,498 apache-groovy-binary-4.0.12.zip
+06/01/2023  06:59 AM               308 gradle.properties-save
+06/04/2023  10:57 AM               336 gradle.properties-foo
+06/05/2023  05:49 AM               315 init.gradle
+06/05/2023  06:05 AM             2,123 settings.gradle
+06/05/2024  12:45 AM       318,894,080 jdk-17_linux-x64_bin.tar
+06/05/2024  12:45 AM       318,894,080 jdk-17_linux-x64_bin.zip
+09/06/2024  08:44 AM         2,081,815 nginx-1.26.2.zip
+               9 File(s)  1,321,499,459 bytes
+              50 Dir(s)  374,979,317,760 bytes free
+
+C:\>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+11/28/2024  09:39 AM           555,872 eclipse.exe
+11/28/2024  09:39 AM           260,448 eclipsec.exe
+               5 File(s)      1,696,213 bytes
+               8 Dir(s)  374,978,097,152 bytes free
+
+C:\LocalApps\eclipse-jee-2024-12-R-win32-x86_64\eclipse.exe
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://www.theserverside.com/video/Get-started-with-Spring-Tools-Suite-4
+
+11/20/2024  06:01 PM                61 .eclipseproduct
+02/13/2025  02:54 PM            11,522 license.txt
+02/13/2025  02:57 PM           250,088 SpringToolSuite4c.exe
+02/13/2025  03:01 PM           163,588 artifacts.xml
+02/13/2025  03:01 PM               974 SpringToolSuite4.ini
+02/13/2025  03:02 PM           647,035 open-source-licenses.txt
+02/13/2025  03:11 PM           549,944 SpringToolSuite4.exe
+               7 File(s)      1,623,212 bytes
+               8 Dir(s)  374,927,081,472 bytes free
+
+C:\LocalApps\sts-4.28.1.RELEASE\SpringToolSuite4.exe
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\LocalApps\ideaIU-2024.3.3.win\bin>dir /o:gd
+ Volume in drive C is OS
+ Volume Serial Number is 38E4-68D8
+
+ Directory of C:\LocalApps\ideaIU-2024.3.3.win\bin
+
+02/17/2025  10:22 AM    <DIR>          .
+02/17/2025  10:22 AM    <DIR>          ..
+02/17/2025  08:06 AM               136 appletviewer.policy
+02/17/2025  08:06 AM            81,792 breakgen.dll
+02/17/2025  08:06 AM            93,056 breakgen64.dll
+02/17/2025  08:06 AM            87,424 breakgen64a.dll
+02/17/2025  08:06 AM           206,319 brokenPlugins.db
+02/17/2025  08:06 AM            19,621 defender-exclusions.ps1
+02/17/2025  08:06 AM           168,320 elevator.exe
+02/17/2025  08:06 AM               266 format.bat
+02/17/2025  08:06 AM            24,208 fsnotifier-wsl
+02/17/2025  08:06 AM           140,160 fsnotifier.exe
+02/17/2025  08:06 AM             9,138 idea.bat
+02/17/2025  08:06 AM           313,398 idea.ico
+02/17/2025  08:06 AM            10,897 idea.properties
+02/17/2025  08:06 AM             2,484 idea.svg
+02/17/2025  08:06 AM         1,491,320 idea64.exe
+02/17/2025  08:06 AM               816 idea64.exe.vmoptions
+02/17/2025  08:06 AM               308 inspect.bat
+02/17/2025  08:06 AM         1,490,832 jetbrains_client64.exe
+02/17/2025  08:06 AM               617 jetbrains_client64.exe.vmoptions
+02/17/2025  08:06 AM           138,112 launcher.exe
+02/17/2025  08:06 AM               266 ltedit.bat
+02/17/2025  08:06 AM           579,488 msvcp140.dll
+02/17/2025  08:06 AM         1,490,832 remote-dev-server.exe
+02/17/2025  08:06 AM           388,480 restarter.exe
+02/17/2025  08:06 AM           155,512 runnerw.exe
+02/17/2025  08:06 AM            30,104 ttyfix
+02/17/2025  08:06 AM           256,408 WinProcessListHelper.exe
+02/17/2025  08:06 AM           216,480 WinShellIntegrationBridge.dll
+02/17/2025  08:06 AM           104,088 wslhash
+02/17/2025  08:06 AM            38,504 wslproxy
+              30 File(s)      7,539,386 bytes
+               2 Dir(s)  373,320,650,752 bytes free
+
+C:\LocalApps\ideaIU-2024.3.3.win\bin>
+
+C:\LocalApps\ideaIU-2024.3.3.win\bin\idea.bat
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.2894]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>C:\LocalApps\sts-4.28.1.RELEASE\SpringToolSuite4.exe
+
+C:\Users\DavidHolberton>C:\LocalApps\ideaIU-2024.3.3.win\bin\idea.bat
+[0.047s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "com.intellij.util.lang.PathClassLoader"). To use archived non-system classes, this property must not be set
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by com.intellij.platform.core.nio.fs.CoreBootstrapSecurityManager
+WARNING: Please consider reporting this to the maintainers of com.intellij.platform.core.nio.fs.CoreBootstrapSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+2025-02-17 11:04:21,139 [   4619]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key kotlin.mpp.tests.force.gradle: it was defined by plugin org.jetbrains.kotlin but redefined by plugin org.jetbrains.kotlin. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-02-17 11:04:48,816 [  32296]   WARN - #c.i.p.i.b.IdeStartupWizard - Timeout on waiting for initial start, proceeding the startup flow without waiting.
+2025-02-17 11:04:52,404 [  35884]   WARN - #c.i.d.PerformanceWatcherImpl - UI was frozen for 5590ms, details saved to C:\Users\DavidHolberton\AppData\Local\JetBrains\IntelliJIdea2024.3\log\threadDumps-freeze-20250217-110451-IU-243.24978.46-Unsafe.park-5sec
+2025-02-17 11:04:54,557 [  38037]   WARN - #c.i.o.a.Application - issue detected: ide.script.launcher.used
+
+Microsoft Windows [Version 10.0.26100.2894]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>C:\LocalApps\sts-4.28.1.RELEASE\SpringToolSuite4.exe
+
+C:\Users\DavidHolberton>C:\LocalApps\ideaIU-2024.3.3.win\bin\idea.bat
+[0.047s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "com.intellij.util.lang.PathClassLoader"). To use archived non-system classes, this property must not be set
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by com.intellij.platform.core.nio.fs.CoreBootstrapSecurityManager
+WARNING: Please consider reporting this to the maintainers of com.intellij.platform.core.nio.fs.CoreBootstrapSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+2025-02-17 11:04:21,139 [   4619]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key kotlin.mpp.tests.force.gradle: it was defined by plugin org.jetbrains.kotlin but redefined by plugin org.jetbrains.kotlin. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-02-17 11:04:48,816 [  32296]   WARN - #c.i.p.i.b.IdeStartupWizard - Timeout on waiting for initial start, proceeding the startup flow without waiting.
+2025-02-17 11:04:52,404 [  35884]   WARN - #c.i.d.PerformanceWatcherImpl - UI was frozen for 5590ms, details saved to C:\Users\DavidHolberton\AppData\Local\JetBrains\IntelliJIdea2024.3\log\threadDumps-freeze-20250217-110451-IU-243.24978.46-Unsafe.park-5sec
+2025-02-17 11:04:54,557 [  38037]   WARN - #c.i.o.a.Application - issue detected: ide.script.launcher.used
+2025-02-17 11:06:48,585 [ 152065]   WARN - #c.i.o.u.WindowStateService - cannot find a project frame for ProjectDefault (Template) Project
+2025-02-17 11:06:48,585 [ 152065]   WARN - #c.i.o.u.WindowStateService - cannot find a project frame for ProjectDefault (Template) Project
+2025-02-17 11:07:24,304 [ 187784]   WARN - #c.i.o.u.WindowStateService - cannot find a project frame for ProjectDefault (Template) Project
+2025-02-17 11:07:24,304 [ 187784]   WARN - #c.i.o.u.WindowStateService - cannot find a project frame for ProjectDefault (Template) Project
+2025-02-17 11:07:24,584 [ 188064]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=org.jetbrains.kotlin.idea.search.refIndex.KotlinCompilerReferenceIndexService, plugin=org.jetbrains.kotlin)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.idea.maven.project.MavenProjectsManagerEx, plugin=org.jetbrains.idea.maven)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.idea.maven.navigator.MavenProjectsNavigator, plugin=org.jetbrains.idea.maven)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.idea.maven.tasks.MavenShortcutsManager, plugin=org.jetbrains.idea.maven)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=com.jetbrains.rdserver.toolWindow.BackendServerToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendUserManager, plugin=com.jetbrains.codeWithMe)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.ports.CwmPortForwardingToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2025-02-17 11:07:24,586 [ 188066]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeManagerService, plugin=com.jetbrains.codeWithMe)
+2025-02-17 11:07:25,814 [ 189294]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2025-02-17 11:07:25,814 [ 189294]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.instance' has been deprecated in favor of 'resource.loader.includes.instance'
+2025-02-17 11:09:05,437 [ 288917]   WARN - #c.i.p.i.s.IjentSessionMediator - IjentId(ijent-0-wsl-Ubuntu) log: ijent_service::processes::definition: Failed to report about cleaned cache
+
+C:\Users\DavidHolberton>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.2894]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>curl http://localhost:8080
+{"timestamp":"2025-02-17T22:14:21.644+00:00","status":404,"error":"Not Found","path":"/"}
+
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/demojaxbmarshaller
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book id="1">
+    <name>Book1</name>
+    <author>Author1</author>
+</book>
+
+C:\Users\DavidHolberton>curl http://localhost:8080/demojaxbunmarshaller
+ashburncode.sbapp2717g.Book@1d7735c0
+C:\Users\DavidHolberton>
+C:\Users\DavidHolberton>curl http://localhost:8080/demojaxbunmarshaller
+Book [id=1, name=Book1, author=Author1]
+C:\Users\DavidHolberton>
+
+
+C:\Users\DavidHolberton>curl http://localhost:8080
+{"timestamp":"2025-02-17T22:14:21.644+00:00","status":404,"error":"Not Found","path":"/"}
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprops
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.4324612288508250954
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.767782007570853058
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\orwtemp2\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+C:\Users\DavidHolberton>
+
+C:\Users\DavidHolberton>curl http://localhost:8080/sysprop
+{"timestamp":"2025-02-17T22:14:39.494+00:00","status":404,"error":"Not Found","path":"/sysprop"}
+C:\Users\DavidHolberton>
+
+C:\Users\DavidHolberton>
+
+
+curl http://localhost:8080/sysprop/java.version
+
+curl http://localhost:8080/sysprop?name=java.version
+
+The Swagger UI page will then be available at http://server:port/context-path/swagger-ui.html and the OpenAPI description will be available at the following url for json format: http://server:port/context-path/v3/api-docs
+
+
+
+http://localhost:8080/sysprop?name=java.version
+
+http://localhost:8080/swagger-ui.html
+http://localhost:8080/v3/api-docs
+
+
+http://localhost:8080/sysprop?name=java.version
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+curl -X 'GET' \
+  'http://localhost:8080/syspropfromprompnameinheader' \
+  -H 'accept: */*' \
+  -H 'syspropnanme: java.version'
+
+http://localhost:8080/syspropfromprompnameinheader
+
+200	
+Response body
+syspropnanme: java.version, syspropvalue: 17.0.13
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+curl -X 'GET' \
+  'http://localhost:8080/sysprop?syspropnanme=java.version' \
+  -H 'accept: */*'
+
+http://localhost:8080/sysprop?syspropnanme=java.version
+
+syspropnanme: java.version, syspropvalue: 17.0.13
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 

@@ -1,0 +1,542 @@
+6:41 AM 2/18/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250218.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.97.2
+e54c774e0add60467559eb0d1e229c6452cf8447
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Ftasks%2Fcdt_t_comment_out.htm
+
+spring boot controller end point parameters
+
+https://www.google.com/search?client=firefox-b-1-d&q=spring+boot+controller+end+point+parameters
+
+spring boot controller end point parameters
+
+Spring Boot controller endpoint parameters can be extracted from the request in several ways:
+
+    @PathVariable: Extracts values from the URI path. 
+
+Java
+
+    @GetMapping("/users/{id}")
+    public User getUser(@PathVariable Long id) { ... }
+
+    @RequestParam: Extracts values from query parameters. 
+
+Java
+
+     @GetMapping("/search")
+    public List<User> searchUsers(@RequestParam String query, @RequestParam(defaultValue = "0") int page) { ... }
+
+    @RequestBody: Extracts the entire request body, typically used for POST and PUT requests with JSON or XML payloads. 
+
+Java
+
+    @PostMapping("/users")
+    public User createUser(@RequestBody User user) { ... }
+
+    @RequestHeader: Extracts values from the request headers. 
+
+Java
+
+    @GetMapping("/data")
+    public String getData(@RequestHeader("X-Request-ID") String requestId) { ... }
+
+    @CookieValue: Extracts values from cookies. 
+
+Java
+
+    @GetMapping("/preferences")
+    public String getPreferences(@CookieValue("theme") String theme) { ... }
+
+    ModelAttribute: Binds request parameters or path variables to an object. 
+
+Java
+
+    @GetMapping("/products/{id}")
+    public String showProduct(@ModelAttribute("product") Product product, @PathVariable Long id) {
+        // product will be automatically populated based on request data or database lookup
+        return "product-details";
+    }
+
+These annotations provide flexibility in handling different types of request data and allow for building robust and well-defined RESTful APIs with Spring Boot.
+
+Generative AI is experimental.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+http://localhost:8080/swagger-ui.html
+http://localhost:8080/v3/api-docs
+
+curl -X 'GET' \
+  'http://localhost:8080/sysprops' \
+  -H 'accept: */*'
+
+curl -X 'GET' \
+  'http://localhost:8080/sysprop/syspropNameViaRequestParameter?syspropname=java.version' \
+  -H 'accept: */*'
+
+curl -X 'GET' \
+  'http://localhost:8080/sysprop/syspropNameViaRequestHeader' \
+  -H 'accept: */*' \
+  -H 'syspropname: java.version'
+
+curl -X 'GET' \
+  'http://localhost:8080/sysprop/syspropNameViaPathVariable/java.version' \
+  -H 'accept: */*'
+
+curl -X 'GET' \
+  'http://localhost:8080/sysprops' \
+  -H 'accept: */*'
+
+Greetings from Hello Nebula
+ catalina.base = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8082.3610159193838700296
+ catalina.home = C:\Users\DavidHolberton\AppData\Local\Temp\tomcat.8080.16665318161327909532
+ java.class.version = 61.0
+ java.home = C:\LocalApps\jdk-17.0.13+11
+ java.runtime.name = OpenJDK Runtime Environment
+ java.runtime.version = 17.0.13+11
+ java.specification.vendor = Oracle Corporation
+ java.specification.version = 17
+ java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+ java.vendor.url = https://adoptium.net/
+ java.vendor.version = Temurin-17.0.13+11
+ java.vendor = Eclipse Adoptium
+ java.version.date = 2024-10-15
+ java.version = 17.0.13
+ java.vm.name = OpenJDK 64-Bit Server VM
+ java.vm.specification.vendor = Oracle Corporation
+ java.vm.specification.version = 17
+ java.vm.vendor = Eclipse Adoptium
+ java.vm.version = 17.0.13+11
+ os.name = Windows 11
+ os.version = 10.0
+ user.dir = C:\orwtemp2\orw2717
+ user.home = C:\Users\DavidHolberton
+ user.name = DavidHolberton
+ user.timezone = America/New_York
+
+curl -X 'GET' \
+  'http://localhost:8080/demojaxbunmarshaller' \
+  -H 'accept: */*'
+
+curl -X 'GET' \
+  'http://localhost:8080/demojaxbmarshaller' \
+  -H 'accept: */*'
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\orwtemp2\orw2717>javac -version
+javac 17.0.13
+
+C:\orwtemp2\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          17.0.13 (Eclipse Adoptium 17.0.13+11)
+OS:           Windows 11 10.0 amd64
+
+C:\orwtemp2\orw2717>
+
+C:\orwtemp2\orw2717>.\gradlew clean bootRun
+Starting a Gradle Daemon, 1 busy and 7 incompatible Daemons could not be reused, use --status for details
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.13)
+
+2025-02-18T07:05:24.110-05:00  INFO 14748 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 with PID 14748 (C:\orwtemp2\orw2717\build\classes\java\main started by DavidHolberton in C:\orwtemp2\orw2717)
+2025-02-18T07:05:24.110-05:00  INFO 14748 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-18T07:05:24.999-05:00  INFO 14748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-18T07:05:25.013-05:00  INFO 14748 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18T07:05:25.013-05:00  INFO 14748 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-18T07:05:25.078-05:00  INFO 14748 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-18T07:05:25.078-05:00  INFO 14748 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 925 ms
+2025-02-18T07:05:25.571-05:00  INFO 14748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-18T07:05:25.616-05:00  INFO 14748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-18T07:05:25.616-05:00  INFO 14748 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18T07:05:25.616-05:00  INFO 14748 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-18T07:05:25.629-05:00  INFO 14748 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-18T07:05:25.629-05:00  INFO 14748 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 54 ms
+2025-02-18T07:05:25.641-05:00  INFO 14748 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-18T07:05:25.663-05:00  INFO 14748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-18T07:05:25.672-05:00  INFO 14748 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.836 seconds (process running for 2.109)
+<===========--> 85% EXECUTING [25s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+
+1. Add the following to your build.gradle file:
+
+build.gradle
+
+plugins {
+    id("org.openrewrite.rewrite") version("7.1.3")
+}
+
+rewrite {
+    activeRecipe("org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0")
+    setExportDatatables(true)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rewrite("org.openrewrite.recipe:rewrite-spring:6.1.0")
+}
+
+2. Run gradle rewriteRun to run the recipe.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd \orwtemp2\orw2717
+
+C:\orwtemp2\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\orwtemp2\orw2717>.\gradlew --version
+
+------------------------------------------------------------
+Gradle 8.4
+------------------------------------------------------------
+
+Build time:   2023-10-04 20:52:13 UTC
+Revision:     e9251e572c9bd1d01e503a0dfdf43aedaeecdc3f
+
+Kotlin:       1.9.10
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          1.8.0_422 (Temurin 25.422-b05)
+OS:           Windows 11 10.0 amd64
+
+C:\orwtemp2\orw2717>
+C:\orwtemp2\orw2717>
+C:\orwtemp2\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2025-02-18 08:21:05.204  INFO 17760 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 1.8.0_422 on dphxps17 with PID 17760 (C:\orwtemp2\orw2717\build\classes\java\main started by DavidHolberton in C:\orwtemp2\orw2717)
+2025-02-18 08:21:05.204  INFO 17760 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-18 08:21:06.296  INFO 17760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-18 08:21:06.305  INFO 17760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18 08:21:06.305  INFO 17760 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-18 08:21:06.371  INFO 17760 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-18 08:21:06.371  INFO 17760 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2025-02-18 08:21:06.852  INFO 17760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-18 08:21:06.890  INFO 17760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-18 08:21:06.890  INFO 17760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18 08:21:06.890  INFO 17760 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2025-02-18 08:21:06.899  INFO 17760 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-18 08:21:06.899  INFO 17760 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 47 ms
+2025-02-18 08:21:06.905  INFO 17760 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-18 08:21:06.930  INFO 17760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-18 08:21:07.120  INFO 17760 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 2.19 seconds (JVM running for 2.482)
+<===========--> 85% EXECUTING [17s]
+> :bootRun
+
+https://springfox.github.io/springfox/docs/current/
+
+swagger-ui location has moved from http://host/context-path/swagger-ui.html to http://host/context-path/swagger-ui/index.html OR http://host/context-path/swagger-ui/ for short. This makes it work much better with pulling it as a web jar and turning it off using configuration properties if not needed. 
+
+http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui/
+
+http://localhost:8080/api-docs
+http://localhost:8080/v2/api-docs
+
+C:\orwtemp2\orw2717>java -version
+openjdk version "1.8.0_422"
+OpenJDK Runtime Environment (Temurin)(build 1.8.0_422-b05)
+OpenJDK 64-Bit Server VM (Temurin)(build 25.422-b05, mixed mode)
+
+C:\orwtemp2\orw2717>.\gradlew rewriteRun
+init.gradle
+
+> Task :rewriteRun
+Validating active recipes
+Scanning sources in project :
+Using active styles []
+All sources parsed, running active recipes: org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0
+Changes have been made to src\main\java\ashburncode\sbapp2717g\Book.java by:
+    org.openrewrite.java.migrate.UpgradeToJava17
+        org.openrewrite.java.migrate.Java8toJava11
+            org.openrewrite.java.migrate.UpgradeBuildToJava11
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+        org.openrewrite.java.migrate.UpgradeBuildToJava17
+            org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+        org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+            org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+                org.openrewrite.java.ChangePackage: {oldPackageName=javax.xml.bind, newPackageName=jakarta.xml.bind, recursive=true}
+Changes have been made to src\main\java\ashburncode\sbapp2717g\DemojaxbController.java by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.SwaggerToSpringDoc
+                    org.openrewrite.openapi.swagger.SwaggerToOpenAPI
+                        org.openrewrite.openapi.swagger.MigrateApiOperationToOperation
+                            org.openrewrite.java.ChangeType: {oldFullyQualifiedTypeName=io.swagger.annotations.ApiOperation, newFullyQualifiedTypeName=io.swagger.v3.oas.annotations.Operation}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=notes, newAttributeName=description}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=value, newAttributeName=summary}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+            org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+                org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+                    org.openrewrite.java.ChangePackage: {oldPackageName=javax.xml.bind, newPackageName=jakarta.xml.bind, recursive=true}
+Changes have been made to src\main\java\ashburncode\sbapp2717g\SyspropsController.java by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_5
+                org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_4
+                    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_3
+                        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_2
+                            org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_1
+                                org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_0
+                                    org.openrewrite.java.spring.boot2.SpringBoot2BestPractices
+                                        org.openrewrite.java.spring.ImplicitWebAnnotationNames
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.SwaggerToSpringDoc
+                    org.openrewrite.openapi.swagger.SwaggerToOpenAPI
+                        org.openrewrite.openapi.swagger.MigrateApiOperationToOperation
+                            org.openrewrite.java.ChangeType: {oldFullyQualifiedTypeName=io.swagger.annotations.ApiOperation, newFullyQualifiedTypeName=io.swagger.v3.oas.annotations.Operation}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=notes, newAttributeName=description}
+                            org.openrewrite.java.ChangeAnnotationAttributeName: {annotationType=io.swagger.v3.oas.annotations.Operation, oldAttributeName=value, newAttributeName=summary}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+Changes have been made to build.gradle by:
+    org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_7
+        org.openrewrite.java.spring.boot2.UpgradeSpringBoot_2_6
+            org.openrewrite.java.springdoc.SpringFoxToSpringDoc
+                org.openrewrite.java.springdoc.ReplaceSpringFoxDependencies
+                    org.openrewrite.java.dependencies.RemoveDependency: {groupId=io.springfox, artifactId=*}
+                    org.openrewrite.java.dependencies.AddDependency: {groupId=org.springdoc, artifactId=springdoc-openapi-ui, version=1.5.x}
+        org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=2.7.x}
+        org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=org.springdoc, artifactId=*, newVersion=1.8.x}
+        org.openrewrite.java.migrate.UpgradeToJava17
+            org.openrewrite.java.migrate.Java8toJava11
+                org.openrewrite.java.migrate.javax.AddJaxbDependencies
+                    org.openrewrite.java.dependencies.AddDependency: {groupId=jakarta.xml.bind, artifactId=jakarta.xml.bind-api, version=2.3.x, onlyIfUsing=javax.xml.bind..*, acceptTransitive=true}
+                    org.openrewrite.java.migrate.javax.AddJaxbRuntime: {runtime=glassfish}
+                org.openrewrite.java.migrate.UpgradeBuildToJava11
+                    org.openrewrite.java.migrate.UpgradeJavaVersion: {version=11}
+                        org.openrewrite.gradle.UpdateJavaCompatibility: {version=11, allowDowngrade=false}
+            org.openrewrite.java.migrate.UpgradeBuildToJava17
+                org.openrewrite.java.migrate.UpgradeJavaVersion: {version=17}
+                    org.openrewrite.gradle.UpdateJavaCompatibility: {version=17, allowDowngrade=false}
+            org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=org.springframework.boot, newVersion=3.0.x}
+                org.openrewrite.gradle.plugins.UpgradePluginVersion: {pluginIdPattern=io.spring.dependency-management, newVersion=1.1.x}
+                    org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
+                        org.openrewrite.java.migrate.jakarta.JavaxXmlBindMigrationToJakartaXmlBind
+                            org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=jakarta.xml.bind, artifactId=jakarta.xml.bind-api, newVersion=latest.release}
+                            org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=org.glassfish.jaxb, artifactId=jaxb-runtime, newVersion=latest.release}
+                        org.openrewrite.java.springdoc.UpgradeSpringDoc_2
+                            org.openrewrite.java.dependencies.ChangeDependency: {oldGroupId=org.springdoc, oldArtifactId=springdoc-openapi-ui, newArtifactId=springdoc-openapi-starter-webmvc-ui, newVersion=2.1.x}
+Please review and commit the results.
+Estimate time saved: 15m
+
+BUILD SUCCESSFUL in 34s
+5 actionable tasks: 3 executed, 2 up-to-date
+C:\orwtemp2\orw2717>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>
+C:\orwtemp2\orw2717>java -version
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+
+C:\orwtemp2\orw2717>
+C:\orwtemp2\orw2717>.\gradlew clean bootRun
+init.gradle
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.13)
+
+2025-02-18T08:50:54.275-05:00  INFO 11672 --- [           main] a.s.Sbapp2717grajarj17Application        : Starting Sbapp2717grajarj17Application using Java 17.0.13 with PID 11672 (C:\orwtemp2\orw2717\build\classes\java\main started by DavidHolberton in C:\orwtemp2\orw2717)
+2025-02-18T08:50:54.275-05:00  INFO 11672 --- [           main] a.s.Sbapp2717grajarj17Application        : No active profile set, falling back to 1 default profile: "default"
+2025-02-18T08:50:55.065-05:00  INFO 11672 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-18T08:50:55.069-05:00  INFO 11672 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18T08:50:55.069-05:00  INFO 11672 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-18T08:50:55.135-05:00  INFO 11672 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-18T08:50:55.135-05:00  INFO 11672 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2025-02-18T08:50:55.578-05:00  INFO 11672 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-18T08:50:55.610-05:00  INFO 11672 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2025-02-18T08:50:55.610-05:00  INFO 11672 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-18T08:50:55.610-05:00  INFO 11672 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-02-18T08:50:55.626-05:00  INFO 11672 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-02-18T08:50:55.626-05:00  INFO 11672 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 48 ms
+2025-02-18T08:50:55.642-05:00  INFO 11672 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-02-18T08:50:55.661-05:00  INFO 11672 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2025-02-18T08:50:55.667-05:00  INFO 11672 --- [           main] a.s.Sbapp2717grajarj17Application        : Started Sbapp2717grajarj17Application in 1.645 seconds (process running for 1.892)
+<===========--> 85% EXECUTING [18s]
+> :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   build.gradle
+        modified:   src/main/java/ashburncode/sbapp2717g/Book.java
+        modified:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java
+        modified:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        build.gradle-save7
+        build.gradle-save8
+        build.gradle-save9
+        src/main/java/ashburncode/sbapp2717g/Book.java-save7
+        src/main/java/ashburncode/sbapp2717g/Book.java-save8
+        src/main/java/ashburncode/sbapp2717g/Book.java-save9
+        src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save7
+        src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save8
+        src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save9
+        src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save7
+        src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save8
+        src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save9
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\orwtemp2\orw2717>git add .
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save7', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save8', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle-save9', LF will be replaced by CRLF the next time Git touches it
+
+C:\orwtemp2\orw2717>
+
+C:\orwtemp2\orw2717>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   build.gradle
+        new file:   build.gradle-save7
+        new file:   build.gradle-save8
+        new file:   build.gradle-save9
+        modified:   src/main/java/ashburncode/sbapp2717g/Book.java
+        new file:   src/main/java/ashburncode/sbapp2717g/Book.java-save7
+        new file:   src/main/java/ashburncode/sbapp2717g/Book.java-save8
+        new file:   src/main/java/ashburncode/sbapp2717g/Book.java-save9
+        modified:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java
+        new file:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save7
+        new file:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save8
+        new file:   src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save9
+        modified:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java
+        new file:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save7
+        new file:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save8
+        new file:   src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save9
+
+C:\orwtemp2\orw2717>git commit -a -m "use rewriteRun migrate sb2 to sb3 (springdoc and jaxb)
+[main 8f250de] use rewriteRun migrate sb2 to sb3 (springdoc and jaxb)
+ 16 files changed, 1213 insertions(+), 183 deletions(-)
+ create mode 100644 build.gradle-save7
+ create mode 100644 build.gradle-save8
+ create mode 100644 build.gradle-save9
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/Book.java-save7
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/Book.java-save8
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/Book.java-save9
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save7
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save8
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/DemojaxbController.java-save9
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save7
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save8
+ create mode 100644 src/main/java/ashburncode/sbapp2717g/SyspropsController.java-save9
+
+C:\orwtemp2\orw2717>git push
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 4.57 KiB | 2.29 MiB/s, done.
+Total 18 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), completed with 3 local objects.
+To github.com:ashburndev/orw2717.git
+   2cfe654..8f250de  main -> main
+
+C:\orwtemp2\orw2717>
+C:\orwtemp2\orw2717>
+
