@@ -1,0 +1,219 @@
+6:36 AM 2/21/2025
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DavidHolberton>cd Documents\dir-stuff
+
+C:\Users\DavidHolberton\Documents\dir-stuff>notepad stuff-20250221.txt
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code --version
+1.97.2
+e54c774e0add60467559eb0d1e229c6452cf8447
+x64
+
+C:\Users\DavidHolberton\Documents\dir-stuff>code .
+
+C:\Users\DavidHolberton\Documents\dir-stuff>
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+repositories {
+  // println("hellow world")
+  // println(project.findProperty('foo'))
+  // println("project.findProperty('foo') = ${project.findProperty('foo')}")
+  ['repos2.cred.username', 'REPOS2.CRED.USERNAME', 'repos2_cred_username', 'REPOS2_CRED_USERNAME'].each {
+    println("project.findProperty('$it') = ${project.findProperty(it)}")
+    println("System.getProperty('$it') = ${System.getProperty(it)}")  // Java system property
+    println("System.getenv('$it') = ${System.getenv(it)}")  // Java environmnet variable
+    println()
+  }
+	mavenCentral()
+}
+
+.\gradlew  clean bootRun
+.\gradlew -Prepos2.cred.username=foo clean bootRun
+.\gradlew -Drepos2.cred.username=foo clean bootRun
+
+set REPOS2_CRED_USERNAME=foo
+echo %REPOS2_CRED_USERNAME%
+echo %repos2_cred_username%
+.\gradlew  clean bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>.\gradlew  clean bootRun
+init.gradle
+
+> Configure project :
+project.findProperty('repos2.cred.username') = null
+System.getProperty('repos2.cred.username') = null
+System.getenv('repos2.cred.username') = null
+
+project.findProperty('REPOS2.CRED.USERNAME') = null
+System.getProperty('REPOS2.CRED.USERNAME') = null
+System.getenv('REPOS2.CRED.USERNAME') = null
+
+project.findProperty('repos2_cred_username') = null
+System.getProperty('repos2_cred_username') = null
+System.getenv('repos2_cred_username') = null
+
+project.findProperty('REPOS2_CRED_USERNAME') = null
+System.getProperty('REPOS2_CRED_USERNAME') = null
+System.getenv('REPOS2_CRED_USERNAME') = null
+
+> Task :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>.\gradlew -Prepos2.cred.username=foo clean bootRun
+init.gradle
+
+> Configure project :
+project.findProperty('repos2.cred.username') = foo
+System.getProperty('repos2.cred.username') = null
+System.getenv('repos2.cred.username') = null
+
+project.findProperty('REPOS2.CRED.USERNAME') = null
+System.getProperty('REPOS2.CRED.USERNAME') = null
+System.getenv('REPOS2.CRED.USERNAME') = null
+
+project.findProperty('repos2_cred_username') = null
+System.getProperty('repos2_cred_username') = null
+System.getenv('repos2_cred_username') = null
+
+project.findProperty('REPOS2_CRED_USERNAME') = null
+System.getProperty('REPOS2_CRED_USERNAME') = null
+System.getenv('REPOS2_CRED_USERNAME') = null
+
+> Task :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>.\gradlew -Drepos2.cred.username=foo clean bootRun
+init.gradle
+
+> Configure project :
+project.findProperty('repos2.cred.username') = null
+System.getProperty('repos2.cred.username') = foo
+System.getenv('repos2.cred.username') = null
+
+project.findProperty('REPOS2.CRED.USERNAME') = null
+System.getProperty('REPOS2.CRED.USERNAME') = null
+System.getenv('REPOS2.CRED.USERNAME') = null
+
+project.findProperty('repos2_cred_username') = null
+System.getProperty('repos2_cred_username') = null
+System.getenv('repos2_cred_username') = null
+
+project.findProperty('REPOS2_CRED_USERNAME') = null
+System.getProperty('REPOS2_CRED_USERNAME') = null
+System.getenv('REPOS2_CRED_USERNAME') = null
+
+> Task :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+C:\orwtemp2\orw2717>set REPOS2_CRED_USERNAME=foo
+
+C:\orwtemp2\orw2717>echo %REPOS2_CRED_USERNAME%
+foo
+
+C:\orwtemp2\orw2717>echo %repos2_cred_username%
+foo
+
+C:\orwtemp2\orw2717>.\gradlew  clean bootRun
+init.gradle
+
+> Configure project :
+project.findProperty('repos2.cred.username') = null
+System.getProperty('repos2.cred.username') = null
+System.getenv('repos2.cred.username') = null
+
+project.findProperty('REPOS2.CRED.USERNAME') = null
+System.getProperty('REPOS2.CRED.USERNAME') = null
+System.getenv('REPOS2.CRED.USERNAME') = null
+
+project.findProperty('repos2_cred_username') = null
+System.getProperty('repos2_cred_username') = null
+System.getenv('repos2_cred_username') = foo
+
+project.findProperty('REPOS2_CRED_USERNAME') = null
+System.getProperty('REPOS2_CRED_USERNAME') = null
+System.getenv('REPOS2_CRED_USERNAME') = foo
+
+> Task :bootRun
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+  // implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  // implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  // runtimeOnly 'com.mysql:mysql-connector-j'
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+  implementation 'io.springfox:springfox-boot-starter:3.0.0'
+  rewrite("org.openrewrite.recipe:rewrite-spring:6.1.0")
+}
+
+dependencies {
+  implementation "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
+  implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0"
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+  // implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  // implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  // runtimeOnly 'com.mysql:mysql-connector-j'
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+  rewrite("org.openrewrite.recipe:rewrite-spring:6.1.0")
+  runtimeOnly "org.glassfish.jaxb:jaxb-runtime:4.0.5"
+}
+
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiOperation("sysprops returns a selected subset of the Java system properties") 
+@ApiParam(hidden=true)
+@ApiModelProperty(position = -1)
+
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.Schema;
+
+@Operation(summary = "sysprops returns a selected subset of the Java system properties") 
+@Parameter(hidden = true)
+@Schema
+
+https://docs.swagger.io/swagger-core/v1.5.0/apidocs/io/swagger/annotations/ApiOperation.html
+
+https://docs.openrewrite.org/recipes/openapi/swagger/migrateapimodelpropertytoschema
+
+https://dinakaranramadurai.medium.com/migration-from-swagger-to-open-api-with-spring-boot-3-4a172db66e32
+
+https://www.bezkoder.com/swagger-3-annotations/
+
+https://springdoc.org/migrating-from-springfox.html
+
+    Replace swagger 2 annotations with swagger 3 annotations (it is already included with springdoc-openapi-starter-webmvc-ui dependency). Package for swagger 3 annotations is io.swagger.v3.oas.annotations.
+        @Api → @Tag
+        @ApiIgnore → @Parameter(hidden = true) or @Operation(hidden = true) or @Hidden
+        @ApiImplicitParam → @Parameter
+        @ApiImplicitParams → @Parameters
+        @ApiModel → @Schema
+        @ApiModelProperty(allowEmptyValue = true) → @Schema(nullable = true)
+        @ApiModelProperty → @Schema
+        @ApiOperation(value = "foo", notes = "bar") → @Operation(summary = "foo", description = "bar")
+        @ApiParam → @Parameter
+        @ApiResponse(code = 404, message = "foo") → @ApiResponse(responseCode = "404", description = "foo")
+
